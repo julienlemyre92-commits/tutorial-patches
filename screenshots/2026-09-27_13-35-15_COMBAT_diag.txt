@@ -1,0 +1,4 @@
+13:34:49  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+13:34:49  Build 75 - bank is UP the ladder (Julien confirmed; Build 74 had it backwards): 'went up' verified by movement after Climb-up; booth clicked with 'Use'; keeps sync invoke clickDoorDirect
+13:35:15  Detected start stage: COMBAT
+13:35:16  Screenshot saved: 2026-09-27_13-35-15_COMBAT_auto.png
