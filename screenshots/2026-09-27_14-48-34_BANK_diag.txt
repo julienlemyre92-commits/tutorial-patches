@@ -1,0 +1,250 @@
+14:46:31  Scene scan: click('Open') returned true
+14:46:32  Screenshot saved: 2026-09-27_14-46-32_BANK_auto.png
+14:46:32  Build 82: cleaned up 1 old screenshots
+14:46:32  BANK TICK: up=true opened=true closed=true upStep=2
+14:46:33  Diag tail uploaded: 2026-09-27_14-46-32_BANK_diag.txt
+14:46:34  dialogueTick: clicking continue
+14:46:34  BANK TICK: up=true opened=true closed=true upStep=2
+14:46:35  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:46:35  Scene scan: click('Open') returned true
+14:46:35  BANK TICK: up=true opened=true closed=true upStep=2
+14:46:37  dialogueTick: clicking continue
+14:46:38  BANK TICK: up=true opened=true closed=true upStep=2
+14:46:38  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:46:38  Scene scan: click('Open') returned true
+14:46:38  BANK TICK: up=true opened=true closed=true upStep=2
+14:46:40  dialogueTick: clicking continue
+14:46:41  BANK TICK: up=true opened=true closed=true upStep=2
+14:46:41  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:46:41  Scene scan: click('Open') returned true
+14:46:41  BANK TICK: up=true opened=true closed=true upStep=2
+14:46:42  Scene scan: found WallObject ID 1535 at WorldPoint(x=3124, y=3126, plane=0) (dist 1)
+14:46:42  Scene scan: click('Open') returned true
+14:46:42  BANK TICK: up=true opened=true closed=true upStep=2
+14:46:43  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:46:43  Scene scan: click('Open') returned true
+14:46:43  BANK TICK: up=true opened=true closed=true upStep=2
+14:46:44  Scene scan: found WallObject ID 1535 at WorldPoint(x=3124, y=3126, plane=0) (dist 1)
+14:46:44  Scene scan: click('Open') returned true
+14:46:44  BANK TICK: up=true opened=true closed=true upStep=2
+14:46:44  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:46:44  Scene scan: click('Open') returned true
+14:46:45  BANK TICK: up=true opened=true closed=true upStep=2
+14:46:45  Scene scan: found WallObject ID 1535 at WorldPoint(x=3124, y=3126, plane=0) (dist 1)
+14:46:45  Scene scan: click('Open') returned true
+14:46:46  BANK TICK: up=true opened=true closed=true upStep=2
+14:46:46  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:46:46  Scene scan: click('Open') returned true
+14:46:47  BANK TICK: up=true opened=true closed=true upStep=2
+14:46:48  dialogueTick: clicking continue
+14:46:49  BANK TICK: up=true opened=true closed=true upStep=2
+14:46:49  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:46:49  Scene scan: click('Open') returned true
+14:46:50  BANK TICK: up=true opened=true closed=true upStep=2
+14:46:51  dialogueTick: clicking continue
+14:46:52  BANK TICK: up=true opened=true closed=true upStep=2
+14:46:52  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:46:52  Scene scan: click('Open') returned true
+14:46:53  BANK TICK: up=true opened=true closed=true upStep=2
+14:46:54  dialogueTick: clicking continue
+14:46:55  BANK TICK: up=true opened=true closed=true upStep=2
+14:46:55  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:46:55  Scene scan: click('Open') returned true
+14:46:56  BANK TICK: up=true opened=true closed=true upStep=2
+14:46:57  dialogueTick: clicking continue
+14:46:58  BANK TICK: up=true opened=true closed=true upStep=2
+14:46:59  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:46:59  Scene scan: click('Open') returned true
+14:46:59  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:01  dialogueTick: clicking continue
+14:47:01  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:02  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:02  Scene scan: click('Open') returned true
+14:47:02  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:04  dialogueTick: clicking continue
+14:47:04  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:05  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:05  Scene scan: click('Open') returned true
+14:47:05  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:07  dialogueTick: clicking continue
+14:47:08  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:08  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:08  Scene scan: click('Open') returned true
+14:47:08  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:09  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:09  Scene scan: click('Open') returned true
+14:47:09  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:11  dialogueTick: clicking continue
+14:47:12  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:12  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:12  Scene scan: click('Open') returned true
+14:47:12  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:14  dialogueTick: clicking continue
+14:47:15  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:15  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:15  Scene scan: click('Open') returned true
+14:47:15  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:17  dialogueTick: clicking continue
+14:47:18  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:18  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:18  Scene scan: click('Open') returned true
+14:47:19  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:19  Scene scan: found WallObject ID 1535 at WorldPoint(x=3124, y=3126, plane=0) (dist 1)
+14:47:19  Scene scan: click('Open') returned true
+14:47:19  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:20  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:20  Scene scan: click('Open') returned true
+14:47:20  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:21  Scene scan: found WallObject ID 1535 at WorldPoint(x=3124, y=3126, plane=0) (dist 1)
+14:47:21  Scene scan: click('Open') returned true
+14:47:21  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:22  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:22  Scene scan: click('Open') returned true
+14:47:22  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:22  Scene scan: found WallObject ID 1535 at WorldPoint(x=3124, y=3126, plane=0) (dist 1)
+14:47:22  Scene scan: click('Open') returned true
+14:47:23  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:23  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:23  Scene scan: click('Open') returned true
+14:47:24  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:25  dialogueTick: clicking continue
+14:47:26  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:26  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:26  Scene scan: click('Open') returned true
+14:47:27  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:27  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:27  Scene scan: click('Open') returned true
+14:47:28  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:29  dialogueTick: clicking continue
+14:47:30  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:30  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:30  Scene scan: click('Open') returned true
+14:47:31  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:32  dialogueTick: clicking continue
+14:47:33  Screenshot saved: 2026-09-27_14-47-33_BANK_auto.png
+14:47:33  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:34  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:34  Scene scan: click('Open') returned true
+14:47:34  Diag tail uploaded: 2026-09-27_14-47-33_BANK_diag.txt
+14:47:34  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:36  dialogueTick: clicking continue
+14:47:37  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:37  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:37  Scene scan: click('Open') returned true
+14:47:37  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:39  dialogueTick: clicking continue
+14:47:40  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:40  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:40  Scene scan: click('Open') returned true
+14:47:41  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:42  dialogueTick: clicking continue
+14:47:43  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:43  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:43  Scene scan: click('Open') returned true
+14:47:44  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:45  dialogueTick: clicking continue
+14:47:46  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:46  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:46  Scene scan: click('Open') returned true
+14:47:47  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:48  dialogueTick: clicking continue
+14:47:49  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:49  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:49  Scene scan: click('Open') returned true
+14:47:50  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:51  dialogueTick: clicking continue
+14:47:52  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:52  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:52  Scene scan: click('Open') returned true
+14:47:53  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:53  Scene scan: found WallObject ID 1535 at WorldPoint(x=3124, y=3126, plane=0) (dist 1)
+14:47:53  Scene scan: click('Open') returned true
+14:47:54  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:54  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:54  Scene scan: click('Open') returned true
+14:47:55  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:55  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:55  Scene scan: click('Open') returned true
+14:47:56  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:56  Scene scan: found WallObject ID 1535 at WorldPoint(x=3124, y=3126, plane=0) (dist 1)
+14:47:56  Scene scan: click('Open') returned true
+14:47:56  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:57  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:57  Scene scan: click('Open') returned true
+14:47:57  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:58  Scene scan: found WallObject ID 1535 at WorldPoint(x=3124, y=3126, plane=0) (dist 1)
+14:47:58  Scene scan: click('Open') returned true
+14:47:58  BANK TICK: up=true opened=true closed=true upStep=2
+14:47:58  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:47:58  Scene scan: click('Open') returned true
+14:47:59  BANK TICK: up=true opened=true closed=true upStep=2
+14:48  dialogueTick: clicking continue
+14:48:01  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:02  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:48:02  Scene scan: click('Open') returned true
+14:48:02  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:04  dialogueTick: clicking continue
+14:48:04  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:05  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:48:05  Scene scan: click('Open') returned true
+14:48:05  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:07  dialogueTick: clicking continue
+14:48:07  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:08  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:48:08  Scene scan: click('Open') returned true
+14:48:08  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:10  dialogueTick: clicking continue
+14:48:11  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:11  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:48:11  Scene scan: click('Open') returned true
+14:48:11  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:12  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:48:12  Scene scan: click('Open') returned true
+14:48:12  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:14  dialogueTick: clicking continue
+14:48:15  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:15  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:48:15  Scene scan: click('Open') returned true
+14:48:15  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:17  dialogueTick: clicking continue
+14:48:18  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:18  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:48:18  Scene scan: click('Open') returned true
+14:48:18  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:20  dialogueTick: clicking continue
+14:48:21  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:21  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:48:21  Scene scan: click('Open') returned true
+14:48:22  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:23  dialogueTick: clicking continue
+14:48:24  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:24  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:48:24  Scene scan: click('Open') returned true
+14:48:25  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:25  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:48:25  Scene scan: click('Open') returned true
+14:48:26  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:27  dialogueTick: clicking continue
+14:48:28  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:28  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:48:28  Scene scan: click('Open') returned true
+14:48:29  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:29  Scene scan: found WallObject ID 1535 at WorldPoint(x=3124, y=3126, plane=0) (dist 1)
+14:48:29  Scene scan: click('Open') returned true
+14:48:30  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:30  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:48:30  Scene scan: click('Open') returned true
+14:48:30  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:31  Scene scan: found WallObject ID 1535 at WorldPoint(x=3124, y=3126, plane=0) (dist 1)
+14:48:31  Scene scan: click('Open') returned true
+14:48:31  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:32  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:48:32  Scene scan: click('Open') returned true
+14:48:32  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:32  Scene scan: found WallObject ID 1535 at WorldPoint(x=3124, y=3126, plane=0) (dist 1)
+14:48:32  Scene scan: click('Open') returned true
+14:48:33  BANK TICK: up=true opened=true closed=true upStep=2
+14:48:33  Scene scan: found WallObject ID 1536 at WorldPoint(x=3124, y=3125, plane=0) (dist 0)
+14:48:33  Scene scan: click('Open') returned true
+14:48:34  Screenshot saved: 2026-09-27_14-48-34_BANK_auto.png
+14:48:34  Build 82: cleaned up 1 old screenshots
