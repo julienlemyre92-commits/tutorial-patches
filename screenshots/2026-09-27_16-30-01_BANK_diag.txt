@@ -1,0 +1,8 @@
+16:29:42  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+16:29:42  Build 99 - SPEED: cache poll booth world pos (findObjectFast invoke() scene scan blocked 90s+); timing diagnostics on booth find/camera/click to pinpoint hangs. Julien still seeing hangs under 98, 2026-09-27. Keeps Build 98 (pollBoothStillWanted cache); Build 97 (dialog cache); Build 96 (door fix); Build 95; Build 94; Build 93; Build 92; Build 91; Build 90; Build 89; Build 88; Build 87; Build 86; Build 85; Build 84; Build 83; Build 82; Build 81/80.
+16:29:42  Build 78: Check-Update.ps1 already cache-busted, nothing to do
+16:29:42  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+16:30:01  Build 78: bank ladder scan: found id 16683 (name match) at distance 5
+16:30:01  Detected start stage: BANK
+16:30:01  Screenshot saved: 2026-09-27_16-30-01_BANK_auto.png
+16:30:01  Build 82: cleaned up 1 old screenshots
