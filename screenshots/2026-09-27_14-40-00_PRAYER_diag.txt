@@ -1,0 +1,250 @@
+14:33:52  Diag tail uploaded: 2026-09-27_14-33-51_COMBAT_diag.txt
+14:33:52  BANK TICK: up=false opened=false closed=false upStep=0
+14:33:54  dialogueTick: clicking continue
+14:33:54  Stage: COMBAT -> BANK
+14:33:55  BANK TICK: up=false opened=false closed=false upStep=0
+14:33:56  dialogueTick: clicking continue
+14:33:57  BANK TICK: up=false opened=false closed=false upStep=0
+14:33:58  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+14:33:58  Scene scan: click('Climb-up') returned true
+14:33:58  Build 80: climbing up... tick=1 clicked=true
+14:33:59  BANK TICK: up=false opened=false closed=false upStep=0
+14:33:59  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+14:33:59  Scene scan: click('Climb-up') returned true
+14:34  BANK TICK: up=false opened=false closed=false upStep=0
+14:34  Build 80: upstairs by coordinate (y=3125) — not touching the ladder
+14:34:01  BANK TICK: up=true opened=false closed=false upStep=0
+14:34:01  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3120, y=3124, plane=0)
+14:34:02  Build 74: clicked bank booth with 'Use': true
+14:34:02  BANK TICK: up=true opened=false closed=false upStep=0
+14:34:03  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3120, y=3124, plane=0)
+14:34:03  Build 74: clicked bank booth with 'Use': true
+14:34:04  Bank complete: Brother Brace nearby
+14:34:05  PRAYER TICK: talked1=false tab=false talked2=false
+14:34:05  Talking to 'Brother Brace'
+14:34:05  Stage: BANK -> PRAYER
+14:34:06  PRAYER TICK: talked1=false tab=false talked2=false
+14:34:06  Talking to 'Brother Brace'
+14:34:07  PRAYER TICK: talked1=false tab=false talked2=false
+14:34:09  dialogueTick: clicking continue
+14:34:10  PRAYER TICK: talked1=false tab=false talked2=false
+14:34:10  Talking to 'Brother Brace'
+14:38  Screenshot saved: 2026-09-27_14-37-59_PRAYER_auto.png
+14:38  PRAYER TICK: talked1=false tab=false talked2=false
+14:38  Diag tail uploaded: 2026-09-27_14-37-59_PRAYER_diag.txt
+14:38:01  dialogueTick: clicking continue
+14:38:02  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:03  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:03  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:04  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:04  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:05  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:05  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:06  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:07  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:07  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:08  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:08  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:09  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:09  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:10  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:10  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:11  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:11  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:12  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:12  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:13  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:14  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:14  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:15  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:15  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:16  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:16  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:17  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:18  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:18  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:19  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:19  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:20  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:20  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:21  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:21  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:22  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:22  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:23  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:23  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:24  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:25  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:25  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:26  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:26  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:27  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:27  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:28  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:29  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:29  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:30  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:30  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:31  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:31  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:32  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:32  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:33  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:33  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:34  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:34  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:35  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:36  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:36  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:37  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:37  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:38  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:38  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:39  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:40  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:40  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:41  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:41  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:42  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:42  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:43  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:43  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:44  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:44  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:45  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:45  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:46  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:47  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:47  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:48  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:48  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:49  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:49  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:50  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:51  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:51  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:52  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:52  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:53  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:53  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:54  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:54  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:55  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:55  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:56  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:56  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:57  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:58  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:58  PRAYER TICK: talked1=false tab=false talked2=false
+14:38:59  Wanted to talk to 'Brother Brace' but it is not nearby
+14:38:59  PRAYER TICK: talked1=false tab=false talked2=false
+14:39  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:01  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:02  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:02  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:03  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:03  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:04  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:04  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:05  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:05  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:06  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:06  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:07  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:07  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:08  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:09  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:09  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:10  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:10  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:11  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:11  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:12  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:13  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:13  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:14  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:14  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:15  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:15  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:16  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:16  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:17  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:17  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:18  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:18  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:19  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:19  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:20  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:21  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:21  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:22  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:22  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:23  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:24  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:24  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:25  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:25  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:26  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:26  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:27  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:27  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:28  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:28  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:29  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:29  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:30  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:30  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:31  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:32  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:32  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:33  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:33  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:34  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:35  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:35  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:36  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:36  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:37  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:37  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:38  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:38  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:39  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:39  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:40  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:40  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:41  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:41  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:42  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:43  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:43  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:44  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:44  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:45  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:46  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:46  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:47  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:47  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:48  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:48  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:49  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:49  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:50  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:50  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:51  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:51  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:52  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:52  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:53  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:54  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:54  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:55  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:55  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:56  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:57  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:57  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:58  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:58  Wanted to talk to 'Brother Brace' but it is not nearby
+14:39:59  PRAYER TICK: talked1=false tab=false talked2=false
+14:39:59  Wanted to talk to 'Brother Brace' but it is not nearby
+14:40  Screenshot saved: 2026-09-27_14-40-00_PRAYER_auto.png
