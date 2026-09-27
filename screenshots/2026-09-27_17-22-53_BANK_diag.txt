@@ -1,0 +1,44 @@
+17:22:18  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+17:22:18  Build 105 - BANK DOOR STALL FIX. Live 2026-09-27 17:20: bot stood motionless in front of the closed bank door for 100+s -- Rs2Walker.walkTo() sees the door tile as walled ('recovery_target_walled') and replans forever without ever clicking the door open. The prayer walk-to-church guard now detects the stall (no movement for 5 ticks) and clicks the door open via clickDoorDirect('Open') instead of walking into it. Keeps Build 104 (name cache + off-screen click recovery); Build 103 (withName reorder); Build 102 (event-driven rebuild); Build 101; Build 100 (pollDialogSeen); Build 99 (hang timing diag); Build 98 (pollBoothStillWanted cache); Build 97 (dialog cache); Build 96 (door fix); Build 95; Build 94; Build 93; Build 92; Build 91; Build 90; Build 89; Build 88; Build 87; Build 86; Build 85; Build 84; Build 83; Build 82; Build 81/80.
+17:22:18  Build 104: loaded 68 cached object names (rev 240)
+17:22:18  REBUILD: WorldModel registered on event bus
+17:22:18  Build 78: Check-Update.ps1 $versionUrl line not in expected form, skipping repair
+17:22:18  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+17:22:37  Detected start stage: BANK
+17:22:37  Screenshot saved: 2026-09-27_17-22-37_BANK_auto.png
+17:22:37  Build 82: cleaned up 10 old screenshots
+17:22:37  BANK TICK: up=false opened=false closed=false upStep=0
+17:22:38  Diag tail uploaded: 2026-09-27_17-22-37_BANK_diag.txt
+17:22:39  dialogueTick: clicking continue
+17:22:39  Stage: null -> BANK
+17:22:39  BANK TICK: up=false opened=false closed=false upStep=0
+17:22:41  dialogueTick: clicking continue
+17:22:41  BANK TICK: up=false opened=false closed=false upStep=0
+17:22:42  Build 80: upstairs by coordinate (y=3124) — not touching the ladder
+17:22:42  BANK TICK: up=true opened=false closed=false upStep=0
+17:22:43  Left-clicking object at 103,222
+17:22:43  Build 94: physically left-clicked bank booth
+17:22:44  BANK TICK: up=true opened=false closed=false upStep=0
+17:22:44  Left-clicking object at 156,222
+17:22:44  Build 94: physically left-clicked bank booth
+17:22:45  BANK TICK: up=true opened=false closed=false upStep=0
+17:22:46  dialogueTick: clicking continue
+17:22:47  BANK TICK: up=true opened=false closed=false upStep=0
+17:22:47  Bank open stability: 1/3
+17:22:48  BANK TICK: up=true opened=false closed=false upStep=0
+17:22:48  Bank open stability: 2/3
+17:22:49  BANK TICK: up=true opened=false closed=false upStep=0
+17:22:49  Bank is open (stable 3 ticks)
+17:22:49  Build 82: burst recording started (8 shots): bank-opened
+17:22:49  Screenshot saved: 2026-09-27_17-22-49_BANK_burst-bank-opened-8.png
+17:22:50  BANK TICK: up=true opened=true closed=false upStep=0
+17:22:50  Diag tail uploaded: 2026-09-27_17-22-49_BANK_diag.txt
+17:22:50  Bank closed
+17:22:50  Screenshot saved: 2026-09-27_17-22-50_BANK_burst-bank-opened-7.png
+17:22:51  BANK TICK: up=true opened=true closed=true upStep=0
+17:22:51  Diag tail uploaded: 2026-09-27_17-22-50_BANK_diag.txt
+17:22:51  Screenshot saved: 2026-09-27_17-22-51_BANK_burst-bank-opened-6.png
+17:22:52  Diag tail uploaded: 2026-09-27_17-22-51_BANK_diag.txt
+17:22:52  Screenshot saved: 2026-09-27_17-22-52_BANK_burst-bank-opened-5.png
+17:22:52  dialogueTick: clicking continue
+17:22:53  Screenshot saved: 2026-09-27_17-22-53_BANK_burst-bank-opened-4.png
