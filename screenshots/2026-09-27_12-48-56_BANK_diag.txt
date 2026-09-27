@@ -1,0 +1,250 @@
+12:45:07  dialogueTick: clicking continue
+12:45:08  COMBAT TICK: FINAL_LADDER
+12:45:09  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:45:09  Scene scan: click('Climb-up') returned true
+12:45:10  COMBAT TICK: FINAL_LADDER
+12:45:12  COMBAT TICK: FINAL_LADDER
+12:45:12  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:45:12  Scene scan: click('Open') returned true
+12:45:13  COMBAT TICK: FINAL_LADDER
+12:45:14  dialogueTick: clicking continue
+12:45:15  COMBAT TICK: FINAL_LADDER
+12:45:16  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:45:16  Scene scan: click('Climb-up') returned true
+12:45:16  COMBAT TICK: FINAL_LADDER
+12:45:18  COMBAT TICK: FINAL_LADDER
+12:45:19  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:45:19  Scene scan: click('Open') returned true
+12:45:20  COMBAT TICK: FINAL_LADDER
+12:45:21  dialogueTick: clicking continue
+12:45:22  COMBAT TICK: FINAL_LADDER
+12:45:22  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:45:22  Scene scan: click('Climb-up') returned true
+12:45:23  COMBAT TICK: FINAL_LADDER
+12:45:25  COMBAT TICK: FINAL_LADDER
+12:45:26  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:45:26  Scene scan: click('Open') returned true
+12:45:27  COMBAT TICK: FINAL_LADDER
+12:45:27  dialogueTick: clicking continue
+12:45:28  COMBAT TICK: FINAL_LADDER
+12:45:29  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:45:29  Scene scan: click('Climb-up') returned true
+12:45:30  COMBAT TICK: FINAL_LADDER
+12:45:32  COMBAT TICK: FINAL_LADDER
+12:45:33  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:45:33  Scene scan: click('Open') returned true
+12:45:33  COMBAT TICK: FINAL_LADDER
+12:45:34  dialogueTick: clicking continue
+12:45:35  COMBAT TICK: FINAL_LADDER
+12:45:36  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:45:36  Scene scan: click('Climb-up') returned true
+12:45:37  COMBAT TICK: FINAL_LADDER
+12:45:39  COMBAT TICK: FINAL_LADDER
+12:45:39  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:45:39  Scene scan: click('Open') returned true
+12:45:40  COMBAT TICK: FINAL_LADDER
+12:45:41  dialogueTick: clicking continue
+12:45:42  COMBAT TICK: FINAL_LADDER
+12:45:43  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:45:43  Scene scan: click('Climb-up') returned true
+12:45:44  COMBAT TICK: FINAL_LADDER
+12:45:45  COMBAT TICK: FINAL_LADDER
+12:45:46  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:45:46  Scene scan: click('Open') returned true
+12:45:47  COMBAT TICK: FINAL_LADDER
+12:45:48  dialogueTick: clicking continue
+12:45:49  COMBAT TICK: FINAL_LADDER
+12:45:49  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:45:49  Scene scan: click('Climb-up') returned true
+12:45:50  COMBAT TICK: FINAL_LADDER
+12:45:52  COMBAT TICK: FINAL_LADDER
+12:45:53  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:45:53  Scene scan: click('Open') returned true
+12:45:54  COMBAT TICK: FINAL_LADDER
+12:45:55  dialogueTick: clicking continue
+12:45:56  COMBAT TICK: FINAL_LADDER
+12:45:56  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 8)
+12:45:56  Scene scan: click('Climb-up') returned true
+12:45:57  COMBAT TICK: FINAL_LADDER
+12:45:59  COMBAT TICK: FINAL_LADDER
+12:46  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+12:46  Scene scan: click('Open') returned true
+12:46:01  COMBAT TICK: FINAL_LADDER
+12:46:01  Banker nearby -> combatDone
+12:46:02  BANK TICK: down=false opened=false closed=false upStep=0
+12:46:02  Stage: COMBAT -> BANK
+12:46:02  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:04  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:05  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:06  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:07  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:08  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:09  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:10  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:11  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:12  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:13  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:14  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:15  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:16  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:17  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:18  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:19  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:20  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:21  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:22  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:23  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:24  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:25  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:26  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:27  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:28  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:29  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:30  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:31  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:32  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:33  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:34  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:35  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:36  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:37  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:38  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:39  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:40  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:41  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:42  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:43  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:44  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:45  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:46  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:47  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:48  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:49  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:50  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:51  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:52  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:53  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:54  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:55  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:56  Screenshot saved: 2026-09-27_12-46-56_BANK_auto.png
+12:46:56  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:57  Diag tail uploaded: 2026-09-27_12-46-56_BANK_diag.txt
+12:46:57  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:58  BANK TICK: down=true opened=false closed=false upStep=0
+12:46:59  BANK TICK: down=true opened=false closed=false upStep=0
+12:47  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:01  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:02  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:03  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:04  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:05  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:06  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:07  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:08  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:09  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:10  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:11  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:12  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:13  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:14  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:15  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:16  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:18  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:19  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:20  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:21  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:22  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:23  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:24  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:25  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:26  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:27  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:28  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:29  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:30  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:31  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:32  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:33  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:34  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:35  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:36  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:37  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:38  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:39  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:40  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:41  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:42  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:43  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:44  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:45  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:46  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:47  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:48  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:49  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:50  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:51  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:52  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:53  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:54  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:55  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:56  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:57  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:58  BANK TICK: down=true opened=false closed=false upStep=0
+12:47:59  BANK TICK: down=true opened=false closed=false upStep=0
+12:48  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:01  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:02  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:03  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:04  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:05  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:06  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:07  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:08  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:09  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:10  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:11  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:12  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:13  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:14  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:15  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:16  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:17  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:18  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:19  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:20  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:21  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:22  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:23  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:24  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:25  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:26  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:27  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:28  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:29  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:30  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:31  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:32  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:33  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:34  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:35  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:36  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:37  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:38  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:39  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:40  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:41  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:42  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:43  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:44  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:45  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:46  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:47  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:48  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:49  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:50  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:51  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:52  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:53  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:54  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:55  BANK TICK: down=true opened=false closed=false upStep=0
+12:48:56  Screenshot saved: 2026-09-27_12-48-56_BANK_auto.png
