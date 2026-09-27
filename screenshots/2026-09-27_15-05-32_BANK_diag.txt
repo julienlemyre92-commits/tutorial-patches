@@ -1,0 +1,8 @@
+15:05:11  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+15:05:11  Build 86 - EXIT VERIFICATION: bank stage completes only when the player is OBSERVED outside the bank (y<=3121, south of the south door at y~3125) -- Julien's principle, never guessed from NPC proximity. Live 2026-09-27: Build 84 completed the bank while the player was still INSIDE (Brace at Y~3106 is within the 40-tile radius from the bank), stranding the bot in PRAYER looping 'not nearby'. Keeps Build 85 (poll booth click after bank close); Build 84 (observed open+close); Build 83 (Brace-shortcut removal); Build 82 (bg burst + cleanup); Build 81/80 (coordinate fix)
+15:05:11  Build 78: Check-Update.ps1 already cache-busted, nothing to do
+15:05:11  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+15:05:32  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:05:32  Detected start stage: BANK
+15:05:33  Screenshot saved: 2026-09-27_15-05-32_BANK_auto.png
+15:05:33  Build 82: cleaned up 2 old screenshots
