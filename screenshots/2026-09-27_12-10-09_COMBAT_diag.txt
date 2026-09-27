@@ -1,0 +1,4 @@
+12:09:46  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+12:09:46  Build 70 - combat inventory gates now read the live item container directly (cached invContains stayed false for minutes on fresh sessions while the shortbow was in inventory, trapping TALK_VANNAKA in a re-talk loop on the Rat ranging info dialog)
+12:10:09  Detected start stage: COMBAT
+12:10:10  Screenshot saved: 2026-09-27_12-10-09_COMBAT_auto.png
