@@ -1,0 +1,108 @@
+18:42:20  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+18:42:20  Build 113 - ACC_MAN PHYSICAL CLICK. Live 2026-09-27 18:36: root cause of the 18:32-18:34 booth loop (click booth -> 'Click on the flashing icon to open your Account Management menu' -> click icon -> click booth, opened=false): clickTabIcon(ACC_MAN) had NO case in its packed-ID switch (ids stayed null) and WorldModel never sampled the account icon, so the flashing icon was NEVER physically clicked. The script-915 fallback opens the tab panel but does not set the game's 'clicked the flashing icon' tutorial flag, so the Account Guide step never truly completes. Fix: ACC_MAN packed IDs 548:72 / 161:67 (varc index 8) sampled in WorldModel, plus a per-tick name-matched fallback (widget name/actions containing 'account'). Keeps Build 112 - SINGLE SCRIPT FIX. Live 2026-09-27 18:28: patch 111 shipped with TWO competing scripts (TutorialIslandScript + TutorialIslandAgentScript) in the same jar — bot went silent for 13+ min after downloading it, no screenshots, likely startup conflict. This build removes the agent, plugin injects the single TutorialIslandScript again. Keeps Build 110 - ACCOUNT GUIDE FIRST. Live 2026-09-27 18:08: fresh run looped the bank booth forever (click booth -> the game re-popped the 'Account (Management)' instruction dialog: 'The guide here will tell you all about your account. Just click on him to hear what he's got to say.' -> dismiss -> click booth, opened=false) because the bot tried to open the bank BEFORE talking to the Account Guide. Live proof the official order is Account Guide -> bank booth -> poll booth -> exit: the instruction dialog names him while the bank never opens. Now: doAccountGuideStep runs FIRST in doBank (talk, account tab, talk again), before any booth click. Keeps Build 109 (can't-reach recovery); Build 108 (Account Guide gate recovery); Build 107 (tab switch async); Build 106 (dialog-transition); Build 105 (bank door stall); Build 104 (name cache); Build 103; Build 102 (event-driven); Build 101; Build 100; Build 99; Build 98; Build 97; Build 96; Build 95; Build 94; Build 93; Build 92; Build 91; Build 90; Build 89; Build 88; Build 87; Build 86; Build 85; Build 84; Build 83; Build 82; Build 81/80.
+18:42:20  Build 104: loaded 74 cached object names (rev 240)
+18:42:20  REBUILD: WorldModel registered on event bus
+18:42:20  Build 78: Check-Update.ps1 $versionUrl line not in expected form, skipping repair
+18:42:20  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+18:42:41  Detected start stage: BANK
+18:42:41  Screenshot saved: 2026-09-27_18-42-41_BANK_auto.png
+18:42:41  Build 82: cleaned up 1 old screenshots
+18:42:41  BANK TICK: up=false opened=false closed=false upStep=0
+18:42:42  Diag tail uploaded: 2026-09-27_18-42-41_BANK_diag.txt
+18:42:42  dialogueTick: clicking continue
+18:42:43  Stage: null -> BANK
+18:42:43  BANK TICK: up=false opened=false closed=false upStep=0
+18:42:44  dialogueTick: clicking continue
+18:42:45  BANK TICK: up=false opened=false closed=false upStep=0
+18:42:46  Build 108: talking to the Account Guide (round 1/2)
+18:42:46  Talking to 'Account Guide'
+18:42:47  BANK TICK: up=false opened=false closed=false upStep=0
+18:42:49  dialogueTick: clicking continue
+18:42:50  BANK TICK: up=false opened=false closed=false upStep=0
+18:42:50  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:42:50  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:42:50  MOUSE CLICKED ACC_MAN tab icon
+18:42:52  BANK TICK: up=false opened=false closed=false upStep=0
+18:42:52  Build 108: first Account Guide talk done — opening account tab
+18:42:53  BANK TICK: up=false opened=false closed=false upStep=0
+18:42:53  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:42:53  MOUSE CLICKED ACC_MAN tab icon
+18:42:53  Build 108: account tab open — talking to Account Guide again
+18:42:54  BANK TICK: up=false opened=false closed=false upStep=0
+18:42:55  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:42:55  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:42:55  MOUSE CLICKED ACC_MAN tab icon
+18:42:57  BANK TICK: up=false opened=false closed=false upStep=0
+18:42:58  Build 108: talking to the Account Guide (round 3/2)
+18:42:58  Talking to 'Account Guide'
+18:42:59  BANK TICK: up=false opened=false closed=false upStep=0
+18:42:59  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:42:59  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43  MOUSE CLICKED ACC_MAN tab icon
+18:43:01  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:02  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:02  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:02  MOUSE CLICKED ACC_MAN tab icon
+18:43:04  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:04  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:04  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:04  MOUSE CLICKED ACC_MAN tab icon
+18:43:06  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:07  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:07  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:07  MOUSE CLICKED ACC_MAN tab icon
+18:43:09  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:09  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:09  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:09  MOUSE CLICKED ACC_MAN tab icon
+18:43:11  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:11  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:11  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:12  MOUSE CLICKED ACC_MAN tab icon
+18:43:13  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:14  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:14  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:14  MOUSE CLICKED ACC_MAN tab icon
+18:43:16  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:16  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:16  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:16  MOUSE CLICKED ACC_MAN tab icon
+18:43:18  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:19  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:19  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:19  MOUSE CLICKED ACC_MAN tab icon
+18:43:21  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:21  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:21  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:21  MOUSE CLICKED ACC_MAN tab icon
+18:43:23  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:23  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:23  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:23  MOUSE CLICKED ACC_MAN tab icon
+18:43:25  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:26  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:26  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:26  MOUSE CLICKED ACC_MAN tab icon
+18:43:28  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:28  Build 108: Account Guide done (both talks + account tab)
+18:43:28  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:29  Build 80: upstairs by coordinate (y=3124) — not touching the ladder
+18:43:30  BANK TICK: up=true opened=false closed=false upStep=0
+18:43:30  Left-clicking object at 25,222
+18:43:30  Build 94: physically left-clicked bank booth
+18:43:31  BANK TICK: up=true opened=false closed=false upStep=0
+18:43:33  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:33  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:33  MOUSE CLICKED ACC_MAN tab icon
+18:43:35  BANK TICK: up=true opened=false closed=false upStep=0
+18:43:35  Left-clicking object at 25,222
+18:43:36  Build 94: physically left-clicked bank booth
+18:43:36  BANK TICK: up=true opened=false closed=false upStep=0
+18:43:38  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:38  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:38  MOUSE CLICKED ACC_MAN tab icon
+18:43:40  BANK TICK: up=true opened=false closed=false upStep=0
+18:43:40  Left-clicking object at 25,222
+18:43:40  Build 94: physically left-clicked bank booth
+18:43:41  Screenshot saved: 2026-09-27_18-43-41_BANK_auto.png
+18:43:41  Build 82: cleaned up 1 old screenshots
