@@ -1,0 +1,9 @@
+17:22:18  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+17:22:18  Build 105 - BANK DOOR STALL FIX. Live 2026-09-27 17:20: bot stood motionless in front of the closed bank door for 100+s -- Rs2Walker.walkTo() sees the door tile as walled ('recovery_target_walled') and replans forever without ever clicking the door open. The prayer walk-to-church guard now detects the stall (no movement for 5 ticks) and clicks the door open via clickDoorDirect('Open') instead of walking into it. Keeps Build 104 (name cache + off-screen click recovery); Build 103 (withName reorder); Build 102 (event-driven rebuild); Build 101; Build 100 (pollDialogSeen); Build 99 (hang timing diag); Build 98 (pollBoothStillWanted cache); Build 97 (dialog cache); Build 96 (door fix); Build 95; Build 94; Build 93; Build 92; Build 91; Build 90; Build 89; Build 88; Build 87; Build 86; Build 85; Build 84; Build 83; Build 82; Build 81/80.
+17:22:18  Build 104: loaded 68 cached object names (rev 240)
+17:22:18  REBUILD: WorldModel registered on event bus
+17:22:18  Build 78: Check-Update.ps1 $versionUrl line not in expected form, skipping repair
+17:22:18  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+17:22:37  Detected start stage: BANK
+17:22:37  Screenshot saved: 2026-09-27_17-22-37_BANK_auto.png
+17:22:37  Build 82: cleaned up 10 old screenshots
