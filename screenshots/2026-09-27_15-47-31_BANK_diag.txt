@@ -1,0 +1,7 @@
+15:47:12  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+15:47:12  Build 93 - SPEED: poll booth no longer scans widgets every tick (was ~24s/tick, 95s hang bank->poll). Only scans on verification ticks or after first click. Keeps Build 92 (bank booth physical click); Build 91 (1-min updates); Build 90 (bank entry); Build 89; Build 88; Build 87; Build 86; Build 85; Build 84; Build 83; Build 82; Build 81/80.
+15:47:12  Build 78: Check-Update.ps1 already cache-busted, nothing to do
+15:47:12  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+15:47:31  Build 78: bank ladder scan: found id 16683 (name match) at distance 5
+15:47:31  Detected start stage: BANK
+15:47:31  Screenshot saved: 2026-09-27_15-47-31_BANK_auto.png
