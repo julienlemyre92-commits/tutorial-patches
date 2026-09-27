@@ -1,0 +1,8 @@
+15:00:01  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+15:00:01  Build 85 - POLL BOOTH step: after bank open+close, click the poll booth ('click on the indicated poll booth to continue') before exiting. Live 2026-09-27: bot was opening the exit door while tutorial wanted the poll booth. Keeps Build 84 (bank completes on observed open+close, exits through door toward church); Build 83 (Brother Brace shortcut removal); Build 82 (background burst + cleanup); Build 81/80 (coordinate fix)
+15:00:01  Build 78: Check-Update.ps1 already cache-busted, nothing to do
+15:00:01  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+15:00:21  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+15:00:21  Detected start stage: BANK
+15:00:21  Screenshot saved: 2026-09-27_15-00-21_BANK_auto.png
+15:00:21  Build 82: cleaned up 1 old screenshots
