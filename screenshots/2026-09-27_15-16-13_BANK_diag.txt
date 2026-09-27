@@ -1,0 +1,8 @@
+15:15:56  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+15:15:56  Build 87 - POLL BOOTH VERIFIED: the poll-booth step now completes only when the GAME's instruction dialog stops asking for the poll booth -- never on click()'s return value (Rs2TileObjectModel.click(String) returns true unconditionally). Live 2026-09-27: Build 85's click left the right-click menu open on 'Use Poll booth' (15:02:08 screenshot) and the poll instruction was still up at 15:03:10 -- the 'Use' never fired, yet the bot marched on. Retries the click + closes the polls interface (Escape) until the instruction advances. Also: doPrayer now walks south toward the church while the player is north of y=3115 instead of clicking an off-screen Brother Brace from the NPC cache (observed 60s no-progress loop from inside the bank). Keeps Build 86 (verified bank exit); Build 85 (poll booth step); Build 84 (observed open+close); Build 83 (Brace-shortcut removal); Build 82 (bg burst + cleanup); Build 81/80 (coordinate fix)
+15:15:56  Build 78: Check-Update.ps1 already cache-busted, nothing to do
+15:15:56  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+15:16:13  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+15:16:13  Detected start stage: BANK
+15:16:13  Screenshot saved: 2026-09-27_15-16-13_BANK_auto.png
+15:16:13  Build 82: cleaned up 1 old screenshots
