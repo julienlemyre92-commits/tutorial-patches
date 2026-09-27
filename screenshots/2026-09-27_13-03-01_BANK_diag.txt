@@ -1,0 +1,4 @@
+13:02:43  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+13:02:43  Build 72 - BANK now dismisses blocking dialogs (client 'worlds' error popups, tutorial boxes) via dialogueTick before touching the bank; dialogueTick falls back to Space + physical continue click on unknown dialogs
+13:03:01  Detected start stage: BANK
+13:03:02  Screenshot saved: 2026-09-27_13-03-01_BANK_auto.png
