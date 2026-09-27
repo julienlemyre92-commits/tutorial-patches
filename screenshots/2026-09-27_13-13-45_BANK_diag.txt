@@ -1,0 +1,4 @@
+13:13:23  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+13:13:23  Build 73 - npcReachable is now plane-aware (Banker upstairs no longer counts as reachable from the ladder base downstairs); doBank climbs UP to the banker and back DOWN after (directions were swapped)
+13:13:45  Detected start stage: BANK
+13:13:46  Screenshot saved: 2026-09-27_13-13-45_BANK_auto.png
