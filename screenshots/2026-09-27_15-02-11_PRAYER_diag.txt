@@ -1,0 +1,74 @@
+15:00:01  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+15:00:01  Build 85 - POLL BOOTH step: after bank open+close, click the poll booth ('click on the indicated poll booth to continue') before exiting. Live 2026-09-27: bot was opening the exit door while tutorial wanted the poll booth. Keeps Build 84 (bank completes on observed open+close, exits through door toward church); Build 83 (Brother Brace shortcut removal); Build 82 (background burst + cleanup); Build 81/80 (coordinate fix)
+15:00:01  Build 78: Check-Update.ps1 already cache-busted, nothing to do
+15:00:01  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+15:00:21  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+15:00:21  Detected start stage: BANK
+15:00:21  Screenshot saved: 2026-09-27_15-00-21_BANK_auto.png
+15:00:21  Build 82: cleaned up 1 old screenshots
+15:00:21  BANK TICK: up=false opened=false closed=false upStep=0
+15:00:22  Diag tail uploaded: 2026-09-27_15-00-21_BANK_diag.txt
+15:00:22  dialogueTick: clicking continue
+15:00:23  Stage: null -> BANK
+15:00:23  BANK TICK: up=false opened=false closed=false upStep=0
+15:00:25  dialogueTick: clicking continue
+15:00:25  BANK TICK: up=false opened=false closed=false upStep=0
+15:00:26  Build 80: upstairs by coordinate (y=3124) — not touching the ladder
+15:00:26  BANK TICK: up=true opened=false closed=false upStep=0
+15:00:27  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+15:00:27  Build 74: clicked bank booth with 'Use': true
+15:00:28  BANK TICK: up=true opened=false closed=false upStep=0
+15:00:29  BANK TICK: up=true opened=false closed=false upStep=0
+15:00:30  dialogueTick: clicking continue
+15:00:31  BANK TICK: up=true opened=false closed=false upStep=0
+15:00:31  Bank open stability: 1/3
+15:00:32  BANK TICK: up=true opened=false closed=false upStep=0
+15:00:32  Bank open stability: 2/3
+15:00:33  BANK TICK: up=true opened=false closed=false upStep=0
+15:00:33  Bank is open (stable 3 ticks)
+15:00:33  Build 82: burst recording started (8 shots): bank-opened
+15:00:33  Screenshot saved: 2026-09-27_15-00-33_BANK_burst-bank-opened-8.png
+15:00:34  BANK TICK: up=true opened=true closed=false upStep=0
+15:00:34  Screenshot saved: 2026-09-27_15-00-34_BANK_burst-bank-opened-7.png
+15:00:34  Bank closed
+15:00:34  Diag tail uploaded: 2026-09-27_15-00-33_BANK_diag.txt
+15:00:35  BANK TICK: up=true opened=true closed=true upStep=0
+15:00:35  Diag tail uploaded: 2026-09-27_15-00-34_BANK_diag.txt
+15:00:35  Screenshot saved: 2026-09-27_15-00-35_BANK_burst-bank-opened-6.png
+15:00:36  Diag tail uploaded: 2026-09-27_15-00-35_BANK_diag.txt
+15:00:36  Screenshot saved: 2026-09-27_15-00-36_BANK_burst-bank-opened-5.png
+15:00:36  dialogueTick: clicking continue
+15:00:37  Screenshot saved: 2026-09-27_15-00-36_BANK_burst-bank-opened-4.png
+15:00:37  Diag tail uploaded: 2026-09-27_15-00-36_BANK_diag.txt
+15:00:37  Diag upload failed, HTTP 422
+15:00:37  BANK TICK: up=true opened=true closed=true upStep=0
+15:00:37  Screenshot saved: 2026-09-27_15-00-37_BANK_burst-bank-opened-3.png
+15:00:38  Screenshot saved: 2026-09-27_15-00-38_BANK_burst-bank-opened-2.png
+15:00:39  Diag tail uploaded: 2026-09-27_15-00-37_BANK_diag.txt
+15:00:39  Diag tail uploaded: 2026-09-27_15-00-38_BANK_diag.txt
+15:00:39  Screenshot saved: 2026-09-27_15-00-39_BANK_burst-bank-opened-1.png
+15:00:40  Build 82: burst recording finished: bank-opened
+15:00:40  Diag tail uploaded: 2026-09-27_15-00-39_BANK_diag.txt
+15:02:08  Build 85: clicked poll booth: true
+15:02:08  Build 85: poll booth clicked
+15:02:08  Build 82: burst recording started (8 shots): poll-booth-clicked
+15:02:08  Screenshot saved: 2026-09-27_15-02-08_BANK_burst-poll-booth-clicked-8.png
+15:02:08  Build 82: cleaned up 1 old screenshots
+15:02:09  Screenshot saved: 2026-09-27_15-02-08_BANK_auto.png
+15:02:09  BANK TICK: up=true opened=true closed=true upStep=0
+15:02:09  Screenshot saved: 2026-09-27_15-02-09_BANK_burst-poll-booth-clicked-7.png
+15:02:09  Scene scan: found WallObject ID 1516 at WorldPoint(x=3121, y=3119, plane=0) (dist 2)
+15:02:09  Scene scan: click('Open') returned true
+15:02:09  Build 83: bank door opened, walking out toward the church
+15:02:09  Diag tail uploaded: 2026-09-27_15-02-08_BANK_diag.txt
+15:02:09  Diag upload failed, HTTP 409
+15:02:10  BANK TICK: up=true opened=true closed=true upStep=1
+15:02:10  Screenshot saved: 2026-09-27_15-02-09_BANK_burst-poll-booth-clicked-6.png
+15:02:10  Diag tail uploaded: 2026-09-27_15-02-09_BANK_diag.txt
+15:02:10  Diag upload failed, HTTP 422
+15:02:10  Build 83: Bank complete: opened+closed, Brother Brace nearby
+15:02:11  Screenshot saved: 2026-09-27_15-02-10_BANK_burst-poll-booth-clicked-5.png
+15:02:11  PRAYER TICK: talked1=false tab=false talked2=false
+15:02:11  Talking to 'Brother Brace'
+15:02:11  Diag tail uploaded: 2026-09-27_15-02-10_BANK_diag.txt
+15:02:11  Screenshot saved: 2026-09-27_15-02-11_PRAYER_burst-poll-booth-clicked-4.png
