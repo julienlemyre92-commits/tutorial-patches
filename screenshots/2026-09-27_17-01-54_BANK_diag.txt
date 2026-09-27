@@ -1,0 +1,8 @@
+17:01:25  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+17:01:25  Build 103 - withName() HANG FIX: reordered ALL cache queries to .within() BEFORE .withName(). Root cause found: withName() calls blocking getName() (ClientThread.invoke) on EVERY object it filters -- ~200 objects x 450ms = 90s hang. Now within() narrows to ~10 nearby objects first (pure-math), so only those get name resolution. Fixes the poll/bank booth 90s hang that Builds 101/102 missed. Keeps Build 102 (event-driven rebuild); Build 101; Build 100 (pollDialogSeen); Build 99 (hang timing diag); Build 98 (pollBoothStillWanted cache); Build 97 (dialog cache); Build 96 (door fix); Build 95; Build 94; Build 93; Build 92; Build 91; Build 90; Build 89; Build 88; Build 87; Build 86; Build 85; Build 84; Build 83; Build 82; Build 81/80.
+17:01:25  REBUILD: WorldModel registered on event bus
+17:01:25  Build 78: Check-Update.ps1 $versionUrl line not in expected form, skipping repair
+17:01:25  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+17:01:54  Detected start stage: BANK
+17:01:54  Screenshot saved: 2026-09-27_17-01-54_BANK_auto.png
+17:01:54  Build 82: cleaned up 1 old screenshots
