@@ -1,0 +1,4 @@
+11:53:34  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+11:53:34  Build 69 - bow/arrow equip now opens inventory tab first (combat tab was still open, wield failed silently); diag tail auto-uploads to GitHub with each screenshot
+11:53:58  Detected start stage: COMBAT
+11:53:58  Screenshot saved: 2026-09-27_11-53-58_COMBAT_auto.png
