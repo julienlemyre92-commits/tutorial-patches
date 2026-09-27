@@ -1,0 +1,250 @@
+13:32:04  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:04  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:32:04  Scene scan: click('Climb-down') returned true
+13:32:06  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:06  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:06  Scene scan: click('Climb-down') returned true
+13:32:06  Build 74: climbing down... tick=91 moved=false bankerNear=true clicked=true
+13:32:07  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:07  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:07  Scene scan: click('Climb-down') returned true
+13:32:08  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:08  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:32:08  Scene scan: click('Climb-down') returned true
+13:32:10  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:10  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:10  Scene scan: click('Climb-down') returned true
+13:32:11  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:11  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:11  Scene scan: click('Climb-down') returned true
+13:32:12  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:13  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:32:13  Scene scan: click('Climb-down') returned true
+13:32:14  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:14  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:14  Scene scan: click('Climb-down') returned true
+13:32:15  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:15  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:15  Scene scan: click('Climb-down') returned true
+13:32:16  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:17  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:32:17  Scene scan: click('Climb-down') returned true
+13:32:18  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:18  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:18  Scene scan: click('Climb-down') returned true
+13:32:19  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:19  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:32:19  Scene scan: click('Climb-down') returned true
+13:32:21  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:21  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:21  Scene scan: click('Climb-down') returned true
+13:32:22  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:22  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:22  Scene scan: click('Climb-down') returned true
+13:32:23  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:24  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:32:24  Scene scan: click('Climb-down') returned true
+13:32:25  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:25  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:25  Scene scan: click('Climb-down') returned true
+13:32:26  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:26  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:26  Scene scan: click('Climb-down') returned true
+13:32:28  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:28  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:32:28  Scene scan: click('Climb-down') returned true
+13:32:29  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:29  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:29  Scene scan: click('Climb-down') returned true
+13:32:30  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:31  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:31  Scene scan: click('Climb-down') returned true
+13:32:32  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:32  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:32:32  Scene scan: click('Climb-down') returned true
+13:32:33  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:34  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:34  Scene scan: click('Climb-down') returned true
+13:32:34  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:35  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:35  Scene scan: click('Climb-down') returned true
+13:32:36  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:36  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:32:36  Scene scan: click('Climb-down') returned true
+13:32:37  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:38  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:38  Scene scan: click('Climb-down') returned true
+13:32:39  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:39  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:39  Scene scan: click('Climb-down') returned true
+13:32:40  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:40  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:32:40  Scene scan: click('Climb-down') returned true
+13:32:42  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:42  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:42  Scene scan: click('Climb-down') returned true
+13:32:43  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:43  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:43  Scene scan: click('Climb-down') returned true
+13:32:44  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:45  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:32:45  Scene scan: click('Climb-down') returned true
+13:32:46  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:46  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:46  Scene scan: click('Climb-down') returned true
+13:32:47  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:47  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:47  Scene scan: click('Climb-down') returned true
+13:32:47  Build 74: climbing down... tick=121 moved=false bankerNear=true clicked=true
+13:32:48  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:49  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:32:49  Scene scan: click('Climb-down') returned true
+13:32:50  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:50  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:50  Scene scan: click('Climb-down') returned true
+13:32:51  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:51  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:51  Scene scan: click('Climb-down') returned true
+13:32:53  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:53  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:32:53  Scene scan: click('Climb-down') returned true
+13:32:54  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:54  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:54  Scene scan: click('Climb-down') returned true
+13:32:55  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:56  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:56  Scene scan: click('Climb-down') returned true
+13:32:57  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:57  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:32:57  Scene scan: click('Climb-down') returned true
+13:32:58  BANK TICK: down=false opened=false closed=false upStep=0
+13:32:59  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:32:59  Scene scan: click('Climb-down') returned true
+13:33  BANK TICK: down=false opened=false closed=false upStep=0
+13:33  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33  Scene scan: click('Climb-down') returned true
+13:33:01  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:01  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:33:01  Scene scan: click('Climb-down') returned true
+13:33:03  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:03  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:03  Scene scan: click('Climb-down') returned true
+13:33:04  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:04  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:04  Scene scan: click('Climb-down') returned true
+13:33:05  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:05  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:33:05  Scene scan: click('Climb-down') returned true
+13:33:07  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:07  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:07  Scene scan: click('Climb-down') returned true
+13:33:08  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:08  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:08  Scene scan: click('Climb-down') returned true
+13:33:09  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:10  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:33:10  Scene scan: click('Climb-down') returned true
+13:33:11  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:11  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:11  Scene scan: click('Climb-down') returned true
+13:33:12  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:12  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:33:12  Scene scan: click('Climb-down') returned true
+13:33:13  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:14  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:14  Scene scan: click('Climb-down') returned true
+13:33:15  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:15  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:15  Scene scan: click('Climb-down') returned true
+13:33:16  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:16  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:33:16  Scene scan: click('Climb-down') returned true
+13:33:18  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:18  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:18  Scene scan: click('Climb-down') returned true
+13:33:19  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:19  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:19  Scene scan: click('Climb-down') returned true
+13:33:20  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:20  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:33:20  Scene scan: click('Climb-down') returned true
+13:33:22  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:22  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:22  Scene scan: click('Climb-down') returned true
+13:33:23  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:23  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:23  Scene scan: click('Climb-down') returned true
+13:33:24  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:25  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:33:25  Scene scan: click('Climb-down') returned true
+13:33:26  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:26  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:26  Scene scan: click('Climb-down') returned true
+13:33:27  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:27  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:27  Scene scan: click('Climb-down') returned true
+13:33:28  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:29  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:33:29  Scene scan: click('Climb-down') returned true
+13:33:29  Build 74: climbing down... tick=151 moved=true bankerNear=false clicked=true
+13:33:30  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:30  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:30  Scene scan: click('Climb-down') returned true
+13:33:31  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:31  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:33:31  Scene scan: click('Climb-down') returned true
+13:33:33  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:33  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:33  Scene scan: click('Climb-down') returned true
+13:33:34  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:34  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:34  Scene scan: click('Climb-down') returned true
+13:33:35  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:36  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:33:36  Scene scan: click('Climb-down') returned true
+13:33:37  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:37  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:37  Scene scan: click('Climb-down') returned true
+13:33:38  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:38  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:38  Scene scan: click('Climb-down') returned true
+13:33:39  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:40  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:33:40  Scene scan: click('Climb-down') returned true
+13:33:41  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:41  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:41  Scene scan: click('Climb-down') returned true
+13:33:42  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:42  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:42  Scene scan: click('Climb-down') returned true
+13:33:44  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:44  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:33:44  Scene scan: click('Climb-down') returned true
+13:33:45  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:45  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:45  Scene scan: click('Climb-down') returned true
+13:33:46  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:47  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:47  Scene scan: click('Climb-down') returned true
+13:33:48  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:48  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:33:48  Scene scan: click('Climb-down') returned true
+13:33:49  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:50  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:50  Scene scan: click('Climb-down') returned true
+13:33:51  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:51  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:51  Scene scan: click('Climb-down') returned true
+13:33:52  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:52  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:33:52  Scene scan: click('Climb-down') returned true
+13:33:54  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:54  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:54  Scene scan: click('Climb-down') returned true
+13:33:55  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:55  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+13:33:55  Scene scan: click('Climb-down') returned true
+13:33:56  BANK TICK: down=false opened=false closed=false upStep=0
+13:33:57  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+13:33:57  Scene scan: click('Climb-down') returned true
+13:33:58  Screenshot saved: 2026-09-27_13-33-58_BANK_auto.png
