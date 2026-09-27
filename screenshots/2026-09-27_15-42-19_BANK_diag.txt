@@ -1,0 +1,8 @@
+15:42  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+15:42  Build 90 - BANK ENTRY FIX: doBank now verifies the player is INSIDE the bank (y>3121) before clicking the booth -- live 2026-09-27 the bot was OUTSIDE (south) clicking the booth at (3121,3124) through the wall, clicks landing at the wrong spot forever. If outside, opens the south door and walks north inside first. Keeps Build 89 (pollBoothStillWanted matches "poll booth" not "poll"); Build 88 (physical left-click); Build 87 (verified-by-dialog); Build 86 (verified exit); Build 85 (poll booth step); Build 84; Build 83; Build 82; Build 81/80.
+15:42  Build 78: Check-Update.ps1 already cache-busted, nothing to do
+15:42  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+15:42:18  Build 78: bank ladder scan: no ladder within 5 tiles (50 game objects checked)
+15:42:19  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:42:19  Detected start stage: BANK
+15:42:19  Screenshot saved: 2026-09-27_15-42-19_BANK_auto.png
