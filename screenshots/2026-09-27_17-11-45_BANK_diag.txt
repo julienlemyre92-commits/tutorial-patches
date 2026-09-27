@@ -1,0 +1,250 @@
+17:03:57  BANK TICK: up=true opened=true closed=true upStep=0
+17:03:58  Screenshot saved: 2026-09-27_17-03-58_BANK_auto.png
+17:03:58  Build 82: cleaned up 1 old screenshots
+17:03:58  BANK TICK: up=true opened=true closed=true upStep=0
+17:03:59  BANK TICK: up=true opened=true closed=true upStep=0
+17:03:59  Diag tail uploaded: 2026-09-27_17-03-58_BANK_diag.txt
+17:04:12  Build 101: booth find took 13200ms (HANG!)
+17:04:12  leftClickObject: point -46,315 off-screen, using fallback
+17:04:12  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:04:13  BANK TICK: up=true opened=true closed=true upStep=0
+17:04:14  BANK TICK: up=true opened=true closed=true upStep=0
+17:04:15  BANK TICK: up=true opened=true closed=true upStep=0
+17:04:16  BANK TICK: up=true opened=true closed=true upStep=0
+17:04:17  BANK TICK: up=true opened=true closed=true upStep=0
+17:04:17  BANK TICK: up=true opened=true closed=true upStep=0
+17:04:31  Build 101: booth find took 13198ms (HANG!)
+17:04:31  leftClickObject: point -46,315 off-screen, using fallback
+17:04:31  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:04:31  BANK TICK: up=true opened=true closed=true upStep=0
+17:04:32  BANK TICK: up=true opened=true closed=true upStep=0
+17:04:33  BANK TICK: up=true opened=true closed=true upStep=0
+17:04:34  BANK TICK: up=true opened=true closed=true upStep=0
+17:04:35  BANK TICK: up=true opened=true closed=true upStep=0
+17:04:36  BANK TICK: up=true opened=true closed=true upStep=0
+17:04:50  Build 101: booth find took 13201ms (HANG!)
+17:04:50  leftClickObject: point -46,315 off-screen, using fallback
+17:04:50  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:04:50  BANK TICK: up=true opened=true closed=true upStep=0
+17:04:51  BANK TICK: up=true opened=true closed=true upStep=0
+17:04:52  BANK TICK: up=true opened=true closed=true upStep=0
+17:04:53  BANK TICK: up=true opened=true closed=true upStep=0
+17:04:54  BANK TICK: up=true opened=true closed=true upStep=0
+17:04:55  BANK TICK: up=true opened=true closed=true upStep=0
+17:05:08  Build 101: booth find took 13200ms (HANG!)
+17:05:08  leftClickObject: point -46,315 off-screen, using fallback
+17:05:08  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:05:09  Screenshot saved: 2026-09-27_17-05-09_BANK_auto.png
+17:05:09  Build 82: cleaned up 1 old screenshots
+17:05:09  BANK TICK: up=true opened=true closed=true upStep=0
+17:05:10  Diag tail uploaded: 2026-09-27_17-05-09_BANK_diag.txt
+17:05:10  BANK TICK: up=true opened=true closed=true upStep=0
+17:05:11  BANK TICK: up=true opened=true closed=true upStep=0
+17:05:12  BANK TICK: up=true opened=true closed=true upStep=0
+17:05:13  BANK TICK: up=true opened=true closed=true upStep=0
+17:05:14  BANK TICK: up=true opened=true closed=true upStep=0
+17:05:27  Build 101: booth find took 13221ms (HANG!)
+17:05:27  leftClickObject: point -46,315 off-screen, using fallback
+17:05:27  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:05:28  BANK TICK: up=true opened=true closed=true upStep=0
+17:05:29  BANK TICK: up=true opened=true closed=true upStep=0
+17:05:29  Build 87: still waiting on poll booth step (tick 60)
+17:05:30  BANK TICK: up=true opened=true closed=true upStep=0
+17:05:31  BANK TICK: up=true opened=true closed=true upStep=0
+17:05:32  BANK TICK: up=true opened=true closed=true upStep=0
+17:05:33  BANK TICK: up=true opened=true closed=true upStep=0
+17:05:46  Build 101: booth find took 13200ms (HANG!)
+17:05:46  leftClickObject: point -46,315 off-screen, using fallback
+17:05:46  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:05:47  BANK TICK: up=true opened=true closed=true upStep=0
+17:05:47  BANK TICK: up=true opened=true closed=true upStep=0
+17:05:48  BANK TICK: up=true opened=true closed=true upStep=0
+17:05:49  BANK TICK: up=true opened=true closed=true upStep=0
+17:05:50  BANK TICK: up=true opened=true closed=true upStep=0
+17:05:51  BANK TICK: up=true opened=true closed=true upStep=0
+17:06:05  Build 101: booth find took 13120ms (HANG!)
+17:06:05  leftClickObject: point -46,315 off-screen, using fallback
+17:06:05  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:06:05  BANK TICK: up=true opened=true closed=true upStep=0
+17:06:06  BANK TICK: up=true opened=true closed=true upStep=0
+17:06:07  BANK TICK: up=true opened=true closed=true upStep=0
+17:06:08  BANK TICK: up=true opened=true closed=true upStep=0
+17:06:09  Screenshot saved: 2026-09-27_17-06-09_BANK_auto.png
+17:06:09  BANK TICK: up=true opened=true closed=true upStep=0
+17:06:10  Diag tail uploaded: 2026-09-27_17-06-09_BANK_diag.txt
+17:06:10  BANK TICK: up=true opened=true closed=true upStep=0
+17:06:24  Build 101: booth find took 13219ms (HANG!)
+17:06:24  leftClickObject: point -46,315 off-screen, using fallback
+17:06:24  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:06:24  BANK TICK: up=true opened=true closed=true upStep=0
+17:06:25  BANK TICK: up=true opened=true closed=true upStep=0
+17:06:26  BANK TICK: up=true opened=true closed=true upStep=0
+17:06:27  BANK TICK: up=true opened=true closed=true upStep=0
+17:06:28  BANK TICK: up=true opened=true closed=true upStep=0
+17:06:29  BANK TICK: up=true opened=true closed=true upStep=0
+17:06:42  Build 101: booth find took 13140ms (HANG!)
+17:06:42  leftClickObject: point -46,315 off-screen, using fallback
+17:06:42  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:06:43  BANK TICK: up=true opened=true closed=true upStep=0
+17:06:44  BANK TICK: up=true opened=true closed=true upStep=0
+17:06:45  BANK TICK: up=true opened=true closed=true upStep=0
+17:06:46  BANK TICK: up=true opened=true closed=true upStep=0
+17:06:47  BANK TICK: up=true opened=true closed=true upStep=0
+17:06:48  BANK TICK: up=true opened=true closed=true upStep=0
+17:07:01  Build 101: booth find took 13200ms (HANG!)
+17:07:01  leftClickObject: point -46,315 off-screen, using fallback
+17:07:01  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:07:02  BANK TICK: up=true opened=true closed=true upStep=0
+17:07:03  BANK TICK: up=true opened=true closed=true upStep=0
+17:07:03  Build 87: still waiting on poll booth step (tick 90)
+17:07:03  BANK TICK: up=true opened=true closed=true upStep=0
+17:07:05  BANK TICK: up=true opened=true closed=true upStep=0
+17:07:05  BANK TICK: up=true opened=true closed=true upStep=0
+17:07:06  BANK TICK: up=true opened=true closed=true upStep=0
+17:07:20  Build 101: booth find took 13141ms (HANG!)
+17:07:20  leftClickObject: point -46,315 off-screen, using fallback
+17:07:20  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:07:21  Screenshot saved: 2026-09-27_17-07-20_BANK_auto.png
+17:07:21  Build 82: cleaned up 1 old screenshots
+17:07:21  BANK TICK: up=true opened=true closed=true upStep=0
+17:07:21  Diag tail uploaded: 2026-09-27_17-07-20_BANK_diag.txt
+17:07:22  BANK TICK: up=true opened=true closed=true upStep=0
+17:07:22  BANK TICK: up=true opened=true closed=true upStep=0
+17:07:24  BANK TICK: up=true opened=true closed=true upStep=0
+17:07:24  BANK TICK: up=true opened=true closed=true upStep=0
+17:07:25  BANK TICK: up=true opened=true closed=true upStep=0
+17:07:39  Build 101: booth find took 13199ms (HANG!)
+17:07:39  leftClickObject: point -46,315 off-screen, using fallback
+17:07:39  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:07:39  BANK TICK: up=true opened=true closed=true upStep=0
+17:07:40  BANK TICK: up=true opened=true closed=true upStep=0
+17:07:41  BANK TICK: up=true opened=true closed=true upStep=0
+17:07:42  BANK TICK: up=true opened=true closed=true upStep=0
+17:07:43  BANK TICK: up=true opened=true closed=true upStep=0
+17:07:44  BANK TICK: up=true opened=true closed=true upStep=0
+17:07:57  Build 101: booth find took 13221ms (HANG!)
+17:07:57  leftClickObject: point -46,315 off-screen, using fallback
+17:07:57  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:07:58  BANK TICK: up=true opened=true closed=true upStep=0
+17:07:59  BANK TICK: up=true opened=true closed=true upStep=0
+17:08  BANK TICK: up=true opened=true closed=true upStep=0
+17:08:01  BANK TICK: up=true opened=true closed=true upStep=0
+17:08:02  BANK TICK: up=true opened=true closed=true upStep=0
+17:08:03  BANK TICK: up=true opened=true closed=true upStep=0
+17:08:16  Build 101: booth find took 13200ms (HANG!)
+17:08:16  leftClickObject: point -46,315 off-screen, using fallback
+17:08:16  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:08:17  BANK TICK: up=true opened=true closed=true upStep=0
+17:08:18  BANK TICK: up=true opened=true closed=true upStep=0
+17:08:19  BANK TICK: up=true opened=true closed=true upStep=0
+17:08:20  BANK TICK: up=true opened=true closed=true upStep=0
+17:08:21  Screenshot saved: 2026-09-27_17-08-21_BANK_auto.png
+17:08:21  Build 82: cleaned up 1 old screenshots
+17:08:21  BANK TICK: up=true opened=true closed=true upStep=0
+17:08:22  Diag tail uploaded: 2026-09-27_17-08-21_BANK_diag.txt
+17:08:22  BANK TICK: up=true opened=true closed=true upStep=0
+17:08:35  Build 101: booth find took 13180ms (HANG!)
+17:08:35  leftClickObject: point -46,315 off-screen, using fallback
+17:08:35  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:08:36  BANK TICK: up=true opened=true closed=true upStep=0
+17:08:37  BANK TICK: up=true opened=true closed=true upStep=0
+17:08:37  Build 87: still waiting on poll booth step (tick 120)
+17:08:38  BANK TICK: up=true opened=true closed=true upStep=0
+17:08:39  BANK TICK: up=true opened=true closed=true upStep=0
+17:08:40  BANK TICK: up=true opened=true closed=true upStep=0
+17:08:41  BANK TICK: up=true opened=true closed=true upStep=0
+17:08:54  Build 101: booth find took 13200ms (HANG!)
+17:08:54  leftClickObject: point -46,315 off-screen, using fallback
+17:08:54  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:08:55  BANK TICK: up=true opened=true closed=true upStep=0
+17:08:55  BANK TICK: up=true opened=true closed=true upStep=0
+17:08:56  BANK TICK: up=true opened=true closed=true upStep=0
+17:08:57  BANK TICK: up=true opened=true closed=true upStep=0
+17:08:58  BANK TICK: up=true opened=true closed=true upStep=0
+17:08:59  BANK TICK: up=true opened=true closed=true upStep=0
+17:09:13  Build 101: booth find took 13120ms (HANG!)
+17:09:13  leftClickObject: point -46,315 off-screen, using fallback
+17:09:13  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:09:13  BANK TICK: up=true opened=true closed=true upStep=0
+17:09:14  BANK TICK: up=true opened=true closed=true upStep=0
+17:09:15  BANK TICK: up=true opened=true closed=true upStep=0
+17:09:16  BANK TICK: up=true opened=true closed=true upStep=0
+17:09:17  BANK TICK: up=true opened=true closed=true upStep=0
+17:09:18  BANK TICK: up=true opened=true closed=true upStep=0
+17:09:31  Build 101: booth find took 13160ms (HANG!)
+17:09:31  leftClickObject: point -46,315 off-screen, using fallback
+17:09:31  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:09:32  Screenshot saved: 2026-09-27_17-09-32_BANK_auto.png
+17:09:32  Build 82: cleaned up 1 old screenshots
+17:09:32  BANK TICK: up=true opened=true closed=true upStep=0
+17:09:33  Diag tail uploaded: 2026-09-27_17-09-32_BANK_diag.txt
+17:09:33  BANK TICK: up=true opened=true closed=true upStep=0
+17:09:34  BANK TICK: up=true opened=true closed=true upStep=0
+17:09:35  BANK TICK: up=true opened=true closed=true upStep=0
+17:09:36  BANK TICK: up=true opened=true closed=true upStep=0
+17:09:37  BANK TICK: up=true opened=true closed=true upStep=0
+17:09:50  Build 101: booth find took 13200ms (HANG!)
+17:09:50  leftClickObject: point -46,315 off-screen, using fallback
+17:09:50  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:09:51  BANK TICK: up=true opened=true closed=true upStep=0
+17:09:52  BANK TICK: up=true opened=true closed=true upStep=0
+17:09:53  BANK TICK: up=true opened=true closed=true upStep=0
+17:09:54  BANK TICK: up=true opened=true closed=true upStep=0
+17:09:55  BANK TICK: up=true opened=true closed=true upStep=0
+17:09:56  BANK TICK: up=true opened=true closed=true upStep=0
+17:10:09  Build 101: booth find took 13179ms (HANG!)
+17:10:09  leftClickObject: point -46,315 off-screen, using fallback
+17:10:09  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:10:10  BANK TICK: up=true opened=true closed=true upStep=0
+17:10:11  dialogueTick: clicking continue
+17:10:12  BANK TICK: up=true opened=true closed=true upStep=0
+17:10:13  BANK TICK: up=true opened=true closed=true upStep=0
+17:10:13  Build 87: still waiting on poll booth step (tick 150)
+17:10:13  BANK TICK: up=true opened=true closed=true upStep=0
+17:10:15  BANK TICK: up=true opened=true closed=true upStep=0
+17:10:16  BANK TICK: up=true opened=true closed=true upStep=0
+17:10:16  BANK TICK: up=true opened=true closed=true upStep=0
+17:10:30  Build 101: booth find took 13219ms (HANG!)
+17:10:30  leftClickObject: point -46,315 off-screen, using fallback
+17:10:30  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:10:30  BANK TICK: up=true opened=true closed=true upStep=0
+17:10:31  BANK TICK: up=true opened=true closed=true upStep=0
+17:10:32  Screenshot saved: 2026-09-27_17-10-32_BANK_auto.png
+17:10:32  Build 82: cleaned up 1 old screenshots
+17:10:32  BANK TICK: up=true opened=true closed=true upStep=0
+17:10:33  Diag tail uploaded: 2026-09-27_17-10-32_BANK_diag.txt
+17:10:34  BANK TICK: up=true opened=true closed=true upStep=0
+17:10:34  BANK TICK: up=true opened=true closed=true upStep=0
+17:10:35  BANK TICK: up=true opened=true closed=true upStep=0
+17:10:49  Build 101: booth find took 13180ms (HANG!)
+17:10:49  leftClickObject: point -46,315 off-screen, using fallback
+17:10:49  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:10:49  BANK TICK: up=true opened=true closed=true upStep=0
+17:10:50  BANK TICK: up=true opened=true closed=true upStep=0
+17:10:51  BANK TICK: up=true opened=true closed=true upStep=0
+17:10:52  BANK TICK: up=true opened=true closed=true upStep=0
+17:10:53  BANK TICK: up=true opened=true closed=true upStep=0
+17:10:54  BANK TICK: up=true opened=true closed=true upStep=0
+17:11:07  Build 101: booth find took 13138ms (HANG!)
+17:11:07  leftClickObject: point -46,315 off-screen, using fallback
+17:11:07  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:11:08  BANK TICK: up=true opened=true closed=true upStep=0
+17:11:09  BANK TICK: up=true opened=true closed=true upStep=0
+17:11:10  BANK TICK: up=true opened=true closed=true upStep=0
+17:11:11  BANK TICK: up=true opened=true closed=true upStep=0
+17:11:12  BANK TICK: up=true opened=true closed=true upStep=0
+17:11:13  BANK TICK: up=true opened=true closed=true upStep=0
+17:11:26  Build 101: booth find took 13160ms (HANG!)
+17:11:26  leftClickObject: point -46,315 off-screen, using fallback
+17:11:26  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:11:27  BANK TICK: up=true opened=true closed=true upStep=0
+17:11:28  BANK TICK: up=true opened=true closed=true upStep=0
+17:11:29  BANK TICK: up=true opened=true closed=true upStep=0
+17:11:30  BANK TICK: up=true opened=true closed=true upStep=0
+17:11:31  BANK TICK: up=true opened=true closed=true upStep=0
+17:11:31  BANK TICK: up=true opened=true closed=true upStep=0
+17:11:45  Build 101: booth find took 13181ms (HANG!)
+17:11:45  leftClickObject: point -46,315 off-screen, using fallback
+17:11:45  Build 88: leftClickObject missed (booth off-screen?), retry next tick
+17:11:46  Screenshot saved: 2026-09-27_17-11-45_BANK_auto.png
+17:11:46  Build 82: cleaned up 1 old screenshots
