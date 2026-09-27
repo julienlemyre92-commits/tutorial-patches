@@ -1,0 +1,80 @@
+19:23:56  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+19:23:56  Build 118 - CHURCH NOT BANK. Live 2026-09-27 19:19 (Build 117): client restarted with the character INSIDE the chapel ('speak to Brother Brace' instruction on screen), but detectStartStage returned BANK — the Banker's 40-tile radius reaches the church (~20 tiles away) and was checked BEFORE Brother Brace, so the bot redid the Account Guide (Julien saw the friends tab open) and bank booth while the game waited for the chapel step. Fix: Brother Brace within 20 tiles now returns PRAYER before the Banker check; the bank-booth-within-10 check still covers genuinely being inside the bank room. Keeps Build 117 - BOTTOM-LINE TAB ICONS. 
+19:23:56  Build 117 - BOTTOM-LINE TAB ICONS (group 164). Live 2026-09-27 19:09 (Build 116): PRAYER flashing-icon prompt STILL looped — packed 548:69/161:64 null AND Build 116's name-match scan of groups 548+161 found nothing. Root cause: Julien's client runs the resizable BOTTOM-LINE layout — tab icons live in group 164 (RuneLite WidgetInfo RESIZABLE_VIEWPORT_BOTTOM_LINE_*_ICON, verified against WidgetInfo bytecode: prayer = 164:64), a group the bot never scanned. Fix: name-match scan + packed ID lists now cover all three layouts (548 fixed, 161 resizable-side, 164 bottom-line); group-164 icons accepted when the official-WidgetInfo-mapped widget exists, is visible and icon-sized (logged), never a blind derived child. Keeps Build 116 - VERIFIED TAB TARGETS. 
+19:23:56  Build 116 - VERIFIED TAB TARGETS FOR ALL TABS. Live 2026-09-27 19:00 (Build 115): PRAYER flashing-icon prompt looped — packed 548:69/161:64 never resolved in the WorldModel cache, so the forced physical click never fired and the script-915 fallback looped without setting the game's tutorial flag. Root cause: packed IDs are sequence-derived, never verified against the widget tree (same trap as ACC_MAN 548:72 in Build 115). Fix: WorldModel now name-matches EVERY tab icon on GameTick (groups 548/161, smallest match wins); clickTabIcon uses the verified target for all tabs (fresh name-matched bounds, else name-verified packed bounds), never a blind derived child. Keeps Build 115 - VERIFIED ACC_MAN TARGET + BOOTH PROXIMITY GATE. 
+19:23:56  Build 115 - VERIFIED ACC_MAN TARGET + BOOTH PROXIMITY GATE. Live 2026-09-27 18:45: 15+ physical clicks at packed 548:72 bounds (576,186) never advanced the tutorial (Build 113 live 18:42:20, loop 18:42:53-18:44:38) — the 548:72/161:67 IDs were derived by sequence-continuation (varc index 8), NEVER verified against the widget tree. Fix: clickTabIcon(ACC_MAN) now uses a VERIFIED target — prefers the tree-anchored name-matched bounds (fresh <10s), else the packed bounds only if the sampled widget NAME contains 'account'; logs packed name+bounds and name-matched bounds+age on EVERY click so the diag proves the target (never a blind derived child). Also: booth 'I can't reach that!' (seen in 18:44:41 screenshot) — Build 109's text-based recovery never fired, so clickBoothDirect now has a PROXIMITY GATE: if the player is >4 tiles from the booth, walk adjacent FIRST instead of clicking (text-independent). Keeps Build 114 - FORCED PHYSICAL TAB CLICK.
+19:23:56  Build 114 - FORCED PHYSICAL TAB CLICK. Live 2026-09-27 18:45: root cause of the 18:35-18:39 booth loop (click booth -> 'Click on the flashing icon to open your Account Management menu' -> click icon -> click booth, opened=false): clickTabIcon's isTabCurrent() fast path SILENTLY returned true when the account panel was already open (opened via the script-915 fallback in an earlier build), so the game's flashing-icon tutorial flag was never set and the physical click NEVER happened — no 'MOUSE CLICKED ACC_MAN' line was ever logged across ~48 booth clicks. Build 113's ACC_MAN packed IDs were correct but never reached because of this fast path. Fix: clickTabIcon(tab, forcePhysical) overload; every tutorial 'flashing icon' prompt (account, quests, prayer, magic, combat, equipment, settings, dagger-inventory, generic tab branch, account-guide step) now bypasses the fast path and always performs the real mouse click. Operational switches (open inventory to wield) keep the fast path. Keeps Build 113 - ACC_MAN PHYSICAL CLICK. Live 2026-09-27 18:36: root cause of the 18:32-18:34 booth loop (click booth -> 'Click on the flashing icon to open your Account Management menu' -> click icon -> click booth, opened=false): clickTabIcon(ACC_MAN) had NO case in its packed-ID switch (ids stayed null) and WorldModel never sampled the account icon, so the flashing icon was NEVER physically clicked. The script-915 fallback opens the tab panel but does not set the game's 'clicked the flashing icon' tutorial flag, so the Account Guide step never truly completes. Fix: ACC_MAN packed IDs 548:72 / 161:67 (varc index 8) sampled in WorldModel, plus a per-tick name-matched fallback (widget name/actions containing 'account'). Keeps Build 112 - SINGLE SCRIPT FIX. Live 2026-09-27 18:28: patch 111 shipped with TWO competing scripts (TutorialIslandScript + TutorialIslandAgentScript) in the same jar — bot went silent for 13+ min after downloading it, no screenshots, likely startup conflict. This build removes the agent, plugin injects the single TutorialIslandScript again. Keeps Build 110 - ACCOUNT GUIDE FIRST. Live 2026-09-27 18:08: fresh run looped the bank booth forever (click booth -> the game re-popped the 'Account (Management)' instruction dialog: 'The guide here will tell you all about your account. Just click on him to hear what he's got to say.' -> dismiss -> click booth, opened=false) because the bot tried to open the bank BEFORE talking to the Account Guide. Live proof the official order is Account Guide -> bank booth -> poll booth -> exit: the instruction dialog names him while the bank never opens. Now: doAccountGuideStep runs FIRST in doBank (talk, account tab, talk again), before any booth click. Keeps Build 109 (can't-reach recovery); Build 108 (Account Guide gate recovery); Build 107 (tab switch async); Build 106 (dialog-transition); Build 105 (bank door stall); Build 104 (name cache); Build 103; Build 102 (event-driven); Build 101; Build 100; Build 99; Build 98; Build 97; Build 96; Build 95; Build 94; Build 93; Build 92; Build 91; Build 90; Build 89; Build 88; Build 87; Build 86; Build 85; Build 84; Build 83; Build 82; Build 81/80.
+19:23:56  Build 104: loaded 75 cached object names (rev 240)
+19:23:56  REBUILD: WorldModel registered on event bus
+19:23:56  Build 78: Check-Update.ps1 $versionUrl line not in expected form, skipping repair
+19:23:56  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+19:24:15  Detected start stage: BANK
+19:24:16  Screenshot saved: 2026-09-27_19-24-15_BANK_auto.png
+19:24:16  Build 82: cleaned up 2 old screenshots
+19:24:16  BANK TICK: up=false opened=false closed=false upStep=0
+19:24:17  Diag tail uploaded: 2026-09-27_19-24-15_BANK_diag.txt
+19:24:17  dialogueTick: clicking continue
+19:24:17  Stage: null -> BANK
+19:24:18  BANK TICK: up=false opened=false closed=false upStep=0
+19:24:19  dialogueTick: clicking continue
+19:24:20  BANK TICK: up=false opened=false closed=false upStep=0
+19:24:20  Build 108: talking to the Account Guide (round 1/2)
+19:24:21  Talking to 'Account Guide'
+19:24:22  BANK TICK: up=false opened=false closed=false upStep=0
+19:24:23  dialogueTick: clicking continue
+19:24:24  BANK TICK: up=false opened=false closed=false upStep=0
+19:24:24  Build 108: first Account Guide talk done — opening account tab
+19:24:25  BANK TICK: up=false opened=false closed=false upStep=0
+19:24:26  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:24:26  Build 117: ACC_MAN check: [548:72 name='' bounds=[560,168 33x36]] [161:67 name='' bounds=null] | name-matched name='' bounds=[593,466 38x36] age=205ms
+19:24:26  clickTabIcon ACC_MAN: clicking name-matched() at 612,484
+19:24:26  MOUSE CLICKED ACC_MAN tab icon (name-matched())
+19:24:26  Build 108: account tab open — talking to Account Guide again
+19:24:26  BANK TICK: up=false opened=false closed=false upStep=0
+19:24:28  dialogueTick: clicking continue
+19:24:28  BANK TICK: up=false opened=false closed=false upStep=0
+19:24:29  Build 108: talking to the Account Guide (round 3/2)
+19:24:29  Talking to 'Account Guide'
+19:27:13  Screenshot saved: 2026-09-27_19-27-13_BANK_auto.png
+19:27:13  Build 82: cleaned up 3 old screenshots
+19:27:13  BANK TICK: up=false opened=false closed=false upStep=0
+19:27:14  Diag tail uploaded: 2026-09-27_19-27-13_BANK_diag.txt
+19:27:15  dialogueTick: clicking continue
+19:27:15  BANK TICK: up=false opened=false closed=false upStep=0
+19:27:16  Build 108: Account Guide done (both talks + account tab)
+19:27:16  BANK TICK: up=false opened=false closed=false upStep=0
+19:27:17  Build 80: upstairs by coordinate (y=3124) — not touching the ladder
+19:27:17  BANK TICK: up=true opened=false closed=false upStep=0
+19:27:18  Left-clicking object at 103,222
+19:27:18  Build 94: physically left-clicked bank booth
+19:27:19  BANK TICK: up=true opened=false closed=false upStep=0
+19:27:20  Left-clicking object at 164,222
+19:27:20  Build 94: physically left-clicked bank booth
+19:27:21  BANK TICK: up=true opened=false closed=false upStep=0
+19:27:22  dialogueTick: clicking continue
+19:27:23  BANK TICK: up=true opened=false closed=false upStep=0
+19:27:24  Bank open stability: 1/3
+19:27:24  BANK TICK: up=true opened=false closed=false upStep=0
+19:27:25  Bank open stability: 2/3
+19:27:26  BANK TICK: up=true opened=false closed=false upStep=0
+19:27:26  Bank is open (stable 3 ticks)
+19:27:26  Build 82: burst recording started (8 shots): bank-opened
+19:27:26  Screenshot saved: 2026-09-27_19-27-26_BANK_burst-bank-opened-8.png
+19:27:27  BANK TICK: up=true opened=true closed=false upStep=0
+19:27:27  Diag tail uploaded: 2026-09-27_19-27-26_BANK_diag.txt
+19:27:27  Screenshot saved: 2026-09-27_19-27-27_BANK_burst-bank-opened-7.png
+19:27:27  Bank closed
+19:27:28  BANK TICK: up=true opened=true closed=true upStep=0
+19:27:28  Screenshot saved: 2026-09-27_19-27-28_BANK_burst-bank-opened-6.png
+19:27:28  Diag tail uploaded: 2026-09-27_19-27-27_BANK_diag.txt
+19:27:29  Screenshot saved: 2026-09-27_19-27-29_BANK_burst-bank-opened-5.png
+19:27:29  Diag tail uploaded: 2026-09-27_19-27-28_BANK_diag.txt
+19:27:29  dialogueTick: clicking continue
+19:27:30  Diag tail uploaded: 2026-09-27_19-27-29_BANK_diag.txt
+19:27:30  Screenshot saved: 2026-09-27_19-27-30_BANK_burst-bank-opened-4.png
+19:27:30  BANK TICK: up=true opened=true closed=true upStep=0
+19:27:31  Diag tail uploaded: 2026-09-27_19-27-30_BANK_diag.txt
+19:27:31  Screenshot saved: 2026-09-27_19-27-30_BANK_burst-bank-opened-3.png
+19:27:31  Diag upload failed, HTTP 422
+19:27:31  BANK TICK: up=true opened=true closed=true upStep=0
+19:27:31  Screenshot saved: 2026-09-27_19-27-31_BANK_burst-bank-opened-2.png
