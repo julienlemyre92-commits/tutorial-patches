@@ -1,0 +1,41 @@
+14:33:30  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+14:33:30  Build 81 - force update (Build 80 coordinate fix never applied; version bump) (3 consecutive ticks open before marking opened, fixes 'up then straight back down') + burst recording (10 shots per tick after ladder climbs/bank events for flipbook diagnosis). Keeps Build 79: auto cache clear; Build 78: bank-ladder scan, cache-buster; Build 77: script-915 tabs; Build 75: bank UP
+14:33:30  Build 78: Check-Update.ps1 already cache-busted, nothing to do
+14:33:30  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+14:33:51  Detected start stage: COMBAT
+14:33:51  Screenshot saved: 2026-09-27_14-33-51_COMBAT_auto.png
+14:33:51  Build 78: bank ladder scan: found id 9727 at distance 1
+14:33:51  Combat complete: at the bank ladder
+14:33:51  Stage: null -> COMBAT
+14:33:52  Diag tail uploaded: 2026-09-27_14-33-51_COMBAT_diag.txt
+14:33:52  BANK TICK: up=false opened=false closed=false upStep=0
+14:33:54  dialogueTick: clicking continue
+14:33:54  Stage: COMBAT -> BANK
+14:33:55  BANK TICK: up=false opened=false closed=false upStep=0
+14:33:56  dialogueTick: clicking continue
+14:33:57  BANK TICK: up=false opened=false closed=false upStep=0
+14:33:58  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+14:33:58  Scene scan: click('Climb-up') returned true
+14:33:58  Build 80: climbing up... tick=1 clicked=true
+14:33:59  BANK TICK: up=false opened=false closed=false upStep=0
+14:33:59  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+14:33:59  Scene scan: click('Climb-up') returned true
+14:34  BANK TICK: up=false opened=false closed=false upStep=0
+14:34  Build 80: upstairs by coordinate (y=3125) — not touching the ladder
+14:34:01  BANK TICK: up=true opened=false closed=false upStep=0
+14:34:01  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3120, y=3124, plane=0)
+14:34:02  Build 74: clicked bank booth with 'Use': true
+14:34:02  BANK TICK: up=true opened=false closed=false upStep=0
+14:34:03  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3120, y=3124, plane=0)
+14:34:03  Build 74: clicked bank booth with 'Use': true
+14:34:04  Bank complete: Brother Brace nearby
+14:34:05  PRAYER TICK: talked1=false tab=false talked2=false
+14:34:05  Talking to 'Brother Brace'
+14:34:05  Stage: BANK -> PRAYER
+14:34:06  PRAYER TICK: talked1=false tab=false talked2=false
+14:34:06  Talking to 'Brother Brace'
+14:34:07  PRAYER TICK: talked1=false tab=false talked2=false
+14:34:09  dialogueTick: clicking continue
+14:34:10  PRAYER TICK: talked1=false tab=false talked2=false
+14:34:10  Talking to 'Brother Brace'
+14:38  Screenshot saved: 2026-09-27_14-37-59_PRAYER_auto.png
