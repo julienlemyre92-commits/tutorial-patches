@@ -1,0 +1,6 @@
+14:33:30  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+14:33:30  Build 81 - force update (Build 80 coordinate fix never applied; version bump) (3 consecutive ticks open before marking opened, fixes 'up then straight back down') + burst recording (10 shots per tick after ladder climbs/bank events for flipbook diagnosis). Keeps Build 79: auto cache clear; Build 78: bank-ladder scan, cache-buster; Build 77: script-915 tabs; Build 75: bank UP
+14:33:30  Build 78: Check-Update.ps1 already cache-busted, nothing to do
+14:33:30  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+14:33:51  Detected start stage: COMBAT
+14:33:51  Screenshot saved: 2026-09-27_14-33-51_COMBAT_auto.png
