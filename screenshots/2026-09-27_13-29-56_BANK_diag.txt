@@ -1,0 +1,4 @@
+13:29:36  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+13:29:36  Build 74 - bank DOWN the ladder (same plane 0, underground): 'went down' verified by movement after Climb-down, not flat NPC distance; bank booth clicked with 'Use' (openBank can't see it); clickDoorDirect now uses sync invoke so its return value works
+13:29:56  Detected start stage: BANK
+13:29:56  Screenshot saved: 2026-09-27_13-29-56_BANK_auto.png
