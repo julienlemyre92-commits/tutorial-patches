@@ -1,0 +1,250 @@
+18:02:13  Build 94: physically left-clicked bank booth
+18:02:13  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:14  dialogueTick: clicking continue
+18:02:15  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:16  Left-clicking object at 161,152
+18:02:16  Build 94: physically left-clicked bank booth
+18:02:16  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:18  dialogueTick: clicking continue
+18:02:19  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:19  Left-clicking object at 161,152
+18:02:19  Build 94: physically left-clicked bank booth
+18:02:20  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:21  dialogueTick: clicking continue
+18:02:22  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:22  Left-clicking object at 161,152
+18:02:22  Build 94: physically left-clicked bank booth
+18:02:23  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:24  dialogueTick: clicking continue
+18:02:25  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:26  Left-clicking object at 161,152
+18:02:26  Build 94: physically left-clicked bank booth
+18:02:26  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:28  dialogueTick: clicking continue
+18:02:28  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:29  Left-clicking object at 161,152
+18:02:29  Build 94: physically left-clicked bank booth
+18:02:29  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:31  dialogueTick: clicking continue
+18:02:32  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:32  Left-clicking object at 161,152
+18:02:32  Build 94: physically left-clicked bank booth
+18:02:33  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:34  dialogueTick: clicking continue
+18:02:35  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:35  Left-clicking object at 161,152
+18:02:35  Build 94: physically left-clicked bank booth
+18:02:36  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:37  dialogueTick: clicking continue
+18:02:38  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:39  Left-clicking object at 161,152
+18:02:39  Build 94: physically left-clicked bank booth
+18:02:39  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:41  dialogueTick: clicking continue
+18:02:41  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:42  Left-clicking object at 161,152
+18:02:42  Build 94: physically left-clicked bank booth
+18:02:43  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:44  dialogueTick: clicking continue
+18:02:45  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:45  Left-clicking object at 161,152
+18:02:45  Build 94: physically left-clicked bank booth
+18:02:46  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:47  dialogueTick: clicking continue
+18:02:48  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:48  Left-clicking object at 161,152
+18:02:48  Build 94: physically left-clicked bank booth
+18:02:49  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:50  dialogueTick: clicking continue
+18:02:51  Screenshot saved: 2026-09-27_18-02-51_BANK_auto.png
+18:02:51  Build 82: cleaned up 9 old screenshots
+18:02:51  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:52  Left-clicking object at 161,152
+18:02:52  Build 94: physically left-clicked bank booth
+18:02:52  Diag tail uploaded: 2026-09-27_18-02-51_BANK_diag.txt
+18:02:53  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:54  dialogueTick: clicking continue
+18:02:55  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:55  Left-clicking object at 161,152
+18:02:55  Build 94: physically left-clicked bank booth
+18:02:56  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:57  dialogueTick: clicking continue
+18:02:58  BANK TICK: up=true opened=false closed=false upStep=0
+18:02:58  Left-clicking object at 161,152
+18:02:58  Build 94: physically left-clicked bank booth
+18:02:59  BANK TICK: up=true opened=false closed=false upStep=0
+18:03  dialogueTick: clicking continue
+18:03:01  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:02  Left-clicking object at 161,152
+18:03:02  Build 94: physically left-clicked bank booth
+18:03:02  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:04  dialogueTick: clicking continue
+18:03:04  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:05  Left-clicking object at 161,152
+18:03:05  Build 94: physically left-clicked bank booth
+18:03:06  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:07  dialogueTick: clicking continue
+18:03:08  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:08  Left-clicking object at 161,152
+18:03:08  Build 94: physically left-clicked bank booth
+18:03:09  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:10  dialogueTick: clicking continue
+18:03:11  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:11  Left-clicking object at 161,152
+18:03:11  Build 94: physically left-clicked bank booth
+18:03:12  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:13  dialogueTick: clicking continue
+18:03:14  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:15  Left-clicking object at 161,152
+18:03:15  Build 94: physically left-clicked bank booth
+18:03:15  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:17  dialogueTick: clicking continue
+18:03:17  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:18  Left-clicking object at 161,152
+18:03:18  Build 94: physically left-clicked bank booth
+18:03:19  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:20  dialogueTick: clicking continue
+18:03:21  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:21  Left-clicking object at 161,152
+18:03:21  Build 94: physically left-clicked bank booth
+18:03:22  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:23  dialogueTick: clicking continue
+18:03:24  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:24  Left-clicking object at 161,152
+18:03:24  Build 94: physically left-clicked bank booth
+18:03:25  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:26  dialogueTick: clicking continue
+18:03:27  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:28  Left-clicking object at 161,152
+18:03:28  Build 94: physically left-clicked bank booth
+18:03:28  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:30  dialogueTick: clicking continue
+18:03:30  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:31  Left-clicking object at 161,152
+18:03:31  Build 94: physically left-clicked bank booth
+18:03:32  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:33  dialogueTick: clicking continue
+18:03:34  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:34  Left-clicking object at 161,152
+18:03:34  Build 94: physically left-clicked bank booth
+18:03:35  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:36  dialogueTick: clicking continue
+18:03:37  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:38  Left-clicking object at 161,152
+18:03:38  Build 94: physically left-clicked bank booth
+18:03:38  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:39  dialogueTick: clicking continue
+18:03:40  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:41  Left-clicking object at 161,152
+18:03:41  Build 94: physically left-clicked bank booth
+18:03:41  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:43  dialogueTick: clicking continue
+18:03:44  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:44  Left-clicking object at 161,152
+18:03:44  Build 94: physically left-clicked bank booth
+18:03:45  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:46  dialogueTick: clicking continue
+18:03:47  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:47  Left-clicking object at 161,152
+18:03:47  Build 94: physically left-clicked bank booth
+18:03:48  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:49  dialogueTick: clicking continue
+18:03:50  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:51  Left-clicking object at 161,152
+18:03:51  Build 94: physically left-clicked bank booth
+18:03:51  Screenshot saved: 2026-09-27_18-03-51_BANK_auto.png
+18:03:51  Build 82: cleaned up 1 old screenshots
+18:03:52  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:52  Diag tail uploaded: 2026-09-27_18-03-51_BANK_diag.txt
+18:03:53  dialogueTick: clicking continue
+18:03:54  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:54  Left-clicking object at 161,152
+18:03:54  Build 94: physically left-clicked bank booth
+18:03:55  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:56  dialogueTick: clicking continue
+18:03:57  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:57  Left-clicking object at 161,152
+18:03:57  Build 94: physically left-clicked bank booth
+18:03:58  BANK TICK: up=true opened=false closed=false upStep=0
+18:03:59  dialogueTick: clicking continue
+18:04  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:01  Left-clicking object at 161,152
+18:04:01  Build 94: physically left-clicked bank booth
+18:04:01  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:03  dialogueTick: clicking continue
+18:04:03  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:04  Left-clicking object at 161,152
+18:04:04  Build 94: physically left-clicked bank booth
+18:04:05  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:06  dialogueTick: clicking continue
+18:04:07  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:07  Left-clicking object at 161,152
+18:04:07  Build 94: physically left-clicked bank booth
+18:04:08  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:09  dialogueTick: clicking continue
+18:04:10  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:10  Left-clicking object at 161,152
+18:04:10  Build 94: physically left-clicked bank booth
+18:04:11  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:12  dialogueTick: clicking continue
+18:04:13  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:14  Left-clicking object at 161,152
+18:04:14  Build 94: physically left-clicked bank booth
+18:04:14  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:16  dialogueTick: clicking continue
+18:04:16  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:17  Left-clicking object at 161,152
+18:04:17  Build 94: physically left-clicked bank booth
+18:04:18  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:19  dialogueTick: clicking continue
+18:04:20  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:20  Left-clicking object at 161,152
+18:04:20  Build 94: physically left-clicked bank booth
+18:04:21  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:22  dialogueTick: clicking continue
+18:04:23  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:23  Left-clicking object at 161,152
+18:04:23  Build 94: physically left-clicked bank booth
+18:04:24  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:25  dialogueTick: clicking continue
+18:04:26  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:27  Left-clicking object at 161,152
+18:04:27  Build 94: physically left-clicked bank booth
+18:04:27  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:29  dialogueTick: clicking continue
+18:04:29  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:30  Left-clicking object at 161,152
+18:04:30  Build 94: physically left-clicked bank booth
+18:04:31  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:32  dialogueTick: clicking continue
+18:04:33  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:33  Left-clicking object at 161,152
+18:04:33  Build 94: physically left-clicked bank booth
+18:04:34  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:35  dialogueTick: clicking continue
+18:04:36  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:37  Left-clicking object at 161,152
+18:04:37  Build 94: physically left-clicked bank booth
+18:04:37  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:38  dialogueTick: clicking continue
+18:04:39  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:40  Left-clicking object at 161,152
+18:04:40  Build 94: physically left-clicked bank booth
+18:04:40  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:42  dialogueTick: clicking continue
+18:04:43  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:43  Left-clicking object at 161,152
+18:04:43  Build 94: physically left-clicked bank booth
+18:04:44  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:45  dialogueTick: clicking continue
+18:04:46  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:46  Left-clicking object at 161,152
+18:04:46  Build 94: physically left-clicked bank booth
+18:04:47  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:48  dialogueTick: clicking continue
+18:04:49  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:50  Left-clicking object at 161,152
+18:04:50  Build 94: physically left-clicked bank booth
+18:04:50  BANK TICK: up=true opened=false closed=false upStep=0
+18:04:51  dialogueTick: clicking continue
+18:04:53  Screenshot saved: 2026-09-27_18-04-52_BANK_auto.png
