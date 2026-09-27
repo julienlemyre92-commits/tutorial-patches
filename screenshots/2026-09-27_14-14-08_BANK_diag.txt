@@ -1,0 +1,31 @@
+14:01:44  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+14:01:44  Build 76 - bank-ladder mis-detection fix: detectStartStage + doCombat treat the bank ladder (objects 9727/9728, radius 5) as the BANK section (Vannaka is ~20 tiles from its underground end, caused a COMBAT mis-detect after restart). Keeps Build 75: bank UP the ladder, movement-verified, booth 'Use', sync invoke clickDoorDirect
+14:02:03  Detected start stage: COMBAT
+14:02:03  Screenshot saved: 2026-09-27_14-02-03_COMBAT_auto.png
+14:02:03  Combat complete: at the bank ladder
+14:02:03  Stage: null -> COMBAT
+14:02:04  Diag tail uploaded: 2026-09-27_14-02-03_COMBAT_diag.txt
+14:02:04  BANK TICK: up=false opened=false closed=false upStep=0
+14:02:06  dialogueTick: clicking continue
+14:02:06  Stage: COMBAT -> BANK
+14:02:07  BANK TICK: up=false opened=false closed=false upStep=0
+14:02:08  dialogueTick: clicking continue
+14:02:09  BANK TICK: up=false opened=false closed=false upStep=0
+14:02:10  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+14:02:10  Scene scan: click('Climb-up') returned true
+14:02:10  Build 75: climbing up... tick=1 moved=false bankerNear=false clicked=true
+14:02:11  BANK TICK: up=false opened=false closed=false upStep=0
+14:02:11  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+14:02:11  Scene scan: click('Climb-up') returned true
+14:02:12  BANK TICK: up=false opened=false closed=false upStep=0
+14:02:13  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+14:02:13  Scene scan: click('Climb-up') returned true
+14:02:13  Build 75: upstairs (banker near, moved=true clickedLadder=true)
+14:02:14  BANK TICK: up=true opened=false closed=false upStep=0
+14:06:12  Screenshot saved: 2026-09-27_14-06-12_BANK_auto.png
+14:06:12  BANK TICK: up=true opened=false closed=false upStep=0
+14:06:13  Diag tail uploaded: 2026-09-27_14-06-12_BANK_diag.txt
+14:10:10  Screenshot saved: 2026-09-27_14-10-10_BANK_auto.png
+14:10:10  BANK TICK: up=true opened=false closed=false upStep=0
+14:10:11  Diag tail uploaded: 2026-09-27_14-10-10_BANK_diag.txt
+14:14:08  Screenshot saved: 2026-09-27_14-14-08_BANK_auto.png
