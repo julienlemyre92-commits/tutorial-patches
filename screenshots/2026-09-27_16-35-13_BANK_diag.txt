@@ -1,0 +1,8 @@
+16:34:54  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+16:34:54  Build 100 - POLL FIX: pollDialogSeen transition (dialog opened->dismissed after booth click) completes the poll step state-based; title often unreadable so text check returned null forever (retry 4->10->16->22 loop seen 2026-09-27). Keeps Build 99 (booth pos cache + hang timing diag); Build 98 (pollBoothStillWanted cache); Build 97 (dialog cache); Build 96 (door fix); Build 95; Build 94; Build 93; Build 92; Build 91; Build 90; Build 89; Build 88; Build 87; Build 86; Build 85; Build 84; Build 83; Build 82; Build 81/80.
+16:34:54  Build 78: Check-Update.ps1 already cache-busted, nothing to do
+16:34:54  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+16:35:13  Build 78: bank ladder scan: no ladder within 5 tiles (37 game objects checked)
+16:35:13  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+16:35:13  Detected start stage: BANK
+16:35:14  Screenshot saved: 2026-09-27_16-35-13_BANK_auto.png
