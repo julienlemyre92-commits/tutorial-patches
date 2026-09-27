@@ -1,0 +1,36 @@
+14:49:27  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+14:49:27  Build 84 - completes the half-shipped Build 83 (its bank stage could never complete: bankDone was never set, and the dead climb-down tail led to the cave). Bank now completes only on OBSERVED open+close, exits through the bank door toward the church, never climbs back down; stage detector: bank booth within 10 tiles => BANK (disambiguates bank room from church). Keeps Build 83's Brother Brace shortcut removal + Banker-before-Brace detector order. Keeps Build 82: background burst thread + auto-cleanup old screenshots. Keeps Build 81 (Build 80 coordinate fix) (3 consecutive ticks open before marking opened, fixes 'up then straight back down') + burst recording. Keeps Build 79: auto cache clear; Build 78: bank-ladder scan, cache-buster; Build 77: script-915 tabs; Build 75: bank UP
+14:49:27  Build 78: Check-Update.ps1 already cache-busted, nothing to do
+14:49:27  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+14:49:44  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+14:49:44  Detected start stage: BANK
+14:49:44  Screenshot saved: 2026-09-27_14-49-44_BANK_auto.png
+14:49:44  BANK TICK: up=false opened=false closed=false upStep=0
+14:49:45  Diag tail uploaded: 2026-09-27_14-49-44_BANK_diag.txt
+14:49:45  dialogueTick: clicking continue
+14:49:45  Stage: null -> BANK
+14:49:46  BANK TICK: up=false opened=false closed=false upStep=0
+14:49:47  dialogueTick: clicking continue
+14:49:48  BANK TICK: up=false opened=false closed=false upStep=0
+14:49:48  Build 80: upstairs by coordinate (y=3125) — not touching the ladder
+14:49:49  BANK TICK: up=true opened=false closed=false upStep=0
+14:49:50  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+14:49:50  Build 74: clicked bank booth with 'Use': true
+14:49:51  BANK TICK: up=true opened=false closed=false upStep=0
+14:49:52  dialogueTick: clicking continue
+14:49:53  BANK TICK: up=true opened=false closed=false upStep=0
+14:49:53  Bank open stability: 1/3
+14:49:54  BANK TICK: up=true opened=false closed=false upStep=0
+14:49:54  Bank open stability: 2/3
+14:49:55  BANK TICK: up=true opened=false closed=false upStep=0
+14:49:55  Bank is open (stable 3 ticks)
+14:49:55  Build 82: burst recording started (8 shots): bank-opened
+14:49:55  Screenshot saved: 2026-09-27_14-49-55_BANK_burst-bank-opened-8.png
+14:49:55  Build 82: cleaned up 1 old screenshots
+14:49:56  BANK TICK: up=true opened=true closed=false upStep=0
+14:49:56  Bank closed
+14:49:56  Screenshot saved: 2026-09-27_14-49-56_BANK_burst-bank-opened-7.png
+14:49:56  Diag tail uploaded: 2026-09-27_14-49-55_BANK_diag.txt
+14:49:56  BANK TICK: up=true opened=true closed=true upStep=0
+14:49:57  Diag tail uploaded: 2026-09-27_14-49-56_BANK_diag.txt
+14:49:57  Screenshot saved: 2026-09-27_14-49-57_BANK_burst-bank-opened-6.png
