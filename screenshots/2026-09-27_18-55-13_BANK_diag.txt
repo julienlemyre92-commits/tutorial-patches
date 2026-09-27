@@ -1,0 +1,250 @@
+18:53:12  MOUSE CLICKED ACC_MAN tab icon
+18:53:12  Diag tail uploaded: 2026-09-27_18-53-11_BANK_diag.txt
+18:53:14  BANK TICK: up=false opened=false closed=false upStep=0
+18:53:15  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:53:15  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:53:15  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:53:15  MOUSE CLICKED ACC_MAN tab icon
+18:53:16  BANK TICK: up=false opened=false closed=false upStep=0
+18:53:17  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:53:17  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:53:17  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:53:17  MOUSE CLICKED ACC_MAN tab icon
+18:53:19  BANK TICK: up=false opened=false closed=false upStep=0
+18:53:20  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:53:20  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:53:20  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:53:20  MOUSE CLICKED ACC_MAN tab icon
+18:53:21  BANK TICK: up=false opened=false closed=false upStep=0
+18:53:22  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:53:22  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:53:22  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:53:22  MOUSE CLICKED ACC_MAN tab icon
+18:53:24  BANK TICK: up=false opened=false closed=false upStep=0
+18:53:24  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:53:24  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:53:24  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:53:24  MOUSE CLICKED ACC_MAN tab icon
+18:53:26  BANK TICK: up=false opened=false closed=false upStep=0
+18:53:27  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:53:27  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:53:27  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:53:27  MOUSE CLICKED ACC_MAN tab icon
+18:53:28  BANK TICK: up=false opened=false closed=false upStep=0
+18:53:29  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:53:29  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:53:29  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:53:29  MOUSE CLICKED ACC_MAN tab icon
+18:53:31  BANK TICK: up=false opened=false closed=false upStep=0
+18:53:31  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:53:31  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:53:31  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:53:31  MOUSE CLICKED ACC_MAN tab icon
+18:53:33  BANK TICK: up=false opened=false closed=false upStep=0
+18:53:34  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:53:34  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:53:34  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:53:34  MOUSE CLICKED ACC_MAN tab icon
+18:53:36  BANK TICK: up=false opened=false closed=false upStep=0
+18:53:36  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:53:36  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:53:36  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:53:36  MOUSE CLICKED ACC_MAN tab icon
+18:53:38  BANK TICK: up=false opened=false closed=false upStep=0
+18:53:39  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:53:39  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:53:39  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:53:39  MOUSE CLICKED ACC_MAN tab icon
+18:53:40  BANK TICK: up=false opened=false closed=false upStep=0
+18:53:41  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:53:41  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:53:41  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:53:41  MOUSE CLICKED ACC_MAN tab icon
+18:53:43  BANK TICK: up=false opened=false closed=false upStep=0
+18:53:43  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:53:43  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:53:43  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:53:43  MOUSE CLICKED ACC_MAN tab icon
+18:53:45  BANK TICK: up=false opened=false closed=false upStep=0
+18:53:45  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:53:45  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:53:45  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:53:45  MOUSE CLICKED ACC_MAN tab icon
+18:53:48  BANK TICK: up=false opened=false closed=false upStep=0
+18:53:49  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:53:49  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:53:49  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:53:49  MOUSE CLICKED ACC_MAN tab icon
+18:53:51  BANK TICK: up=false opened=false closed=false upStep=0
+18:53:51  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:53:51  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:53:51  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:53:51  MOUSE CLICKED ACC_MAN tab icon
+18:53:53  BANK TICK: up=false opened=false closed=false upStep=0
+18:53:54  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:53:54  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:53:54  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:53:54  MOUSE CLICKED ACC_MAN tab icon
+18:53:55  BANK TICK: up=false opened=false closed=false upStep=0
+18:53:56  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:53:56  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:53:56  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:53:56  MOUSE CLICKED ACC_MAN tab icon
+18:53:58  BANK TICK: up=false opened=false closed=false upStep=0
+18:53:58  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:53:58  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:53:58  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:53:58  MOUSE CLICKED ACC_MAN tab icon
+18:54  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:01  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:01  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:01  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:01  MOUSE CLICKED ACC_MAN tab icon
+18:54:03  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:03  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:03  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:03  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:03  MOUSE CLICKED ACC_MAN tab icon
+18:54:05  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:06  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:06  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:06  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:06  MOUSE CLICKED ACC_MAN tab icon
+18:54:07  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:08  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:08  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:08  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:08  MOUSE CLICKED ACC_MAN tab icon
+18:54:10  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:10  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:10  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:10  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:10  MOUSE CLICKED ACC_MAN tab icon
+18:54:13  Screenshot saved: 2026-09-27_18-54-12_BANK_auto.png
+18:54:13  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:13  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:13  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:13  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:13  MOUSE CLICKED ACC_MAN tab icon
+18:54:13  Diag tail uploaded: 2026-09-27_18-54-12_BANK_diag.txt
+18:54:15  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:16  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:16  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:16  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:16  MOUSE CLICKED ACC_MAN tab icon
+18:54:17  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:18  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:18  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:18  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:18  MOUSE CLICKED ACC_MAN tab icon
+18:54:20  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:20  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:20  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:20  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:20  MOUSE CLICKED ACC_MAN tab icon
+18:54:22  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:22  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:22  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:22  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:22  MOUSE CLICKED ACC_MAN tab icon
+18:54:24  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:25  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:25  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:25  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:25  MOUSE CLICKED ACC_MAN tab icon
+18:54:27  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:27  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:27  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:27  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:27  MOUSE CLICKED ACC_MAN tab icon
+18:54:29  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:30  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:30  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:30  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:30  MOUSE CLICKED ACC_MAN tab icon
+18:54:32  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:32  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:32  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:32  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:32  MOUSE CLICKED ACC_MAN tab icon
+18:54:34  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:35  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:35  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:35  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:35  MOUSE CLICKED ACC_MAN tab icon
+18:54:37  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:37  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:37  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:37  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:37  MOUSE CLICKED ACC_MAN tab icon
+18:54:39  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:40  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:40  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:40  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:40  MOUSE CLICKED ACC_MAN tab icon
+18:54:41  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:42  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:42  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:42  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:42  MOUSE CLICKED ACC_MAN tab icon
+18:54:44  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:44  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:44  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:44  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:44  MOUSE CLICKED ACC_MAN tab icon
+18:54:46  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:47  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:47  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:47  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:47  MOUSE CLICKED ACC_MAN tab icon
+18:54:49  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:49  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:49  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:49  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:49  MOUSE CLICKED ACC_MAN tab icon
+18:54:51  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:52  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:52  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:52  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:52  MOUSE CLICKED ACC_MAN tab icon
+18:54:53  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:54  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:54  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:54  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:54  MOUSE CLICKED ACC_MAN tab icon
+18:54:56  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:56  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:56  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:56  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:56  MOUSE CLICKED ACC_MAN tab icon
+18:54:58  BANK TICK: up=false opened=false closed=false upStep=0
+18:54:59  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:54:59  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:54:59  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:54:59  MOUSE CLICKED ACC_MAN tab icon
+18:55  BANK TICK: up=false opened=false closed=false upStep=0
+18:55:01  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:55:01  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:55:01  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:55:01  MOUSE CLICKED ACC_MAN tab icon
+18:55:03  BANK TICK: up=false opened=false closed=false upStep=0
+18:55:04  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:55:04  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:55:04  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:55:04  MOUSE CLICKED ACC_MAN tab icon
+18:55:06  BANK TICK: up=false opened=false closed=false upStep=0
+18:55:06  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:55:06  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:55:06  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:55:06  MOUSE CLICKED ACC_MAN tab icon
+18:55:08  BANK TICK: up=false opened=false closed=false upStep=0
+18:55:08  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:55:08  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:55:08  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:55:08  MOUSE CLICKED ACC_MAN tab icon
+18:55:10  BANK TICK: up=false opened=false closed=false upStep=0
+18:55:11  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:55:11  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:55:11  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:55:11  MOUSE CLICKED ACC_MAN tab icon
+18:55:13  Screenshot saved: 2026-09-27_18-55-13_BANK_auto.png
