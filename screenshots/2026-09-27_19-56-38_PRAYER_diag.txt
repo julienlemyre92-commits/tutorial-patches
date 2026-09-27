@@ -1,0 +1,250 @@
+19:56  Build 120 DUMP:   548:76 name='' actions='' bounds=[-1,-1 33x36] hidden=true
+19:56  Build 120 DUMP:   548:77 name='' actions='' bounds=[-1,-1 33x36] hidden=true
+19:56  Build 120 DUMP:   [group 548: 96 non-null children]
+19:56  Build 120 DUMP:   [group 161: 0 non-null children]
+19:56  Build 120 DUMP:   [group 164: 0 non-null children]
+19:56:01  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:01  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:01  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:01  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:01  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:02  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:02  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:02  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:02  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:02  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:03  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:03  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:03  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:03  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:03  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:03  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 4)
+19:56:03  switchTabViaScript: ran client script 915 -> PRAYER
+19:56:04  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:04  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:04  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:04  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:04  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:05  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:05  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:05  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:05  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:05  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:05  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:05  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:05  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:05  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:05  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:05  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 5)
+19:56:05  switchTabViaScript: ran client script 915 -> PRAYER
+19:56:05  !!! TAB BAR NOT RENDERED for PRAYER after 5 script switches. The in-game tab buttons are not visible (blank stone row). Client shows cache errors ('Mismatch in overlaid cache archive hash', worlds lookup failures) — clear the RuneLite cache or restart the client. Bot keeps retrying.
+19:56:06  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:06  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:06  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:06  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:06  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:07  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:07  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:07  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:07  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:07  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:08  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:08  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:08  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:08  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:08  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:08  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 6)
+19:56:08  switchTabViaScript: ran client script 915 -> PRAYER
+19:56:09  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:09  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:09  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:09  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:09  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:10  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:10  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:10  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:10  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:10  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:11  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:11  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:11  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:11  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:11  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:11  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 7)
+19:56:11  switchTabViaScript: ran client script 915 -> PRAYER
+19:56:11  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:11  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:11  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:11  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:11  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:12  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:12  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:12  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:12  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:12  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:13  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:13  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:13  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:13  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:13  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:13  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 8)
+19:56:13  switchTabViaScript: ran client script 915 -> PRAYER
+19:56:14  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:14  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:14  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:14  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:14  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:15  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:15  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:15  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:15  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:15  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:16  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:16  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:16  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:16  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:16  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:16  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 9)
+19:56:16  switchTabViaScript: ran client script 915 -> PRAYER
+19:56:17  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:17  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:17  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:17  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:17  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:18  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:18  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:18  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:18  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:18  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:18  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:18  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:18  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:18  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:18  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:18  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 10)
+19:56:18  switchTabViaScript: ran client script 915 -> PRAYER
+19:56:19  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:19  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:19  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:19  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:19  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:20  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:20  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:20  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:20  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:20  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:21  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:21  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:21  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:21  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:21  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:21  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 11)
+19:56:21  switchTabViaScript: ran client script 915 -> PRAYER
+19:56:22  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:22  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:22  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:22  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:22  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:23  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:23  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:23  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:23  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:23  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:24  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:24  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:24  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:24  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:24  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:24  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 12)
+19:56:24  switchTabViaScript: ran client script 915 -> PRAYER
+19:56:24  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:24  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:24  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:24  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:24  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:25  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:25  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:25  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:25  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:25  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:26  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:26  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:26  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:26  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:26  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:26  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 13)
+19:56:26  switchTabViaScript: ran client script 915 -> PRAYER
+19:56:27  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:27  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:27  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:27  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:27  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:28  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:28  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:28  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:28  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:28  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:29  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:29  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:29  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:29  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:29  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:29  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 14)
+19:56:29  switchTabViaScript: ran client script 915 -> PRAYER
+19:56:30  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:30  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:30  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:30  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:30  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:30  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:30  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:30  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:30  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:30  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:31  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:31  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:31  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:31  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:31  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:31  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 15)
+19:56:31  switchTabViaScript: ran client script 915 -> PRAYER
+19:56:32  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:32  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:32  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:32  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:32  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:33  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:33  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:33  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:33  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:33  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:34  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:34  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:34  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:34  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:34  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:34  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 16)
+19:56:34  switchTabViaScript: ran client script 915 -> PRAYER
+19:56:35  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:35  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:35  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:35  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:35  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:36  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:36  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:36  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:36  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:36  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:36  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:36  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:36  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:36  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:36  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:36  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 17)
+19:56:36  switchTabViaScript: ran client script 915 -> PRAYER
+19:56:37  PRAYER TICK: talked1=true tab=false talked2=false
+19:56:37  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:56:37  Build 120: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+19:56:37  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+19:56:37  clickTabIcon PRAYER: no verified target this tick — counting miss
+19:56:38  Screenshot saved: 2026-09-27_19-56-38_PRAYER_auto.png
