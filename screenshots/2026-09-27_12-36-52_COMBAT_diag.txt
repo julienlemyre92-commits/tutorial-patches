@@ -1,0 +1,4 @@
+12:36:28  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+12:36:28  Build 71 - TALK_VANNAKA no longer re-talks after the dialog closes (advances on dialog completion); ranging resumes via bronze arrows; missing shortbow triggers Vannaka re-grant attempts then an arrows drop to force a fresh grant
+12:36:52  Detected start stage: COMBAT
+12:36:52  Screenshot saved: 2026-09-27_12-36-52_COMBAT_auto.png
