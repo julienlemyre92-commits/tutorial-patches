@@ -1,0 +1,9 @@
+17:49:15  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+17:49:15  Build 107 - TAB SWITCH ASYNC FIX. Live 2026-09-27 17:43: bot stuck at Prayer tab — clickTabIcon's script-switch fallback ran async but checked isTabCurrent() immediately (script hadn't run yet), so it always failed and looped forever. Removed the broken immediate check; next tick's fast-path now detects the switch. Keeps Build 106 (dialog-transition); Build 105 (bank door stall); Build 104 (name cache); Build 103; Build 102 (event-driven); Build 101; Build 100; Build 99; Build 98; Build 97; Build 96; Build 95; Build 94; Build 93; Build 92; Build 91; Build 90; Build 89; Build 88; Build 87; Build 86; Build 85; Build 84; Build 83; Build 82; Build 81/80.
+17:49:15  Build 104: loaded 70 cached object names (rev 240)
+17:49:15  REBUILD: WorldModel registered on event bus
+17:49:15  Build 78: Check-Update.ps1 $versionUrl line not in expected form, skipping repair
+17:49:15  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+17:49:43  Detected start stage: BANK
+17:49:44  Screenshot saved: 2026-09-27_17-49-43_BANK_auto.png
+17:49:44  Build 82: cleaned up 5 old screenshots
