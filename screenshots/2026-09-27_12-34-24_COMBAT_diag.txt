@@ -1,0 +1,250 @@
+12:30:23  Talking to 'Combat Instructor'
+12:30:25  COMBAT TICK: TALK_VANNAKA
+12:30:25  dialogueTick: clicking continue
+12:30:26  COMBAT TICK: TALK_VANNAKA
+12:30:27  dialogueTick: clicking continue
+12:30:29  COMBAT TICK: TALK_VANNAKA
+12:30:29  Talking to 'Combat Instructor'
+12:30:30  COMBAT TICK: TALK_VANNAKA
+12:30:31  dialogueTick: clicking continue
+12:30:32  COMBAT TICK: TALK_VANNAKA
+12:30:33  dialogueTick: clicking continue
+12:30:34  COMBAT TICK: TALK_VANNAKA
+12:30:35  Talking to 'Combat Instructor'
+12:30:36  COMBAT TICK: TALK_VANNAKA
+12:30:37  dialogueTick: clicking continue
+12:30:38  COMBAT TICK: TALK_VANNAKA
+12:30:39  dialogueTick: clicking continue
+12:30:40  COMBAT TICK: TALK_VANNAKA
+12:30:41  Talking to 'Combat Instructor'
+12:30:42  COMBAT TICK: TALK_VANNAKA
+12:30:43  dialogueTick: clicking continue
+12:30:44  COMBAT TICK: TALK_VANNAKA
+12:30:45  dialogueTick: clicking continue
+12:30:46  COMBAT TICK: TALK_VANNAKA
+12:30:47  Talking to 'Combat Instructor'
+12:30:48  COMBAT TICK: TALK_VANNAKA
+12:30:48  dialogueTick: clicking continue
+12:30:49  COMBAT TICK: TALK_VANNAKA
+12:30:51  dialogueTick: clicking continue
+12:30:52  COMBAT TICK: TALK_VANNAKA
+12:30:53  Talking to 'Combat Instructor'
+12:30:54  COMBAT TICK: TALK_VANNAKA
+12:30:54  dialogueTick: clicking continue
+12:30:55  COMBAT TICK: TALK_VANNAKA
+12:30:57  dialogueTick: clicking continue
+12:30:58  COMBAT TICK: TALK_VANNAKA
+12:30:58  Talking to 'Combat Instructor'
+12:31  COMBAT TICK: TALK_VANNAKA
+12:31  dialogueTick: clicking continue
+12:31:01  COMBAT TICK: TALK_VANNAKA
+12:31:02  dialogueTick: clicking continue
+12:31:04  COMBAT TICK: TALK_VANNAKA
+12:31:04  Talking to 'Combat Instructor'
+12:31:06  COMBAT TICK: TALK_VANNAKA
+12:31:06  dialogueTick: clicking continue
+12:31:07  COMBAT TICK: TALK_VANNAKA
+12:31:08  dialogueTick: clicking continue
+12:31:10  COMBAT TICK: TALK_VANNAKA
+12:31:10  Talking to 'Combat Instructor'
+12:31:11  COMBAT TICK: TALK_VANNAKA
+12:31:12  dialogueTick: clicking continue
+12:31:13  COMBAT TICK: TALK_VANNAKA
+12:31:14  dialogueTick: clicking continue
+12:31:15  COMBAT TICK: TALK_VANNAKA
+12:31:16  Talking to 'Combat Instructor'
+12:31:17  COMBAT TICK: TALK_VANNAKA
+12:31:18  dialogueTick: clicking continue
+12:31:19  COMBAT TICK: TALK_VANNAKA
+12:31:20  dialogueTick: clicking continue
+12:31:21  COMBAT TICK: TALK_VANNAKA
+12:31:22  Talking to 'Combat Instructor'
+12:31:23  COMBAT TICK: TALK_VANNAKA
+12:31:24  dialogueTick: clicking continue
+12:31:25  COMBAT TICK: TALK_VANNAKA
+12:31:26  dialogueTick: clicking continue
+12:31:27  COMBAT TICK: TALK_VANNAKA
+12:31:28  Talking to 'Combat Instructor'
+12:31:29  COMBAT TICK: TALK_VANNAKA
+12:31:29  dialogueTick: clicking continue
+12:31:30  COMBAT TICK: TALK_VANNAKA
+12:31:32  dialogueTick: clicking continue
+12:31:33  COMBAT TICK: TALK_VANNAKA
+12:31:34  Talking to 'Combat Instructor'
+12:31:35  COMBAT TICK: TALK_VANNAKA
+12:31:35  dialogueTick: clicking continue
+12:31:36  COMBAT TICK: TALK_VANNAKA
+12:31:38  dialogueTick: clicking continue
+12:31:39  COMBAT TICK: TALK_VANNAKA
+12:31:39  Talking to 'Combat Instructor'
+12:31:41  COMBAT TICK: TALK_VANNAKA
+12:31:41  dialogueTick: clicking continue
+12:31:42  COMBAT TICK: TALK_VANNAKA
+12:31:44  dialogueTick: clicking continue
+12:31:45  COMBAT TICK: TALK_VANNAKA
+12:31:45  Talking to 'Combat Instructor'
+12:31:47  COMBAT TICK: TALK_VANNAKA
+12:31:47  dialogueTick: clicking continue
+12:31:48  COMBAT TICK: TALK_VANNAKA
+12:31:49  dialogueTick: clicking continue
+12:31:51  COMBAT TICK: TALK_VANNAKA
+12:31:51  Talking to 'Combat Instructor'
+12:31:52  COMBAT TICK: TALK_VANNAKA
+12:31:53  dialogueTick: clicking continue
+12:31:54  COMBAT TICK: TALK_VANNAKA
+12:31:55  dialogueTick: clicking continue
+12:31:56  COMBAT TICK: TALK_VANNAKA
+12:31:57  Talking to 'Combat Instructor'
+12:31:58  COMBAT TICK: TALK_VANNAKA
+12:31:59  dialogueTick: clicking continue
+12:32  COMBAT TICK: TALK_VANNAKA
+12:32:01  dialogueTick: clicking continue
+12:32:02  COMBAT TICK: TALK_VANNAKA
+12:32:03  Talking to 'Combat Instructor'
+12:32:04  COMBAT TICK: TALK_VANNAKA
+12:32:05  dialogueTick: clicking continue
+12:32:06  COMBAT TICK: TALK_VANNAKA
+12:32:07  dialogueTick: clicking continue
+12:32:08  COMBAT TICK: TALK_VANNAKA
+12:32:09  Talking to 'Combat Instructor'
+12:32:10  COMBAT TICK: TALK_VANNAKA
+12:32:10  dialogueTick: clicking continue
+12:32:11  COMBAT TICK: TALK_VANNAKA
+12:32:13  dialogueTick: clicking continue
+12:32:14  COMBAT TICK: TALK_VANNAKA
+12:32:15  Talking to 'Combat Instructor'
+12:32:16  COMBAT TICK: TALK_VANNAKA
+12:32:16  dialogueTick: clicking continue
+12:32:17  COMBAT TICK: TALK_VANNAKA
+12:32:19  dialogueTick: clicking continue
+12:32:20  COMBAT TICK: TALK_VANNAKA
+12:32:20  Talking to 'Combat Instructor'
+12:32:22  COMBAT TICK: TALK_VANNAKA
+12:32:22  dialogueTick: clicking continue
+12:32:23  Screenshot saved: 2026-09-27_12-32-23_COMBAT_auto.png
+12:32:23  COMBAT TICK: TALK_VANNAKA
+12:32:24  Diag tail uploaded: 2026-09-27_12-32-23_COMBAT_diag.txt
+12:32:25  dialogueTick: clicking continue
+12:32:26  COMBAT TICK: TALK_VANNAKA
+12:32:27  Talking to 'Combat Instructor'
+12:32:28  COMBAT TICK: TALK_VANNAKA
+12:32:28  dialogueTick: clicking continue
+12:32:29  COMBAT TICK: TALK_VANNAKA
+12:32:31  dialogueTick: clicking continue
+12:32:32  COMBAT TICK: TALK_VANNAKA
+12:32:32  Talking to 'Combat Instructor'
+12:32:34  COMBAT TICK: TALK_VANNAKA
+12:32:34  dialogueTick: clicking continue
+12:32:35  COMBAT TICK: TALK_VANNAKA
+12:32:36  dialogueTick: clicking continue
+12:32:38  COMBAT TICK: TALK_VANNAKA
+12:32:38  Talking to 'Combat Instructor'
+12:32:39  COMBAT TICK: TALK_VANNAKA
+12:32:40  dialogueTick: clicking continue
+12:32:41  COMBAT TICK: TALK_VANNAKA
+12:32:42  dialogueTick: clicking continue
+12:32:44  COMBAT TICK: TALK_VANNAKA
+12:32:44  Talking to 'Combat Instructor'
+12:32:45  COMBAT TICK: TALK_VANNAKA
+12:32:46  dialogueTick: clicking continue
+12:32:47  COMBAT TICK: TALK_VANNAKA
+12:32:48  dialogueTick: clicking continue
+12:32:49  COMBAT TICK: TALK_VANNAKA
+12:32:50  Talking to 'Combat Instructor'
+12:32:51  COMBAT TICK: TALK_VANNAKA
+12:32:52  dialogueTick: clicking continue
+12:32:53  COMBAT TICK: TALK_VANNAKA
+12:32:54  dialogueTick: clicking continue
+12:32:55  COMBAT TICK: TALK_VANNAKA
+12:32:56  Talking to 'Combat Instructor'
+12:32:57  COMBAT TICK: TALK_VANNAKA
+12:32:57  dialogueTick: clicking continue
+12:32:58  COMBAT TICK: TALK_VANNAKA
+12:33  dialogueTick: clicking continue
+12:33:01  COMBAT TICK: TALK_VANNAKA
+12:33:02  Talking to 'Combat Instructor'
+12:33:03  COMBAT TICK: TALK_VANNAKA
+12:33:03  dialogueTick: clicking continue
+12:33:04  COMBAT TICK: TALK_VANNAKA
+12:33:06  dialogueTick: clicking continue
+12:33:07  COMBAT TICK: TALK_VANNAKA
+12:33:07  Talking to 'Combat Instructor'
+12:33:09  COMBAT TICK: TALK_VANNAKA
+12:33:09  dialogueTick: clicking continue
+12:33:10  COMBAT TICK: TALK_VANNAKA
+12:33:11  dialogueTick: clicking continue
+12:33:13  COMBAT TICK: TALK_VANNAKA
+12:33:13  Talking to 'Combat Instructor'
+12:33:15  COMBAT TICK: TALK_VANNAKA
+12:33:15  dialogueTick: clicking continue
+12:33:16  COMBAT TICK: TALK_VANNAKA
+12:33:17  dialogueTick: clicking continue
+12:33:18  COMBAT TICK: TALK_VANNAKA
+12:33:19  Talking to 'Combat Instructor'
+12:33:20  COMBAT TICK: TALK_VANNAKA
+12:33:21  dialogueTick: clicking continue
+12:33:22  COMBAT TICK: TALK_VANNAKA
+12:33:23  dialogueTick: clicking continue
+12:33:24  COMBAT TICK: TALK_VANNAKA
+12:33:25  Talking to 'Combat Instructor'
+12:33:26  COMBAT TICK: TALK_VANNAKA
+12:33:27  dialogueTick: clicking continue
+12:33:28  COMBAT TICK: TALK_VANNAKA
+12:33:29  dialogueTick: clicking continue
+12:33:30  COMBAT TICK: TALK_VANNAKA
+12:33:31  Talking to 'Combat Instructor'
+12:33:32  COMBAT TICK: TALK_VANNAKA
+12:33:33  dialogueTick: clicking continue
+12:33:34  COMBAT TICK: TALK_VANNAKA
+12:33:35  dialogueTick: clicking continue
+12:33:36  COMBAT TICK: TALK_VANNAKA
+12:33:37  Talking to 'Combat Instructor'
+12:33:38  COMBAT TICK: TALK_VANNAKA
+12:33:38  dialogueTick: clicking continue
+12:33:39  COMBAT TICK: TALK_VANNAKA
+12:33:41  dialogueTick: clicking continue
+12:33:42  COMBAT TICK: TALK_VANNAKA
+12:33:43  Talking to 'Combat Instructor'
+12:33:44  COMBAT TICK: TALK_VANNAKA
+12:33:44  dialogueTick: clicking continue
+12:33:45  COMBAT TICK: TALK_VANNAKA
+12:33:47  dialogueTick: clicking continue
+12:33:48  COMBAT TICK: TALK_VANNAKA
+12:33:48  Talking to 'Combat Instructor'
+12:33:50  COMBAT TICK: TALK_VANNAKA
+12:33:50  dialogueTick: clicking continue
+12:33:51  COMBAT TICK: TALK_VANNAKA
+12:33:52  dialogueTick: clicking continue
+12:33:54  COMBAT TICK: TALK_VANNAKA
+12:33:54  Talking to 'Combat Instructor'
+12:33:55  COMBAT TICK: TALK_VANNAKA
+12:33:56  dialogueTick: clicking continue
+12:33:57  COMBAT TICK: TALK_VANNAKA
+12:33:58  dialogueTick: clicking continue
+12:33:59  COMBAT TICK: TALK_VANNAKA
+12:34  Talking to 'Combat Instructor'
+12:34:01  COMBAT TICK: TALK_VANNAKA
+12:34:02  dialogueTick: clicking continue
+12:34:03  COMBAT TICK: TALK_VANNAKA
+12:34:04  dialogueTick: clicking continue
+12:34:05  COMBAT TICK: TALK_VANNAKA
+12:34:06  Talking to 'Combat Instructor'
+12:34:07  COMBAT TICK: TALK_VANNAKA
+12:34:07  dialogueTick: clicking continue
+12:34:09  COMBAT TICK: TALK_VANNAKA
+12:34:10  dialogueTick: clicking continue
+12:34:11  COMBAT TICK: TALK_VANNAKA
+12:34:12  Talking to 'Combat Instructor'
+12:34:13  COMBAT TICK: TALK_VANNAKA
+12:34:13  dialogueTick: clicking continue
+12:34:14  COMBAT TICK: TALK_VANNAKA
+12:34:16  dialogueTick: clicking continue
+12:34:17  COMBAT TICK: TALK_VANNAKA
+12:34:18  Talking to 'Combat Instructor'
+12:34:19  COMBAT TICK: TALK_VANNAKA
+12:34:19  dialogueTick: clicking continue
+12:34:20  COMBAT TICK: TALK_VANNAKA
+12:34:22  dialogueTick: clicking continue
+12:34:23  COMBAT TICK: TALK_VANNAKA
+12:34:23  Talking to 'Combat Instructor'
+12:34:24  Screenshot saved: 2026-09-27_12-34-24_COMBAT_auto.png
