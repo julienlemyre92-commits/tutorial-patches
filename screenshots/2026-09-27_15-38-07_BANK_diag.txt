@@ -1,0 +1,131 @@
+15:36:47  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+15:36:47  Build 89 - POLL BOOTH VERIFY FIX: pollBoothStillWanted now matches "poll booth" (the object) instead of "poll" -- the post-click 'Moving on' instruction itself says 'Polls are run periodically...', so the old substring matched forever and the step never verified complete (seen 2026-09-27 15:29:50: retry ticks 4->10 re-clicking the booth with the 'Polls are run periodically' box still up). Keeps Build 88 (physical left-click: clickPollBoothDirect LEFT-clicks via leftClickObject since booth.click("Use") opened the menu but never selected the row); Build 87 (verified-by-dialog completion); Build 86 (verified bank exit); Build 85 (poll booth step); Build 84 (observed open+close); Build 83 (Brace-shortcut removal); Build 82 (bg burst + cleanup); Build 81/80 (coordinate fix). Previous: Build 87 - POLL BOOTH VERIFIED: the poll-booth step now completes only when the GAME's instruction dialog stops asking for the poll booth -- never on click()'s return value (Rs2TileObjectModel.click(String) returns true unconditionally). Live 2026-09-27: Build 85's click left the right-click menu open on 'Use Poll booth' (15:02:08 screenshot) and the poll instruction was still up at 15:03:10 -- the 'Use' never fired, yet the bot marched on. Retries the click + closes the polls interface (Escape) until the instruction advances. Also: doPrayer now walks south toward the church while the player is north of y=3115 instead of clicking an off-screen Brother Brace from the NPC cache (observed 60s no-progress loop from inside the bank). Keeps Build 86 (verified bank exit); Build 85 (poll booth step); Build 84 (observed open+close); Build 83 (Brace-shortcut removal); Build 82 (bg burst + cleanup); Build 81/80 (coordinate fix)
+15:36:47  Build 78: Check-Update.ps1 already cache-busted, nothing to do
+15:36:47  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+15:37:07  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:07  Detected start stage: BANK
+15:37:07  Screenshot saved: 2026-09-27_15-37-07_BANK_auto.png
+15:37:07  Build 82: cleaned up 1 old screenshots
+15:37:07  BANK TICK: up=false opened=false closed=false upStep=0
+15:37:08  Diag tail uploaded: 2026-09-27_15-37-07_BANK_diag.txt
+15:37:08  dialogueTick: clicking continue
+15:37:09  Stage: null -> BANK
+15:37:09  BANK TICK: up=false opened=false closed=false upStep=0
+15:37:11  dialogueTick: clicking continue
+15:37:11  BANK TICK: up=false opened=false closed=false upStep=0
+15:37:12  Build 80: upstairs by coordinate (y=3116) — not touching the ladder
+15:37:12  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:13  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:13  Build 74: clicked bank booth with 'Use': true
+15:37:14  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:14  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:15  Build 74: clicked bank booth with 'Use': true
+15:37:15  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:16  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:16  Build 74: clicked bank booth with 'Use': true
+15:37:17  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:17  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:18  Build 74: clicked bank booth with 'Use': true
+15:37:18  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:19  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:19  Build 74: clicked bank booth with 'Use': true
+15:37:20  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:20  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:20  Build 74: clicked bank booth with 'Use': true
+15:37:21  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:22  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:22  Build 74: clicked bank booth with 'Use': true
+15:37:22  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:23  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:23  Build 74: clicked bank booth with 'Use': true
+15:37:24  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:24  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:25  Build 74: clicked bank booth with 'Use': true
+15:37:25  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:26  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:26  Build 74: clicked bank booth with 'Use': true
+15:37:27  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:27  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:28  Build 74: clicked bank booth with 'Use': true
+15:37:28  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:29  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:29  Build 74: clicked bank booth with 'Use': true
+15:37:30  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:30  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:30  Build 74: clicked bank booth with 'Use': true
+15:37:31  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:32  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:32  Build 74: clicked bank booth with 'Use': true
+15:37:32  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:33  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:33  Build 74: clicked bank booth with 'Use': true
+15:37:34  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:34  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:35  Build 74: clicked bank booth with 'Use': true
+15:37:35  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:36  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:36  Build 74: clicked bank booth with 'Use': true
+15:37:37  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:37  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:38  Build 74: clicked bank booth with 'Use': true
+15:37:38  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:39  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:39  Build 74: clicked bank booth with 'Use': true
+15:37:40  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:40  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:40  Build 74: clicked bank booth with 'Use': true
+15:37:41  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:41  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:42  Build 74: clicked bank booth with 'Use': true
+15:37:42  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:43  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:43  Build 74: clicked bank booth with 'Use': true
+15:37:44  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:44  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:45  Build 74: clicked bank booth with 'Use': true
+15:37:45  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:46  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:46  Build 74: clicked bank booth with 'Use': true
+15:37:47  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:47  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:48  Build 74: clicked bank booth with 'Use': true
+15:37:48  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:49  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:49  Build 74: clicked bank booth with 'Use': true
+15:37:50  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:50  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:51  Build 74: clicked bank booth with 'Use': true
+15:37:51  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:52  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:52  Build 74: clicked bank booth with 'Use': true
+15:37:53  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:53  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:53  Build 74: clicked bank booth with 'Use': true
+15:37:54  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:55  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:55  Build 74: clicked bank booth with 'Use': true
+15:37:55  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:56  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:56  Build 74: clicked bank booth with 'Use': true
+15:37:57  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:57  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:58  Build 74: clicked bank booth with 'Use': true
+15:37:58  BANK TICK: up=true opened=false closed=false upStep=0
+15:37:59  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:37:59  Build 74: clicked bank booth with 'Use': true
+15:38  BANK TICK: up=true opened=false closed=false upStep=0
+15:38  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:38:01  Build 74: clicked bank booth with 'Use': true
+15:38:01  BANK TICK: up=true opened=false closed=false upStep=0
+15:38:02  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:38:02  Build 74: clicked bank booth with 'Use': true
+15:38:03  BANK TICK: up=true opened=false closed=false upStep=0
+15:38:03  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:38:03  Build 74: clicked bank booth with 'Use': true
+15:38:04  BANK TICK: up=true opened=false closed=false upStep=0
+15:38:05  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:38:05  Build 74: clicked bank booth with 'Use': true
+15:38:06  BANK TICK: up=true opened=false closed=false upStep=0
+15:38:06  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+15:38:06  Build 74: clicked bank booth with 'Use': true
+15:38:07  Screenshot saved: 2026-09-27_15-38-07_BANK_auto.png
