@@ -1,0 +1,250 @@
+19:05:37  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:38  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:38  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:38  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:38  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:38  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 143)
+19:05:38  switchTabViaScript: ran client script 915 -> PRAYER
+19:05:39  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:39  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:39  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:39  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:39  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:39  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:39  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:39  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:40  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:40  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:40  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:40  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:40  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 144)
+19:05:40  switchTabViaScript: ran client script 915 -> PRAYER
+19:05:41  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:41  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:41  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:41  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:42  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:42  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:42  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:42  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:43  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:43  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:43  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:43  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:43  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 145)
+19:05:43  switchTabViaScript: ran client script 915 -> PRAYER
+19:05:44  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:44  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:44  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:44  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:45  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:45  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:45  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:45  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:45  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:45  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:45  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:45  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:45  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 146)
+19:05:45  switchTabViaScript: ran client script 915 -> PRAYER
+19:05:46  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:46  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:46  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:46  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:47  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:47  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:47  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:47  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:48  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:48  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:48  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:48  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:48  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 147)
+19:05:48  switchTabViaScript: ran client script 915 -> PRAYER
+19:05:49  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:49  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:49  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:49  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:50  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:50  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:50  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:50  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:51  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:51  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:51  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:51  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:51  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 148)
+19:05:51  switchTabViaScript: ran client script 915 -> PRAYER
+19:05:51  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:51  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:51  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:51  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:52  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:52  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:52  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:52  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:53  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:53  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:53  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:53  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:53  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 149)
+19:05:53  switchTabViaScript: ran client script 915 -> PRAYER
+19:05:54  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:54  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:54  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:54  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:55  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:55  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:55  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:55  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:56  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:56  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:56  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:56  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:56  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 150)
+19:05:56  switchTabViaScript: ran client script 915 -> PRAYER
+19:05:57  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:57  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:57  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:57  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:57  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:57  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:57  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:57  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:58  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:58  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:58  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:58  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:05:58  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 151)
+19:05:58  switchTabViaScript: ran client script 915 -> PRAYER
+19:05:59  PRAYER TICK: talked1=true tab=false talked2=false
+19:05:59  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:05:59  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:05:59  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06  PRAYER TICK: talked1=true tab=false talked2=false
+19:06  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:01  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:01  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:01  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:01  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:01  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 152)
+19:06:01  switchTabViaScript: ran client script 915 -> PRAYER
+19:06:02  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:02  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:02  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:02  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:03  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:03  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:03  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:03  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:03  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:03  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:03  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:03  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:03  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 153)
+19:06:03  switchTabViaScript: ran client script 915 -> PRAYER
+19:06:04  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:04  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:04  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:04  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:05  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:05  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:05  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:05  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:06  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:06  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:06  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:06  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:06  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 154)
+19:06:06  switchTabViaScript: ran client script 915 -> PRAYER
+19:06:07  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:07  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:07  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:07  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:08  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:08  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:08  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:08  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:09  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:09  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:09  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:09  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:09  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 155)
+19:06:09  switchTabViaScript: ran client script 915 -> PRAYER
+19:06:09  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:09  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:09  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:09  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:10  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:10  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:10  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:10  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:11  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:11  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:11  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:11  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:11  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 156)
+19:06:11  switchTabViaScript: ran client script 915 -> PRAYER
+19:06:12  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:12  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:12  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:12  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:13  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:13  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:13  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:13  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:14  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:14  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:14  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:14  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:14  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 157)
+19:06:14  switchTabViaScript: ran client script 915 -> PRAYER
+19:06:15  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:15  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:15  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:15  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:16  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:16  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:16  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:16  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:16  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:16  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:16  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:16  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:16  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 158)
+19:06:16  switchTabViaScript: ran client script 915 -> PRAYER
+19:06:17  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:17  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:17  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:17  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:18  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:18  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:18  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:18  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:19  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:19  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:19  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:19  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:19  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 159)
+19:06:19  switchTabViaScript: ran client script 915 -> PRAYER
+19:06:20  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:20  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:20  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:20  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:21  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:21  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:21  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:21  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:22  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:22  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:22  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:22  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:22  clickTabIcon PRAYER: button missing 3x in a row — script-switch fallback (attempt 160)
+19:06:22  switchTabViaScript: ran client script 915 -> PRAYER
+19:06:22  PRAYER TICK: talked1=true tab=false talked2=false
+19:06:22  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+19:06:22  clickTabIcon PRAYER: widget not found (both IDs), trying name search
+19:06:22  clickTabIcon PRAYER: not in WorldModel cache, counting miss
+19:06:23  Screenshot saved: 2026-09-27_19-06-23_PRAYER_auto.png
