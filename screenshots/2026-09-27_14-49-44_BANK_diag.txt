@@ -1,0 +1,7 @@
+14:49:27  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+14:49:27  Build 84 - completes the half-shipped Build 83 (its bank stage could never complete: bankDone was never set, and the dead climb-down tail led to the cave). Bank now completes only on OBSERVED open+close, exits through the bank door toward the church, never climbs back down; stage detector: bank booth within 10 tiles => BANK (disambiguates bank room from church). Keeps Build 83's Brother Brace shortcut removal + Banker-before-Brace detector order. Keeps Build 82: background burst thread + auto-cleanup old screenshots. Keeps Build 81 (Build 80 coordinate fix) (3 consecutive ticks open before marking opened, fixes 'up then straight back down') + burst recording. Keeps Build 79: auto cache clear; Build 78: bank-ladder scan, cache-buster; Build 77: script-915 tabs; Build 75: bank UP
+14:49:27  Build 78: Check-Update.ps1 already cache-busted, nothing to do
+14:49:27  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+14:49:44  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+14:49:44  Detected start stage: BANK
+14:49:44  Screenshot saved: 2026-09-27_14-49-44_BANK_auto.png
