@@ -1,0 +1,26 @@
+14:22:49  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+14:22:49  Build 80 - bank stability (3 consecutive ticks open before marking opened, fixes 'up then straight back down') + burst recording (10 shots per tick after ladder climbs/bank events for flipbook diagnosis). Keeps Build 79: auto cache clear; Build 78: bank-ladder scan, cache-buster; Build 77: script-915 tabs; Build 75: bank UP
+14:22:49  Build 78: Check-Update.ps1 already cache-busted, nothing to do
+14:22:49  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+14:23:10  Build 78: bank ladder scan: found id 9727 at distance 1
+14:23:10  Detected start stage: BANK
+14:23:11  Screenshot saved: 2026-09-27_14-23-10_BANK_auto.png
+14:23:11  BANK TICK: up=false opened=false closed=false upStep=0
+14:23:11  Diag tail uploaded: 2026-09-27_14-23-10_BANK_diag.txt
+14:23:12  dialogueTick: clicking continue
+14:23:13  Stage: null -> BANK
+14:23:13  BANK TICK: up=false opened=false closed=false upStep=0
+14:23:15  dialogueTick: clicking continue
+14:23:16  BANK TICK: up=false opened=false closed=false upStep=0
+14:23:16  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+14:23:16  Scene scan: click('Climb-up') returned true
+14:23:17  Build 75: climbing up... tick=1 moved=false bankerNear=false clicked=true
+14:23:18  BANK TICK: up=false opened=false closed=false upStep=0
+14:23:18  Scene scan: found GameObject ID 9727 at WorldPoint(x=3111, y=9526, plane=0) (dist 1)
+14:23:18  Scene scan: click('Climb-up') returned true
+14:23:19  BANK TICK: up=false opened=false closed=false upStep=0
+14:23:19  Scene scan: found GameObject ID 9728 at WorldPoint(x=3111, y=3126, plane=0) (dist 1)
+14:23:19  Scene scan: click('Climb-up') returned true
+14:23:19  Build 75: upstairs (banker near, moved=true clickedLadder=true)
+14:23:19  Build 80: burst recording started (10 shots): climbed-up-ladder
+14:23:20  Screenshot saved: 2026-09-27_14-23-20_BANK_burst-climbed-up-ladder-9.png
