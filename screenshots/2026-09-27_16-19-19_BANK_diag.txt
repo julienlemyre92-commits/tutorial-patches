@@ -1,0 +1,8 @@
+16:19  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+16:19  Build 98 - SPEED: pollBoothStillWanted() now uses the shared dialog cache (was scanning widgets directly every tick after first click -> 15-24s ticks, 90s silences). Julien's <2s rule 2026-09-27. Keeps Build 97 (dialog cache); Build 96 (door fix); Build 95; Build 94; Build 93; Build 92; Build 91; Build 90; Build 89; Build 88; Build 87; Build 86; Build 85; Build 84; Build 83; Build 82; Build 81/80.
+16:19  Build 78: Check-Update.ps1 already cache-busted, nothing to do
+16:19  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+16:19:19  Build 78: bank ladder scan: found id 16683 (name match) at distance 5
+16:19:19  Detected start stage: BANK
+16:19:19  Screenshot saved: 2026-09-27_16-19-19_BANK_auto.png
+16:19:19  Build 82: cleaned up 2 old screenshots
