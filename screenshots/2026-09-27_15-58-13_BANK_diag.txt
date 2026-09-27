@@ -1,0 +1,8 @@
+15:57:53  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+15:57:53  Build 94 - POLL DONE VIA 'Moving on': pollBoothStillWanted returns false when dialog title is 'Moving on' -- the widget scan was picking up 'Poll booth' from the open right-click menu, keeping the step stuck forever. Julien caught live 2026-09-27. Keeps Build 93 (speed); Build 92; Build 91; Build 90; Build 89; Build 88; Build 87; Build 86; Build 85; Build 84; Build 83; Build 82; Build 81/80.
+15:57:53  Build 78: Check-Update.ps1 already cache-busted, nothing to do
+15:57:53  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+15:58:13  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3120, y=3124, plane=0)
+15:58:13  Detected start stage: BANK
+15:58:13  Screenshot saved: 2026-09-27_15-58-13_BANK_auto.png
+15:58:13  Build 82: cleaned up 1 old screenshots
