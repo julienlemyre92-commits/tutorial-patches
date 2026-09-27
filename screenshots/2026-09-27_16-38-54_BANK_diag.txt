@@ -1,0 +1,103 @@
+16:34:54  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+16:34:54  Build 100 - POLL FIX: pollDialogSeen transition (dialog opened->dismissed after booth click) completes the poll step state-based; title often unreadable so text check returned null forever (retry 4->10->16->22 loop seen 2026-09-27). Keeps Build 99 (booth pos cache + hang timing diag); Build 98 (pollBoothStillWanted cache); Build 97 (dialog cache); Build 96 (door fix); Build 95; Build 94; Build 93; Build 92; Build 91; Build 90; Build 89; Build 88; Build 87; Build 86; Build 85; Build 84; Build 83; Build 82; Build 81/80.
+16:34:54  Build 78: Check-Update.ps1 already cache-busted, nothing to do
+16:34:54  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+16:35:13  Build 78: bank ladder scan: no ladder within 5 tiles (37 game objects checked)
+16:35:13  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3121, y=3124, plane=0)
+16:35:13  Detected start stage: BANK
+16:35:14  Screenshot saved: 2026-09-27_16-35-13_BANK_auto.png
+16:35:14  BANK TICK: up=false opened=false closed=false upStep=0
+16:35:14  Diag tail uploaded: 2026-09-27_16-35-13_BANK_diag.txt
+16:35:15  dialogueTick: clicking continue
+16:35:15  Stage: null -> BANK
+16:35:16  BANK TICK: up=false opened=false closed=false upStep=0
+16:35:17  dialogueTick: clicking continue
+16:35:18  BANK TICK: up=false opened=false closed=false upStep=0
+16:35:18  Build 80: upstairs by coordinate (y=3120) — not touching the ladder
+16:35:19  BANK TICK: up=true opened=false closed=false upStep=0
+16:35:19  Scene scan: found WallObject ID 1516 at WorldPoint(x=3121, y=3119, plane=0) (dist 1)
+16:35:19  Scene scan: click('Open') returned true
+16:35:19  Build 94: outside bank, opened door to enter
+16:35:27  Build 94: walking inside bank (at WorldPoint(x=3121, y=3120, plane=0))
+16:35:28  BANK TICK: up=true opened=false closed=false upStep=0
+16:35:28  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:35:28  Left-clicking object at 152,314
+16:35:28  Build 94: physically left-clicked bank booth
+16:35:29  BANK TICK: up=true opened=false closed=false upStep=0
+16:35:29  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:35:29  Left-clicking object at 86,282
+16:35:30  Build 94: physically left-clicked bank booth
+16:35:30  BANK TICK: up=true opened=false closed=false upStep=0
+16:35:32  dialogueTick: clicking continue
+16:35:32  BANK TICK: up=true opened=false closed=false upStep=0
+16:35:34  dialogueTick: clicking continue
+16:35:35  BANK TICK: up=true opened=false closed=false upStep=0
+16:35:35  Bank open stability: 1/3
+16:35:35  BANK TICK: up=true opened=false closed=false upStep=0
+16:35:36  Bank open stability: 2/3
+16:35:36  BANK TICK: up=true opened=false closed=false upStep=0
+16:35:37  Bank is open (stable 3 ticks)
+16:35:37  Build 82: burst recording started (8 shots): bank-opened
+16:35:37  Screenshot saved: 2026-09-27_16-35-37_BANK_burst-bank-opened-8.png
+16:35:37  Build 82: cleaned up 1 old screenshots
+16:35:37  BANK TICK: up=true opened=true closed=false upStep=0
+16:35:38  Diag tail uploaded: 2026-09-27_16-35-37_BANK_diag.txt
+16:35:38  Screenshot saved: 2026-09-27_16-35-38_BANK_burst-bank-opened-7.png
+16:35:38  Bank closed
+16:35:38  BANK TICK: up=true opened=true closed=true upStep=0
+16:35:39  Screenshot saved: 2026-09-27_16-35-38_BANK_burst-bank-opened-6.png
+16:35:39  Diag tail uploaded: 2026-09-27_16-35-38_BANK_diag.txt
+16:35:39  Diag upload failed, HTTP 422
+16:35:39  Screenshot saved: 2026-09-27_16-35-39_BANK_burst-bank-opened-5.png
+16:35:40  dialogueTick: clicking continue
+16:35:40  Diag tail uploaded: 2026-09-27_16-35-39_BANK_diag.txt
+16:35:40  Screenshot saved: 2026-09-27_16-35-40_BANK_burst-bank-opened-4.png
+16:35:41  BANK TICK: up=true opened=true closed=true upStep=0
+16:35:41  Diag tail uploaded: 2026-09-27_16-35-40_BANK_diag.txt
+16:35:41  Screenshot saved: 2026-09-27_16-35-41_BANK_burst-bank-opened-3.png
+16:35:42  BANK TICK: up=true opened=true closed=true upStep=0
+16:35:42  Diag tail uploaded: 2026-09-27_16-35-41_BANK_diag.txt
+16:35:42  Screenshot saved: 2026-09-27_16-35-42_BANK_burst-bank-opened-2.png
+16:35:43  BANK TICK: up=true opened=true closed=true upStep=0
+16:35:43  Diag tail uploaded: 2026-09-27_16-35-42_BANK_diag.txt
+16:35:43  Screenshot saved: 2026-09-27_16-35-43_BANK_burst-bank-opened-1.png
+16:35:43  Build 82: burst recording finished: bank-opened
+16:35:43  BANK TICK: up=true opened=true closed=true upStep=0
+16:35:44  Diag tail uploaded: 2026-09-27_16-35-43_BANK_diag.txt
+16:37:14  Build 99: booth find took 90139ms (HANG!)
+16:37:14  Left-clicking object at 134,118
+16:37:14  Build 88: physically left-clicked poll booth
+16:37:14  Build 87: poll booth click attempt (retry tick 4)
+16:37:14  Build 82: burst recording started (8 shots): poll-booth-clicked
+16:37:15  Screenshot saved: 2026-09-27_16-37-14_BANK_burst-poll-booth-clicked-8.png
+16:37:15  Build 82: cleaned up 1 old screenshots
+16:37:15  Screenshot saved: 2026-09-27_16-37-15_BANK_auto.png
+16:37:15  BANK TICK: up=true opened=true closed=true upStep=0
+16:37:15  Diag tail uploaded: 2026-09-27_16-37-14_BANK_diag.txt
+16:37:15  Screenshot saved: 2026-09-27_16-37-15_BANK_burst-poll-booth-clicked-7.png
+16:37:16  Diag tail uploaded: 2026-09-27_16-37-15_BANK_diag.txt
+16:37:16  Diag upload failed, HTTP 409
+16:37:16  Screenshot saved: 2026-09-27_16-37-16_BANK_burst-poll-booth-clicked-6.png
+16:37:17  BANK TICK: up=true opened=true closed=true upStep=0
+16:37:17  Diag tail uploaded: 2026-09-27_16-37-16_BANK_diag.txt
+16:37:17  Screenshot saved: 2026-09-27_16-37-17_BANK_burst-poll-booth-clicked-5.png
+16:37:18  Diag tail uploaded: 2026-09-27_16-37-17_BANK_diag.txt
+16:37:18  BANK TICK: up=true opened=true closed=true upStep=0
+16:37:18  Screenshot saved: 2026-09-27_16-37-18_BANK_burst-poll-booth-clicked-4.png
+16:37:19  Screenshot saved: 2026-09-27_16-37-19_BANK_burst-poll-booth-clicked-3.png
+16:37:19  Diag tail uploaded: 2026-09-27_16-37-18_BANK_diag.txt
+16:37:19  BANK TICK: up=true opened=true closed=true upStep=0
+16:37:20  Diag tail uploaded: 2026-09-27_16-37-19_BANK_diag.txt
+16:37:20  Screenshot saved: 2026-09-27_16-37-19_BANK_burst-poll-booth-clicked-2.png
+16:37:20  Diag upload failed, HTTP 422
+16:37:21  Screenshot saved: 2026-09-27_16-37-20_BANK_burst-poll-booth-clicked-1.png
+16:37:21  BANK TICK: up=true opened=true closed=true upStep=0
+16:37:21  Build 82: burst recording finished: poll-booth-clicked
+16:37:21  Diag tail uploaded: 2026-09-27_16-37-20_BANK_diag.txt
+16:37:22  BANK TICK: up=true opened=true closed=true upStep=0
+16:38:53  Build 99: booth find took 89979ms (HANG!)
+16:38:53  Left-clicking object at 279,191
+16:38:53  Build 88: physically left-clicked poll booth
+16:38:53  Build 87: poll booth click attempt (retry tick 10)
+16:38:54  Screenshot saved: 2026-09-27_16-38-54_BANK_auto.png
+16:38:54  Build 82: cleaned up 9 old screenshots
