@@ -1,0 +1,250 @@
+16:00:18  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:19  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:00:19  Left-clicking object at 313,162
+16:00:19  Build 90: physically left-clicked bank booth
+16:00:20  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:21  dialogueTick: clicking continue
+16:00:22  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:22  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:00:22  Left-clicking object at 313,162
+16:00:22  Build 90: physically left-clicked bank booth
+16:00:23  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:24  dialogueTick: clicking continue
+16:00:25  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:26  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:00:26  Left-clicking object at 313,162
+16:00:26  Build 90: physically left-clicked bank booth
+16:00:26  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:27  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:00:27  Left-clicking object at 313,162
+16:00:27  Build 90: physically left-clicked bank booth
+16:00:27  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:28  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:00:28  Left-clicking object at 313,162
+16:00:28  Build 90: physically left-clicked bank booth
+16:00:29  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:29  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:00:29  Left-clicking object at 313,162
+16:00:29  Build 90: physically left-clicked bank booth
+16:00:30  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:30  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:00:30  Left-clicking object at 313,162
+16:00:30  Build 90: physically left-clicked bank booth
+16:00:31  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:31  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:00:32  Left-clicking object at 313,162
+16:00:32  Build 90: physically left-clicked bank booth
+16:00:32  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:33  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:00:33  Left-clicking object at 313,162
+16:00:33  Build 90: physically left-clicked bank booth
+16:00:33  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:35  dialogueTick: clicking continue
+16:00:36  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:36  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:00:36  Left-clicking object at 313,162
+16:00:36  Build 90: physically left-clicked bank booth
+16:00:37  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:38  dialogueTick: clicking continue
+16:00:39  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:39  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:00:39  Left-clicking object at 313,162
+16:00:39  Build 90: physically left-clicked bank booth
+16:00:40  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:41  dialogueTick: clicking continue
+16:00:42  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:43  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:00:43  Left-clicking object at 313,162
+16:00:43  Build 90: physically left-clicked bank booth
+16:00:43  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:45  dialogueTick: clicking continue
+16:00:46  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:46  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:00:46  Left-clicking object at 313,162
+16:00:46  Build 90: physically left-clicked bank booth
+16:00:47  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:48  dialogueTick: clicking continue
+16:00:49  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:49  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:00:50  Left-clicking object at 313,162
+16:00:50  Build 90: physically left-clicked bank booth
+16:00:50  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:51  dialogueTick: clicking continue
+16:00:52  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:53  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:00:53  Left-clicking object at 313,162
+16:00:53  Build 90: physically left-clicked bank booth
+16:00:54  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:55  dialogueTick: clicking continue
+16:00:56  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:56  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:00:56  Left-clicking object at 313,162
+16:00:56  Build 90: physically left-clicked bank booth
+16:00:57  BANK TICK: up=true opened=false closed=false upStep=0
+16:00:58  dialogueTick: clicking continue
+16:00:59  BANK TICK: up=true opened=false closed=false upStep=0
+16:01  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01  Left-clicking object at 313,162
+16:01  Build 90: physically left-clicked bank booth
+16:01  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:02  dialogueTick: clicking continue
+16:01:02  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:03  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:03  Left-clicking object at 313,162
+16:01:03  Build 90: physically left-clicked bank booth
+16:01:04  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:04  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:04  Left-clicking object at 313,162
+16:01:04  Build 90: physically left-clicked bank booth
+16:01:05  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:05  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:05  Left-clicking object at 313,162
+16:01:05  Build 90: physically left-clicked bank booth
+16:01:06  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:07  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:07  Left-clicking object at 313,162
+16:01:07  Build 90: physically left-clicked bank booth
+16:01:07  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:08  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:08  Left-clicking object at 313,162
+16:01:08  Build 90: physically left-clicked bank booth
+16:01:08  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:09  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:09  Left-clicking object at 313,162
+16:01:09  Build 90: physically left-clicked bank booth
+16:01:10  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:10  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:10  Left-clicking object at 313,162
+16:01:10  Build 90: physically left-clicked bank booth
+16:01:11  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:12  dialogueTick: clicking continue
+16:01:13  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:13  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:13  Left-clicking object at 313,162
+16:01:13  Build 90: physically left-clicked bank booth
+16:01:14  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:15  dialogueTick: clicking continue
+16:01:17  Screenshot saved: 2026-09-27_16-01-16_BANK_auto.png
+16:01:17  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:17  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:17  Left-clicking object at 313,162
+16:01:17  Build 90: physically left-clicked bank booth
+16:01:18  Diag tail uploaded: 2026-09-27_16-01-16_BANK_diag.txt
+16:01:18  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:19  dialogueTick: clicking continue
+16:01:20  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:20  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:20  Left-clicking object at 313,162
+16:01:20  Build 90: physically left-clicked bank booth
+16:01:21  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:22  dialogueTick: clicking continue
+16:01:23  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:24  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:24  Left-clicking object at 313,162
+16:01:24  Build 90: physically left-clicked bank booth
+16:01:24  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:26  dialogueTick: clicking continue
+16:01:27  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:27  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:27  Left-clicking object at 313,162
+16:01:27  Build 90: physically left-clicked bank booth
+16:01:28  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:29  dialogueTick: clicking continue
+16:01:30  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:30  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:30  Left-clicking object at 313,162
+16:01:30  Build 90: physically left-clicked bank booth
+16:01:31  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:32  dialogueTick: clicking continue
+16:01:33  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:34  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:34  Left-clicking object at 313,162
+16:01:34  Build 90: physically left-clicked bank booth
+16:01:34  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:36  dialogueTick: clicking continue
+16:01:37  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:37  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:37  Left-clicking object at 313,162
+16:01:37  Build 90: physically left-clicked bank booth
+16:01:38  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:39  dialogueTick: clicking continue
+16:01:40  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:41  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:41  Left-clicking object at 313,162
+16:01:41  Build 90: physically left-clicked bank booth
+16:01:41  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:42  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:42  Left-clicking object at 313,162
+16:01:42  Build 90: physically left-clicked bank booth
+16:01:42  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:43  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:43  Left-clicking object at 313,162
+16:01:43  Build 90: physically left-clicked bank booth
+16:01:44  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:44  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:44  Left-clicking object at 313,162
+16:01:44  Build 90: physically left-clicked bank booth
+16:01:45  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:45  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:45  Left-clicking object at 313,162
+16:01:45  Build 90: physically left-clicked bank booth
+16:01:46  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:46  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:46  Left-clicking object at 313,162
+16:01:46  Build 90: physically left-clicked bank booth
+16:01:47  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:48  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:48  Left-clicking object at 313,162
+16:01:48  Build 90: physically left-clicked bank booth
+16:01:48  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:50  dialogueTick: clicking continue
+16:01:50  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:51  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:51  Left-clicking object at 313,162
+16:01:51  Build 90: physically left-clicked bank booth
+16:01:52  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:53  dialogueTick: clicking continue
+16:01:54  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:54  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:54  Left-clicking object at 313,162
+16:01:54  Build 90: physically left-clicked bank booth
+16:01:55  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:56  dialogueTick: clicking continue
+16:01:57  BANK TICK: up=true opened=false closed=false upStep=0
+16:01:58  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:01:58  Left-clicking object at 313,162
+16:01:58  Build 90: physically left-clicked bank booth
+16:01:58  BANK TICK: up=true opened=false closed=false upStep=0
+16:02  dialogueTick: clicking continue
+16:02:01  BANK TICK: up=true opened=false closed=false upStep=0
+16:02:01  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:02:01  Left-clicking object at 313,162
+16:02:01  Build 90: physically left-clicked bank booth
+16:02:02  BANK TICK: up=true opened=false closed=false upStep=0
+16:02:03  dialogueTick: clicking continue
+16:02:04  BANK TICK: up=true opened=false closed=false upStep=0
+16:02:04  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:02:04  Left-clicking object at 313,162
+16:02:04  Build 90: physically left-clicked bank booth
+16:02:05  BANK TICK: up=true opened=false closed=false upStep=0
+16:02:06  dialogueTick: clicking continue
+16:02:07  BANK TICK: up=true opened=false closed=false upStep=0
+16:02:08  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:02:08  Left-clicking object at 313,162
+16:02:08  Build 90: physically left-clicked bank booth
+16:02:08  BANK TICK: up=true opened=false closed=false upStep=0
+16:02:10  dialogueTick: clicking continue
+16:02:11  BANK TICK: up=true opened=false closed=false upStep=0
+16:02:11  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:02:11  Left-clicking object at 313,162
+16:02:11  Build 90: physically left-clicked bank booth
+16:02:12  BANK TICK: up=true opened=false closed=false upStep=0
+16:02:13  dialogueTick: clicking continue
+16:02:14  BANK TICK: up=true opened=false closed=false upStep=0
+16:02:14  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:02:14  Left-clicking object at 313,162
+16:02:14  Build 90: physically left-clicked bank booth
+16:02:15  BANK TICK: up=true opened=false closed=false upStep=0
+16:02:16  dialogueTick: clicking continue
+16:02:17  Screenshot saved: 2026-09-27_16-02-17_BANK_auto.png
+16:02:18  Build 82: cleaned up 2 old screenshots
