@@ -1,0 +1,250 @@
+12:37:47  COMBAT TICK: FINAL_LADDER
+12:37:48  dialogueTick: clicking continue
+12:37:49  COMBAT TICK: FINAL_LADDER
+12:37:49  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:37:49  Scene scan: click('Climb-up') returned true
+12:37:50  COMBAT TICK: FINAL_LADDER
+12:37:52  COMBAT TICK: FINAL_LADDER
+12:37:53  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:37:53  Scene scan: click('Open') returned true
+12:37:54  COMBAT TICK: FINAL_LADDER
+12:37:55  dialogueTick: clicking continue
+12:37:56  COMBAT TICK: FINAL_LADDER
+12:37:56  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:37:56  Scene scan: click('Climb-up') returned true
+12:37:57  COMBAT TICK: FINAL_LADDER
+12:37:59  COMBAT TICK: FINAL_LADDER
+12:38  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:38  Scene scan: click('Open') returned true
+12:38:01  COMBAT TICK: FINAL_LADDER
+12:38:01  dialogueTick: clicking continue
+12:38:02  COMBAT TICK: FINAL_LADDER
+12:38:03  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:38:03  Scene scan: click('Climb-up') returned true
+12:38:04  COMBAT TICK: FINAL_LADDER
+12:38:06  COMBAT TICK: FINAL_LADDER
+12:38:06  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:38:06  Scene scan: click('Open') returned true
+12:38:07  COMBAT TICK: FINAL_LADDER
+12:38:08  dialogueTick: clicking continue
+12:38:09  COMBAT TICK: FINAL_LADDER
+12:38:10  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:38:10  Scene scan: click('Climb-up') returned true
+12:38:11  COMBAT TICK: FINAL_LADDER
+12:38:13  COMBAT TICK: FINAL_LADDER
+12:38:13  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:38:13  Scene scan: click('Open') returned true
+12:38:14  COMBAT TICK: FINAL_LADDER
+12:38:15  dialogueTick: clicking continue
+12:38:16  COMBAT TICK: FINAL_LADDER
+12:38:17  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:38:17  Scene scan: click('Climb-up') returned true
+12:38:17  COMBAT TICK: FINAL_LADDER
+12:38:19  COMBAT TICK: FINAL_LADDER
+12:38:20  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:38:20  Scene scan: click('Open') returned true
+12:38:21  COMBAT TICK: FINAL_LADDER
+12:38:22  dialogueTick: clicking continue
+12:38:23  COMBAT TICK: FINAL_LADDER
+12:38:23  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:38:23  Scene scan: click('Climb-up') returned true
+12:38:24  COMBAT TICK: FINAL_LADDER
+12:38:26  COMBAT TICK: FINAL_LADDER
+12:38:27  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:38:27  Scene scan: click('Open') returned true
+12:38:28  COMBAT TICK: FINAL_LADDER
+12:38:28  dialogueTick: clicking continue
+12:38:29  COMBAT TICK: FINAL_LADDER
+12:38:30  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:38:30  Scene scan: click('Climb-up') returned true
+12:38:31  COMBAT TICK: FINAL_LADDER
+12:38:33  COMBAT TICK: FINAL_LADDER
+12:38:34  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:38:34  Scene scan: click('Open') returned true
+12:38:34  COMBAT TICK: FINAL_LADDER
+12:38:35  dialogueTick: clicking continue
+12:38:36  COMBAT TICK: FINAL_LADDER
+12:38:37  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:38:37  Scene scan: click('Climb-up') returned true
+12:38:38  COMBAT TICK: FINAL_LADDER
+12:38:40  COMBAT TICK: FINAL_LADDER
+12:38:40  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:38:40  Scene scan: click('Open') returned true
+12:38:41  COMBAT TICK: FINAL_LADDER
+12:38:42  dialogueTick: clicking continue
+12:38:43  COMBAT TICK: FINAL_LADDER
+12:38:44  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:38:44  Scene scan: click('Climb-up') returned true
+12:38:45  COMBAT TICK: FINAL_LADDER
+12:38:47  COMBAT TICK: FINAL_LADDER
+12:38:47  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:38:47  Scene scan: click('Open') returned true
+12:38:48  COMBAT TICK: FINAL_LADDER
+12:38:49  dialogueTick: clicking continue
+12:38:50  COMBAT TICK: FINAL_LADDER
+12:38:50  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:38:50  Scene scan: click('Climb-up') returned true
+12:38:51  COMBAT TICK: FINAL_LADDER
+12:38:53  Screenshot saved: 2026-09-27_12-38-53_COMBAT_auto.png
+12:38:54  COMBAT TICK: FINAL_LADDER
+12:38:54  Diag tail uploaded: 2026-09-27_12-38-53_COMBAT_diag.txt
+12:38:54  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:38:54  Scene scan: click('Open') returned true
+12:38:55  COMBAT TICK: FINAL_LADDER
+12:38:56  dialogueTick: clicking continue
+12:38:57  COMBAT TICK: FINAL_LADDER
+12:38:58  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:38:58  Scene scan: click('Climb-up') returned true
+12:38:58  COMBAT TICK: FINAL_LADDER
+12:39  COMBAT TICK: FINAL_LADDER
+12:39:01  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:39:01  Scene scan: click('Open') returned true
+12:39:02  COMBAT TICK: FINAL_LADDER
+12:39:03  dialogueTick: clicking continue
+12:39:04  COMBAT TICK: FINAL_LADDER
+12:39:04  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:39:04  Scene scan: click('Climb-up') returned true
+12:39:05  COMBAT TICK: FINAL_LADDER
+12:39:07  COMBAT TICK: FINAL_LADDER
+12:39:08  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:39:08  Scene scan: click('Open') returned true
+12:39:09  COMBAT TICK: FINAL_LADDER
+12:39:09  dialogueTick: clicking continue
+12:39:11  COMBAT TICK: FINAL_LADDER
+12:39:11  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:39:11  Scene scan: click('Climb-up') returned true
+12:39:12  COMBAT TICK: FINAL_LADDER
+12:39:14  COMBAT TICK: FINAL_LADDER
+12:39:15  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:39:15  Scene scan: click('Open') returned true
+12:39:16  COMBAT TICK: FINAL_LADDER
+12:39:16  dialogueTick: clicking continue
+12:39:17  COMBAT TICK: FINAL_LADDER
+12:39:18  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:39:18  Scene scan: click('Climb-up') returned true
+12:39:19  COMBAT TICK: FINAL_LADDER
+12:39:21  COMBAT TICK: FINAL_LADDER
+12:39:21  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:39:21  Scene scan: click('Open') returned true
+12:39:22  COMBAT TICK: FINAL_LADDER
+12:39:23  dialogueTick: clicking continue
+12:39:24  COMBAT TICK: FINAL_LADDER
+12:39:25  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:39:25  Scene scan: click('Climb-up') returned true
+12:39:26  COMBAT TICK: FINAL_LADDER
+12:39:28  COMBAT TICK: FINAL_LADDER
+12:39:28  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:39:28  Scene scan: click('Open') returned true
+12:39:29  COMBAT TICK: FINAL_LADDER
+12:39:30  dialogueTick: clicking continue
+12:39:31  COMBAT TICK: FINAL_LADDER
+12:39:31  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:39:31  Scene scan: click('Climb-up') returned true
+12:39:32  COMBAT TICK: FINAL_LADDER
+12:39:34  COMBAT TICK: FINAL_LADDER
+12:39:35  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:39:35  Scene scan: click('Open') returned true
+12:39:36  COMBAT TICK: FINAL_LADDER
+12:39:37  dialogueTick: clicking continue
+12:39:38  COMBAT TICK: FINAL_LADDER
+12:39:39  dialogueTick: clicking continue
+12:39:40  COMBAT TICK: FINAL_LADDER
+12:39:40  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:39:40  Scene scan: click('Climb-up') returned true
+12:39:41  COMBAT TICK: FINAL_LADDER
+12:39:42  dialogueTick: clicking continue
+12:39:43  COMBAT TICK: FINAL_LADDER
+12:39:45  COMBAT TICK: FINAL_LADDER
+12:39:46  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:39:46  Scene scan: click('Open') returned true
+12:39:47  COMBAT TICK: FINAL_LADDER
+12:39:47  dialogueTick: clicking continue
+12:39:48  COMBAT TICK: FINAL_LADDER
+12:39:49  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:39:49  Scene scan: click('Climb-up') returned true
+12:39:50  COMBAT TICK: FINAL_LADDER
+12:39:52  COMBAT TICK: FINAL_LADDER
+12:39:52  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:39:52  Scene scan: click('Open') returned true
+12:39:53  COMBAT TICK: FINAL_LADDER
+12:39:54  dialogueTick: clicking continue
+12:39:55  COMBAT TICK: FINAL_LADDER
+12:39:56  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:39:56  Scene scan: click('Climb-up') returned true
+12:39:57  COMBAT TICK: FINAL_LADDER
+12:39:59  COMBAT TICK: FINAL_LADDER
+12:39:59  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:39:59  Scene scan: click('Open') returned true
+12:40  COMBAT TICK: FINAL_LADDER
+12:40:01  dialogueTick: clicking continue
+12:40:02  COMBAT TICK: FINAL_LADDER
+12:40:03  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:40:03  Scene scan: click('Climb-up') returned true
+12:40:04  COMBAT TICK: FINAL_LADDER
+12:40:05  COMBAT TICK: FINAL_LADDER
+12:40:06  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:40:06  Scene scan: click('Open') returned true
+12:40:07  COMBAT TICK: FINAL_LADDER
+12:40:08  dialogueTick: clicking continue
+12:40:09  COMBAT TICK: FINAL_LADDER
+12:40:09  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:40:09  Scene scan: click('Climb-up') returned true
+12:40:10  COMBAT TICK: FINAL_LADDER
+12:40:12  COMBAT TICK: FINAL_LADDER
+12:40:13  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:40:13  Scene scan: click('Open') returned true
+12:40:14  COMBAT TICK: FINAL_LADDER
+12:40:14  dialogueTick: clicking continue
+12:40:16  COMBAT TICK: FINAL_LADDER
+12:40:16  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:40:16  Scene scan: click('Climb-up') returned true
+12:40:17  COMBAT TICK: FINAL_LADDER
+12:40:19  COMBAT TICK: FINAL_LADDER
+12:40:20  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:40:20  Scene scan: click('Open') returned true
+12:40:21  COMBAT TICK: FINAL_LADDER
+12:40:21  dialogueTick: clicking continue
+12:40:22  COMBAT TICK: FINAL_LADDER
+12:40:23  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:40:23  Scene scan: click('Climb-up') returned true
+12:40:24  COMBAT TICK: FINAL_LADDER
+12:40:26  COMBAT TICK: FINAL_LADDER
+12:40:26  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:40:26  Scene scan: click('Open') returned true
+12:40:27  COMBAT TICK: FINAL_LADDER
+12:40:28  dialogueTick: clicking continue
+12:40:29  COMBAT TICK: FINAL_LADDER
+12:40:30  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:40:30  Scene scan: click('Climb-up') returned true
+12:40:31  COMBAT TICK: FINAL_LADDER
+12:40:33  COMBAT TICK: FINAL_LADDER
+12:40:33  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:40:33  Scene scan: click('Open') returned true
+12:40:34  COMBAT TICK: FINAL_LADDER
+12:40:35  dialogueTick: clicking continue
+12:40:36  COMBAT TICK: FINAL_LADDER
+12:40:36  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:40:36  Scene scan: click('Climb-up') returned true
+12:40:37  COMBAT TICK: FINAL_LADDER
+12:40:39  COMBAT TICK: FINAL_LADDER
+12:40:40  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:40:40  Scene scan: click('Open') returned true
+12:40:41  COMBAT TICK: FINAL_LADDER
+12:40:42  dialogueTick: clicking continue
+12:40:43  COMBAT TICK: FINAL_LADDER
+12:40:43  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:40:43  Scene scan: click('Climb-up') returned true
+12:40:44  COMBAT TICK: FINAL_LADDER
+12:40:46  COMBAT TICK: FINAL_LADDER
+12:40:47  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:40:47  Scene scan: click('Open') returned true
+12:40:48  COMBAT TICK: FINAL_LADDER
+12:40:48  dialogueTick: clicking continue
+12:40:49  COMBAT TICK: FINAL_LADDER
+12:40:50  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:40:50  Scene scan: click('Climb-up') returned true
+12:40:51  COMBAT TICK: FINAL_LADDER
+12:40:53  COMBAT TICK: FINAL_LADDER
+12:40:53  Scene scan: found WallObject ID 9719 at WorldPoint(x=3111, y=9518, plane=0) (dist 0)
+12:40:53  Scene scan: click('Open') returned true
+12:40:54  Screenshot saved: 2026-09-27_12-40-54_COMBAT_auto.png
