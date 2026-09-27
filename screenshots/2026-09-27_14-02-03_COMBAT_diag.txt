@@ -1,0 +1,4 @@
+14:01:44  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+14:01:44  Build 76 - bank-ladder mis-detection fix: detectStartStage + doCombat treat the bank ladder (objects 9727/9728, radius 5) as the BANK section (Vannaka is ~20 tiles from its underground end, caused a COMBAT mis-detect after restart). Keeps Build 75: bank UP the ladder, movement-verified, booth 'Use', sync invoke clickDoorDirect
+14:02:03  Detected start stage: COMBAT
+14:02:03  Screenshot saved: 2026-09-27_14-02-03_COMBAT_auto.png
