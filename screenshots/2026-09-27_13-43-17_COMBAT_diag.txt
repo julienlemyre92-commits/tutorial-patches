@@ -1,0 +1,250 @@
+13:41:50  COMBAT TICK: EQUIP_DAGGER
+13:41:50  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:41:50  clickTabIcon INVENTORY: name search also failed
+13:41:51  COMBAT TICK: EQUIP_DAGGER
+13:41:51  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:41:51  clickTabIcon INVENTORY: name search also failed
+13:41:52  COMBAT TICK: EQUIP_DAGGER
+13:41:52  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:41:52  clickTabIcon INVENTORY: name search also failed
+13:41:53  COMBAT TICK: EQUIP_DAGGER
+13:41:53  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:41:53  clickTabIcon INVENTORY: name search also failed
+13:41:54  COMBAT TICK: EQUIP_DAGGER
+13:41:54  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:41:54  clickTabIcon INVENTORY: name search also failed
+13:41:55  COMBAT TICK: EQUIP_DAGGER
+13:41:55  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:41:55  clickTabIcon INVENTORY: name search also failed
+13:41:56  COMBAT TICK: EQUIP_DAGGER
+13:41:56  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:41:56  clickTabIcon INVENTORY: name search also failed
+13:41:57  COMBAT TICK: EQUIP_DAGGER
+13:41:57  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:41:57  clickTabIcon INVENTORY: name search also failed
+13:41:58  COMBAT TICK: EQUIP_DAGGER
+13:41:58  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:41:58  clickTabIcon INVENTORY: name search also failed
+13:41:59  COMBAT TICK: EQUIP_DAGGER
+13:41:59  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:41:59  clickTabIcon INVENTORY: name search also failed
+13:42  COMBAT TICK: EQUIP_DAGGER
+13:42  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42  clickTabIcon INVENTORY: name search also failed
+13:42:01  COMBAT TICK: EQUIP_DAGGER
+13:42:01  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:01  clickTabIcon INVENTORY: name search also failed
+13:42:02  COMBAT TICK: EQUIP_DAGGER
+13:42:02  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:02  clickTabIcon INVENTORY: name search also failed
+13:42:03  COMBAT TICK: EQUIP_DAGGER
+13:42:03  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:03  clickTabIcon INVENTORY: name search also failed
+13:42:04  COMBAT TICK: EQUIP_DAGGER
+13:42:04  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:04  clickTabIcon INVENTORY: name search also failed
+13:42:05  COMBAT TICK: EQUIP_DAGGER
+13:42:05  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:05  clickTabIcon INVENTORY: name search also failed
+13:42:07  COMBAT TICK: EQUIP_DAGGER
+13:42:07  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:07  clickTabIcon INVENTORY: name search also failed
+13:42:08  COMBAT TICK: EQUIP_DAGGER
+13:42:08  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:08  clickTabIcon INVENTORY: name search also failed
+13:42:09  COMBAT TICK: EQUIP_DAGGER
+13:42:09  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:09  clickTabIcon INVENTORY: name search also failed
+13:42:10  COMBAT TICK: EQUIP_DAGGER
+13:42:10  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:10  clickTabIcon INVENTORY: name search also failed
+13:42:11  COMBAT TICK: EQUIP_DAGGER
+13:42:11  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:11  clickTabIcon INVENTORY: name search also failed
+13:42:12  COMBAT TICK: EQUIP_DAGGER
+13:42:12  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:12  clickTabIcon INVENTORY: name search also failed
+13:42:13  COMBAT TICK: EQUIP_DAGGER
+13:42:13  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:13  clickTabIcon INVENTORY: name search also failed
+13:42:14  COMBAT TICK: EQUIP_DAGGER
+13:42:14  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:14  clickTabIcon INVENTORY: name search also failed
+13:42:15  COMBAT TICK: EQUIP_DAGGER
+13:42:15  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:15  clickTabIcon INVENTORY: name search also failed
+13:42:16  COMBAT TICK: EQUIP_DAGGER
+13:42:16  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:16  clickTabIcon INVENTORY: name search also failed
+13:42:17  COMBAT TICK: EQUIP_DAGGER
+13:42:17  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:17  clickTabIcon INVENTORY: name search also failed
+13:42:18  COMBAT TICK: EQUIP_DAGGER
+13:42:18  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:18  clickTabIcon INVENTORY: name search also failed
+13:42:19  COMBAT TICK: EQUIP_DAGGER
+13:42:19  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:19  clickTabIcon INVENTORY: name search also failed
+13:42:20  COMBAT TICK: EQUIP_DAGGER
+13:42:20  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:20  clickTabIcon INVENTORY: name search also failed
+13:42:21  COMBAT TICK: EQUIP_DAGGER
+13:42:21  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:21  clickTabIcon INVENTORY: name search also failed
+13:42:22  COMBAT TICK: EQUIP_DAGGER
+13:42:22  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:22  clickTabIcon INVENTORY: name search also failed
+13:42:23  COMBAT TICK: EQUIP_DAGGER
+13:42:23  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:24  clickTabIcon INVENTORY: name search also failed
+13:42:25  COMBAT TICK: EQUIP_DAGGER
+13:42:25  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:25  clickTabIcon INVENTORY: name search also failed
+13:42:26  COMBAT TICK: EQUIP_DAGGER
+13:42:26  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:26  clickTabIcon INVENTORY: name search also failed
+13:42:27  COMBAT TICK: EQUIP_DAGGER
+13:42:27  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:27  clickTabIcon INVENTORY: name search also failed
+13:42:28  COMBAT TICK: EQUIP_DAGGER
+13:42:28  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:28  clickTabIcon INVENTORY: name search also failed
+13:42:29  COMBAT TICK: EQUIP_DAGGER
+13:42:29  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:29  clickTabIcon INVENTORY: name search also failed
+13:42:30  COMBAT TICK: EQUIP_DAGGER
+13:42:30  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:30  clickTabIcon INVENTORY: name search also failed
+13:42:31  COMBAT TICK: EQUIP_DAGGER
+13:42:31  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:31  clickTabIcon INVENTORY: name search also failed
+13:42:32  COMBAT TICK: EQUIP_DAGGER
+13:42:32  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:32  clickTabIcon INVENTORY: name search also failed
+13:42:33  COMBAT TICK: EQUIP_DAGGER
+13:42:33  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:33  clickTabIcon INVENTORY: name search also failed
+13:42:34  COMBAT TICK: EQUIP_DAGGER
+13:42:34  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:34  clickTabIcon INVENTORY: name search also failed
+13:42:35  COMBAT TICK: EQUIP_DAGGER
+13:42:35  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:35  clickTabIcon INVENTORY: name search also failed
+13:42:36  COMBAT TICK: EQUIP_DAGGER
+13:42:36  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:36  clickTabIcon INVENTORY: name search also failed
+13:42:37  COMBAT TICK: EQUIP_DAGGER
+13:42:37  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:37  clickTabIcon INVENTORY: name search also failed
+13:42:38  COMBAT TICK: EQUIP_DAGGER
+13:42:38  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:38  clickTabIcon INVENTORY: name search also failed
+13:42:39  COMBAT TICK: EQUIP_DAGGER
+13:42:39  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:39  clickTabIcon INVENTORY: name search also failed
+13:42:40  COMBAT TICK: EQUIP_DAGGER
+13:42:40  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:40  clickTabIcon INVENTORY: name search also failed
+13:42:41  COMBAT TICK: EQUIP_DAGGER
+13:42:42  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:42  clickTabIcon INVENTORY: name search also failed
+13:42:43  COMBAT TICK: EQUIP_DAGGER
+13:42:43  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:43  clickTabIcon INVENTORY: name search also failed
+13:42:44  COMBAT TICK: EQUIP_DAGGER
+13:42:44  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:44  clickTabIcon INVENTORY: name search also failed
+13:42:45  COMBAT TICK: EQUIP_DAGGER
+13:42:45  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:45  clickTabIcon INVENTORY: name search also failed
+13:42:46  COMBAT TICK: EQUIP_DAGGER
+13:42:46  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:46  clickTabIcon INVENTORY: name search also failed
+13:42:47  COMBAT TICK: EQUIP_DAGGER
+13:42:47  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:47  clickTabIcon INVENTORY: name search also failed
+13:42:48  COMBAT TICK: EQUIP_DAGGER
+13:42:48  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:48  clickTabIcon INVENTORY: name search also failed
+13:42:49  COMBAT TICK: EQUIP_DAGGER
+13:42:49  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:49  clickTabIcon INVENTORY: name search also failed
+13:42:50  COMBAT TICK: EQUIP_DAGGER
+13:42:50  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:50  clickTabIcon INVENTORY: name search also failed
+13:42:51  COMBAT TICK: EQUIP_DAGGER
+13:42:51  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:51  clickTabIcon INVENTORY: name search also failed
+13:42:52  COMBAT TICK: EQUIP_DAGGER
+13:42:52  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:52  clickTabIcon INVENTORY: name search also failed
+13:42:53  COMBAT TICK: EQUIP_DAGGER
+13:42:53  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:53  clickTabIcon INVENTORY: name search also failed
+13:42:54  COMBAT TICK: EQUIP_DAGGER
+13:42:54  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:54  clickTabIcon INVENTORY: name search also failed
+13:42:55  COMBAT TICK: EQUIP_DAGGER
+13:42:55  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:55  clickTabIcon INVENTORY: name search also failed
+13:42:56  COMBAT TICK: EQUIP_DAGGER
+13:42:56  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:56  clickTabIcon INVENTORY: name search also failed
+13:42:57  COMBAT TICK: EQUIP_DAGGER
+13:42:57  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:57  clickTabIcon INVENTORY: name search also failed
+13:42:58  COMBAT TICK: EQUIP_DAGGER
+13:42:58  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:42:58  clickTabIcon INVENTORY: name search also failed
+13:42:59  COMBAT TICK: EQUIP_DAGGER
+13:43  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:43  clickTabIcon INVENTORY: name search also failed
+13:43:01  COMBAT TICK: EQUIP_DAGGER
+13:43:01  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:43:01  clickTabIcon INVENTORY: name search also failed
+13:43:02  COMBAT TICK: EQUIP_DAGGER
+13:43:02  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:43:02  clickTabIcon INVENTORY: name search also failed
+13:43:03  COMBAT TICK: EQUIP_DAGGER
+13:43:03  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:43:03  clickTabIcon INVENTORY: name search also failed
+13:43:04  COMBAT TICK: EQUIP_DAGGER
+13:43:04  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:43:04  clickTabIcon INVENTORY: name search also failed
+13:43:05  COMBAT TICK: EQUIP_DAGGER
+13:43:05  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:43:05  clickTabIcon INVENTORY: name search also failed
+13:43:06  COMBAT TICK: EQUIP_DAGGER
+13:43:06  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:43:06  clickTabIcon INVENTORY: name search also failed
+13:43:07  COMBAT TICK: EQUIP_DAGGER
+13:43:07  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:43:07  clickTabIcon INVENTORY: name search also failed
+13:43:08  COMBAT TICK: EQUIP_DAGGER
+13:43:08  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:43:08  clickTabIcon INVENTORY: name search also failed
+13:43:09  COMBAT TICK: EQUIP_DAGGER
+13:43:09  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:43:09  clickTabIcon INVENTORY: name search also failed
+13:43:10  COMBAT TICK: EQUIP_DAGGER
+13:43:10  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:43:10  clickTabIcon INVENTORY: name search also failed
+13:43:11  COMBAT TICK: EQUIP_DAGGER
+13:43:11  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:43:11  clickTabIcon INVENTORY: name search also failed
+13:43:12  COMBAT TICK: EQUIP_DAGGER
+13:43:12  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:43:12  clickTabIcon INVENTORY: name search also failed
+13:43:13  COMBAT TICK: EQUIP_DAGGER
+13:43:13  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:43:13  clickTabIcon INVENTORY: name search also failed
+13:43:14  COMBAT TICK: EQUIP_DAGGER
+13:43:14  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:43:14  clickTabIcon INVENTORY: name search also failed
+13:43:15  COMBAT TICK: EQUIP_DAGGER
+13:43:15  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:43:15  clickTabIcon INVENTORY: name search also failed
+13:43:16  COMBAT TICK: EQUIP_DAGGER
+13:43:16  clickTabIcon INVENTORY: widget not found (both IDs), trying name search
+13:43:16  clickTabIcon INVENTORY: name search also failed
+13:43:17  Screenshot saved: 2026-09-27_13-43-17_COMBAT_auto.png
