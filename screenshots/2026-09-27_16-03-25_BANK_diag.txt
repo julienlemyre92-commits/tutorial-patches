@@ -1,0 +1,7 @@
+16:03:05  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+16:03:05  Build 96 - DOOR FIX: bank exit only clicks 'Open' if player is stuck (not moving south). Clicking 'Open' every 5 ticks on an already-open door toggled it closed, causing the open/close loop Julien saw live 2026-09-27. Keeps Build 95 (tag fixes); Build 94 (poll 'Moving on'); Build 93 (speed); Build 92; Build 91; Build 90; Build 89; Build 88; Build 87; Build 86; Build 85; Build 84; Build 83; Build 82; Build 81/80.
+16:03:05  Build 78: Check-Update.ps1 already cache-busted, nothing to do
+16:03:05  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+16:03:25  findObjectFast: scene hit for 'Bank booth' at WorldPoint(x=3122, y=3124, plane=0)
+16:03:25  Detected start stage: BANK
+16:03:25  Screenshot saved: 2026-09-27_16-03-25_BANK_auto.png
