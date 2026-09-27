@@ -1,0 +1,7 @@
+14:18:02  Plugin started. Log file: C:\Users\No 1/.runelite/tutorial-island-diag.log
+14:18:02  Build 79 - auto cache clear: plugin writes clear-cache-requested.txt on cache corruption (tab bar not rendering), Supervisor.bat self-repair clears %USERPROFILE%\.runelite\cache on next launch. Keeps Build 78: bank-ladder raw scene scan, Check-Update.ps1 cache-buster; Build 77: script-915 tab-switch; Build 75: bank UP the ladder
+14:18:02  Build 78: Check-Update.ps1 already cache-busted, nothing to do
+14:18:02  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+14:18:34  Build 78: bank ladder scan: found id 9727 at distance 1
+14:18:34  Detected start stage: BANK
+14:18:34  Screenshot saved: 2026-09-27_14-18-34_BANK_auto.png
