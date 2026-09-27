@@ -1,0 +1,250 @@
+18:42:59  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43  MOUSE CLICKED ACC_MAN tab icon
+18:43:01  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:02  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:02  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:02  MOUSE CLICKED ACC_MAN tab icon
+18:43:04  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:04  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:04  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:04  MOUSE CLICKED ACC_MAN tab icon
+18:43:06  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:07  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:07  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:07  MOUSE CLICKED ACC_MAN tab icon
+18:43:09  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:09  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:09  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:09  MOUSE CLICKED ACC_MAN tab icon
+18:43:11  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:11  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:11  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:12  MOUSE CLICKED ACC_MAN tab icon
+18:43:13  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:14  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:14  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:14  MOUSE CLICKED ACC_MAN tab icon
+18:43:16  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:16  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:16  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:16  MOUSE CLICKED ACC_MAN tab icon
+18:43:18  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:19  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:19  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:19  MOUSE CLICKED ACC_MAN tab icon
+18:43:21  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:21  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:21  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:21  MOUSE CLICKED ACC_MAN tab icon
+18:43:23  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:23  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:23  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:23  MOUSE CLICKED ACC_MAN tab icon
+18:43:25  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:26  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:26  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:26  MOUSE CLICKED ACC_MAN tab icon
+18:43:28  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:28  Build 108: Account Guide done (both talks + account tab)
+18:43:28  BANK TICK: up=false opened=false closed=false upStep=0
+18:43:29  Build 80: upstairs by coordinate (y=3124) — not touching the ladder
+18:43:30  BANK TICK: up=true opened=false closed=false upStep=0
+18:43:30  Left-clicking object at 25,222
+18:43:30  Build 94: physically left-clicked bank booth
+18:43:31  BANK TICK: up=true opened=false closed=false upStep=0
+18:43:33  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:33  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:33  MOUSE CLICKED ACC_MAN tab icon
+18:43:35  BANK TICK: up=true opened=false closed=false upStep=0
+18:43:35  Left-clicking object at 25,222
+18:43:36  Build 94: physically left-clicked bank booth
+18:43:36  BANK TICK: up=true opened=false closed=false upStep=0
+18:43:38  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:38  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:38  MOUSE CLICKED ACC_MAN tab icon
+18:43:40  BANK TICK: up=true opened=false closed=false upStep=0
+18:43:40  Left-clicking object at 25,222
+18:43:40  Build 94: physically left-clicked bank booth
+18:43:41  Screenshot saved: 2026-09-27_18-43-41_BANK_auto.png
+18:43:41  Build 82: cleaned up 1 old screenshots
+18:43:41  BANK TICK: up=true opened=false closed=false upStep=0
+18:43:42  Diag tail uploaded: 2026-09-27_18-43-41_BANK_diag.txt
+18:43:43  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:43  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:43  MOUSE CLICKED ACC_MAN tab icon
+18:43:45  BANK TICK: up=true opened=false closed=false upStep=0
+18:43:46  Left-clicking object at 25,222
+18:43:46  Build 94: physically left-clicked bank booth
+18:43:47  BANK TICK: up=true opened=false closed=false upStep=0
+18:43:48  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:48  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:48  MOUSE CLICKED ACC_MAN tab icon
+18:43:50  BANK TICK: up=true opened=false closed=false upStep=0
+18:43:51  Left-clicking object at 25,222
+18:43:51  Build 94: physically left-clicked bank booth
+18:43:52  BANK TICK: up=true opened=false closed=false upStep=0
+18:43:53  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:53  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:43:53  MOUSE CLICKED ACC_MAN tab icon
+18:43:55  BANK TICK: up=true opened=false closed=false upStep=0
+18:43:56  Left-clicking object at 25,222
+18:43:56  Build 94: physically left-clicked bank booth
+18:43:56  BANK TICK: up=true opened=false closed=false upStep=0
+18:43:57  Left-clicking object at 25,222
+18:43:57  Build 94: physically left-clicked bank booth
+18:43:58  BANK TICK: up=true opened=false closed=false upStep=0
+18:43:59  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:43:59  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:44  MOUSE CLICKED ACC_MAN tab icon
+18:44:01  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:02  Left-clicking object at 25,222
+18:44:02  Build 94: physically left-clicked bank booth
+18:44:03  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:04  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:44:04  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:44:05  MOUSE CLICKED ACC_MAN tab icon
+18:44:06  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:07  Left-clicking object at 25,222
+18:44:07  Build 94: physically left-clicked bank booth
+18:44:08  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:09  Left-clicking object at 25,222
+18:44:09  Build 94: physically left-clicked bank booth
+18:44:09  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:11  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:44:11  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:44:11  MOUSE CLICKED ACC_MAN tab icon
+18:44:13  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:14  Left-clicking object at 25,222
+18:44:14  Build 94: physically left-clicked bank booth
+18:44:15  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:16  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:44:16  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:44:16  MOUSE CLICKED ACC_MAN tab icon
+18:44:18  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:19  Left-clicking object at 25,222
+18:44:19  Build 94: physically left-clicked bank booth
+18:44:20  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:21  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:44:21  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:44:21  MOUSE CLICKED ACC_MAN tab icon
+18:44:23  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:24  Left-clicking object at 25,222
+18:44:24  Build 94: physically left-clicked bank booth
+18:44:24  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:26  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:44:26  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:44:26  MOUSE CLICKED ACC_MAN tab icon
+18:44:28  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:29  Left-clicking object at 25,222
+18:44:29  Build 94: physically left-clicked bank booth
+18:44:30  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:30  Left-clicking object at 25,222
+18:44:30  Build 94: physically left-clicked bank booth
+18:44:31  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:33  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:44:33  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:44:33  MOUSE CLICKED ACC_MAN tab icon
+18:44:35  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:35  Left-clicking object at 25,222
+18:44:36  Build 94: physically left-clicked bank booth
+18:44:36  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:38  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:44:38  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:44:38  MOUSE CLICKED ACC_MAN tab icon
+18:44:40  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:41  Left-clicking object at 25,222
+18:44:41  Build 94: physically left-clicked bank booth
+18:44:42  Screenshot saved: 2026-09-27_18-44-41_BANK_auto.png
+18:44:42  Build 82: cleaned up 1 old screenshots
+18:44:42  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:42  Diag tail uploaded: 2026-09-27_18-44-41_BANK_diag.txt
+18:44:43  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:44:43  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:44:43  MOUSE CLICKED ACC_MAN tab icon
+18:44:45  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:46  Left-clicking object at 25,222
+18:44:46  Build 94: physically left-clicked bank booth
+18:44:47  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:48  Left-clicking object at 25,222
+18:44:48  Build 94: physically left-clicked bank booth
+18:44:48  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:50  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:44:50  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:44:50  MOUSE CLICKED ACC_MAN tab icon
+18:44:52  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:52  Left-clicking object at 25,222
+18:44:53  Build 94: physically left-clicked bank booth
+18:44:53  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:54  Left-clicking object at 25,222
+18:44:54  Build 94: physically left-clicked bank booth
+18:44:55  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:56  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:44:56  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:44:56  MOUSE CLICKED ACC_MAN tab icon
+18:44:58  BANK TICK: up=true opened=false closed=false upStep=0
+18:44:59  Left-clicking object at 25,222
+18:44:59  Build 94: physically left-clicked bank booth
+18:45  BANK TICK: up=true opened=false closed=false upStep=0
+18:45:01  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:45:01  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:45:01  MOUSE CLICKED ACC_MAN tab icon
+18:45:03  BANK TICK: up=true opened=false closed=false upStep=0
+18:45:04  Left-clicking object at 25,222
+18:45:04  Build 94: physically left-clicked bank booth
+18:45:05  BANK TICK: up=true opened=false closed=false upStep=0
+18:45:06  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:45:06  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:45:06  MOUSE CLICKED ACC_MAN tab icon
+18:45:08  BANK TICK: up=true opened=false closed=false upStep=0
+18:45:09  Left-clicking object at 25,222
+18:45:09  Build 94: physically left-clicked bank booth
+18:45:10  BANK TICK: up=true opened=false closed=false upStep=0
+18:45:11  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:45:11  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:45:11  MOUSE CLICKED ACC_MAN tab icon
+18:45:13  BANK TICK: up=true opened=false closed=false upStep=0
+18:45:14  Left-clicking object at 25,222
+18:45:14  Build 94: physically left-clicked bank booth
+18:45:15  BANK TICK: up=true opened=false closed=false upStep=0
+18:45:16  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:45:16  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:45:16  MOUSE CLICKED ACC_MAN tab icon
+18:45:18  BANK TICK: up=true opened=false closed=false upStep=0
+18:45:19  Left-clicking object at 25,222
+18:45:19  Build 94: physically left-clicked bank booth
+18:45:20  BANK TICK: up=true opened=false closed=false upStep=0
+18:45:20  Left-clicking object at 25,222
+18:45:20  Build 94: physically left-clicked bank booth
+18:45:21  BANK TICK: up=true opened=false closed=false upStep=0
+18:45:23  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:45:23  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:45:23  MOUSE CLICKED ACC_MAN tab icon
+18:45:25  BANK TICK: up=true opened=false closed=false upStep=0
+18:45:25  Left-clicking object at 25,222
+18:45:26  Build 94: physically left-clicked bank booth
+18:45:26  BANK TICK: up=true opened=false closed=false upStep=0
+18:45:27  Left-clicking object at 25,222
+18:45:27  Build 94: physically left-clicked bank booth
+18:45:28  BANK TICK: up=true opened=false closed=false upStep=0
+18:45:29  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:45:29  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:45:29  MOUSE CLICKED ACC_MAN tab icon
+18:45:31  BANK TICK: up=true opened=false closed=false upStep=0
+18:45:32  Left-clicking object at 25,222
+18:45:32  Build 94: physically left-clicked bank booth
+18:45:33  BANK TICK: up=true opened=false closed=false upStep=0
+18:45:34  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:45:34  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:45:34  MOUSE CLICKED ACC_MAN tab icon
+18:45:36  BANK TICK: up=true opened=false closed=false upStep=0
+18:45:37  Left-clicking object at 25,222
+18:45:37  Build 94: physically left-clicked bank booth
+18:45:38  BANK TICK: up=true opened=false closed=false upStep=0
+18:45:39  Dialog wants the account management tab ('before we go any further, you should have a look at<br>the account management menu.') -> clicking icon
+18:45:39  clickTabIcon ACC_MAN: found at 576,186, clicking
+18:45:39  MOUSE CLICKED ACC_MAN tab icon
+18:45:41  BANK TICK: up=true opened=false closed=false upStep=0
+18:45:42  Left-clicking object at 25,222
+18:45:42  Build 94: physically left-clicked bank booth
+18:45:43  Screenshot saved: 2026-09-27_18-45-42_BANK_auto.png
+18:45:43  Build 82: cleaned up 1 old screenshots
