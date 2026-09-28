@@ -1,0 +1,250 @@
+01:10:38  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:38  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:38  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:39  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:39  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:40  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:40  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:40  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:40  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:41  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:41  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:42  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:42  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:42  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:42  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:43  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:43  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:44  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:44  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:44  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:44  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:45  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:45  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:46  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:46  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:46  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:46  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:47  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:47  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:48  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:48  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:48  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:48  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:49  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:49  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:50  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:50  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:50  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:50  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:51  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:51  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:52  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:52  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:52  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:52  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:53  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:53  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:54  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:54  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:54  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:54  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:55  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:55  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:56  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:56  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:57  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:57  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:57  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:57  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:58  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:58  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:59  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:59  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:10:59  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:10:59  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:01  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:01  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:01  Screenshot saved: 2026-09-28_01-11-01_MAGIC_auto.png
+01:11:01  Build 82: cleaned up 1 old screenshots
+01:11:02  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:02  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:02  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:02  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:02  Diag tail uploaded: 2026-09-28_01-11-01_MAGIC_diag.txt
+01:11:03  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:03  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:04  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:04  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:04  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:04  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:05  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:05  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:06  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:06  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:06  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:06  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:07  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:07  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:08  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:08  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:08  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:08  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:09  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:09  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:10  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:10  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:10  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:10  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:11  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:11  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:12  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:12  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:12  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:12  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:13  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:13  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:14  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:14  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:14  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:14  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:15  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:15  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:16  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:16  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:16  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:17  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:17  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:17  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:18  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:18  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:19  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:19  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:19  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:19  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:20  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:20  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:21  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:21  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:21  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:21  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:22  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:22  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:23  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:23  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:23  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:23  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:24  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:24  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:25  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:25  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:25  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:25  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:26  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:26  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:27  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:27  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:27  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:27  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:28  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:28  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:29  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:29  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:29  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:29  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:30  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:30  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:31  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:31  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:31  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:31  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:32  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:32  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:33  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:33  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:33  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:34  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:34  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:34  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:35  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:35  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:36  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:36  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:36  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:36  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:37  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:37  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:38  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:38  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:38  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:38  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:39  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:39  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:40  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:40  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:40  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:40  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:41  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:41  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:42  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:42  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:42  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:42  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:43  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:43  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:44  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:44  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:44  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:44  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:45  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:45  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:46  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:46  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:46  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:46  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:47  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:47  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:48  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:48  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:48  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:48  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:49  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:49  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:50  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:50  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:50  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:50  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:51  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:51  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:52  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:52  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:53  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:53  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:53  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:53  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:54  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:54  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:55  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:55  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:55  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:55  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:56  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:56  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:57  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:57  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:57  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:57  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:58  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:58  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:59  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:59  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:11:59  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:11:59  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:12  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:12  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:12:01  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+01:12:01  Build 191: DEPARTURE TERMINAL STUCK (varp=680). Not re-talking. Awaiting manual intervention or code fix.
+01:12:02  Screenshot saved: 2026-09-28_01-12-01_MAGIC_auto.png
+01:12:02  Build 82: cleaned up 1 old screenshots
