@@ -1,0 +1,250 @@
+23:00:39  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:00:40  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:00:40  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:00:41  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:00:41  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:00:42  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:00:42  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:00:43  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:00:43  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:00:44  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:00:44  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:00:45  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:00:45  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:00:46  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:00:46  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:00:47  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:00:47  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:00:48  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:00:48  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:00:49  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:00:49  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:00:49  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:00:49  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:00:51  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:00:51  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:00:51  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:00:51  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:00:52  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:00:52  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:00:53  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:00:53  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:00:54  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:00:54  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:00:55  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:00:55  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:00:56  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:00:56  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:00:57  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:00:57  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:00:58  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:00:58  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:00:59  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:00:59  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:01  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:01  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:02  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:02  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:03  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:03  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:04  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:04  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:05  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:05  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:06  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:06  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:06  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:06  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:08  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:08  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:08  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:08  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:09  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:09  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:10  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:10  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:11  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:11  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:12  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:12  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:13  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:13  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:14  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:14  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:15  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:15  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:16  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:16  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:17  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:17  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:18  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:18  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:19  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:19  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:20  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:20  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:21  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:21  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:22  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:22  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:23  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:23  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:23  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:24  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:25  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:25  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:25  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> ARRIVED
+23:01:25  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=true moved=true before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=0) door=1512
+23:01:26  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:26  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:27  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:27  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:28  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:28  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:29  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:29  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:30  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:30  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:31  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:31  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:32  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:32  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:33  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:33  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:34  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> ARRIVED
+23:01:34  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=true moved=true before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=0) door=1512
+23:01:35  Screenshot saved: 2026-09-27_23-01-34_PRAYER_auto.png
+23:01:35  Build 82: cleaned up 1 old screenshots
+23:01:35  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:35  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:36  Diag tail uploaded: 2026-09-27_23-01-34_PRAYER_diag.txt
+23:01:36  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:36  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:37  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:37  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:38  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:38  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:39  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:39  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:40  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:40  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:41  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:41  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:42  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:42  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:42  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:43  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:44  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:44  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:44  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:44  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:45  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:45  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:46  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:46  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:47  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:47  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:48  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> ARRIVED
+23:01:48  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=true moved=true before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=0) door=1512
+23:01:49  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:49  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:50  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:50  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:51  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:51  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:52  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:52  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:53  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:53  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:54  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:54  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:55  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:55  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:56  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:56  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:01:57  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:57  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:58  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:01:58  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:01:58  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> ARRIVED
+23:01:58  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=true moved=true before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=0) door=1512
+23:01:59  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:01:59  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:02  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:02  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:02:01  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:02:01  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:02:02  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:02:02  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:02:03  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:02:03  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:02:04  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:02:04  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:02:05  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:02:05  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:02:06  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:02:06  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:02:07  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:02:07  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:02:08  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:02:08  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:02:09  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:02:09  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:02:10  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:02:10  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:02:10  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:02:10  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:02:11  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:02:11  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:02:12  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:02:12  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:02:13  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:02:13  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:02:14  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:02:14  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:02:15  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:02:15  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:02:16  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:02:16  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:02:17  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:02:17  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:02:18  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:02:18  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:02:19  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:02:19  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:02:20  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:02:20  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:02:21  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:02:21  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:02:22  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:02:22  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:02:23  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:02:23  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:02:24  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:02:24  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:02:25  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:02:25  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:02:26  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:02:26  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:02:27  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:02:27  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:02:28  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:02:28  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:02:29  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:02:29  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:02:29  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:02:29  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:02:31  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:02:31  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:02:31  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:02:31  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:02:32  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> MOVING
+23:02:32  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3118, plane=0)(dist=2) door=1512
+23:02:33  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3120, plane=0),0) -> ARRIVED
+23:02:33  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3120, plane=0) result=true moved=true before=WorldPoint(x=3122, y=3118, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=0) door=1512
+23:02:34  Build 160 DOOR: walkStep(WorldPoint(x=3122, y=3118, plane=0),0) -> MOVING
+23:02:34  Build 148 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3122, y=3118, plane=0) result=false moved=false before=WorldPoint(x=3122, y=3120, plane=0)(dist=2) after=WorldPoint(x=3122, y=3120, plane=0)(dist=2) door=1512
+23:02:35  Screenshot saved: 2026-09-27_23-02-35_PRAYER_auto.png
+23:02:35  Build 82: cleaned up 1 old screenshots
