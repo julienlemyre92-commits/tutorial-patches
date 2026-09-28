@@ -1,0 +1,250 @@
+00:17:05  Build 184: waiting for teleport after Yes (6s), varp=680 dialogue=''
+00:17:06  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:06  Build 184: waiting for teleport after Yes (7s), varp=680 dialogue=''
+00:17:07  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:07  Build 184: waiting for teleport after Yes (8s), varp=680 dialogue=''
+00:17:07  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:07  Build 184: waiting for teleport after Yes (9s), varp=680 dialogue=''
+00:17:08  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:08  Build 184: waiting for teleport after Yes (9s), varp=680 dialogue=''
+00:17:09  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:09  Build 184: waiting for teleport after Yes (10s), varp=680 dialogue=''
+00:17:10  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:10  Build 184: waiting for teleport after Yes (11s), varp=680 dialogue=''
+00:17:10  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:10  Build 184: waiting for teleport after Yes (11s), varp=680 dialogue=''
+00:17:11  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:11  Build 184: waiting for teleport after Yes (12s), varp=680 dialogue=''
+00:17:12  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:12  Build 184: waiting for teleport after Yes (13s), varp=680 dialogue=''
+00:17:12  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:12  Build 184: waiting for teleport after Yes (13s), varp=680 dialogue=''
+00:17:13  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:13  Build 184: waiting for teleport after Yes (14s), varp=680 dialogue=''
+00:17:14  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:14  Build 184: waiting for teleport after Yes (15s), varp=680 dialogue=''
+00:17:14  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:14  Build 184: waiting for teleport after Yes (16s), varp=680 dialogue=''
+00:17:15  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:15  Build 184: waiting for teleport after Yes (16s), varp=680 dialogue=''
+00:17:16  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:16  Build 184: waiting for teleport after Yes (17s), varp=680 dialogue=''
+00:17:17  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:17  Build 184: waiting for teleport after Yes (18s), varp=680 dialogue=''
+00:17:17  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:17  Build 184: waiting for teleport after Yes (18s), varp=680 dialogue=''
+00:17:18  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:18  Build 184: waiting for teleport after Yes (19s), varp=680 dialogue=''
+00:17:19  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:19  Build 184: waiting for teleport after Yes (20s), varp=680 dialogue=''
+00:17:19  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:19  Build 184: waiting for teleport after Yes (20s), varp=680 dialogue=''
+00:17:20  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:20  Build 184: waiting for teleport after Yes (21s), varp=680 dialogue=''
+00:17:21  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:21  Build 184: waiting for teleport after Yes (22s), varp=680 dialogue=''
+00:17:21  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:21  Build 184: waiting for teleport after Yes (23s), varp=680 dialogue=''
+00:17:22  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:22  Build 184: waiting for teleport after Yes (23s), varp=680 dialogue=''
+00:17:23  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:23  Build 184: waiting for teleport after Yes (24s), varp=680 dialogue=''
+00:17:24  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:24  Build 184: waiting for teleport after Yes (25s), varp=680 dialogue=''
+00:17:24  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:24  Build 184: waiting for teleport after Yes (25s), varp=680 dialogue=''
+00:17:25  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:25  Build 184: waiting for teleport after Yes (26s), varp=680 dialogue=''
+00:17:26  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:26  Build 184: waiting for teleport after Yes (27s), varp=680 dialogue=''
+00:17:26  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:26  Build 184: waiting for teleport after Yes (27s), varp=680 dialogue=''
+00:17:27  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:27  Build 184: waiting for teleport after Yes (28s), varp=680 dialogue=''
+00:17:28  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:28  Build 184: waiting for teleport after Yes (29s), varp=680 dialogue=''
+00:17:28  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:28  Build 184: TELEPORT TIMEOUT after Yes (30s), varp=680 dialogue=''. Retrying departure talk.
+00:17:29  dialogueTick: clicking continue (priority over keyword handling)
+00:17:29  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:30  Build 183: Ironman Q options: [1]='What's an Ironman?' [2]='Yes, I do want to become an Ironman.' [3]='No, I'm not planning to do that.' selected noIdx=3 varp=680
+00:17:30  Build 183: Ironman Q auto-NO answer 3/5 (question seen 3x total): clicking option 3
+00:17:30  Clicking dialogue option 3 at 259,442
+00:17:31  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:31  dialogueTick: clicking continue (priority over keyword handling)
+00:17:32  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:32  dialogueTick: clicking continue (priority over keyword handling)
+00:17:33  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:33  dialogueTick: clicking continue (priority over keyword handling)
+00:17:34  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:34  Build 181: dialogue closed but varp=680 (still 670-999 departure), retrying departure talk
+00:17:34  Build 166 talk: 'Magic Instructor' id=3309 idx=2080 at WorldPoint(x=3141, y=3089, plane=0) dist=1
+00:17:34  Build 166 talk: direct invoke 'Talk-to' on 'Magic Instructor' id=3309 idx=2080
+00:17:35  Screenshot saved: 2026-09-28_00-17-35_MAGIC_auto.png
+00:17:35  Build 82: cleaned up 2 old screenshots
+00:17:35  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:36  dialogueTick: clicking continue (priority over keyword handling)
+00:17:36  Diag tail uploaded: 2026-09-28_00-17-35_MAGIC_diag.txt
+00:17:36  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:37  Build 184: mainland question, selecting option 1 (Yes), then waiting for teleport
+00:17:37  Clicking dialogue option 1 at 259,402
+00:17:38  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:38  Build 184: waiting for teleport after Yes (0s), varp=680 dialogue=''
+00:17:39  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:39  Build 184: waiting for teleport after Yes (1s), varp=680 dialogue=''
+00:17:40  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:40  Build 184: waiting for teleport after Yes (2s), varp=680 dialogue=''
+00:17:40  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:40  Build 184: waiting for teleport after Yes (2s), varp=680 dialogue=''
+00:17:41  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:41  Build 184: waiting for teleport after Yes (3s), varp=680 dialogue=''
+00:17:42  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:42  Build 184: waiting for teleport after Yes (4s), varp=680 dialogue=''
+00:17:42  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:42  Build 184: waiting for teleport after Yes (4s), varp=680 dialogue=''
+00:17:43  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:43  Build 184: waiting for teleport after Yes (5s), varp=680 dialogue=''
+00:17:44  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:44  Build 184: waiting for teleport after Yes (6s), varp=680 dialogue=''
+00:17:45  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:45  Build 184: waiting for teleport after Yes (6s), varp=680 dialogue=''
+00:17:45  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:45  Build 184: waiting for teleport after Yes (7s), varp=680 dialogue=''
+00:17:46  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:46  Build 184: waiting for teleport after Yes (8s), varp=680 dialogue=''
+00:17:47  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:47  Build 184: waiting for teleport after Yes (9s), varp=680 dialogue=''
+00:17:47  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:47  Build 184: waiting for teleport after Yes (9s), varp=680 dialogue=''
+00:17:48  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:48  Build 184: waiting for teleport after Yes (10s), varp=680 dialogue=''
+00:17:49  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:49  Build 184: waiting for teleport after Yes (11s), varp=680 dialogue=''
+00:17:49  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:49  Build 184: waiting for teleport after Yes (11s), varp=680 dialogue=''
+00:17:50  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:50  Build 184: waiting for teleport after Yes (12s), varp=680 dialogue=''
+00:17:51  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:51  Build 184: waiting for teleport after Yes (13s), varp=680 dialogue=''
+00:17:52  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:52  Build 184: waiting for teleport after Yes (13s), varp=680 dialogue=''
+00:17:52  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:52  Build 184: waiting for teleport after Yes (14s), varp=680 dialogue=''
+00:17:53  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:53  Build 184: waiting for teleport after Yes (15s), varp=680 dialogue=''
+00:17:54  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:54  Build 184: waiting for teleport after Yes (16s), varp=680 dialogue=''
+00:17:54  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:54  Build 184: waiting for teleport after Yes (16s), varp=680 dialogue=''
+00:17:55  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:55  Build 184: waiting for teleport after Yes (17s), varp=680 dialogue=''
+00:17:56  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:56  Build 184: waiting for teleport after Yes (18s), varp=680 dialogue=''
+00:17:56  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:56  Build 184: waiting for teleport after Yes (18s), varp=680 dialogue=''
+00:17:57  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:57  Build 184: waiting for teleport after Yes (19s), varp=680 dialogue=''
+00:17:58  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:58  Build 184: waiting for teleport after Yes (20s), varp=680 dialogue=''
+00:17:59  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:59  Build 184: waiting for teleport after Yes (20s), varp=680 dialogue=''
+00:17:59  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:17:59  Build 184: waiting for teleport after Yes (21s), varp=680 dialogue=''
+00:18  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18  Build 184: waiting for teleport after Yes (22s), varp=680 dialogue=''
+00:18:01  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:01  Build 184: waiting for teleport after Yes (23s), varp=680 dialogue=''
+00:18:01  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:01  Build 184: waiting for teleport after Yes (23s), varp=680 dialogue=''
+00:18:02  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:02  Build 184: waiting for teleport after Yes (24s), varp=680 dialogue=''
+00:18:03  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:03  Build 184: waiting for teleport after Yes (25s), varp=680 dialogue=''
+00:18:03  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:03  Build 184: waiting for teleport after Yes (25s), varp=680 dialogue=''
+00:18:04  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:04  Build 184: waiting for teleport after Yes (26s), varp=680 dialogue=''
+00:18:05  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:05  Build 184: waiting for teleport after Yes (27s), varp=680 dialogue=''
+00:18:06  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:06  Build 184: waiting for teleport after Yes (27s), varp=680 dialogue=''
+00:18:06  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:06  Build 184: waiting for teleport after Yes (28s), varp=680 dialogue=''
+00:18:07  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:07  Build 184: waiting for teleport after Yes (29s), varp=680 dialogue=''
+00:18:08  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:08  Build 184: TELEPORT TIMEOUT after Yes (30s), varp=680 dialogue=''. Retrying departure talk.
+00:18:08  dialogueTick: clicking continue (priority over keyword handling)
+00:18:09  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:09  Build 183: Ironman Q options: [1]='What's an Ironman?' [2]='Yes, I do want to become an Ironman.' [3]='No, I'm not planning to do that.' selected noIdx=3 varp=680
+00:18:09  Build 183: Ironman Q auto-NO answer 4/5 (question seen 4x total): clicking option 3
+00:18:09  Clicking dialogue option 3 at 259,442
+00:18:10  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:10  dialogueTick: clicking continue (priority over keyword handling)
+00:18:11  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:11  dialogueTick: clicking continue (priority over keyword handling)
+00:18:12  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:12  dialogueTick: clicking continue (priority over keyword handling)
+00:18:13  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:13  dialogueTick: clicking continue (priority over keyword handling)
+00:18:14  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:14  Build 181: dialogue closed but varp=680 (still 670-999 departure), retrying departure talk
+00:18:14  Build 166 talk: 'Magic Instructor' id=3309 idx=2080 at WorldPoint(x=3141, y=3089, plane=0) dist=1
+00:18:15  Build 166 talk: direct invoke 'Talk-to' on 'Magic Instructor' id=3309 idx=2080
+00:18:15  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:15  dialogueTick: clicking continue (priority over keyword handling)
+00:18:16  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:17  Build 184: mainland question, selecting option 1 (Yes), then waiting for teleport
+00:18:17  Clicking dialogue option 1 at 259,402
+00:18:18  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:18  Build 184: waiting for teleport after Yes (0s), varp=680 dialogue=''
+00:18:19  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:19  Build 184: waiting for teleport after Yes (1s), varp=680 dialogue=''
+00:18:20  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:20  Build 184: waiting for teleport after Yes (2s), varp=680 dialogue=''
+00:18:20  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:20  Build 184: waiting for teleport after Yes (2s), varp=680 dialogue=''
+00:18:21  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:21  Build 184: waiting for teleport after Yes (3s), varp=680 dialogue=''
+00:18:22  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:22  Build 184: waiting for teleport after Yes (4s), varp=680 dialogue=''
+00:18:22  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:22  Build 184: waiting for teleport after Yes (4s), varp=680 dialogue=''
+00:18:23  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:23  Build 184: waiting for teleport after Yes (5s), varp=680 dialogue=''
+00:18:24  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:24  Build 184: waiting for teleport after Yes (6s), varp=680 dialogue=''
+00:18:24  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:24  Build 184: waiting for teleport after Yes (6s), varp=680 dialogue=''
+00:18:25  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:25  Build 184: waiting for teleport after Yes (7s), varp=680 dialogue=''
+00:18:26  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:26  Build 184: waiting for teleport after Yes (8s), varp=680 dialogue=''
+00:18:27  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:27  Build 184: waiting for teleport after Yes (9s), varp=680 dialogue=''
+00:18:27  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:27  Build 184: waiting for teleport after Yes (9s), varp=680 dialogue=''
+00:18:28  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:28  Build 184: waiting for teleport after Yes (10s), varp=680 dialogue=''
+00:18:29  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:29  Build 184: waiting for teleport after Yes (11s), varp=680 dialogue=''
+00:18:29  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:29  Build 184: waiting for teleport after Yes (11s), varp=680 dialogue=''
+00:18:30  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:30  Build 184: waiting for teleport after Yes (12s), varp=680 dialogue=''
+00:18:31  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:31  Build 184: waiting for teleport after Yes (13s), varp=680 dialogue=''
+00:18:31  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:31  Build 184: waiting for teleport after Yes (13s), varp=680 dialogue=''
+00:18:32  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:32  Build 184: waiting for teleport after Yes (14s), varp=680 dialogue=''
+00:18:33  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:33  Build 184: waiting for teleport after Yes (15s), varp=680 dialogue=''
+00:18:34  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:34  Build 184: waiting for teleport after Yes (16s), varp=680 dialogue=''
+00:18:34  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:34  Build 184: waiting for teleport after Yes (16s), varp=680 dialogue=''
+00:18:35  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:18:35  Build 184: waiting for teleport after Yes (17s), varp=680 dialogue=''
+00:18:36  Screenshot saved: 2026-09-28_00-18-36_MAGIC_auto.png
+00:18:36  Build 82: cleaned up 1 old screenshots
