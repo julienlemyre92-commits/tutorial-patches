@@ -1,0 +1,250 @@
+23:35:16  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:16  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:16  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:17  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:17  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:17  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:17  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:17  Build 130 NO-PROGRESS GUARD: FRIENDS tab failed 27x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:35:17  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:18  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:18  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:18  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:18  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:18  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:18  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:18  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:18  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:18  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:19  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:19  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:19  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:19  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:19  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:19  Build 130 NO-PROGRESS GUARD: FRIENDS tab failed 28x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:35:20  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:20  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:20  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:20  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:20  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:21  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:21  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:21  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:21  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:21  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:22  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:22  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:22  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:22  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:22  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:22  Build 130 NO-PROGRESS GUARD: FRIENDS tab failed 29x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:35:23  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:23  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:23  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:23  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:23  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:24  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:24  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:24  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:24  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:24  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:25  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:25  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:25  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:25  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:25  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:25  Build 130 NO-PROGRESS GUARD: FRIENDS tab failed 30x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:35:25  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:26  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:26  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:26  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:26  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:26  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:27  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:27  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:27  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:27  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:27  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:27  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:27  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:27  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:27  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:27  Build 130 NO-PROGRESS GUARD: FRIENDS tab failed 31x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:35:28  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:28  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:28  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:28  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:28  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:29  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:29  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:29  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:29  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:29  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:30  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:30  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:30  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:30  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:30  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:30  Build 130 NO-PROGRESS GUARD: FRIENDS tab failed 32x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:35:31  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:31  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:31  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:31  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:31  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:32  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:32  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:32  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:32  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:32  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:33  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:33  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:33  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:33  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:33  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:33  Build 130 NO-PROGRESS GUARD: FRIENDS tab failed 33x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:35:34  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:34  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:34  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:34  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:34  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:34  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:35  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:35  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:35  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:35  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:35  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:36  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:36  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:36  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:36  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:36  Build 130 NO-PROGRESS GUARD: FRIENDS tab failed 34x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:35:36  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:36  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:36  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:36  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:36  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:37  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:37  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:37  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:37  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:37  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:38  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:38  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:38  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:38  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:38  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:38  Build 130 NO-PROGRESS GUARD: FRIENDS tab failed 35x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:35:39  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:39  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:39  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:39  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:39  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:40  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:40  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:40  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:40  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:40  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:41  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:41  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:41  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:41  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:41  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:41  Build 130 NO-PROGRESS GUARD: FRIENDS tab failed 36x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:35:42  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:42  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:42  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:42  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:42  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:43  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:43  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:43  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:43  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:43  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:43  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:44  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:44  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:44  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:44  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:44  Build 130 NO-PROGRESS GUARD: FRIENDS tab failed 37x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:35:44  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:45  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:45  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:45  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:45  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:45  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:45  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:45  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:45  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:45  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:46  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:46  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:46  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:46  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:46  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:46  Build 130 NO-PROGRESS GUARD: FRIENDS tab failed 38x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:35:47  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:47  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:47  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:47  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:47  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:48  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:48  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:48  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:48  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:48  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:49  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:49  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:49  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:49  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:49  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:49  Build 130 NO-PROGRESS GUARD: FRIENDS tab failed 39x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:35:50  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:50  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:50  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:50  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:50  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:51  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:51  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:51  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:51  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:51  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:51  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:52  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:52  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:52  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:52  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:52  Build 130 NO-PROGRESS GUARD: FRIENDS tab failed 40x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:35:52  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:53  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:53  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:53  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:53  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:53  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:54  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:54  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:54  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:54  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:54  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:54  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:54  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:54  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:54  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:54  Build 130 NO-PROGRESS GUARD: FRIENDS tab failed 41x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:35:55  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:55  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:55  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:55  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:55  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:56  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:56  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:56  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:56  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:56  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:57  PRAYER TICK: talked1=true tab=true talked2=true
+23:35:57  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:35:57  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:35:57  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:35:57  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:35:57  Build 130 NO-PROGRESS GUARD: FRIENDS tab failed 42x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:35:58  Screenshot saved: 2026-09-27_23-35-58_PRAYER_auto.png
+23:35:58  Build 82: cleaned up 1 old screenshots
