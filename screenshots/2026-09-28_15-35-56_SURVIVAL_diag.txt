@@ -1,0 +1,250 @@
+15:30:48  Action fish completed
+15:30:49  SURVIVAL TICK
+15:30:49  inv: raw=false cooked=false logs=false
+15:30:49  findObjectTimeout: 'Fire' not found, sweeping camera
+15:30:52  fire: false
+15:30:55  Action fish completed
+15:30:55  SURVIVAL TICK
+15:30:55  inv: raw=false cooked=false logs=false
+15:30:55  findObjectTimeout: 'Fire' not found, sweeping camera
+15:30:58  fire: false
+15:31:01  Action fish completed
+15:31:02  SURVIVAL TICK
+15:31:02  inv: raw=false cooked=false logs=false
+15:31:02  findObjectTimeout: 'Fire' not found, sweeping camera
+15:31:05  fire: false
+15:31:07  Action fish completed
+15:31:08  SURVIVAL TICK
+15:31:08  inv: raw=false cooked=false logs=false
+15:31:08  findObjectTimeout: 'Fire' not found, sweeping camera
+15:31:11  fire: false
+15:31:13  Action fish completed
+15:31:14  SURVIVAL TICK
+15:31:14  inv: raw=false cooked=false logs=false
+15:31:14  findObjectTimeout: 'Fire' not found, sweeping camera
+15:31:18  fire: false
+15:31:20  Action fish completed
+15:31:20  SURVIVAL TICK
+15:31:20  inv: raw=false cooked=false logs=false
+15:31:20  findObjectTimeout: 'Fire' not found, sweeping camera
+15:31:24  fire: false
+15:31:26  Action fish completed
+15:31:27  SURVIVAL TICK
+15:31:27  inv: raw=false cooked=false logs=false
+15:31:27  findObjectTimeout: 'Fire' not found, sweeping camera
+15:31:30  fire: false
+15:31:33  Action fish completed
+15:31:33  SURVIVAL TICK
+15:31:33  inv: raw=false cooked=false logs=false
+15:31:33  findObjectTimeout: 'Fire' not found, sweeping camera
+15:31:37  fire: false
+15:31:39  Action fish completed
+15:31:40  Screenshot saved: 2026-09-28_15-31-40_SURVIVAL_auto.png
+15:31:40  SURVIVAL TICK
+15:31:40  inv: raw=false cooked=false logs=false
+15:31:40  findObjectTimeout: 'Fire' not found, sweeping camera
+15:31:41  Diag tail uploaded: 2026-09-28_15-31-40_SURVIVAL_diag.txt
+15:31:43  fire: false
+15:31:46  Action fish completed
+15:31:47  SURVIVAL TICK
+15:31:47  inv: raw=false cooked=false logs=false
+15:31:47  findObjectTimeout: 'Fire' not found, sweeping camera
+15:31:50  fire: false
+15:31:53  Action fish completed
+15:31:53  SURVIVAL TICK
+15:31:53  inv: raw=false cooked=false logs=false
+15:31:53  findObjectTimeout: 'Fire' not found, sweeping camera
+15:31:57  fire: false
+15:31:59  Action fish completed
+15:31:59  SURVIVAL TICK
+15:31:59  inv: raw=false cooked=false logs=false
+15:31:59  findObjectTimeout: 'Fire' not found, sweeping camera
+15:32:03  fire: false
+15:32:05  Action fish completed
+15:32:06  SURVIVAL TICK
+15:32:06  inv: raw=false cooked=false logs=false
+15:32:06  findObjectTimeout: 'Fire' not found, sweeping camera
+15:32:09  fire: false
+15:32:11  Action fish completed
+15:32:12  SURVIVAL TICK
+15:32:12  inv: raw=false cooked=false logs=false
+15:32:12  findObjectTimeout: 'Fire' not found, sweeping camera
+15:32:15  fire: false
+15:32:17  Action fish completed
+15:32:18  SURVIVAL TICK
+15:32:18  inv: raw=false cooked=false logs=false
+15:32:18  findObjectTimeout: 'Fire' not found, sweeping camera
+15:32:21  fire: false
+15:32:24  Action fish completed
+15:32:24  SURVIVAL TICK
+15:32:24  inv: raw=false cooked=false logs=false
+15:32:24  findObjectTimeout: 'Fire' not found, sweeping camera
+15:32:28  fire: false
+15:32:30  Action fish completed
+15:32:31  SURVIVAL TICK
+15:32:31  inv: raw=false cooked=false logs=false
+15:32:31  findObjectTimeout: 'Fire' not found, sweeping camera
+15:32:34  fire: false
+15:32:36  Action fish completed
+15:32:37  SURVIVAL TICK
+15:32:37  inv: raw=false cooked=false logs=false
+15:32:37  findObjectTimeout: 'Fire' not found, sweeping camera
+15:32:40  fire: false
+15:32:42  Action fish completed
+15:32:43  Screenshot saved: 2026-09-28_15-32-43_SURVIVAL_auto.png
+15:32:43  SURVIVAL TICK
+15:32:43  inv: raw=false cooked=false logs=false
+15:32:43  findObjectTimeout: 'Fire' not found, sweeping camera
+15:32:46  Diag tail uploaded: 2026-09-28_15-32-43_SURVIVAL_diag.txt
+15:32:47  fire: false
+15:32:49  Action fish completed
+15:32:49  SURVIVAL TICK
+15:32:49  inv: raw=false cooked=false logs=false
+15:32:49  findObjectTimeout: 'Fire' not found, sweeping camera
+15:32:53  fire: false
+15:32:55  Action fish completed
+15:32:56  SURVIVAL TICK
+15:32:56  inv: raw=false cooked=false logs=false
+15:32:56  findObjectTimeout: 'Fire' not found, sweeping camera
+15:32:59  fire: false
+15:33:01  Action fish completed
+15:33:02  SURVIVAL TICK
+15:33:02  inv: raw=false cooked=false logs=false
+15:33:02  findObjectTimeout: 'Fire' not found, sweeping camera
+15:33:05  fire: false
+15:33:07  Action fish completed
+15:33:08  SURVIVAL TICK
+15:33:08  inv: raw=false cooked=false logs=false
+15:33:08  findObjectTimeout: 'Fire' not found, sweeping camera
+15:33:12  fire: false
+15:33:14  Action fish completed
+15:33:15  SURVIVAL TICK
+15:33:15  inv: raw=false cooked=false logs=false
+15:33:15  findObjectTimeout: 'Fire' not found, sweeping camera
+15:33:18  fire: false
+15:33:21  Action fish completed
+15:33:21  SURVIVAL TICK
+15:33:21  inv: raw=false cooked=false logs=false
+15:33:21  findObjectTimeout: 'Fire' not found, sweeping camera
+15:33:25  fire: false
+15:33:27  Action fish completed
+15:33:28  SURVIVAL TICK
+15:33:28  inv: raw=false cooked=false logs=false
+15:33:28  findObjectTimeout: 'Fire' not found, sweeping camera
+15:33:31  fire: false
+15:33:34  Action fish completed
+15:33:34  SURVIVAL TICK
+15:33:34  inv: raw=false cooked=false logs=false
+15:33:34  findObjectTimeout: 'Fire' not found, sweeping camera
+15:33:38  fire: false
+15:33:40  Action fish completed
+15:33:41  SURVIVAL TICK
+15:33:41  inv: raw=false cooked=false logs=false
+15:33:41  findObjectTimeout: 'Fire' not found, sweeping camera
+15:33:44  fire: false
+15:33:46  Action fish completed
+15:33:47  Screenshot saved: 2026-09-28_15-33-47_SURVIVAL_auto.png
+15:33:47  SURVIVAL TICK
+15:33:47  inv: raw=false cooked=false logs=false
+15:33:47  findObjectTimeout: 'Fire' not found, sweeping camera
+15:33:48  Diag tail uploaded: 2026-09-28_15-33-47_SURVIVAL_diag.txt
+15:33:51  fire: false
+15:33:53  Action fish completed
+15:33:54  SURVIVAL TICK
+15:33:54  inv: raw=false cooked=false logs=false
+15:33:54  findObjectTimeout: 'Fire' not found, sweeping camera
+15:33:57  fire: false
+15:34  Action fish completed
+15:34  SURVIVAL TICK
+15:34  inv: raw=false cooked=false logs=false
+15:34  findObjectTimeout: 'Fire' not found, sweeping camera
+15:34:04  fire: false
+15:34:06  Action fish completed
+15:34:07  SURVIVAL TICK
+15:34:07  inv: raw=false cooked=false logs=false
+15:34:07  findObjectTimeout: 'Fire' not found, sweeping camera
+15:34:10  fire: false
+15:34:13  Action fish completed
+15:34:13  SURVIVAL TICK
+15:34:13  inv: raw=false cooked=false logs=false
+15:34:13  findObjectTimeout: 'Fire' not found, sweeping camera
+15:34:17  fire: false
+15:34:19  Action fish completed
+15:34:19  SURVIVAL TICK
+15:34:19  inv: raw=false cooked=false logs=false
+15:34:19  findObjectTimeout: 'Fire' not found, sweeping camera
+15:34:23  fire: false
+15:34:25  Action fish completed
+15:34:25  SURVIVAL TICK
+15:34:26  inv: raw=false cooked=false logs=false
+15:34:26  findObjectTimeout: 'Fire' not found, sweeping camera
+15:34:29  fire: false
+15:34:32  Action fish completed
+15:34:32  SURVIVAL TICK
+15:34:32  inv: raw=false cooked=false logs=false
+15:34:32  findObjectTimeout: 'Fire' not found, sweeping camera
+15:34:36  fire: false
+15:34:38  Action fish completed
+15:34:39  SURVIVAL TICK
+15:34:39  inv: raw=false cooked=false logs=false
+15:34:39  findObjectTimeout: 'Fire' not found, sweeping camera
+15:34:42  fire: false
+15:34:45  Action fish completed
+15:34:45  SURVIVAL TICK
+15:34:45  inv: raw=false cooked=false logs=false
+15:34:45  findObjectTimeout: 'Fire' not found, sweeping camera
+15:34:49  fire: false
+15:34:51  Action fish completed
+15:34:52  Screenshot saved: 2026-09-28_15-34-52_SURVIVAL_auto.png
+15:34:52  SURVIVAL TICK
+15:34:52  inv: raw=false cooked=false logs=false
+15:34:52  findObjectTimeout: 'Fire' not found, sweeping camera
+15:34:53  Diag tail uploaded: 2026-09-28_15-34-52_SURVIVAL_diag.txt
+15:34:55  fire: false
+15:34:58  Action fish completed
+15:34:58  SURVIVAL TICK
+15:34:58  inv: raw=false cooked=false logs=false
+15:34:58  findObjectTimeout: 'Fire' not found, sweeping camera
+15:35:02  fire: false
+15:35:04  Action fish completed
+15:35:05  SURVIVAL TICK
+15:35:05  inv: raw=false cooked=false logs=false
+15:35:05  findObjectTimeout: 'Fire' not found, sweeping camera
+15:35:08  fire: false
+15:35:11  Action fish completed
+15:35:12  SURVIVAL TICK
+15:35:12  inv: raw=false cooked=false logs=false
+15:35:12  findObjectTimeout: 'Fire' not found, sweeping camera
+15:35:15  fire: false
+15:35:18  Action fish completed
+15:35:18  SURVIVAL TICK
+15:35:18  inv: raw=false cooked=false logs=false
+15:35:18  findObjectTimeout: 'Fire' not found, sweeping camera
+15:35:21  fire: false
+15:35:24  Action fish completed
+15:35:24  SURVIVAL TICK
+15:35:24  inv: raw=false cooked=false logs=false
+15:35:24  findObjectTimeout: 'Fire' not found, sweeping camera
+15:35:28  fire: false
+15:35:30  Action fish completed
+15:35:31  SURVIVAL TICK
+15:35:31  inv: raw=false cooked=false logs=false
+15:35:31  findObjectTimeout: 'Fire' not found, sweeping camera
+15:35:34  fire: false
+15:35:37  Action fish completed
+15:35:37  SURVIVAL TICK
+15:35:37  inv: raw=false cooked=false logs=false
+15:35:37  findObjectTimeout: 'Fire' not found, sweeping camera
+15:35:41  fire: false
+15:35:43  Action fish completed
+15:35:44  SURVIVAL TICK
+15:35:44  inv: raw=false cooked=false logs=false
+15:35:44  findObjectTimeout: 'Fire' not found, sweeping camera
+15:35:47  fire: false
+15:35:49  Action fish completed
+15:35:50  SURVIVAL TICK
+15:35:50  inv: raw=false cooked=false logs=false
+15:35:50  findObjectTimeout: 'Fire' not found, sweeping camera
+15:35:53  fire: false
+15:35:55  Action fish completed
+15:35:56  Screenshot saved: 2026-09-28_15-35-56_SURVIVAL_auto.png
