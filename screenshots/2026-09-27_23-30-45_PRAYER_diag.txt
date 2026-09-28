@@ -1,0 +1,250 @@
+23:30:14  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:14  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:14  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:15  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:15  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:15  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:15  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:15  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:16  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:16  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:16  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:16  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:16  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:16  Build 130 NO-PROGRESS GUARD: PRAYER tab failed 31x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:30:16  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:16  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:16  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:16  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:16  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:17  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:17  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:17  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:17  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:17  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:18  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:18  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:18  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:18  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:18  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:18  Build 130 NO-PROGRESS GUARD: PRAYER tab failed 32x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:30:18  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:18  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:18  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:18  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:18  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:19  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:19  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:19  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:19  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:19  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:20  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:20  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:20  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:20  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:20  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:20  Build 130 NO-PROGRESS GUARD: PRAYER tab failed 33x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:30:20  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:20  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:20  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:20  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:20  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:21  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:21  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:21  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:21  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:21  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:22  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:22  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:22  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:22  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:22  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:22  Build 130 NO-PROGRESS GUARD: PRAYER tab failed 34x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:30:22  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:22  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:22  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:22  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:22  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:23  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:23  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:23  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:23  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:23  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:24  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:24  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:24  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:24  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:24  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:24  Build 130 NO-PROGRESS GUARD: PRAYER tab failed 35x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:30:24  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:24  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:24  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:24  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:24  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:25  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:25  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:25  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:25  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:25  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:25  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:25  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:25  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:25  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:25  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:25  Build 130 NO-PROGRESS GUARD: PRAYER tab failed 36x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:30:26  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:26  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:26  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:26  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:26  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:27  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:27  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:27  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:27  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:27  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:27  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:27  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:27  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:27  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:27  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:27  Build 130 NO-PROGRESS GUARD: PRAYER tab failed 37x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:30:28  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:28  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:28  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:28  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:28  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:29  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:29  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:29  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:29  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:29  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:29  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:29  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:29  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:29  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:29  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:29  Build 130 NO-PROGRESS GUARD: PRAYER tab failed 38x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:30:30  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:30  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:30  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:30  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:30  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:31  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:31  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:31  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:31  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:31  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:31  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:31  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:31  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:31  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:31  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:31  Build 130 NO-PROGRESS GUARD: PRAYER tab failed 39x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:30:32  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:32  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:32  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:32  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:32  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:33  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:33  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:33  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:33  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:33  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:33  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:33  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:33  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:33  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:33  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:33  Build 130 NO-PROGRESS GUARD: PRAYER tab failed 40x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:30:34  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:34  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:34  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:34  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:34  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:35  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:35  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:35  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:35  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:35  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:35  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:35  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:35  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:35  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:35  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:35  Build 130 NO-PROGRESS GUARD: PRAYER tab failed 41x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:30:36  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:36  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:36  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:36  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:36  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:37  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:37  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:37  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:37  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:37  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:37  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:37  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:37  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:37  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:37  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:37  Build 130 NO-PROGRESS GUARD: PRAYER tab failed 42x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:30:38  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:38  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:38  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:38  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:38  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:39  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:39  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:39  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:39  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:39  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:39  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:39  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:39  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:39  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:39  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:39  Build 130 NO-PROGRESS GUARD: PRAYER tab failed 43x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:30:40  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:40  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:40  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:40  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:40  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:41  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:41  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:41  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:41  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:41  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:41  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:41  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:41  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:41  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:41  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:41  Build 130 NO-PROGRESS GUARD: PRAYER tab failed 44x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:30:42  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:42  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:42  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:42  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:42  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:43  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:43  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:43  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:43  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:43  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:43  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:43  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:43  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:43  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:43  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:43  Build 130 NO-PROGRESS GUARD: PRAYER tab failed 45x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+23:30:44  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:44  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:44  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:44  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:44  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:45  PRAYER TICK: talked1=true tab=false talked2=false
+23:30:45  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:30:45  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=null] [161:71 name='' bounds=null] [164:64 name='' bounds=null] [548:76 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:30:45  clickTabIcon PRAYER: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:30:45  clickTabIcon PRAYER: no verified target this tick — counting miss
+23:30:45  Screenshot saved: 2026-09-27_23-30-45_PRAYER_auto.png
+23:30:45  Build 82: cleaned up 1 old screenshots
