@@ -1,0 +1,250 @@
+18:30:39  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:30:39  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:30:39  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:30:40  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:30:40  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:30:40  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:30:40  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:30:40  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:30:41  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:30:41  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:30:41  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:30:41  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:30:41  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:30:41  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:30:41  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:30:42  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:30:42  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:30:42  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:30:42  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:30:42  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:30:42  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:30:42  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:30:42  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:30:43  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:30:43  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:30:43  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:30:43  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:30:43  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:30:44  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:30:44  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:30:44  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:30:44  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:30:44  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:30:45  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:30:45  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:30:45  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:30:45  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:30:45  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:30:46  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:30:46  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:30:46  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:30:46  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:30:46  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:30:47  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:30:47  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:30:47  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:30:47  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:30:47  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:30:48  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:30:48  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:30:48  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:30:48  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:30:48  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:30:49  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:30:49  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:30:49  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:30:49  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:30:49  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:30:50  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:30:50  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:30:50  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:30:50  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:30:50  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:30:51  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:30:51  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:30:51  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:30:51  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:30:51  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:30:52  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:30:52  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:30:52  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:30:52  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:30:52  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:30:53  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:30:53  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:30:53  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:30:53  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:30:53  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:30:54  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:30:54  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:30:54  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:30:54  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:30:54  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:30:55  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:30:55  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:30:55  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:30:55  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:30:55  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:30:56  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:30:56  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:30:56  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:30:56  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:30:56  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:30:56  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:30:57  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:30:57  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:30:57  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:30:57  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:30:57  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:30:57  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:30:58  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:30:58  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:30:58  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:30:58  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:30:58  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:30:58  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:30:58  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:30:58  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:30:59  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:30:59  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:30:59  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:30:59  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:30:59  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:01  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:01  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:01  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:01  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:01  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:02  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:02  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:02  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:02  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:02  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:03  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:03  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:03  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:03  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:03  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:04  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:04  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:04  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:04  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:04  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:05  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:05  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:05  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:05  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:05  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:06  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:06  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:06  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:06  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:06  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:07  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:07  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:07  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:07  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:07  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:08  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:08  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:08  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:08  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:08  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:09  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:09  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:09  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:09  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:09  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:10  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:10  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:10  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:10  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:10  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:11  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:11  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:11  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:11  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:11  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:12  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:12  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:12  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:12  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:12  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:12  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:13  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:13  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:13  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:13  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:13  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:13  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:13  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:14  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:14  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:14  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:14  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:14  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:14  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:14  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:15  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:15  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:15  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:15  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:15  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:16  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:16  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:16  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:16  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:16  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:17  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:17  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:17  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:17  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:17  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:18  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:18  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:18  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:18  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:18  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:19  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:19  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:19  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:19  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:19  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:20  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:20  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:20  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:20  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:20  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:21  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:21  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:21  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:21  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:21  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:22  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:22  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:22  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:22  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:22  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:23  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:23  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:23  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:23  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:23  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:24  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:24  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:24  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:24  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:24  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:25  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+18:31:25  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+18:31:25  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+18:31:25  Build 225: no derivable geometry -- widget hidden/phantom and parent walk produced no on-canvas ancestor (depth=0) -- not clicking blind
+18:31:25  Build 224: Set-name target live (packed=36569103) but no derivable geometry -- not clicking blind; re-discovering next tick
+18:31:25  Screenshot saved: 2026-09-28_18-31-25_CHAR_CREATOR_auto.png
+18:31:25  Build 82: cleaned up 1 old screenshots
