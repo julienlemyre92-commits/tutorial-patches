@@ -1,0 +1,250 @@
+23:34:22  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:22  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:22  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:22  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:22  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:22  clickTabIcon FRIENDS: button missing 3x in a row — script-switch fallback (attempt 7)
+23:34:22  switchTabViaScript: ran client script 915 -> FRIENDS
+23:34:22  Build 127 SCAN-SUMMARY: iconGroups=[548]
+23:34:23  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:23  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:23  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:23  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:23  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:24  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:24  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:24  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:24  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:24  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:25  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:25  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:25  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:25  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:25  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:25  clickTabIcon FRIENDS: button missing 3x in a row — script-switch fallback (attempt 8)
+23:34:25  switchTabViaScript: ran client script 915 -> FRIENDS
+23:34:25  Build 127 SCAN-SUMMARY: iconGroups=[548]
+23:34:26  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:26  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:26  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:26  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:26  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:26  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:27  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:27  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:27  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:27  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:27  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:28  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:28  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:28  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:28  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:28  clickTabIcon FRIENDS: button missing 3x in a row — script-switch fallback (attempt 9)
+23:34:28  switchTabViaScript: ran client script 915 -> FRIENDS
+23:34:28  Build 127 SCAN-SUMMARY: iconGroups=[548]
+23:34:28  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:29  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:29  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:29  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:29  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:29  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:29  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:29  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:29  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:29  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:30  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:30  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:30  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:30  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:30  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:30  clickTabIcon FRIENDS: button missing 3x in a row — script-switch fallback (attempt 10)
+23:34:30  switchTabViaScript: ran client script 915 -> FRIENDS
+23:34:30  Build 127 SCAN-SUMMARY: iconGroups=[548]
+23:34:31  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:31  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:31  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:31  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:31  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:32  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:32  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:32  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:32  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:32  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:33  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:33  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:33  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:33  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:33  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:33  clickTabIcon FRIENDS: button missing 3x in a row — script-switch fallback (attempt 11)
+23:34:33  switchTabViaScript: ran client script 915 -> FRIENDS
+23:34:33  Build 127 SCAN-SUMMARY: iconGroups=[548]
+23:34:34  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:34  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:34  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:34  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:34  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:35  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:35  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:35  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:35  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:35  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:35  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:36  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:36  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:36  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:36  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:36  clickTabIcon FRIENDS: button missing 3x in a row — script-switch fallback (attempt 12)
+23:34:36  switchTabViaScript: ran client script 915 -> FRIENDS
+23:34:36  Build 127 SCAN-SUMMARY: iconGroups=[548]
+23:34:36  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:37  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:37  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:37  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:37  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:37  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:38  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:38  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:38  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:38  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:38  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:38  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:38  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:38  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:38  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:38  clickTabIcon FRIENDS: button missing 3x in a row — script-switch fallback (attempt 13)
+23:34:38  switchTabViaScript: ran client script 915 -> FRIENDS
+23:34:38  Build 127 SCAN-SUMMARY: iconGroups=[548]
+23:34:39  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:39  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:39  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:39  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:39  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:40  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:40  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:40  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:40  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:40  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:41  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:41  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:41  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:41  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:41  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:41  clickTabIcon FRIENDS: button missing 3x in a row — script-switch fallback (attempt 14)
+23:34:41  switchTabViaScript: ran client script 915 -> FRIENDS
+23:34:41  Build 125: ALL-ROOTS SCAN -- looking for the visible tab strip
+23:34:41  Build 125 SCAN: roots=1
+23:34:41  Build 125 SCAN:   group 548 (raw 35913728): 21 visible icon-sized widgets
+23:34:41  Build 125 SCAN:     548:21 '' [545,4 32x33]
+23:34:41  Build 125 SCAN:     548:24 '' [546,6 29x29]
+23:34:41  Build 125 SCAN:     548:40 '' [473,315 30x25]
+23:34:41  Build 125 SCAN:     548:49 '' [593,466 38x36]
+23:34:41  Build 125 SCAN:     548:51 '' [626,466 33x36]
+23:34:41  Build 125 SCAN:     548:52 '' [659,466 33x36]
+23:34:41  Build 125 SCAN:     548:56 '' [593,466 33x36]
+23:34:41  Build 125 SCAN:     548:58 '' [626,466 33x36]
+23:34:41  Build 125 SCAN:     548:59 '' [659,466 33x36]
+23:34:41  Build 125 SCAN:     548:64 '' [522,168 38x36]
+23:34:41  Build 127 SCAN-SUMMARY: iconGroups=[548]
+23:34:41  Build 127 SCAN-SUMMARY: iconGroups=[548]
+23:34:42  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:42  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:42  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:42  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:42  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:43  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:43  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:43  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:43  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:43  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:44  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:44  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:44  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:44  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:44  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:44  clickTabIcon FRIENDS: button missing 3x in a row — script-switch fallback (attempt 15)
+23:34:44  switchTabViaScript: ran client script 915 -> FRIENDS
+23:34:44  Build 127 SCAN-SUMMARY: iconGroups=[548]
+23:34:45  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:45  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:45  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:45  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:45  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:45  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:46  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:46  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:46  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:46  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:46  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:47  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:47  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:47  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:47  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:47  clickTabIcon FRIENDS: button missing 3x in a row — script-switch fallback (attempt 16)
+23:34:47  switchTabViaScript: ran client script 915 -> FRIENDS
+23:34:47  Build 127 SCAN-SUMMARY: iconGroups=[548]
+23:34:47  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:47  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:47  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:47  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:47  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:48  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:48  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:48  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:48  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:48  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:49  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:49  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:49  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:49  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:49  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:49  clickTabIcon FRIENDS: button missing 3x in a row — script-switch fallback (attempt 17)
+23:34:49  switchTabViaScript: ran client script 915 -> FRIENDS
+23:34:49  Build 127 SCAN-SUMMARY: iconGroups=[548]
+23:34:50  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:50  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:50  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:50  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:50  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:51  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:51  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:51  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:51  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:51  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:52  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:52  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:52  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:52  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:52  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:52  clickTabIcon FRIENDS: button missing 3x in a row — script-switch fallback (attempt 18)
+23:34:52  switchTabViaScript: ran client script 915 -> FRIENDS
+23:34:52  Build 127 SCAN-SUMMARY: iconGroups=[548]
+23:34:53  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:53  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:53  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:53  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:53  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:54  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:54  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:54  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:54  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:54  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:54  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:55  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:55  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:55  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:55  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:55  clickTabIcon FRIENDS: button missing 3x in a row — script-switch fallback (attempt 19)
+23:34:55  switchTabViaScript: ran client script 915 -> FRIENDS
+23:34:55  Build 127 SCAN-SUMMARY: iconGroups=[548]
+23:34:55  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:56  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:56  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:56  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:56  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:56  PRAYER TICK: talked1=true tab=true talked2=true
+23:34:57  clickTabIcon FRIENDS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+23:34:57  Build 124: FRIENDS check: [164:46 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+23:34:57  clickTabIcon FRIENDS: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+23:34:57  clickTabIcon FRIENDS: no verified target this tick — counting miss
+23:34:57  Screenshot saved: 2026-09-27_23-34-57_PRAYER_auto.png
+23:34:57  Build 82: cleaned up 1 old screenshots
