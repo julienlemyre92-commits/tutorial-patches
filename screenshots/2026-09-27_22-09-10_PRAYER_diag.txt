@@ -1,0 +1,250 @@
+22:02:43  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:02:44  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:02:45  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:02:46  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:02:47  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:02:48  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:02:49  Build 138 DOOR STUCK (PRAYER_TRAVEL): (varp=550,tile=WorldPoint(x=3129, y=3124, plane=0),target=door/9722) unchanged for 8 ticks. Replanning with different target.
+22:02:49  Build 134 SNAPSHOT: player=WorldPoint(x=3129, y=3124, plane=0), varp281=550, dialogue=
+22:02:49  Build 134 SNAPSHOT: doorTarget=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), doorSubstate=0
+22:03:09  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) OK(adj=WorldPoint(x=3126, y=3124, plane=0))] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:03:09  Build 139 DOOR: selected id=9721 at WorldPoint(x=3125, y=3124, plane=0) (tried=[9722])
+22:03:09  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:03:09  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:03:10  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:03:10  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:03:10  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:03:11  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:03:11  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:03:11  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:03:12  Build 144 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3126, y=3124, plane=0) stalled 5 ticks (no movement). Falling back to direct door click for 9721
+22:03:12  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:03:12  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:03:13  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:03:13  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:03:13  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:03:14  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:03:15  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:03:15  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:03:16  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:03:16  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:03:16  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:03:17  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:03:17  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:03:17  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:03:18  Build 144 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3126, y=3124, plane=0) stalled 5 ticks (no movement). Falling back to direct door click for 9721
+22:03:18  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:03:18  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:03:19  Build 138 DOOR STUCK (PRAYER_TRAVEL): (varp=550,tile=WorldPoint(x=3129, y=3124, plane=0),target=door/9721) unchanged for 8 ticks. Replanning with different target.
+22:03:19  Build 134 SNAPSHOT: player=WorldPoint(x=3129, y=3124, plane=0), varp281=550, dialogue=
+22:03:19  Build 134 SNAPSHOT: doorTarget=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), doorSubstate=0
+22:03:39  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(tried)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:03:39  Build 139 DOOR: all candidates exhausted (tried=[9721, 9722]). Clearing set to retry.
+22:03:58  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) OK(adj=WorldPoint(x=3126, y=3124, plane=0))] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(no-adjacent)]
+22:03:58  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:03:58  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=null, reachable=false
+22:03:58  Build 136 DOOR (PRAYER_TRAVEL): door 9722 temporarily unreachable. Holding pending, waiting.
+22:03:59  Screenshot saved: 2026-09-27_22-03-59_PRAYER_auto.png
+22:03:59  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:04  Diag tail uploaded: 2026-09-27_22-03-59_PRAYER_diag.txt
+22:04  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:04:01  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:04:02  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:04:03  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:04:04  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:04:05  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:04:06  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:04:07  Build 138 DOOR STUCK (PRAYER_TRAVEL): (varp=550,tile=WorldPoint(x=3129, y=3124, plane=0),target=door/9722) unchanged for 8 ticks. Replanning with different target.
+22:04:07  Build 134 SNAPSHOT: player=WorldPoint(x=3129, y=3124, plane=0), varp281=550, dialogue=
+22:04:07  Build 134 SNAPSHOT: doorTarget=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), doorSubstate=0
+22:04:26  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) OK(adj=WorldPoint(x=3126, y=3124, plane=0))] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:04:26  Build 139 DOOR: selected id=9721 at WorldPoint(x=3125, y=3124, plane=0) (tried=[9722])
+22:04:27  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:04:27  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:04:28  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:04:28  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:04:28  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:04:29  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:04:29  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:04:29  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:04:30  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:04:30  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:04:30  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:04:31  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:04:31  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:04:31  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:04:32  Build 144 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3126, y=3124, plane=0) stalled 5 ticks (no movement). Falling back to direct door click for 9721
+22:04:32  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:04:32  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:04:34  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:04:34  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:04:34  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:04:35  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:04:35  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:04:35  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:04:36  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:04:36  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:04:36  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:04:37  Build 138 DOOR STUCK (PRAYER_TRAVEL): (varp=550,tile=WorldPoint(x=3129, y=3124, plane=0),target=door/9721) unchanged for 8 ticks. Replanning with different target.
+22:04:37  Build 134 SNAPSHOT: player=WorldPoint(x=3129, y=3124, plane=0), varp281=550, dialogue=
+22:04:37  Build 134 SNAPSHOT: doorTarget=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), doorSubstate=0
+22:04:56  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(tried)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:04:56  Build 139 DOOR: all candidates exhausted (tried=[9721, 9722]). Clearing set to retry.
+22:05:16  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) OK(adj=WorldPoint(x=3126, y=3124, plane=0))] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(no-adjacent)]
+22:05:16  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:05:16  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=null, reachable=false
+22:05:16  Build 136 DOOR (PRAYER_TRAVEL): door 9722 temporarily unreachable. Holding pending, waiting.
+22:05:17  Screenshot saved: 2026-09-27_22-05-17_PRAYER_auto.png
+22:05:17  Build 82: cleaned up 1 old screenshots
+22:05:17  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:05:18  Diag tail uploaded: 2026-09-27_22-05-17_PRAYER_diag.txt
+22:05:18  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:05:19  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:05:20  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:05:21  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:05:22  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:05:23  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:05:24  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:05:25  Build 138 DOOR STUCK (PRAYER_TRAVEL): (varp=550,tile=WorldPoint(x=3129, y=3124, plane=0),target=door/9722) unchanged for 8 ticks. Replanning with different target.
+22:05:25  Build 134 SNAPSHOT: player=WorldPoint(x=3129, y=3124, plane=0), varp281=550, dialogue=
+22:05:25  Build 134 SNAPSHOT: doorTarget=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), doorSubstate=0
+22:05:44  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) OK(adj=WorldPoint(x=3126, y=3124, plane=0))] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:05:44  Build 139 DOOR: selected id=9721 at WorldPoint(x=3125, y=3124, plane=0) (tried=[9722])
+22:05:44  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:05:44  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:05:45  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:05:46  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:05:46  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:05:47  Build 144 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3126, y=3124, plane=0) stalled 5 ticks (no movement). Falling back to direct door click for 9721
+22:05:47  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:05:47  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:05:48  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:05:48  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:05:48  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:05:49  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:05:49  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:05:49  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:05:50  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:05:50  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:05:50  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:05:51  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:05:52  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:05:52  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:05:53  Build 144 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3126, y=3124, plane=0) stalled 5 ticks (no movement). Falling back to direct door click for 9721
+22:05:53  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:05:53  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:05:54  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:05:54  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:05:54  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:05:55  Build 138 DOOR STUCK (PRAYER_TRAVEL): (varp=550,tile=WorldPoint(x=3129, y=3124, plane=0),target=door/9721) unchanged for 8 ticks. Replanning with different target.
+22:05:55  Build 134 SNAPSHOT: player=WorldPoint(x=3129, y=3124, plane=0), varp281=550, dialogue=
+22:05:55  Build 134 SNAPSHOT: doorTarget=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), doorSubstate=0
+22:06:14  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(tried)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:06:14  Build 139 DOOR: all candidates exhausted (tried=[9721, 9722]). Clearing set to retry.
+22:06:34  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) OK(adj=WorldPoint(x=3126, y=3124, plane=0))] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(no-adjacent)]
+22:06:34  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:06:34  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=null, reachable=false
+22:06:34  Build 136 DOOR (PRAYER_TRAVEL): door 9722 temporarily unreachable. Holding pending, waiting.
+22:06:35  Screenshot saved: 2026-09-27_22-06-34_PRAYER_auto.png
+22:06:35  Build 82: cleaned up 1 old screenshots
+22:06:35  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:06:35  Diag tail uploaded: 2026-09-27_22-06-34_PRAYER_diag.txt
+22:06:36  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:06:37  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:06:38  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:06:39  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:06:40  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:06:41  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:06:42  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:06:43  Build 138 DOOR STUCK (PRAYER_TRAVEL): (varp=550,tile=WorldPoint(x=3129, y=3124, plane=0),target=door/9722) unchanged for 8 ticks. Replanning with different target.
+22:06:43  Build 134 SNAPSHOT: player=WorldPoint(x=3129, y=3124, plane=0), varp281=550, dialogue=
+22:06:43  Build 134 SNAPSHOT: doorTarget=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), doorSubstate=0
+22:07:02  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) OK(adj=WorldPoint(x=3126, y=3124, plane=0))] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:07:02  Build 139 DOOR: selected id=9721 at WorldPoint(x=3125, y=3124, plane=0) (tried=[9722])
+22:07:02  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:07:02  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:07:03  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:07:03  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:07:03  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:07:04  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:07:05  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:07:05  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:07:06  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:07:06  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:07:06  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:07:07  Build 144 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3126, y=3124, plane=0) stalled 5 ticks (no movement). Falling back to direct door click for 9721
+22:07:07  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:07:07  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:07:08  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:07:08  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:07:08  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:07:09  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:07:09  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:07:09  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:07:10  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:07:11  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:07:11  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:07:12  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:07:12  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:07:12  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:07:13  Build 138 DOOR STUCK (PRAYER_TRAVEL): (varp=550,tile=WorldPoint(x=3129, y=3124, plane=0),target=door/9721) unchanged for 8 ticks. Replanning with different target.
+22:07:13  Build 134 SNAPSHOT: player=WorldPoint(x=3129, y=3124, plane=0), varp281=550, dialogue=
+22:07:13  Build 134 SNAPSHOT: doorTarget=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), doorSubstate=0
+22:07:32  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(tried)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:07:32  Build 139 DOOR: all candidates exhausted (tried=[9721, 9722]). Clearing set to retry.
+22:07:52  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) OK(adj=WorldPoint(x=3126, y=3124, plane=0))] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(no-adjacent)]
+22:07:52  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:07:52  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=null, reachable=false
+22:07:52  Build 136 DOOR (PRAYER_TRAVEL): door 9722 temporarily unreachable. Holding pending, waiting.
+22:07:53  Screenshot saved: 2026-09-27_22-07-52_PRAYER_auto.png
+22:07:53  Build 82: cleaned up 1 old screenshots
+22:07:53  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:07:53  Diag tail uploaded: 2026-09-27_22-07-52_PRAYER_diag.txt
+22:07:54  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:07:55  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:07:56  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:07:57  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:07:58  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:07:59  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:07:59  Build 137 DOOR (PRAYER_TRAVEL): phase APPROACH, door 9722 no reachable adjacent. Waiting.
+22:08  Build 138 DOOR STUCK (PRAYER_TRAVEL): (varp=550,tile=WorldPoint(x=3129, y=3124, plane=0),target=door/9722) unchanged for 8 ticks. Replanning with different target.
+22:08  Build 134 SNAPSHOT: player=WorldPoint(x=3129, y=3124, plane=0), varp281=550, dialogue=
+22:08  Build 134 SNAPSHOT: doorTarget=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), doorSubstate=0
+22:08:20  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) OK(adj=WorldPoint(x=3126, y=3124, plane=0))] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:08:20  Build 139 DOOR: selected id=9721 at WorldPoint(x=3125, y=3124, plane=0) (tried=[9722])
+22:08:20  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:08:20  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:08:21  Build 144 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3126, y=3124, plane=0) stalled 5 ticks (no movement). Falling back to direct door click for 9721
+22:08:21  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:08:21  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:08:22  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:08:22  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:08:22  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:08:23  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:08:24  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:08:24  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:08:25  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:08:25  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:08:25  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:08:26  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:08:26  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:08:26  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:08:27  Build 144 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3126, y=3124, plane=0) stalled 5 ticks (no movement). Falling back to direct door click for 9721
+22:08:27  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:08:27  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:08:28  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:08:28  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:08:28  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:08:29  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:08:30  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:08:30  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:08:30  Build 138 DOOR STUCK (PRAYER_TRAVEL): (varp=550,tile=WorldPoint(x=3129, y=3124, plane=0),target=door/9721) unchanged for 8 ticks. Replanning with different target.
+22:08:31  Build 134 SNAPSHOT: player=WorldPoint(x=3129, y=3124, plane=0), varp281=550, dialogue=
+22:08:31  Build 134 SNAPSHOT: doorTarget=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), doorSubstate=0
+22:08:50  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(tried)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:08:50  Build 139 DOOR: all candidates exhausted (tried=[9721, 9722]). Clearing set to retry.
+22:09:09  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) OK(adj=WorldPoint(x=3126, y=3124, plane=0))] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(no-adjacent)]
+22:09:09  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:09:09  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=null, reachable=false
+22:09:09  Build 136 DOOR (PRAYER_TRAVEL): door 9722 temporarily unreachable. Holding pending, waiting.
+22:09:10  Screenshot saved: 2026-09-27_22-09-10_PRAYER_auto.png
