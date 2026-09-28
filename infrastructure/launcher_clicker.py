@@ -280,6 +280,26 @@ def ocr_game_window():
         return None, 0, 0
 
 
+def ensure_window_visible(win, tag):
+    """Restore + focus the game window before OCR/clicks. A minimized or
+    background window screenshots blank and eats clicks, which is exactly
+    what stranded the bot on 2026-09-28 (Alex had to restore it by hand).
+    Never raises."""
+    try:
+        if win.isMinimized:
+            print(f"CLICKER[{tag}]: window minimized -> restoring", flush=True)
+            win.restore()
+            time.sleep(0.8)
+    except Exception as e:
+        print(f"CLICKER[{tag}]: restore note: {e}", flush=True)
+    try:
+        win.activate()
+        time.sleep(0.5)
+    except Exception as e:
+        print(f"CLICKER[{tag}]: activate note: {e}", flush=True)
+    return win
+
+
 def check_once():
     """Single non-blocking pass: run every known login/launcher branch
     (disconnect modal, messages Play screen, CLICK HERE TO PLAY, Login /
@@ -299,6 +319,7 @@ def check_once():
     if not HAS_OCR:
         print("CLICKER[check-once]: no OCR available", flush=True)
         return 0
+    ensure_window_visible(windows[0], "check-once")
     data, ox, oy = ocr_game_window()
     if data is None:
         return 0
@@ -505,6 +526,7 @@ def main():
 
         game_win = windows[0]
         print(f"Found game window: {game_win.title}", flush=True)
+        ensure_window_visible(game_win, "main")
 
         # The launcher can sit at a tiny 360x520 placeholder window that NEVER
         # grows on its own -- it needs Play/Login clicked INSIDE it (seen
