@@ -14,6 +14,13 @@ New in this version: detects the "You were disconnected from the server."
 modal and clicks Ok, and recognizes "CLICK HERE TO PLAY". --check-once is a
 non-blocking single OCR pass designed to run every Supervisor cycle so a
 mid-session disconnect heals itself without a client restart.
+
+2026-09-28 PM: the clicker used to SKIP the small (360x520) launcher window
+("too small, not loaded yet") and wait for it to grow -- but it never grows
+until someone clicks Play INSIDE it. Deadlock. Now the small window is OCR'd
+and its Play/Login/messages-prompt buttons are clicked. Also handles the
+second Play screen ("you have messages" prompt). Every branch logs explicitly
+as CLICKER[tag]: branch=<name>.
 """
 
 import sys
@@ -163,6 +170,94 @@ def find_login_or_playnow(data, ox, oy, min_conf=50):
     return (x, y, "Login" if kind == 1 else "Play Now")
 
 
+def find_messages_play(data, ox, oy, min_conf=40):
+    """Second Play screen: a 'you have messages' / 'messages' prompt with a
+    Play button (seen 2026-09-28: the session sat at this screen with nobody
+    clicking it). Requires a 'message'-containing token AND a standalone
+    'play' token; returns the Play button center. Otherwise None."""
+    texts = [(t or "").strip().lower() for t in data['text']]
+    if not any('message' in t for t in texts):
+        return None
+    best = None
+    for i in range(len(data['text'])):
+        t = texts[i]
+        try:
+            conf = int(data['conf'][i])
+        except (ValueError, TypeError):
+            continue
+        if conf < min_conf or t != 'play':
+            continue
+        h = data['height'][i]
+        x = ox + data['left'][i] + data['width'][i] // 2
+        y = oy + data['top'][i] + data['height'][i] // 2
+        if best is None or h > best[2]:
+            best = (x, y, h)
+    return (best[0], best[1]) if best else None
+
+
+def find_standalone_play(data, ox, oy, min_conf=40):
+    """A lone PLAY/Play button (Jagex Launcher small window). Largest wins."""
+    best = None
+    for i in range(len(data['text'])):
+        t = (data['text'][i] or "").strip().lower()
+        try:
+            conf = int(data['conf'][i])
+        except (ValueError, TypeError):
+            continue
+        if conf < min_conf or t != 'play':
+            continue
+        h = data['height'][i]
+        x = ox + data['left'][i] + data['width'][i] // 2
+        y = oy + data['top'][i] + data['height'][i] // 2
+        if best is None or h > best[2]:
+            best = (x, y, h)
+    return (best[0], best[1]) if best else None
+
+
+def click_at(x, y, tag):
+    print(f"CLICKER[{tag}]: clicking at {x},{y}", flush=True)
+    try:
+        pyautogui.moveTo(x, y, duration=0.3)
+        time.sleep(0.3)
+        pyautogui.click(x, y)
+        return True
+    except Exception as e:
+        print(f"CLICKER[{tag}]: click failed: {e}", flush=True)
+        return False
+
+
+def heal_screen(data, ox, oy, tag):
+    """Run every known login/launcher screen branch in priority order and
+    click the first match. Returns the branch label, or None."""
+    dlg = find_disconnect_ok(data, ox, oy)
+    if dlg:
+        print(f"CLICKER[{tag}]: branch=disconnect-modal -> Ok at {dlg[0]},{dlg[1]}", flush=True)
+        click_at(dlg[0], dlg[1], tag)
+        return "disconnect-modal"
+    mp = find_messages_play(data, ox, oy)
+    if mp:
+        print(f"CLICKER[{tag}]: branch=messages-play-screen -> Play at {mp[0]},{mp[1]}", flush=True)
+        click_at(mp[0], mp[1], tag)
+        return "messages-play-screen"
+    chtp = find_click_here_to_play(data, ox, oy)
+    if chtp:
+        print(f"CLICKER[{tag}]: branch=click-here-to-play at {chtp[0]},{chtp[1]}", flush=True)
+        click_at(chtp[0], chtp[1], tag)
+        return "click-here-to-play"
+    lp = find_login_or_playnow(data, ox, oy)
+    if lp:
+        print(f"CLICKER[{tag}]: branch=login-or-play-now({lp[2]}) at {lp[0]},{lp[1]}", flush=True)
+        click_at(lp[0], lp[1], tag)
+        return "login-or-play-now"
+    sp = find_standalone_play(data, ox, oy)
+    if sp:
+        print(f"CLICKER[{tag}]: branch=standalone-play at {sp[0]},{sp[1]}", flush=True)
+        click_at(sp[0], sp[1], tag)
+        return "standalone-play"
+    print(f"CLICKER[{tag}]: no actionable screen detected", flush=True)
+    return None
+
+
 def ocr_game_window():
     """Screenshot the RuneLite game window and OCR it.
     Returns (data, ox, oy) or (None, 0, 0) on failure."""
@@ -186,51 +281,26 @@ def ocr_game_window():
 
 
 def check_once():
-    """Single non-blocking pass: dismiss the disconnect dialog, click
-    CLICK HERE TO PLAY / Login / Play Now if visible. Does nothing otherwise.
-    Always exits 0 (a quiet pass is not an error)."""
+    """Single non-blocking pass: run every known login/launcher branch
+    (disconnect modal, messages Play screen, CLICK HERE TO PLAY, Login /
+    Play Now, standalone Play) and click the first match. Does nothing
+    otherwise. Always exits 0 (a quiet pass is not an error)."""
     windows = [w for w in pyautogui.getWindowsWithTitle("RuneLite")
                if w.title.strip() == "RuneLite"]
     if not windows:
-        print("check-once: no RuneLite window", flush=True)
+        # Fall back to the Jagex Launcher window itself.
+        windows = [w for w in pyautogui.getWindowsWithTitle("Jagex Launcher")
+                   if "jagex launcher" in w.title.strip().lower()]
+    if not windows:
+        print("CLICKER[check-once]: no RuneLite/Jagex Launcher window", flush=True)
         return 0
     if not HAS_OCR:
-        print("check-once: no OCR available", flush=True)
+        print("CLICKER[check-once]: no OCR available", flush=True)
         return 0
     data, ox, oy = ocr_game_window()
     if data is None:
         return 0
-    dlg = find_disconnect_ok(data, ox, oy)
-    if dlg:
-        print(f"check-once: disconnect dialog -> clicking Ok at {dlg[0]},{dlg[1]}", flush=True)
-        try:
-            pyautogui.moveTo(dlg[0], dlg[1], duration=0.3)
-            time.sleep(0.3)
-            pyautogui.click(dlg[0], dlg[1])
-        except Exception as e:
-            print(f"check-once: click failed: {e}", flush=True)
-        return 0
-    chtp = find_click_here_to_play(data, ox, oy)
-    if chtp:
-        print(f"check-once: CLICK HERE TO PLAY -> clicking at {chtp[0]},{chtp[1]}", flush=True)
-        try:
-            pyautogui.moveTo(chtp[0], chtp[1], duration=0.3)
-            time.sleep(0.3)
-            pyautogui.click(chtp[0], chtp[1])
-        except Exception as e:
-            print(f"check-once: click failed: {e}", flush=True)
-        return 0
-    lp = find_login_or_playnow(data, ox, oy)
-    if lp:
-        print(f"check-once: {lp[2]} visible -> clicking at {lp[0]},{lp[1]}", flush=True)
-        try:
-            pyautogui.moveTo(lp[0], lp[1], duration=0.3)
-            time.sleep(0.3)
-            pyautogui.click(lp[0], lp[1])
-        except Exception as e:
-            print(f"check-once: click failed: {e}", flush=True)
-        return 0
-    print("check-once: nothing to do", flush=True)
+    heal_screen(data, ox, oy, "check-once")
     return 0
 
 
@@ -315,8 +385,30 @@ def main():
                         help='Single non-blocking pass: dismiss disconnect dialog / click '
                              'CLICK HERE TO PLAY / Login / Play Now if visible, then exit. '
                              'Designed to be called every Supervisor cycle.')
+    parser.add_argument('--dump-ocr', action='store_true',
+                        help='Print every OCR token (conf>=30) with coordinates and exit. '
+                             'Diagnostics for tuning the matchers on a stuck screen.')
     args = parser.parse_args()
     TARGET_WORLD = args.world
+
+    if args.dump_ocr:
+        data, ox, oy = ocr_game_window()
+        if data is None:
+            print("dump-ocr: OCR failed", flush=True)
+            sys.exit(1)
+        print("OCR DUMP (conf>=30):", flush=True)
+        for i in range(len(data['text'])):
+            t = (data['text'][i] or "").strip()
+            try:
+                conf = int(data['conf'][i])
+            except (ValueError, TypeError):
+                continue
+            if not t or conf < 30:
+                continue
+            x = ox + data['left'][i]
+            y = oy + data['top'][i]
+            print(f"  [{conf:3d}] ({x},{y}) '{t}'", flush=True)
+        sys.exit(0)
 
     if args.check_once:
         sys.exit(check_once())
@@ -390,14 +482,24 @@ def main():
         game_win = windows[0]
         print(f"Found game window: {game_win.title}", flush=True)
 
-        # Wait for the game to actually load: the window must be a reasonable
-        # size (not the tiny 360x520 launcher placeholder)
+        # The launcher can sit at a tiny 360x520 placeholder window that NEVER
+        # grows on its own -- it needs Play/Login clicked INSIDE it (seen
+        # 2026-09-28: the clicker waited on "too small" forever = deadlock).
+        # So OCR the small window and heal it instead of skipping it.
         bounds = get_game_window_bounds()
         if bounds:
             gx, gy, gw, gh = bounds
             if gw < 600 or gh < 400:
-                print(f"Game window too small ({gw}x{gh}), not loaded yet, waiting...", flush=True)
-                time.sleep(5)
+                print(f"CLICKER[main]: small launcher window ({gw}x{gh}) - scanning inside it for Play/Login...", flush=True)
+                try:
+                    game_win.activate()
+                    time.sleep(0.5)
+                except Exception as e:
+                    print(f"CLICKER[main]: activate note: {e}", flush=True)
+                data, ox, oy = ocr_game_window()
+                if data is not None:
+                    heal_screen(data, ox, oy, "main/small-window")
+                time.sleep(3)
                 continue
             print(f"Game window loaded: {gw}x{gh}", flush=True)
 
