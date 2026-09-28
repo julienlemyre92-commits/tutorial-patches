@@ -1,0 +1,250 @@
+22:13:14  Build 137 DOOR (PRAYER_TRAVEL): phase CLICKED->VERIFY, door 9722 no crossing after 5 ticks. Replanning.
+22:13:14  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY single retry click=true on door 9722
+22:13:16  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY timeout, door 9722. Clearing pending, replanning from WorldPoint(x=3129, y=3124, plane=0)
+22:13:36  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) OK(adj=WorldPoint(x=3126, y=3124, plane=0))] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:13:36  Build 139 DOOR: selected id=9721 at WorldPoint(x=3125, y=3124, plane=0) (tried=[9722])
+22:13:36  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:13:36  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:13:37  Screenshot saved: 2026-09-27_22-13-37_PRAYER_auto.png
+22:13:37  Build 82: cleaned up 1 old screenshots
+22:13:37  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:13:38  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:13:38  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:13:38  Diag tail uploaded: 2026-09-27_22-13-37_PRAYER_diag.txt
+22:13:39  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:13:39  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:13:39  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:13:40  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:13:40  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:13:40  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:13:41  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:13:41  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:13:41  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:13:42  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:13:42  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:13:42  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:13:43  Build 144 DOOR (PRAYER_TRAVEL): walkTo WorldPoint(x=3126, y=3124, plane=0) stalled 5 ticks (no movement). Falling back to direct door click for 9721
+22:13:44  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:13:44  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:13:45  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:13:45  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:13:45  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:13:46  Build 148 DOOR (PRAYER_TRAVEL): WALKER LIED! walkTo(WorldPoint(x=3126, y=3124, plane=0)) returned true but player stayed at WorldPoint(x=3129, y=3124, plane=0). Forcing direct door click for 9721
+22:13:46  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3126, y=3124, plane=0), reachable=true
+22:13:46  Build 136 DOOR (PRAYER_TRAVEL): walking to adjacent WorldPoint(x=3126, y=3124, plane=0) for door 9721
+22:13:47  Build 138 DOOR STUCK (PRAYER_TRAVEL): (varp=550,tile=WorldPoint(x=3129, y=3124, plane=0),target=door/9721) unchanged for 8 ticks. Replanning with different target.
+22:13:47  Build 134 SNAPSHOT: player=WorldPoint(x=3129, y=3124, plane=0), varp281=550, dialogue=
+22:13:47  Build 134 SNAPSHOT: doorTarget=Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0), doorSubstate=0
+22:14:06  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(tried)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:14:06  Build 139 DOOR: all candidates exhausted (tried=[9721, 9722]). Clearing set to retry.
+22:14:26  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) OK(adj=WorldPoint(x=3126, y=3124, plane=0))] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(no-adjacent)]
+22:14:26  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:14:26  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3129, y=3124, plane=0), adjacent=WorldPoint(x=3129, y=3124, plane=0), reachable=true
+22:14:26  Build 152 DOOR (PRAYER_TRAVEL): clicked 'Open' on door 9722, clickTile=WorldPoint(x=3129, y=3124, plane=0), phase->CLICKED. Waiting for crossing.
+22:14:27  Build 151 DOOR: EW door 9722, farSide=WorldPoint(x=3132, y=3124, plane=0) (X-axis)
+22:14:27  Build 144 DOOR (PRAYER_TRAVEL): door 9722 OPEN (disappeared, traversable=true). WALKTHROUGH to WorldPoint(x=3132, y=3124, plane=0)
+22:14:28  Build 141 DOOR (PRAYER_TRAVEL): WALKTHROUGH walking to WorldPoint(x=3132, y=3124, plane=0)
+22:14:29  Build 141 DOOR (PRAYER_TRAVEL): WALKTHROUGH walking to WorldPoint(x=3132, y=3124, plane=0)
+22:14:30  Build 141 DOOR (PRAYER_TRAVEL): WALKTHROUGH walking to WorldPoint(x=3132, y=3124, plane=0)
+22:14:31  Build 141 DOOR (PRAYER_TRAVEL): WALKTHROUGH walking to WorldPoint(x=3132, y=3124, plane=0)
+22:14:32  Build 141 DOOR (PRAYER_TRAVEL): WALKTHROUGH walking to WorldPoint(x=3132, y=3124, plane=0)
+22:14:32  Build 141 DOOR (PRAYER_TRAVEL): WALKTHROUGH walking to WorldPoint(x=3132, y=3124, plane=0)
+22:14:33  Build 141 DOOR (PRAYER_TRAVEL): WALKTHROUGH walking to WorldPoint(x=3132, y=3124, plane=0)
+22:14:34  Build 138 DOOR STUCK (PRAYER_TRAVEL): (varp=550,tile=WorldPoint(x=3130, y=3124, plane=0),target=door/9722) unchanged for 8 ticks. Replanning with different target.
+22:14:34  Build 134 SNAPSHOT: player=WorldPoint(x=3130, y=3124, plane=0), varp281=550, dialogue=
+22:14:34  Build 134 SNAPSHOT: doorTarget=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), doorSubstate=0
+22:14:53  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:14:53  Build 139 DOOR: all candidates exhausted (tried=[9722]). Clearing set to retry.
+22:15:13  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) OK(adj=WorldPoint(x=3130, y=3125, plane=0))]
+22:15:13  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:15:13  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3130, y=3124, plane=0), adjacent=WorldPoint(x=3130, y=3125, plane=0), reachable=true
+22:15:13  Build 152 DOOR (PRAYER_TRAVEL): clicked 'Open' on door 9722, clickTile=WorldPoint(x=3130, y=3124, plane=0), phase->CLICKED. Waiting for crossing.
+22:15:14  Screenshot saved: 2026-09-27_22-15-14_PRAYER_auto.png
+22:15:15  Diag tail uploaded: 2026-09-27_22-15-14_PRAYER_diag.txt
+22:15:18  Build 137 DOOR (PRAYER_TRAVEL): phase CLICKED->VERIFY, door 9722 no crossing after 5 ticks. Replanning.
+22:15:18  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY single retry click=true on door 9722
+22:15:21  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY timeout, door 9722. Clearing pending, replanning from WorldPoint(x=3130, y=3124, plane=0)
+22:15:40  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:15:40  Build 139 DOOR: all candidates exhausted (tried=[9722]). Clearing set to retry.
+22:15:59  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) OK(adj=WorldPoint(x=3130, y=3125, plane=0))]
+22:15:59  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:15:59  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3130, y=3124, plane=0), adjacent=WorldPoint(x=3130, y=3125, plane=0), reachable=true
+22:15:59  Build 152 DOOR (PRAYER_TRAVEL): clicked 'Open' on door 9722, clickTile=WorldPoint(x=3130, y=3124, plane=0), phase->CLICKED. Waiting for crossing.
+22:16:04  Build 137 DOOR (PRAYER_TRAVEL): phase CLICKED->VERIFY, door 9722 no crossing after 5 ticks. Replanning.
+22:16:04  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY single retry click=true on door 9722
+22:16:07  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY timeout, door 9722. Clearing pending, replanning from WorldPoint(x=3130, y=3124, plane=0)
+22:16:26  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:16:26  Build 139 DOOR: all candidates exhausted (tried=[9722]). Clearing set to retry.
+22:16:45  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) OK(adj=WorldPoint(x=3130, y=3125, plane=0))]
+22:16:45  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:16:45  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3130, y=3124, plane=0), adjacent=WorldPoint(x=3130, y=3125, plane=0), reachable=true
+22:16:45  Build 152 DOOR (PRAYER_TRAVEL): clicked 'Open' on door 9722, clickTile=WorldPoint(x=3130, y=3124, plane=0), phase->CLICKED. Waiting for crossing.
+22:16:46  Screenshot saved: 2026-09-27_22-16-46_PRAYER_auto.png
+22:16:46  Build 82: cleaned up 1 old screenshots
+22:16:47  Diag tail uploaded: 2026-09-27_22-16-46_PRAYER_diag.txt
+22:16:50  Build 137 DOOR (PRAYER_TRAVEL): phase CLICKED->VERIFY, door 9722 no crossing after 5 ticks. Replanning.
+22:16:50  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY single retry click=true on door 9722
+22:16:53  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY timeout, door 9722. Clearing pending, replanning from WorldPoint(x=3130, y=3124, plane=0)
+22:17:12  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:17:12  Build 139 DOOR: all candidates exhausted (tried=[9722]). Clearing set to retry.
+22:17:31  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) OK(adj=WorldPoint(x=3130, y=3125, plane=0))]
+22:17:31  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:17:31  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3130, y=3124, plane=0), adjacent=WorldPoint(x=3130, y=3125, plane=0), reachable=true
+22:17:32  Build 152 DOOR (PRAYER_TRAVEL): clicked 'Open' on door 9722, clickTile=WorldPoint(x=3130, y=3124, plane=0), phase->CLICKED. Waiting for crossing.
+22:17:36  Build 137 DOOR (PRAYER_TRAVEL): phase CLICKED->VERIFY, door 9722 no crossing after 5 ticks. Replanning.
+22:17:37  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY single retry click=true on door 9722
+22:17:39  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY timeout, door 9722. Clearing pending, replanning from WorldPoint(x=3130, y=3124, plane=0)
+22:17:58  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:17:58  Build 139 DOOR: all candidates exhausted (tried=[9722]). Clearing set to retry.
+22:18:17  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) OK(adj=WorldPoint(x=3130, y=3125, plane=0))]
+22:18:17  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:18:18  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3130, y=3124, plane=0), adjacent=WorldPoint(x=3130, y=3125, plane=0), reachable=true
+22:18:18  Build 152 DOOR (PRAYER_TRAVEL): clicked 'Open' on door 9722, clickTile=WorldPoint(x=3130, y=3124, plane=0), phase->CLICKED. Waiting for crossing.
+22:18:19  Screenshot saved: 2026-09-27_22-18-18_PRAYER_auto.png
+22:18:19  Build 82: cleaned up 2 old screenshots
+22:18:19  Diag tail uploaded: 2026-09-27_22-18-18_PRAYER_diag.txt
+22:18:23  Build 137 DOOR (PRAYER_TRAVEL): phase CLICKED->VERIFY, door 9722 no crossing after 5 ticks. Replanning.
+22:18:23  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY single retry click=true on door 9722
+22:18:26  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY timeout, door 9722. Clearing pending, replanning from WorldPoint(x=3130, y=3124, plane=0)
+22:18:45  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:18:45  Build 139 DOOR: all candidates exhausted (tried=[9722]). Clearing set to retry.
+22:19:04  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) OK(adj=WorldPoint(x=3130, y=3125, plane=0))]
+22:19:04  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:19:04  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3130, y=3124, plane=0), adjacent=WorldPoint(x=3130, y=3125, plane=0), reachable=true
+22:19:04  Build 152 DOOR (PRAYER_TRAVEL): clicked 'Open' on door 9722, clickTile=WorldPoint(x=3130, y=3124, plane=0), phase->CLICKED. Waiting for crossing.
+22:19:09  Build 137 DOOR (PRAYER_TRAVEL): phase CLICKED->VERIFY, door 9722 no crossing after 5 ticks. Replanning.
+22:19:09  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY single retry click=true on door 9722
+22:19:12  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY timeout, door 9722. Clearing pending, replanning from WorldPoint(x=3130, y=3124, plane=0)
+22:19:31  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:19:31  Build 139 DOOR: all candidates exhausted (tried=[9722]). Clearing set to retry.
+22:19:50  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) OK(adj=WorldPoint(x=3130, y=3125, plane=0))]
+22:19:50  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:19:50  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3130, y=3124, plane=0), adjacent=WorldPoint(x=3130, y=3125, plane=0), reachable=true
+22:19:50  Build 152 DOOR (PRAYER_TRAVEL): clicked 'Open' on door 9722, clickTile=WorldPoint(x=3130, y=3124, plane=0), phase->CLICKED. Waiting for crossing.
+22:19:51  Screenshot saved: 2026-09-27_22-19-51_PRAYER_auto.png
+22:19:51  Build 82: cleaned up 1 old screenshots
+22:19:52  Diag tail uploaded: 2026-09-27_22-19-51_PRAYER_diag.txt
+22:19:55  Build 137 DOOR (PRAYER_TRAVEL): phase CLICKED->VERIFY, door 9722 no crossing after 5 ticks. Replanning.
+22:19:55  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY single retry click=true on door 9722
+22:19:58  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY timeout, door 9722. Clearing pending, replanning from WorldPoint(x=3130, y=3124, plane=0)
+22:20:17  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:20:17  Build 139 DOOR: all candidates exhausted (tried=[9722]). Clearing set to retry.
+22:20:36  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) OK(adj=WorldPoint(x=3130, y=3125, plane=0))]
+22:20:36  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:20:36  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3130, y=3124, plane=0), adjacent=WorldPoint(x=3130, y=3125, plane=0), reachable=true
+22:20:37  Build 152 DOOR (PRAYER_TRAVEL): clicked 'Open' on door 9722, clickTile=WorldPoint(x=3130, y=3124, plane=0), phase->CLICKED. Waiting for crossing.
+22:20:41  Build 137 DOOR (PRAYER_TRAVEL): phase CLICKED->VERIFY, door 9722 no crossing after 5 ticks. Replanning.
+22:20:41  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY single retry click=true on door 9722
+22:20:44  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY timeout, door 9722. Clearing pending, replanning from WorldPoint(x=3130, y=3124, plane=0)
+22:21:03  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:21:03  Build 139 DOOR: all candidates exhausted (tried=[9722]). Clearing set to retry.
+22:21:22  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) OK(adj=WorldPoint(x=3130, y=3125, plane=0))]
+22:21:22  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:21:22  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3130, y=3124, plane=0), adjacent=WorldPoint(x=3130, y=3125, plane=0), reachable=true
+22:21:23  Build 152 DOOR (PRAYER_TRAVEL): clicked 'Open' on door 9722, clickTile=WorldPoint(x=3130, y=3124, plane=0), phase->CLICKED. Waiting for crossing.
+22:21:24  Screenshot saved: 2026-09-27_22-21-23_PRAYER_auto.png
+22:21:24  Build 82: cleaned up 2 old screenshots
+22:21:26  Diag tail uploaded: 2026-09-27_22-21-23_PRAYER_diag.txt
+22:21:28  Build 137 DOOR (PRAYER_TRAVEL): phase CLICKED->VERIFY, door 9722 no crossing after 5 ticks. Replanning.
+22:21:28  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY single retry click=true on door 9722
+22:21:30  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY timeout, door 9722. Clearing pending, replanning from WorldPoint(x=3130, y=3124, plane=0)
+22:21:49  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:21:49  Build 139 DOOR: all candidates exhausted (tried=[9722]). Clearing set to retry.
+22:22:09  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) OK(adj=WorldPoint(x=3130, y=3125, plane=0))]
+22:22:09  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:22:09  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3130, y=3124, plane=0), adjacent=WorldPoint(x=3130, y=3125, plane=0), reachable=true
+22:22:09  Build 152 DOOR (PRAYER_TRAVEL): clicked 'Open' on door 9722, clickTile=WorldPoint(x=3130, y=3124, plane=0), phase->CLICKED. Waiting for crossing.
+22:22:14  Build 137 DOOR (PRAYER_TRAVEL): phase CLICKED->VERIFY, door 9722 no crossing after 5 ticks. Replanning.
+22:22:14  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY single retry click=true on door 9722
+22:22:16  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY timeout, door 9722. Clearing pending, replanning from WorldPoint(x=3130, y=3124, plane=0)
+22:22:36  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:22:36  Build 139 DOOR: all candidates exhausted (tried=[9722]). Clearing set to retry.
+22:22:55  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) OK(adj=WorldPoint(x=3130, y=3125, plane=0))]
+22:22:55  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:22:55  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3130, y=3124, plane=0), adjacent=WorldPoint(x=3130, y=3125, plane=0), reachable=true
+22:22:55  Build 152 DOOR (PRAYER_TRAVEL): clicked 'Open' on door 9722, clickTile=WorldPoint(x=3130, y=3124, plane=0), phase->CLICKED. Waiting for crossing.
+22:22:56  Screenshot saved: 2026-09-27_22-22-56_PRAYER_auto.png
+22:22:57  Diag tail uploaded: 2026-09-27_22-22-56_PRAYER_diag.txt
+22:23  Build 137 DOOR (PRAYER_TRAVEL): phase CLICKED->VERIFY, door 9722 no crossing after 5 ticks. Replanning.
+22:23  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY single retry click=true on door 9722
+22:23:03  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY timeout, door 9722. Clearing pending, replanning from WorldPoint(x=3130, y=3124, plane=0)
+22:23:22  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:23:22  Build 139 DOOR: all candidates exhausted (tried=[9722]). Clearing set to retry.
+22:23:41  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) OK(adj=WorldPoint(x=3130, y=3125, plane=0))]
+22:23:41  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:23:41  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3130, y=3124, plane=0), adjacent=WorldPoint(x=3130, y=3125, plane=0), reachable=true
+22:23:41  Build 152 DOOR (PRAYER_TRAVEL): clicked 'Open' on door 9722, clickTile=WorldPoint(x=3130, y=3124, plane=0), phase->CLICKED. Waiting for crossing.
+22:23:46  Build 137 DOOR (PRAYER_TRAVEL): phase CLICKED->VERIFY, door 9722 no crossing after 5 ticks. Replanning.
+22:23:46  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY single retry click=true on door 9722
+22:23:49  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY timeout, door 9722. Clearing pending, replanning from WorldPoint(x=3130, y=3124, plane=0)
+22:24:08  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:24:08  Build 139 DOOR: all candidates exhausted (tried=[9722]). Clearing set to retry.
+22:24:27  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) OK(adj=WorldPoint(x=3130, y=3125, plane=0))]
+22:24:27  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:24:27  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3130, y=3124, plane=0), adjacent=WorldPoint(x=3130, y=3125, plane=0), reachable=true
+22:24:27  Build 152 DOOR (PRAYER_TRAVEL): clicked 'Open' on door 9722, clickTile=WorldPoint(x=3130, y=3124, plane=0), phase->CLICKED. Waiting for crossing.
+22:24:28  Screenshot saved: 2026-09-27_22-24-28_PRAYER_auto.png
+22:24:28  Build 82: cleaned up 2 old screenshots
+22:24:30  Diag tail uploaded: 2026-09-27_22-24-28_PRAYER_diag.txt
+22:24:32  Build 137 DOOR (PRAYER_TRAVEL): phase CLICKED->VERIFY, door 9722 no crossing after 5 ticks. Replanning.
+22:24:33  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY single retry click=true on door 9722
+22:24:35  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY timeout, door 9722. Clearing pending, replanning from WorldPoint(x=3130, y=3124, plane=0)
+22:24:54  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:24:54  Build 139 DOOR: all candidates exhausted (tried=[9722]). Clearing set to retry.
+22:25:13  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) OK(adj=WorldPoint(x=3130, y=3125, plane=0))]
+22:25:13  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:25:14  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3130, y=3124, plane=0), adjacent=WorldPoint(x=3130, y=3125, plane=0), reachable=true
+22:25:14  Build 152 DOOR (PRAYER_TRAVEL): clicked 'Open' on door 9722, clickTile=WorldPoint(x=3130, y=3124, plane=0), phase->CLICKED. Waiting for crossing.
+22:25:18  Build 137 DOOR (PRAYER_TRAVEL): phase CLICKED->VERIFY, door 9722 no crossing after 5 ticks. Replanning.
+22:25:19  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY single retry click=true on door 9722
+22:25:21  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY timeout, door 9722. Clearing pending, replanning from WorldPoint(x=3130, y=3124, plane=0)
+22:25:40  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:25:40  Build 139 DOOR: all candidates exhausted (tried=[9722]). Clearing set to retry.
+22:25:59  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) OK(adj=WorldPoint(x=3130, y=3125, plane=0))]
+22:25:59  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:26  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3130, y=3124, plane=0), adjacent=WorldPoint(x=3130, y=3125, plane=0), reachable=true
+22:26  Build 152 DOOR (PRAYER_TRAVEL): clicked 'Open' on door 9722, clickTile=WorldPoint(x=3130, y=3124, plane=0), phase->CLICKED. Waiting for crossing.
+22:26:01  Screenshot saved: 2026-09-27_22-26-00_PRAYER_auto.png
+22:26:01  Build 82: cleaned up 1 old screenshots
+22:26:02  Diag tail uploaded: 2026-09-27_22-26-00_PRAYER_diag.txt
+22:26:05  Build 137 DOOR (PRAYER_TRAVEL): phase CLICKED->VERIFY, door 9722 no crossing after 5 ticks. Replanning.
+22:26:05  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY single retry click=true on door 9722
+22:26:08  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY timeout, door 9722. Clearing pending, replanning from WorldPoint(x=3130, y=3124, plane=0)
+22:26:27  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:26:27  Build 139 DOOR: all candidates exhausted (tried=[9722]). Clearing set to retry.
+22:26:46  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) OK(adj=WorldPoint(x=3130, y=3125, plane=0))]
+22:26:46  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:26:46  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3130, y=3124, plane=0), adjacent=WorldPoint(x=3130, y=3125, plane=0), reachable=true
+22:26:46  Build 152 DOOR (PRAYER_TRAVEL): clicked 'Open' on door 9722, clickTile=WorldPoint(x=3130, y=3124, plane=0), phase->CLICKED. Waiting for crossing.
+22:26:51  Build 137 DOOR (PRAYER_TRAVEL): phase CLICKED->VERIFY, door 9722 no crossing after 5 ticks. Replanning.
+22:26:51  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY single retry click=true on door 9722
+22:26:54  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY timeout, door 9722. Clearing pending, replanning from WorldPoint(x=3130, y=3124, plane=0)
+22:27:13  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:27:13  Build 139 DOOR: all candidates exhausted (tried=[9722]). Clearing set to retry.
+22:27:32  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) OK(adj=WorldPoint(x=3130, y=3125, plane=0))]
+22:27:32  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:27:32  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3130, y=3124, plane=0), adjacent=WorldPoint(x=3130, y=3125, plane=0), reachable=true
+22:27:32  Build 152 DOOR (PRAYER_TRAVEL): clicked 'Open' on door 9722, clickTile=WorldPoint(x=3130, y=3124, plane=0), phase->CLICKED. Waiting for crossing.
+22:27:33  Screenshot saved: 2026-09-27_22-27-33_PRAYER_auto.png
+22:27:33  Build 82: cleaned up 1 old screenshots
+22:27:34  Diag tail uploaded: 2026-09-27_22-27-33_PRAYER_diag.txt
+22:27:37  Build 137 DOOR (PRAYER_TRAVEL): phase CLICKED->VERIFY, door 9722 no crossing after 5 ticks. Replanning.
+22:27:38  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY single retry click=true on door 9722
+22:27:40  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY timeout, door 9722. Clearing pending, replanning from WorldPoint(x=3130, y=3124, plane=0)
+22:27:59  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:27:59  Build 139 DOOR: all candidates exhausted (tried=[9722]). Clearing set to retry.
+22:28:18  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) OK(adj=WorldPoint(x=3130, y=3125, plane=0))]
+22:28:18  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:28:19  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3130, y=3124, plane=0), adjacent=WorldPoint(x=3130, y=3125, plane=0), reachable=true
+22:28:19  Build 152 DOOR (PRAYER_TRAVEL): clicked 'Open' on door 9722, clickTile=WorldPoint(x=3130, y=3124, plane=0), phase->CLICKED. Waiting for crossing.
+22:28:23  Build 137 DOOR (PRAYER_TRAVEL): phase CLICKED->VERIFY, door 9722 no crossing after 5 ticks. Replanning.
+22:28:24  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY single retry click=true on door 9722
+22:28:26  Build 138 DOOR (PRAYER_TRAVEL): phase VERIFY timeout, door 9722. Clearing pending, replanning from WorldPoint(x=3130, y=3124, plane=0)
+22:28:45  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) SKIP(tried)]
+22:28:45  Build 139 DOOR: all candidates exhausted (tried=[9722]). Clearing set to retry.
+22:29:05  Build 141 DOOR candidates: [Door/1535@WorldPoint(x=3118, y=3124, plane=0) SKIP(no-adjacent)] [Large door/1516@WorldPoint(x=3121, y=3119, plane=0) SKIP(no-adjacent)] [Large door/1512@WorldPoint(x=3122, y=3119, plane=0) SKIP(no-adjacent)] [Door/1535@WorldPoint(x=3124, y=3126, plane=0) SKIP(no-adjacent)] [Door/9721@WorldPoint(x=3125, y=3124, plane=0) SKIP(no-adjacent)] [Door/9722@WorldPoint(x=3130, y=3124, plane=0) OK(adj=WorldPoint(x=3130, y=3125, plane=0))]
+22:29:05  Build 139 DOOR: selected id=9722 at WorldPoint(x=3130, y=3124, plane=0) (tried=[])
+22:29:05  Build 136 DOOR (PRAYER_TRAVEL): PENDING target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), player=WorldPoint(x=3130, y=3124, plane=0), adjacent=WorldPoint(x=3130, y=3125, plane=0), reachable=true
+22:29:05  Build 152 DOOR (PRAYER_TRAVEL): clicked 'Open' on door 9722, clickTile=WorldPoint(x=3130, y=3124, plane=0), phase->CLICKED. Waiting for crossing.
+22:29:06  Screenshot saved: 2026-09-27_22-29-06_PRAYER_auto.png
+22:29:06  Build 82: cleaned up 3 old screenshots
