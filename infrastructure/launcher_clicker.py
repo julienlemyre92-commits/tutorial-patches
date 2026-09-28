@@ -285,8 +285,10 @@ def check_once():
     (disconnect modal, messages Play screen, CLICK HERE TO PLAY, Login /
     Play Now, standalone Play) and click the first match. Does nothing
     otherwise. Always exits 0 (a quiet pass is not an error)."""
+    # Live title is e.g. "RuneLite - akjdghaweiog" (launcher appends the
+    # profile name), so match case-insensitive containment, not exact title.
     windows = [w for w in pyautogui.getWindowsWithTitle("RuneLite")
-               if w.title.strip() == "RuneLite"]
+               if "runelite" in w.title.strip().lower()]
     if not windows:
         # Fall back to the Jagex Launcher window itself.
         windows = [w for w in pyautogui.getWindowsWithTitle("Jagex Launcher")
@@ -311,10 +313,27 @@ def get_game_window_bounds():
         from ctypes import wintypes
         user32 = ctypes.windll.user32
 
-        # Find window by exact title
-        hwnd = user32.FindWindowW(None, "RuneLite")
-        if not hwnd:
+        # Find window by title containment: live title is e.g.
+        # "RuneLite - akjdghaweiog" (launcher appends the profile name), so
+        # FindWindowW's exact match never hits. Enumerate visible windows.
+        hwnds = []
+
+        @ctypes.WINFUNCTYPE(ctypes.c_bool, wintypes.HWND, wintypes.LPARAM)
+        def _enum(hwnd, _lparam):
+            if user32.IsWindowVisible(hwnd):
+                length = user32.GetWindowTextLengthW(hwnd)
+                if length > 0:
+                    buf = ctypes.create_unicode_buffer(length + 1)
+                    user32.GetWindowTextW(hwnd, buf, length + 1)
+                    title = buf.value.strip()
+                    if "runelite" in title.lower() and "\\" not in title and "/" not in title:
+                        hwnds.append(hwnd)
+            return True
+
+        user32.EnumWindows(_enum, 0)
+        if not hwnds:
             return None
+        hwnd = hwnds[0]
 
         rect = wintypes.RECT()
         if not user32.GetWindowRect(hwnd, ctypes.byref(rect)):
@@ -462,15 +481,20 @@ def main():
     no_window_attempts = 0
 
     while time.time() < deadline:
-        # Wait for the actual RuneLite game window. Be strict: title must be
-        # exactly "RuneLite" (not a file path containing "microbot" or "runelite").
-        # Also exclude our own terminal, browsers, editors.
+        # Wait for the actual RuneLite game window. Live title is e.g.
+        # "RuneLite - akjdghaweiog" (launcher appends the profile name), so
+        # match case-insensitive containment. Still exclude file-path windows
+        # (titles containing \ or /) and our own tooling.
         windows = []
         for w in pyautogui.getWindowsWithTitle("RuneLite"):
             t = w.title.strip()
-            # Must be exactly "RuneLite", not "something - RuneLite" or a path
-            if t != "RuneLite":
+            tl = t.lower()
+            if "runelite" not in tl:
                 continue
+            if "\\" in t or "/" in t:
+                continue  # Explorer/path window, not the game
+            if any(s in tl for s in ("microbot-t", ".py", "muse", "chatgpt", "codex")):
+                continue  # our own terminal/editor/chat window
             windows.append(w)
             break
 
