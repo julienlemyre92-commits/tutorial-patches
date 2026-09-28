@@ -1,0 +1,250 @@
+00:05:06  Diag tail uploaded: 2026-09-28_00-05-05_MAGIC_diag.txt
+00:05:06  dialogueTick: clicking continue (priority over keyword handling)
+00:05:06  Stage: null -> MAGIC
+00:05:07  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:08  dialogueTick: clicking continue (priority over keyword handling)
+00:05:09  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:09  Build 180: dialogue closed but varp=671 (still 670/671), retrying departure talk
+00:05:09  Build 166 talk: 'Magic Instructor' id=3309 idx=2080 at WorldPoint(x=3140, y=3088, plane=0) dist=2
+00:05:10  Build 166 talk: direct invoke 'Talk-to' on 'Magic Instructor' id=3309 idx=2080
+00:05:10  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:11  dialogueTick: clicking continue (priority over keyword handling)
+00:05:12  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:12  dialogueTick: clicking continue (priority over keyword handling)
+00:05:13  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:14  dialogueTick: selecting option 1
+00:05:14  Clicking dialogue option 1 at 259,402
+00:05:15  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:15  dialogueTick: clicking continue (priority over keyword handling)
+00:05:16  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:16  Build 180: Ironman question detected, auto-answering NO (option 3) per Julien's instruction
+00:05:16  Clicking dialogue option 3 at 259,442
+00:05:17  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:17  dialogueTick: clicking continue (priority over keyword handling)
+00:05:18  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:18  dialogueTick: clicking continue (priority over keyword handling)
+00:05:19  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:19  dialogueTick: clicking continue (priority over keyword handling)
+00:05:20  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:20  dialogueTick: clicking continue (priority over keyword handling)
+00:05:21  Build 172: varp281 MAGIC 671 -> 680
+00:05:21  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:21  Build 166 talk: 'Magic Instructor' id=3309 idx=2080 at WorldPoint(x=3140, y=3087, plane=0) dist=1
+00:05:22  Build 166 talk: direct invoke 'Talk-to' on 'Magic Instructor' id=3309 idx=2080
+00:05:22  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:23  dialogueTick: clicking continue (priority over keyword handling)
+00:05:23  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:24  dialogueTick: selecting option 1
+00:05:24  Clicking dialogue option 1 at 259,402
+00:05:25  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:25  dialogueTick: clicking continue (priority over keyword handling)
+00:05:26  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:26  Build 180: Ironman question detected, auto-answering NO (option 3) per Julien's instruction
+00:05:26  Clicking dialogue option 3 at 259,442
+00:05:27  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:27  dialogueTick: clicking continue (priority over keyword handling)
+00:05:28  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:28  dialogueTick: clicking continue (priority over keyword handling)
+00:05:29  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:30  dialogueTick: clicking continue (priority over keyword handling)
+00:05:30  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:31  dialogueTick: clicking continue (priority over keyword handling)
+00:05:31  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:33  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:33  Build 180: dialogue closed but varp=680 (still 670/671), retrying departure talk
+00:05:33  Build 166 talk: 'Magic Instructor' id=3309 idx=2080 at WorldPoint(x=3140, y=3087, plane=0) dist=1
+00:05:34  Build 166 talk: direct invoke 'Talk-to' on 'Magic Instructor' id=3309 idx=2080
+00:05:35  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:35  dialogueTick: clicking continue (priority over keyword handling)
+00:05:35  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:36  dialogueTick: selecting option 1
+00:05:36  Clicking dialogue option 1 at 259,402
+00:05:37  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:37  Build 180: dialogue closed but varp=680 (still 670/671), retrying departure talk
+00:05:37  Build 166 talk: 'Magic Instructor' id=3309 idx=2080 at WorldPoint(x=3140, y=3087, plane=0) dist=1
+00:05:38  Build 166 talk: direct invoke 'Talk-to' on 'Magic Instructor' id=3309 idx=2080
+00:05:39  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:39  dialogueTick: clicking continue (priority over keyword handling)
+00:05:40  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:41  dialogueTick: selecting option 1
+00:05:41  Clicking dialogue option 1 at 259,402
+00:05:41  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:42  dialogueTick: clicking continue (priority over keyword handling)
+00:05:42  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:43  Build 180: Ironman question detected, auto-answering NO (option 3) per Julien's instruction
+00:05:43  Clicking dialogue option 3 at 259,442
+00:05:44  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:44  dialogueTick: clicking continue (priority over keyword handling)
+00:05:45  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:45  dialogueTick: clicking continue (priority over keyword handling)
+00:05:46  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:46  dialogueTick: clicking continue (priority over keyword handling)
+00:05:47  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:47  dialogueTick: clicking continue (priority over keyword handling)
+00:05:48  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:48  Build 180: dialogue closed but varp=680 (still 670/671), retrying departure talk
+00:05:48  Build 166 talk: 'Magic Instructor' id=3309 idx=2080 at WorldPoint(x=3140, y=3087, plane=0) dist=1
+00:05:48  Build 166 talk: direct invoke 'Talk-to' on 'Magic Instructor' id=3309 idx=2080
+00:05:49  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:49  dialogueTick: clicking continue (priority over keyword handling)
+00:05:50  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:51  dialogueTick: selecting option 1
+00:05:51  Clicking dialogue option 1 at 259,402
+00:05:52  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:52  dialogueTick: clicking continue (priority over keyword handling)
+00:05:53  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:54  dialogueTick: selecting option 1
+00:05:54  Clicking dialogue option 1 at 259,394
+00:05:55  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:55  dialogueTick: clicking continue (priority over keyword handling)
+00:05:56  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:56  dialogueTick: clicking continue (priority over keyword handling)
+00:05:56  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:57  dialogueTick: clicking continue (priority over keyword handling)
+00:05:57  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:58  Build 180: dialogue closed but varp=680 (still 670/671), retrying departure talk
+00:05:58  Build 166 talk: 'Magic Instructor' id=3309 idx=2080 at WorldPoint(x=3140, y=3087, plane=0) dist=1
+00:05:58  Build 166 talk: direct invoke 'Talk-to' on 'Magic Instructor' id=3309 idx=2080
+00:05:59  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:05:59  dialogueTick: clicking continue (priority over keyword handling)
+00:06  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:01  dialogueTick: selecting option 1
+00:06:01  Clicking dialogue option 1 at 259,402
+00:06:02  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:02  dialogueTick: clicking continue (priority over keyword handling)
+00:06:03  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:03  Build 180: Ironman question detected, auto-answering NO (option 3) per Julien's instruction
+00:06:03  Clicking dialogue option 3 at 259,442
+00:06:04  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:04  dialogueTick: clicking continue (priority over keyword handling)
+00:06:05  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:05  dialogueTick: clicking continue (priority over keyword handling)
+00:06:06  Screenshot saved: 2026-09-28_00-06-06_MAGIC_auto.png
+00:06:06  Build 82: cleaned up 1 old screenshots
+00:06:06  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:06  dialogueTick: clicking continue (priority over keyword handling)
+00:06:07  Diag tail uploaded: 2026-09-28_00-06-06_MAGIC_diag.txt
+00:06:07  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:07  dialogueTick: clicking continue (priority over keyword handling)
+00:06:08  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:08  Build 180: dialogue closed but varp=680 (still 670/671), retrying departure talk
+00:06:08  Build 166 talk: 'Magic Instructor' id=3309 idx=2080 at WorldPoint(x=3140, y=3087, plane=0) dist=1
+00:06:09  Build 166 talk: direct invoke 'Talk-to' on 'Magic Instructor' id=3309 idx=2080
+00:06:09  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:10  dialogueTick: clicking continue (priority over keyword handling)
+00:06:10  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:12  dialogueTick: selecting option 1
+00:06:12  Clicking dialogue option 1 at 259,402
+00:06:12  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:13  dialogueTick: clicking continue (priority over keyword handling)
+00:06:13  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:14  Build 180: Ironman question detected, auto-answering NO (option 3) per Julien's instruction
+00:06:14  Clicking dialogue option 3 at 259,442
+00:06:15  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:15  dialogueTick: clicking continue (priority over keyword handling)
+00:06:16  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:16  dialogueTick: clicking continue (priority over keyword handling)
+00:06:16  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:17  dialogueTick: clicking continue (priority over keyword handling)
+00:06:18  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:18  dialogueTick: clicking continue (priority over keyword handling)
+00:06:19  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:19  Build 180: dialogue closed but varp=680 (still 670/671), retrying departure talk
+00:06:19  Build 166 talk: 'Magic Instructor' id=3309 idx=2080 at WorldPoint(x=3140, y=3087, plane=0) dist=1
+00:06:19  Build 166 talk: direct invoke 'Talk-to' on 'Magic Instructor' id=3309 idx=2080
+00:06:20  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:20  dialogueTick: clicking continue (priority over keyword handling)
+00:06:21  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:22  dialogueTick: selecting option 1
+00:06:22  Clicking dialogue option 1 at 259,402
+00:06:23  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:23  dialogueTick: clicking continue (priority over keyword handling)
+00:06:24  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:24  Build 180: Ironman question detected, auto-answering NO (option 3) per Julien's instruction
+00:06:24  Clicking dialogue option 3 at 259,442
+00:06:25  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:25  dialogueTick: clicking continue (priority over keyword handling)
+00:06:26  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:26  dialogueTick: clicking continue (priority over keyword handling)
+00:06:27  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:27  dialogueTick: clicking continue (priority over keyword handling)
+00:06:28  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:28  dialogueTick: clicking continue (priority over keyword handling)
+00:06:29  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:29  Build 180: dialogue closed but varp=680 (still 670/671), retrying departure talk
+00:06:29  Build 166 talk: 'Magic Instructor' id=3309 idx=2080 at WorldPoint(x=3140, y=3087, plane=0) dist=1
+00:06:30  Build 166 talk: direct invoke 'Talk-to' on 'Magic Instructor' id=3309 idx=2080
+00:06:30  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:30  dialogueTick: clicking continue (priority over keyword handling)
+00:06:31  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:32  dialogueTick: selecting option 1
+00:06:32  Clicking dialogue option 1 at 259,402
+00:06:33  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:33  dialogueTick: clicking continue (priority over keyword handling)
+00:06:34  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:34  Build 180: Ironman question detected, auto-answering NO (option 3) per Julien's instruction
+00:06:35  Clicking dialogue option 3 at 259,442
+00:06:35  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:36  dialogueTick: clicking continue (priority over keyword handling)
+00:06:36  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:37  dialogueTick: clicking continue (priority over keyword handling)
+00:06:37  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:38  dialogueTick: clicking continue (priority over keyword handling)
+00:06:38  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:39  dialogueTick: clicking continue (priority over keyword handling)
+00:06:39  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:39  Build 180: dialogue closed but varp=680 (still 670/671), retrying departure talk
+00:06:39  Build 166 talk: 'Magic Instructor' id=3309 idx=2080 at WorldPoint(x=3140, y=3087, plane=0) dist=1
+00:06:40  Build 166 talk: direct invoke 'Talk-to' on 'Magic Instructor' id=3309 idx=2080
+00:06:41  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:41  dialogueTick: clicking continue (priority over keyword handling)
+00:06:42  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:43  dialogueTick: selecting option 1
+00:06:43  Clicking dialogue option 1 at 259,402
+00:06:44  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:44  dialogueTick: clicking continue (priority over keyword handling)
+00:06:44  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:45  Build 180: Ironman question detected, auto-answering NO (option 3) per Julien's instruction
+00:06:45  Clicking dialogue option 3 at 259,442
+00:06:46  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:46  dialogueTick: clicking continue (priority over keyword handling)
+00:06:47  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:47  dialogueTick: clicking continue (priority over keyword handling)
+00:06:48  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:48  dialogueTick: clicking continue (priority over keyword handling)
+00:06:49  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:49  dialogueTick: clicking continue (priority over keyword handling)
+00:06:50  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:50  Build 180: dialogue closed but varp=680 (still 670/671), retrying departure talk
+00:06:50  Build 166 talk: 'Magic Instructor' id=3309 idx=2080 at WorldPoint(x=3140, y=3087, plane=0) dist=1
+00:06:50  Build 166 talk: direct invoke 'Talk-to' on 'Magic Instructor' id=3309 idx=2080
+00:06:51  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:51  dialogueTick: clicking continue (priority over keyword handling)
+00:06:52  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:53  dialogueTick: selecting option 1
+00:06:53  Clicking dialogue option 1 at 259,402
+00:06:54  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:54  dialogueTick: clicking continue (priority over keyword handling)
+00:06:55  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:55  Build 180: Ironman question detected, auto-answering NO (option 3) per Julien's instruction
+00:06:55  Clicking dialogue option 3 at 259,442
+00:06:56  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:56  dialogueTick: clicking continue (priority over keyword handling)
+00:06:57  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:57  dialogueTick: clicking continue (priority over keyword handling)
+00:06:58  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:58  dialogueTick: clicking continue (priority over keyword handling)
+00:06:59  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:06:59  dialogueTick: clicking continue (priority over keyword handling)
+00:07  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:07:02  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:07:02  Build 180: dialogue closed but varp=680 (still 670/671), retrying departure talk
+00:07:02  Build 166 talk: 'Magic Instructor' id=3309 idx=2080 at WorldPoint(x=3140, y=3087, plane=0) dist=1
+00:07:03  Build 166 talk: direct invoke 'Talk-to' on 'Magic Instructor' id=3309 idx=2080
+00:07:03  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:07:04  dialogueTick: clicking continue (priority over keyword handling)
+00:07:04  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+00:07:05  dialogueTick: selecting option 1
+00:07:05  Clicking dialogue option 1 at 259,402
+00:07:06  Screenshot saved: 2026-09-28_00-07-06_MAGIC_auto.png
+00:07:06  Build 82: cleaned up 2 old screenshots
