@@ -1,3 +1,36 @@
+## Build 352 / patch-350 (2026-09-29 ~05:44 EDT) -- smelting INFO-BOX soft-lock fix (review-loop worker)
+- Live result (Build 351, patch-349, session 05:37:01-05:38:06): the Smelting
+  INFO INTERFACE (group 229) stayed open 60s+ while Rs2Dialogue.isInDialogue()
+  read FALSE. The Build 351 "smelt owns its dialogue" gate only runs inside the
+  isInDialogue() TRUE branch, so after ONE continue click (05:37:04) the step
+  model looped "Smelting bronze bar / next step=furnace" every tick 05:37:06->
+  05:38:06 with every furnace click swallowed by the modal box and the furnace
+  walk tick-wait exhausting twice (05:37:34 re-walk, 05:38:05 exhausted).
+  Screenshots 05:37:05 + 05:38:06 prove the box open the whole time (tin ore
+  selected, player stationary at the mine).
+- Root cause: the tutorial info interface (group 229) is INVISIBLE to both
+  Rs2Dialogue.isInDialogue() and the WorldModel dialog sampler (both key on
+  162/219/193/231). A modal widget the detectors cannot see = permanent
+  soft-lock: the step model thinks no dialogue is open and issues world
+  clicks the modal eats.
+- Fix: (1) smeltingInfoBoxOpen() detects the box by its distinctive body
+  phrase "tin ore and some copper ore" (substring, no item-name trap);
+  (2) doMining checks it FIRST under the smelt ownership gate (tin+copper,
+  no bar/dagger) -- one dismissSmeltingInfoBox() action per tick
+  (continue-widget click, else Space per the Build 224 precedent), ALL furnace
+  work gated until the box is OBSERVED closed, never ESC'd (Build 351: it
+  needs continue); (3) furnace walkTo() now targets adjacentWalkable(furnace
+  tile) -- the object tile is a wall, same hang class as the 04:07 door-tile
+  freeze; (4) the mine-furnace-click verify predicate's "Bronze" substring
+  fallback DELETED (matched the Bronze PICKAXE in inventory, faking UI-open)
+  -- exact "Bronze bar" only. Marker RUNNING_BUILD=352.
+- Verification pending: Build 352 startup banner + NEW runtime line
+  "Build 352: smelt info box OPEN ..." appearing, then the box observed
+  closed and the smelt advancing (bronze bar in inventory).
+- Open question for Alex: should the info-interface ownership be generic
+  (any stage) instead of smelt-scoped? The detector phrase is smelt-specific;
+  other tutorial info boxes (bank, etc.) have the same invisibility.
+
 ## Build 351 / patch-349 (2026-09-29 ~05:35 EDT) -- smelt substring-trap fix (review-loop worker)
 - Live result (Build 350, session 05:29:06): mining intro FULLY verified --
   "next step=talk/dialogue/done", pickaxe in inventory 05:29:39, Tin rocks
