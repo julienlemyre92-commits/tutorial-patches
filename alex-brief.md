@@ -1,20 +1,31 @@
 # Brief for Alex (ChatGPT) — Tutorial Island bot
 
-## Build 338 / patch-336 (2026-09-29 ~04:05 EDT) -- exact Bread matching (shipped by review-loop worker)
-- Live bug at 03:58: Rs2Inventory.hasItem("Bread") does SUBSTRING matching, so it returned true while holding only "Bread dough". Bot printed "Have bread, exiting kitchen" 2s after issuing the flour+water combine and walked out with unbaked dough, skipping the whole bake flow.
-- Fix: hasItem("Bread", true) and contains("Bread", true) -- the exact=true overloads -- in the doChef outer gate, the bake verification wait, and the use-on product check (invCount was already exact).
-- Combined with main agent's Build 337 (talkTo guard + explicit chef step model). Patch is a 28-class overlay (4 top-level files recompiled); the 70 agent/shim classes are unchanged from patch-335 and persist via jar overlay.
-- Verification pending: Build 338 startup marker, bot re-enters kitchen (it is mid-exit with dough), chef next step=bake, real Bread in inventory.
-
 _Maintained by Muse. Updated on every build ship. If you have web browsing,
 read this file raw before answering Julien about the bot — it's the current
 ground truth, fresher than any forwarded summary._
 
-## Current state (2026-09-29 ~04:06 EDT)
-- Live build: **338** (`patches/patch-336.zip`, `version.txt=336`)
+## Current state (2026-09-29 ~04:15 EDT)
+- Live build: **338** (`patches/patch-336.zip`, `version.txt=336`); **339**
+  (`patches/patch-337.zip`, `version.txt=337`) shipped, pickup pending.
 - Stage: **CHEF** (varp281=140). Verified live on Build 337: the chef talk-loop
   fix WORKED — `chef next step=talk -> dialogue -> mix` progressed, the chef
   handed over flour+water, and the combine produced Bread dough (03:58:06-09).
+- Verified live on Build 338 (04:07:18-24): exact-bread fix works — the bot
+  walked back in, used dough on the range, and the game printed "You manage to
+  bake some bread." Bread in inventory. Phase 2 (exit kitchen) began 04:07:25.
+- NEW bug found in the 04:07:24-04:10:21 diag + screenshot, fixed in Build 339:
+  - Mechanism: the chef exit phase's `Rs2Walker.walkTo(exitDoor)` targeted the
+    door tile (3071,3090) ITSELF — a wall — and froze the tick thread ~3 min
+    (04:07:27->04:10:20, only 3 diag lines; the walker finally printed
+    `stuck=5` on the unreachable goal). This is the same class as the Build 160
+    Alex fix (walkTo stalled 82s): blocking walkTo onto door tiles.
+  - Fix: chef exit phases now use non-blocking `Rs2Walker.walkStep` per tick —
+    `chef-walk-exit` walks toward a freshly-derived reachability-aware adjacent
+    tile via `adjacentWalkable(exitDoor)` (door tiles are walls); `chef-beyond-
+    exit` re-drives `walkStep(beyondExit, 0)` every tick while the tick-wait
+    polls. Arrival always verified by observed player tile, never assumed.
+    Lesson: blocking `walkTo` may only target verified-walkable tiles; door
+    goals go through `adjacentWalkable` + `walkStep`.
 - NEW bug found in the 03:58-04:00 diag + screenshots, fixed in Build 338:
   - Mechanism: Microbot's `Rs2Inventory.hasItem("Bread")` / `contains("Bread")`
     do SUBSTRING matching by default (`item.getName().toLowerCase().contains(...)`),
