@@ -1,0 +1,250 @@
+04:24:51  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+04:24:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:24:52  Build 224: cache-mismatch overlay still open after dismissal 1/3 -- re-deriving target next tick
+04:24:52  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:24:52  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 2/3), verifying overlay clears next tick
+04:24:53  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:24:53  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+04:24:54  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3086, y=3123, plane=0)
+04:24:54  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+04:24:54  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+04:24:54  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+04:24:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:24:55  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:24:55  Build 197: spamDialogue budget exhausted (60s) -- dialogue still open, re-arming next tick if caller retries: ' / Have you not opened that menu yet?'
+04:24:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:24:57  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:24:57  Build 197: spamDialogue phased session armed, budget 60s -- one dialogue action per tick, verifying close on following ticks
+04:24:57  dialogueTick: clicking continue (priority over keyword handling)
+04:24:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:24:58  Build 224: CLIENT BLOCKER: blocking overlay visible ('[04:24:58] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+04:24:58  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+04:24:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:24:59  Build 224: cache-mismatch overlay still open after dismissal 1/3 -- re-deriving target next tick
+04:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 2/3), verifying overlay clears next tick
+04:25  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:25  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+04:25:01  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3086, y=3123, plane=0)
+04:25:01  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+04:25:01  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+04:25:01  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+04:25:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:02  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:25:03  dialogueTick: clicking continue (priority over keyword handling)
+04:25:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:04  Build 224: CLIENT BLOCKER: blocking overlay visible ('[04:25:03] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+04:25:04  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+04:25:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:05  Build 224: cache-mismatch overlay still open after dismissal 1/3 -- re-deriving target next tick
+04:25:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:05  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 2/3), verifying overlay clears next tick
+04:25:06  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:25:06  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+04:25:07  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3086, y=3123, plane=0)
+04:25:07  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+04:25:07  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+04:25:07  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+04:25:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:08  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:25:09  dialogueTick: clicking continue (priority over keyword handling)
+04:25:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:09  Build 224: CLIENT BLOCKER: blocking overlay visible ('[04:25:09] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+04:25:09  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+04:25:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:10  Build 224: cache-mismatch overlay still open after dismissal 1/3 -- re-deriving target next tick
+04:25:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:11  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 2/3), verifying overlay clears next tick
+04:25:12  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:25:12  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+04:25:13  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3086, y=3123, plane=0)
+04:25:13  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+04:25:13  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+04:25:13  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+04:25:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:14  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:25:14  dialogueTick: clicking continue (priority over keyword handling)
+04:25:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:15  Build 224: CLIENT BLOCKER: blocking overlay visible ('[04:25:15] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+04:25:15  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+04:25:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:16  Build 224: cache-mismatch overlay still open after dismissal 1/3 -- re-deriving target next tick
+04:25:17  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:25:17  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 2/3), verifying overlay clears next tick
+04:25:18  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:25:18  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+04:25:19  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3086, y=3123, plane=0)
+04:25:19  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+04:25:19  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+04:25:19  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+04:25:20  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:25:20  Screenshot saved: 2026-09-29_04-25-20_QUEST_GUIDE_auto.png
+04:25:20  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:25:20  dialogueTick: clicking continue (priority over keyword handling)
+04:25:21  Diag tail uploaded: 2026-09-29_04-25-20_QUEST_GUIDE_diag.txt
+04:25:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:21  Build 224: CLIENT BLOCKER: blocking overlay visible ('[04:25:21] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+04:25:21  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+04:25:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:22  Build 224: cache-mismatch overlay still open after dismissal 1/3 -- re-deriving target next tick
+04:25:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:23  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 2/3), verifying overlay clears next tick
+04:25:24  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:25:24  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+04:25:24  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3086, y=3123, plane=0)
+04:25:25  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+04:25:25  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+04:25:25  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+04:25:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:26  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:25:26  dialogueTick: clicking continue (priority over keyword handling)
+04:25:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:27  Build 224: CLIENT BLOCKER: blocking overlay visible ('[04:25:26] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+04:25:27  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+04:25:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:28  Build 224: cache-mismatch overlay still open after dismissal 1/3 -- re-deriving target next tick
+04:25:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:29  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 2/3), verifying overlay clears next tick
+04:25:30  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:25:30  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+04:25:30  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3086, y=3123, plane=0)
+04:25:30  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+04:25:30  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+04:25:30  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+04:25:31  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:25:32  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:25:32  dialogueTick: clicking continue (priority over keyword handling)
+04:25:33  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:25:33  Build 224: CLIENT BLOCKER: blocking overlay visible ('[04:25:32] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+04:25:33  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+04:25:33  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:25:34  Build 224: cache-mismatch overlay still open after dismissal 1/3 -- re-deriving target next tick
+04:25:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:34  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 2/3), verifying overlay clears next tick
+04:25:35  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:25:35  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+04:25:36  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3086, y=3123, plane=0)
+04:25:36  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+04:25:36  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+04:25:36  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+04:25:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:37  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:25:37  dialogueTick: clicking continue (priority over keyword handling)
+04:25:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:38  Build 224: CLIENT BLOCKER: blocking overlay visible ('[04:25:38] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+04:25:38  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+04:25:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:39  Build 224: cache-mismatch overlay still open after dismissal 1/3 -- re-deriving target next tick
+04:25:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:40  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 2/3), verifying overlay clears next tick
+04:25:41  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:25:41  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+04:25:42  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3086, y=3123, plane=0)
+04:25:42  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+04:25:42  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+04:25:42  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+04:25:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:43  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:25:43  dialogueTick: clicking continue (priority over keyword handling)
+04:25:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:44  Build 224: CLIENT BLOCKER: blocking overlay visible ('[04:25:44] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+04:25:44  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+04:25:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:45  Build 224: cache-mismatch overlay still open after dismissal 1/3 -- re-deriving target next tick
+04:25:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:46  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 2/3), verifying overlay clears next tick
+04:25:47  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:25:47  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+04:25:47  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3086, y=3123, plane=0)
+04:25:48  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+04:25:48  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+04:25:48  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+04:25:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:49  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:25:49  dialogueTick: clicking continue (priority over keyword handling)
+04:25:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:50  Build 224: CLIENT BLOCKER: blocking overlay visible ('[04:25:50] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+04:25:50  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+04:25:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:51  Build 224: cache-mismatch overlay still open after dismissal 1/3 -- re-deriving target next tick
+04:25:52  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:25:52  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 2/3), verifying overlay clears next tick
+04:25:53  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:25:53  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+04:25:53  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3086, y=3123, plane=0)
+04:25:53  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+04:25:53  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+04:25:53  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+04:25:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:55  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:25:55  dialogueTick: clicking continue (priority over keyword handling)
+04:25:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:56  Build 224: CLIENT BLOCKER: blocking overlay visible ('[04:25:55] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+04:25:56  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+04:25:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:57  Build 224: cache-mismatch overlay still open after dismissal 1/3 -- re-deriving target next tick
+04:25:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:25:58  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 2/3), verifying overlay clears next tick
+04:25:58  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:25:58  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+04:25:59  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3086, y=3123, plane=0)
+04:25:59  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+04:25:59  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+04:25:59  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+04:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:26  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:26:01  Build 197: spamDialogue budget exhausted (60s) -- dialogue still open, re-arming next tick if caller retries: ' / Have you not opened that menu yet?'
+04:26:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:26:02  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:26:02  Build 197: spamDialogue phased session armed, budget 60s -- one dialogue action per tick, verifying close on following ticks
+04:26:02  dialogueTick: clicking continue (priority over keyword handling)
+04:26:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:26:03  Build 224: CLIENT BLOCKER: blocking overlay visible ('[04:26:02] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+04:26:03  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+04:26:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:26:04  Build 224: cache-mismatch overlay still open after dismissal 1/3 -- re-deriving target next tick
+04:26:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:26:05  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 2/3), verifying overlay clears next tick
+04:26:05  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:26:06  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+04:26:06  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3086, y=3123, plane=0)
+04:26:06  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+04:26:06  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+04:26:06  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+04:26:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:26:08  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:26:08  dialogueTick: clicking continue (priority over keyword handling)
+04:26:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:26:09  Build 224: CLIENT BLOCKER: blocking overlay visible ('[04:26:08] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+04:26:09  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+04:26:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:26:10  Build 224: cache-mismatch overlay still open after dismissal 1/3 -- re-deriving target next tick
+04:26:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:26:11  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 2/3), verifying overlay clears next tick
+04:26:11  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:26:11  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+04:26:12  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3086, y=3123, plane=0)
+04:26:12  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+04:26:12  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+04:26:12  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+04:26:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:26:13  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:26:14  dialogueTick: clicking continue (priority over keyword handling)
+04:26:14  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:26:14  Build 224: CLIENT BLOCKER: blocking overlay visible ('[04:26:14] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+04:26:14  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+04:26:15  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:26:15  Build 224: cache-mismatch overlay still open after dismissal 1/3 -- re-deriving target next tick
+04:26:16  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:26:16  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 2/3), verifying overlay clears next tick
+04:26:17  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:26:17  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+04:26:18  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3086, y=3123, plane=0)
+04:26:18  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+04:26:18  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+04:26:18  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+04:26:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:26:19  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:26:19  dialogueTick: clicking continue (priority over keyword handling)
+04:26:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:26:20  Screenshot saved: 2026-09-29_04-26-20_QUEST_GUIDE_auto.png
