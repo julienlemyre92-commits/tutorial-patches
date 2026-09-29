@@ -1,4 +1,16 @@
 ## Current build
+- **Build 457 / patch-453** (shipped 2026-09-29 18:15 EDT). STAGED DAIRY ROUTE.
+  - Alex 18:12: direct (3246,3286)->(3172,3317) fails with rs2walker:walkStep:no-walkable-path.
+    Unbounded retry loop (SHARED_TRAVERSAL FAILED every tick, no movement).
+  - Fix: bounded staged route through validated anchors, one resolver request per leg:
+    CHICKEN_FARM (3238,3298) -> WHEAT_FIELD (3157,3288) -> MILL_APPROACH (3166,3304)
+    -> DAIRY_PASTURE (3172,3317). Latch one actionId for the dairy route.
+  - On leg failure: one bounded alternate (DAIRY_PASTURE_ALT 3178,3322), then typed
+    ROUTE_BLOCKED + sticky HOLD (phase 9). No unbounded retry. No generic cow clicks.
+  - Acceptance: visible movement through staged anchors, then special dairy object
+    with live Milk action near (3172,3317).
+
+## Current build
 - **Build 456 / patch-452** (shipped 2026-09-29 18:12 EDT). WIRED DESTINATION LOG.
   - Alex 18:10: Build 455 was loaded but doMilkCow() never logged a route toward (3172,3317).
     The code change existed but the live path wasn't emitting the required runtime line.
