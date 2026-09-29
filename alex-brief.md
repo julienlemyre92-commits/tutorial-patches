@@ -1,16 +1,15 @@
 ## Current build
-- **Build 458 / patch-454** (shipped 2026-09-29 18:18 EDT). STRICT NO-PROGRESS INVARIANT.
-  - Alex 18:16: Build 457 oscillated between leg 1/4 and 2/4 (positions 3240-3255,3267-3290,
-    no monotonic distance reduction to WHEAT_FIELD). The for-loop re-evaluated legs
-    every tick, causing thrash.
-  - Fix: strict leg state machine. A leg advances ONLY after:
-    (1) next-tick proximity proof (dist <= 8), AND
-    (2) measurable distance reduction (>2 tiles) between ticks.
-    Repeated same-area positions count as stalled (15 ticks -> leg FAILED).
-  - On leg failure: one alternate staged route, then typed ROUTE_BLOCKED + sticky HOLD.
-  - No reissuing the same resolver request. No progress claims from movement jitter.
-  - Acceptance: monotonic distance reduction per leg, leg-completion proof lines,
-    then special dairy object with live Milk action near (3172,3317).
+- **Build 459 / patch-455** (shipped 2026-09-29 18:22 EDT). ALTERNATE ARRIVAL HANDOFF.
+  - Alex 18:20: Build 458's alternate reached (3176,3320) but repeated
+    "continuing dairy ALTERNATE route..." with no movement and no target audit.
+  - Fix: arrival check on alternate (dist <= 8 to DAIRY_PASTURE_ALT).
+    When arrived: STOP routing, set milkDairyAlternateArrived, skip primary
+    route logic, enter target-resolution phase.
+  - Target-resolution: bounded live tile-object/NPC audit at current tile,
+    search for special dairy object (fat_cow/prized dairy cow) with live
+    "Milk" action around (3172,3317). Then one item-on-target + next-tick
+    Bucket->Bucket of milk proof. If no Milk candidate: TARGET_NOT_FOUND/HOLD.
+  - Do NOT keep repeating the alternate route.
 
 ## Current build
 - **Build 457 / patch-453** (shipped 2026-09-29 18:15 EDT). STAGED DAIRY ROUTE.
