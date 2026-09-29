@@ -1,3 +1,9 @@
+## Current build
+- **Build 399 / patch-396** (shipped 2026-09-29 ~13:39 EDT). Change: the through-gate movement fix (Alex 13:37).
+- Build 398's verification PROVED the gate opens (inspect id=1560 WALL [Open] reachable=true; one Open click; door-state proof id 1560->1559, menu Open->Close) but the player never moved off (3237,3284) -- stepping ONTO the gate tile goes nowhere.
+- Build 399: door-state proof is explicitly NOT crossing (logged once, never repeated); once the door is open, compute the inside tile (walkable gate neighbor on the cows' side, else mirror of the approach) and make ONE walk through to it with next-tick position/plane proof, then one cow lookup. Unconditional 20s timeout + one bounded retry (rescan + alternate adjacent tile) still bound everything; no movement after the retry -> GATE ENTRY FAILED diagnostics (now including inside-tile walkability) and STOP.
+- Watch for: `Build 399: STARTUP -- RUNNING_BUILD=399 (patch-396)` -> MISSION_SELECT claim -> verify -> SWITCH COMPLETE -> MILK_COW `inside tile=(x,y,z)` -> one walk -> `movement proof` or `crossing proof` -> one cow lookup -> `You milk the cow.` -> Bucket of milk proof.
+
 ## Build 397 / patch-394 (2026-09-29 ~13:24 EDT) -- Alex's motion correction: per-tick pos log, NPC lookup only at gate-adjacent tile
 
 Alex's correction (13:22): comparing 13:20:41 vs 13:21:43 MILK_COW frames, the player sprite SHIFTS along the fenced path (left-center -> upper-left, red route/minimap updating) -- the bot is NOT motionless. `no dairy cow nearby` is a target-search failure during movement, not proof walking stopped. Also: the 13:20:19 RuneLite WorldService Error is environmental noise, not the MILK_COW diagnosis.
