@@ -1,0 +1,250 @@
+21:26:57  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:26:58  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:26:58  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:26:59  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:26:59  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:01  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:01  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:02  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:02  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:03  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:03  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:04  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:04  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:04  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:04  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:05  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:05  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:06  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:06  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:07  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:07  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:07  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:07  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:08  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:08  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:09  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:09  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:10  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:10  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:10  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:10  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:11  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:11  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:12  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:12  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:13  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:13  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:13  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:13  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:14  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:14  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:15  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:15  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:16  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:16  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:16  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:16  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:17  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:17  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:18  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:18  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:19  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:19  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:19  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:20  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:20  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:20  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:21  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:21  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:22  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:22  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:23  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:23  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:23  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:23  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:24  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:24  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:25  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:25  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:26  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:26  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:26  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:26  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:27  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:27  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:28  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:28  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:29  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:29  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:29  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:29  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:30  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:30  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:31  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:31  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:32  Screenshot saved: 2026-09-28_21-27-32_GUIDE_auto.png
+21:27:32  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:32  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:32  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:32  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:33  Diag tail uploaded: 2026-09-28_21-27-32_GUIDE_diag.txt
+21:27:33  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:33  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:34  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:34  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:35  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:35  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:36  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:36  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:36  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:36  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:37  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:37  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:38  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:38  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:39  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:39  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:39  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:39  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:40  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:40  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:41  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:41  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:42  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:42  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:42  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:42  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:43  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:43  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:44  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:44  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:45  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:45  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:45  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:45  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:46  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:46  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:47  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:47  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:48  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:48  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:48  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:48  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:49  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:49  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:50  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:50  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:51  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:51  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:51  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:51  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:52  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:52  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:53  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:53  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:54  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:54  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:55  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:55  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:55  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:55  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:56  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:56  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:57  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:57  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:58  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:58  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:58  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:58  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:27:59  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:27:59  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:01  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:01  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:01  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:01  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:02  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:02  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:03  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:03  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:04  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:04  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:04  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:04  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:05  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:05  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:06  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:06  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:07  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:07  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:07  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:07  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:08  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:08  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:09  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:09  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:10  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:10  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:10  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:10  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:11  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:11  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:12  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:12  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:13  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:13  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:14  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:14  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:14  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:14  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:15  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:15  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:16  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:16  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:17  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:17  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:17  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:17  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:18  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:18  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:19  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:19  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:20  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:20  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:20  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:20  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:21  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:21  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:22  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:22  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:23  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:23  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:23  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:23  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:24  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:24  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:25  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:25  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:26  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:26  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:26  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:26  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:27  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:27  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:28  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:28  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:29  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:29  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:29  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:30  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:30  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:30  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:31  Build 256: cache-hash modal OBSERVED -- text='<unreadable:IllegalStateException>' bounds=<unreadable> hidden=true
+21:28:31  Build 256: continue widget unreadable (IllegalStateException) -- waiting
+21:28:32  Screenshot saved: 2026-09-28_21-28-32_GUIDE_auto.png
