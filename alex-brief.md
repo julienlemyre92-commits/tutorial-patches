@@ -1,4 +1,22 @@
 ## Current build
+- **Build 455 / patch-451** (shipped 2026-09-29 18:06 EDT). DAIRY DESTINATION FIX.
+  - Alex 18:04-18:05: CRITICAL CORRECTION. The bot at (3246,3286) is in the WRONG PEN.
+    COW_FIELD (3256,3273) is the ordinary cow field (Cow/Cow calf 2790/2791/2792, no Milk action).
+  - New DAIRY_PASTURE constant (3172,3317,0) as SEARCH SEED. The approach leg now routes
+    there via shared traversal resolver instead of COW_FIELD.
+  - The coordinate is a search seed only -- NOT a completion trigger. Live "Milk" action
+    on the special fat_cow/prized dairy cow (id 8689) is required before any click.
+  - TARGET_AUDIT is now diagnostic-only: logs what it sees, NEVER selects a generic cow.
+  - Research confirms: the dairy cow is a GAME OBJECT (tile object) with "Milk" option,
+    not an NPC. OSRS Wiki: "Use a bucket on the prized dairy cow" in Lumbridge cow field.
+  - Acceptance: fresh runtime target line at dairy location with live Milk action,
+    then one bucket action + next-tick Bucket->Bucket of milk proof. HOLD if not found.
+
+## Completion claim RETRACTED
+- The 17:57 "milk acquired" report was from a STALE frame. Authoritative 18:03:13 log
+  (Build 454): HELD, Bucket x1, Milk x0. No completion. Do not report success from old frames.
+
+## Current build
 - **Build 454 / patch-450** (shipped 2026-09-29 18:00 EDT). TARGET AUDIT.
   - Alex 17:58: Stop expanding pathing. The problem is target discovery -- in the pen at (3246,3286) but NPC query returns generic Cow with no Milk action.
   - New: bounded TARGET_AUDIT (once per phase-0 entry). Enumerates up to 8 NPCs + 8 tile objects in 15 tiles with live name, id, tile, dist. Read-only, never clicks.
