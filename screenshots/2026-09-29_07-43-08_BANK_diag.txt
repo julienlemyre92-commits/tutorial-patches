@@ -1,0 +1,250 @@
+07:39:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:39:31  BANK TICK: up=true opened=true closed=true upStep=0
+07:39:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:39:33  BANK TICK: up=true opened=true closed=true upStep=0
+07:39:34  Build 87: still waiting on poll booth step (tick 30)
+07:39:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:39:35  BANK TICK: up=true opened=true closed=true upStep=0
+07:39:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:39:37  BANK TICK: up=true opened=true closed=true upStep=0
+07:39:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:39:39  BANK TICK: up=true opened=true closed=true upStep=0
+07:39:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:39:41  BANK TICK: up=true opened=true closed=true upStep=0
+07:39:43  Build 365: poll booth id=26815 at=WorldPoint(x=3119, y=3121, plane=0) objPlane=0 player=WorldPoint(x=3123, y=3127, plane=0) dist=6 -- no adjacent walkable tile even plane-corrected (searchPt=WorldPoint(x=3119, y=3121, plane=0))
+07:39:43  Build 366: poll direct-approach -- walkStep toward WorldPoint(x=3119, y=3121, plane=0) (dist=6, stuckTicks=5)
+07:39:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:39:44  BANK TICK: up=true opened=true closed=true upStep=0
+07:39:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:39:46  BANK TICK: up=true opened=true closed=true upStep=0
+07:39:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:39:48  BANK TICK: up=true opened=true closed=true upStep=0
+07:39:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:39:50  BANK TICK: up=true opened=true closed=true upStep=0
+07:39:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:39:52  BANK TICK: up=true opened=true closed=true upStep=0
+07:39:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:39:54  BANK TICK: up=true opened=true closed=true upStep=0
+07:39:55  Build 365: poll booth id=26815 at=WorldPoint(x=3119, y=3121, plane=0) objPlane=0 player=WorldPoint(x=3123, y=3127, plane=0) dist=6 -- no adjacent walkable tile even plane-corrected (searchPt=WorldPoint(x=3119, y=3121, plane=0))
+07:39:55  Build 366: poll direct-approach -- walkStep toward WorldPoint(x=3119, y=3121, plane=0) (dist=6, stuckTicks=6)
+07:39:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:39:57  BANK TICK: up=true opened=true closed=true upStep=0
+07:39:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:39:59  BANK TICK: up=true opened=true closed=true upStep=0
+07:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:01  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:03  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:05  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:07  Screenshot saved: 2026-09-29_07-40-07_BANK_auto.png
+07:40:07  Build 82: cleaned up 1 old screenshots
+07:40:07  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:08  Diag tail uploaded: 2026-09-29_07-40-07_BANK_diag.txt
+07:40:08  Build 365: poll booth id=26815 at=WorldPoint(x=3119, y=3121, plane=0) objPlane=0 player=WorldPoint(x=3123, y=3127, plane=0) dist=6 -- no adjacent walkable tile even plane-corrected (searchPt=WorldPoint(x=3119, y=3121, plane=0))
+07:40:08  Build 366: poll direct-approach -- walkStep toward WorldPoint(x=3119, y=3121, plane=0) (dist=6, stuckTicks=7)
+07:40:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:10  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:12  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:14  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:16  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:18  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:20  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:21  Build 365: poll booth id=26815 at=WorldPoint(x=3119, y=3121, plane=0) objPlane=0 player=WorldPoint(x=3123, y=3127, plane=0) dist=6 -- no adjacent walkable tile even plane-corrected (searchPt=WorldPoint(x=3119, y=3121, plane=0))
+07:40:21  Build 366: poll direct-approach -- walkStep toward WorldPoint(x=3119, y=3121, plane=0) (dist=6, stuckTicks=8)
+07:40:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:23  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:25  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:27  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:29  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:31  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:33  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:34  Build 365: poll booth id=26815 at=WorldPoint(x=3119, y=3121, plane=0) objPlane=0 player=WorldPoint(x=3123, y=3127, plane=0) dist=6 -- no adjacent walkable tile even plane-corrected (searchPt=WorldPoint(x=3119, y=3121, plane=0))
+07:40:34  Build 366: poll direct-approach -- walkStep toward WorldPoint(x=3119, y=3121, plane=0) (dist=6, stuckTicks=9)
+07:40:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:36  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:38  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:38  Build 87: still waiting on poll booth step (tick 60)
+07:40:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:40  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:42  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:44  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:46  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:47  Build 365: poll booth id=26815 at=WorldPoint(x=3119, y=3121, plane=0) objPlane=0 player=WorldPoint(x=3123, y=3127, plane=0) dist=6 -- no adjacent walkable tile even plane-corrected (searchPt=WorldPoint(x=3119, y=3121, plane=0))
+07:40:47  Build 366: poll direct-approach -- walkStep toward WorldPoint(x=3119, y=3121, plane=0) (dist=6, stuckTicks=10)
+07:40:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:48  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:50  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:52  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:55  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:57  BANK TICK: up=true opened=true closed=true upStep=0
+07:40:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:40:59  BANK TICK: up=true opened=true closed=true upStep=0
+07:41  Build 365: poll booth id=26815 at=WorldPoint(x=3119, y=3121, plane=0) objPlane=0 player=WorldPoint(x=3123, y=3127, plane=0) dist=6 -- no adjacent walkable tile even plane-corrected (searchPt=WorldPoint(x=3119, y=3121, plane=0))
+07:41  Build 366: poll direct-approach -- walkStep toward WorldPoint(x=3119, y=3121, plane=0) (dist=6, stuckTicks=11)
+07:41:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:01  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:03  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:05  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:07  Screenshot saved: 2026-09-29_07-41-07_BANK_auto.png
+07:41:07  Build 82: cleaned up 1 old screenshots
+07:41:08  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:08  Diag tail uploaded: 2026-09-29_07-41-07_BANK_diag.txt
+07:41:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:10  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:12  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:13  Build 365: poll booth id=26815 at=WorldPoint(x=3119, y=3121, plane=0) objPlane=0 player=WorldPoint(x=3123, y=3127, plane=0) dist=6 -- no adjacent walkable tile even plane-corrected (searchPt=WorldPoint(x=3119, y=3121, plane=0))
+07:41:13  Build 366: poll direct-approach -- walkStep toward WorldPoint(x=3119, y=3121, plane=0) (dist=6, stuckTicks=12)
+07:41:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:14  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:16  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:18  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:21  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:23  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:25  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:26  Build 365: poll booth id=26815 at=WorldPoint(x=3119, y=3121, plane=0) objPlane=0 player=WorldPoint(x=3123, y=3127, plane=0) dist=6 -- no adjacent walkable tile even plane-corrected (searchPt=WorldPoint(x=3119, y=3121, plane=0))
+07:41:26  Build 366: poll direct-approach -- walkStep toward WorldPoint(x=3119, y=3121, plane=0) (dist=6, stuckTicks=13)
+07:41:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:27  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:29  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:31  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:34  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:36  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:38  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:39  Build 365: poll booth id=26815 at=WorldPoint(x=3119, y=3121, plane=0) objPlane=0 player=WorldPoint(x=3123, y=3127, plane=0) dist=6 -- no adjacent walkable tile even plane-corrected (searchPt=WorldPoint(x=3119, y=3121, plane=0))
+07:41:39  Build 366: poll direct-approach -- walkStep toward WorldPoint(x=3119, y=3121, plane=0) (dist=6, stuckTicks=14)
+07:41:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:40  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:42  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:43  Build 87: still waiting on poll booth step (tick 90)
+07:41:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:44  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:47  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:49  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:51  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:52  Build 365: poll booth id=26815 at=WorldPoint(x=3119, y=3121, plane=0) objPlane=0 player=WorldPoint(x=3123, y=3127, plane=0) dist=6 -- no adjacent walkable tile even plane-corrected (searchPt=WorldPoint(x=3119, y=3121, plane=0))
+07:41:52  Build 366: poll direct-approach -- walkStep toward WorldPoint(x=3119, y=3121, plane=0) (dist=6, stuckTicks=15)
+07:41:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:53  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:55  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:57  BANK TICK: up=true opened=true closed=true upStep=0
+07:41:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:41:59  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:01  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:03  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:05  Build 365: poll booth id=26815 at=WorldPoint(x=3119, y=3121, plane=0) objPlane=0 player=WorldPoint(x=3123, y=3127, plane=0) dist=6 -- no adjacent walkable tile even plane-corrected (searchPt=WorldPoint(x=3119, y=3121, plane=0))
+07:42:05  Build 366: poll direct-approach -- walkStep toward WorldPoint(x=3119, y=3121, plane=0) (dist=6, stuckTicks=16)
+07:42:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:06  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:08  Screenshot saved: 2026-09-29_07-42-08_BANK_auto.png
+07:42:08  Build 82: cleaned up 1 old screenshots
+07:42:08  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:09  Diag tail uploaded: 2026-09-29_07-42-08_BANK_diag.txt
+07:42:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:10  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:12  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:14  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:16  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:18  Build 365: poll booth id=26815 at=WorldPoint(x=3119, y=3121, plane=0) objPlane=0 player=WorldPoint(x=3123, y=3127, plane=0) dist=6 -- no adjacent walkable tile even plane-corrected (searchPt=WorldPoint(x=3119, y=3121, plane=0))
+07:42:18  Build 366: poll direct-approach -- walkStep toward WorldPoint(x=3119, y=3121, plane=0) (dist=6, stuckTicks=17)
+07:42:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:19  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:21  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:23  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:25  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:27  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:29  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:31  Build 365: poll booth id=26815 at=WorldPoint(x=3119, y=3121, plane=0) objPlane=0 player=WorldPoint(x=3123, y=3127, plane=0) dist=6 -- no adjacent walkable tile even plane-corrected (searchPt=WorldPoint(x=3119, y=3121, plane=0))
+07:42:31  Build 366: poll direct-approach -- walkStep toward WorldPoint(x=3119, y=3121, plane=0) (dist=6, stuckTicks=18)
+07:42:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:32  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:34  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:36  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:38  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:40  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:42  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:43  Build 365: poll booth id=26815 at=WorldPoint(x=3119, y=3121, plane=0) objPlane=0 player=WorldPoint(x=3123, y=3127, plane=0) dist=6 -- no adjacent walkable tile even plane-corrected (searchPt=WorldPoint(x=3119, y=3121, plane=0))
+07:42:43  Build 366: poll direct-approach -- walkStep toward WorldPoint(x=3119, y=3121, plane=0) (dist=6, stuckTicks=19)
+07:42:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:45  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:47  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:48  Build 87: still waiting on poll booth step (tick 120)
+07:42:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:49  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:51  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:53  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:55  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:56  Build 365: poll booth id=26815 at=WorldPoint(x=3119, y=3121, plane=0) objPlane=0 player=WorldPoint(x=3123, y=3127, plane=0) dist=6 -- no adjacent walkable tile even plane-corrected (searchPt=WorldPoint(x=3119, y=3121, plane=0))
+07:42:56  Build 366: poll direct-approach -- walkStep toward WorldPoint(x=3119, y=3121, plane=0) (dist=6, stuckTicks=20)
+07:42:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:42:58  BANK TICK: up=true opened=true closed=true upStep=0
+07:42:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:43  BANK TICK: up=true opened=true closed=true upStep=0
+07:43:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:43:02  BANK TICK: up=true opened=true closed=true upStep=0
+07:43:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:43:04  BANK TICK: up=true opened=true closed=true upStep=0
+07:43:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:43:06  BANK TICK: up=true opened=true closed=true upStep=0
+07:43:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:43:08  Screenshot saved: 2026-09-29_07-43-08_BANK_auto.png
+07:43:08  Build 82: cleaned up 1 old screenshots
