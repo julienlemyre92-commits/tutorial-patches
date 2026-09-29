@@ -1,0 +1,250 @@
+05:47:38  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:47:38  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:47:38  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:47:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:47:39  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+05:47:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:47:41  Skipping mining — already have bar/dagger
+05:47:41  Skipping smelt — already have bar/dagger
+05:47:41  Getting hammer from Mining Instructor
+05:47:41  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3079, y=9502, plane=0)
+05:47:41  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:47:41  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:47:41  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:47:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:47:42  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+05:47:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:47:44  Skipping mining — already have bar/dagger
+05:47:44  Skipping smelt — already have bar/dagger
+05:47:44  Getting hammer from Mining Instructor
+05:47:44  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3079, y=9502, plane=0)
+05:47:45  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:47:45  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:47:45  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:47:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:47:46  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+05:47:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:47:48  Skipping mining — already have bar/dagger
+05:47:48  Skipping smelt — already have bar/dagger
+05:47:48  Getting hammer from Mining Instructor
+05:47:48  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3079, y=9502, plane=0)
+05:47:48  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:47:48  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:47:48  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:47:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:47:49  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+05:47:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:47:51  Skipping mining — already have bar/dagger
+05:47:51  Skipping smelt — already have bar/dagger
+05:47:51  Getting hammer from Mining Instructor
+05:47:51  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3079, y=9502, plane=0)
+05:47:52  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:47:52  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:47:52  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:47:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:47:53  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+05:47:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:47:54  Skipping mining — already have bar/dagger
+05:47:54  Skipping smelt — already have bar/dagger
+05:47:54  Getting hammer from Mining Instructor
+05:47:55  Build 197: talkTo 'Mining Instructor' stepping adjacent (dist 3) -- verifying position next tick
+05:47:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:47:57  Skipping mining — already have bar/dagger
+05:47:57  Skipping smelt — already have bar/dagger
+05:47:57  Getting hammer from Mining Instructor
+05:47:57  Build 197: talkTo 'Mining Instructor' stepping adjacent (dist 5) -- verifying position next tick
+05:47:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:47:59  Skipping mining — already have bar/dagger
+05:47:59  Skipping smelt — already have bar/dagger
+05:47:59  Getting hammer from Mining Instructor
+05:47:59  Build 197: talkTo 'Mining Instructor' stepping adjacent (dist 7) -- verifying position next tick
+05:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:01  Skipping mining — already have bar/dagger
+05:48:01  Skipping smelt — already have bar/dagger
+05:48:01  Getting hammer from Mining Instructor
+05:48:01  Build 197: talkTo 'Mining Instructor' stepping adjacent (dist 7) -- verifying position next tick
+05:48:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:03  Skipping mining — already have bar/dagger
+05:48:03  Skipping smelt — already have bar/dagger
+05:48:03  Getting hammer from Mining Instructor
+05:48:03  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3083, y=9506, plane=0)
+05:48:04  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:48:04  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:48:04  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:48:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:05  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+05:48:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:07  Skipping mining — already have bar/dagger
+05:48:07  Skipping smelt — already have bar/dagger
+05:48:07  Getting hammer from Mining Instructor
+05:48:07  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3083, y=9506, plane=0)
+05:48:07  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:48:07  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:48:07  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:48:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:08  Screenshot saved: 2026-09-29_05-48-08_MINING_auto.png
+05:48:08  Build 82: cleaned up 1 old screenshots
+05:48:09  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+05:48:09  Diag tail uploaded: 2026-09-29_05-48-08_MINING_diag.txt
+05:48:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:10  Skipping mining — already have bar/dagger
+05:48:10  Skipping smelt — already have bar/dagger
+05:48:10  Getting hammer from Mining Instructor
+05:48:11  Build 197: talkTo 'Mining Instructor' stepping adjacent (dist 5) -- verifying position next tick
+05:48:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:12  Skipping mining — already have bar/dagger
+05:48:12  Skipping smelt — already have bar/dagger
+05:48:12  Getting hammer from Mining Instructor
+05:48:13  Build 197: talkTo 'Mining Instructor' stepping adjacent (dist 5) -- verifying position next tick
+05:48:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:15  Skipping mining — already have bar/dagger
+05:48:15  Skipping smelt — already have bar/dagger
+05:48:15  Getting hammer from Mining Instructor
+05:48:15  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3079, y=9504, plane=0)
+05:48:15  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:48:15  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:48:15  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:48:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:17  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+05:48:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:18  Skipping mining — already have bar/dagger
+05:48:18  Skipping smelt — already have bar/dagger
+05:48:18  Getting hammer from Mining Instructor
+05:48:19  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3079, y=9504, plane=0)
+05:48:19  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:48:19  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:48:19  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:48:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:20  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+05:48:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:22  Skipping mining — already have bar/dagger
+05:48:22  Skipping smelt — already have bar/dagger
+05:48:22  Getting hammer from Mining Instructor
+05:48:22  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3079, y=9503, plane=0)
+05:48:22  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:48:22  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:48:22  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:48:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:24  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+05:48:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:25  Skipping mining — already have bar/dagger
+05:48:25  Skipping smelt — already have bar/dagger
+05:48:25  Getting hammer from Mining Instructor
+05:48:25  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3079, y=9502, plane=0)
+05:48:26  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:48:26  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:48:26  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:48:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:27  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+05:48:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:29  Skipping mining — already have bar/dagger
+05:48:29  Skipping smelt — already have bar/dagger
+05:48:29  Getting hammer from Mining Instructor
+05:48:29  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3079, y=9502, plane=0)
+05:48:29  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:48:29  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:48:29  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:48:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:31  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+05:48:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:32  Skipping mining — already have bar/dagger
+05:48:32  Skipping smelt — already have bar/dagger
+05:48:32  Getting hammer from Mining Instructor
+05:48:32  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3079, y=9502, plane=0)
+05:48:33  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:48:33  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:48:33  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:48:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:34  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+05:48:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:36  Skipping mining — already have bar/dagger
+05:48:36  Skipping smelt — already have bar/dagger
+05:48:36  Getting hammer from Mining Instructor
+05:48:36  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3079, y=9502, plane=0)
+05:48:36  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:48:36  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:48:36  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:48:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:37  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+05:48:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:39  Skipping mining — already have bar/dagger
+05:48:39  Skipping smelt — already have bar/dagger
+05:48:39  Getting hammer from Mining Instructor
+05:48:39  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3080, y=9502, plane=0)
+05:48:40  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:48:40  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:48:40  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:48:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:41  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+05:48:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:43  Skipping mining — already have bar/dagger
+05:48:43  Skipping smelt — already have bar/dagger
+05:48:43  Getting hammer from Mining Instructor
+05:48:43  Build 197: talkTo 'Mining Instructor' stepping adjacent (dist 4) -- verifying position next tick
+05:48:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:45  Skipping mining — already have bar/dagger
+05:48:45  Skipping smelt — already have bar/dagger
+05:48:45  Getting hammer from Mining Instructor
+05:48:45  Build 197: talkTo 'Mining Instructor' stepping adjacent (dist 4) -- verifying position next tick
+05:48:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:47  Skipping mining — already have bar/dagger
+05:48:47  Skipping smelt — already have bar/dagger
+05:48:47  Getting hammer from Mining Instructor
+05:48:47  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9504, plane=0)
+05:48:48  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:48:48  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:48:48  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:48:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:49  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+05:48:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:51  Skipping mining — already have bar/dagger
+05:48:51  Skipping smelt — already have bar/dagger
+05:48:51  Getting hammer from Mining Instructor
+05:48:51  Build 197: talkTo 'Mining Instructor' stepping adjacent (dist 3) -- verifying position next tick
+05:48:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:53  Skipping mining — already have bar/dagger
+05:48:53  Skipping smelt — already have bar/dagger
+05:48:53  Getting hammer from Mining Instructor
+05:48:53  Build 197: talkTo 'Mining Instructor' stepping adjacent (dist 4) -- verifying position next tick
+05:48:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:55  Skipping mining — already have bar/dagger
+05:48:55  Skipping smelt — already have bar/dagger
+05:48:55  Getting hammer from Mining Instructor
+05:48:55  Build 197: talkTo 'Mining Instructor' stepping adjacent (dist 3) -- verifying position next tick
+05:48:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:57  Skipping mining — already have bar/dagger
+05:48:57  Skipping smelt — already have bar/dagger
+05:48:57  Getting hammer from Mining Instructor
+05:48:57  Build 197: talkTo 'Mining Instructor' stepping adjacent (dist 3) -- verifying position next tick
+05:48:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:48:59  Skipping mining — already have bar/dagger
+05:48:59  Skipping smelt — already have bar/dagger
+05:48:59  Getting hammer from Mining Instructor
+05:48:59  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3083, y=9505, plane=0)
+05:49  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:49  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:49  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:49:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:49:01  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+05:49:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:49:03  Skipping mining — already have bar/dagger
+05:49:03  Skipping smelt — already have bar/dagger
+05:49:03  Getting hammer from Mining Instructor
+05:49:03  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3083, y=9505, plane=0)
+05:49:04  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:49:04  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:49:04  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:49:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:49:05  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+05:49:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:49:07  Skipping mining — already have bar/dagger
+05:49:07  Skipping smelt — already have bar/dagger
+05:49:07  Getting hammer from Mining Instructor
+05:49:07  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3083, y=9505, plane=0)
+05:49:07  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:49:07  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:49:07  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:49:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:49:08  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+05:49:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:49:09  Screenshot saved: 2026-09-29_05-49-09_MINING_auto.png
