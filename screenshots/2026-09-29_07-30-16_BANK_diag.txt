@@ -1,0 +1,250 @@
+07:26:31  Detected start stage: BANK
+07:26:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:26:31  Build 223: stage self-correction SKIPPED -- current machine state unreadable (null), varp281=520 live=BANK -- no force this tick, retrying next tick
+07:26:31  Build 224: CLIENT BLOCKER: blocking overlay visible ('[07:26:30] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+07:26:31  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+07:26:31  Stage: null -> BANK
+07:26:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:26:32  Build 224: cache-mismatch overlay still open after dismissal 1/3 -- re-deriving target next tick
+07:26:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:26:33  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 2/3), verifying overlay clears next tick
+07:26:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:26:34  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+07:26:34  BANK TICK: up=false opened=false closed=false upStep=0
+07:26:34  Build 362: varp281=520 >= 520 game-verifies the 510 arc -- syncing bankWentUp/bankOpened/bankClosed true
+07:26:35  Build 364: down-ladder candidate id=16679 name=Ladder at=WorldPoint(x=3123, y=3128, plane=1) objPlane=1 dist=1 playerPlane=1
+07:26:35  Build 364: physically clicked Climb-down on ladder id=16679 at WorldPoint(x=3123, y=3128, plane=1) (dispatched=true) -- verifying plane 1->0 next tick, tick 1
+07:26:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:26:36  BANK TICK: up=true opened=true closed=true upStep=0
+07:26:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:26:39  BANK TICK: up=true opened=true closed=true upStep=0
+07:26:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:26:41  BANK TICK: up=true opened=true closed=true upStep=0
+07:26:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:26:43  BANK TICK: up=true opened=true closed=true upStep=0
+07:26:45  Build 361: poll booth has no adjacent walkable tile -- cannot approach
+07:26:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:26:46  BANK TICK: up=true opened=true closed=true upStep=0
+07:26:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:26:48  BANK TICK: up=true opened=true closed=true upStep=0
+07:26:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:26:50  BANK TICK: up=true opened=true closed=true upStep=0
+07:26:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:26:52  BANK TICK: up=true opened=true closed=true upStep=0
+07:26:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:26:55  BANK TICK: up=true opened=true closed=true upStep=0
+07:26:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:26:57  BANK TICK: up=true opened=true closed=true upStep=0
+07:26:58  Build 361: poll booth has no adjacent walkable tile -- cannot approach
+07:26:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:26:59  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:01  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:03  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:05  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:07  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:09  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:11  Build 361: poll booth has no adjacent walkable tile -- cannot approach
+07:27:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:12  Screenshot saved: 2026-09-29_07-27-12_BANK_auto.png
+07:27:12  Build 82: cleaned up 3 old screenshots
+07:27:12  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:13  Diag tail uploaded: 2026-09-29_07-27-12_BANK_diag.txt
+07:27:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:14  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:16  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:18  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:20  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:22  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:24  Build 361: poll booth has no adjacent walkable tile -- cannot approach
+07:27:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:25  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:27  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:29  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:31  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:33  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:35  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:36  Build 361: poll booth has no adjacent walkable tile -- cannot approach
+07:27:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:38  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:40  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:40  Build 87: still waiting on poll booth step (tick 30)
+07:27:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:42  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:44  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:46  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:48  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:49  Build 361: poll booth has no adjacent walkable tile -- cannot approach
+07:27:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:51  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:53  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:55  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:57  BANK TICK: up=true opened=true closed=true upStep=0
+07:27:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:27:59  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:01  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:02  Build 361: poll booth has no adjacent walkable tile -- cannot approach
+07:28:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:04  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:06  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:08  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:10  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:12  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:14  Screenshot saved: 2026-09-29_07-28-13_BANK_auto.png
+07:28:14  Build 82: cleaned up 1 old screenshots
+07:28:14  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:15  Diag tail uploaded: 2026-09-29_07-28-13_BANK_diag.txt
+07:28:15  Build 361: poll booth has no adjacent walkable tile -- cannot approach
+07:28:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:16  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:18  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:20  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:23  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:25  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:27  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:28  Build 361: poll booth has no adjacent walkable tile -- cannot approach
+07:28:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:29  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:31  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:33  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:36  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:38  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:40  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:41  Build 361: poll booth has no adjacent walkable tile -- cannot approach
+07:28:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:42  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:44  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:45  Build 87: still waiting on poll booth step (tick 60)
+07:28:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:46  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:48  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:50  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:52  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:54  Build 361: poll booth has no adjacent walkable tile -- cannot approach
+07:28:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:55  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:57  BANK TICK: up=true opened=true closed=true upStep=0
+07:28:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:28:59  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:01  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:03  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:05  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:07  Build 361: poll booth has no adjacent walkable tile -- cannot approach
+07:29:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:08  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:10  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:12  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:14  Screenshot saved: 2026-09-29_07-29-14_BANK_auto.png
+07:29:14  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:15  Diag tail uploaded: 2026-09-29_07-29-14_BANK_diag.txt
+07:29:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:16  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:18  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:19  Build 361: poll booth has no adjacent walkable tile -- cannot approach
+07:29:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:21  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:23  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:25  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:27  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:29  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:31  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:32  Build 361: poll booth has no adjacent walkable tile -- cannot approach
+07:29:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:34  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:36  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:38  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:40  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:42  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:44  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:45  Build 361: poll booth has no adjacent walkable tile -- cannot approach
+07:29:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:46  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:48  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:49  Build 87: still waiting on poll booth step (tick 90)
+07:29:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:50  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:53  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:55  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:57  BANK TICK: up=true opened=true closed=true upStep=0
+07:29:58  Build 361: poll booth has no adjacent walkable tile -- cannot approach
+07:29:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:29:59  BANK TICK: up=true opened=true closed=true upStep=0
+07:30:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:30:01  BANK TICK: up=true opened=true closed=true upStep=0
+07:30:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:30:03  BANK TICK: up=true opened=true closed=true upStep=0
+07:30:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:30:06  BANK TICK: up=true opened=true closed=true upStep=0
+07:30:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:30:08  BANK TICK: up=true opened=true closed=true upStep=0
+07:30:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:30:10  BANK TICK: up=true opened=true closed=true upStep=0
+07:30:11  Build 361: poll booth has no adjacent walkable tile -- cannot approach
+07:30:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:30:12  BANK TICK: up=true opened=true closed=true upStep=0
+07:30:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:30:14  BANK TICK: up=true opened=true closed=true upStep=0
+07:30:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:30:16  Screenshot saved: 2026-09-29_07-30-16_BANK_auto.png
