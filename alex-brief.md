@@ -1,8 +1,8 @@
 ## Current build
-- **Build 405 / patch-402** (shipped 2026-09-29 ~14:14 EDT). Change: dairy-only targets (Alex 14:12).
-- 403/404 runtime proved generic Cow id2793/id2790: click returned true but inventory stayed Bucket x1 / milk x0. Regular cows are not milkable.
-- Build 405: removed Cow fallback from pen-side detection (phase 0) and phase-3 lookup. Only Prized dairy cow / Dairy cow are valid targets. 5 bounded scans, then hold with NPC diagnostics (no Cow attempt, no gate reopen, no loop). MISSION_SELECT first; gate unchanged.
-- Watch for: `Build 405: STARTUP -- RUNNING_BUILD=405 (patch-402)` -> dairy-cow RESOLVE/APPROACH/USE -> `VERIFIED` or bounded `no dairy cow` hold with NPC list.
+- **Build 406 / patch-403** (shipped 2026-09-29 ~14:28 EDT). Change: action-filtered gate resolution (NUDGE ALEX 14:19/14:20).
+- 405 looped: phase 1 chose Gate@(3262,3294) id60763 actions=[Release] (not a pen entrance), phase 2 found no Open, reset to phase 0, re-selected same gate. Repeat loop confirmed 14:18:45-14:19:20.
+- Build 406: new findPenGate406(pp, radius) rejects any Gate/Fence gate without Open or Close via getObjectComposition().getActions(), logs every rejected candidate (id/name/pos), returns nearest valid. Phase 1/2/2-recheck use the filtered resolver. No valid gate after 3 scans -> HELD (no phase cycling). MISSION_SELECT first; crossing proof unchanged.
+- Watch for: `Build 406: STARTUP -- RUNNING_BUILD=406 (patch-403)` -> `gate candidates rejected` or valid gate chosen -> one walk -> crossing proof -> dairy cow resolve.
 ## Build 397 / patch-394 (2026-09-29 ~13:24 EDT) -- Alex's motion correction: per-tick pos log, NPC lookup only at gate-adjacent tile
 
 Alex's correction (13:22): comparing 13:20:41 vs 13:21:43 MILK_COW frames, the player sprite SHIFTS along the fenced path (left-center -> upper-left, red route/minimap updating) -- the bot is NOT motionless. `no dairy cow nearby` is a target-search failure during movement, not proof walking stopped. Also: the 13:20:19 RuneLite WorldService Error is environmental noise, not the MILK_COW diagnosis.
