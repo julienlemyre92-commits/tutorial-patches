@@ -1,0 +1,250 @@
+03:24  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24  SURVIVAL TICK
+03:24  inv: raw=true cooked=false logs=false
+03:24  fire: true
+03:24  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:02  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:02  Screenshot saved: 2026-09-29_03-24-02_SURVIVAL_auto.png
+03:24:02  SURVIVAL TICK
+03:24:02  inv: raw=true cooked=false logs=false
+03:24:02  fire: true
+03:24:02  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:03  Diag tail uploaded: 2026-09-29_03-24-02_SURVIVAL_diag.txt
+03:24:03  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:03  SURVIVAL TICK
+03:24:03  inv: raw=true cooked=false logs=false
+03:24:03  fire: true
+03:24:03  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:04  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:04  SURVIVAL TICK
+03:24:04  inv: raw=true cooked=false logs=false
+03:24:04  fire: true
+03:24:04  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:05  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:24:05  SURVIVAL TICK
+03:24:05  inv: raw=true cooked=false logs=false
+03:24:05  fire: true
+03:24:06  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:07  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:24:07  SURVIVAL TICK
+03:24:07  inv: raw=true cooked=false logs=false
+03:24:07  fire: true
+03:24:07  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:08  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:08  SURVIVAL TICK
+03:24:08  inv: raw=true cooked=false logs=false
+03:24:08  fire: true
+03:24:08  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:09  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:09  SURVIVAL TICK
+03:24:09  inv: raw=true cooked=false logs=false
+03:24:09  fire: true
+03:24:09  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:10  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:11  SURVIVAL TICK
+03:24:11  inv: raw=true cooked=false logs=false
+03:24:11  fire: true
+03:24:11  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:12  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:12  SURVIVAL TICK
+03:24:12  inv: raw=true cooked=false logs=false
+03:24:12  fire: true
+03:24:12  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:13  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:13  SURVIVAL TICK
+03:24:13  inv: raw=true cooked=false logs=false
+03:24:13  fire: true
+03:24:13  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:14  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:14  SURVIVAL TICK
+03:24:14  inv: raw=true cooked=false logs=false
+03:24:14  fire: true
+03:24:14  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:15  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:16  SURVIVAL TICK
+03:24:16  inv: raw=true cooked=false logs=false
+03:24:16  fire: true
+03:24:16  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:17  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:17  SURVIVAL TICK
+03:24:17  inv: raw=true cooked=false logs=false
+03:24:17  fire: true
+03:24:17  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:18  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:18  SURVIVAL TICK
+03:24:18  inv: raw=true cooked=false logs=false
+03:24:18  fire: true
+03:24:18  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:19  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:24:19  SURVIVAL TICK
+03:24:19  inv: raw=true cooked=false logs=false
+03:24:19  fire: true
+03:24:19  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:21  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:24:21  SURVIVAL TICK
+03:24:21  inv: raw=true cooked=false logs=false
+03:24:21  fire: true
+03:24:21  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:22  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:24:22  SURVIVAL TICK
+03:24:22  inv: raw=true cooked=false logs=false
+03:24:22  fire: true
+03:24:22  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:23  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:23  SURVIVAL TICK
+03:24:23  inv: raw=true cooked=false logs=false
+03:24:23  fire: true
+03:24:23  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:25  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:24:25  SURVIVAL TICK
+03:24:25  inv: raw=true cooked=false logs=false
+03:24:25  fire: true
+03:24:25  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:26  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:24:26  SURVIVAL TICK
+03:24:26  inv: raw=true cooked=false logs=false
+03:24:26  fire: true
+03:24:26  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:27  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:24:27  SURVIVAL TICK
+03:24:27  inv: raw=true cooked=false logs=false
+03:24:27  fire: true
+03:24:27  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:28  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:24:28  SURVIVAL TICK
+03:24:28  inv: raw=true cooked=false logs=false
+03:24:28  fire: true
+03:24:29  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:30  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:30  SURVIVAL TICK
+03:24:30  inv: raw=true cooked=false logs=false
+03:24:30  fire: true
+03:24:30  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:31  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:31  SURVIVAL TICK
+03:24:31  inv: raw=true cooked=false logs=false
+03:24:31  fire: true
+03:24:31  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:32  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:32  SURVIVAL TICK
+03:24:32  inv: raw=true cooked=false logs=false
+03:24:32  fire: true
+03:24:32  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:33  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:33  SURVIVAL TICK
+03:24:33  inv: raw=true cooked=false logs=false
+03:24:33  fire: true
+03:24:34  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:35  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:24:35  SURVIVAL TICK
+03:24:35  inv: raw=true cooked=false logs=false
+03:24:35  fire: true
+03:24:35  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:36  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:36  SURVIVAL TICK
+03:24:36  inv: raw=true cooked=false logs=false
+03:24:36  fire: true
+03:24:36  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:37  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:37  SURVIVAL TICK
+03:24:37  inv: raw=true cooked=false logs=false
+03:24:37  fire: true
+03:24:37  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:38  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:24:39  SURVIVAL TICK
+03:24:39  inv: raw=true cooked=false logs=false
+03:24:39  fire: true
+03:24:39  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:40  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:24:40  SURVIVAL TICK
+03:24:40  inv: raw=true cooked=false logs=false
+03:24:40  fire: true
+03:24:40  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:41  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:24:41  SURVIVAL TICK
+03:24:41  inv: raw=true cooked=false logs=false
+03:24:41  fire: true
+03:24:41  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:42  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:24:42  SURVIVAL TICK
+03:24:42  inv: raw=true cooked=false logs=false
+03:24:42  fire: true
+03:24:42  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:44  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:24:44  SURVIVAL TICK
+03:24:44  inv: raw=true cooked=false logs=false
+03:24:44  fire: true
+03:24:44  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:45  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:24:45  SURVIVAL TICK
+03:24:45  inv: raw=true cooked=false logs=false
+03:24:45  fire: true
+03:24:45  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:46  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:24:46  SURVIVAL TICK
+03:24:46  inv: raw=true cooked=false logs=false
+03:24:46  fire: true
+03:24:46  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:47  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:24:48  SURVIVAL TICK
+03:24:48  inv: raw=true cooked=false logs=false
+03:24:48  fire: true
+03:24:48  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:49  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:49  SURVIVAL TICK
+03:24:49  inv: raw=true cooked=false logs=false
+03:24:49  fire: true
+03:24:49  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:50  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:50  SURVIVAL TICK
+03:24:50  inv: raw=true cooked=false logs=false
+03:24:50  fire: true
+03:24:50  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:51  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:51  SURVIVAL TICK
+03:24:51  inv: raw=true cooked=false logs=false
+03:24:51  fire: true
+03:24:51  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:52  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:53  SURVIVAL TICK
+03:24:53  inv: raw=true cooked=false logs=false
+03:24:53  fire: true
+03:24:53  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:54  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:54  SURVIVAL TICK
+03:24:54  inv: raw=true cooked=false logs=false
+03:24:54  fire: true
+03:24:54  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:55  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:55  SURVIVAL TICK
+03:24:55  inv: raw=true cooked=false logs=false
+03:24:55  fire: true
+03:24:55  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:56  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:56  SURVIVAL TICK
+03:24:56  inv: raw=true cooked=false logs=false
+03:24:56  fire: true
+03:24:56  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:58  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:58  SURVIVAL TICK
+03:24:58  inv: raw=true cooked=false logs=false
+03:24:58  fire: true
+03:24:58  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:24:59  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:24:59  SURVIVAL TICK
+03:24:59  inv: raw=true cooked=false logs=false
+03:24:59  fire: true
+03:24:59  Build 209: use-on 'Raw shrimps|Fire' effort bound exhausted -- standing down, never completing
+03:24:59  Action cook completed
+03:25  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:25  SURVIVAL TICK
+03:25  inv: raw=true cooked=false logs=false
+03:25  fire: true
+03:25  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:25:01  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:25:01  SURVIVAL TICK
+03:25:01  inv: raw=true cooked=false logs=false
+03:25:01  fire: true
+03:25:01  Action cook failed: java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: Could not initialize class net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange
+03:25:03  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:25:03  Screenshot saved: 2026-09-29_03-25-03_SURVIVAL_auto.png
