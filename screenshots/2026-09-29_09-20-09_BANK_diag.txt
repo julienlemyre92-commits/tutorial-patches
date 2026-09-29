@@ -1,0 +1,250 @@
+09:14:05  Build 223: stage self-correction SKIPPED -- current machine state unreadable (null), varp281=525 live=BANK -- no force this tick, retrying next tick
+09:14:06  Build 224: CLIENT BLOCKER: blocking overlay visible ('[09:14:05] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+09:14:06  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+09:14:06  Stage: null -> BANK
+09:14:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:14:07  Build 224: cache-mismatch overlay still open after dismissal 1/3 -- re-deriving target next tick
+09:14:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:14:08  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 2/3), verifying overlay clears next tick
+09:14:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:14:09  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+09:14:09  BANK TICK: up=false opened=false closed=false upStep=0
+09:14:09  Build 362: varp281=525 >= 520 game-verifies the 510 arc -- syncing bankWentUp/bankOpened/bankClosed true
+09:14:10  Build 367: poll booth is OUTSIDE (booth=WorldPoint(x=3119, y=3121, plane=0), player=WorldPoint(x=3124, y=3123, plane=0)) -- exiting the bank first via the door routine
+09:14:10  Build 134 DOOR-2 START: player at WorldPoint(x=3124, y=3123, plane=0) (in bank main area). Finding door-2 target.
+09:14:19  Build 368 DOOR-2: door Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0) is BEHIND the player (playerNow=WorldPoint(x=3124, y=3123, plane=0)) -- ignoring, walking south.
+09:14:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:14:20  BANK TICK: up=true opened=true closed=true upStep=1
+09:14:30  Build 368 DOOR-2: door Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0) is BEHIND the player (playerNow=WorldPoint(x=3124, y=3123, plane=0)) -- ignoring, walking south.
+09:14:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:14:31  BANK TICK: up=true opened=true closed=true upStep=1
+09:14:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:14:34  BANK TICK: up=true opened=true closed=true upStep=1
+09:14:35  Build 365: poll booth id=26815 at=WorldPoint(x=3119, y=3121, plane=0) objPlane=0 player=WorldPoint(x=3124, y=3120, plane=0) dist=5) -- walkStep toward WorldPoint(x=3121, y=3119, plane=0)
+09:14:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:14:36  BANK TICK: up=true opened=true closed=true upStep=1
+09:14:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:14:38  BANK TICK: up=true opened=true closed=true upStep=1
+09:14:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:14:40  BANK TICK: up=true opened=true closed=true upStep=1
+09:14:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:14:43  BANK TICK: up=true opened=true closed=true upStep=1
+09:14:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:14:45  BANK TICK: up=true opened=true closed=true upStep=1
+09:14:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:14:47  Screenshot saved: 2026-09-29_09-14-47_BANK_auto.png
+09:14:47  Build 82: cleaned up 2 old screenshots
+09:14:47  BANK TICK: up=true opened=true closed=true upStep=1
+09:14:48  Diag tail uploaded: 2026-09-29_09-14-47_BANK_diag.txt
+09:14:48  Build 365: poll booth id=26815 at=WorldPoint(x=3119, y=3121, plane=0) objPlane=0 player=WorldPoint(x=3124, y=3120, plane=0) dist=5) -- walkStep toward WorldPoint(x=3121, y=3119, plane=0)
+09:14:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:14:50  BANK TICK: up=true opened=true closed=true upStep=1
+09:14:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:14:52  BANK TICK: up=true opened=true closed=true upStep=1
+09:14:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:14:54  BANK TICK: up=true opened=true closed=true upStep=1
+09:14:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:14:56  BANK TICK: up=true opened=true closed=true upStep=1
+09:14:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:14:59  BANK TICK: up=true opened=true closed=true upStep=1
+09:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:15:01  BANK TICK: up=true opened=true closed=true upStep=1
+09:15:01  Left-clicking object at 254,316
+09:15:02  Build 88: physically left-clicked poll booth
+09:15:02  Build 87: poll booth click attempt (retry tick 16)
+09:15:02  Build 82: burst recording started (8 shots): poll-booth-clicked
+09:15:02  Screenshot saved: 2026-09-29_09-15-02_BANK_burst-poll-booth-clicked-8.png
+09:15:02  Screenshot saved: 2026-09-29_09-15-02_BANK_burst-poll-booth-clicked-7.png
+09:15:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:15:03  Diag tail uploaded: 2026-09-29_09-15-02_BANK_diag.txt
+09:15:03  BANK TICK: up=true opened=true closed=true upStep=1
+09:15:03  Build 372: poll dialogue dismissal tick 0 (varp=525)
+09:15:03  Build 374: title candidates (0): | body=36,535 447x68
+09:15:03  Build 374: no sane title candidate -- body-anchored title-slot click at 259,517
+09:15:03  Screenshot saved: 2026-09-29_09-15-03_BANK_burst-poll-booth-clicked-6.png
+09:15:03  Diag upload failed, HTTP 409
+09:15:04  Screenshot saved: 2026-09-29_09-15-04_BANK_burst-poll-booth-clicked-5.png
+09:15:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:15:04  Build 224: CLIENT BLOCKER: blocking overlay visible ('[09:15:03] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+09:15:04  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+09:15:04  Screenshot saved: 2026-09-29_09-15-04_BANK_burst-poll-booth-clicked-4.png
+09:15:05  Diag upload failed, HTTP 409
+09:15:05  Screenshot saved: 2026-09-29_09-15-05_BANK_burst-poll-booth-clicked-3.png
+09:15:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:15:05  Diag tail uploaded: 2026-09-29_09-15-03_BANK_diag.txt
+09:15:05  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+09:15:05  Diag tail uploaded: 2026-09-29_09-15-04_BANK_diag.txt
+09:15:05  BANK TICK: up=true opened=true closed=true upStep=1
+09:15:05  Build 374: physically clicking cached (Moving on title at 259,517
+09:15:06  Screenshot saved: 2026-09-29_09-15-05_BANK_burst-poll-booth-clicked-2.png
+09:15:06  Diag upload failed, HTTP 409
+09:15:06  Screenshot saved: 2026-09-29_09-15-06_BANK_burst-poll-booth-clicked-1.png
+09:15:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:15:07  BANK TICK: up=true opened=true closed=true upStep=1
+09:15:07  Build 374: physically clicking cached (Moving on title at 259,517
+09:15:07  Build 82: burst recording finished: poll-booth-clicked
+09:15:07  Diag tail uploaded: 2026-09-29_09-15-05_BANK_diag.txt
+09:15:07  Diag upload failed, HTTP 409
+09:15:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:15:08  BANK TICK: up=true opened=true closed=true upStep=1
+09:15:08  Build 374: physically clicking cached (Moving on title at 259,517
+09:15:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:15:09  BANK TICK: up=true opened=true closed=true upStep=1
+09:15:09  Build 375: poll dialogue has NO dismiss control (Julien) -- stop clicking, proximity walk to guide
+09:15:10  dialogueTick: clicking continue (priority over keyword handling)
+09:15:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:15:12  BANK TICK: up=true opened=true closed=true upStep=1
+09:15:19  Cache query: click('Open') returned true
+09:15:19  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3127, y=3124, plane=0) (player WorldPoint(x=3121, y=3116, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:15:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:15:20  BANK TICK: up=true opened=true closed=true upStep=1
+09:15:28  Cache query: click('Open') returned true
+09:15:28  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3127, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:15:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:15:29  BANK TICK: up=true opened=true closed=true upStep=1
+09:15:37  Cache query: click('Open') returned true
+09:15:37  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3127, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:15:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:15:38  BANK TICK: up=true opened=true closed=true upStep=1
+09:15:46  Cache query: click('Open') returned true
+09:15:46  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3127, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:15:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:15:47  Screenshot saved: 2026-09-29_09-15-47_BANK_auto.png
+09:15:47  Build 82: cleaned up 1 old screenshots
+09:15:47  BANK TICK: up=true opened=true closed=true upStep=1
+09:15:48  Diag tail uploaded: 2026-09-29_09-15-47_BANK_diag.txt
+09:15:55  Cache query: click('Open') returned true
+09:15:55  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3127, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:15:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:15:56  BANK TICK: up=true opened=true closed=true upStep=1
+09:15:56  Build 372: poll dialogue dismissal tick 10 (varp=525)
+09:16:04  Cache query: click('Open') returned true
+09:16:04  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3127, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:16:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:16:05  BANK TICK: up=true opened=true closed=true upStep=1
+09:16:13  Cache query: click('Open') returned true
+09:16:13  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3127, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:16:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:16:14  BANK TICK: up=true opened=true closed=true upStep=1
+09:16:21  Cache query: click('Open') returned true
+09:16:21  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3126, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:16:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:16:23  BANK TICK: up=true opened=true closed=true upStep=1
+09:16:30  Cache query: click('Open') returned true
+09:16:30  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3128, y=3123, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:16:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:16:32  BANK TICK: up=true opened=true closed=true upStep=1
+09:16:39  Cache query: click('Open') returned true
+09:16:39  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3128, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:16:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:16:41  BANK TICK: up=true opened=true closed=true upStep=1
+09:16:45  Cache query: click('Open') returned true
+09:16:45  Build 375: poll-stuck walk STALLED 8 ticks at WorldPoint(x=3121, y=3118, plane=0) (guide dist 6) -- nearest-gate 'Open' click=true
+09:16:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:16:47  BANK TICK: up=true opened=true closed=true upStep=1
+09:16:54  Cache query: click('Open') returned true
+09:16:54  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3126, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:16:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:16:55  Screenshot saved: 2026-09-29_09-16-55_BANK_auto.png
+09:16:56  BANK TICK: up=true opened=true closed=true upStep=1
+09:16:57  Diag tail uploaded: 2026-09-29_09-16-55_BANK_diag.txt
+09:17:03  Cache query: click('Open') returned true
+09:17:03  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3128, y=3123, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:17:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:17:05  BANK TICK: up=true opened=true closed=true upStep=1
+09:17:12  Cache query: click('Open') returned true
+09:17:12  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3126, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:17:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:17:13  BANK TICK: up=true opened=true closed=true upStep=1
+09:17:21  Cache query: click('Open') returned true
+09:17:21  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3127, y=3123, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:17:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:17:23  BANK TICK: up=true opened=true closed=true upStep=1
+09:17:23  Build 372: poll dialogue dismissal tick 20 (varp=525)
+09:17:30  Cache query: click('Open') returned true
+09:17:30  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3126, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:17:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:17:32  BANK TICK: up=true opened=true closed=true upStep=1
+09:17:33  Build 375: poll-stuck walk to Account Guide (dist 6, player WorldPoint(x=3121, y=3118, plane=0) -> WorldPoint(x=3124, y=3123, plane=0)) -- talk only when adjacent
+09:17:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:17:34  BANK TICK: up=true opened=true closed=true upStep=1
+09:17:42  Cache query: click('Open') returned true
+09:17:42  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3127, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:17:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:17:43  BANK TICK: up=true opened=true closed=true upStep=1
+09:17:51  Cache query: click('Open') returned true
+09:17:51  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3127, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:17:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:17:52  BANK TICK: up=true opened=true closed=true upStep=1
+09:17:57  Cache query: click('Open') returned true
+09:17:57  Build 375: poll-stuck walk STALLED 8 ticks at WorldPoint(x=3121, y=3118, plane=0) (guide dist 6) -- nearest-gate 'Open' click=true
+09:17:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:17:58  Screenshot saved: 2026-09-29_09-17-58_BANK_auto.png
+09:17:58  Build 82: cleaned up 1 old screenshots
+09:17:58  BANK TICK: up=true opened=true closed=true upStep=1
+09:17:59  Diag tail uploaded: 2026-09-29_09-17-58_BANK_diag.txt
+09:18:06  Cache query: click('Open') returned true
+09:18:06  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3126, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:18:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:18:07  BANK TICK: up=true opened=true closed=true upStep=1
+09:18:15  Cache query: click('Open') returned true
+09:18:15  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3128, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:18:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:18:16  BANK TICK: up=true opened=true closed=true upStep=1
+09:18:24  Cache query: click('Open') returned true
+09:18:24  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3127, y=3123, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:18:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:18:25  BANK TICK: up=true opened=true closed=true upStep=1
+09:18:33  Cache query: click('Open') returned true
+09:18:33  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3128, y=3123, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:18:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:18:34  BANK TICK: up=true opened=true closed=true upStep=1
+09:18:42  Cache query: click('Open') returned true
+09:18:42  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3126, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:18:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:18:43  BANK TICK: up=true opened=true closed=true upStep=1
+09:18:43  Build 372: poll dialogue dismissal tick 30 (varp=525)
+09:18:51  Cache query: click('Open') returned true
+09:18:51  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3127, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:18:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:18:52  BANK TICK: up=true opened=true closed=true upStep=1
+09:19  Cache query: click('Open') returned true
+09:19  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3127, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:19:01  Screenshot saved: 2026-09-29_09-19-00_BANK_auto.png
+09:19:01  Build 82: cleaned up 1 old screenshots
+09:19:01  BANK TICK: up=true opened=true closed=true upStep=1
+09:19:01  Diag tail uploaded: 2026-09-29_09-19-00_BANK_diag.txt
+09:19:09  Cache query: click('Open') returned true
+09:19:09  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3127, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:19:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:19:10  BANK TICK: up=true opened=true closed=true upStep=1
+09:19:17  Cache query: click('Open') returned true
+09:19:17  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3127, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:19:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:19:19  BANK TICK: up=true opened=true closed=true upStep=1
+09:19:26  Cache query: click('Open') returned true
+09:19:26  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3127, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:19:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:19:28  BANK TICK: up=true opened=true closed=true upStep=1
+09:19:35  Cache query: click('Open') returned true
+09:19:35  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3126, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:19:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:19:36  BANK TICK: up=true opened=true closed=true upStep=1
+09:19:41  Cache query: click('Open') returned true
+09:19:41  Build 375: poll-stuck walk STALLED 8 ticks at WorldPoint(x=3121, y=3118, plane=0) (guide dist 6) -- nearest-gate 'Open' click=true
+09:19:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:19:43  BANK TICK: up=true opened=true closed=true upStep=1
+09:19:50  Cache query: click('Open') returned true
+09:19:50  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3128, y=3123, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:19:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:19:52  BANK TICK: up=true opened=true closed=true upStep=1
+09:19:59  Cache query: click('Open') returned true
+09:19:59  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3127, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:20  BANK TICK: up=true opened=true closed=true upStep=1
+09:20:08  Cache query: click('Open') returned true
+09:20:08  Build 375: poll-stuck walk -- no reachable tile adjacent to guide at WorldPoint(x=3126, y=3124, plane=0) (player WorldPoint(x=3121, y=3118, plane=0), closed gate?) -- nearest-gate 'Open' click=true
+09:20:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:20:09  Screenshot saved: 2026-09-29_09-20-09_BANK_auto.png
+09:20:09  Build 82: cleaned up 1 old screenshots
