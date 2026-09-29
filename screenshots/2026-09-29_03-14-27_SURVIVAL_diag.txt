@@ -1,0 +1,250 @@
+03:13:41  fire: false
+03:13:41  Action chop completed
+03:13:42  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:13:42  SURVIVAL TICK
+03:13:42  inv: raw=true cooked=false logs=false
+03:13:42  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:13:42  fire: false
+03:13:42  Action chop completed
+03:13:43  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:13:44  SURVIVAL TICK
+03:13:44  inv: raw=true cooked=false logs=false
+03:13:44  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:13:44  fire: false
+03:13:44  Action chop completed
+03:13:45  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:13:45  SURVIVAL TICK
+03:13:45  inv: raw=true cooked=false logs=false
+03:13:45  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:13:45  fire: false
+03:13:45  Action chop completed
+03:13:46  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:13:46  SURVIVAL TICK
+03:13:46  inv: raw=true cooked=false logs=false
+03:13:46  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:13:46  fire: false
+03:13:46  Action chop completed
+03:13:47  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:13:47  SURVIVAL TICK
+03:13:47  inv: raw=true cooked=false logs=false
+03:13:47  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:13:47  fire: false
+03:13:47  Action chop completed
+03:13:48  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:13:48  SURVIVAL TICK
+03:13:48  inv: raw=true cooked=false logs=false
+03:13:48  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:13:48  fire: false
+03:13:48  Action chop completed
+03:13:49  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:13:49  SURVIVAL TICK
+03:13:49  inv: raw=true cooked=false logs=false
+03:13:49  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:13:49  fire: false
+03:13:49  Action chop completed
+03:13:50  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:13:50  SURVIVAL TICK
+03:13:50  inv: raw=true cooked=false logs=false
+03:13:50  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:13:50  fire: false
+03:13:50  Build 196: tick-wait 'iobj:Tree:Chop down' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+03:13:50  Build 197: interactObject 'Chop down' on 'Tree' no effect after bound -- retry 1/3 next tick
+03:13:50  Action chop completed
+03:13:51  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:13:51  SURVIVAL TICK
+03:13:51  inv: raw=true cooked=false logs=false
+03:13:51  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:13:51  fire: false
+03:13:52  Build 196: tick-wait 'iobj:Tree:Chop down' armed, bound 10 ticks (non-blocking)
+03:13:52  Build 197: interactObject 'Chop down' on 'Tree' click issued -- verifying effect on next ticks (bound 10, non-blocking)
+03:13:52  Action chop completed
+03:13:53  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:13:53  SURVIVAL TICK
+03:13:53  inv: raw=true cooked=false logs=false
+03:13:53  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:13:53  fire: false
+03:13:53  Action chop completed
+03:13:54  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:13:54  SURVIVAL TICK
+03:13:54  inv: raw=true cooked=false logs=false
+03:13:54  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:13:54  fire: false
+03:13:54  Action chop completed
+03:13:55  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:13:55  SURVIVAL TICK
+03:13:55  inv: raw=true cooked=false logs=false
+03:13:55  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:13:55  fire: false
+03:13:55  Action chop completed
+03:13:56  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:13:56  SURVIVAL TICK
+03:13:56  inv: raw=true cooked=false logs=false
+03:13:56  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:13:56  fire: false
+03:13:56  Action chop completed
+03:13:57  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:13:57  SURVIVAL TICK
+03:13:57  inv: raw=true cooked=false logs=false
+03:13:57  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:13:57  fire: false
+03:13:57  Action chop completed
+03:13:58  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:13:58  SURVIVAL TICK
+03:13:58  inv: raw=true cooked=false logs=false
+03:13:58  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:13:58  fire: false
+03:13:58  Action chop completed
+03:13:59  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:14  SURVIVAL TICK
+03:14  inv: raw=true cooked=false logs=false
+03:14  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14  fire: false
+03:14  Action chop completed
+03:14:01  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:14:01  SURVIVAL TICK
+03:14:01  inv: raw=true cooked=false logs=false
+03:14:01  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14:01  fire: false
+03:14:01  Action chop completed
+03:14:02  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:14:02  SURVIVAL TICK
+03:14:02  inv: raw=true cooked=false logs=false
+03:14:02  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14:02  fire: false
+03:14:02  Action chop completed
+03:14:03  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:14:03  SURVIVAL TICK
+03:14:03  inv: raw=true cooked=false logs=false
+03:14:03  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14:03  fire: false
+03:14:03  Build 196: tick-wait 'iobj:Tree:Chop down' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+03:14:03  Build 197: interactObject 'Chop down' on 'Tree' no effect after bound -- retry 2/3 next tick
+03:14:03  Action chop completed
+03:14:04  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:14:04  SURVIVAL TICK
+03:14:04  inv: raw=true cooked=false logs=false
+03:14:04  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14:04  fire: false
+03:14:04  Build 196: tick-wait 'iobj:Tree:Chop down' armed, bound 10 ticks (non-blocking)
+03:14:04  Build 197: interactObject 'Chop down' on 'Tree' click issued -- verifying effect on next ticks (bound 10, non-blocking)
+03:14:04  Action chop completed
+03:14:05  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:14:05  SURVIVAL TICK
+03:14:05  inv: raw=true cooked=false logs=false
+03:14:05  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14:05  fire: false
+03:14:05  Action chop completed
+03:14:06  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:14:07  SURVIVAL TICK
+03:14:07  inv: raw=true cooked=false logs=false
+03:14:07  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14:07  fire: false
+03:14:07  Action chop completed
+03:14:08  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:14:08  SURVIVAL TICK
+03:14:08  inv: raw=true cooked=false logs=false
+03:14:08  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14:08  fire: false
+03:14:08  Action chop completed
+03:14:09  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:14:09  SURVIVAL TICK
+03:14:09  inv: raw=true cooked=false logs=false
+03:14:09  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14:09  fire: false
+03:14:09  Action chop completed
+03:14:10  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:14:10  SURVIVAL TICK
+03:14:10  inv: raw=true cooked=false logs=false
+03:14:10  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14:10  fire: false
+03:14:10  Action chop completed
+03:14:11  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:14:11  SURVIVAL TICK
+03:14:11  inv: raw=true cooked=false logs=false
+03:14:11  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14:11  fire: false
+03:14:11  Action chop completed
+03:14:12  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:14:12  SURVIVAL TICK
+03:14:12  inv: raw=true cooked=false logs=false
+03:14:12  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14:12  fire: false
+03:14:12  Action chop completed
+03:14:13  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:14:13  SURVIVAL TICK
+03:14:13  inv: raw=true cooked=false logs=false
+03:14:13  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14:13  fire: false
+03:14:13  Action chop completed
+03:14:14  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:14:14  SURVIVAL TICK
+03:14:14  inv: raw=true cooked=false logs=false
+03:14:14  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14:14  fire: false
+03:14:14  Action chop completed
+03:14:15  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:14:15  SURVIVAL TICK
+03:14:15  inv: raw=true cooked=false logs=false
+03:14:15  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14:15  fire: false
+03:14:15  Build 196: tick-wait 'iobj:Tree:Chop down' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+03:14:15  Build 197: interactObject 'Chop down' on 'Tree' exhausted 3 clicks with no observed effect -- giving up, never faking success
+03:14:15  Action chop completed
+03:14:16  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:14:16  SURVIVAL TICK
+03:14:16  inv: raw=true cooked=false logs=false
+03:14:16  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14:16  fire: false
+03:14:17  Build 196: tick-wait 'iobj:Tree:Chop down' armed, bound 10 ticks (non-blocking)
+03:14:17  Build 197: interactObject 'Chop down' on 'Tree' click issued -- verifying effect on next ticks (bound 10, non-blocking)
+03:14:17  Action chop completed
+03:14:18  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:14:18  SURVIVAL TICK
+03:14:18  inv: raw=true cooked=false logs=false
+03:14:18  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14:18  fire: false
+03:14:18  Action chop completed
+03:14:19  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:14:19  SURVIVAL TICK
+03:14:19  inv: raw=true cooked=false logs=false
+03:14:19  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14:19  fire: false
+03:14:19  Action chop completed
+03:14:20  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:14:20  SURVIVAL TICK
+03:14:20  inv: raw=true cooked=false logs=false
+03:14:20  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14:20  fire: false
+03:14:20  Action chop completed
+03:14:21  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:14:21  SURVIVAL TICK
+03:14:21  inv: raw=true cooked=false logs=false
+03:14:21  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14:21  fire: false
+03:14:21  Action chop completed
+03:14:22  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:14:22  SURVIVAL TICK
+03:14:22  inv: raw=true cooked=false logs=false
+03:14:22  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14:22  fire: false
+03:14:22  Action chop completed
+03:14:23  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:14:23  SURVIVAL TICK
+03:14:23  inv: raw=true cooked=false logs=false
+03:14:23  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14:23  fire: false
+03:14:23  Action chop completed
+03:14:24  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:14:24  SURVIVAL TICK
+03:14:24  inv: raw=true cooked=false logs=false
+03:14:25  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14:25  fire: false
+03:14:25  Action chop completed
+03:14:26  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:14:26  SURVIVAL TICK
+03:14:26  inv: raw=true cooked=false logs=false
+03:14:26  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:14:26  fire: false
+03:14:26  Action chop completed
+03:14:27  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+03:14:27  Screenshot saved: 2026-09-29_03-14-27_SURVIVAL_auto.png
