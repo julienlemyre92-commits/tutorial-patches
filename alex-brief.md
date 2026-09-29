@@ -1,43 +1,32 @@
-## Build 352 / patch-350 (2026-09-29 ~05:44 EDT) -- smelting INFO-BOX soft-lock fix (review-loop worker)
-- Live result (Build 351, patch-349, session 05:37:01-05:38:06): the Smelting
-  INFO INTERFACE (group 229) stayed open 60s+ while Rs2Dialogue.isInDialogue()
-  read FALSE. The Build 351 "smelt owns its dialogue" gate only runs inside the
-  isInDialogue() TRUE branch, so after ONE continue click (05:37:04) the step
-  model looped "Smelting bronze bar / next step=furnace" every tick 05:37:06->
-  05:38:06 with every furnace click swallowed by the modal box and the furnace
-  walk tick-wait exhausting twice (05:37:34 re-walk, 05:38:05 exhausted).
-  Screenshots 05:37:05 + 05:38:06 prove the box open the whole time (tin ore
-  selected, player stationary at the mine).
-- Root cause: the tutorial info interface (group 229) is INVISIBLE to both
+## Build 353 / patch-351 (2026-09-29 ~05:52 EDT) -- hammer-arc info box soft-lock fix (review-loop worker)
+- Live result (Build 352, session 05:29:06): BRONZE BAR SMELTED 05:45:57-05:46:06
+  (Build 352 fix verified: smelt-intro info box dismissed, adjacent furnace
+  walk SATISFIED 05:45:55, exact "Bronze bar" smelting-UI match, bar in
+  inventory, "Skipping smelt -- already have bar/dagger"). Bot moved to hammer
+  ("Getting hammer from Mining Instructor"), but then stranded: live
+  05:48:47-05:49:09 the POST-BAR tutorial info interface ("You've made a
+  bronze bar! Speak to the mining instructor...") stayed open 2+ min while
+  talkTo("Mining Instructor") issued Talk-to clicks every ~2-4s -- every click
+  swallowed by the modal box, the instructor dialogue NEVER opened, no
+  mine-hammer wait ever armed, mine-esc2 ESC never closed it. The Build 352
+  smelt gate's detector phrase ("tin ore and some copper ore") did not match
+  this box -- it is ANOTHER group-229 interface, invisible to
   Rs2Dialogue.isInDialogue() and the WorldModel dialog sampler (both key on
-  162/219/193/231). A modal widget the detectors cannot see = permanent
-  soft-lock: the step model thinks no dialogue is open and issues world
-  clicks the modal eats.
-- Fix: (1) smeltingInfoBoxOpen() detects the box by its distinctive body
-  phrase "tin ore and some copper ore" (substring, no item-name trap);
-  (2) doMining checks it FIRST under the smelt ownership gate (tin+copper,
-  no bar/dagger) -- one dismissSmeltingInfoBox() action per tick
-  (continue-widget click, else Space per the Build 224 precedent), ALL furnace
-  work gated until the box is OBSERVED closed, never ESC'd (Build 351: it
-  needs continue); (3) furnace walkTo() now targets adjacentWalkable(furnace
-  tile) -- the object tile is a wall, same hang class as the 04:07 door-tile
-  freeze; (4) the mine-furnace-click verify predicate's "Bronze" substring
-  fallback DELETED (matched the Bronze PICKAXE in inventory, faking UI-open)
-  -- exact "Bronze bar" only. Marker RUNNING_BUILD=352.
-- VERIFIED LIVE 05:47 EDT: Build 352 startup banner 05:45:07; the stuck
-  modal was cleared by the update-restart relog before the new detector
-  could observe it (no "smelt info box OPEN" line fired -- the dismissal
-  path is NOT yet live-proven, honest caveat); mine-furnace-walk SATISFIED
-  05:45:55 (first verified walk; prior two exhausted), furnace clicked, and
-  the BRONZE BAR was observed in inventory by 05:46:06 ("Skipping smelt --
-  already have bar/dagger"). Screenshot 05:46:07: "You've made a bronze
-  bar!" info box, bar in inventory, player walking to the Mining Instructor
-  for the hammer. NEXT WATCH: that post-smelt info box is ANOTHER group-229
-  interface and the smelt-scoped detector phrase won't match it -- if the
-  bot strands there, the detector needs generalizing (see open question).
-- Open question for Alex: should the info-interface ownership be generic
-  (any stage) instead of smelt-scoped? The detector phrase is smelt-specific;
-  other tutorial info boxes (bank, etc.) have the same invisibility.
+  162/219/193/231), exactly as warned in the 05:47 run.
+- Fix: (1) info-box detector generalized to miningInfoBoxOpen() -- matches
+  EITHER the smelt-intro box ("tin ore and some copper ore") or the post-bar
+  box ("You've made a bronze bar") by distinctive body phrase (substring;
+  neither phrase collides with an item name -- no item-name trap); (2) new
+  HAMMER-ARC ownership gate: while holding the bar with no hammer/dagger, an
+  observed info box gets one dismiss action per tick (continue-widget click
+  else Space) and NOTHING else runs until observed closed, never ESC'd.
+- Pending verification: Build 353 banner (RUNNING_BUILD=353), "Build 353:
+  post-bar info box OPEN" lines, box observed closed, instructor dialogue
+  opens, hammer in inventory.
+- REVIEW QUESTION (open): the same group-229 info interface appears at other
+  stages (quest intro, combat, bank, prayer, magic) -- each stage needs the
+  same ownership gate, or one generic "any group-229 info box observed ->
+  dismiss-first" rule keyed to stage. Flag if you see a cleaner detector.
 
 ## Build 351 / patch-349 (2026-09-29 ~05:35 EDT) -- smelt substring-trap fix (review-loop worker)
 - Live result (Build 350, session 05:29:06): mining intro FULLY verified --
