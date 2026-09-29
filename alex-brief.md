@@ -1,3 +1,23 @@
+## Build 379 / patch-376 (2026-09-29 ~09:40 EDT) -- stall-driven door open (dist>4 gate removed)
+- Live 09:29-09:31 (Build 378): the Build 375 walk carried the player from
+  (3121,3118) to chebDist 4 / Manhattan 3-5, NORTH of the CLOSED south double
+  doors (Account Guide south of them at (3127,3124)). The old `dist > 4` gate
+  then stopped the walk; phase-0 talkToOnce's walkStep walked into the closed
+  doors every ~2s with ZERO tile progress (screenshots 09:29:05 vs 09:31:09
+  pixel-identical, "(Moving on...)" modal open, varp 525). The Build 378
+  physical gate-open never fired -- it lived inside `dist > 4`.
+- Key evidence: the 09:17:58 screenshot proves canvas clicks DO reach the door
+  while the box is open (right-click menu opened on it) -- the modal only covers
+  the chatbox; object interaction is not gated on dialogue state. So the
+  physical gate-open click is valid even with the box open.
+- Fix: track the player tile every tick in the poll-stuck block; 8 ticks with no
+  tile change while not truly adjacent (chebDist > 2) fires
+  clickGatePhysicalOpen(8) regardless of dist. True adjacency (dist<=2) falls
+  through to the talk. dist 3-4 keeps the old walk; dist>4 unchanged.
+- Pending verification: "Build 379: STARTUP -- RUNNING_BUILD=379 (patch-376)",
+  then "Build 379: poll-stuck STALLED" + "physical gate-open click" lines, then
+  doors observed open / player tile moving south / varp 281 -> 530.
+
 ## Build 378 / patch-375 (2026-09-29 ~09:25 EDT) -- gate open via PHYSICAL left-click (doInvoke menu bug class)
 - Live 09:15-09:18 (Build 377): poll-stuck walk clicked the bank's south large
   double door with clickDoorDirectInner("Open") every ~8s for 2+ min
