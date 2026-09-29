@@ -4,34 +4,43 @@ _Maintained by Muse. Updated on every build ship. If you have web browsing,
 read this file raw before answering Julien about the bot — it's the current
 ground truth, fresher than any forwarded summary._
 
-## Current state (2026-09-29 ~04:29 EDT)
-- Live build: **341** (`patches/patch-339.zip`, banner at 04:22:17); **342**
-  (`patches/patch-340.zip`, `version.txt=340`) shipped ~04:27, pickup pending.
-  (SIBLING SHIP: Build 341 / patch-339 was shipped by a parallel review-loop
-  worker at ~04:20:44 — it targets the "Fancy a run?" prompt with a physical
-  run-orb click. Its lines never fired: the quest intro never advances past
-  frame 1, so the run prompt never appears.)
+## Current state (2026-09-29 ~04:33 EDT)
+- Live build: **344** (`patches/patch-342.zip`, `version.txt=342`) shipped
+  ~04:32, pickup pending; 342 (`patch-340.zip`, banner 04:27:39) last live.
 - Stage: **QUEST_GUIDE** (varp281=200). Verified live: quest building entered
   04:20:12 (door 9716 opened), Talk-to Quest Guide issued, player inside the
   building with the intro dialogue open (04:20:36 + 04:23:18 screenshots).
-- NEW bug found in the 04:22:17-04:26:20 diag, fixed in Build 342:
-  - Mechanism: the quest intro ping-pongs at frame 1. The cache-mismatch
-    overlay (12/223) re-fires every ~2-6s and squats the chatbox, so
-    `safeIsInDialogue()` reads false for a few ticks per window; each window
-    a fresh Talk-to landed and RESET the intro to frame 1 (04:23:08, 04:23:14,
-    04:26:12, 04:26:18 — each ~1s after an overlay dismissal). Build 337's
-    no-reset guard only fires while the dialogue is observed OPEN, never
-    across overlay windows.
-  - Fix: ported the Build 334 expertDialogueSeen latch to doQuestGuide --
-    `qgDialogueSeenAgo` counts ticks since the Quest Guide dialogue was last
-    seen open; a fresh Talk-to is suppressed for 8 ticks after it (Build 342
-    diag: "Talk-to 'Quest Guide' suppressed -- ... riding out the overlay
-    window (no reset click)"), letting the dialogue re-surface so continue
-    clicks advance the intro.
-- Pending verification right now: Build 342 banner (`RUNNING_BUILD=342`),
-  then "Talk-to 'Quest Guide' suppressed" lines, the intro actually advancing
-  (continue clicks, "Fancy a run?" prompt appearing), then the physical QUESTS
-  tab click and ladder descent.
+- NEW bugs found in the 04:22:17-04:29:40 diag, fixed in Builds 342-344:
+  - Bug A (fixed Build 342): the quest intro ping-ponged at frame 1. The
+    cache-mismatch overlay (12/223) re-fires every ~2-6s and squats the
+    chatbox, so `safeIsInDialogue()` reads false for a few ticks per window;
+    each window a fresh Talk-to landed and RESET the intro to frame 1.
+    Fix: `qgDialogueSeenAgo` latch suppresses a fresh Talk-to for 8 ticks
+    after the dialogue was last seen open.
+  - Bug B (NEW, live 04:24:55, fixed Build 343): the dialogue actually
+    advanced to the game's nag "' / Have you not opened that menu yet?'" --
+    the quest journal click is MANDATORY, and the bot never did it. Root
+    cause in code: the physical QUESTS click sat AFTER `spamDialogue()`,
+    which returns true ONLY on observed dialogue close -- unreachable dead
+    code (infinite 60s continue loops, re-armed forever). Fix: when the open
+    dialogue asks for the journal ("opened that menu"/"open that menu"/
+    "not opened"/"quest journal" frames), do the physical QUESTS tab click
+    INSTEAD of another continue; latch only on observed success.
+  - Bug C (NEW, live 04:28:03-04:29:39, fixed Build 344): the Build 342
+    suppression fired EVERY tick with latch stuck at 0 and the bot stood
+    perfectly still doing nothing -- because with the dialogue genuinely
+    open the latch resets to 0 each tick. Fix: suppress ONLY inside overlay
+    windows (`!safeIsInDialogue()` added to the condition).
+- Live build: **342** (`patches/patch-340.zip`, banner at 04:27:39);
+  **343** (`patches/patch-341.zip`, `version.txt=341`) and **344**
+  (`patches/patch-342.zip`, `version.txt=342`) shipped ~04:30-04:32,
+  pickup pending. (SIBLING SHIP: Build 341 / patch-339 by a parallel
+  worker at ~04:20:44 -- its "Fancy a run?" run-orb feature never fired.)
+- Pending verification right now: Build 344 banner (`RUNNING_BUILD=344`),
+  the Build 343 \"quest-guide wants the journal\" lines + physical QUESTS
+  click, questTabClicked latch, the dialogue advancing to \"Fancy a run?\"
+  (global runOrbTick handles the run orb), then ladder descent to the
+  mining caves.
 - Overlay root cause (unchanged): the cache-mismatch overlay re-fires every
   ~2-6s (12/223 rotating hashes); Build 224's per-instance dismissal clears
   it, but the chatbox is perpetually hijacked. Hypothesis: jar injection
