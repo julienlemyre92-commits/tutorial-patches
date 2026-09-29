@@ -1,6 +1,56 @@
-# Alex brief -- CURRENT BUILD: Build 362 (patch-360, version.txt=360)
+# Alex brief -- CURRENT BUILD: Build 363 (patch-361, version.txt=361)
 
-## Build 361 / patch-359 (2026-09-29 ~07:07 EDT) -- POLL-BOOTH cache-miss soft-lock (review-loop worker)
+## Build 362 / patch-360 (2026-09-29 ~07:14 EDT) -- POLL-BOOTHS info-box soft-lock + post-restart 510 replay (review-loop worker)
+- Live result (Build 361): RUNNING_BUILD=361 banner verified at 07:07:55;
+  after the update restart at varp281=520 the "Poll booths" tutorial info
+  interface ("Now it's time for a quick look at polls. Just click on the
+  indicated poll booth to continue.") sat open, modal and invisible to
+  safeIsInDialogue(), while doBank spun 3+ min logging ONLY "BANK TICK:
+  up=true opened=false closed=false" -- bankOpened had reset on restart, so
+  every tick fell into the !bankOpened branch where clickBoothDirect("Use")
+  hit findObject("Bank booth",15)=null and returned SILENTLY (invisible
+  stall); the 510 arc replayed at varp 520 though the game's own varp proves
+  510 complete.
+- Fix: (1) pollBoothsBoxOpen() detector + ownership gate (one dismiss action
+  per tick, all bank work gated until observed closed); (2) varp-sync at the
+  top of doBank: varp281>=520 game-verifies the 510 arc, syncing
+  bankWentUp/bankOpened/bankClosed true so the flow goes straight to the
+  poll-booth step. Verification pending (expected at next check):
+  "Build 362: STARTUP" banner, "varp281=520 >= 520 -- syncing true", the
+  poll-booths gate lines, then poll-booth walk/click lines, Build 100
+  verified-complete, varp 281 -> 530.
+
+## Build 363 / patch-361 (2026-09-29 ~07:22 EDT) -- poll-box title-detector miss + nameless poll booth (review-loop worker)
+- Live result (Build 362): RUNNING_BUILD=362 banner verified at 07:15:57,
+  and the new varp-sync fired live at 07:16:22 ("varp281=520 >= 520
+  game-verifies the 510 arc -- syncing bankWentUp/bankOpened/bankClosed
+  true"). BUT the "Build 362: Poll-booths info box OPEN" runtime line NEVER
+  fired -- pollBoothsBoxOpen() returned false EVERY tick while the box was
+  visibly open in every screenshot 07:08-07:17 (same miss class as Build
+  360's Banking-box detector: findWidget title/body lookups are unreliable
+  for these group-229 modals -- NEED YOUR EYES on the widget semantics).
+- Miss-diag ground truth (07:16:27): player WorldPoint(3123,3127,plane=1),
+  451 objects cached within 30, nearest 8 all name=null/UNRESOLVED except
+  id=16679 Ladder -- so exact 'Poll booth' AND loose 'poll' name matches
+  both miss. RuneMate thread corroborates: the poll booth is notoriously
+  invisible to object APIs ("no longer shows up as any type of object"),
+  appearing with null names when it does. OSRS Wiki: poll booth ids
+  26492/26796 (blue closed/open variants).
+- Fix: (1) modal continue fallback in doBank -- when no dialogue is flagged
+  yet Rs2Dialogue.hasContinue() is true, the box owns the tick: one
+  clickContinueOnce() per tick (the PROVEN 06:56:45 Banking-box dismissal
+  path), nothing else, until observed gone; (2) object-ID fallback for the
+  poll booth via findObjectById (26492/26796), needing zero name
+  resolution. Pending verification: "Build 363: STARTUP", "Build 363:
+  continue control visible without dialogue flag", observed box absence,
+  "Build 363: poll booth found via OBJECT ID match", Build 100
+  verified-complete, varp 281 -> 530.
+- Open question for you: why do findWidget title lookups miss these
+  group-229 modals while Rs2Dialogue.hasContinue() sees the same box's
+  continue control? And why does cachedObjectName (via
+  Rs2TileObjectModel.getName()) return null for ~everything post-restart?
+
+ / patch-359 (2026-09-29 ~07:07 EDT) -- POLL-BOOTH cache-miss soft-lock (review-loop worker)
 - Live result (Build 360): bank opened 06:56:49 ("Bank is open (stable 3
   ticks)"), closed 06:56:51-54. Poll-booth step then spun 4+ min (retry
   tick 180 at 07:01:16): findObject("Poll booth", 15) null EVERY tick while
