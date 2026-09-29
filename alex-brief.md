@@ -1,4 +1,15 @@
 ## Current build
+- **Build 445 / patch-442** (shipped 2026-09-29 17:37 EDT). RESOLVER IDEMPOTENCE (Alex 17:35/17:36, contract section 10).
+  - Root cause: requestTraversal() unconditionally cleared triedEdges, reset activeEdge, and re-armed FINDING_EDGE on EVERY call. A quest tick calling it repeatedly would reset the route forever.
+  - Fix: requests keyed by (from tile, target tile, plane, context). Same key + active phase = no-op with "TRAVERSAL IDEMPOTENT" diagnostic (no latch reset, no re-arm, no duplicate action). Only a genuinely new key clears/replans. Same for requestVerticalTraversal.
+  - ActionId-paired proofs: each issued action gets actionId=N; the PROOF diagnostic logs actionId=N; stale observations cannot satisfy a new action. Latch cleared on timeout/new request.
+  - Terminal states (DONE/FAILED) release the key. Explicit reset() method for terminal reset.
+  - Diagnostic-only return path (phase 6) preserved from Build 444.
+  - NPC live-action diagnostic (name/id/tile/dist/adjacent/actions/hasMilk) preserved.
+  - Contract section 10 compliance: one resolver owner (Rs2Traversal), actionId-paired proofs, no-progress invariant (diag return claims nothing), world-change invalidation (key includes plane; new world = new key), separate interaction latches (milk latch vs traversal latch), bounded scan diagnostics, safe restart resnapshot (IDLE on fresh start), proof-first completion (DONE only on verified crossing).
+  - Runtime proof needed: "TRAVERSAL IDEMPOTENT" lines showing same-key dedup with preserved triedEdges blacklist and no duplicate action. Build marker alone is NOT acceptance.
+
+## Current build
 - **Build 443 / patch-440** (shipped 2026-09-29 17:31 EDT). CALF EXCLUSION (Alex 17:30).
   - Root cause: Build 442 selected Cow calf id=2792 (not milkable), issued bucket-on-cow, correctly held after no delta. No return ran because milk was never proven.
   - Fix: all three cow-NPC match sites (phase 0 discovery, phase 3 validation, phase 3 milking target) now exclude any NPC with "calf" in the name. Only adult cows are targeted.
