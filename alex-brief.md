@@ -1,4 +1,10 @@
 ## Current build
+- **Build 410 / patch-407** (shipped 2026-09-29 ~15:20 EDT, NUDGE ALEX 15:17 URGENT). Root-cause fix: fat_cow id=8689 is a TILE OBJECT with op1='Milk', NOT an NPC -- the old NPC-cache lookup for "Prized dairy cow"/"Dairy cow" could never resolve it.
+- Build 410: (1) New findMilkableCowObject() -- scans the tile-object cache for the live 'Milk' action. (2) Phase 3 rewritten: direct click('Milk') on the object, NOT useItemOnNpc; next-tick inventory delta verifies (Bucket x->x, Milk x->x). (3) After 5 empty scans -> phase 9 HELD with diagnostics.
+- Watch for: `Build 410: STARTUP -- RUNNING_BUILD=410 (patch-407)` -> `Build 410: MILK TARGET FOUND: ... id=8689` -> `Build 410: MILK_COW: MILK VERIFIED` -> DETECT -> RETURN_COOK.
+- Pre-ship observation (15:08-15:12): Build 409 held at the chicken farm gate ~4+ min with zero movement (screenshots 15:08:22/15:10:17/15:12:13 COOKS_MILK_COW, egg in inventory, empty bucket, click marker on fence gate). Consistent with post-restart re-selection of chicken-pen gate id1559 (wrong-pen tracking resets on restart) -> WRONG PEN -> phase 9 HELD. Build 410's object-scan does NOT persist wrong-pen gates across restarts -- if 410's phase-3 scan finds no Milk object from the wrong pen, expect another HELD at the chicken pen.
+
+## Current build
 - **Build 408 / patch-405** (shipped 2026-09-29 ~14:52 EDT). Change: dairy-scored gate selection (NUDGE ALEX 14:49).
 - 406 crossed gate id1559 to (3236,3286) -- REAL crossing but to the CHICKEN pen (screenshot 14:38:44: chickens/eggs/raw chicken, cowhide across another fence; NPCs: Chicken/Duck/Drake/Farmer/Seth Groats/Goblin, no dairy).
 - Build 408: (1) New findPenGate408() -- enumerates all Gate/Fence gate candidates with id/actions/pos; scores by dairy proximity (Prized/Dairy cow within 30 tiles); only dairy-gates valid, else HELD. (2) milkWrongPenGateIds tracks wrong-pen gates (id1559) -- never retried. (3) New classifyPen408(): WRONG PEN (chicken/ducks) vs FALSE CROSSING vs DAIRY PEN. (4) Failed pen-side validation marks gate WRONG PEN + holds.
