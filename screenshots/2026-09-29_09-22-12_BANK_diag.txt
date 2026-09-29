@@ -1,0 +1,250 @@
+09:20:59  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:20:59  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:20:59  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21  BANK TICK: up=true opened=true closed=true upStep=1
+09:21  Build 372: poll dialogue dismissal tick 60 (varp=525)
+09:21:01  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:21:01  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:21:01  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:21:01  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:21:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21:03  BANK TICK: up=true opened=true closed=true upStep=1
+09:21:04  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:21:04  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:21:04  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:21:04  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:21:04  clickTabIcon ACC_MAN: button missing 3x in a row — script-switch fallback (attempt 4)
+09:21:04  switchTabViaScript: ran client script 915 -> ACC_MAN
+09:21:04  Build 125: ALL-ROOTS SCAN -- looking for the visible tab strip
+09:21:04  Build 125 SCAN: roots=6
+09:21:04  Build 125 SCAN:   group 164 (raw 10747904): 17 visible icon-sized widgets
+09:21:04  Build 125 SCAN:     164:21 '' [659,178 30x25]
+09:21:04  Build 125 SCAN:     164:29 '' [588,5 35x35]
+09:21:04  Build 125 SCAN:     164:31 '' [586,3 36x36]
+09:21:04  Build 125 SCAN:     164:34 '' [737,2 26x23]
+09:21:04  Build 125 SCAN:     164:35 '' [737,2 26x23]
+09:21:04  Build 125 SCAN:     164:41 '' [666,627 33x36]
+09:21:04  Build 125 SCAN:     164:47 '' [666,627 33x36]
+09:21:04  Build 125 SCAN:     164:52 '' [534,591 33x36]
+09:21:04  Build 125 SCAN:     164:53 '' [567,591 33x36]
+09:21:04  Build 125 SCAN:     164:54 '' [600,591 33x36]
+09:21:04  Build 125 SCAN:   group 164 (raw 10747970): 17 visible icon-sized widgets
+09:21:04  Build 125 SCAN:     164:21 '' [659,178 30x25]
+09:21:04  Build 125 SCAN:     164:29 '' [588,5 35x35]
+09:21:04  Build 125 SCAN:     164:31 '' [586,3 36x36]
+09:21:04  Build 125 SCAN:     164:34 '' [737,2 26x23]
+09:21:04  Build 125 SCAN:     164:35 '' [737,2 26x23]
+09:21:04  Build 125 SCAN:     164:41 '' [666,627 33x36]
+09:21:04  Build 125 SCAN:     164:47 '' [666,627 33x36]
+09:21:04  Build 125 SCAN:     164:52 '' [534,591 33x36]
+09:21:04  Build 125 SCAN:     164:53 '' [567,591 33x36]
+09:21:04  Build 125 SCAN:     164:54 '' [600,591 33x36]
+09:21:04  Build 125 SCAN:   group 164 (raw 10747971): 17 visible icon-sized widgets
+09:21:04  Build 125 SCAN:     164:21 '' [659,178 30x25]
+09:21:04  Build 125 SCAN:     164:29 '' [588,5 35x35]
+09:21:04  Build 125 SCAN:     164:31 '' [586,3 36x36]
+09:21:04  Build 125 SCAN:     164:34 '' [737,2 26x23]
+09:21:04  Build 125 SCAN:     164:35 '' [737,2 26x23]
+09:21:04  Build 125 SCAN:     164:41 '' [666,627 33x36]
+09:21:04  Build 125 SCAN:     164:47 '' [666,627 33x36]
+09:21:04  Build 125 SCAN:     164:52 '' [534,591 33x36]
+09:21:04  Build 125 SCAN:     164:53 '' [567,591 33x36]
+09:21:04  Build 125 SCAN:     164:54 '' [600,591 33x36]
+09:21:04  Build 125 SCAN:   group 164 (raw 10747972): 17 visible icon-sized widgets
+09:21:04  Build 125 SCAN:     164:21 '' [659,178 30x25]
+09:21:04  Build 125 SCAN:     164:29 '' [588,5 35x35]
+09:21:04  Build 125 SCAN:     164:31 '' [586,3 36x36]
+09:21:04  Build 125 SCAN:     164:34 '' [737,2 26x23]
+09:21:04  Build 125 SCAN:     164:35 '' [737,2 26x23]
+09:21:04  Build 125 SCAN:     164:41 '' [666,627 33x36]
+09:21:04  Build 125 SCAN:     164:47 '' [666,627 33x36]
+09:21:04  Build 125 SCAN:     164:52 '' [534,591 33x36]
+09:21:04  Build 125 SCAN:     164:53 '' [567,591 33x36]
+09:21:04  Build 125 SCAN:     164:54 '' [600,591 33x36]
+09:21:04  Build 125 SCAN:   group 164 (raw 10747973): 17 visible icon-sized widgets
+09:21:04  Build 125 SCAN:     164:21 '' [659,178 30x25]
+09:21:04  Build 125 SCAN:     164:29 '' [588,5 35x35]
+09:21:04  Build 125 SCAN:     164:31 '' [586,3 36x36]
+09:21:04  Build 125 SCAN:     164:34 '' [737,2 26x23]
+09:21:04  Build 125 SCAN:     164:35 '' [737,2 26x23]
+09:21:04  Build 125 SCAN:     164:41 '' [666,627 33x36]
+09:21:04  Build 125 SCAN:     164:47 '' [666,627 33x36]
+09:21:04  Build 125 SCAN:     164:52 '' [534,591 33x36]
+09:21:04  Build 125 SCAN:     164:53 '' [567,591 33x36]
+09:21:04  Build 125 SCAN:     164:54 '' [600,591 33x36]
+09:21:04  Build 125 SCAN:   group 164 (raw 10748001): 17 visible icon-sized widgets
+09:21:04  Build 125 SCAN:     164:21 '' [659,178 30x25]
+09:21:04  Build 125 SCAN:     164:29 '' [588,5 35x35]
+09:21:04  Build 125 SCAN:     164:31 '' [586,3 36x36]
+09:21:04  Build 125 SCAN:     164:34 '' [737,2 26x23]
+09:21:04  Build 125 SCAN:     164:35 '' [737,2 26x23]
+09:21:04  Build 125 SCAN:     164:41 '' [666,627 33x36]
+09:21:04  Build 125 SCAN:     164:47 '' [666,627 33x36]
+09:21:04  Build 125 SCAN:     164:52 '' [534,591 33x36]
+09:21:04  Build 125 SCAN:     164:53 '' [567,591 33x36]
+09:21:04  Build 125 SCAN:     164:54 '' [600,591 33x36]
+09:21:04  Build 127 SCAN-SUMMARY: iconGroups=[164,164,164,164,164,164]
+09:21:04  Build 127 SCAN-SUMMARY: iconGroups=[164,164,164,164,164,164]
+09:21:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21:06  BANK TICK: up=true opened=true closed=true upStep=1
+09:21:07  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:21:07  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:21:07  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:21:07  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:21:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21:08  BANK TICK: up=true opened=true closed=true upStep=1
+09:21:09  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:21:09  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:21:09  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:21:09  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:21:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21:10  Screenshot saved: 2026-09-29_09-21-10_BANK_auto.png
+09:21:10  Build 82: cleaned up 1 old screenshots
+09:21:11  BANK TICK: up=true opened=true closed=true upStep=1
+09:21:12  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:21:12  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:21:12  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:21:12  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:21:12  clickTabIcon ACC_MAN: button missing 3x in a row — script-switch fallback (attempt 5)
+09:21:12  switchTabViaScript: ran client script 915 -> ACC_MAN
+09:21:12  Build 127 SCAN-SUMMARY: iconGroups=[164,164,164,164,164,164]
+09:21:12  !!! TAB BAR NOT RENDERED for ACC_MAN after 5 script switches. The in-game tab buttons are not visible (blank stone row). Client shows cache errors ('Mismatch in overlaid cache archive hash', worlds lookup failures) — clear the RuneLite cache or restart the client. Bot keeps retrying.
+09:21:12  Diag tail uploaded: 2026-09-29_09-21-10_BANK_diag.txt
+09:21:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21:13  BANK TICK: up=true opened=true closed=true upStep=1
+09:21:14  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:21:14  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:21:14  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:21:14  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:21:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21:16  BANK TICK: up=true opened=true closed=true upStep=1
+09:21:17  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:21:17  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:21:17  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:21:17  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:21:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21:18  BANK TICK: up=true opened=true closed=true upStep=1
+09:21:19  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:21:19  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:21:19  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:21:19  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:21:19  clickTabIcon ACC_MAN: button missing 3x in a row — script-switch fallback (attempt 6)
+09:21:19  switchTabViaScript: ran client script 915 -> ACC_MAN
+09:21:19  Build 127 SCAN-SUMMARY: iconGroups=[164,164,164,164,164,164]
+09:21:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21:21  BANK TICK: up=true opened=true closed=true upStep=1
+09:21:22  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:21:22  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:21:22  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:21:22  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:21:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21:23  BANK TICK: up=true opened=true closed=true upStep=1
+09:21:24  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:21:24  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:21:24  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:21:24  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:21:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21:26  BANK TICK: up=true opened=true closed=true upStep=1
+09:21:26  Build 372: poll dialogue dismissal tick 70 (varp=525)
+09:21:27  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:21:27  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:21:27  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:21:27  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:21:27  clickTabIcon ACC_MAN: button missing 3x in a row — script-switch fallback (attempt 7)
+09:21:27  switchTabViaScript: ran client script 915 -> ACC_MAN
+09:21:27  Build 127 SCAN-SUMMARY: iconGroups=[164,164,164,164,164,164]
+09:21:27  Build 108: opening account management tab (tick 21)
+09:21:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21:28  BANK TICK: up=true opened=true closed=true upStep=1
+09:21:29  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:21:29  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:21:29  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:21:29  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:21:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21:31  BANK TICK: up=true opened=true closed=true upStep=1
+09:21:32  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:21:32  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:21:32  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:21:32  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:21:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21:33  BANK TICK: up=true opened=true closed=true upStep=1
+09:21:34  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:21:34  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:21:34  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:21:34  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:21:34  clickTabIcon ACC_MAN: button missing 3x in a row — script-switch fallback (attempt 8)
+09:21:34  switchTabViaScript: ran client script 915 -> ACC_MAN
+09:21:34  Build 127 SCAN-SUMMARY: iconGroups=[164,164,164,164,164,164]
+09:21:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21:36  BANK TICK: up=true opened=true closed=true upStep=1
+09:21:37  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:21:37  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:21:37  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:21:37  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:21:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21:39  BANK TICK: up=true opened=true closed=true upStep=1
+09:21:40  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:21:40  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:21:40  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:21:40  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:21:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21:41  BANK TICK: up=true opened=true closed=true upStep=1
+09:21:42  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:21:42  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:21:42  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:21:42  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:21:42  clickTabIcon ACC_MAN: button missing 3x in a row — script-switch fallback (attempt 9)
+09:21:42  switchTabViaScript: ran client script 915 -> ACC_MAN
+09:21:42  Build 127 SCAN-SUMMARY: iconGroups=[164,164,164,164,164,164]
+09:21:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21:44  BANK TICK: up=true opened=true closed=true upStep=1
+09:21:45  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:21:45  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:21:45  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:21:45  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:21:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21:46  BANK TICK: up=true opened=true closed=true upStep=1
+09:21:47  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:21:47  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:21:47  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:21:47  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:21:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21:49  BANK TICK: up=true opened=true closed=true upStep=1
+09:21:50  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:21:50  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:21:50  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:21:50  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:21:50  clickTabIcon ACC_MAN: button missing 3x in a row — script-switch fallback (attempt 10)
+09:21:50  switchTabViaScript: ran client script 915 -> ACC_MAN
+09:21:50  Build 127 SCAN-SUMMARY: iconGroups=[164,164,164,164,164,164]
+09:21:50  Build 374: no account-tab target for 30 ticks (tab absent from tab bar -- phase-0 talk was the cache overlay, not the guide) -- resetting to phase 0 for a genuine re-talk (reset 1/3)
+09:21:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21:51  BANK TICK: up=true opened=true closed=true upStep=1
+09:21:51  Build 372: poll dialogue dismissal tick 80 (varp=525)
+09:21:53  Build 108: talking to the Account Guide (round 1/2)
+09:21:53  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:21:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21:54  BANK TICK: up=true opened=true closed=true upStep=1
+09:21:55  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:21:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21:57  BANK TICK: up=true opened=true closed=true upStep=1
+09:21:58  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:21:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:21:59  BANK TICK: up=true opened=true closed=true upStep=1
+09:22:01  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:22:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:22:02  BANK TICK: up=true opened=true closed=true upStep=1
+09:22:03  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3123, plane=0) dist=4
+09:22:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:22:05  BANK TICK: up=true opened=true closed=true upStep=1
+09:22:06  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3123, plane=0) dist=4
+09:22:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:22:07  BANK TICK: up=true opened=true closed=true upStep=1
+09:22:08  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3126, y=3124, plane=0) dist=3
+09:22:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:22:10  BANK TICK: up=true opened=true closed=true upStep=1
+09:22:11  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3126, y=3124, plane=0) dist=3
+09:22:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:22:12  Screenshot saved: 2026-09-29_09-22-12_BANK_auto.png
+09:22:12  Build 82: cleaned up 1 old screenshots
