@@ -1,4 +1,16 @@
 ## Current build
+- **Build 433 / patch-430** (shipped 2026-09-29 16:58 EDT). FOCUSED HOPPER STICKY PATCH (Alex 16:56 + Julien 16:56).
+  - Rs2Traversal UNCHANGED (still Build 428). No route state reset. Universal contract work is separate.
+  - Regression fixed: hopper use was NOT sticky at the outer level. Logs showed FAILED -> sub 1 -> sub 2 -> click -> FAILED repeating indefinitely (16:55:32 through 16:56:37), player stuck at (3166,3308,2).
+  - Root cause: `useOnFailed` was consumed and sub 1 re-entered sub 2, starting a FRESH use-on attempt each cycle. The inner bounded retry was per-attempt, not per-objective.
+  - Fix: `hopperUseExhausted` sticky flag (per objective). Once the bounded retry is exhausted:
+    - NEVER re-enter sub 2 (sub 1 routes exhausted state straight to sub 3)
+    - NO more hopper clicks across ticks/runs
+    - Proceed to hopper controls (sub 3) -- Julien observed "already grain in the hopper", so the quest can continue; the flour-bin check verifies
+  - Terminal HOLD: if hopper exhausted + controls operated + bin empty after bounded retry -> `millFailed` sticky, doMillFlour returns immediately (no clicks, no navigation). Releases only on fresh verified state change (flour observed).
+  - Acceptance marker: one use-on objective -> one bounded retry -> sticky HOLD, no repeated clicks. Watch for: `Build 433: MILL_FLOUR: hopper use EXHAUSTED` -> `operate controls` -> either `flour collected` or `TERMINAL HOLD`.
+
+## Current build
 - **Build 430 / patch-427** (shipped 2026-09-29 16:56 EDT, NUDGE ALEX 16:52). HOPPER INTERACTION PROXIMITY FIX.
   - Pathing resolver UNCHANGED (Rs2Traversal still Build 428). Fresh-start validation before mill door still the acceptance gap -- preserved.
   - Root cause of hopper use failure: useItemOnObject CLICK phase clicked immediately with no proximity check. If player >3 tiles from hopper, the click walked but the "use" never registered -> 6s verify timeout -> false failure -> retry -> fail.
