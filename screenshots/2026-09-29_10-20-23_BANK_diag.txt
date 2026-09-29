@@ -1,0 +1,250 @@
+10:05:22  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:05:22  BANK TICK: up=true opened=true closed=true upStep=1
+10:05:31  Build 381 DOOR-2: door Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3125, y=3124, plane=0)) -- ignoring, walking south.
+10:05:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:05:32  Screenshot saved: 2026-09-29_10-05-32_BANK_auto.png
+10:05:32  Build 82: cleaned up 2 old screenshots
+10:05:33  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:05:33  BANK TICK: up=true opened=true closed=true upStep=1
+10:05:33  Diag tail uploaded: 2026-09-29_10-05-32_BANK_diag.txt
+10:05:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:05:40  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:05:40  BANK TICK: up=true opened=true closed=true upStep=1
+10:09:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:09:23  Screenshot saved: 2026-09-29_10-09-23_BANK_auto.png
+10:09:23  Build 82: cleaned up 4 old screenshots
+10:09:23  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:09:23  BANK TICK: up=true opened=true closed=true upStep=1
+10:09:24  Diag tail uploaded: 2026-09-29_10-09-23_BANK_diag.txt
+10:09:24  dialogueTick: clicking continue (priority over keyword handling)
+10:09:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:09:26  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:09:26  BANK TICK: up=true opened=true closed=true upStep=1
+10:09:35  Build 381 DOOR-2: door Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3124, y=3124, plane=0)) -- ignoring, walking south.
+10:09:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:09:37  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:09:37  BANK TICK: up=true opened=true closed=true upStep=1
+10:09:46  Build 381 DOOR-2: door Door/9721/Open@WorldPoint(x=3125, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3124, y=3124, plane=0)) -- ignoring, walking south.
+10:09:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:09:48  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:09:48  BANK TICK: up=true opened=true closed=true upStep=1
+10:09:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:09:54  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:09:54  BANK TICK: up=true opened=true closed=true upStep=1
+10:14:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:14:06  Screenshot saved: 2026-09-29_10-14-06_BANK_auto.png
+10:14:06  Build 82: cleaned up 3 old screenshots
+10:14:06  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:14:06  BANK TICK: up=true opened=true closed=true upStep=1
+10:14:07  Diag tail uploaded: 2026-09-29_10-14-06_BANK_diag.txt
+10:14:07  dialogueTick: clicking continue (priority over keyword handling)
+10:14:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:14:09  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:14:09  BANK TICK: up=true opened=true closed=true upStep=1
+10:14:17  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:14:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:14:19  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:14:19  BANK TICK: up=true opened=true closed=true upStep=1
+10:14:27  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:14:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:14:29  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:14:29  BANK TICK: up=true opened=true closed=true upStep=1
+10:14:37  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:14:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:14:38  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:14:38  BANK TICK: up=true opened=true closed=true upStep=1
+10:14:47  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:14:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:14:48  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:14:48  BANK TICK: up=true opened=true closed=true upStep=1
+10:14:57  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:14:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:14:58  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:14:58  BANK TICK: up=true opened=true closed=true upStep=1
+10:15:07  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:15:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:15:08  Screenshot saved: 2026-09-29_10-15-08_BANK_auto.png
+10:15:08  Build 82: cleaned up 9 old screenshots
+10:15:08  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:15:08  BANK TICK: up=true opened=true closed=true upStep=1
+10:15:09  Diag tail uploaded: 2026-09-29_10-15-08_BANK_diag.txt
+10:15:09  Build 134 DOOR STUCK: (varp=540,tile=WorldPoint(x=3129, y=3124, plane=0),dialogue=,target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0)) unchanged for 5 ticks. Door=2. Replan failed: no alternative door found in scene scan.
+10:15:09  Build 134 SNAPSHOT: player=WorldPoint(x=3129, y=3124, plane=0), varp281=540, dialogue=
+10:15:09  Build 134 SNAPSHOT: doorTarget=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), doorSubstate=2
+10:15:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:15:11  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:15:11  BANK TICK: up=true opened=true closed=true upStep=1
+10:15:19  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:15:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:15:20  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:15:20  BANK TICK: up=true opened=true closed=true upStep=1
+10:15:29  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:15:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:15:30  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:15:30  BANK TICK: up=true opened=true closed=true upStep=1
+10:15:39  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:15:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:15:40  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:15:40  BANK TICK: up=true opened=true closed=true upStep=1
+10:15:48  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:15:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:15:50  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:15:50  BANK TICK: up=true opened=true closed=true upStep=1
+10:15:51  Build 134 DOOR STUCK: (varp=540,tile=WorldPoint(x=3129, y=3124, plane=0),dialogue=,target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0)) unchanged for 5 ticks. Door=2. Replan failed: no alternative door found in scene scan.
+10:15:51  Build 134 SNAPSHOT: player=WorldPoint(x=3129, y=3124, plane=0), varp281=540, dialogue=
+10:15:51  Build 134 SNAPSHOT: doorTarget=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), doorSubstate=2
+10:15:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:15:52  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:15:52  BANK TICK: up=true opened=true closed=true upStep=1
+10:16:01  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:16:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:16:02  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:16:02  BANK TICK: up=true opened=true closed=true upStep=1
+10:16:11  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:16:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:16:12  Screenshot saved: 2026-09-29_10-16-12_BANK_auto.png
+10:16:12  Build 82: cleaned up 1 old screenshots
+10:16:12  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:16:12  BANK TICK: up=true opened=true closed=true upStep=1
+10:16:13  Diag tail uploaded: 2026-09-29_10-16-12_BANK_diag.txt
+10:16:21  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:16:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:16:22  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:16:22  BANK TICK: up=true opened=true closed=true upStep=1
+10:16:30  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:16:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:16:32  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:16:32  BANK TICK: up=true opened=true closed=true upStep=1
+10:16:33  Build 134 DOOR STUCK: (varp=540,tile=WorldPoint(x=3129, y=3124, plane=0),dialogue=,target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0)) unchanged for 5 ticks. Door=2. Replan failed: no alternative door found in scene scan.
+10:16:33  Build 134 SNAPSHOT: player=WorldPoint(x=3129, y=3124, plane=0), varp281=540, dialogue=
+10:16:33  Build 134 SNAPSHOT: doorTarget=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), doorSubstate=2
+10:16:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:16:34  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:16:34  BANK TICK: up=true opened=true closed=true upStep=1
+10:16:43  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:16:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:16:44  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:16:44  BANK TICK: up=true opened=true closed=true upStep=1
+10:16:53  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:16:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:16:54  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:16:54  BANK TICK: up=true opened=true closed=true upStep=1
+10:17:02  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:17:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:17:04  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:17:04  BANK TICK: up=true opened=true closed=true upStep=1
+10:17:12  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:17:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:17:13  Screenshot saved: 2026-09-29_10-17-13_BANK_auto.png
+10:17:13  Build 82: cleaned up 1 old screenshots
+10:17:14  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:17:14  BANK TICK: up=true opened=true closed=true upStep=1
+10:17:14  Diag tail uploaded: 2026-09-29_10-17-13_BANK_diag.txt
+10:17:15  Build 134 DOOR STUCK: (varp=540,tile=WorldPoint(x=3129, y=3124, plane=0),dialogue=,target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0)) unchanged for 5 ticks. Door=2. Replan failed: no alternative door found in scene scan.
+10:17:15  Build 134 SNAPSHOT: player=WorldPoint(x=3129, y=3124, plane=0), varp281=540, dialogue=
+10:17:15  Build 134 SNAPSHOT: doorTarget=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), doorSubstate=2
+10:17:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:17:16  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:17:16  BANK TICK: up=true opened=true closed=true upStep=1
+10:17:25  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:17:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:17:26  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:17:26  BANK TICK: up=true opened=true closed=true upStep=1
+10:17:34  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:17:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:17:36  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:17:36  BANK TICK: up=true opened=true closed=true upStep=1
+10:17:44  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:17:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:17:46  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:17:46  BANK TICK: up=true opened=true closed=true upStep=1
+10:17:54  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:17:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:17:55  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:17:55  BANK TICK: up=true opened=true closed=true upStep=1
+10:17:56  Build 134 DOOR STUCK: (varp=540,tile=WorldPoint(x=3129, y=3124, plane=0),dialogue=,target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0)) unchanged for 5 ticks. Door=2. Replan failed: no alternative door found in scene scan.
+10:17:57  Build 134 SNAPSHOT: player=WorldPoint(x=3129, y=3124, plane=0), varp281=540, dialogue=
+10:17:57  Build 134 SNAPSHOT: doorTarget=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), doorSubstate=2
+10:17:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:17:58  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:17:58  BANK TICK: up=true opened=true closed=true upStep=1
+10:18:06  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:18:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:18:08  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:18:08  BANK TICK: up=true opened=true closed=true upStep=1
+10:18:16  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:18:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:18:17  Screenshot saved: 2026-09-29_10-18-17_BANK_auto.png
+10:18:17  Build 82: cleaned up 1 old screenshots
+10:18:18  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:18:18  BANK TICK: up=true opened=true closed=true upStep=1
+10:18:19  Diag tail uploaded: 2026-09-29_10-18-17_BANK_diag.txt
+10:18:26  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:18:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:18:27  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:18:27  BANK TICK: up=true opened=true closed=true upStep=1
+10:18:36  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:18:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:18:37  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:18:37  BANK TICK: up=true opened=true closed=true upStep=1
+10:18:38  Build 134 DOOR STUCK: (varp=540,tile=WorldPoint(x=3129, y=3124, plane=0),dialogue=,target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0)) unchanged for 5 ticks. Door=2. Replan failed: no alternative door found in scene scan.
+10:18:38  Build 134 SNAPSHOT: player=WorldPoint(x=3129, y=3124, plane=0), varp281=540, dialogue=
+10:18:38  Build 134 SNAPSHOT: doorTarget=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), doorSubstate=2
+10:18:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:18:40  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:18:40  BANK TICK: up=true opened=true closed=true upStep=1
+10:18:48  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:18:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:18:50  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:18:50  BANK TICK: up=true opened=true closed=true upStep=1
+10:18:58  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:18:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:18:59  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:18:59  BANK TICK: up=true opened=true closed=true upStep=1
+10:19:08  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:19:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:19:09  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:19:09  BANK TICK: up=true opened=true closed=true upStep=1
+10:19:18  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:19:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:19:19  Screenshot saved: 2026-09-29_10-19-19_BANK_auto.png
+10:19:19  Build 82: cleaned up 1 old screenshots
+10:19:19  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:19:19  BANK TICK: up=true opened=true closed=true upStep=1
+10:19:19  Diag tail uploaded: 2026-09-29_10-19-19_BANK_diag.txt
+10:19:20  Build 134 DOOR STUCK: (varp=540,tile=WorldPoint(x=3129, y=3124, plane=0),dialogue=,target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0)) unchanged for 5 ticks. Door=2. Replan failed: no alternative door found in scene scan.
+10:19:20  Build 134 SNAPSHOT: player=WorldPoint(x=3129, y=3124, plane=0), varp281=540, dialogue=
+10:19:20  Build 134 SNAPSHOT: doorTarget=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), doorSubstate=2
+10:19:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:19:22  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:19:22  BANK TICK: up=true opened=true closed=true upStep=1
+10:19:30  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:19:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:19:31  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:19:31  BANK TICK: up=true opened=true closed=true upStep=1
+10:19:40  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:19:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:19:41  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:19:41  BANK TICK: up=true opened=true closed=true upStep=1
+10:19:50  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:19:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:19:51  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:19:51  BANK TICK: up=true opened=true closed=true upStep=1
+10:19:59  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:20:01  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:20:01  BANK TICK: up=true opened=true closed=true upStep=1
+10:20:02  Build 134 DOOR STUCK: (varp=540,tile=WorldPoint(x=3129, y=3124, plane=0),dialogue=,target=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0)) unchanged for 5 ticks. Door=2. Replan failed: no alternative door found in scene scan.
+10:20:02  Build 134 SNAPSHOT: player=WorldPoint(x=3129, y=3124, plane=0), varp281=540, dialogue=
+10:20:02  Build 134 SNAPSHOT: doorTarget=Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0), doorSubstate=2
+10:20:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:20:03  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:20:03  BANK TICK: up=true opened=true closed=true upStep=1
+10:20:12  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:20:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:20:13  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+10:20:13  BANK TICK: up=true opened=true closed=true upStep=1
+10:20:22  Build 381 DOOR-2: door Door/9722/Open@WorldPoint(x=3130, y=3124, plane=0) is NOT SOUTH of the player (playerNow=WorldPoint(x=3129, y=3124, plane=0)) -- ignoring, walking south.
+10:20:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+10:20:23  Screenshot saved: 2026-09-29_10-20-23_BANK_auto.png
+10:20:23  Build 82: cleaned up 1 old screenshots
