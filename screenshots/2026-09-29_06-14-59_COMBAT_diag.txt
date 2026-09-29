@@ -1,0 +1,250 @@
+06:12:22  Attack style widget not found yet, retrying
+06:12:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:12:23  COMBAT TICK: COMBAT_TAB_LESSON
+06:12:24  Attack style widget not found yet, retrying
+06:12:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:12:25  COMBAT TICK: COMBAT_TAB_LESSON
+06:12:26  Attack style widget not found yet, retrying
+06:12:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:12:27  COMBAT TICK: COMBAT_TAB_LESSON
+06:12:28  Attack style widget not found yet, retrying
+06:12:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:12:29  COMBAT TICK: COMBAT_TAB_LESSON
+06:12:29  Attack style widget not found yet, retrying
+06:12:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:12:31  COMBAT TICK: COMBAT_TAB_LESSON
+06:12:31  Attack style widget not found yet, retrying
+06:12:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:12:33  COMBAT TICK: COMBAT_TAB_LESSON
+06:12:33  Attack style widget not found yet, retrying
+06:12:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:12:35  COMBAT TICK: COMBAT_TAB_LESSON
+06:12:35  Attack style widget not found yet, retrying
+06:12:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:12:37  COMBAT TICK: COMBAT_TAB_LESSON
+06:12:37  Attack style widget not found yet, retrying
+06:12:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:12:39  COMBAT TICK: COMBAT_TAB_LESSON
+06:12:39  Attack style widget not found yet, retrying
+06:12:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:12:41  COMBAT TICK: COMBAT_TAB_LESSON
+06:12:41  Attack style widget not found yet, retrying
+06:12:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:12:43  COMBAT TICK: COMBAT_TAB_LESSON
+06:12:43  Attack style widget not found yet, retrying
+06:12:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:12:45  COMBAT TICK: COMBAT_TAB_LESSON
+06:12:45  Attack style widget not found yet, retrying
+06:12:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:12:47  COMBAT TICK: COMBAT_TAB_LESSON
+06:12:47  Attack style widget not found yet, retrying
+06:12:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:12:49  COMBAT TICK: COMBAT_TAB_LESSON
+06:12:49  Attack style widget not found yet, retrying
+06:12:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:12:51  COMBAT TICK: COMBAT_TAB_LESSON
+06:12:51  Attack style widget not found yet, retrying
+06:12:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:12:53  COMBAT TICK: COMBAT_TAB_LESSON
+06:12:53  Attack style widget not found yet, retrying
+06:12:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:12:55  COMBAT TICK: COMBAT_TAB_LESSON
+06:12:55  Attack style widget not found yet, retrying
+06:12:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:12:57  COMBAT TICK: COMBAT_TAB_LESSON
+06:12:57  Attack style widget not found yet, retrying
+06:12:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:12:58  Screenshot saved: 2026-09-29_06-12-58_COMBAT_auto.png
+06:12:58  Build 82: cleaned up 1 old screenshots
+06:12:59  COMBAT TICK: COMBAT_TAB_LESSON
+06:12:59  Attack style widget not found yet, retrying
+06:12:59  Diag tail uploaded: 2026-09-29_06-12-58_COMBAT_diag.txt
+06:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:01  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:01  Attack style widget not found yet, retrying
+06:13:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:03  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:03  Attack style widget not found yet, retrying
+06:13:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:04  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:05  Attack style widget not found yet, retrying
+06:13:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:06  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:07  Attack style widget not found yet, retrying
+06:13:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:08  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:09  Attack style widget not found yet, retrying
+06:13:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:10  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:11  Attack style widget not found yet, retrying
+06:13:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:12  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:12  Attack style widget not found yet, retrying
+06:13:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:14  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:14  Attack style widget not found yet, retrying
+06:13:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:16  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:16  Attack style widget not found yet, retrying
+06:13:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:18  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:18  Attack style widget not found yet, retrying
+06:13:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:20  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:20  Attack style widget not found yet, retrying
+06:13:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:22  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:22  Attack style widget not found yet, retrying
+06:13:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:24  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:24  Attack style widget not found yet, retrying
+06:13:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:26  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:26  Attack style widget not found yet, retrying
+06:13:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:28  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:28  Attack style widget not found yet, retrying
+06:13:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:30  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:30  Attack style widget not found yet, retrying
+06:13:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:32  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:32  Attack style widget not found yet, retrying
+06:13:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:34  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:34  Attack style widget not found yet, retrying
+06:13:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:36  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:36  Attack style widget not found yet, retrying
+06:13:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:37  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:38  Attack style widget not found yet, retrying
+06:13:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:39  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:40  Attack style widget not found yet, retrying
+06:13:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:41  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:42  Attack style widget not found yet, retrying
+06:13:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:43  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:43  Attack style widget not found yet, retrying
+06:13:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:45  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:45  Attack style widget not found yet, retrying
+06:13:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:47  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:47  Attack style widget not found yet, retrying
+06:13:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:49  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:49  Attack style widget not found yet, retrying
+06:13:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:51  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:51  Attack style widget not found yet, retrying
+06:13:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:53  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:53  Attack style widget not found yet, retrying
+06:13:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:55  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:55  Attack style widget not found yet, retrying
+06:13:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:57  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:57  Attack style widget not found yet, retrying
+06:13:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:13:58  Screenshot saved: 2026-09-29_06-13-58_COMBAT_auto.png
+06:13:58  Build 82: cleaned up 1 old screenshots
+06:13:59  COMBAT TICK: COMBAT_TAB_LESSON
+06:13:59  Attack style widget not found yet, retrying
+06:13:59  Diag tail uploaded: 2026-09-29_06-13-58_COMBAT_diag.txt
+06:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:01  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:01  Attack style widget not found yet, retrying
+06:14:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:03  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:03  Attack style widget not found yet, retrying
+06:14:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:05  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:05  Attack style widget not found yet, retrying
+06:14:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:07  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:07  Attack style widget not found yet, retrying
+06:14:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:08  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:09  Attack style widget not found yet, retrying
+06:14:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:10  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:11  Attack style widget not found yet, retrying
+06:14:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:12  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:13  Attack style widget not found yet, retrying
+06:14:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:14  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:15  Attack style widget not found yet, retrying
+06:14:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:16  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:16  Attack style widget not found yet, retrying
+06:14:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:18  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:18  Attack style widget not found yet, retrying
+06:14:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:20  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:20  Attack style widget not found yet, retrying
+06:14:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:22  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:22  Attack style widget not found yet, retrying
+06:14:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:24  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:24  Attack style widget not found yet, retrying
+06:14:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:26  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:26  Attack style widget not found yet, retrying
+06:14:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:28  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:28  Attack style widget not found yet, retrying
+06:14:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:30  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:30  Attack style widget not found yet, retrying
+06:14:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:32  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:32  Attack style widget not found yet, retrying
+06:14:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:34  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:34  Attack style widget not found yet, retrying
+06:14:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:36  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:36  Attack style widget not found yet, retrying
+06:14:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:38  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:38  Attack style widget not found yet, retrying
+06:14:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:40  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:40  Attack style widget not found yet, retrying
+06:14:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:41  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:42  Attack style widget not found yet, retrying
+06:14:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:43  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:44  Attack style widget not found yet, retrying
+06:14:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:45  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:46  Attack style widget not found yet, retrying
+06:14:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:47  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:47  Attack style widget not found yet, retrying
+06:14:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:49  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:49  Attack style widget not found yet, retrying
+06:14:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:51  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:51  Attack style widget not found yet, retrying
+06:14:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:53  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:53  Attack style widget not found yet, retrying
+06:14:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:55  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:55  Attack style widget not found yet, retrying
+06:14:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:57  COMBAT TICK: COMBAT_TAB_LESSON
+06:14:57  Attack style widget not found yet, retrying
+06:14:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:14:59  Screenshot saved: 2026-09-29_06-14-59_COMBAT_auto.png
+06:14:59  Build 82: cleaned up 1 old screenshots
