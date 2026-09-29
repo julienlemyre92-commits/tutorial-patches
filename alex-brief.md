@@ -1,3 +1,38 @@
+## Build 360 / patch-358 (2026-09-29 ~06:57 EDT) -- BANKING info-box soft-lock + wrong arc order (review-loop worker)
+- Live result (Build 359): banner RUNNING_BUILD=359 verified at 06:46:06;
+  FINAL_LADDER worked -- ladder climbed, varp281=510 -> BANK at 06:48:14.
+  Then doBank soft-locked 06:48:29-06:54:35: the "Banking" tutorial info
+  interface (group 229: "This is the Bank of Gielinor, where you can store
+  all your most valued items. To open your bank, just click on the indicated
+  booth", yellow arrow ON the booth) sat open, modal and invisible to
+  safeIsInDialogue(), while doBank issued Talk-to clicks on the Account
+  Guide (id=3310, dist 3-4) every ~2s -- every click swallowed by the box,
+  the guide dialogue never opened, the box never closed (upStep=0 forever).
+  Same soft-lock class as the mining Builds 352/353/355.
+- Root causes: (1) no arc owned the Banking info box; (2) Build 110's
+  guide-FIRST order contradicts the game's own varp order -- your canonical
+  Varplayer/281 table (510=open bank; 520=close bank/open poll booth;
+  530=talk Account Guide; 531=open Account Management; 532=talk again;
+  540=exit): at varp 510 the game wants the BOOTH, not the guide. Build 110's
+  2026-09-27 "booth never opens" evidence is better explained by Build 90's
+  through-the-wall click bug (same era) than by a game gate.
+- Fix: (1) bankInfoBoxOpen() detector (title "Banking" / body "Bank of
+  Gielinor", collides with nothing); (2) ownership gate at the top of doBank
+  -- one dismiss action per tick (its own "Click here to continue" control,
+  else Space, reusing dismissSmeltingInfoBox) until OBSERVED closed, never
+  ESC'd; (3) the Account Guide step now runs only when varp>=530 or when
+  booth+poll are observed done (canonical order), so at varp 510/520 the flow
+  reaches the booth click (clickBoothDirect("Use")).
+- Pending verification: Build 360 banner, "Build 360: Banking info box OPEN"
+  lines, then observed absence, then "Bank is open (stable 3 ticks)" and
+  varp 281 -> 520.
+- REVIEW QUESTION: the guide-step two-talk sequence (doAccountGuideStep,
+  phases 0/1/2 + physical ACC_MAN tab click) was written for guide-FIRST and
+  assumed varp>=533 fail-safe. At varp 530+ the game's guide instruction
+  dialog ("The guide here will tell you all about your account...") may
+  reappear between talks -- check that dialogueTick's Build 108 mapping still
+  routes it rather than dismissing it as a gate dialog.
+
 ## Build 359 / patch-357 (2026-09-29 ~06:46 EDT) -- FINAL_LADDER wrong-object climb + wall-tile walk (review-loop worker)
 - Live result (Build 358): Build 358 banner verified live at 06:33:16; its gate fired ("Build 358: ranged kill already registered -> FINAL_LADDER"). But FINAL_LADDER then cycled WALK_TO_LADDER(dist 7-8) -> CLIMB_UP(dist 1) -> WALK_TO_LADDER for 6+ min (06:34-06:37): player stuck on the same corridor tiles, "Moving on" dialogue open in all four screenshots, three one-shot Climb-up clicks, zero climbs.
 - Root causes (Julien's step-model law): (1) the one-shot used issueDoorClickOnce -> clickDoorDirectInner -> findGateObjectInner, which matches "door" FIRST -- the Build 349 ladder-first fix only covered clickDoorDirect, so the Climb-up clicks went to the nearest door/gate, never the ladder (same bug class as Build 348's Climb-down-on-door-9716); (2) the walk targeted the ladder's own tile (3111,9526), a likely wall tile -- same hang class as the 04:07 door-tile freeze; (3) the dist read oscillates 1<->7 while the player stands still, so a single dist<=2 fired climbs on a bogus read; (4) the dialogue branch had no verified dismissal.
