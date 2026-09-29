@@ -44,3 +44,19 @@ arg=<unused for now>
 ## Who writes here
 Muse (the bot operator). The file is only writable by repo collaborators, so a
 random viewer can't pause Julien's bot.
+
+## Build 391: mission selection (MISSION_SELECT)
+- `SWITCH_TO_COOKS` / `SWITCH_TO_TUTORIAL` now also persist the choice to
+  `%USERPROFILE%/bot-mission.txt` (`cooks` | `tutorial`), so the selected
+  mission survives client restarts without another command.
+- On every startup, the FIRST post-login phase in both scripts is
+  MISSION_SELECT: the script whose mission matches the file claims the
+  scheduler (disables/stops the other plugin, writes
+  `%USERPROFILE%/bot-mission-lock.txt`, then a verification tick re-checks
+  the lock + overlay state before emitting `SWITCH COMPLETE`); the other
+  script yields (enables the desired plugin unless it already holds a fresh
+  lock, then disables itself). Quest-state detection runs only after
+  `SWITCH COMPLETE`. No quest actions happen before ownership is verified.
+- To switch missions, post the SWITCH command (or ask Muse/Alex); toggling
+  plugins by hand in the overlay without setting the mission will be
+  reverted by the gate on the next tick.
