@@ -1,0 +1,250 @@
+03:54:07  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:54:07  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:54:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:09  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:54:09  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:54:09  dialogueTick: clicking continue (priority over keyword handling)
+03:54:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:10  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:54:10  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:54:10  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:54:10  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:54:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:11  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:54:11  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:54:11  dialogueTick: clicking continue (priority over keyword handling)
+03:54:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:12  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:54:13  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:54:13  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:54:13  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:54:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:14  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:54:14  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:54:14  dialogueTick: clicking continue (priority over keyword handling)
+03:54:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:15  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:54:15  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:54:15  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:54:15  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:54:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:16  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:54:16  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:54:17  dialogueTick: clicking continue (priority over keyword handling)
+03:54:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:18  Screenshot saved: 2026-09-29_03-54-17_CHEF_auto.png
+03:54:18  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:54:18  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:54:18  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:54:18  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:54:19  Diag tail uploaded: 2026-09-29_03-54-17_CHEF_diag.txt
+03:54:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:19  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:54:19  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:54:19  dialogueTick: clicking continue (priority over keyword handling)
+03:54:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:20  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:54:21  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:54:21  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:54:21  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:54:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:22  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:54:22  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:54:22  dialogueTick: clicking continue (priority over keyword handling)
+03:54:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:23  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:54:23  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:54:23  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:54:23  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:54:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:24  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:54:24  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:54:24  dialogueTick: clicking continue (priority over keyword handling)
+03:54:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:26  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:54:26  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:54:26  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:54:26  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:54:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:27  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:54:27  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:54:27  dialogueTick: clicking continue (priority over keyword handling)
+03:54:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:28  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:54:28  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:54:28  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:54:29  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:54:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:30  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:54:30  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:54:30  dialogueTick: clicking continue (priority over keyword handling)
+03:54:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:31  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:54:31  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:54:31  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:54:31  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:54:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:32  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:54:32  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:54:32  dialogueTick: clicking continue (priority over keyword handling)
+03:54:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:33  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:54:34  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:54:34  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:54:34  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:54:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:35  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:54:35  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:54:35  dialogueTick: clicking continue (priority over keyword handling)
+03:54:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:36  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:54:36  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:54:36  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:54:36  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:54:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:37  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:54:37  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:54:38  dialogueTick: clicking continue (priority over keyword handling)
+03:54:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:39  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:54:39  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:54:39  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:54:39  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:54:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:40  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:54:40  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:54:40  dialogueTick: clicking continue (priority over keyword handling)
+03:54:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:41  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:54:42  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:54:42  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:54:42  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:54:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:43  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:54:43  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:54:43  dialogueTick: clicking continue (priority over keyword handling)
+03:54:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:44  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:54:44  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:54:44  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:54:44  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:54:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:45  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:54:45  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:54:45  dialogueTick: clicking continue (priority over keyword handling)
+03:54:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:46  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:54:47  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:54:47  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:54:47  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:54:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:48  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:54:48  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:54:48  dialogueTick: clicking continue (priority over keyword handling)
+03:54:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:49  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:54:49  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:54:49  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:54:49  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:54:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:50  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:54:50  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:54:51  dialogueTick: clicking continue (priority over keyword handling)
+03:54:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:51  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:54:52  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:54:52  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:54:52  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:54:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:53  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:54:53  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:54:53  dialogueTick: clicking continue (priority over keyword handling)
+03:54:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:54  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:54:54  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:54:54  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:54:54  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:54:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:55  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:54:55  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:54:55  dialogueTick: clicking continue (priority over keyword handling)
+03:54:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:57  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:54:57  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:54:57  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:54:57  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:54:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:58  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:54:58  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:54:58  dialogueTick: clicking continue (priority over keyword handling)
+03:54:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:54:59  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:54:59  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:54:59  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:54:59  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:55  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:55  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:55:01  dialogueTick: clicking continue (priority over keyword handling)
+03:55:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:55:02  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:55:02  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:55:02  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:55:02  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:55:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:55:03  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:55:03  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:55:03  Build 197: spamDialogue budget exhausted (60s) -- dialogue still open, re-arming next tick if caller retries: ' / Ah! Welcome, newcomer. I am the Master Chef, Lev. It<br>is here that I will teach you how to cook food truly fit<br>for a king.'
+03:55:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:55:04  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:55:05  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:55:05  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:55:05  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:55:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:55:06  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:55:06  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:55:06  Build 197: spamDialogue phased session armed, budget 60s -- one dialogue action per tick, verifying close on following ticks
+03:55:06  dialogueTick: clicking continue (priority over keyword handling)
+03:55:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:55:07  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:55:07  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:55:07  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:55:07  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:55:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:55:08  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:55:08  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:55:08  dialogueTick: clicking continue (priority over keyword handling)
+03:55:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:55:09  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:55:10  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:55:10  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:55:10  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:55:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:55:11  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:55:11  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:55:11  dialogueTick: clicking continue (priority over keyword handling)
+03:55:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:55:12  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:55:12  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:55:12  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:55:12  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:55:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:55:13  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:55:13  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:55:14  dialogueTick: clicking continue (priority over keyword handling)
+03:55:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:55:15  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:55:15  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:55:15  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:55:15  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:55:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:55:16  Build 196: tick-wait 'talk:Master Chef' SATISFIED (world changed as expected)
+03:55:16  Build 197: talkTo 'Master Chef' VERIFIED -- dialogue open (observed, not assumed)
+03:55:16  dialogueTick: clicking continue (priority over keyword handling)
+03:55:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:55:17  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3074, y=3085, plane=0)
+03:55:18  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+03:55:18  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+03:55:18  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+03:55:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+03:55:19  Screenshot saved: 2026-09-29_03-55-18_CHEF_auto.png
