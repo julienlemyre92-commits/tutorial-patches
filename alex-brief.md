@@ -1,66 +1,40 @@
-## Build 372 / patch-370 (2026-09-29 ~08:32 EDT) -- poll box-center click (hidden-guard bypass)
-- Root cause, PROVEN by zoomed screenshots (08:20:30, 08:15:51): the
-  "(Moving on...)" box has NO rendered "Click here to continue" link --
-  Build 371's premise was wrong. The 229:4 link widget exists in the
-  interface but is genuinely hidden (not rendered). The title at 263:1 IS
-  rendered (visible blue text) yet reports hidden=true -- a FALSE reading
-  (Build 224 precedent: widgets reporting hidden=true while visibly
-  rendered), which the Build 276 guard in physicalClickWidget() turned into
-  a click refusal. Build 370's scan never fired either (findMovingOnBounds
-  bails on w.isHidden() at the root). NET: zero physical clicks were ever
-  issued on this box in 20+ min; Space (130+ presses) does nothing.
-- Fix: each dismissal tick physical-clicks the BOX CENTER -- title widget's
-  parent-container bounds (fallback: title bounds) -- via
-  physicalClickWidgetBypassHidden() (hidden guard bypassed ONLY for this
-  proven-visible target; bounds sanity kept), one click/tick, verified by
-  observed box-gone next tick. Space is the last resort when no target is
-  found. The poll step still owns the tick until varp281>=530.
-- Verify: "Build 372: physically clicking (Moving on) box center ... at X,Y
-  (hidden-guard BYPASSED ...)" lines, then box observed gone and varp 281
-  -> 530, then the Account Guide talk.
-
-## Build 371 / patch-369 (2026-09-29 ~08:19 EDT) -- poll continue-link targeting
-- Root cause, PROVEN live (Build 370, 08:12-08:18): the Build 370 escalation
-  to a PHYSICAL click never fired -- the custom getWidgetRoots() title-text
-  scan produced ZERO "physically clicking" lines across 100+ dismissal ticks,
-  so the escalation issued no clicks at all. The "(Moving on...)" dialogue
-  stayed open ~12 min, varp stuck at 525, tick log looping "poll dialogue
-  dismissal tick N (varp=525, physical=true)".
-- Fix: target the dialogue's REAL control -- its "Click here to continue"
-  link -- using the proven Rs2Widget.findWidget("Click here to continue") +
-  physicalClickWidget() pattern (world-error modal Builds 207/213, banking
-  info box Build 360). Title-text lookup ("Moving on") is the fallback;
-  Space is the last resort. No 30-tick warmup (Build 370 already waited).
-  The poll step still owns the tick until varp281>=530 game-verifies
-  completion. Scan outcome is logged every 10 ticks ("continue-link widget
-  not found -- Space fallback").
-- Verify: "physically clicking 'poll (Moving on) continue link' at X,Y"
-  lines, then the box observed gone and varp 281 -> 530, then the Account
-  Guide talk.
-- NOTE: patch uploads can 409-conflict with the screenshot uploader's
-  commits (the uploader itself sees 409/422s) -- retry the PUT a few times.
-
-## Build 369 / patch-367 (2026-09-29 ~08:03 EDT) -- poll dialogue ownership + varp-driven completion
-- Root cause, PROVEN live (Build 368, 07:53-08:03): the poll-booth click at
-  07:53:47 opened the "(Moving on)" closing dialogue, but Build 100's
-  single-tick !safeIsInDialogue() check falsely marked the step done at
-  07:53:56 -- the "Moving on" box is INVISIBLE to Rs2Dialogue
-  (isInDialogue()=false, hasContinue()=false; same modal-info-box class as
-  Builds 352/353/355/360/362, new title). The box sat open ~10 min while
-  step-5 spam-fired Talk-to on the Account Guide (dist frozen 9-11, player
-  static in the bank south room) and varp stayed 520. Screenshots 07:54:33
-  vs 07:55:33 are 99.6% pixel-identical -- a hard soft-lock.
-- Fix: the poll step OWNS its dialogue transaction. Completion is
-  GAME-VERIFIED (varp281 >= 530), never a dialogue flicker. While
-  pollClickedOnce and varp < 530: one Continue action per tick
-  (clickContinueOnce = API click + Space; Space advances even when the
-  Continue widget is API-invisible), NOTHING else runs. Self-heal:
-  bankPollBoothDone=true with varp<530 resets and re-enters dismissal.
-  Guide step is now varp-gated ONLY (>=530); the bankPollBoothDone shortcut
-  is removed (it carried Build 100's false positive).
-- Verify: "Build 369: poll dialogue dismissal tick N" lines, "Build 369:
-  poll step GAME-VERIFIED complete (varp281>=530)", then the Account Guide
-  talk with a real dialogue.
+## Build 374 / patch-371 (2026-09-29 ~08:43 EDT) -- poll title TRUE-POSITION click + false-phase re-talk
+- Root cause 1, PROVEN by screenshots (Build 373, 08:30-08:36): 160+ dismissal
+  ticks clicked the title widget's REPORTED bounds center (259,569) -- but the
+  rendered blue "(Moving on" title sits at ~(328,536); the red virtual-mouse
+  click marker lands on body text (~342,563), which does nothing. The
+  hidden=true widget's geometry is STALE (bounds don't track the rendered box)
+  -- Builds 372/373's premise ("click the title widget's bounds") was wrong at
+  the geometry level, not the target level.
+- Fix 1: clickPollDialoguePhysical rewritten -- enumerate ALL widgets whose
+  text contains "Moving on" (no hidden bail), one-time diag dump of every
+  candidate (packed id, text, bounds, hidden), click the first with sane
+  on-canvas bounds sitting ABOVE the body text widget ("Polls are run
+  periodically"); fallback is a body-anchored click at (bodyCenterX,
+  bodyTop-18), the fixed-layout title slot; resolved point cached (fixed
+  layout), full-tree scan runs max 3x; one click/tick, verified by observed
+  box-gone next tick.
+- Root cause 2: the 08:35 guide phase 0->1 advance was BOGUS -- the "dialogue
+  seen then closed" was the Build 224 cache-mismatch overlay (dismissed
+  08:35:22-23), NOT the guide's dialogue (talk initiated at dist=12,
+  unreachable in 3s). Proof: the account tab is ABSENT from the rendered tab
+  bar (screenshots 08:36+) -- his "click the flashing icon" instruction never
+  fired -- so phase 1 spins clickTabIcon ACC_MAN with NO VERIFIED TARGET.
+- Fix 2: phase 1 with no verified tab target for 30 ticks resets to phase 0
+  for a genuine re-talk (bounded 3x); the existing 150-tick fail-safe still
+  applies afterwards.
+- Pending verification: "Build 374: STARTUP -- RUNNING_BUILD=374 (patch-371)",
+  then "Build 374: resolved (Moving on title" + click lines, then the box
+  observed gone; and "Build 374: no account-tab target for 30 ticks --
+  resetting to phase 0" followed by a genuine guide dialogue (dialogueTick)
+  with the account tab appearing/flashing in screenshots. Note: 08:42:02+
+  diag already shows a re-talk to the guide at dist 10-11 (could be Build
+  373's 150-tick fail-safe phase-2 -- banner check will disambiguate).
+- Note for Alex: tab icons render fine but every widget lookup returns
+  hidden/null-bounds -- the same false-hidden class as the poll title. Build
+  79's cache-corruption path already wrote clear-cache-requested.txt, so the
+  Supervisor will clear the RuneLite cache on the next launch; watch whether
+  widget reads recover after that.
 
 ## Build 368 / patch-366 (2026-09-29 ~07:52 EDT) -- door reachability + direction + non-blocking step
 - Root cause, PROVEN live (Build 367, 07:46:27-07:51:38): the exit-first plan
@@ -565,3 +539,7 @@ ground truth, fresher than any forwarded summary._
 - Reliable path: write timestamped notes to `alex-inbox/` (see its README).
   Muse checks it every review-loop run (~30s) and acknowledges each note in
   `alex-inbox/seen.log`, so nothing gets lost or processed twice.
+
+
+### 2026-09-29 08:04 EDT -- Build 369 / patch-367 SHIPPED (Muse)
+Root cause found for the 07:53-07:58 stall: Build 100's poll-completion fired on a single-tick `!safeIsInDialogue()` flicker -- the "(Moving on...)" poll dialogue is INVISIBLE to Rs2Dialogue (no standard Continue widget), so "dialogue closed" was a lie. Dialogue sat open 5+ min while guideStepDue (via the unreliable bankPollBoothDone flag) spam-fired Talk-to at varp 520. Fix: (1) poll step OWNS its dialogue -- while pollClickedOnce and varp<530, one Continue action per tick (API click + Space; Space works when the widget is invisible), nothing else runs; (2) completion is GAME-VERIFIED varp281>=530; (3) guideStepDue is varp>=530 ONLY; (4) self-heal resets bankPollBoothDone if varp<530. Watch for: 'Build 369: poll dialogue dismissal' ticks, then 'poll step GAME-VERIFIED complete (varp281>=530)', then real Account Guide dialogue.
