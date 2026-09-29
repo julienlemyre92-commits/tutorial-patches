@@ -1,8 +1,8 @@
 ## Current build
-- **Build 400 / patch-397** (shipped 2026-09-29 ~13:55 EDT). Change: the walker-invocation fix (Alex 13:52, decompiled bytecode root cause).
-- Root cause of both failed gate attempts: the shared stepToward() returns true when chebDist<=2 WITHOUT calling Rs2Walker.walkStep. Both inside tiles were exactly distance 2 ((3235,3285) and (3237,3286) from (3237,3284)), so the Build 399 "inside tile -- one walk" log was false and walkStall stayed 0.
-- Build 400: gate-crossing bypasses stepToward via walkThroughGate400(), which issues exactly one Rs2Walker.walkStep(insideTile,0) per tick; a once-per-leg acceptance log proves the primitive was invoked; next-tick WorldPoint proof, then one cow lookup. Bounded 20s timeout + one retry + GATE ENTRY FAILED (now with walkStepInvoked) preserved. No blind tiles, no extra retries.
-- Watch for: `Build 400: STARTUP -- RUNNING_BUILD=400 (patch-397)` -> MISSION_SELECT -> SWITCH COMPLETE -> `walkStep INVOKED` -> next-tick WorldPoint change across the fence -> one cow lookup -> `You milk the cow.` -> Bucket of milk proof.
+- **Build 401 / patch-398** (shipped 2026-09-29 ~14:00 EDT). Change: cow lookup fix (Alex 13:59).
+- Build 400 PROVED the gate crossing contract: walkStep INVOKED -> movement (3237,3285)->(3237,3286) -> phase 3. But post-crossing scans 1-3 found no cow.
+- Build 401: phase 3 tries 'Prized dairy cow' -> 'Dairy cow' -> 'Cow' (radius 30, was 20); logs ALL NPC names within 30 on each failed scan. Gate is NOT reopened/retried. Acceptance: one cow lookup, one bucket-on-cow, next-tick Bucket of milk.
+- Watch for: `Build 401: STARTUP -- RUNNING_BUILD=401 (patch-398)` -> NPC list in scan logs -> cow found -> `You milk the cow.` -> Bucket of milk proof.
 ## Build 397 / patch-394 (2026-09-29 ~13:24 EDT) -- Alex's motion correction: per-tick pos log, NPC lookup only at gate-adjacent tile
 
 Alex's correction (13:22): comparing 13:20:41 vs 13:21:43 MILK_COW frames, the player sprite SHIFTS along the fenced path (left-center -> upper-left, red route/minimap updating) -- the bot is NOT motionless. `no dairy cow nearby` is a target-search failure during movement, not proof walking stopped. Also: the 13:20:19 RuneLite WorldService Error is environmental noise, not the MILK_COW diagnosis.
