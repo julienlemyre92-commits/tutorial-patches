@@ -1,4 +1,17 @@
 ## Current build
+- **Build 436 / patch-433** (shipped 2026-09-29 17:09 EDT). CANDIDATE-DIRECTION RULE (Alex 17:08, contract).
+  - Root cause of GET_EGG wrong-door: `findBlockingEdge` used `.nearest()` -- the mill door at (3166,3302) was closest to the player but BEHIND them relative to the chicken-farm target. Open + walk-through went the wrong way; SIDE_PROOF correctly rejected, but the route was useless.
+  - Fix in Rs2Traversal (generic, no quest coordinates): EDGE_SCAN now collects bounded candidates (within+where filtered, toList on the filtered stream only), then scores each:
+    - signed projection t onto from->target (0=from, 1=target);
+    - far-side neighbor (one step from edge toward target) must be walkable (Rs2Tile.isWalkable);
+    - far-side projection must INCREASE (tFar > t, tFar > 0).
+    - Reject: t<0 (behind player), far-side blocked, no advance. Logged per candidate.
+    - Pick highest t among OK. Log line: `EDGE_SCAN [ctx] candidates=N scores: [id=... t=... far=... verdict]`.
+  - One alternate via triedEdges (unchanged), then typed HOLD (unchanged).
+  - Hopper sticky (433), vertical seq (434), universal handoff (435) preserved.
+  - Acceptance to watch: GET_EGG EDGE_SCAN should now REJECT the (3166,3302) mill door as behind-player and either find the correct eastward edge or emit typed HOLD without clicking the wrong door.
+
+## Current build
 - **Build 435 / patch-432** (shipped 2026-09-29 17:05 EDT). UNIVERSAL HANDOFF (Alex 17:04).
   - Root cause of GET_EGG 17:02:17 silent stall: `stepToward` set `walkHandoffActive` and logged TRAVERSAL_HANDOFF, but only GET_GRAIN and MILL_FLOUR ever checked the flag. GET_EGG (and dairy/bank/cooking/Tutorial) stalled silently for 70s+ with no resolver.
   - Fix: `stepToward` now OWNS the shared traversal lifecycle via `sharedTraversal` (script-level Rs2Traversal).
