@@ -1,4 +1,12 @@
 ## Current build
+- **Build 430 / patch-427** (shipped 2026-09-29 16:56 EDT, NUDGE ALEX 16:52). HOPPER INTERACTION PROXIMITY FIX.
+  - Pathing resolver UNCHANGED (Rs2Traversal still Build 428). Fresh-start validation before mill door still the acceptance gap -- preserved.
+  - Root cause of hopper use failure: useItemOnObject CLICK phase clicked immediately with no proximity check. If player >3 tiles from hopper, the click walked but the "use" never registered -> 6s verify timeout -> false failure -> retry -> fail.
+  - Fix: CLICK phase now checks chebDist(player, object) > 3; if too far, single Rs2Walker.walkStep toward object (interaction approach, NOT a route leg -- no stall-handoff machinery), no click yet. Click only fires within 3 tiles. Applies to hopper and flour bin (universal use-on).
+  - Framework rule preserved: interaction approach is separate from navigation; failed use-on still cannot reissue route legs or reset verified crossings.
+- Watch for: `Build 430: STARTUP -- RUNNING_BUILD=430 (patch-427)` -> `use-on: approaching 'Hopper' (N tiles)` -> `use-on: clicked 'Hopper'` -> `use-on: VERIFIED -- 'Grain' X -> Y`.
+
+## Current build
 - **Build 429 / patch-426** (shipped 2026-09-29 16:54 EDT, NUDGE ALEX 16:51). FRAMEWORK RULE: INTERACTION SEPARATE FROM NAVIGATION.
   - Alex confirmed Build 427 end-to-end: wheat collected, WebWalk returned through mill door, player reached mill with door-edge/open diagnostics. Pathing resolver VERIFIED -- left unchanged (Rs2Traversal still Build 428).
   - Framework rule enshrined: interaction retries (useItemOnObject: one bounded re-click after 6s no-delta, then sticky fail) are SEPARATE from navigation. A failed use-on cannot reissue a route leg, cannot reset walkHandoffActive/failedLeg*/grainTraversal, cannot invalidate a verified crossing. Both failure handlers (hopper sub 2 -> sub 1, flour bin sub 5 -> sub 3) documented; neither touches nav state.
