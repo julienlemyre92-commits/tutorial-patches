@@ -1,0 +1,5 @@
+# Remote command for the Tutorial Island bot (Build 336+). Muse writes this file; the plugin polls it ~every 45s. See README.md for protocol.
+id=init
+ts=0
+cmd=NONE
+arg=
