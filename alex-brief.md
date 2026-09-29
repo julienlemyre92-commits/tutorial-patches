@@ -1,8 +1,8 @@
 ## Current build
-- **Build 403 / patch-400** (shipped 2026-09-29 ~14:09 EDT). Change: exact interaction verification (Alex 14:08).
-- 402 proved pen-side detection (Cow at 3250,3293) but bucket-on-Cow produced no milk. Root cause unknown: selection drop? wrong click action? non-milkable Cow?
-- Build 403: useItemOnNpc logs NPC id/name/pos at SELECT, inventory before/after, selected-item state after use() and before click(), npc.click("") return, exact bucket->milk transition on VERIFY. Abort to SELECT if deselected before click. No repeated clicks, no gate reopen. Plugin-selection gate unchanged.
-- Watch for: `Build 403: STARTUP -- RUNNING_BUILD=403 (patch-400)` -> SELECT/CLICK/VERIFY lines with ids and counts -> `VERIFIED` with transition or `FAILED` with diagnostics.
+- **Build 404 / patch-401** (shipped 2026-09-29 ~14:12 EDT). Change: real use-on-NPC primitive (Alex 14:11).
+- Root cause: useItemOnNpc did select-then-click("") which never issues a real use-on-item. The verified API Rs2Inventory.useItemOnNpc(int, NPC) was never called.
+- Build 404: RESOLVE (npc id/name/pos, bucket id, pre-counts) -> APPROACH (bounded, no clicks) -> USE (exactly one useItemOnNpc(bucketId, npc.getNpc())) -> VERIFY (latch: bucket DOWN and milk UP next-tick). One bounded re-resolve/re-click, then HELD. No empty-action click. MISSION_SELECT first; gate unchanged.
+- Watch for: `Build 404: STARTUP -- RUNNING_BUILD=404 (patch-401)` -> RESOLVE/APPROACH/USE lines -> `VERIFIED` with transition or `FAILED` with diagnostics.
 ## Build 397 / patch-394 (2026-09-29 ~13:24 EDT) -- Alex's motion correction: per-tick pos log, NPC lookup only at gate-adjacent tile
 
 Alex's correction (13:22): comparing 13:20:41 vs 13:21:43 MILK_COW frames, the player sprite SHIFTS along the fenced path (left-center -> upper-left, red route/minimap updating) -- the bot is NOT motionless. `no dairy cow nearby` is a target-search failure during movement, not proof walking stopped. Also: the 13:20:19 RuneLite WorldService Error is environmental noise, not the MILK_COW diagnosis.
