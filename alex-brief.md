@@ -795,3 +795,104 @@ ground truth, fresher than any forwarded summary._
 
 ### 2026-09-29 08:04 EDT -- Build 369 / patch-367 SHIPPED (Muse)
 Root cause found for the 07:53-07:58 stall: Build 100's poll-completion fired on a single-tick `!safeIsInDialogue()` flicker -- the "(Moving on...)" poll dialogue is INVISIBLE to Rs2Dialogue (no standard Continue widget), so "dialogue closed" was a lie. Dialogue sat open 5+ min while guideStepDue (via the unreliable bankPollBoothDone flag) spam-fired Talk-to at varp 520. Fix: (1) poll step OWNS its dialogue -- while pollClickedOnce and varp<530, one Continue action per tick (API click + Space; Space works when the widget is invisible), nothing else runs; (2) completion is GAME-VERIFIED varp281>=530; (3) guideStepDue is varp>=530 ONLY; (4) self-heal resets bankPollBoothDone if varp<530. Watch for: 'Build 369: poll dialogue dismissal' ticks, then 'poll step GAME-VERIFIED complete (varp281>=530)', then real Account Guide dialogue.
+
+## Build 389 / patch-386 (2026-09-29 ~11:45 EDT) -- NO LOGOUT ON COMPLETION (Supervisor flap fix)
+
+- Live 11:38-11:40 (stream): Build 388's logout DID fire -- first frame showed
+  the client at the login screen ("WELCOME TO GIELINOR / CLICK HERE TO PLAY",
+  "You last logged in a minute ago") -- but it logged back in on its own
+  within ~a minute, character back at the Lumbridge General Store.
+- Root cause: the Supervisor runs launcher_clicker.py --check-once EVERY 30s
+  cycle; it clicks CLICK HERE TO PLAY on ANY visible lobby and cannot tell an
+  intentional logout from a disconnect. Verified the self-heal build IS on
+  Julien's PC (Supervisor terminal shows "check-once: nothing to do"). A
+  plugin-side logout therefore flaps login/logout forever (~30-60s period) --
+  a classic bot-detection signal, far worse than parking in-game.
+- Fix: doDone() no longer logs out in EITHER script (Tutorial Island parks
+  in-game at Lumbridge, fully idle and stable; same for Cook's Assistant's
+  doDone()). Watchdog exit(0) suppression retained. Fresh startup now deletes
+  any stale %USERPROFILE%/.runelite/bot-intentional-logout sentinel.
+- Staged for Julien (manual install, in repo infrastructure/): sentinel-aware
+  Supervisor.bat -- skips the --check-once login click while
+  %USERPROFILE%/.runelite/bot-intentional-logout exists, so a future build
+  can re-enable logout-on-completion and the account will truly park at the
+  login screen. README updated with reinstall steps. Launch-time login and
+  fresh-startup sentinel deletion are unaffected, so stand-down never sticks.
+- Pending verification: "Build 389: STARTUP -- RUNNING_BUILD=389 (patch-386)",
+  "Build 389: Tutorial Island COMPLETE -- parking in-game", character stays
+  logged in, no login/logout cycling on stream.
+
+## Build 388 / patch-385 (2026-09-29 ~11:40 EDT) -- DONE OWNS THE LOGOUT (Tutorial Island parked-idle fix)
+
+- Live 11:26 (YouTube stream, 2-min observation): the character stood 50+ min
+  idle at the Lumbridge General Store in an unclicked Adventurer Jon guidance
+  dialogue ("If you are stuck on what to do next... Click here to continue"),
+  zero movement, zero clicks, plugin alive (patch checks firing every ~60s).
+  Julien confirmed he is NOT at his PC -- nothing on that screen is him.
+- Root cause: the Build 385 logout lived inside doMagic(), which is UNREACHABLE
+  after completion -- the varp-authoritative detector returns Stage.DONE (never
+  MAGIC) once the tutorial completes, so `case DONE -> finish()` ran
+  finish()->shutdown() with the character still logged in. (Rs2Player.logout()
+  itself is fire-and-forget: switches to the LOGOUT tab and invokes the Logout
+  menu entry on widget 69:3; silently no-ops if that widget is null.)
+- Fix (TutorialIslandScript): Stage.DONE is now handled by doDone() -- one-shot
+  Rs2Player.logout(), then verify !Microbot.isLoggedIn(), one re-issue at 30
+  ticks, finish anyway at 60 ticks. The dead Build 385 block in doMagic()
+  was removed. The Build 194 logged-out watchdog exit(0) is suppressed after
+  an intentional completion logout, so the account PARKS at the login screen
+  instead of relaunch -> login-clicker -> DONE -> logout looping while Julien
+  is away.
+- Same watchdog suppression applied to Cook's Assistant (its doDone() already
+  issued the logout before shutdown -- correct placement; only the relaunch
+  loop needed closing). Cook's Assistant BUILD_NUMBER bumped 387 -> 388.
+- Pending verification: "Build 388: STARTUP -- RUNNING_BUILD=388 (patch-385)",
+  "Build 388: logout() issued", "Build 388: logout verified", then the login
+  screen visible on stream. Patch applies on the next ~60s update check (client
+  restart expected).
+- Note: screenshot/diag feed has been dark since 10:38:42 EDT (pre-completion);
+  the stream is currently the only live visual source.
+
+## Build 391 / patch-388 (2026-09-29 ~12:55 EDT) -- MISSION_SELECT OWNERSHIP GATE (Alex's spec)
+
+- The 14-second revert, root-caused: Alex's client.log showed Cook's Assistant
+  enabled 12:28:30 -> disabled 12:28:44 -> Tutorial Island resumed 12:28:57,
+  with no SWITCH COMPLETE. Evidence rules OUT the remote command channel
+  (bot-command/command.txt history shows no SWITCH command was ever posted;
+  last command commit 10:08 EDT) and rules OUT script code (the only
+  setPluginEnabled/startPlugin/stopPlugin call sites in both scripts are
+  inside requestPluginSwitch, which fires solely on remote commands). The
+  toggle came from outside the scripts -- pattern matches a manual overlay
+  toggle while Julien was at his PC. Neither script owned scheduler selection,
+  so nothing converged afterward.
+- Fix (Alex's startup/selection phase, implemented verbatim): mission
+  selection is now the FIRST post-login phase in both scripts, driven by
+  %USERPROFILE%/.runelite/bot-mission.txt ("cooks"|"tutorial", default
+  "tutorial"). SWITCH_TO_COOKS / SWITCH_TO_TUTORIAL now persist the mission
+  so the choice survives restarts. Desired==self: CLAIM -- disable+stop the
+  other plugin (verified via PluginManager.isPluginEnabled, confirmed present
+  in the installed jar), write bot-mission-lock.txt (owner+ts), then a
+  verification tick re-checks lock owner + self enabled + other disabled
+  before emitting SWITCH COMPLETE. Only then does quest-state detection run.
+  Desired==other: YIELD -- enable the other plugin (skipped when it already
+  holds a fresh lock: never double-start), then disable+stop self. Fail-safe:
+  desired plugin class missing from the jar -> stay on self. The gate never
+  blocks housekeeping (screenshots, update checks, command polling, pause);
+  it only holds quest stage logic. All PluginManager work runs on the client
+  thread via ClientThread.invoke; state is picked up on following ticks.
+- Exact remote command / phase (per Alex's request): remote command
+  SWITCH_TO_COOKS (sets mission=cooks, sticky) / SWITCH_TO_TUTORIAL
+  (sets mission=tutorial, sticky); startup phase MISSION_SELECT in both
+  scripts. To switch missions, post the SWITCH command -- hand-toggling the
+  overlay without setting the mission is reverted by the gate on the next tick.
+- Also: explicit [TutorialIsland] Plugin enabled/disabled lifecycle markers
+  added (Cook's already had them); infrastructure/supervisor_status.ps1 added
+  to the repo mirroring Alex's parsing rule (only explicit
+  STARTUP -- RUNNING_BUILD markers prove the loaded build; feature evidence
+  reported separately; stale features flagged; VARP text never build proof).
+  bot-command/README.md documents mission persistence.
+- Pending verification: "Build 391: STARTUP -- RUNNING_BUILD=391 (patch-388)",
+  "Build 391: MISSION_SELECT ..." claim/verify lines, "Build 391: SWITCH
+  COMPLETE", then quest logic. After 391 is confirmed live, the plan is to
+  post SWITCH_TO_COOKS and watch for: Tutorial Island disabled marker ->
+  Cook's enabled/STARTUP -> SWITCH COMPLETE -> one verified quest action,
+  with no automatic revert.
