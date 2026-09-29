@@ -1028,3 +1028,10 @@ ACCEPTANCE (watching for, in order):
 4. Tutorial Island disabled marker -> CooksAssistant enabled/STARTUP ->
    Cook's MISSION_SELECT -> SWITCH COMPLETE (cooks), no revert
 5. one bounded Cook's quest action with next-tick proof
+
+## 15:47 EDT live status -- Build 414 (patch-411) shipping, gate path removed
+- version.txt=411 == Build 414 == patch-411.zip (committed 15:48:01 EDT, NUDGE ALEX 2026-09-29 15:41). Patch verified: 115 entries, net/ root, cooksassistant classes present. Build N -> patch-(N-3) lag mapping holds.
+- Review-loop worker stood down per the overlap rule (sibling mid-ship, source edited 15:47 EDT) -- verify-only run, no competing patch.
+- Screenshots 15:42:24 -> 15:46:29 (fresh, ~60s cadence): avatar MOVING through the chicken-farm area (walk-target cross, swinging camera), egg + empty bucket in inventory, stage COOKS_MILK_COW. Egg collected milestone stands; milk UNVERIFIED ~150 min (since ~13:14).
+- Build 414 acceptance pending: `Build 414: STARTUP -- RUNNING_BUILD=414 (patch-411)` -> milk-target-found -> `MILK VERIFIED` (Bucket of milk inventory delta).
+- Note: Julien activated the requested extra visual overlays (tile numbers, object/NPC IDs, collision flags) -- screenshots are overlay-dense by design; keep script state/inventory proofs authoritative.
