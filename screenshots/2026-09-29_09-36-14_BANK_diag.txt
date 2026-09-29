@@ -1,0 +1,250 @@
+09:33:19  BANK TICK: up=true opened=true closed=true upStep=1
+09:33:20  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:33:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:33:22  BANK TICK: up=true opened=true closed=true upStep=1
+09:33:23  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:33:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:33:24  BANK TICK: up=true opened=true closed=true upStep=1
+09:33:26  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:33:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:33:27  BANK TICK: up=true opened=true closed=true upStep=1
+09:33:28  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:33:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:33:30  BANK TICK: up=true opened=true closed=true upStep=1
+09:33:31  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:33:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:33:32  BANK TICK: up=true opened=true closed=true upStep=1
+09:33:33  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:33:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:33:35  BANK TICK: up=true opened=true closed=true upStep=1
+09:33:36  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:33:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:33:37  BANK TICK: up=true opened=true closed=true upStep=1
+09:33:37  Build 372: poll dialogue dismissal tick 150 (varp=525)
+09:33:39  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:33:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:33:40  BANK TICK: up=true opened=true closed=true upStep=1
+09:33:41  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:33:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:33:42  BANK TICK: up=true opened=true closed=true upStep=1
+09:33:44  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:33:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:33:45  BANK TICK: up=true opened=true closed=true upStep=1
+09:33:46  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:33:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:33:48  BANK TICK: up=true opened=true closed=true upStep=1
+09:33:49  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:33:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:33:50  BANK TICK: up=true opened=true closed=true upStep=1
+09:33:51  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:33:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:33:53  BANK TICK: up=true opened=true closed=true upStep=1
+09:33:54  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:33:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:33:55  BANK TICK: up=true opened=true closed=true upStep=1
+09:33:57  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:33:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:33:58  BANK TICK: up=true opened=true closed=true upStep=1
+09:33:59  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:34:01  BANK TICK: up=true opened=true closed=true upStep=1
+09:34:02  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:34:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:34:04  BANK TICK: up=true opened=true closed=true upStep=1
+09:34:04  Build 372: poll dialogue dismissal tick 160 (varp=525)
+09:34:05  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:34:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:34:06  BANK TICK: up=true opened=true closed=true upStep=1
+09:34:08  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:34:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:34:09  BANK TICK: up=true opened=true closed=true upStep=1
+09:34:10  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:34:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:34:11  Screenshot saved: 2026-09-29_09-34-11_BANK_auto.png
+09:34:12  BANK TICK: up=true opened=true closed=true upStep=1
+09:34:13  Diag tail uploaded: 2026-09-29_09-34-11_BANK_diag.txt
+09:34:13  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:34:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:34:14  BANK TICK: up=true opened=true closed=true upStep=1
+09:34:16  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:34:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:34:17  BANK TICK: up=true opened=true closed=true upStep=1
+09:34:18  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:34:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:34:19  BANK TICK: up=true opened=true closed=true upStep=1
+09:34:21  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:34:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:34:22  BANK TICK: up=true opened=true closed=true upStep=1
+09:34:23  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:34:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:34:25  BANK TICK: up=true opened=true closed=true upStep=1
+09:34:26  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:34:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:34:27  BANK TICK: up=true opened=true closed=true upStep=1
+09:34:28  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:34:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:34:30  BANK TICK: up=true opened=true closed=true upStep=1
+09:34:30  Build 372: poll dialogue dismissal tick 170 (varp=525)
+09:34:31  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:34:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:34:32  BANK TICK: up=true opened=true closed=true upStep=1
+09:34:34  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3123, plane=0) dist=3
+09:34:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:34:35  BANK TICK: up=true opened=true closed=true upStep=1
+09:34:36  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3123, plane=0) dist=3
+09:34:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:34:38  BANK TICK: up=true opened=true closed=true upStep=1
+09:34:39  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3123, plane=0) dist=4
+09:34:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:34:40  BANK TICK: up=true opened=true closed=true upStep=1
+09:34:41  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3123, plane=0) dist=3
+09:34:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:34:43  BANK TICK: up=true opened=true closed=true upStep=1
+09:34:44  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3123, plane=0) dist=3
+09:34:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:34:45  BANK TICK: up=true opened=true closed=true upStep=1
+09:34:47  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:34:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:34:48  BANK TICK: up=true opened=true closed=true upStep=1
+09:34:49  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3126, y=3124, plane=0) dist=3
+09:34:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:34:51  BANK TICK: up=true opened=true closed=true upStep=1
+09:34:52  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3126, y=3124, plane=0) dist=3
+09:34:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:34:53  BANK TICK: up=true opened=true closed=true upStep=1
+09:34:54  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:34:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:34:56  BANK TICK: up=true opened=true closed=true upStep=1
+09:34:56  Build 372: poll dialogue dismissal tick 180 (varp=525)
+09:34:57  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3124, plane=0) dist=5
+09:34:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:34:58  BANK TICK: up=true opened=true closed=true upStep=1
+09:35  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3124, plane=0) dist=5
+09:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:35:01  BANK TICK: up=true opened=true closed=true upStep=1
+09:35:02  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3124, plane=0) dist=5
+09:35:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:35:03  BANK TICK: up=true opened=true closed=true upStep=1
+09:35:05  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3124, plane=0) dist=5
+09:35:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:35:06  BANK TICK: up=true opened=true closed=true upStep=1
+09:35:07  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3124, plane=0) dist=5
+09:35:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:35:09  BANK TICK: up=true opened=true closed=true upStep=1
+09:35:10  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3124, plane=0) dist=5
+09:35:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:35:11  BANK TICK: up=true opened=true closed=true upStep=1
+09:35:12  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3123, plane=0) dist=4
+09:35:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:35:14  Screenshot saved: 2026-09-29_09-35-13_BANK_auto.png
+09:35:14  Build 82: cleaned up 8 old screenshots
+09:35:14  BANK TICK: up=true opened=true closed=true upStep=1
+09:35:15  Diag tail uploaded: 2026-09-29_09-35-13_BANK_diag.txt
+09:35:15  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3123, plane=0) dist=4
+09:35:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:35:16  BANK TICK: up=true opened=true closed=true upStep=1
+09:35:18  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3123, plane=0) dist=4
+09:35:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:35:19  BANK TICK: up=true opened=true closed=true upStep=1
+09:35:20  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3123, plane=0) dist=4
+09:35:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:35:22  BANK TICK: up=true opened=true closed=true upStep=1
+09:35:22  Build 372: poll dialogue dismissal tick 190 (varp=525)
+09:35:23  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3123, plane=0) dist=4
+09:35:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:35:24  BANK TICK: up=true opened=true closed=true upStep=1
+09:35:25  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3123, plane=0) dist=4
+09:35:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:35:27  BANK TICK: up=true opened=true closed=true upStep=1
+09:35:28  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3123, plane=0) dist=4
+09:35:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:35:29  BANK TICK: up=true opened=true closed=true upStep=1
+09:35:31  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3126, y=3124, plane=0) dist=3
+09:35:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:35:32  BANK TICK: up=true opened=true closed=true upStep=1
+09:35:33  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3126, y=3124, plane=0) dist=3
+09:35:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:35:34  BANK TICK: up=true opened=true closed=true upStep=1
+09:35:36  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3126, y=3124, plane=0) dist=3
+09:35:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:35:37  BANK TICK: up=true opened=true closed=true upStep=1
+09:35:38  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3126, y=3124, plane=0) dist=3
+09:35:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:35:40  BANK TICK: up=true opened=true closed=true upStep=1
+09:35:41  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:35:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:35:42  BANK TICK: up=true opened=true closed=true upStep=1
+09:35:44  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=4
+09:35:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:35:45  BANK TICK: up=true opened=true closed=true upStep=1
+09:35:46  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3126, y=3123, plane=0) dist=2
+09:35:47  Build 166 talk: direct invoke 'Talk-to' on 'Account Guide' id=3310 idx=1727
+09:35:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:35:48  BANK TICK: up=true opened=true closed=true upStep=1
+09:35:48  Build 372: poll dialogue dismissal tick 200 (varp=525)
+09:35:50  dialogueTick: clicking continue (priority over keyword handling)
+09:35:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:35:51  BANK TICK: up=true opened=true closed=true upStep=1
+09:35:52  Build 108: first Account Guide talk done — opening account tab
+09:35:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:35:53  BANK TICK: up=true opened=true closed=true upStep=1
+09:35:54  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:35:54  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:35:54  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:35:54  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:35:54  Build 108: opening account management tab (tick 1)
+09:35:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:35:56  BANK TICK: up=true opened=true closed=true upStep=1
+09:35:57  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:35:57  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:35:57  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:35:57  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:35:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:35:58  BANK TICK: up=true opened=true closed=true upStep=1
+09:35:59  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:35:59  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:35:59  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:35:59  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:35:59  Build 130 NO-PROGRESS GUARD: ACC_MAN tab failed 21x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+09:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:36  BANK TICK: up=true opened=true closed=true upStep=1
+09:36:01  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:36:01  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:36:01  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:36:01  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:36:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:36:03  BANK TICK: up=true opened=true closed=true upStep=1
+09:36:04  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:36:04  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:36:04  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:36:04  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:36:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:36:05  BANK TICK: up=true opened=true closed=true upStep=1
+09:36:06  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:36:06  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:36:06  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:36:06  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:36:06  Build 130 NO-PROGRESS GUARD: ACC_MAN tab failed 22x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+09:36:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:36:07  BANK TICK: up=true opened=true closed=true upStep=1
+09:36:08  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:36:08  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:36:08  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:36:08  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:36:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:36:10  BANK TICK: up=true opened=true closed=true upStep=1
+09:36:11  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:36:11  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:36:11  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:36:11  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:36:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:36:12  BANK TICK: up=true opened=true closed=true upStep=1
+09:36:12  Build 372: poll dialogue dismissal tick 210 (varp=525)
+09:36:13  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:36:13  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:36:13  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:36:13  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:36:13  Build 130 NO-PROGRESS GUARD: ACC_MAN tab failed 23x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+09:36:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:36:15  Screenshot saved: 2026-09-29_09-36-14_BANK_auto.png
+09:36:15  Build 82: cleaned up 1 old screenshots
