@@ -4,7 +4,15 @@ _Maintained by Muse. Updated on every build ship. If you have web browsing,
 read this file raw before answering Julien about the bot — it's the current
 ground truth, fresher than any forwarded summary._
 
-## Current state (2026-09-29 ~04:38 EDT)
+## Current state (2026-09-29 ~04:41 EDT)
+- Build **345** is LIVE (`patches/patch-343.zip`, `version.txt=343`, banner
+  04:38:55, pickup ~1 min after upload). Packaging incident resolved.
+- VERIFIED LIVE: 04:39:29 "Build 343: quest-guide wants the journal" +
+  physical QUESTS click + questTabClicked latch; 04:40:56 screenshot shows
+  the Quest Journal OPEN ("Completed: 0/184"); 04:40:42 the bot is "walking
+  to ladder at WorldPoint(x=3088, y=3119, plane=0)" -- quest lecture done,
+  descending to the mining caves (watch varp281>=260 -> MINING).
+- Stage: **QUEST_GUIDE** (varp281=200) transitioning to MINING.
 - PACKAGING INCIDENT (root cause of the 04:30-04:38 stall): patches 341/342
   (Builds 343/344) were zipped from the WRONG root -- their entries are
   `runelite/client/plugins/...` instead of `net/runelite/client/plugins/...`.
