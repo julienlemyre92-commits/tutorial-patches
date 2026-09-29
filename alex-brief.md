@@ -1,4 +1,11 @@
 ## Current build
+- **Build 428 / patch-425** (shipped 2026-09-29 16:52 EDT, NUDGE ALEX 16:49). MILL RETURN HANDOFF.
+  - Alex confirmed Build 427 post-door: one reachable Pick wheat id=15507 (preWheat=0, no delta), one alternate id=15506 (preWheat=1), grain observed, GET_GRAIN -> DETECT. No unreachable-click loop. Handoff/crossing fix VERIFIED in resumed state.
+  - Acceptance note: NOT a fresh-start run (resumed at post-door tile). Next validation must start BEFORE the mill door and capture SIDE_PROOF + CROSSING PROOF.
+  - New: MILL_FLOUR sub 0 return route now has the same WALK_STALL -> TRAVERSAL_HANDOFF rule. If stepToward(MILL_APPROACH) stalls, hands to Rs2Traversal targeting MILL_INSIDE (through the door, south->north). Same one-action/next-tick proof, SIDE_PROOF, DONE/replan or DOOR_CROSSING_FAILED contract.
+- Watch for: `Build 428: STARTUP -- RUNNING_BUILD=428 (patch-425)` -> on return: `WALK_STALL -> TRAVERSAL_HANDOFF 'to mill'` -> `TRAVERSAL START [MILL_RETURN_NAV]` -> `SIDE_PROOF ... => true` -> `CROSSING PROOF`.
+
+## Current build
 - **Build 427 / patch-424** (shipped 2026-09-29 16:48 EDT, NUDGE ALEX 16:45/16:46). DOOR-CROSSING SIDE PROOF (generic, not mill-specific).
   - Root cause (Alex decompiled 426): VERIFYING_CROSSING used `dist(edge)<=3 AND dist(fromPos)>2`. Mill door: from=(3166,3303), edge=(3166,3302), post=(3165,3301) -> dist=2, strict >2 false -> 30s timeout -> ROUTE_BLOCKED despite successful crossing.
   - Fix: signed projection t of (player, edge) onto fromPos->target corridor. Proof = `moved (post!=pre) && t_post > t_edge`. Verified on Alex's coords: t_edge=0.049, t_post=0.127 -> crossed=True.
