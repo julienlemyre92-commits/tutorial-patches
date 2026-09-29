@@ -1,3 +1,24 @@
+## Build 371 / patch-369 (2026-09-29 ~08:19 EDT) -- poll continue-link targeting
+- Root cause, PROVEN live (Build 370, 08:12-08:18): the Build 370 escalation
+  to a PHYSICAL click never fired -- the custom getWidgetRoots() title-text
+  scan produced ZERO "physically clicking" lines across 100+ dismissal ticks,
+  so the escalation issued no clicks at all. The "(Moving on...)" dialogue
+  stayed open ~12 min, varp stuck at 525, tick log looping "poll dialogue
+  dismissal tick N (varp=525, physical=true)".
+- Fix: target the dialogue's REAL control -- its "Click here to continue"
+  link -- using the proven Rs2Widget.findWidget("Click here to continue") +
+  physicalClickWidget() pattern (world-error modal Builds 207/213, banking
+  info box Build 360). Title-text lookup ("Moving on") is the fallback;
+  Space is the last resort. No 30-tick warmup (Build 370 already waited).
+  The poll step still owns the tick until varp281>=530 game-verifies
+  completion. Scan outcome is logged every 10 ticks ("continue-link widget
+  not found -- Space fallback").
+- Verify: "physically clicking 'poll (Moving on) continue link' at X,Y"
+  lines, then the box observed gone and varp 281 -> 530, then the Account
+  Guide talk.
+- NOTE: patch uploads can 409-conflict with the screenshot uploader's
+  commits (the uploader itself sees 409/422s) -- retry the PUT a few times.
+
 ## Build 369 / patch-367 (2026-09-29 ~08:03 EDT) -- poll dialogue ownership + varp-driven completion
 - Root cause, PROVEN live (Build 368, 07:53-08:03): the poll-booth click at
   07:53:47 opened the "(Moving on)" closing dialogue, but Build 100's
