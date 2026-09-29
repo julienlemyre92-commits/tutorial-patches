@@ -1,4 +1,38 @@
+## Build 354 / patch-352 (2026-09-29 ~05:58 EDT) -- hammer-dialogue ESC ping-pong fix (review-loop worker)
+- Live result (Build 353, session started 05:53:43): RUNNING_BUILD=353 banner
+  confirmed, update restart relogged, varp281 320 -> 330 (post-bar info box
+  cleared by the relog -- the Build 353 detector never fired its "post-bar
+  info box OPEN" line, so the detector's dismiss path is still not live-proven;
+  the box self-cleared on relog as warned). Bot moved to hammer: Talk-to
+  issued 05:54:39, mine-esc2 armed 05:54:41, Talk-to re-issued 05:54:43,
+  dialogue open at 05:54:44 ("I have a bronze bar. What now?").
+- Root cause: the generic mine-esc2 ESC branch in doMining (fires on ANY
+  dialogue-open tick when the smelt gate doesn't own it) closed the
+  instructor's HAMMER dialogue one tick after talkTo opened it, then talkTo
+  re-issued -- deterministic Talk-to -> dialogue opens -> ESC closes ->
+  Talk-to ping-pong. The ESC branch sits ABOVE the hammer section in doMining,
+  so spamDialogue() never got a turn and the hammer could never arrive. Same
+  family as the Build 337 chef frame-1 loop and the Build 350 mining-intro
+  ESC loop, one level up: not a reset-click, a dialogue-kill.
+- Fix: hammer-arc ownership gate in the dialogue chain, right after the
+  Build 351 smelt gate -- while the hammer section's own condition holds
+  (no bronze dagger, no hammer, from observed inventory), an open dialogue
+  gets one spamDialogue action per tick, never ESC'd. Mirrors the smelt gate.
+- Pending verification: Build 354 banner (RUNNING_BUILD=354), "Build 354:
+  hammer next step=dialogue" lines, instructor dialogue advancing through
+  continue clicks, "Build 196: hammer received (verified in inventory)".
+- REVIEW QUESTION (open): the generic mine-esc2 ESC branch is now shadowed by
+  the smelt and hammer gates -- every arc that opens a dialogue needs its own
+  ownership gate ABOVE that branch, or the branch needs retiring in favor of
+  per-arc gates. The anvil/smithing path is UI-based (no dialogue), so it is
+  unaffected. Flag if the ESC branch still serves a live purpose.
+
 ## Build 353 / patch-351 (2026-09-29 ~05:52 EDT) -- hammer-arc info box soft-lock fix (review-loop worker)
+- VERIFIED LIVE 05:53:43: RUNNING_BUILD=353 banner; update restart relogged;
+  varp281 320 -> 330. Caveat: the "Build 353: post-bar info box OPEN"
+  detector line never fired -- the box self-cleared on the update-restart
+  relog, so the detector's dismiss path is NOT live-proven yet (same pattern
+  as the Build 352 smelt-box dismissal).
 - Live result (Build 352, session 05:29:06): BRONZE BAR SMELTED 05:45:57-05:46:06
   (Build 352 fix verified: smelt-intro info box dismissed, adjacent furnace
   walk SATISFIED 05:45:55, exact "Bronze bar" smelting-UI match, bar in
