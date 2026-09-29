@@ -896,3 +896,20 @@ Root cause found for the 07:53-07:58 stall: Build 100's poll-completion fired on
   post SWITCH_TO_COOKS and watch for: Tutorial Island disabled marker ->
   Cook's enabled/STARTUP -> SWITCH COMPLETE -> one verified quest action,
   with no automatic revert.
+## Build 392 / patch-389 (2026-09-29 ~13:10 EDT) -- mission adoption on top of 391
+
+- Build 391's strict gate would have fought Julien's own overlay toggles (his
+  stated workflow is "No you have to do it in the overlay"). 392 adds one
+  overlay-state adoption: when no mission file exists yet, the running script
+  adopts its own mission iff the other plugin is currently disabled/absent (a
+  human chose it in the overlay); when both are enabled the default
+  (tutorial) wins deterministically. Once the file exists it is authoritative.
+  All other 391 rules unchanged (claim/verify/SWITCH COMPLETE/yield/fail-safe).
+- Evidence: first _desktop screenshot (12:24:15) shows the client mid-restart
+  loading patch-387 ("Starting plugins 123/147") -- consistent with the 12:28
+  Cook's/TI toggle happening right after a fresh boot, supporting the
+  manual-overlay-toggle explanation for the 14s revert.
+- Pending verification: "Build 392: STARTUP -- RUNNING_BUILD=392 (patch-389)",
+  "Build 392: MISSION_SELECT adopt ..." (first run, no file yet),
+  "Build 392: SWITCH COMPLETE". Then post SWITCH_TO_COOKS and watch the
+  acceptance sequence.
