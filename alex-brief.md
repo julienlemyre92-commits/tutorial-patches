@@ -1,8 +1,9 @@
 ## Current build
-- **Build 406 / patch-403** (shipped 2026-09-29 ~14:28 EDT). Change: action-filtered gate resolution (NUDGE ALEX 14:19/14:20).
-- 405 looped: phase 1 chose Gate@(3262,3294) id60763 actions=[Release] (not a pen entrance), phase 2 found no Open, reset to phase 0, re-selected same gate. Repeat loop confirmed 14:18:45-14:19:20.
-- Build 406: new findPenGate406(pp, radius) rejects any Gate/Fence gate without Open or Close via getObjectComposition().getActions(), logs every rejected candidate (id/name/pos), returns nearest valid. Phase 1/2/2-recheck use the filtered resolver. No valid gate after 3 scans -> HELD (no phase cycling). MISSION_SELECT first; crossing proof unchanged.
-- Watch for: `Build 406: STARTUP -- RUNNING_BUILD=406 (patch-403)` -> `gate candidates rejected` or valid gate chosen -> one walk -> crossing proof -> dairy cow resolve.
+- **Build 407 / patch-404** (shipped 2026-09-29 ~14:42 EDT). Change: pen-side validation (NUDGE ALEX 14:38).
+- 406's action filter worked (id60763/60760 rejected) but the crossing proof was FALSE: screenshot 14:35:51 shows avatar on public path while bot claimed WorldPoint proof at inside tile (3235,3283).
+- Root cause: insideTile399's mirror fallback (2*gate-base) picks walkable-but-wrong-side tiles when no dairy cow visible; "any movement counts" claimed crossing from public-side shuffling.
+- Build 407: (1) insideTile399 has NO mirror fallback -- null if no dairy cow within 30; inside = walkable adjacent closest to cow. (2) New isPenSide407(): dairy cow within 8 tiles AND Rs2Tile.isTileReachable(cow) (no fence between). (3) Movement-only proof REJECTED -- crossing requires pen-side confirmation else HELD. (4) Dairy candidates logged with id/name/pos/dist/reachable.
+- Watch for: `Build 407: STARTUP -- RUNNING_BUILD=407 (patch-404)` -> `inside tile=(...) chosen by proximity to dairy cow` -> `PEN-SIDE CONFIRMED` -> dairy cow lookup -> milk.
 ## Build 397 / patch-394 (2026-09-29 ~13:24 EDT) -- Alex's motion correction: per-tick pos log, NPC lookup only at gate-adjacent tile
 
 Alex's correction (13:22): comparing 13:20:41 vs 13:21:43 MILK_COW frames, the player sprite SHIFTS along the fenced path (left-center -> upper-left, red route/minimap updating) -- the bot is NOT motionless. `no dairy cow nearby` is a target-search failure during movement, not proof walking stopped. Also: the 13:20:19 RuneLite WorldService Error is environmental noise, not the MILK_COW diagnosis.
