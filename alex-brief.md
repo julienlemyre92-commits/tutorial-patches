@@ -1,3 +1,24 @@
+## Build 372 / patch-370 (2026-09-29 ~08:32 EDT) -- poll box-center click (hidden-guard bypass)
+- Root cause, PROVEN by zoomed screenshots (08:20:30, 08:15:51): the
+  "(Moving on...)" box has NO rendered "Click here to continue" link --
+  Build 371's premise was wrong. The 229:4 link widget exists in the
+  interface but is genuinely hidden (not rendered). The title at 263:1 IS
+  rendered (visible blue text) yet reports hidden=true -- a FALSE reading
+  (Build 224 precedent: widgets reporting hidden=true while visibly
+  rendered), which the Build 276 guard in physicalClickWidget() turned into
+  a click refusal. Build 370's scan never fired either (findMovingOnBounds
+  bails on w.isHidden() at the root). NET: zero physical clicks were ever
+  issued on this box in 20+ min; Space (130+ presses) does nothing.
+- Fix: each dismissal tick physical-clicks the BOX CENTER -- title widget's
+  parent-container bounds (fallback: title bounds) -- via
+  physicalClickWidgetBypassHidden() (hidden guard bypassed ONLY for this
+  proven-visible target; bounds sanity kept), one click/tick, verified by
+  observed box-gone next tick. Space is the last resort when no target is
+  found. The poll step still owns the tick until varp281>=530.
+- Verify: "Build 372: physically clicking (Moving on) box center ... at X,Y
+  (hidden-guard BYPASSED ...)" lines, then box observed gone and varp 281
+  -> 530, then the Account Guide talk.
+
 ## Build 371 / patch-369 (2026-09-29 ~08:19 EDT) -- poll continue-link targeting
 - Root cause, PROVEN live (Build 370, 08:12-08:18): the Build 370 escalation
   to a PHYSICAL click never fired -- the custom getWidgetRoots() title-text
