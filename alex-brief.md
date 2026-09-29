@@ -1,3 +1,24 @@
+## Build 387 / patch-384 (2026-09-29 ~11:25 EDT) -- Cook's Assistant: research-verified fixes
+
+Julien asked for online research on the quest + overlay verification. Research
+done (OSRS wiki mirrors, rune-server dialogue dumps, an osrs-ai-bot plan):
+
+- Quest-start dialogue is a 1-1-4 trap: menu 1 "What's wrong?" -> 1, menu 2
+  "I'm always happy to help a cook in distress." -> 1, menu 3 "Actually, I
+  know where to find this stuff." -> 4. Pressing 1 on menu 3 loops the flour
+  explanation forever. The script already picks options BY TEXT
+  (COOK_START_OPTIONS String[]), which handles this correctly -- verified.
+- Dairy cow: "Prized dairy cow" (RS3 name) tried first, falls back to
+  "Dairy cow" (OSRS). Eastern Lumbridge cow field (Gillie Groats' pen, near
+  the Al-Kharid toll gate) -- script's (3256,3273) is in the right field.
+- Bucket: wiki confirms a ground spawn "in the Lumbridge cow pen" -- script
+  searches radius 20 there. Egg at chicken farm, wheat "Grain" item name,
+  Hopper/Hopper controls/Flour bin object names all confirmed.
+- Cook tile corrected to (3209,3214) per multiple sources.
+- Update oracle already reads bundle/patch-version.txt (no hardcoded const).
+
+## Build 386 / patch-383 (2026-09-29 ~11:20 EDT) -- NEW: Cook's Assistant quest bot
+(prior brief content retained below)
 ## Build 386 / patch-383 (2026-09-29 ~11:20 EDT) -- NEW: Cook's Assistant quest bot
 
 Julien's new order: after Tutorial Island, automate a beginner Lumbridge quest
