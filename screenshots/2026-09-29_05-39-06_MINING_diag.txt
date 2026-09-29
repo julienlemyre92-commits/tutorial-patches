@@ -1,0 +1,250 @@
+05:36:04  Build 130 - NO-PROGRESS GUARD. Alex 2026-09-27 20:15: 20:15:16 diag showed PRAYER with talked1=true, 90x NO VERIFIED TARGET + script-915 while 'Moving on' dialogue blocked. Runtime was in PRAYER but varp=540 requires exit flow. Fix: halt tab retries after 20 failures with clear blocker log. Verified transition, not click attempt. Keeps Build 129 - UNAMBIGUOUS VARP LABELS. 
+05:36:04  Build 129 - UNAMBIGUOUS VARP LABELS. Alex: stale 'Build 121: varp' strings confused the active build. Now: 'VARP-281' and 'VARP 281 =' with no build number -- the startup banner identifies the build. Keeps Build 128 - CORRECTED VARP THRESHOLD. 
+05:36:04  Build 128 - CORRECTED VARP THRESHOLD. Alex wiki table: 540=Exit AG room (DO IT, not skip); 550=Talk Brace (PRAYER). Old >=540 skip was wrong. Keeps Build 127 - SCAN DATA-LOSS FIX. 
+05:36:04  Build 127 - SCAN DATA-LOSS FIX. Live 2026-09-27 20:04 (Build 125): the all-roots tab scan DID fire at fb==4 (~20:00:58, fresh Build-125 session) but its 'Build 125 SCAN:' output scrolled out of the 250-line diag tail (PRAYER loop logs ~6 lines/sec -> ~40s window < 60s upload interval) before the 20:01:51 upload, so the tab-strip location was lost. Fix: (1) re-scan every 10 fallbacks (fb=4,14,24...), (2) cache a one-line SCAN-SUMMARY re-diag'd on EVERY fallback so every uploaded tail carries the group numbers. Keeps Build 126 - RESET PRAYER ON BANK SKIP. 
+05:36:04  Build 126 - RESET PRAYER ON BANK SKIP. Live 2026-09-27 20:03 (Build 123/124): varp=540 bank-skip set bankDone=true but prayerTalked1=true persisted from the 19:28 run -- doPrayer() skipped 'walk to church' and tab-clicked while outdoors. Julien: 'you have to go through 2 doors in the bank where you did one of them' -- the bot must WALK with door handling, not tab-click. Fix: Build 123 skip now calls resetPrayerFlags() so PRAYER starts fresh and walks south through both doors. Keeps Build 125 - FIND THE TAB STRIP. 
+05:36:04  Build 125 - FIND THE TAB STRIP. Live 2026-09-27 19:56 (Build 124): the Build 120 widget dump PROVED the visible flashing prayer icon is NOT in groups 548/161/164 -- 548 has 96 children but is hidden=true, 161 and 164 have 0 children. Yet the icon is visibly flashing on screen (screenshot 19:56:38). The client is in resizable mode using a different toplevel (165=ToplevelDisplay? 80? 601?). Fix: when the tab icon misses 4x fallbacks, scanAllRootsForTabs() enumerates EVERY loaded widget root for visible icon-sized widgets -- no more guessing groups. Keeps Build 124 - TIMEOUT IS NOT COMPLETION. 
+05:36:04  Build 124 - TIMEOUT IS NOT COMPLETION. Live 2026-09-27 19:51 (Build 122): Account Guide Talk-to timed out 2x (19:50:42, 19:50:48, door-blocked), then 19:50:52 logged 'Account Guide done' -- the 150-tick fail-safe marked a FAILED dialogue as complete. Alex: 'Treat dialogue timeout as failure, not completion.' Fix: the 150-tick fail-safe now checks varp 281 -- only marks done if varp>=533 (game confirms step complete); otherwise resets counter for door recovery instead of fake-completing. Keeps Build 123 - VARP-AWARE BANK SKIP. 
+05:36:04  Build 123 - VARP-AWARE BANK SKIP. Live 2026-09-27 19:50 (Build 122): varp=540 (bank 'exit' step) but bot redid the Account Guide from scratch, getting door-blocked (5s click timeouts on 'Account Guide'). Julien: 'door never been fixeed' -- the door isn't broken, redoing completed steps is. Fix: doBank() reads varp 281 at entry; if >=540 (bank complete), marks bankDone=true immediately and returns -- PRAYER's walk handles the exit door. Keeps Build 122 - CIRCUIT BREAKER FIX. 
+05:36:04  Build 122 - CIRCUIT BREAKER FIX. Live 2026-09-27 19:46 (Build 121): varp-281 detector WORKED (varp=540 -> BANK, banner confirmed 19:44:53), circuit breaker FIRED at 19:46:35 after 15 booth clicks -- but the bot stayed in BANK! Root cause: the breaker set startStage=PRAYER, but startStage is only read once by initialState(); the state machine transitions BANK->PRAYER when bankDone==true. Fix: breaker now sets bankDone=true to trigger the real transition. Keeps Build 121 - VARP 281 GROUND TRUTH. 
+05:36:04  Build 121 - VARP 281 GROUND TRUTH. Live 2026-09-27 19:42 (Build 119): bot restarted INSIDE the bank, position-detector saw the booth and returned BANK -- but the game instruction said 'Exit through the door and follow the path to the chapel' (BANK already complete). Bot looped the booth 20+ times (opened=false) for 3min while the game waited for PRAYER. Julien: 'shamefull'. Fix: (1) detectStartStage reads varplayer 281 FIRST -- the game's own tutorial progress counter (OSRS Wiki, via Alex's research) -- mapping 510-540=BANK, 550-610=PRAYER, etc. Position fallback only if varp unreadable. (2) Circuit breaker: 15 booth clicks without opening forces PRAYER. Keeps Build 120 - PRAYER WIDGET DUMP. 
+05:36:04  Build 120 - PRAYER WIDGET DUMP. Live 2026-09-27 19:38 (Build 118/119): PRAYER tab icon INVISIBLE -- packed 548:69/161:64/164:64 all null AND WorldModel name-match finds nothing (age=MAX). Bot looped 'NO VERIFIED TARGET' + script-915 (attempts 24-38) with talked1=true tab=false. Alex's independent review: 'capture the actual client/widget layout'. Fix: when a tab icon misses 3x script fallbacks, dump ALL widgets in groups 548/161/164 (children 0-150) with name/actions/bounds/hidden to the diag -- no more guessing IDs. Keeps Build 119 - CHAPEL DOOR HANG FIX. 
+05:36:04  Build 119 - CHAPEL DOOR HANG FIX. Live 2026-09-27 19:28-19:32 (Build 118): bot reached the church (y<=3115) for the PRAYER stage, but Brother Brace is behind the chapel door -- talkToOnce's npc.click('Talk-to') HUNG the tick thread for 4min (auto-walk loops on 'recovery_target_walled'), and Julien saw it 'stuck at the door repeating actions'. Fix: (1) npc.click now runs with a 5s timeout via CompletableFuture so the tick ALWAYS survives; (2) if 3+ talk attempts produce no dialog, assume a closed door is blocking and clickDoorDirect('Open') before retrying. Keeps Build 118 - CHURCH NOT BANK. 
+05:36:04  Build 118 - CHURCH NOT BANK. Live 2026-09-27 19:19 (Build 117): client restarted with the character INSIDE the chapel ('speak to Brother Brace' instruction on screen), but detectStartStage returned BANK — the Banker's 40-tile radius reaches the church (~20 tiles away) and was checked BEFORE Brother Brace, so the bot redid the Account Guide (Julien saw the friends tab open) and bank booth while the game waited for the chapel step. Fix: Brother Brace within 20 tiles now returns PRAYER before the Banker check; the bank-booth-within-10 check still covers genuinely being inside the bank room. Keeps Build 117 - BOTTOM-LINE TAB ICONS. 
+05:36:04  Build 117 - BOTTOM-LINE TAB ICONS (group 164). Live 2026-09-27 19:09 (Build 116): PRAYER flashing-icon prompt STILL looped — packed 548:69/161:64 null AND Build 116's name-match scan of groups 548+161 found nothing. Root cause: Julien's client runs the resizable BOTTOM-LINE layout — tab icons live in group 164 (RuneLite WidgetInfo RESIZABLE_VIEWPORT_BOTTOM_LINE_*_ICON, verified against WidgetInfo bytecode: prayer = 164:64), a group the bot never scanned. Fix: name-match scan + packed ID lists now cover all three layouts (548 fixed, 161 resizable-side, 164 bottom-line); group-164 icons accepted when the official-WidgetInfo-mapped widget exists, is visible and icon-sized (logged), never a blind derived child. Keeps Build 116 - VERIFIED TAB TARGETS. 
+05:36:04  Build 116 - VERIFIED TAB TARGETS FOR ALL TABS. Live 2026-09-27 19:00 (Build 115): PRAYER flashing-icon prompt looped — packed 548:69/161:64 never resolved in the WorldModel cache, so the forced physical click never fired and the script-915 fallback looped without setting the game's tutorial flag. Root cause: packed IDs are sequence-derived, never verified against the widget tree (same trap as ACC_MAN 548:72 in Build 115). Fix: WorldModel now name-matches EVERY tab icon on GameTick (groups 548/161, smallest match wins); clickTabIcon uses the verified target for all tabs (fresh name-matched bounds, else name-verified packed bounds), never a blind derived child. Keeps Build 115 - VERIFIED ACC_MAN TARGET + BOOTH PROXIMITY GATE. 
+05:36:04  Build 115 - VERIFIED ACC_MAN TARGET + BOOTH PROXIMITY GATE. Live 2026-09-27 18:45: 15+ physical clicks at packed 548:72 bounds (576,186) never advanced the tutorial (Build 113 live 18:42:20, loop 18:42:53-18:44:38) — the 548:72/161:67 IDs were derived by sequence-continuation (varc index 8), NEVER verified against the widget tree. Fix: clickTabIcon(ACC_MAN) now uses a VERIFIED target — prefers the tree-anchored name-matched bounds (fresh <10s), else the packed bounds only if the sampled widget NAME contains 'account'; logs packed name+bounds and name-matched bounds+age on EVERY click so the diag proves the target (never a blind derived child). Also: booth 'I can't reach that!' (seen in 18:44:41 screenshot) — Build 109's text-based recovery never fired, so clickBoothDirect now has a PROXIMITY GATE: if the player is >4 tiles from the booth, walk adjacent FIRST instead of clicking (text-independent). Keeps Build 114 - FORCED PHYSICAL TAB CLICK.
+05:36:04  Build 114 - FORCED PHYSICAL TAB CLICK. Live 2026-09-27 18:45: root cause of the 18:35-18:39 booth loop (click booth -> 'Click on the flashing icon to open your Account Management menu' -> click icon -> click booth, opened=false): clickTabIcon's isTabCurrent() fast path SILENTLY returned true when the account panel was already open (opened via the script-915 fallback in an earlier build), so the game's flashing-icon tutorial flag was never set and the physical click NEVER happened — no 'MOUSE CLICKED ACC_MAN' line was ever logged across ~48 booth clicks. Build 113's ACC_MAN packed IDs were correct but never reached because of this fast path. Fix: clickTabIcon(tab, forcePhysical) overload; every tutorial 'flashing icon' prompt (account, quests, prayer, magic, combat, equipment, settings, dagger-inventory, generic tab branch, account-guide step) now bypasses the fast path and always performs the real mouse click. Operational switches (open inventory to wield) keep the fast path. Keeps Build 113 - ACC_MAN PHYSICAL CLICK. Live 2026-09-27 18:36: root cause of the 18:32-18:34 booth loop (click booth -> 'Click on the flashing icon to open your Account Management menu' -> click icon -> click booth, opened=false): clickTabIcon(ACC_MAN) had NO case in its packed-ID switch (ids stayed null) and WorldModel never sampled the account icon, so the flashing icon was NEVER physically clicked. The script-915 fallback opens the tab panel but does not set the game's 'clicked the flashing icon' tutorial flag, so the Account Guide step never truly completes. Fix: ACC_MAN packed IDs 548:72 / 161:67 (varc index 8) sampled in WorldModel, plus a per-tick name-matched fallback (widget name/actions containing 'account'). Keeps Build 112 - SINGLE SCRIPT FIX. Live 2026-09-27 18:28: patch 111 shipped with TWO competing scripts (TutorialIslandScript + TutorialIslandAgentScript) in the same jar — bot went silent for 13+ min after downloading it, no screenshots, likely startup conflict. This build removes the agent, plugin injects the single TutorialIslandScript again. Keeps Build 110 - ACCOUNT GUIDE FIRST. Live 2026-09-27 18:08: fresh run looped the bank booth forever (click booth -> the game re-popped the 'Account (Management)' instruction dialog: 'The guide here will tell you all about your account. Just click on him to hear what he's got to say.' -> dismiss -> click booth, opened=false) because the bot tried to open the bank BEFORE talking to the Account Guide. Live proof the official order is Account Guide -> bank booth -> poll booth -> exit: the instruction dialog names him while the bank never opens. Now: doAccountGuideStep runs FIRST in doBank (talk, account tab, talk again), before any booth click. Keeps Build 109 (can't-reach recovery); Build 108 (Account Guide gate recovery); Build 107 (tab switch async); Build 106 (dialog-transition); Build 105 (bank door stall); Build 104 (name cache); Build 103; Build 102 (event-driven); Build 101; Build 100; Build 99; Build 98; Build 97; Build 96; Build 95; Build 94; Build 93; Build 92; Build 91; Build 90; Build 89; Build 88; Build 87; Build 86; Build 85; Build 84; Build 83; Build 82; Build 81/80.
+05:36:04  Build 104: loaded 163 cached object names (rev 240)
+05:36:04  REBUILD: WorldModel registered on event bus
+05:36:04  Build 78: Check-Update.ps1 $versionUrl line not in expected form, skipping repair
+05:36:04  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+05:36:05  Build 216: canvas-only screenshot skipped: IllegalComponentStateException
+05:36:05  Build 194: logged out 0 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+05:36:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:36:55  VARP: 281 = 320
+05:36:55  VARP-281 stage detection -> MINING (overrides position)
+05:36:55  Detected start stage: MINING
+05:36:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:36:56  Build 223: stage self-correction SKIPPED -- current machine state unreadable (null), varp281=320 live=MINING -- no force this tick, retrying next tick
+05:36:56  Build 224: CLIENT BLOCKER: blocking overlay visible ('[05:36:54] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+05:36:56  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+05:36:56  Stage: null -> MINING
+05:36:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:36:57  Build 224: cache-mismatch overlay still open after dismissal 1/3 -- re-deriving target next tick
+05:36:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:36:58  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 2/3), verifying overlay clears next tick
+05:36:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:36:59  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+05:36:59  Build 350: mining intro next step=done (pickaxe=true dagger=false bar=false hammer=false)
+05:37  Smelting bronze bar
+05:37  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:01  Build 196: walking to furnace at WorldPoint(x=3078, y=9495, plane=0) (once, verified next tick)
+05:37:01  Build 196: tick-wait 'mine-furnace-walk' armed, bound 15 ticks (non-blocking)
+05:37:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:03  Build 351: smelt next step=dialogue (smelting info dialogue open -- continue-first, no ESC)
+05:37:03  Build 197: spamDialogue phased session armed, budget 60s -- one dialogue action per tick, verifying close on following ticks
+05:37:04  dialogueTick: clicking continue (priority over keyword handling)
+05:37:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:05  Screenshot saved: 2026-09-29_05-37-05_MINING_auto.png
+05:37:06  Smelting bronze bar
+05:37:06  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:06  Diag tail uploaded: 2026-09-29_05-37-05_MINING_diag.txt
+05:37:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:08  Smelting bronze bar
+05:37:08  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:10  Smelting bronze bar
+05:37:10  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:11  Smelting bronze bar
+05:37:11  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:13  Smelting bronze bar
+05:37:13  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:15  Smelting bronze bar
+05:37:15  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:17  Smelting bronze bar
+05:37:17  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:19  Smelting bronze bar
+05:37:19  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:20  Smelting bronze bar
+05:37:20  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:22  Smelting bronze bar
+05:37:22  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:24  Smelting bronze bar
+05:37:24  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:26  Smelting bronze bar
+05:37:26  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:28  Smelting bronze bar
+05:37:28  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:30  Smelting bronze bar
+05:37:30  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:32  Smelting bronze bar
+05:37:32  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:32  Build 196: tick-wait 'mine-furnace-walk' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+05:37:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:33  Smelting bronze bar
+05:37:33  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:34  Build 196: walking to furnace at WorldPoint(x=3078, y=9495, plane=0) (once, verified next tick)
+05:37:34  Build 196: tick-wait 'mine-furnace-walk' armed, bound 15 ticks (non-blocking)
+05:37:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:36  Build 351: smelt next step=dialogue (smelting info dialogue open -- continue-first, no ESC)
+05:37:36  dialogueTick: clicking continue (priority over keyword handling)
+05:37:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:38  Smelting bronze bar
+05:37:38  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:40  Smelting bronze bar
+05:37:40  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:42  Smelting bronze bar
+05:37:42  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:44  Smelting bronze bar
+05:37:44  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:46  Smelting bronze bar
+05:37:46  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:48  Smelting bronze bar
+05:37:48  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:50  Smelting bronze bar
+05:37:50  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:52  Smelting bronze bar
+05:37:52  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:54  Smelting bronze bar
+05:37:54  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:55  Smelting bronze bar
+05:37:55  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:57  Smelting bronze bar
+05:37:57  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:59  Smelting bronze bar
+05:37:59  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:01  Smelting bronze bar
+05:38:01  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:03  Smelting bronze bar
+05:38:03  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:05  Smelting bronze bar
+05:38:05  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:05  Build 196: tick-wait 'mine-furnace-walk' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+05:38:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:06  Screenshot saved: 2026-09-29_05-38-06_MINING_auto.png
+05:38:06  Build 82: cleaned up 1 old screenshots
+05:38:06  Smelting bronze bar
+05:38:07  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:07  Build 196: walking to furnace at WorldPoint(x=3078, y=9495, plane=0) (once, verified next tick)
+05:38:07  Diag tail uploaded: 2026-09-29_05-38-06_MINING_diag.txt
+05:38:07  Build 196: tick-wait 'mine-furnace-walk' armed, bound 15 ticks (non-blocking)
+05:38:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:09  Build 351: smelt next step=dialogue (smelting info dialogue open -- continue-first, no ESC)
+05:38:09  Build 197: spamDialogue budget exhausted (60s) -- dialogue still open, re-arming next tick if caller retries: ' / '
+05:38:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:11  Build 351: smelt next step=dialogue (smelting info dialogue open -- continue-first, no ESC)
+05:38:11  Build 197: spamDialogue phased session armed, budget 60s -- one dialogue action per tick, verifying close on following ticks
+05:38:12  dialogueTick: clicking continue (priority over keyword handling)
+05:38:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:14  Smelting bronze bar
+05:38:14  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:16  Smelting bronze bar
+05:38:16  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:18  Smelting bronze bar
+05:38:18  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:20  Smelting bronze bar
+05:38:20  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:22  Smelting bronze bar
+05:38:22  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:24  Smelting bronze bar
+05:38:24  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:26  Smelting bronze bar
+05:38:26  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:28  Smelting bronze bar
+05:38:28  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:29  Smelting bronze bar
+05:38:29  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:31  Smelting bronze bar
+05:38:31  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:33  Smelting bronze bar
+05:38:33  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:35  Smelting bronze bar
+05:38:35  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:37  Smelting bronze bar
+05:38:37  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:39  Smelting bronze bar
+05:38:39  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:41  Smelting bronze bar
+05:38:41  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:41  Build 196: tick-wait 'mine-furnace-walk' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+05:38:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:43  Smelting bronze bar
+05:38:43  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:43  Build 196: walking to furnace at WorldPoint(x=3078, y=9495, plane=0) (once, verified next tick)
+05:38:44  Build 196: tick-wait 'mine-furnace-walk' armed, bound 15 ticks (non-blocking)
+05:38:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:46  Build 351: smelt next step=dialogue (smelting info dialogue open -- continue-first, no ESC)
+05:38:46  dialogueTick: clicking continue (priority over keyword handling)
+05:38:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:48  Smelting bronze bar
+05:38:48  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:50  Smelting bronze bar
+05:38:50  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:52  Smelting bronze bar
+05:38:52  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:54  Smelting bronze bar
+05:38:54  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:56  Smelting bronze bar
+05:38:56  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:57  Smelting bronze bar
+05:38:57  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:59  Smelting bronze bar
+05:38:59  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:01  Smelting bronze bar
+05:39:01  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:03  Smelting bronze bar
+05:39:03  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:05  Smelting bronze bar
+05:39:05  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:06  Screenshot saved: 2026-09-29_05-39-06_MINING_auto.png
