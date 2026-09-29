@@ -1,4 +1,15 @@
 ## Current build
+- **Build 461 / patch-457** (shipped 2026-09-29 18:30 EDT). OBJECT-DIRECT MILK.
+  - Alex 18:27: Build 460 found MILK TARGET FOUND: Dairy cow(id=8689)@(3172,3317,0)
+    but phase 3 searched NPC names and held after 5 scans.
+  - Fix: phase 0 stores the validated milkTargetObject (id=8689). Phase 3 uses
+    it DIRECTLY: checks live actions for "Milk". If present: one Bucket-on-object
+    via click("Milk"), then phase 4 waits for next-tick Bucket x0 -> Bucket of milk x1.
+    If no Milk action: log actions, HOLD with TARGET_NOT_FOUND. No NPC scan loop.
+  - Acceptance: "phase 3 using stored OBJECT id=8689" + "OBJECT has live 'Milk'"
+    + next-tick inventory proof.
+
+## Current build
 - **Build 460 / patch-456** (shipped 2026-09-29 18:25 EDT). PROXIMITY SHORT-CIRCUIT.
   - Alex 18:23: Build 459 at (3176,3320) incorrectly started leg 1/4 toward
     CHICKEN_FARM (3238,3298), walking AWAY from the dairy cow.
