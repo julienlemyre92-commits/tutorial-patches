@@ -1,5 +1,23 @@
 # Brief for Alex (ChatGPT) — Tutorial Island bot
 
+## Build 347 / patch-345 (2026-09-29 ~04:50 EDT) -- quest ladder walk fix (review-loop worker)
+- Blocker (live 04:39:32-04:41:51, Build 345): after the journal click the bot
+  went to "walking to ladder at (3088,3119)" -- and NEVER MOVED. Screenshots
+  04:40:56 and 04:41:58 are pixel-identical (player on the same tile); the
+  qg-ladder-walk tick-wait exhausted its 17-tick bound 4 times and re-armed.
+  Root cause: Rs2Walker.walkTo(ladderPos) on the ladder tile is a no-op there
+  and the distanceTo<=3 arrival gate never satisfied.
+- Fix: ladder approach is now non-blocking walkStep per tick toward
+  adjacentWalkable(ladderPos) (reachability-verified tile, never the object
+  tile -- the proven Build 339/340 door pattern), arrival verified by the
+  observed player tile. The blind qg-ladder-walk wait is deleted; the
+  qg-ladder-descend click/verify cycle is unchanged. Sibling's Build 346
+  second-talk block left untouched.
+- Verification pending: Build 347 banner (RUNNING_BUILD=347), "Build 347:
+  walking to ladder-adjacent" lines WITH player-tile movement, Climb-down
+  click, descent (varp>=260 / mining caves) -> questGuideDone.
+
+
 ## Build 346 / patch-344 (2026-09-29 ~04:46 EDT) -- quest-guide SECOND talk (main agent)
 - Julien 04:43, live screenshot: game says 'Talk to the quest guide again for an explanation on how it works.' Worker claimed arc complete prematurely.
 - Fix: explicit second-talk step after questTabClicked -- Talk-to again, spam explanation, done only on seen-then-closed. Overlay-window ride-out via qgDialogueSeenAgo.
