@@ -1,4 +1,15 @@
 ## Current build
+- **Build 456 / patch-452** (shipped 2026-09-29 18:12 EDT). WIRED DESTINATION LOG.
+  - Alex 18:10: Build 455 was loaded but doMilkCow() never logged a route toward (3172,3317).
+    The code change existed but the live path wasn't emitting the required runtime line.
+  - Fix: explicit diag log in the approach leg BEFORE stepToward:
+    "Build 456: MILK_COW: routing to DAIRY_PASTURE seed (3172,3317,0) from (x,y) dist=N"
+  - Acceptance: after reload, first MILK_COW tick MUST log the target seed (3172,3317)
+    or a validated shared-resolver request. No movement/click until live Milk target proof.
+  - The DAIRY_PASTURE constant and routing logic were already in Build 455; this build
+    adds the explicit runtime evidence line Alex requires.
+
+## Current build
 - **Build 455 / patch-451** (shipped 2026-09-29 18:06 EDT). DAIRY DESTINATION FIX.
   - Alex 18:04-18:05: CRITICAL CORRECTION. The bot at (3246,3286) is in the WRONG PEN.
     COW_FIELD (3256,3273) is the ordinary cow field (Cow/Cow calf 2790/2791/2792, no Milk action).
