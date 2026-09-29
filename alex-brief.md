@@ -1,3 +1,38 @@
+## Build 355 / patch-353 (2026-09-29 ~06:05 EDT) -- smith-arc info box + dagger substring-trap fix (review-loop worker)
+- Live result (Build 354, session started 05:59:30): RUNNING_BUILD=354 banner
+  confirmed at 05:59:30; "Build 354: hammer next step=dialogue" fired at
+  05:59:57 with spamDialogue continuing the instructor dialogue. The HAMMER
+  ARRIVED -- screenshot 06:00:31 shows hammer in inventory, tutorial
+  instruction now "Click the anvil to begin smithing. You must make a bronze
+  dagger." So the Build 354 ownership gate worked.
+- New blocker found at 06:00: with the hammer in hand, the "Smithing a
+  dagger" info box (group 229, bottom of screen) sat open and NOTHING owned
+  it (Build 353's gate only covers the no-hammer case; the box is invisible
+  to isInDialogue()). The smith section then fired with a substring trap:
+  smithUiOpen's findWidget("Dagger") fallback matched the info box's own
+  TITLE text, so Phase 3 ran with no smithing UI on screen --
+  clickSmithingDagger clicked a text widget at (146,66), a mine-dagger
+  42-tick wait armed for a dagger that could never come. Same trap class as
+  Build 351 ("Bronze" matching the bronze pickaxe) and the dialogue-text
+  "bronze bar" trap.
+- Fix: (1) miningInfoBoxOpen() also matches "Smithing a dagger" (phrase
+  collides with no item name); (2) new SMITH-ARC ownership gate -- while
+  holding bar+hammer with no dagger, an observed info box gets one dismiss
+  action per tick and nothing else runs until observed closed, never ESC'd;
+  (3) smithUiOpen and clickSmithingDagger now use exact
+  findWidget("Bronze dagger", true) only -- the "Dagger" substring fallback
+  is DELETED.
+- Pending verification: Build 355 banner (RUNNING_BUILD=355), "Build 355:
+  smith info box OPEN" lines, then observed absence, then "Build 196:
+  walking to anvil" and "Build 196: bronze dagger smithed (verified in
+  inventory)".
+- REVIEW QUESTION (updated): the pattern is now clear -- EVERY tutorial info
+  box needs an owning arc gate above the generic mine-esc2 ESC branch, and
+  every widget lookup for an ITEM NAME must be exact (substring matches item
+  text, info-box text, and dialogue text indiscriminately). Worth an audit
+  pass over the remaining substring findWidget(...) call sites in doMining
+  before the combat/bank arcs hit their own boxes.
+
 ## Build 354 / patch-352 (2026-09-29 ~05:58 EDT) -- hammer-dialogue ESC ping-pong fix (review-loop worker)
 - Live result (Build 353, session started 05:53:43): RUNNING_BUILD=353 banner
   confirmed, update restart relogged, varp281 320 -> 330 (post-bar info box
