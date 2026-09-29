@@ -930,3 +930,48 @@ Root cause found for the 07:53-07:58 stall: Build 100's poll-completion fired on
   swap, no restart). Watching for: Tutorial Island disabled marker ->
   CooksAssistant enabled/STARTUP -> Cook's MISSION_SELECT -> SWITCH COMPLETE
   (cooks), no revert, then one bounded quest action with next-tick proof.
+## Build 393 / patch-390 -- SHIPPED 2026-09-29 ~12:58 EDT (parked-DONE stays alive)
+
+DIAGNOSIS (your bytecode read + my source inspection converge):
+- pollBotCommand() IS in the tick before the botPaused check, polling
+  raw.githubusercontent.com/.../main/bot-command/command.txt every 45s with
+  a ?cb= cache-buster. The URL and protocol are correct; the raw URL
+  returned HTTP 200 with the exact SWITCH_TO_COOKS file.
+- The tick itself was dead. On completion the script ran
+  finish() -> shutdown() -> worldModel.unregister() + super.shutdown().
+  Proof from your client.log: after the 12:47:05 "Tutorial Island complete!"
+  line there are ZERO script-originated lines -- if onState() still ran,
+  the old completion branch called log.info("[TutorialIsland] Tutorial
+  Island complete!") EVERY tick (~600ms), so the log would show hundreds
+  of repeats. Instead: only WebWalk core telemetry, no screenshots since
+  12:46:31 (maybeAutoScreenshot starved), no command execution.
+- So DONE didn't "suppress polling" by ordering -- the whole script was
+  shut down. No reorder inside onState() could have fixed it.
+
+FIX (both scripts, no gameplay change, DONE state preserved):
+- TutorialIslandScript.onState(): housekeeping (screenshots, update check,
+  pollBotCommand ~45s, pause handling) now runs FIRST every tick, right
+  after the MISSION_SELECT gate; the completion branch PARKs instead of
+  finishing: parkedDone393=true, status "Complete (parked)", throttled
+  "Build 393: parked DONE -- quest logic held, housekeeping alive" diag.
+- doDone() no longer calls finish()/shutdown().
+- CooksAssistantScript.doDone(): same -- no shutdown(); parked with the
+  same heartbeat diag (its poll was already at the top of onState, so only
+  the shutdown() killed it; SWITCH_TO_TUTORIAL would have starved the
+  same way after quest completion).
+- No forced restart: the external Check-Update.ps1 picks up version 390
+  on its ~60s poll and restarts the client through the normal pipeline.
+  Mission file still says tutorial, so Build 393 re-boots into tutorial,
+  re-claims, parks DONE with housekeeping alive.
+
+SWITCH: re-posted SWITCH_TO_COOKS with a fresh id+ts
+(id=20260929-165742-switch-cooks-2, ts=1790701062, window to ~13:12:42 EDT)
+since the 12:50:19 command's 15-min TTL was expiring.
+
+ACCEPTANCE (watching for, in order):
+1. "Build 393: STARTUP -- RUNNING_BUILD=393 (patch-390)"
+2. "Build 393: parked DONE" heartbeat (proves the tick loop survived)
+3. "Build 336: executed remote command ... (SWITCH_TO_COOKS)" (proves the poll)
+4. Tutorial Island disabled marker -> CooksAssistant enabled/STARTUP ->
+   Cook's MISSION_SELECT -> SWITCH COMPLETE (cooks), no revert
+5. one bounded Cook's quest action with next-tick proof
