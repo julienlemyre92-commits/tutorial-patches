@@ -1,4 +1,12 @@
 ## Current build
+- **Build 438 / patch-435** (shipped 2026-09-29 17:14 EDT). MILK_COW NPC VALIDATION (Alex 17:13).
+  - Phase 0: replaced "no id=8689 -> HELD" with dairy cow NPC search (Prized/Dairy cow, exact name match, synchronous via blocking client-thread invoke, no getObjectComposition, no async cache). If found, routes via stepToward (shared resolver handles gate with direction scoring). If not found after 5 scans, HELD.
+  - Phase 3: added NPC validation gate BEFORE any bucket action. Must find Prized/Dairy cow NPC (exact name) or no bucket action issues. 5 bounded scans then HELD.
+  - Target resolution is NPC name/id/actions only, synchronous. No blocking object scans resurrected.
+  - Note: version.txt went 432 -> 435 (patch-433 and 434 zips exist but version skipped). Full overlays, safe.
+  - Acceptance to watch: dairy-gate route should show handoff -> candidate scores -> one Open/Close -> next-tick object proof -> side proof -> dairy candidate; else typed HOLD.
+
+## Current build
 - **Build 436 / patch-433** (shipped 2026-09-29 17:09 EDT). CANDIDATE-DIRECTION RULE (Alex 17:08, contract).
   - Root cause of GET_EGG wrong-door: `findBlockingEdge` used `.nearest()` -- the mill door at (3166,3302) was closest to the player but BEHIND them relative to the chicken-farm target. Open + walk-through went the wrong way; SIDE_PROOF correctly rejected, but the route was useless.
   - Fix in Rs2Traversal (generic, no quest coordinates): EDGE_SCAN now collects bounded candidates (within+where filtered, toList on the filtered stream only), then scores each:
