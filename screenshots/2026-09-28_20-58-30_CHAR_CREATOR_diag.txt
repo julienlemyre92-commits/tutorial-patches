@@ -1,0 +1,250 @@
+20:57:26  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:26  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:26  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:27  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:27  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:27  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:27  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:27  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:28  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:28  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:28  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:28  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:28  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:29  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:29  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:29  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:29  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:29  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:30  Screenshot saved: 2026-09-28_20-57-30_CHAR_CREATOR_auto.png
+20:57:30  Build 82: cleaned up 1 old screenshots
+20:57:30  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:30  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:30  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:30  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:30  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:31  Diag tail uploaded: 2026-09-28_20-57-30_CHAR_CREATOR_diag.txt
+20:57:31  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:31  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:31  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:31  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:31  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:32  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:32  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:32  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:32  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:32  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:33  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:33  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:33  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:33  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:33  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:34  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:34  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:34  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:34  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:34  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:35  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:35  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:35  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:35  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:35  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:35  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:36  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:36  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:36  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:36  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:36  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:36  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:37  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:37  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:37  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:37  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:37  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:37  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:37  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:37  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:38  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:38  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:38  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:38  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:38  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:39  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:39  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:39  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:39  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:39  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:40  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:40  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:40  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:40  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:40  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:41  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:41  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:41  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:41  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:41  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:42  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:42  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:42  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:42  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:42  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:43  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:43  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:43  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:43  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:43  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:44  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:44  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:44  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:44  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:44  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:45  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:45  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:45  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:45  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:45  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:46  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:46  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:46  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:46  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:46  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:47  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:47  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:47  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:47  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:47  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:48  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:48  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:48  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:48  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:48  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:49  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:49  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:49  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:49  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:49  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:50  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:50  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:50  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:50  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:50  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:51  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:51  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:51  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:51  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:51  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:51  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:52  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:52  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:52  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:52  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:52  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:52  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:52  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:53  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:53  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:53  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:53  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:53  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:53  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:53  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:54  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:54  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:54  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:54  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:54  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:55  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:55  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:55  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:55  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:55  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:56  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:56  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:56  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:56  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:56  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:57  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:57  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:57  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:57  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:57  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:58  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:58  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:58  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:58  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:58  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:57:59  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:57:59  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:57:59  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:57:59  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:57:59  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:58  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:58  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:58  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:58  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:58  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:58:01  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:58:01  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:58:01  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:58:01  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:58:01  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:58:02  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:58:02  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:58:02  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:58:02  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:58:02  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:58:03  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:58:03  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:58:03  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:58:03  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:58:03  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:58:04  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:58:04  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:58:04  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:58:04  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:58:04  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:58:05  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:58:05  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:58:05  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:58:05  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:58:05  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:58:06  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:58:06  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:58:06  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:58:06  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:58:06  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:58:07  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:58:07  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:58:07  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:58:07  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:58:07  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:58:08  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:58:08  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:58:08  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:58:08  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:58:08  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:58:09  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:58:09  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:58:09  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:58:09  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:58:09  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:58:10  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:58:10  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:58:10  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:58:10  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:58:10  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:58:10  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:58:10  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:58:10  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:58:11  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:58:11  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:58:11  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+20:58:11  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+20:58:11  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=109,y=316,width=110,height=26], relative=0,0) -- deriving click geometry
+20:58:11  Build 242: suppressing Enter (terminal no-candidate latch active)
+20:58:11  Build 229: field not verified for 'Takarigal' -- re-verifying next tick
+20:58:12  Build 214: WATCHDOG STALL: no observed gate progress for 120 ticks -- dialogOpen=true modalObserved=false pendingName=Takarigal lastAction=discovery-setname-clicked attempts=0/3 modalAttempts=0/3 -- STANDING DOWN
+20:58:13  Build 195: char creator STOOD DOWN (see earlier diag) -- holding, never completing
+20:58:30  Screenshot saved: 2026-09-28_20-58-30_CHAR_CREATOR_auto.png
+20:58:30  Build 82: cleaned up 1 old screenshots
