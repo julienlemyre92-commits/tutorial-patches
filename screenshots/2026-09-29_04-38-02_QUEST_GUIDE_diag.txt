@@ -1,0 +1,250 @@
+04:35:46  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:35:47  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:35:47  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:35:48  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:35:48  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:35:49  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:35:50  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:35:50  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:35:51  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:35:51  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:35:52  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:35:53  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:35:53  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:35:54  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:35:54  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:35:55  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:35:55  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:35:56  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:35:56  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:35:57  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:35:57  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:35:58  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:35:59  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:35:59  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:01  Screenshot saved: 2026-09-29_04-36-00_QUEST_GUIDE_auto.png
+04:36:01  Build 82: cleaned up 1 old screenshots
+04:36:01  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:01  Diag tail uploaded: 2026-09-29_04-36-00_QUEST_GUIDE_diag.txt
+04:36:02  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:02  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:03  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:03  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:04  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:04  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:05  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:05  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:06  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:06  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:07  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:08  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:08  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:09  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:36:10  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:11  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:11  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:12  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:12  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:13  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:13  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:14  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:14  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:15  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:15  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:16  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:17  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:17  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:18  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:18  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:19  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:20  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:20  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:21  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:21  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:22  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:22  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:23  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:23  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:24  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:24  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:25  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:26  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:26  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:27  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:27  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:28  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:29  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:29  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:30  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:30  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:31  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:31  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:32  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:32  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:33  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:33  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:34  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:35  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:35  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:36  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:36  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:37  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:38  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:38  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:39  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:39  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:40  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:40  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:41  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:41  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:42  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:42  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:43  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:44  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:44  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:45  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:45  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:46  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:47  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:47  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:48  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:48  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:49  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:49  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:50  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:50  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:51  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:51  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:52  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:52  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:53  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:54  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:54  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:36:55  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:36:56  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:36:57  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:36:58  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:36:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:36:59  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:37  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:37:01  Screenshot saved: 2026-09-29_04-37-01_QUEST_GUIDE_auto.png
+04:37:01  Build 82: cleaned up 1 old screenshots
+04:37:02  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:02  Diag tail uploaded: 2026-09-29_04-37-01_QUEST_GUIDE_diag.txt
+04:37:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:37:03  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:37:04  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:05  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:05  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:06  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:06  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:07  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:07  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:08  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:08  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:09  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:10  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:10  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:11  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:11  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:12  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:13  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:13  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:14  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:14  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:15  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:15  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:16  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:16  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:17  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:17  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:18  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:19  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:19  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:20  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:20  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:21  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:22  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:22  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:23  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:23  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:24  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:24  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:25  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:25  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:26  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:26  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:37:28  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:37:29  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:37:30  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:37:31  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:37:32  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:33  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:33  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:34  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:34  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:35  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:36  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:36  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:37  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:37  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:38  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:39  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:39  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:40  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:40  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:41  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:41  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:42  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:42  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:43  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:43  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:37:45  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:37:46  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:37:47  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:48  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:48  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:49  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:49  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:50  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:50  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:51  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:51  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:52  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:52  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:53  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:54  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:54  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:55  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:56  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:56  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:57  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:57  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:58  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:58  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:37:59  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:37:59  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:38  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:38  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:38:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:38:01  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 0 tick(s) ago, riding out the overlay window (no reset click)
+04:38:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:38:02  Screenshot saved: 2026-09-29_04-38-02_QUEST_GUIDE_auto.png
+04:38:02  Build 82: cleaned up 1 old screenshots
