@@ -1,3 +1,27 @@
+## Build 375 / patch-372 (2026-09-29 ~08:52 EDT) -- POLL-STUCK PROXIMITY WALK (stop talk-spam at dist 12+)
+- Root cause, PROVEN by screenshot 08:46:03 (Build 374): the "(Moving on...)"
+  box is UNCLICKABLE -- a physical click visibly landed ON the box (blue
+  marker on the title) and the box stayed open; 40+ min of clicks across
+  Builds 370-374, no continue link exists, Space dead. The box text says
+  "move on through the door indicated" -- the player stands AT the south
+  fence gate (yellow arrow on it) with the Account Guide 12-15 tiles south,
+  while the bot spammed Talk-to at dist 12-15 and the open box swallowed
+  every click (guide dialogue never opened).
+- Fix (step-model law -- explicit ordered plan): when pollDialogueStuck,
+  doAccountGuideStep does NOT talk until adjacent: (1) dist(guide)>4 -> one
+  non-blocking walkStep per tick toward adjacentWalkable(guide); (2) no
+  reachable adjacent tile OR 8 ticks with no tile progress -> one 'Open'
+  click on the nearest gate; (3) talk ONLY at dist<=4 (the gate crossing or
+  the guide dialogue is what should close the box / advance varp 525->530).
+  Scoped to pollDialogueStuck; normal varp>=530 flow untouched.
+- Ship note: two review-loop workers overlapped on this ship -- the patch was
+  compiled from the shared source tree and uploaded once as patch-372
+  (byte-identical class files verified); version.txt=372. No version reuse,
+  no overwrite.
+- Pending verification: "Build 375: STARTUP -- RUNNING_BUILD=375 (patch-372)",
+  then "Build 375: poll-stuck walk to Account Guide (dist N...)" lines with
+  shrinking dist, player tile moving south through the gate, then a real
+  guide dialogue (dialogueTick) and varp 281 -> 530.
 ## Build 374 / patch-371 (2026-09-29 ~08:43 EDT) -- poll title TRUE-POSITION click + false-phase re-talk
 - Root cause 1, PROVEN by screenshots (Build 373, 08:30-08:36): 160+ dismissal
   ticks clicked the title widget's REPORTED bounds center (259,569) -- but the
