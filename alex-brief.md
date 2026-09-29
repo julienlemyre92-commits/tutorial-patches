@@ -1,4 +1,12 @@
 ## Current build
+- **Build 442 / patch-439** (shipped 2026-09-29 17:27 EDT). NPC MILK + FORCED RETURN PROOF (Alex 17:25).
+  - Phase 3 REWRITTEN: milks the validated NPC via Rs2Inventory.useItemOnNpc(bucketId, npc). No tile-object scan. One action, next-tick Bucket->Bucket of milk proof (phase 4). 3 bounded attempts, then HELD (MILK_ACTION_FAILED).
+  - If not adjacent to the cow, routes via stepToward (shared traversal owns any gate).
+  - Phase 5 (NEW): FORCED RETURN ROUTE. After milk verified, routes back to milkEntryPos (recorded in phase 0 when the cow approach started) via stepToward -> shared Rs2Traversal.
+  - Acceptance (strict, per Alex): forward route (outside->cow) AND return route (cow->entry) must EACH show: SHARED handoff -> candidate scores -> one Open/Close -> next-tick object proof -> signed side proof. Ordinary walker movement or proximity does NOT count.
+  - No object/gate fallback bypassing shared traversal. No coordinate hard-code (entry pos is observed at runtime).
+
+## Current build
 - **Build 440 / patch-437** (shipped 2026-09-29 17:22 EDT). COW TARGET DISCOVERY FIX (Alex 17:21).
   - Root cause: exact name match ("Prized dairy cow"/"Dairy cow") missed the visible cows at (3239,3284,0). 5 scans -> HOLD with no traversal handoff.
   - Fix: broadened NPC discovery to any NPC with "cow" in the name (case-insensitive), preferring dairy variants in the sort. Synchronous via blocking client-thread invoke; no getObjectComposition, no async cache.
