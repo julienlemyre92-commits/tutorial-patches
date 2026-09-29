@@ -20,6 +20,24 @@
   down-ladder candidate" lines, "physically clicked Climb-down", plane 1->0
   observed, then the poll-booth ID match and varp 281 -> 530.
 
+## Build 363 / patch-361 (2026-09-29 ~07:24 EDT) -- poll-box title-detector miss + nameless poll booth (review-loop worker)
+- Live result (Build 362, 07:15:57-07:22): RUNNING_BUILD=362 banner and the
+  "varp281=520 >= 520 -- syncing true" line verified, but the Poll-booths box
+  sat visibly open the whole run while pollBoothsBoxOpen() returned false
+  EVERY tick (same miss class as Build 360's Banking-box detector: findWidget
+  title/body lookups unreliable for these modals) -- and the poll-booth step
+  kept missing because names resolve null for nearly every cached object
+  (Build 361 MISS DIAG: 451 cached, only Ladder named), so exact "Poll booth"
+  AND loose "poll" both miss.
+- Fix: (1) modal continue fallback in doBank -- when no dialogue is flagged
+  yet a continue control is visible, the box owns the tick: one
+  clickContinueOnce() per tick (the proven 06:56:45 Banking-box dismissal
+  path), nothing else, until observed gone; (2) object-ID fallback for the
+  poll booth (OSRS Wiki ids 26492/26796, blue closed/open) via findObjectById
+  -- needs no name resolution.
+- Superseded before verification: Build 364 shipped ~2 min later with the
+  plane-1 recovery on top; 363's fixes ride along in it.
+
 ## Build 355 / patch-353 (2026-09-29 ~06:05 EDT) -- smith-arc info box + dagger substring-trap fix (review-loop worker)
 - Live result (Build 354, session started 05:59:30): RUNNING_BUILD=354 banner
   confirmed at 05:59:30; "Build 354: hammer next step=dialogue" fired at
