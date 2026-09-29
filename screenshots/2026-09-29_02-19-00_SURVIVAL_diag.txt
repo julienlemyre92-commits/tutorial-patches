@@ -1,0 +1,250 @@
+02:18:20  fire: false
+02:18:20  Build 326: net check -- hasNet=true
+02:18:20  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3093, y=3088, plane=0) dist=10 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3105, plane=0) dist=9 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3106, y=3088, plane=0) dist=8 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3112, y=3089, plane=0) dist=9 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3114, y=3091, plane=0) dist=11 actions=[]] anchorReachable=false
+02:18:20  Build 324: fish transaction pending (2/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:21  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:21  SURVIVAL TICK
+02:18:21  inv: raw=false cooked=false logs=false
+02:18:21  fire: false
+02:18:21  Build 326: net check -- hasNet=true
+02:18:22  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3093, y=3088, plane=0) dist=10 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3095, y=3106, plane=0) dist=10 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3107, y=3089, plane=0) dist=7 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3112, y=3089, plane=0) dist=9 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3114, y=3091, plane=0) dist=11 actions=[]] anchorReachable=false
+02:18:22  Build 324: fish transaction pending (3/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:23  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:23  SURVIVAL TICK
+02:18:23  inv: raw=false cooked=false logs=false
+02:18:23  fire: false
+02:18:23  Build 326: net check -- hasNet=true
+02:18:23  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3093, y=3088, plane=0) dist=10 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3108, plane=0) dist=12 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3106, y=3088, plane=0) dist=8 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3112, y=3089, plane=0) dist=9 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3114, y=3091, plane=0) dist=11 actions=[]] anchorReachable=false
+02:18:23  Build 324: fish transaction pending (4/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:24  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:24  SURVIVAL TICK
+02:18:24  inv: raw=false cooked=false logs=false
+02:18:24  fire: false
+02:18:24  Build 326: net check -- hasNet=true
+02:18:24  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3093, y=3088, plane=0) dist=10 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3105, y=3088, plane=0) dist=8 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3112, y=3089, plane=0) dist=9 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3114, y=3091, plane=0) dist=11 actions=[]] anchorReachable=false
+02:18:24  Build 324: fish transaction pending (5/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:25  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:25  SURVIVAL TICK
+02:18:25  inv: raw=false cooked=false logs=false
+02:18:25  fire: false
+02:18:25  Build 326: net check -- hasNet=true
+02:18:25  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3093, y=3088, plane=0) dist=10 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3105, y=3088, plane=0) dist=8 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3112, y=3089, plane=0) dist=9 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3112, y=3093, plane=0) dist=9 actions=[]] anchorReachable=false
+02:18:25  Build 324: fish transaction pending (6/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:26  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:26  SURVIVAL TICK
+02:18:26  inv: raw=false cooked=false logs=false
+02:18:26  fire: false
+02:18:26  Build 326: net check -- hasNet=true
+02:18:26  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3092, y=3088, plane=0) dist=11 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3104, y=3086, plane=0) dist=10 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3110, y=3088, plane=0) dist=8 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3111, y=3093, plane=0) dist=8 actions=[]] anchorReachable=false
+02:18:26  Build 324: fish transaction pending (7/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:27  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:27  SURVIVAL TICK
+02:18:27  inv: raw=false cooked=false logs=false
+02:18:27  fire: false
+02:18:27  Build 326: net check -- hasNet=true
+02:18:27  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3090, y=3088, plane=0) dist=13 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3102, y=3086, plane=0) dist=10 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3108, y=3087, plane=0) dist=9 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3109, y=3093, plane=0) dist=6 actions=[]] anchorReachable=false
+02:18:27  Build 324: fish transaction pending (8/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:28  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:29  SURVIVAL TICK
+02:18:29  inv: raw=false cooked=false logs=false
+02:18:29  fire: false
+02:18:29  Build 326: net check -- hasNet=true
+02:18:29  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3090, y=3088, plane=0) dist=13 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3102, y=3086, plane=0) dist=10 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3108, y=3085, plane=0) dist=11 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3108, y=3095, plane=0) dist=5 actions=[]] anchorReachable=false
+02:18:29  Build 324: fish transaction pending (9/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:30  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:30  SURVIVAL TICK
+02:18:30  inv: raw=false cooked=false logs=false
+02:18:30  fire: false
+02:18:30  Build 326: net check -- hasNet=true
+02:18:30  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3090, y=3088, plane=0) dist=13 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3100, y=3086, plane=0) dist=10 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3108, y=3085, plane=0) dist=11 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3108, y=3097, plane=0) dist=5 actions=[]] anchorReachable=false
+02:18:30  Build 323: fish transaction timeout after 10 ticks, no shrimp (attempt 5/30)
+02:18:30  Build 323: fish no-progress -- rescanning spot next tick
+02:18:31  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:31  SURVIVAL TICK
+02:18:31  inv: raw=false cooked=false logs=false
+02:18:31  fire: false
+02:18:31  Build 326: net check -- hasNet=true
+02:18:31  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3089, y=3089, plane=0) dist=14 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3099, y=3086, plane=0) dist=10 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3108, y=3085, plane=0) dist=11 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3108, y=3098, plane=0) dist=5 actions=[]] anchorReachable=false
+02:18:31  Build 324 FISH-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anim=-1 fishingSpots=3 [id=3317 name='Fishing spot' tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; id=3317 name='Fishing spot' tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; id=3317 name='Fishing spot' tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]]
+02:18:31  Build 202: interactNpc 'Fishing spot' stepping closer (dist 4) -- verifying next tick
+02:18:31  Action fish completed
+02:18:31  Build 324: fish action issued (raw=0) -- transaction pending, awaiting next-tick proof
+02:18:32  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:32  SURVIVAL TICK
+02:18:32  inv: raw=false cooked=false logs=false
+02:18:32  fire: false
+02:18:32  Build 326: net check -- hasNet=true
+02:18:32  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3089, y=3089, plane=0) dist=14 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3096, y=3086, plane=0) dist=10 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3108, y=3085, plane=0) dist=11 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3108, y=3101, plane=0) dist=5 actions=[]] anchorReachable=false
+02:18:32  Build 324: fish transaction pending (1/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:33  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:33  SURVIVAL TICK
+02:18:33  inv: raw=false cooked=false logs=false
+02:18:33  fire: false
+02:18:33  Build 326: net check -- hasNet=true
+02:18:33  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3089, y=3089, plane=0) dist=14 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3098, y=3084, plane=0) dist=12 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3108, y=3085, plane=0) dist=11 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3107, y=3101, plane=0) dist=5 actions=[]] anchorReachable=false
+02:18:33  Build 324: fish transaction pending (2/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:34  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:34  SURVIVAL TICK
+02:18:34  inv: raw=false cooked=false logs=false
+02:18:34  fire: false
+02:18:35  Build 326: net check -- hasNet=true
+02:18:35  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3089, y=3089, plane=0) dist=14 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3098, y=3082, plane=0) dist=14 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3108, y=3085, plane=0) dist=11 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3107, y=3101, plane=0) dist=5 actions=[]] anchorReachable=false
+02:18:35  Build 324: fish transaction pending (3/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:36  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:36  SURVIVAL TICK
+02:18:36  inv: raw=false cooked=false logs=false
+02:18:36  fire: false
+02:18:36  Build 326: net check -- hasNet=true
+02:18:36  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3089, y=3089, plane=0) dist=14 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3099, y=3082, plane=0) dist=14 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3108, y=3085, plane=0) dist=11 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3107, y=3101, plane=0) dist=5 actions=[]] anchorReachable=false
+02:18:36  Build 324: fish transaction pending (4/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:37  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:37  SURVIVAL TICK
+02:18:37  inv: raw=false cooked=false logs=false
+02:18:37  fire: false
+02:18:37  Build 326: net check -- hasNet=true
+02:18:37  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3090, y=3088, plane=0) dist=13 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3099, y=3082, plane=0) dist=14 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3108, y=3085, plane=0) dist=11 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3107, y=3101, plane=0) dist=5 actions=[]] anchorReachable=false
+02:18:37  Build 324: fish transaction pending (5/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:38  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:38  SURVIVAL TICK
+02:18:38  inv: raw=false cooked=false logs=false
+02:18:38  fire: false
+02:18:38  Build 326: net check -- hasNet=true
+02:18:38  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3092, y=3086, plane=0) dist=11 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3101, y=3082, plane=0) dist=14 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3108, y=3085, plane=0) dist=11 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3107, y=3101, plane=0) dist=5 actions=[]] anchorReachable=false
+02:18:38  Build 324: fish transaction pending (6/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:39  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:39  SURVIVAL TICK
+02:18:39  inv: raw=false cooked=false logs=false
+02:18:39  fire: false
+02:18:39  Build 326: net check -- hasNet=true
+02:18:39  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3092, y=3086, plane=0) dist=11 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3101, y=3082, plane=0) dist=14 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3108, y=3086, plane=0) dist=10 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3107, y=3101, plane=0) dist=5 actions=[]] anchorReachable=false
+02:18:39  Build 324: fish transaction pending (7/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:40  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:40  SURVIVAL TICK
+02:18:40  inv: raw=false cooked=false logs=false
+02:18:40  fire: false
+02:18:40  Build 326: net check -- hasNet=true
+02:18:40  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3092, y=3086, plane=0) dist=11 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3101, y=3082, plane=0) dist=14 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3108, y=3088, plane=0) dist=8 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3107, y=3101, plane=0) dist=5 actions=[]] anchorReachable=false
+02:18:40  Build 324: fish transaction pending (8/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:41  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:42  SURVIVAL TICK
+02:18:42  inv: raw=false cooked=false logs=false
+02:18:42  fire: false
+02:18:42  Build 326: net check -- hasNet=true
+02:18:42  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3092, y=3086, plane=0) dist=11 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3101, y=3082, plane=0) dist=14 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3106, y=3088, plane=0) dist=8 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3107, y=3101, plane=0) dist=5 actions=[]] anchorReachable=false
+02:18:42  Build 324: fish transaction pending (9/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:43  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:43  SURVIVAL TICK
+02:18:43  inv: raw=false cooked=false logs=false
+02:18:43  fire: false
+02:18:43  Build 326: net check -- hasNet=true
+02:18:43  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3094, y=3087, plane=0) dist=9 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3101, y=3082, plane=0) dist=14 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3105, y=3088, plane=0) dist=8 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3107, y=3101, plane=0) dist=5 actions=[]] anchorReachable=false
+02:18:43  Build 323: fish transaction timeout after 10 ticks, no shrimp (attempt 6/30)
+02:18:43  Build 323: fish no-progress -- rescanning spot next tick
+02:18:44  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:44  SURVIVAL TICK
+02:18:44  inv: raw=false cooked=false logs=false
+02:18:44  fire: false
+02:18:44  Build 326: net check -- hasNet=true
+02:18:44  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3095, y=3087, plane=0) dist=9 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3101, y=3082, plane=0) dist=14 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3105, y=3088, plane=0) dist=8 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3107, y=3101, plane=0) dist=5 actions=[]] anchorReachable=false
+02:18:44  Build 324 FISH-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anim=-1 fishingSpots=3 [id=3317 name='Fishing spot' tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; id=3317 name='Fishing spot' tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; id=3317 name='Fishing spot' tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]]
+02:18:44  Build 202: interactNpc 'Fishing spot' stepping closer (dist 4) -- verifying next tick
+02:18:44  Action fish completed
+02:18:44  Build 324: fish action issued (raw=0) -- transaction pending, awaiting next-tick proof
+02:18:45  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:45  SURVIVAL TICK
+02:18:45  inv: raw=false cooked=false logs=false
+02:18:45  fire: false
+02:18:45  Build 326: net check -- hasNet=true
+02:18:45  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3095, y=3087, plane=0) dist=9 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3099, y=3082, plane=0) dist=14 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3105, y=3088, plane=0) dist=8 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3107, y=3101, plane=0) dist=5 actions=[]] anchorReachable=false
+02:18:45  Build 324: fish transaction pending (1/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:46  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:46  SURVIVAL TICK
+02:18:46  inv: raw=false cooked=false logs=false
+02:18:46  fire: false
+02:18:46  Build 326: net check -- hasNet=true
+02:18:46  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3095, y=3087, plane=0) dist=9 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3098, y=3082, plane=0) dist=14 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3105, y=3088, plane=0) dist=8 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3107, y=3101, plane=0) dist=5 actions=[]] anchorReachable=false
+02:18:46  Build 324: fish transaction pending (2/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:47  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:47  SURVIVAL TICK
+02:18:47  inv: raw=false cooked=false logs=false
+02:18:47  fire: false
+02:18:48  Build 326: net check -- hasNet=true
+02:18:48  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3095, y=3087, plane=0) dist=9 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3096, y=3082, plane=0) dist=14 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3106, y=3088, plane=0) dist=8 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3107, y=3101, plane=0) dist=5 actions=[]] anchorReachable=false
+02:18:48  Build 324: fish transaction pending (3/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:49  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:49  SURVIVAL TICK
+02:18:49  inv: raw=false cooked=false logs=false
+02:18:49  fire: false
+02:18:49  Build 326: net check -- hasNet=true
+02:18:49  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3095, y=3087, plane=0) dist=9 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3094, y=3082, plane=0) dist=14 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3106, y=3088, plane=0) dist=8 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3107, y=3101, plane=0) dist=5 actions=[]] anchorReachable=false
+02:18:49  Build 324: fish transaction pending (4/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:50  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:50  SURVIVAL TICK
+02:18:50  inv: raw=false cooked=false logs=false
+02:18:50  fire: false
+02:18:50  Build 326: net check -- hasNet=true
+02:18:50  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3095, y=3087, plane=0) dist=9 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3094, y=3082, plane=0) dist=14 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3104, y=3086, plane=0) dist=10 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3107, y=3101, plane=0) dist=5 actions=[]] anchorReachable=false
+02:18:50  Build 324: fish transaction pending (5/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:51  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:51  SURVIVAL TICK
+02:18:51  inv: raw=false cooked=false logs=false
+02:18:51  fire: false
+02:18:51  Build 326: net check -- hasNet=true
+02:18:51  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3095, y=3087, plane=0) dist=9 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3094, y=3082, plane=0) dist=14 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3103, y=3086, plane=0) dist=10 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3107, y=3101, plane=0) dist=5 actions=[]] anchorReachable=false
+02:18:51  Build 324: fish transaction pending (6/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:52  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:52  SURVIVAL TICK
+02:18:52  inv: raw=false cooked=false logs=false
+02:18:52  fire: false
+02:18:52  Build 326: net check -- hasNet=true
+02:18:52  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3095, y=3087, plane=0) dist=9 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3094, y=3082, plane=0) dist=14 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3103, y=3086, plane=0) dist=10 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3108, y=3100, plane=0) dist=5 actions=[]] anchorReachable=false
+02:18:52  Build 324: fish transaction pending (7/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:53  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:53  SURVIVAL TICK
+02:18:53  inv: raw=false cooked=false logs=false
+02:18:53  fire: false
+02:18:53  Build 326: net check -- hasNet=true
+02:18:53  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3095, y=3086, plane=0) dist=10 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3094, y=3082, plane=0) dist=14 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3103, y=3086, plane=0) dist=10 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3109, y=3098, plane=0) dist=6 actions=[]] anchorReachable=false
+02:18:53  Build 324: fish transaction pending (8/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:55  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:55  SURVIVAL TICK
+02:18:55  inv: raw=false cooked=false logs=false
+02:18:55  fire: false
+02:18:55  Build 326: net check -- hasNet=true
+02:18:55  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3097, y=3085, plane=0) dist=11 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3096, y=3082, plane=0) dist=14 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3105, y=3085, plane=0) dist=11 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3110, y=3096, plane=0) dist=7 actions=[]] anchorReachable=false
+02:18:55  Build 324: fish transaction pending (9/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:56  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:56  SURVIVAL TICK
+02:18:56  inv: raw=false cooked=false logs=false
+02:18:56  fire: false
+02:18:56  Build 326: net check -- hasNet=true
+02:18:56  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3098, y=3083, plane=0) dist=13 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3098, y=3082, plane=0) dist=14 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3107, y=3087, plane=0) dist=9 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3111, y=3096, plane=0) dist=8 actions=[]] anchorReachable=false
+02:18:56  Build 323: fish transaction timeout after 10 ticks, no shrimp (attempt 7/30)
+02:18:56  Build 323: fish no-progress -- rescanning spot next tick
+02:18:57  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:57  SURVIVAL TICK
+02:18:57  inv: raw=false cooked=false logs=false
+02:18:57  fire: false
+02:18:57  Build 326: net check -- hasNet=true
+02:18:57  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3098, y=3082, plane=0) dist=14 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3100, y=3082, plane=0) dist=14 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3107, y=3089, plane=0) dist=7 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3111, y=3096, plane=0) dist=8 actions=[]] anchorReachable=false
+02:18:57  Build 324 FISH-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anim=-1 fishingSpots=3 [id=3317 name='Fishing spot' tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; id=3317 name='Fishing spot' tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; id=3317 name='Fishing spot' tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]]
+02:18:57  Build 202: interactNpc 'Fishing spot' stepping closer (dist 4) -- verifying next tick
+02:18:57  Action fish completed
+02:18:57  Build 324: fish action issued (raw=0) -- transaction pending, awaiting next-tick proof
+02:18:58  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:58  SURVIVAL TICK
+02:18:58  inv: raw=false cooked=false logs=false
+02:18:58  fire: false
+02:18:58  Build 326: net check -- hasNet=true
+02:18:58  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3098, y=3082, plane=0) dist=14 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3101, y=3082, plane=0) dist=14 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3107, y=3091, plane=0) dist=5 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3111, y=3096, plane=0) dist=8 actions=[]] anchorReachable=false
+02:18:58  Build 324: fish transaction pending (1/10 ticks), playerAnim=-1, waiting for inventory proof
+02:18:59  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:18:59  SURVIVAL TICK
+02:18:59  inv: raw=false cooked=false logs=false
+02:18:59  fire: false
+02:18:59  Build 326: net check -- hasNet=true
+02:18:59  Build 325 REPOS-DIAG: player=WorldPoint(x=3103, y=3096, plane=0) anchor=WorldPoint(x=3101, y=3092, plane=0) distAnchor=4 nearbyNpcs=9 ['Butterfly' id=236 tile=WorldPoint(x=3096, y=3084, plane=0) dist=12 actions=[]; 'Gielinor Guide' id=3308 tile=WorldPoint(x=3094, y=3109, plane=0) dist=13 actions=[Talk-to]; 'Butterfly' id=236 tile=WorldPoint(x=3100, y=3082, plane=0) dist=14 actions=[]; 'Fishing spot' id=3317 tile=WorldPoint(x=3099, y=3090, plane=0) dist=6 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3101, y=3092, plane=0) dist=4 actions=[Net]; 'Fishing spot' id=3317 tile=WorldPoint(x=3103, y=3092, plane=0) dist=4 actions=[Net]; 'Survival Expert' id=8503 tile=WorldPoint(x=3103, y=3097, plane=0) dist=1 actions=[Talk-to]; 'Butterfly' id=234 tile=WorldPoint(x=3109, y=3089, plane=0) dist=7 actions=[]; 'Butterfly' id=234 tile=WorldPoint(x=3110, y=3096, plane=0) dist=7 actions=[]] anchorReachable=false
+02:18:59  Build 324: fish transaction pending (2/10 ticks), playerAnim=-1, waiting for inventory proof
+02:19  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:19:01  Screenshot saved: 2026-09-29_02-19-00_SURVIVAL_auto.png
+02:19:01  Build 82: cleaned up 1 old screenshots
