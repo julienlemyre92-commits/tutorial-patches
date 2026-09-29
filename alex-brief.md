@@ -1,4 +1,11 @@
 ## Current build
+- **Build 452 / patch-448** (shipped 2026-09-29 17:50 EDT). FIXTURE PRIORITY FIX.
+  - Alex 17:48: Build 451 correctly refused the zero-route fixture (dIn=1). The cow-based inside was too close but wasn't discarded, blocking the gate/waypoint fallback.
+  - Fix: too-close inside is now DISCARDED. Priority: (1) cow inside if dist>2, (2) gate far-side (5 tiles past), (3) distant waypoint (10 tiles, for idempotency testing), (4) fixture-unavailable.
+  - The waypoint fallback tests TRAVERSAL IDEMPOTENT dedup even without a gate crossing -- the resolver engages on any active request.
+  - Expected: "discarding too-close inside", then "gate fixture" or "waypoint fixture", then TRAVERSAL START + IDEMPOTENT.
+
+## Current build
 - **Build 451 / patch-447** (shipped 2026-09-29 17:46 EDT). GATE FIXTURE DISTANCE FIX.
   - Alex 17:44: Build 449 captured inside=(3245,3289) only 2 tiles from outside -- leg1 SKIPPED without engaging the resolver. dist<=2 must not count as diagnostic completion.
   - Fix: gate fixture now uses 5 tiles past the gate (not 2), guaranteeing the target is beyond stepToward's arrival threshold. The walk WILL stall at the fence, the resolver WILL engage.
