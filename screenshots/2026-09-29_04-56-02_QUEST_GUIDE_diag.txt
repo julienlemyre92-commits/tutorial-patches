@@ -1,0 +1,250 @@
+04:53:13  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:53:14  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:53:14  dialogueTick: clicking continue (priority over keyword handling)
+04:53:15  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:53:16  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 1 tick(s) ago, riding out the overlay window (no reset click)
+04:53:17  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:53:17  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 2 tick(s) ago, riding out the overlay window (no reset click)
+04:53:18  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:53:19  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 3 tick(s) ago, riding out the overlay window (no reset click)
+04:53:20  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:53:21  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 4 tick(s) ago, riding out the overlay window (no reset click)
+04:53:22  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:53:22  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 5 tick(s) ago, riding out the overlay window (no reset click)
+04:53:23  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:53:24  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 6 tick(s) ago, riding out the overlay window (no reset click)
+04:53:25  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:53:26  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 7 tick(s) ago, riding out the overlay window (no reset click)
+04:53:27  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:53:27  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 8 tick(s) ago, riding out the overlay window (no reset click)
+04:53:28  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:53:29  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3085, y=3120, plane=0)
+04:53:30  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+04:53:30  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+04:53:30  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+04:53:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:53:31  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:53:31  dialogueTick: clicking continue (priority over keyword handling)
+04:53:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:53:33  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:53:35  Quest Guide option: picking 2 (move on)
+04:53:35  dialogueTick: selecting option 2
+04:53:35  Build 190: keypress answered dialogue option 2
+04:53:36  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:53:36  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:53:36  dialogueTick: clicking continue (priority over keyword handling)
+04:53:37  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:53:38  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:53:38  dialogueTick: clicking continue (priority over keyword handling)
+04:53:39  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:53:40  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 1 tick(s) ago, riding out the overlay window (no reset click)
+04:53:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:53:41  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 2 tick(s) ago, riding out the overlay window (no reset click)
+04:53:42  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:53:43  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 3 tick(s) ago, riding out the overlay window (no reset click)
+04:53:44  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:53:45  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 4 tick(s) ago, riding out the overlay window (no reset click)
+04:53:46  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:53:47  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 5 tick(s) ago, riding out the overlay window (no reset click)
+04:53:47  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:53:48  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 6 tick(s) ago, riding out the overlay window (no reset click)
+04:53:49  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:53:50  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 7 tick(s) ago, riding out the overlay window (no reset click)
+04:53:51  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:53:52  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 8 tick(s) ago, riding out the overlay window (no reset click)
+04:53:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:53:54  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3085, y=3120, plane=0)
+04:53:54  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+04:53:54  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+04:53:54  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+04:53:55  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:53:55  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:53:55  Build 197: spamDialogue budget exhausted (60s) -- dialogue still open, re-arming next tick if caller retries: ' / Would you like to hear about quests again?'
+04:53:56  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:53:57  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:53:57  Build 197: spamDialogue phased session armed, budget 60s -- one dialogue action per tick, verifying close on following ticks
+04:53:57  dialogueTick: clicking continue (priority over keyword handling)
+04:53:58  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:53:59  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:54  Quest Guide option: picking 2 (move on)
+04:54  dialogueTick: selecting option 2
+04:54  Build 190: keypress answered dialogue option 2
+04:54:01  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:54:01  Screenshot saved: 2026-09-29_04-54-01_QUEST_GUIDE_auto.png
+04:54:01  Build 82: cleaned up 1 old screenshots
+04:54:02  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:54:02  dialogueTick: clicking continue (priority over keyword handling)
+04:54:02  Diag tail uploaded: 2026-09-29_04-54-01_QUEST_GUIDE_diag.txt
+04:54:03  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:54:03  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:54:04  dialogueTick: clicking continue (priority over keyword handling)
+04:54:05  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:54:05  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 1 tick(s) ago, riding out the overlay window (no reset click)
+04:54:06  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:54:07  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 2 tick(s) ago, riding out the overlay window (no reset click)
+04:54:08  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:54:09  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 3 tick(s) ago, riding out the overlay window (no reset click)
+04:54:10  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:54:11  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 4 tick(s) ago, riding out the overlay window (no reset click)
+04:54:11  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:54:12  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 5 tick(s) ago, riding out the overlay window (no reset click)
+04:54:13  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:54:14  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 6 tick(s) ago, riding out the overlay window (no reset click)
+04:54:15  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:54:16  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 7 tick(s) ago, riding out the overlay window (no reset click)
+04:54:16  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:54:17  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 8 tick(s) ago, riding out the overlay window (no reset click)
+04:54:18  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:54:19  Build 197: talkTo 'Quest Guide' stepping adjacent (dist 3) -- verifying position next tick
+04:54:20  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:54:21  Build 197: talkTo 'Quest Guide' stepping adjacent (dist 4) -- verifying position next tick
+04:54:22  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:54:24  Build 197: talkTo 'Quest Guide' stepping adjacent (dist 4) -- verifying position next tick
+04:54:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:54:26  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3083, y=3123, plane=0)
+04:54:26  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+04:54:26  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+04:54:26  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+04:54:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:54:27  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:54:28  dialogueTick: clicking continue (priority over keyword handling)
+04:54:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:54:30  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:54:31  Quest Guide option: picking 2 (move on)
+04:54:31  dialogueTick: selecting option 2
+04:54:31  Build 190: keypress answered dialogue option 2
+04:54:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:54:33  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:54:33  dialogueTick: clicking continue (priority over keyword handling)
+04:54:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:54:34  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:54:35  dialogueTick: clicking continue (priority over keyword handling)
+04:54:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:54:36  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 1 tick(s) ago, riding out the overlay window (no reset click)
+04:54:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:54:38  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 2 tick(s) ago, riding out the overlay window (no reset click)
+04:54:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:54:40  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 3 tick(s) ago, riding out the overlay window (no reset click)
+04:54:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:54:41  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 4 tick(s) ago, riding out the overlay window (no reset click)
+04:54:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:54:43  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 5 tick(s) ago, riding out the overlay window (no reset click)
+04:54:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:54:45  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 6 tick(s) ago, riding out the overlay window (no reset click)
+04:54:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:54:47  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 7 tick(s) ago, riding out the overlay window (no reset click)
+04:54:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:54:48  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 8 tick(s) ago, riding out the overlay window (no reset click)
+04:54:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:54:50  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3085, y=3122, plane=0)
+04:54:51  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+04:54:51  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+04:54:51  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+04:54:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:54:52  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:54:52  dialogueTick: clicking continue (priority over keyword handling)
+04:54:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:54:54  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:54:56  Quest Guide option: picking 2 (move on)
+04:54:56  dialogueTick: selecting option 2
+04:54:56  Build 190: keypress answered dialogue option 2
+04:54:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:54:57  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:54:57  Build 197: spamDialogue budget exhausted (60s) -- dialogue still open, re-arming next tick if caller retries: ' / '
+04:54:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:54:59  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:54:59  Build 197: spamDialogue phased session armed, budget 60s -- one dialogue action per tick, verifying close on following ticks
+04:54:59  dialogueTick: clicking continue (priority over keyword handling)
+04:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:55  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:55:01  dialogueTick: clicking continue (priority over keyword handling)
+04:55:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:55:02  Screenshot saved: 2026-09-29_04-55-02_QUEST_GUIDE_auto.png
+04:55:02  Build 82: cleaned up 1 old screenshots
+04:55:03  Diag tail uploaded: 2026-09-29_04-55-02_QUEST_GUIDE_diag.txt
+04:55:03  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 1 tick(s) ago, riding out the overlay window (no reset click)
+04:55:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:55:04  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 2 tick(s) ago, riding out the overlay window (no reset click)
+04:55:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:55:06  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 3 tick(s) ago, riding out the overlay window (no reset click)
+04:55:07  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:55:08  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 4 tick(s) ago, riding out the overlay window (no reset click)
+04:55:08  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:55:09  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 5 tick(s) ago, riding out the overlay window (no reset click)
+04:55:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:55:11  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 6 tick(s) ago, riding out the overlay window (no reset click)
+04:55:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:55:13  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 7 tick(s) ago, riding out the overlay window (no reset click)
+04:55:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:55:14  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 8 tick(s) ago, riding out the overlay window (no reset click)
+04:55:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:55:16  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3085, y=3122, plane=0)
+04:55:17  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+04:55:17  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+04:55:17  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+04:55:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:55:18  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:55:18  dialogueTick: clicking continue (priority over keyword handling)
+04:55:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:55:20  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:55:22  Quest Guide option: picking 2 (move on)
+04:55:22  dialogueTick: selecting option 2
+04:55:22  Build 190: keypress answered dialogue option 2
+04:55:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:55:23  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:55:23  dialogueTick: clicking continue (priority over keyword handling)
+04:55:24  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:55:25  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:55:25  dialogueTick: clicking continue (priority over keyword handling)
+04:55:26  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:55:27  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 1 tick(s) ago, riding out the overlay window (no reset click)
+04:55:28  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:55:28  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 2 tick(s) ago, riding out the overlay window (no reset click)
+04:55:29  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:55:30  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 3 tick(s) ago, riding out the overlay window (no reset click)
+04:55:31  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:55:32  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 4 tick(s) ago, riding out the overlay window (no reset click)
+04:55:33  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:55:33  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 5 tick(s) ago, riding out the overlay window (no reset click)
+04:55:34  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:55:35  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 6 tick(s) ago, riding out the overlay window (no reset click)
+04:55:36  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:55:37  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 7 tick(s) ago, riding out the overlay window (no reset click)
+04:55:38  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:55:38  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 8 tick(s) ago, riding out the overlay window (no reset click)
+04:55:39  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+04:55:40  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3085, y=3122, plane=0)
+04:55:41  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+04:55:41  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+04:55:41  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+04:55:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:55:42  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:55:42  dialogueTick: clicking continue (priority over keyword handling)
+04:55:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:55:44  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:55:46  Quest Guide option: picking 2 (move on)
+04:55:46  dialogueTick: selecting option 2
+04:55:46  Build 190: keypress answered dialogue option 2
+04:55:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:55:47  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:55:48  dialogueTick: clicking continue (priority over keyword handling)
+04:55:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:55:49  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+04:55:49  dialogueTick: clicking continue (priority over keyword handling)
+04:55:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:55:51  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 1 tick(s) ago, riding out the overlay window (no reset click)
+04:55:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:55:53  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 2 tick(s) ago, riding out the overlay window (no reset click)
+04:55:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:55:54  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 3 tick(s) ago, riding out the overlay window (no reset click)
+04:55:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:55:56  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 4 tick(s) ago, riding out the overlay window (no reset click)
+04:55:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:55:58  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 5 tick(s) ago, riding out the overlay window (no reset click)
+04:55:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:55:59  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 6 tick(s) ago, riding out the overlay window (no reset click)
+04:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:56:01  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 7 tick(s) ago, riding out the overlay window (no reset click)
+04:56:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:56:02  Screenshot saved: 2026-09-29_04-56-02_QUEST_GUIDE_auto.png
+04:56:02  Build 82: cleaned up 1 old screenshots
