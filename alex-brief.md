@@ -1,10 +1,9 @@
 ## Current build
-- **Build 450 / patch-446** (shipped 2026-09-29 17:44 EDT). GATE FIXTURE DIAGNOSTIC.
-  - Alex 17:42: Build 448's zero-distance guard works (SKIPPED, no false claim) but the resolver is never exercised because the player never enters the pen.
-  - New: findNearestGate() scans for gate/door objects in 15 tiles. The diagnostic builds a fixture: outside=player pos, inside=2 tiles past the gate on the far side.
-  - Phase 6 runs the two-leg crossing against the fixture. The walk WILL stall at the fence (40 ticks), the resolver engages, and the idempotency proof re-issues the exact key while active.
-  - Expected: "DIAG gate fixture", "TRAVERSAL START", "TRAVERSAL IDEMPOTENT" (dedup, blacklist preserved, actionId), then "DIAG leg1 COMPLETE" with handoff+tilechange, then leg2.
-  - No quest progress, no artificial success, dairy HOLD unchanged.
+- **Build 451 / patch-447** (shipped 2026-09-29 17:46 EDT). GATE FIXTURE DISTANCE FIX.
+  - Alex 17:44: Build 449 captured inside=(3245,3289) only 2 tiles from outside -- leg1 SKIPPED without engaging the resolver. dist<=2 must not count as diagnostic completion.
+  - Fix: gate fixture now uses 5 tiles past the gate (not 2), guaranteeing the target is beyond stepToward's arrival threshold. The walk WILL stall at the fence, the resolver WILL engage.
+  - "SKIPPED" renamed to "fixture-unavailable" for clarity -- if the target is too close, it's a fixture problem, not a proof.
+  - Expected: "DIAG gate fixture" with dist>2, "TRAVERSAL START", "TRAVERSAL IDEMPOTENT" with dedup proof, then leg completion with handoff+tilechange.
 
 ## Current build
 - **Build 449 / patch-445** (shipped 2026-09-29 17:42 EDT). TWO-LEG DIAGNOSTIC CROSSING.
