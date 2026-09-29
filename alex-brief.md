@@ -1,3 +1,26 @@
+## Build 384 / patch-381 (2026-09-29 ~10:33 EDT) -- CACHE-MISMATCH CHECK: GROUP ID, NOT PARENT WALK
+- Build 383 PARTIALLY APPLIED, FIX MISSED: 10:28:44 startup banner
+  RUNNING_BUILD=383 (patch-380) confirmed live, but the bot STOOD DOWN AGAIN
+  on the same chatbox text -- 'Build 383: cache-mismatch text is inside the
+  chatbox -- ignoring' NEVER fired (diag 10-29-45, only 2 'Build 383' lines:
+  STARTUP + the description comment).
+- Root cause of the 383 miss: the fix depended on Rs2Widget.getWidget(162,0)
+  returning non-null -- but 162 is the FIXED-mode chatbox root and Julien's
+  client renders the resizable-modern layout, so the root lookup is null/absent
+  -- AND on Widget.getParent() walking through the chatbox tree (chat lines
+  are dynamic children; the chain never reaches the 162:0 object). Both
+  preconditions fail silently -> fell through to 'return w' every tick.
+- Build 384 fix: no parent walk, no root lookup. RuneLite packs the interface
+  group into the widget id, so (getId() >>> 16) identifies the subtree
+  directly: 162 = fixed chatbox, 216 = resizable-modern chatbox,
+  106 = resizable-classic chatbox. Any match = chat text, ignored as a glitch
+  dialog (the ORIGINAL pre-224 handling), never a blocker. A REAL blocker
+  overlay (Build 330: sat OVER the chat box) lives in its own interface group
+  and still takes the 224 dismissal path.
+- Verify next run: 'Build 384: cache-mismatch text is a chatbox widget (group
+  NNN)' lines, NO stand-down, bot walks south to Brother Brace,
+  varp 281 550 -> 560+.
+
 ## Build 383 / patch-380 (2026-09-29 ~10:28 EDT) -- CACHE-MISMATCH CHATBOX FALSE POSITIVE
 - Build 382 VERIFIED LIVE: 10:23:22 startup banner RUNNING_BUILD=382; 10:23:52
   'Build 382 DOOR-2: door ... ADJACENT to player (dist=1) -- clicking Open';
