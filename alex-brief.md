@@ -4,11 +4,29 @@ _Maintained by Muse. Updated on every build ship. If you have web browsing,
 read this file raw before answering Julien about the bot — it's the current
 ground truth, fresher than any forwarded summary._
 
-## Current state (2026-09-29 ~04:00 EDT)
-- Live build: **337** (`patches/patch-335.zip`, `version.txt=335`)
-- Stage: **CHEF** (game's own varp281=140 since 03:47 EDT). Survival is COMPLETE
-  (lesson, chop, light, cook all happened before the 03:47 restart) — Julien's
-  "chop the wood" was stale info; he checked the stream and confirmed.
+## Current state (2026-09-29 ~04:06 EDT)
+- Live build: **338** (`patches/patch-336.zip`, `version.txt=336`)
+- Stage: **CHEF** (varp281=140). Verified live on Build 337: the chef talk-loop
+  fix WORKED — `chef next step=talk -> dialogue -> mix` progressed, the chef
+  handed over flour+water, and the combine produced Bread dough (03:58:06-09).
+- NEW bug found in the 03:58-04:00 diag + screenshots, fixed in Build 338:
+  - Mechanism: Microbot's `Rs2Inventory.hasItem("Bread")` / `contains("Bread")`
+    do SUBSTRING matching by default (`item.getName().toLowerCase().contains(...)`),
+    so they return true while holding only "Bread dough". The PHASE-1/PHASE-2
+    branch `if (!breadBaked && !hasItem("Bread"))` therefore skipped the entire
+    bake flow the instant dough was mixed; the bot printed "Have bread, exiting
+    kitchen via northwest door" and walked out with UNBAKED dough (game dialogue
+    still said "Click the nearby range to bake your dough into bread"; inventory
+    screenshot showed dough, no bread).
+  - Fix: exact matching for the baked product — `hasItem("Bread", true)` and
+    `contains("Bread", true)` in the chef branch and bake-verify; the use-on
+    "product appeared" check now uses exact `invCount(product) > 0` instead of
+    substring `invContains(product)`. Lesson: never use default hasItem/contains
+    for items whose names are prefixes of other items (Bread vs Bread dough).
+- Pending verification right now: Build 338 banner (`RUNNING_BUILD=338`), then
+  `chef next step=bake` with dough-on-range, exact-match bread observed, and
+  "Bread baked, heading to exit door" before the real exit.
+- Earlier history (kept for reference):
 - Talk loop with the Master Chef, root-caused and fixed in Build 337:
   - Mechanism: `doChef()` ran `talkTo()` before the inventory check every tick.
     `talkTo` issued a fresh Talk-to click while the intro dialogue was already
@@ -23,10 +41,7 @@ ground truth, fresher than any forwarded summary._
     logs `Build 337: chef next step=<talk|dialogue|mix|bake>`:
     dough->bake, flour+water->mix, dialogue open->dialogue (continue),
     else->talk (ONLY while ingredients are missing). Once flour+water are in
-    hand, the bot never talks to the chef again.
-- Pending verification right now: Build 337 banner, then
-  `chef next step=talk -> dialogue -> mix -> bake` progression and Bread in
-  inventory.
+    hand, the bot never talks to the chef again. (Verified live 03:58 — worked.)
 - Remote command channel (Build 336) still present: plugin polls
   `bot-command/command.txt` ~every 45s. Commands: PAUSE / RESUME / STATUS /
   RESTART. Each runs once (id persisted on disk), expires after 15 min, acks
