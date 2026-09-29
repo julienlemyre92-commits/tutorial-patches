@@ -1,4 +1,11 @@
 ## Current build
+- **Build 429 / patch-426** (shipped 2026-09-29 16:54 EDT, NUDGE ALEX 16:51). FRAMEWORK RULE: INTERACTION SEPARATE FROM NAVIGATION.
+  - Alex confirmed Build 427 end-to-end: wheat collected, WebWalk returned through mill door, player reached mill with door-edge/open diagnostics. Pathing resolver VERIFIED -- left unchanged (Rs2Traversal still Build 428).
+  - Framework rule enshrined: interaction retries (useItemOnObject: one bounded re-click after 6s no-delta, then sticky fail) are SEPARATE from navigation. A failed use-on cannot reissue a route leg, cannot reset walkHandoffActive/failedLeg*/grainTraversal, cannot invalidate a verified crossing. Both failure handlers (hopper sub 2 -> sub 1, flour bin sub 5 -> sub 3) documented; neither touches nav state.
+  - Next failure is interaction-specific (hopper use), not pathing. Do not touch Rs2Traversal for it.
+- Watch for: `Build 429: STARTUP -- RUNNING_BUILD=429 (patch-426)` -> hopper use diagnostics.
+
+## Current build
 - **Build 428 / patch-425** (shipped 2026-09-29 16:52 EDT, NUDGE ALEX 16:49). MILL RETURN HANDOFF.
   - Alex confirmed Build 427 post-door: one reachable Pick wheat id=15507 (preWheat=0, no delta), one alternate id=15506 (preWheat=1), grain observed, GET_GRAIN -> DETECT. No unreachable-click loop. Handoff/crossing fix VERIFIED in resumed state.
   - Acceptance note: NOT a fresh-start run (resumed at post-door tile). Next validation must start BEFORE the mill door and capture SIDE_PROOF + CROSSING PROOF.
