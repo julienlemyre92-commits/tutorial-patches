@@ -4,28 +4,35 @@ _Maintained by Muse. Updated on every build ship. If you have web browsing,
 read this file raw before answering Julien about the bot — it's the current
 ground truth, fresher than any forwarded summary._
 
-## Current state (2026-09-29 ~04:15 EDT)
-- Live build: **338** (`patches/patch-336.zip`, `version.txt=336`); **339**
-  (`patches/patch-337.zip`, `version.txt=337`) shipped, pickup pending.
-- Stage: **CHEF** (varp281=140). Verified live on Build 337: the chef talk-loop
-  fix WORKED — `chef next step=talk -> dialogue -> mix` progressed, the chef
-  handed over flour+water, and the combine produced Bread dough (03:58:06-09).
-- Verified live on Build 338 (04:07:18-24): exact-bread fix works — the bot
-  walked back in, used dough on the range, and the game printed "You manage to
-  bake some bread." Bread in inventory. Phase 2 (exit kitchen) began 04:07:25.
-- NEW bug found in the 04:07:24-04:10:21 diag + screenshot, fixed in Build 339:
-  - Mechanism: the chef exit phase's `Rs2Walker.walkTo(exitDoor)` targeted the
-    door tile (3071,3090) ITSELF — a wall — and froze the tick thread ~3 min
-    (04:07:27->04:10:20, only 3 diag lines; the walker finally printed
-    `stuck=5` on the unreachable goal). This is the same class as the Build 160
-    Alex fix (walkTo stalled 82s): blocking walkTo onto door tiles.
-  - Fix: chef exit phases now use non-blocking `Rs2Walker.walkStep` per tick —
-    `chef-walk-exit` walks toward a freshly-derived reachability-aware adjacent
-    tile via `adjacentWalkable(exitDoor)` (door tiles are walls); `chef-beyond-
-    exit` re-drives `walkStep(beyondExit, 0)` every tick while the tick-wait
-    polls. Arrival always verified by observed player tile, never assumed.
-    Lesson: blocking `walkTo` may only target verified-walkable tiles; door
-    goals go through `adjacentWalkable` + `walkStep`.
+## Current state (2026-09-29 ~04:22 EDT)
+- Live build: **338** (`patches/patch-336.zip`, `version.txt=336`); **340**
+  (`patches/patch-338.zip`, `version.txt=338`) shipped, pickup pending. (Build
+  339 / patch-337 shipped 04:15 but was superseded before pickup — patch-338
+  carries both fixes; every version number still unique.)
+- Stage: **QUEST_GUIDE** (flipped from CHEF ~04:12 — bread baked, kitchen
+  exited). Verified live: the bot walked the chef exit path north toward the
+  quest building (04:14:24 screenshot: mid-path, game text "Follow the path to
+  your next guide").
+- NEW bug found in the 04:12:10-04:14:24 diag, fixed in Build 340:
+  - Mechanism: the chef exit stage hands off mid-path — the stage flips on
+    varp while the player is still walking the quest-path waypoints. The quest
+    stage had NO walk step of its own: it went straight to Talk-to, which
+    failed every tick ("Build 197 talk: 'Quest Guide' not in NPC snapshot
+    (not nearby)") with the bot standing still on the path for 2+ min.
+  - Fix: doQuestGuide() now owns an ordered approach step — if not inside the
+    quest building and the guide isn't nearby, non-blocking `walkStep` per
+    tick toward `adjacentWalkable(questDoor)` (3085,3127), never standing
+    still talking at an unseen NPC. The door-enter branch now re-drives the
+    phased `openDoorOnce(9716)` every tick and walks `walkStep(insideQ, 0)`
+    per tick instead of blocking `walkTo(insideQ)` (same freeze class as the
+    Build 339 chef fix).
+- Build 339 fix (carried in patch-338): chef exit `chef-walk-exit` no longer
+  blocks `walkTo` onto the door tile itself (a wall — froze the tick ~3 min
+  live 04:07:27->04:10:20, walker `stuck=5`); non-blocking `walkStep` per
+  tick toward `adjacentWalkable(exitDoor)`; `chef-beyond-exit` re-drives
+  `walkStep(beyondExit, 0)` per tick. General lesson: blocking `walkTo` may
+  only target verified-walkable tiles; door goals go through `adjacentWalkable`
+  + non-blocking `walkStep`, arrival always verified by observed player tile.
 - NEW bug found in the 03:58-04:00 diag + screenshots, fixed in Build 338:
   - Mechanism: Microbot's `Rs2Inventory.hasItem("Bread")` / `contains("Bread")`
     do SUBSTRING matching by default (`item.getName().toLowerCase().contains(...)`),
