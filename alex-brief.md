@@ -4,8 +4,13 @@ _Maintained by Muse. Updated on every build ship. If you have web browsing,
 read this file raw before answering Julien about the bot — it's the current
 ground truth, fresher than any forwarded summary._
 
-## Current state (2026-09-29 ~03:50 EDT)
-- Live build: **335** (`patches/patch-333.zip`, `version.txt=333`)
+## Current state (2026-09-29 ~03:55 EDT)
+- Live build: **336** (`patches/patch-334.zip`, `version.txt=334`)
+- Remote command channel ("agent API") added in Build 336: the plugin polls
+  `bot-command/command.txt` ~every 45s. Commands: PAUSE / RESUME / STATUS /
+  RESTART. Each runs once (id persisted on disk), expires after 15 min, acks
+  via the diag log. Honest latency ~1-7 min (raw CDN lag). Only repo
+  collaborators can post commands.
 - Stage: **SURVIVAL** (tutorial progress varp 281)
 - Verified milestones, in order: fishing produced 2 raw shrimp (Build 329) →
   chop rejected by the tutorial until the expert's lesson runs (Build 331) →
