@@ -1,0 +1,250 @@
+05:37:36  dialogueTick: clicking continue (priority over keyword handling)
+05:37:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:38  Smelting bronze bar
+05:37:38  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:40  Smelting bronze bar
+05:37:40  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:42  Smelting bronze bar
+05:37:42  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:44  Smelting bronze bar
+05:37:44  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:46  Smelting bronze bar
+05:37:46  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:48  Smelting bronze bar
+05:37:48  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:50  Smelting bronze bar
+05:37:50  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:52  Smelting bronze bar
+05:37:52  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:54  Smelting bronze bar
+05:37:54  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:55  Smelting bronze bar
+05:37:55  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:57  Smelting bronze bar
+05:37:57  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:37:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:37:59  Smelting bronze bar
+05:37:59  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:01  Smelting bronze bar
+05:38:01  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:03  Smelting bronze bar
+05:38:03  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:05  Smelting bronze bar
+05:38:05  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:05  Build 196: tick-wait 'mine-furnace-walk' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+05:38:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:06  Screenshot saved: 2026-09-29_05-38-06_MINING_auto.png
+05:38:06  Build 82: cleaned up 1 old screenshots
+05:38:06  Smelting bronze bar
+05:38:07  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:07  Build 196: walking to furnace at WorldPoint(x=3078, y=9495, plane=0) (once, verified next tick)
+05:38:07  Diag tail uploaded: 2026-09-29_05-38-06_MINING_diag.txt
+05:38:07  Build 196: tick-wait 'mine-furnace-walk' armed, bound 15 ticks (non-blocking)
+05:38:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:09  Build 351: smelt next step=dialogue (smelting info dialogue open -- continue-first, no ESC)
+05:38:09  Build 197: spamDialogue budget exhausted (60s) -- dialogue still open, re-arming next tick if caller retries: ' / '
+05:38:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:11  Build 351: smelt next step=dialogue (smelting info dialogue open -- continue-first, no ESC)
+05:38:11  Build 197: spamDialogue phased session armed, budget 60s -- one dialogue action per tick, verifying close on following ticks
+05:38:12  dialogueTick: clicking continue (priority over keyword handling)
+05:38:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:14  Smelting bronze bar
+05:38:14  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:16  Smelting bronze bar
+05:38:16  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:18  Smelting bronze bar
+05:38:18  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:20  Smelting bronze bar
+05:38:20  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:22  Smelting bronze bar
+05:38:22  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:24  Smelting bronze bar
+05:38:24  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:26  Smelting bronze bar
+05:38:26  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:28  Smelting bronze bar
+05:38:28  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:29  Smelting bronze bar
+05:38:29  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:31  Smelting bronze bar
+05:38:31  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:33  Smelting bronze bar
+05:38:33  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:35  Smelting bronze bar
+05:38:35  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:37  Smelting bronze bar
+05:38:37  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:39  Smelting bronze bar
+05:38:39  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:41  Smelting bronze bar
+05:38:41  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:41  Build 196: tick-wait 'mine-furnace-walk' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+05:38:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:43  Smelting bronze bar
+05:38:43  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:43  Build 196: walking to furnace at WorldPoint(x=3078, y=9495, plane=0) (once, verified next tick)
+05:38:44  Build 196: tick-wait 'mine-furnace-walk' armed, bound 15 ticks (non-blocking)
+05:38:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:46  Build 351: smelt next step=dialogue (smelting info dialogue open -- continue-first, no ESC)
+05:38:46  dialogueTick: clicking continue (priority over keyword handling)
+05:38:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:48  Smelting bronze bar
+05:38:48  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:50  Smelting bronze bar
+05:38:50  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:52  Smelting bronze bar
+05:38:52  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:54  Smelting bronze bar
+05:38:54  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:56  Smelting bronze bar
+05:38:56  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:57  Smelting bronze bar
+05:38:57  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:38:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:38:59  Smelting bronze bar
+05:38:59  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:01  Smelting bronze bar
+05:39:01  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:03  Smelting bronze bar
+05:39:03  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:05  Smelting bronze bar
+05:39:05  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:06  Screenshot saved: 2026-09-29_05-39-06_MINING_auto.png
+05:39:07  Smelting bronze bar
+05:39:07  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:07  Diag tail uploaded: 2026-09-29_05-39-06_MINING_diag.txt
+05:39:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:08  Smelting bronze bar
+05:39:08  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:10  Smelting bronze bar
+05:39:10  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:12  Smelting bronze bar
+05:39:12  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:14  Smelting bronze bar
+05:39:14  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:14  Build 196: tick-wait 'mine-furnace-walk' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+05:39:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:15  Smelting bronze bar
+05:39:15  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:16  Build 196: walking to furnace at WorldPoint(x=3078, y=9495, plane=0) (once, verified next tick)
+05:39:16  Build 196: tick-wait 'mine-furnace-walk' armed, bound 15 ticks (non-blocking)
+05:39:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:18  Build 351: smelt next step=dialogue (smelting info dialogue open -- continue-first, no ESC)
+05:39:18  Build 197: spamDialogue budget exhausted (60s) -- dialogue still open, re-arming next tick if caller retries: ' / '
+05:39:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:20  Build 351: smelt next step=dialogue (smelting info dialogue open -- continue-first, no ESC)
+05:39:20  Build 197: spamDialogue phased session armed, budget 60s -- one dialogue action per tick, verifying close on following ticks
+05:39:20  dialogueTick: clicking continue (priority over keyword handling)
+05:39:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:22  Smelting bronze bar
+05:39:22  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:24  Smelting bronze bar
+05:39:24  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:26  Smelting bronze bar
+05:39:26  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:28  Smelting bronze bar
+05:39:28  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:30  Smelting bronze bar
+05:39:30  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:32  Smelting bronze bar
+05:39:32  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:34  Smelting bronze bar
+05:39:34  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:36  Smelting bronze bar
+05:39:36  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:37  Smelting bronze bar
+05:39:37  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:39  Smelting bronze bar
+05:39:39  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:41  Smelting bronze bar
+05:39:41  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:43  Smelting bronze bar
+05:39:43  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:45  Smelting bronze bar
+05:39:45  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:47  Smelting bronze bar
+05:39:47  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:49  Smelting bronze bar
+05:39:49  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:49  Build 196: tick-wait 'mine-furnace-walk' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+05:39:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:50  Smelting bronze bar
+05:39:50  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:51  Build 196: walking to furnace at WorldPoint(x=3078, y=9495, plane=0) (once, verified next tick)
+05:39:51  Build 196: tick-wait 'mine-furnace-walk' armed, bound 15 ticks (non-blocking)
+05:39:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:53  Build 351: smelt next step=dialogue (smelting info dialogue open -- continue-first, no ESC)
+05:39:53  dialogueTick: clicking continue (priority over keyword handling)
+05:39:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:55  Smelting bronze bar
+05:39:55  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:39:57  Smelting bronze bar
+05:39:57  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:39:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:40  Smelting bronze bar
+05:40  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:40:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:40:01  Smelting bronze bar
+05:40:01  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:40:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:40:03  Smelting bronze bar
+05:40:03  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:40:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:40:05  Smelting bronze bar
+05:40:05  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+05:40:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:40:06  Screenshot saved: 2026-09-29_05-40-06_MINING_auto.png
