@@ -1,4 +1,15 @@
 ## Current build
+- **Build 435 / patch-432** (shipped 2026-09-29 17:05 EDT). UNIVERSAL HANDOFF (Alex 17:04).
+  - Root cause of GET_EGG 17:02:17 silent stall: `stepToward` set `walkHandoffActive` and logged TRAVERSAL_HANDOFF, but only GET_GRAIN and MILL_FLOUR ever checked the flag. GET_EGG (and dairy/bank/cooking/Tutorial) stalled silently for 70s+ with no resolver.
+  - Fix: `stepToward` now OWNS the shared traversal lifecycle via `sharedTraversal` (script-level Rs2Traversal).
+    - Stall (40 ticks) -> immediately `requestTraversal` with `SHARED:<label>` context -> tick each call.
+    - DONE -> clear state, resume walk. FAILED -> hold with diagnostics. IN_PROGRESS -> wait.
+    - Every phase that calls `stepToward` gets this automatically. No phase checks flags.
+  - Removed redundant phase-specific handoff blocks in GET_GRAIN (WHEAT_FIELD nav) and MILL_FLOUR (MILL_RETURN_NAV). `grainTraversal` retained for wheat-target and vertical traversals (not via stepToward).
+  - Hopper sticky (Build 433) and vertical seq-pairing (Build 434) preserved. Rs2Traversal decompile-clean per Alex.
+  - Acceptance: every handoff now produces TRAVERSAL START + bounded scan/action/proof, or typed failure+HOLD within deadline. Watch for `Build 435: WALK_STALL -> TRAVERSAL_HANDOFF` followed by `TRAVERSAL START [SHARED:...]` in GET_EGG.
+
+## Current build
 - **Build 434 / patch-431** (shipped 2026-09-29 17:03 EDT). VERTICAL LATCH SEQ-PAIRING (Alex 17:02).
   - Rs2Traversal: added `climbRequestSeq` / `pendingClimbSeq`. Every `requestVerticalTraversal` increments the seq; the latch stores the seq at issue time; verification requires `pendingClimbSeq == climbRequestSeq`. Stale latches (seq mismatch) are logged and cleared, never verified.
   - Fixes the 17:01:07 out-of-order "climb-down verified plane 1->2" which fired from a stale latch before the 17:01:08 issue. Every verification is now paired with its own issued action (id/object/tile/prePlane/seq) and cannot fire before the issue tick.
