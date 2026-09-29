@@ -1,4 +1,13 @@
 ## Current build
+- **Build 443 / patch-440** (shipped 2026-09-29 17:31 EDT). CALF EXCLUSION (Alex 17:30).
+  - Root cause: Build 442 selected Cow calf id=2792 (not milkable), issued bucket-on-cow, correctly held after no delta. No return ran because milk was never proven.
+  - Fix: all three cow-NPC match sites (phase 0 discovery, phase 3 validation, phase 3 milking target) now exclude any NPC with "calf" in the name. Only adult cows are targeted.
+  - Sort still prefers "dairy" in the name, then nearest.
+  - Phase 3: one bucket-on-adult-cow, next-tick Bucket->Bucket of milk proof, 3 bounded attempts, then typed HOLD.
+  - Phase 5 return route: still armed. After milk is PROVEN, routes back to milkEntryPos via shared traversal for the gate-crossing acceptance.
+  - Status: forward/return traversal acceptance PENDING until a real milk proof occurs. If milk cannot be proven on an adult cow, typed HOLD is correct behavior.
+
+## Current build
 - **Build 442 / patch-439** (shipped 2026-09-29 17:27 EDT). NPC MILK + FORCED RETURN PROOF (Alex 17:25).
   - Phase 3 REWRITTEN: milks the validated NPC via Rs2Inventory.useItemOnNpc(bucketId, npc). No tile-object scan. One action, next-tick Bucket->Bucket of milk proof (phase 4). 3 bounded attempts, then HELD (MILK_ACTION_FAILED).
   - If not adjacent to the cow, routes via stepToward (shared traversal owns any gate).
