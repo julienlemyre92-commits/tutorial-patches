@@ -24,6 +24,12 @@ as CLICKER[tag]: branch=<name>.
 """
 
 import sys
+# --quiet (set from argv before argparse runs, because the Tesseract probe
+# below prints at import time): in --check-once mode, print only when the
+# clicker actually clicks/dismisses something. Silence the per-cycle no-op
+# lines ("Found Tesseract at", "no actionable screen detected", ...) so the
+# Supervisor terminal stays clean. Real actions still print.
+_QUIET = "--quiet" in sys.argv
 import time
 import argparse
 
@@ -45,7 +51,8 @@ try:
         ]:
             if os.path.exists(p):
                 pytesseract.pytesseract.tesseract_cmd = p
-                print(f"Found Tesseract at: {p}")
+                if not _QUIET:
+                    print(f"Found Tesseract at: {p}")
                 break
     HAS_OCR = True
 except ImportError:
@@ -82,6 +89,50 @@ def ocr_screenshot():
     screenshot = pyautogui.screenshot()
     data = pytesseract.image_to_data(screenshot, output_type=pytesseract.Output.DICT)
     return screenshot, data
+
+
+def find_exit_modal_dismiss(data, ox, oy, min_conf=50):
+    """If the Java 'Are you sure you want to exit?' modal is visible,
+    return the (x, y) center of its dismiss control ('No' or 'Cancel').
+    Otherwise None.
+
+    Build 303 (Alex 00:12): The visible control is Cancel, not No.
+    Requires the exact title 'are you sure you want to exit' AND a visible
+    'no' or 'cancel' token (conf >= 50), so we never click a stray control
+    during normal gameplay. This is a scoped blocker clear -- not a Tutorial
+    action. One click, disappearance verified on the next Supervisor cycle.
+    Returns (x, y, label) where label is 'No' or 'Cancel'.
+    """
+    texts = [(t or "").strip().lower() for t in data['text']]
+    # Exact title match (Alex 00:12 evidence).
+    has_prompt = any('are you sure you want to exit' in t for t in texts)
+    if not has_prompt:
+        return None
+    best = None
+    best_label = None
+    for i in range(len(data['text'])):
+        t = texts[i]
+        try:
+            conf = int(data['conf'][i])
+        except (ValueError, TypeError):
+            continue
+        if (t == 'no' or t == 'cancel') and conf >= min_conf:
+            h = data['height'][i]
+            x = ox + data['left'][i] + data['width'][i] // 2
+            y = oy + data['top'][i] + data['height'][i] // 2
+            if best is None or h > best[2]:
+                best = (x, y, h)
+                best_label = 'No' if t == 'no' else 'Cancel'
+    return (best[0], best[1], best_label) if best else None
+
+
+def find_exit_modal_no(data, ox, oy, min_conf=50):
+    """Legacy wrapper: returns (x, y) for the No button only.
+    Prefer find_exit_modal_dismiss for Cancel support."""
+    r = find_exit_modal_dismiss(data, ox, oy, min_conf)
+    if r and r[2] == 'No':
+        return (r[0], r[1])
+    return None
 
 
 def find_disconnect_ok(data, ox, oy, min_conf=50):
@@ -229,6 +280,31 @@ def click_at(x, y, tag):
 def heal_screen(data, ox, oy, tag):
     """Run every known login/launcher screen branch in priority order and
     click the first match. Returns the branch label, or None."""
+    # Build 303 (Alex 00:12): Exit modal is the highest-priority blocker.
+    # It overlays the game and triggers the Tutorial's native-modal gate.
+    # Dismiss via No or Cancel (exact title 'Are you sure you want to exit?').
+    # Scoped, not a Tutorial action. One click; disappearance verified on the
+    # next cycle via the marker file.
+    import os
+    marker = os.path.join(os.path.expanduser("~"), ".runelite", "exit_modal_dismissed")
+    exit_dismiss = find_exit_modal_dismiss(data, ox, oy)
+    if exit_dismiss:
+        label = exit_dismiss[2]
+        print(f"CLICKER[{tag}]: branch=exit-modal -> {label} at {exit_dismiss[0]},{exit_dismiss[1]}", flush=True)
+        click_at(exit_dismiss[0], exit_dismiss[1], tag)
+        try:
+            with open(marker, "w") as f:
+                f.write(f"{label} clicked")
+        except Exception:
+            pass
+        return "exit-modal"
+    # Build 303: Verify disappearance on the next cycle after a dismissal.
+    if os.path.exists(marker):
+        try:
+            os.remove(marker)
+        except Exception:
+            pass
+        print(f"CLICKER[{tag}]: exit-modal disappearance VERIFIED (marker cleared, modal absent)", flush=True)
     dlg = find_disconnect_ok(data, ox, oy)
     if dlg:
         print(f"CLICKER[{tag}]: branch=disconnect-modal -> Ok at {dlg[0]},{dlg[1]}", flush=True)
@@ -254,7 +330,8 @@ def heal_screen(data, ox, oy, tag):
         print(f"CLICKER[{tag}]: branch=standalone-play at {sp[0]},{sp[1]}", flush=True)
         click_at(sp[0], sp[1], tag)
         return "standalone-play"
-    print(f"CLICKER[{tag}]: no actionable screen detected", flush=True)
+    if not _QUIET or tag != "check-once":
+        print(f"CLICKER[{tag}]: no actionable screen detected", flush=True)
     return None
 
 
@@ -314,10 +391,12 @@ def check_once():
         windows = [w for w in pyautogui.getWindowsWithTitle("Jagex Launcher")
                    if "jagex launcher" in w.title.strip().lower()]
     if not windows:
-        print("CLICKER[check-once]: no RuneLite/Jagex Launcher window", flush=True)
+        if not _QUIET:
+            print("CLICKER[check-once]: no RuneLite/Jagex Launcher window", flush=True)
         return 0
     if not HAS_OCR:
-        print("CLICKER[check-once]: no OCR available", flush=True)
+        if not _QUIET:
+            print("CLICKER[check-once]: no OCR available", flush=True)
         return 0
     ensure_window_visible(windows[0], "check-once")
     data, ox, oy = ocr_game_window()
@@ -425,6 +504,10 @@ def main():
                         help='Single non-blocking pass: dismiss disconnect dialog / click '
                              'CLICK HERE TO PLAY / Login / Play Now if visible, then exit. '
                              'Designed to be called every Supervisor cycle.')
+    parser.add_argument('--quiet', action='store_true',
+                        help='With --check-once: print only when the clicker actually '
+                             'clicks/dismisses something. Silences the per-cycle no-op '
+                             'lines so the Supervisor terminal stays clean.')
     parser.add_argument('--dump-ocr', action='store_true',
                         help='Print every OCR token (conf>=30) with coordinates and exit. '
                              'Diagnostics for tuning the matchers on a stuck screen.')
