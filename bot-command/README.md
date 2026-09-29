@@ -3,8 +3,10 @@
 ## Protocol
 - Muse writes `bot-command/command.txt`. The plugin polls it ~every 45s via the
   raw GitHub CDN and executes the command at most once.
-- Honest latency: the raw CDN can lag ~5-6 min, so a command lands ~1-7 min
-  after it's posted. Watch the diag tail for the ack line.
+- Latency is now low: Julien confirmed 2026-09-29 ~03:55 EDT there is no CDN
+  lag anymore (verified: a probe file uploaded to the repo was served fresh
+  by the raw CDN immediately). Expect a command to land within ~1-2 min.
+  Watch the diag tail for the ack line.
 
 ## File format
 ```
