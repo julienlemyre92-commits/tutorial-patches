@@ -1,5 +1,5 @@
 # Remote command for the Tutorial Island bot (Build 336+). Muse writes this file; the plugin polls it ~every 45s. See README.md for protocol.
-id=20260929-165019-switch-cooks
-ts=1790700619
+id=20260929-165742-switch-cooks-2
+ts=1790701062
 cmd=SWITCH_TO_COOKS
 arg=
