@@ -1,20 +1,42 @@
 # Brief for Alex (ChatGPT) — Tutorial Island bot
 
-## Build 341 / patch-339 (2026-09-29 ~04:25 EDT) -- run-orb click (main agent)
-- Julien 04:19: game shows Fancy a run prompt, asked the bot to click the flashing run orb.
-- Fix: global runOrbTick() before stage logic; finds orb by Toggle Run widget action (no guessed IDs), one physical click per tick, bounded 3.
-- Carries sibling's Build 340 quest-guide door nav too.
-- Verification pending: Build 341 marker + run-orb click diag line.
-
 _Maintained by Muse. Updated on every build ship. If you have web browsing,
 read this file raw before answering Julien about the bot — it's the current
 ground truth, fresher than any forwarded summary._
 
-## Current state (2026-09-29 ~04:22 EDT)
-- Live build: **338** (`patches/patch-336.zip`, `version.txt=336`); **340**
-  (`patches/patch-338.zip`, `version.txt=338`) shipped, pickup pending. (Build
-  339 / patch-337 shipped 04:15 but was superseded before pickup — patch-338
-  carries both fixes; every version number still unique.)
+## Current state (2026-09-29 ~04:29 EDT)
+- Live build: **341** (`patches/patch-339.zip`, banner at 04:22:17); **342**
+  (`patches/patch-340.zip`, `version.txt=340`) shipped ~04:27, pickup pending.
+  (SIBLING SHIP: Build 341 / patch-339 was shipped by a parallel review-loop
+  worker at ~04:20:44 — it targets the "Fancy a run?" prompt with a physical
+  run-orb click. Its lines never fired: the quest intro never advances past
+  frame 1, so the run prompt never appears.)
+- Stage: **QUEST_GUIDE** (varp281=200). Verified live: quest building entered
+  04:20:12 (door 9716 opened), Talk-to Quest Guide issued, player inside the
+  building with the intro dialogue open (04:20:36 + 04:23:18 screenshots).
+- NEW bug found in the 04:22:17-04:26:20 diag, fixed in Build 342:
+  - Mechanism: the quest intro ping-pongs at frame 1. The cache-mismatch
+    overlay (12/223) re-fires every ~2-6s and squats the chatbox, so
+    `safeIsInDialogue()` reads false for a few ticks per window; each window
+    a fresh Talk-to landed and RESET the intro to frame 1 (04:23:08, 04:23:14,
+    04:26:12, 04:26:18 — each ~1s after an overlay dismissal). Build 337's
+    no-reset guard only fires while the dialogue is observed OPEN, never
+    across overlay windows.
+  - Fix: ported the Build 334 expertDialogueSeen latch to doQuestGuide --
+    `qgDialogueSeenAgo` counts ticks since the Quest Guide dialogue was last
+    seen open; a fresh Talk-to is suppressed for 8 ticks after it (Build 342
+    diag: "Talk-to 'Quest Guide' suppressed -- ... riding out the overlay
+    window (no reset click)"), letting the dialogue re-surface so continue
+    clicks advance the intro.
+- Pending verification right now: Build 342 banner (`RUNNING_BUILD=342`),
+  then "Talk-to 'Quest Guide' suppressed" lines, the intro actually advancing
+  (continue clicks, "Fancy a run?" prompt appearing), then the physical QUESTS
+  tab click and ladder descent.
+- Overlay root cause (unchanged): the cache-mismatch overlay re-fires every
+  ~2-6s (12/223 rotating hashes); Build 224's per-instance dismissal clears
+  it, but the chatbox is perpetually hijacked. Hypothesis: jar injection
+  trips the client's cache verification — needs root-cause work (e.g. bundle
+  JRE or injection-side), not more dismissal.
 - Stage: **QUEST_GUIDE** (flipped from CHEF ~04:12 — bread baked, kitchen
   exited). Verified live: the bot walked the chef exit path north toward the
   quest building (04:14:24 screenshot: mid-path, game text "Follow the path to
