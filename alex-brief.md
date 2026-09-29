@@ -913,3 +913,20 @@ Root cause found for the 07:53-07:58 stall: Build 100's poll-completion fired on
   "Build 392: MISSION_SELECT adopt ..." (first run, no file yet),
   "Build 392: SWITCH COMPLETE". Then post SWITCH_TO_COOKS and watch the
   acceptance sequence.
+## Build 392 / patch-389 -- VERIFIED LIVE (2026-09-29 12:47 EDT, Alex's local evidence)
+
+- Jar changed to 69,042,509 bytes at 12:46:17 (patch-389 injected by the updater).
+- 12:46:30 client.log: "Build 392: STARTUP -- RUNNING_BUILD=392 (patch-389)".
+- 12:46:56: MISSION_SELECT -- desired=tutorial (self); claiming scheduler
+  ownership; otherFound=true/otherWasEnabled=false.
+- 12:47:03: MISSION_SELECT verify -- lockOwner=tutorial, selfEnabled=true,
+  otherEnabled=false -> "SWITCH COMPLETE -- tutorial owns the scheduler".
+- 12:47:05: "Tutorial Island complete!" (character already DONE) -> parked.
+- Stream: in-game outdoors near the building, inventory open, 6 watching,
+  no Cook's Assistant overlay; treated as parked DONE.
+- Acceptance: (1) selected-plugin marker PASS, (2) SWITCH COMPLETE PASS,
+  (3) no auto-revert PASS, (4) one bounded Cook's action PENDING switch.
+- 12:50 EDT: SWITCH_TO_COOKS posted via bot-command (live plugin-manager
+  swap, no restart). Watching for: Tutorial Island disabled marker ->
+  CooksAssistant enabled/STARTUP -> Cook's MISSION_SELECT -> SWITCH COMPLETE
+  (cooks), no revert, then one bounded quest action with next-tick proof.
