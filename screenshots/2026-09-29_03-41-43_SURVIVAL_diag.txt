@@ -1,0 +1,250 @@
+03:40:39  dialogueTick: clicking continue (priority over keyword handling)
+03:40:40  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:40:40  SURVIVAL TICK
+03:40:40  inv: raw=true cooked=false logs=false
+03:40:40  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:40:40  fire: false
+03:40:40  Build 166 talk: 'Survival Expert' id=8503 idx=1720 at WorldPoint(x=3105, y=3096, plane=0) dist=1
+03:40:41  Build 166 talk: direct invoke 'Talk-to' on 'Survival Expert' id=8503 idx=1720
+03:40:42  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:40:42  Screenshot saved: 2026-09-29_03-40-42_SURVIVAL_auto.png
+03:40:42  SURVIVAL TICK
+03:40:42  inv: raw=true cooked=false logs=false
+03:40:42  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:40:42  fire: false
+03:40:42  dialogueTick: clicking continue (priority over keyword handling)
+03:40:43  Diag tail uploaded: 2026-09-29_03-40-42_SURVIVAL_diag.txt
+03:40:43  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:40:43  SURVIVAL TICK
+03:40:43  inv: raw=true cooked=false logs=false
+03:40:43  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:40:43  fire: false
+03:40:44  Build 166 talk: 'Survival Expert' id=8503 idx=1720 at WorldPoint(x=3105, y=3096, plane=0) dist=1
+03:40:44  Build 166 talk: direct invoke 'Talk-to' on 'Survival Expert' id=8503 idx=1720
+03:40:45  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:40:45  SURVIVAL TICK
+03:40:45  inv: raw=true cooked=false logs=false
+03:40:45  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:40:45  fire: false
+03:40:46  dialogueTick: clicking continue (priority over keyword handling)
+03:40:47  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:40:47  SURVIVAL TICK
+03:40:47  inv: raw=true cooked=false logs=false
+03:40:47  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:40:47  fire: false
+03:40:47  Build 166 talk: 'Survival Expert' id=8503 idx=1720 at WorldPoint(x=3105, y=3096, plane=0) dist=1
+03:40:47  Build 166 talk: direct invoke 'Talk-to' on 'Survival Expert' id=8503 idx=1720
+03:40:48  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:40:48  SURVIVAL TICK
+03:40:48  inv: raw=true cooked=false logs=false
+03:40:48  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:40:48  fire: false
+03:40:49  dialogueTick: clicking continue (priority over keyword handling)
+03:40:50  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:40:50  SURVIVAL TICK
+03:40:50  inv: raw=true cooked=false logs=false
+03:40:50  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:40:50  fire: false
+03:40:50  Build 166 talk: 'Survival Expert' id=8503 idx=1720 at WorldPoint(x=3105, y=3096, plane=0) dist=1
+03:40:51  Build 166 talk: direct invoke 'Talk-to' on 'Survival Expert' id=8503 idx=1720
+03:40:52  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:40:52  SURVIVAL TICK
+03:40:52  inv: raw=true cooked=false logs=false
+03:40:52  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:40:52  fire: false
+03:40:52  dialogueTick: clicking continue (priority over keyword handling)
+03:40:53  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:40:53  SURVIVAL TICK
+03:40:53  inv: raw=true cooked=false logs=false
+03:40:53  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:40:53  fire: false
+03:40:54  Build 166 talk: 'Survival Expert' id=8503 idx=1720 at WorldPoint(x=3105, y=3096, plane=0) dist=1
+03:40:54  Build 166 talk: direct invoke 'Talk-to' on 'Survival Expert' id=8503 idx=1720
+03:40:55  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:40:55  SURVIVAL TICK
+03:40:55  inv: raw=true cooked=false logs=false
+03:40:55  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:40:55  fire: false
+03:40:55  dialogueTick: clicking continue (priority over keyword handling)
+03:40:56  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:40:56  SURVIVAL TICK
+03:40:56  inv: raw=true cooked=false logs=false
+03:40:57  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:40:57  fire: false
+03:40:57  Build 166 talk: 'Survival Expert' id=8503 idx=1720 at WorldPoint(x=3105, y=3096, plane=0) dist=1
+03:40:57  Build 166 talk: direct invoke 'Talk-to' on 'Survival Expert' id=8503 idx=1720
+03:40:58  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:40:58  Build 224: CLIENT BLOCKER: blocking overlay visible ('[03:40:58] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+03:40:58  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+03:40:59  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:40:59  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+03:40:59  SURVIVAL TICK
+03:40:59  inv: raw=true cooked=false logs=false
+03:40:59  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:40:59  fire: false
+03:41  Build 197: spamDialogue budget exhausted (30s) -- dialogue still open, re-arming next tick if caller retries: ' / Next up you need to make a fire. First, you'll need to<br>cut down a tree to get some logs.'
+03:41:01  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:01  SURVIVAL TICK
+03:41:01  inv: raw=true cooked=false logs=false
+03:41:01  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:01  fire: false
+03:41:01  Build 197: spamDialogue phased session armed, budget 30s -- one dialogue action per tick, verifying close on following ticks
+03:41:01  dialogueTick: clicking continue (priority over keyword handling)
+03:41:02  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:02  SURVIVAL TICK
+03:41:02  inv: raw=true cooked=false logs=false
+03:41:02  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:02  fire: false
+03:41:03  Build 166 talk: 'Survival Expert' id=8503 idx=1720 at WorldPoint(x=3105, y=3096, plane=0) dist=1
+03:41:03  Build 166 talk: direct invoke 'Talk-to' on 'Survival Expert' id=8503 idx=1720
+03:41:04  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:04  SURVIVAL TICK
+03:41:04  inv: raw=true cooked=false logs=false
+03:41:04  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:04  fire: false
+03:41:05  dialogueTick: clicking continue (priority over keyword handling)
+03:41:06  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:06  SURVIVAL TICK
+03:41:06  inv: raw=true cooked=false logs=false
+03:41:06  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:06  fire: false
+03:41:06  Build 166 talk: 'Survival Expert' id=8503 idx=1720 at WorldPoint(x=3105, y=3096, plane=0) dist=1
+03:41:06  Build 166 talk: direct invoke 'Talk-to' on 'Survival Expert' id=8503 idx=1720
+03:41:07  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:08  SURVIVAL TICK
+03:41:08  inv: raw=true cooked=false logs=false
+03:41:08  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:08  fire: false
+03:41:08  dialogueTick: clicking continue (priority over keyword handling)
+03:41:09  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:09  SURVIVAL TICK
+03:41:09  inv: raw=true cooked=false logs=false
+03:41:09  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:09  fire: false
+03:41:09  Build 166 talk: 'Survival Expert' id=8503 idx=1720 at WorldPoint(x=3105, y=3096, plane=0) dist=1
+03:41:10  Build 166 talk: direct invoke 'Talk-to' on 'Survival Expert' id=8503 idx=1720
+03:41:11  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:11  SURVIVAL TICK
+03:41:11  inv: raw=true cooked=false logs=false
+03:41:11  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:11  fire: false
+03:41:11  dialogueTick: clicking continue (priority over keyword handling)
+03:41:12  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:12  SURVIVAL TICK
+03:41:12  inv: raw=true cooked=false logs=false
+03:41:12  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:12  fire: false
+03:41:13  Build 166 talk: 'Survival Expert' id=8503 idx=1720 at WorldPoint(x=3105, y=3096, plane=0) dist=1
+03:41:13  Build 166 talk: direct invoke 'Talk-to' on 'Survival Expert' id=8503 idx=1720
+03:41:14  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:14  SURVIVAL TICK
+03:41:14  inv: raw=true cooked=false logs=false
+03:41:14  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:14  fire: false
+03:41:15  dialogueTick: clicking continue (priority over keyword handling)
+03:41:16  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:16  SURVIVAL TICK
+03:41:16  inv: raw=true cooked=false logs=false
+03:41:16  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:16  fire: false
+03:41:16  Build 166 talk: 'Survival Expert' id=8503 idx=1720 at WorldPoint(x=3105, y=3096, plane=0) dist=1
+03:41:17  Build 166 talk: direct invoke 'Talk-to' on 'Survival Expert' id=8503 idx=1720
+03:41:18  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:18  SURVIVAL TICK
+03:41:18  inv: raw=true cooked=false logs=false
+03:41:18  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:18  fire: false
+03:41:18  dialogueTick: clicking continue (priority over keyword handling)
+03:41:19  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:19  SURVIVAL TICK
+03:41:19  inv: raw=true cooked=false logs=false
+03:41:19  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:19  fire: false
+03:41:19  Build 166 talk: 'Survival Expert' id=8503 idx=1720 at WorldPoint(x=3105, y=3096, plane=0) dist=1
+03:41:20  Build 166 talk: direct invoke 'Talk-to' on 'Survival Expert' id=8503 idx=1720
+03:41:21  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:21  SURVIVAL TICK
+03:41:21  inv: raw=true cooked=false logs=false
+03:41:21  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:21  fire: false
+03:41:21  dialogueTick: clicking continue (priority over keyword handling)
+03:41:22  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:22  SURVIVAL TICK
+03:41:22  inv: raw=true cooked=false logs=false
+03:41:22  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:22  fire: false
+03:41:23  Build 166 talk: 'Survival Expert' id=8503 idx=1720 at WorldPoint(x=3105, y=3096, plane=0) dist=1
+03:41:23  Build 166 talk: direct invoke 'Talk-to' on 'Survival Expert' id=8503 idx=1720
+03:41:24  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:24  SURVIVAL TICK
+03:41:24  inv: raw=true cooked=false logs=false
+03:41:24  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:24  fire: false
+03:41:25  dialogueTick: clicking continue (priority over keyword handling)
+03:41:26  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:26  SURVIVAL TICK
+03:41:26  inv: raw=true cooked=false logs=false
+03:41:26  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:26  fire: false
+03:41:26  Build 166 talk: 'Survival Expert' id=8503 idx=1720 at WorldPoint(x=3105, y=3096, plane=0) dist=1
+03:41:26  Build 166 talk: direct invoke 'Talk-to' on 'Survival Expert' id=8503 idx=1720
+03:41:27  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:28  SURVIVAL TICK
+03:41:28  inv: raw=true cooked=false logs=false
+03:41:28  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:28  fire: false
+03:41:28  dialogueTick: clicking continue (priority over keyword handling)
+03:41:29  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:29  SURVIVAL TICK
+03:41:29  inv: raw=true cooked=false logs=false
+03:41:29  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:29  fire: false
+03:41:29  Build 166 talk: 'Survival Expert' id=8503 idx=1720 at WorldPoint(x=3105, y=3096, plane=0) dist=1
+03:41:30  Build 166 talk: direct invoke 'Talk-to' on 'Survival Expert' id=8503 idx=1720
+03:41:31  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:31  SURVIVAL TICK
+03:41:31  inv: raw=true cooked=false logs=false
+03:41:31  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:31  fire: false
+03:41:31  Build 197: spamDialogue budget exhausted (30s) -- dialogue still open, re-arming next tick if caller retries: ' / Next up you need to make a fire. First, you'll need to<br>cut down a tree to get some logs.'
+03:41:32  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:32  SURVIVAL TICK
+03:41:32  inv: raw=true cooked=false logs=false
+03:41:32  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:32  fire: false
+03:41:33  Build 197: spamDialogue phased session armed, budget 30s -- one dialogue action per tick, verifying close on following ticks
+03:41:33  dialogueTick: clicking continue (priority over keyword handling)
+03:41:34  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:34  SURVIVAL TICK
+03:41:34  inv: raw=true cooked=false logs=false
+03:41:34  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:34  fire: false
+03:41:34  Build 166 talk: 'Survival Expert' id=8503 idx=1720 at WorldPoint(x=3105, y=3096, plane=0) dist=1
+03:41:35  Build 166 talk: direct invoke 'Talk-to' on 'Survival Expert' id=8503 idx=1720
+03:41:36  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:36  SURVIVAL TICK
+03:41:36  inv: raw=true cooked=false logs=false
+03:41:36  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:36  fire: false
+03:41:36  dialogueTick: clicking continue (priority over keyword handling)
+03:41:37  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:37  SURVIVAL TICK
+03:41:37  inv: raw=true cooked=false logs=false
+03:41:37  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:37  fire: false
+03:41:38  dialogueTick: clicking continue (priority over keyword handling)
+03:41:39  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:40  SURVIVAL TICK
+03:41:40  inv: raw=true cooked=false logs=false
+03:41:40  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:40  fire: false
+03:41:40  Build 166 talk: 'Survival Expert' id=8503 idx=1720 at WorldPoint(x=3105, y=3096, plane=0) dist=1
+03:41:40  Build 166 talk: direct invoke 'Talk-to' on 'Survival Expert' id=8503 idx=1720
+03:41:41  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:41  SURVIVAL TICK
+03:41:41  inv: raw=true cooked=false logs=false
+03:41:41  Build 196: no Fire object in scene -- treating as unlit (no timestamp fallback)
+03:41:41  fire: false
+03:41:42  dialogueTick: clicking continue (priority over keyword handling)
+03:41:43  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+03:41:43  Screenshot saved: 2026-09-29_03-41-43_SURVIVAL_auto.png
