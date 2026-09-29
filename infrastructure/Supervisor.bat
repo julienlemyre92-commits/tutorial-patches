@@ -77,10 +77,9 @@ if defined GAME_PID (
         goto loop
     )
 )
-REM Check for new patches while game is running
-echo [%date% %time%] Checking for patches...
-powershell -ExecutionPolicy Bypass -NoProfile -File "%~dp0Check-Update.ps1" -CheckOnly
-REM Check-Update with -CheckOnly exits 2 if a new patch is available
+REM Check for new patches while game is running. -Quiet: Check-Update prints
+REM only when a new patch is found or the check fails. Exit 2 = new patch.
+powershell -ExecutionPolicy Bypass -NoProfile -File "%~dp0Check-Update.ps1" -CheckOnly -Quiet
 if errorlevel 2 (
     echo.
     echo [%date% %time%] New patch available! Closing game to apply...
@@ -90,19 +89,26 @@ if errorlevel 2 (
 )
 REM Self-heal login states every cycle: dismiss the disconnect dialog and
 REM click CLICK HERE TO PLAY / Login / Play Now if visible. Single quick
-REM pass; does nothing when the game is already in-game.
+REM pass; --quiet means the clicker prints only when it actually clicks.
 REM STAND-DOWN (2026-09-29): when the bot intentionally logs out on quest/
 REM tutorial completion, the plugin writes %USERPROFILE%\.runelite\bot-intentional-logout.
 REM While that sentinel exists, SKIP the login click so the account parks at
 REM the login screen instead of flapping login/logout every 30s. A fresh game
 REM launch always logs in normally (launch path below is unaffected), and the
 REM plugin deletes the sentinel on startup, so standing down never sticks.
-echo [%date% %time%] Checking login state...
 if exist "%USERPROFILE%\.runelite\bot-intentional-logout" (
-    echo Standing down: intentional-logout sentinel present -- not auto-logging in.
+    set "SESSION=parked at login (intentional)"
 ) else (
-    python -u "%~dp0launcher_clicker.py" --check-once
+    python -u "%~dp0launcher_clicker.py" --check-once --quiet
+    set "SESSION=in-game"
 )
+REM HEARTBEAT (2026-09-29, Julien): keep the Supervisor window alive and show
+REM one short line per cycle -- patch version included -- so Julien and the
+REM stream can see it is working even when no restart was needed. Anything
+REM that ACTED (new patch, login click, restart, error) prints above this.
+set "PATCH_V=?"
+if exist "%~dp0patch-version.txt" set /p PATCH_V=<"%~dp0patch-version.txt"
+echo [%date% %time%] Supervisor OK ^| patch %PATCH_V% ^| %SESSION% ^| next check 30s
 goto waitloop
 
 REM Subroutine: gracefully close the game (allows config save), force if needed
