@@ -1,4 +1,13 @@
 ## Current build
+- **Build 434 / patch-431** (shipped 2026-09-29 17:03 EDT). VERTICAL LATCH SEQ-PAIRING (Alex 17:02).
+  - Rs2Traversal: added `climbRequestSeq` / `pendingClimbSeq`. Every `requestVerticalTraversal` increments the seq; the latch stores the seq at issue time; verification requires `pendingClimbSeq == climbRequestSeq`. Stale latches (seq mismatch) are logged and cleared, never verified.
+  - Fixes the 17:01:07 out-of-order "climb-down verified plane 1->2" which fired from a stale latch before the 17:01:08 issue. Every verification is now paired with its own issued action (id/object/tile/prePlane/seq) and cannot fire before the issue tick.
+  - Hopper sticky fix (Build 433) PRESERVED. No route state changes.
+  - Decompile acceptance: Alex inspected patch-430's Rs2Traversal.class -- only generic state/strings, no Cook's coordinates. SATISFIED. My local `strings` check on the Build 434 class confirms the same (only "currentTimeMillis" matched the quest-keyword grep).
+  - Note: version.txt went 428 -> 431 (patch-430.zip exists on GitHub but version skipped it). Patch zips are full overlays, so 428->431 direct is safe.
+  - Remaining acceptance: fresh-start forward+return door proof (SIDE_PROOF + CROSSING PROOF both directions, no repeated actions).
+
+## Current build
 - **Build 433 / patch-430** (shipped 2026-09-29 16:58 EDT). FOCUSED HOPPER STICKY PATCH (Alex 16:56 + Julien 16:56).
   - Rs2Traversal UNCHANGED (still Build 428). No route state reset. Universal contract work is separate.
   - Regression fixed: hopper use was NOT sticky at the outer level. Logs showed FAILED -> sub 1 -> sub 2 -> click -> FAILED repeating indefinitely (16:55:32 through 16:56:37), player stuck at (3166,3308,2).
