@@ -1,0 +1,250 @@
+09:38:53  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:38:53  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:38:53  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:38:53  Build 130 NO-PROGRESS GUARD: ACC_MAN tab failed 41x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+09:38:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:38:54  BANK TICK: up=true opened=true closed=true upStep=1
+09:38:55  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:38:55  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:38:55  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:38:55  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:38:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:38:57  BANK TICK: up=true opened=true closed=true upStep=1
+09:38:58  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:38:58  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:38:58  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:38:58  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:38:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:38:59  BANK TICK: up=true opened=true closed=true upStep=1
+09:39  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39  Build 130 NO-PROGRESS GUARD: ACC_MAN tab failed 42x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+09:39:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:01  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:01  Build 372: poll dialogue dismissal tick 280 (varp=525)
+09:39:02  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:02  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:02  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:02  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:03  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:04  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:04  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:04  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:04  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:06  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:07  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:07  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:07  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:07  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:07  Build 130 NO-PROGRESS GUARD: ACC_MAN tab failed 43x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+09:39:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:08  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:09  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:09  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:09  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:09  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:10  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:11  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:11  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:11  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:11  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:11  Build 108: opening account management tab (tick 41)
+09:39:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:13  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:14  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:14  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:14  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:14  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:14  Build 130 NO-PROGRESS GUARD: ACC_MAN tab failed 44x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+09:39:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:15  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:16  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:16  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:16  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:16  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:17  Screenshot saved: 2026-09-29_09-39-17_BANK_auto.png
+09:39:17  Build 82: cleaned up 1 old screenshots
+09:39:17  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:18  Diag tail uploaded: 2026-09-29_09-39-17_BANK_diag.txt
+09:39:18  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:18  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:18  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:18  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:20  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:21  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:21  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:21  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:21  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:21  Build 130 NO-PROGRESS GUARD: ACC_MAN tab failed 45x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+09:39:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:22  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:23  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:23  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:23  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:23  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:24  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:24  Build 372: poll dialogue dismissal tick 290 (varp=525)
+09:39:25  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:25  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:25  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:25  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:26  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:27  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:27  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:27  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:27  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:27  Build 130 NO-PROGRESS GUARD: ACC_MAN tab failed 46x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+09:39:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:29  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:30  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:30  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:30  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:30  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:31  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:32  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:32  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:32  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:32  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:33  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:34  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:34  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:34  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:34  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:34  Build 130 NO-PROGRESS GUARD: ACC_MAN tab failed 47x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+09:39:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:36  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:37  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:37  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:37  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:37  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:38  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:39  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:39  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:39  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:39  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:40  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:41  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:41  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:41  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:41  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:41  Build 130 NO-PROGRESS GUARD: ACC_MAN tab failed 48x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+09:39:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:43  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:44  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:44  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:44  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:44  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:45  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:46  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:46  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:46  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:46  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:47  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:47  Build 372: poll dialogue dismissal tick 300 (varp=525)
+09:39:48  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:48  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:48  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:48  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:48  Build 130 NO-PROGRESS GUARD: ACC_MAN tab failed 49x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+09:39:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:49  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:50  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:50  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:50  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:50  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:52  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:53  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:53  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:53  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:53  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:54  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:55  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:55  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:55  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:55  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:55  Build 130 NO-PROGRESS GUARD: ACC_MAN tab failed 50x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+09:39:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:56  BANK TICK: up=true opened=true closed=true upStep=1
+09:39:57  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:39:57  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:39:57  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:39:57  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:39:57  Build 108: opening account management tab (tick 61)
+09:39:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:39:59  BANK TICK: up=true opened=true closed=true upStep=1
+09:40  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:40  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:40  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:40  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:40:01  BANK TICK: up=true opened=true closed=true upStep=1
+09:40:02  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:40:02  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:40:02  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:40:02  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:40:02  Build 130 NO-PROGRESS GUARD: ACC_MAN tab failed 51x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+09:40:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:40:03  BANK TICK: up=true opened=true closed=true upStep=1
+09:40:04  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:40:04  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:40:04  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:40:04  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:40:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:40:05  BANK TICK: up=true opened=true closed=true upStep=1
+09:40:06  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:40:06  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:40:06  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:40:06  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:40:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:40:08  BANK TICK: up=true opened=true closed=true upStep=1
+09:40:09  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:40:09  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:40:09  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:40:09  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:40:09  Build 130 NO-PROGRESS GUARD: ACC_MAN tab failed 52x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+09:40:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:40:10  BANK TICK: up=true opened=true closed=true upStep=1
+09:40:10  Build 372: poll dialogue dismissal tick 310 (varp=525)
+09:40:11  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:40:11  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:40:11  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:40:11  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:40:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:40:12  BANK TICK: up=true opened=true closed=true upStep=1
+09:40:13  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:40:13  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:40:13  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:40:13  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:40:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:40:14  BANK TICK: up=true opened=true closed=true upStep=1
+09:40:15  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:40:15  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:40:15  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:40:15  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:40:15  Build 130 NO-PROGRESS GUARD: ACC_MAN tab failed 53x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+09:40:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:40:17  BANK TICK: up=true opened=true closed=true upStep=1
+09:40:18  clickTabIcon ACC_MAN: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+09:40:18  Build 124: ACC_MAN check: [548:72 name='' bounds=null] [161:67 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+09:40:18  clickTabIcon ACC_MAN: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+09:40:18  clickTabIcon ACC_MAN: no verified target this tick — counting miss
+09:40:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+09:40:19  Screenshot saved: 2026-09-29_09-40-19_BANK_auto.png
+09:40:19  Build 82: cleaned up 1 old screenshots
