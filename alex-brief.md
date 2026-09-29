@@ -1,3 +1,46 @@
+## Build 386 / patch-383 (2026-09-29 ~11:20 EDT) -- NEW: Cook's Assistant quest bot
+
+Julien's new order: after Tutorial Island, automate a beginner Lumbridge quest
+as a SEPARATE toggleable plugin (same overlay, same launcher). He picks the
+quest; I built it.
+
+- Quest chosen: **Cook's Assistant** (the classic first quest -- bucket of milk,
+  egg, pot of flour for the Lumbridge Castle cook). Deterministic, no combat,
+  all in/around Lumbridge.
+- New package `net.runelite.client.plugins.microbot.cooksassistant`:
+  `CooksAssistantPlugin` (descriptor name "Cook's Assistant", appears in the
+  Microbot overlay next to "Tutorial Island"), `CooksAssistantConfig`,
+  `CooksAssistantScript` (StateMachineScript).
+- Same launcher/Supervisor untouched. Julien deactivates "Tutorial Island" and
+  activates "Cook's Assistant" in the overlay himself.
+- Route: Cook (start) -> pot (kitchen table ground spawn) -> grain (wheat field
+  Pick) -> Mill Lane Mill (ladder to plane 2, grain on Hopper, Operate Hopper
+  controls, ladder down, pot on Flour bin) -> egg (chicken farm ground spawn)
+  -> bucket (cow field ground spawn) -> bucket on dairy cow (Prized dairy cow,
+  fallback Dairy cow) -> Cook (finish).
+- Observed-state step model: every tick recomputes from Quest.COOKS_ASSISTANT
+  getState() (NOT_STARTED/IN_PROGRESS/FINISHED), EXACT inventory counts
+  (equalsIgnoreCase -- "Pot" never matches "Pot of flour", "Bucket" never
+  matches "Bucket of milk"), dialogue state, full WorldPoint incl. plane.
+- Completion ONLY from QuestState.FINISHED (game-verified). DONE does the
+  one-shot Rs2Player.logout() BEFORE shutdown (Build 385 lesson: logout after
+  finish() is unreachable).
+- Same infra as Tutorial Island: diag to ~/.runelite/cooks-assistant-diag.log,
+  1-min canvas screenshots to bundle/screenshots/ (COOKS_ prefix), same
+  version.txt update oracle (exits for Supervisor to apply new patches).
+- NOT yet live-tested. Needs a fresh run with the plugin enabled in Lumbridge.
+  Watch: mill ladder plane transitions, hopper/controls/bin object names,
+  dairy cow NPC name, Cook's start-dialogue option texts.
+
+## Build 385 / patch-382 (2026-09-29 ~10:40 EDT) -- LOGOUT ON COMPLETION (unverified)
+- Julien: "maybe add a logout when done?" Added Rs2Player.logout() in doMagic()
+  after hasCompletedTutorialIsland(). KNOWN DEFECT: unreachable -- onState()
+  calls finish() and returns before doMagic() reaches it. Fix in a later build:
+  one-shot logout in the top-level completion path before finish().
+- Shipped after the successful run; logout behavior unverified.
+
+## Build 384 / patch-381 (2026-09-29 ~10:33 EDT) -- CACHE-MISMATCH CHECK: GROUP ID, NOT PARENT WALK
+- (prior brief content retained below)
 ## Build 384 / patch-381 (2026-09-29 ~10:33 EDT) -- CACHE-MISMATCH CHECK: GROUP ID, NOT PARENT WALK
 - Build 383 PARTIALLY APPLIED, FIX MISSED: 10:28:44 startup banner
   RUNNING_BUILD=383 (patch-380) confirmed live, but the bot STOOD DOWN AGAIN
