@@ -1,4 +1,13 @@
 ## Current build
+- **Build 440 / patch-437** (shipped 2026-09-29 17:22 EDT). COW TARGET DISCOVERY FIX (Alex 17:21).
+  - Root cause: exact name match ("Prized dairy cow"/"Dairy cow") missed the visible cows at (3239,3284,0). 5 scans -> HOLD with no traversal handoff.
+  - Fix: broadened NPC discovery to any NPC with "cow" in the name (case-insensitive), preferring dairy variants in the sort. Synchronous via blocking client-thread invoke; no getObjectComposition, no async cache.
+  - Diagnosis: when no cow is found, logs the nearest 5 NPCs with name/id/tile so the name mismatch is visible in the diag (e.g. `nearest 5 NPCs: ['Cow' id=1234@(3238,3285), ...]`).
+  - Phase 3 validation uses the same broadened match.
+  - No gate-specific click loop reintroduced. If the cow is found but the pen gate blocks, stepToward -> shared Rs2Traversal owns the crossing (direction scoring, one Open/Close, proofs).
+  - Acceptance: cow target discovered -> shared resolver crossing -> cow validation -> bucket action; or bounded candidate log -> typed HOLD.
+
+## Current build
 - **Build 439 / patch-436** (shipped 2026-09-29 17:19 EDT). DAIRY GATE CONTRACT ALIGNMENT (Alex 17:17-17:18, contract sections 8-9).
   - REMOVED the entire dairy-specific gate state machine from MILK_COW:
     - Phases 1-2 deleted (gate scan + crossing with 20s timeout/retry).
