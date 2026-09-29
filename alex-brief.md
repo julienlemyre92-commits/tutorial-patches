@@ -1,4 +1,12 @@
 ## Current build
+- **Build 454 / patch-450** (shipped 2026-09-29 18:00 EDT). TARGET AUDIT.
+  - Alex 17:58: Stop expanding pathing. The problem is target discovery -- in the pen at (3246,3286) but NPC query returns generic Cow with no Milk action.
+  - New: bounded TARGET_AUDIT (once per phase-0 entry). Enumerates up to 8 NPCs + 8 tile objects in 15 tiles with live name, id, tile, dist. Read-only, never clicks.
+  - Does NOT assume id=8689 or exact "Dairy cow" naming. Logs everything for diagnosis.
+  - Existing one-action/next-tick Bucket->Bucket of milk proof unchanged. HOLD if no Milk action.
+  - Phase 10 idempotency proof PRESERVED.
+
+## Current build
 - **Build 453 / patch-449** (shipped 2026-09-29 17:53 EDT). **IDEMPOTENCY PROVEN** ✅
   - Alex 17:55: RUNTIME VERIFICATION COMPLETE.
   - 17:55:20: TRAVERSAL START [diag-idempotent] outside (3246,3286) -> (3244,3283)
