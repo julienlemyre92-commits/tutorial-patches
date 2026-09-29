@@ -1,0 +1,250 @@
+06:26:20  Build 121 - VARP 281 GROUND TRUTH. Live 2026-09-27 19:42 (Build 119): bot restarted INSIDE the bank, position-detector saw the booth and returned BANK -- but the game instruction said 'Exit through the door and follow the path to the chapel' (BANK already complete). Bot looped the booth 20+ times (opened=false) for 3min while the game waited for PRAYER. Julien: 'shamefull'. Fix: (1) detectStartStage reads varplayer 281 FIRST -- the game's own tutorial progress counter (OSRS Wiki, via Alex's research) -- mapping 510-540=BANK, 550-610=PRAYER, etc. Position fallback only if varp unreadable. (2) Circuit breaker: 15 booth clicks without opening forces PRAYER. Keeps Build 120 - PRAYER WIDGET DUMP. 
+06:26:20  Build 120 - PRAYER WIDGET DUMP. Live 2026-09-27 19:38 (Build 118/119): PRAYER tab icon INVISIBLE -- packed 548:69/161:64/164:64 all null AND WorldModel name-match finds nothing (age=MAX). Bot looped 'NO VERIFIED TARGET' + script-915 (attempts 24-38) with talked1=true tab=false. Alex's independent review: 'capture the actual client/widget layout'. Fix: when a tab icon misses 3x script fallbacks, dump ALL widgets in groups 548/161/164 (children 0-150) with name/actions/bounds/hidden to the diag -- no more guessing IDs. Keeps Build 119 - CHAPEL DOOR HANG FIX. 
+06:26:20  Build 119 - CHAPEL DOOR HANG FIX. Live 2026-09-27 19:28-19:32 (Build 118): bot reached the church (y<=3115) for the PRAYER stage, but Brother Brace is behind the chapel door -- talkToOnce's npc.click('Talk-to') HUNG the tick thread for 4min (auto-walk loops on 'recovery_target_walled'), and Julien saw it 'stuck at the door repeating actions'. Fix: (1) npc.click now runs with a 5s timeout via CompletableFuture so the tick ALWAYS survives; (2) if 3+ talk attempts produce no dialog, assume a closed door is blocking and clickDoorDirect('Open') before retrying. Keeps Build 118 - CHURCH NOT BANK. 
+06:26:20  Build 118 - CHURCH NOT BANK. Live 2026-09-27 19:19 (Build 117): client restarted with the character INSIDE the chapel ('speak to Brother Brace' instruction on screen), but detectStartStage returned BANK — the Banker's 40-tile radius reaches the church (~20 tiles away) and was checked BEFORE Brother Brace, so the bot redid the Account Guide (Julien saw the friends tab open) and bank booth while the game waited for the chapel step. Fix: Brother Brace within 20 tiles now returns PRAYER before the Banker check; the bank-booth-within-10 check still covers genuinely being inside the bank room. Keeps Build 117 - BOTTOM-LINE TAB ICONS. 
+06:26:20  Build 117 - BOTTOM-LINE TAB ICONS (group 164). Live 2026-09-27 19:09 (Build 116): PRAYER flashing-icon prompt STILL looped — packed 548:69/161:64 null AND Build 116's name-match scan of groups 548+161 found nothing. Root cause: Julien's client runs the resizable BOTTOM-LINE layout — tab icons live in group 164 (RuneLite WidgetInfo RESIZABLE_VIEWPORT_BOTTOM_LINE_*_ICON, verified against WidgetInfo bytecode: prayer = 164:64), a group the bot never scanned. Fix: name-match scan + packed ID lists now cover all three layouts (548 fixed, 161 resizable-side, 164 bottom-line); group-164 icons accepted when the official-WidgetInfo-mapped widget exists, is visible and icon-sized (logged), never a blind derived child. Keeps Build 116 - VERIFIED TAB TARGETS. 
+06:26:20  Build 116 - VERIFIED TAB TARGETS FOR ALL TABS. Live 2026-09-27 19:00 (Build 115): PRAYER flashing-icon prompt looped — packed 548:69/161:64 never resolved in the WorldModel cache, so the forced physical click never fired and the script-915 fallback looped without setting the game's tutorial flag. Root cause: packed IDs are sequence-derived, never verified against the widget tree (same trap as ACC_MAN 548:72 in Build 115). Fix: WorldModel now name-matches EVERY tab icon on GameTick (groups 548/161, smallest match wins); clickTabIcon uses the verified target for all tabs (fresh name-matched bounds, else name-verified packed bounds), never a blind derived child. Keeps Build 115 - VERIFIED ACC_MAN TARGET + BOOTH PROXIMITY GATE. 
+06:26:20  Build 115 - VERIFIED ACC_MAN TARGET + BOOTH PROXIMITY GATE. Live 2026-09-27 18:45: 15+ physical clicks at packed 548:72 bounds (576,186) never advanced the tutorial (Build 113 live 18:42:20, loop 18:42:53-18:44:38) — the 548:72/161:67 IDs were derived by sequence-continuation (varc index 8), NEVER verified against the widget tree. Fix: clickTabIcon(ACC_MAN) now uses a VERIFIED target — prefers the tree-anchored name-matched bounds (fresh <10s), else the packed bounds only if the sampled widget NAME contains 'account'; logs packed name+bounds and name-matched bounds+age on EVERY click so the diag proves the target (never a blind derived child). Also: booth 'I can't reach that!' (seen in 18:44:41 screenshot) — Build 109's text-based recovery never fired, so clickBoothDirect now has a PROXIMITY GATE: if the player is >4 tiles from the booth, walk adjacent FIRST instead of clicking (text-independent). Keeps Build 114 - FORCED PHYSICAL TAB CLICK.
+06:26:20  Build 114 - FORCED PHYSICAL TAB CLICK. Live 2026-09-27 18:45: root cause of the 18:35-18:39 booth loop (click booth -> 'Click on the flashing icon to open your Account Management menu' -> click icon -> click booth, opened=false): clickTabIcon's isTabCurrent() fast path SILENTLY returned true when the account panel was already open (opened via the script-915 fallback in an earlier build), so the game's flashing-icon tutorial flag was never set and the physical click NEVER happened — no 'MOUSE CLICKED ACC_MAN' line was ever logged across ~48 booth clicks. Build 113's ACC_MAN packed IDs were correct but never reached because of this fast path. Fix: clickTabIcon(tab, forcePhysical) overload; every tutorial 'flashing icon' prompt (account, quests, prayer, magic, combat, equipment, settings, dagger-inventory, generic tab branch, account-guide step) now bypasses the fast path and always performs the real mouse click. Operational switches (open inventory to wield) keep the fast path. Keeps Build 113 - ACC_MAN PHYSICAL CLICK. Live 2026-09-27 18:36: root cause of the 18:32-18:34 booth loop (click booth -> 'Click on the flashing icon to open your Account Management menu' -> click icon -> click booth, opened=false): clickTabIcon(ACC_MAN) had NO case in its packed-ID switch (ids stayed null) and WorldModel never sampled the account icon, so the flashing icon was NEVER physically clicked. The script-915 fallback opens the tab panel but does not set the game's 'clicked the flashing icon' tutorial flag, so the Account Guide step never truly completes. Fix: ACC_MAN packed IDs 548:72 / 161:67 (varc index 8) sampled in WorldModel, plus a per-tick name-matched fallback (widget name/actions containing 'account'). Keeps Build 112 - SINGLE SCRIPT FIX. Live 2026-09-27 18:28: patch 111 shipped with TWO competing scripts (TutorialIslandScript + TutorialIslandAgentScript) in the same jar — bot went silent for 13+ min after downloading it, no screenshots, likely startup conflict. This build removes the agent, plugin injects the single TutorialIslandScript again. Keeps Build 110 - ACCOUNT GUIDE FIRST. Live 2026-09-27 18:08: fresh run looped the bank booth forever (click booth -> the game re-popped the 'Account (Management)' instruction dialog: 'The guide here will tell you all about your account. Just click on him to hear what he's got to say.' -> dismiss -> click booth, opened=false) because the bot tried to open the bank BEFORE talking to the Account Guide. Live proof the official order is Account Guide -> bank booth -> poll booth -> exit: the instruction dialog names him while the bank never opens. Now: doAccountGuideStep runs FIRST in doBank (talk, account tab, talk again), before any booth click. Keeps Build 109 (can't-reach recovery); Build 108 (Account Guide gate recovery); Build 107 (tab switch async); Build 106 (dialog-transition); Build 105 (bank door stall); Build 104 (name cache); Build 103; Build 102 (event-driven); Build 101; Build 100; Build 99; Build 98; Build 97; Build 96; Build 95; Build 94; Build 93; Build 92; Build 91; Build 90; Build 89; Build 88; Build 87; Build 86; Build 85; Build 84; Build 83; Build 82; Build 81/80.
+06:26:20  Build 104: loaded 226 cached object names (rev 240)
+06:26:20  REBUILD: WorldModel registered on event bus
+06:26:20  Build 78: Check-Update.ps1 $versionUrl line not in expected form, skipping repair
+06:26:20  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+06:26:20  Build 216: canvas-only screenshot skipped: IllegalComponentStateException
+06:26:20  Build 194: logged out 0 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+06:26:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:26:40  VARP: 281 = 500
+06:26:40  VARP-281 stage detection -> COMBAT (overrides position)
+06:26:40  Detected start stage: COMBAT
+06:26:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:26:41  Build 223: stage self-correction SKIPPED -- current machine state unreadable (null), varp281=500 live=COMBAT -- no force this tick, retrying next tick
+06:26:41  Build 224: CLIENT BLOCKER: blocking overlay visible ('[06:26:39] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+06:26:41  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+06:26:41  Stage: null -> COMBAT
+06:26:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:26:42  Build 224: cache-mismatch overlay still open after dismissal 1/3 -- re-deriving target next tick
+06:26:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:26:44  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 2/3), verifying overlay clears next tick
+06:26:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:26:45  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+06:26:45  COMBAT TICK: TALK_VANNAKA
+06:26:46  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3108, y=9508, plane=0) dist=13
+06:26:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:26:48  COMBAT TICK: TALK_VANNAKA
+06:26:48  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3108, y=9508, plane=0) dist=13
+06:26:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:26:50  COMBAT TICK: TALK_VANNAKA
+06:26:50  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3108, y=9508, plane=0) dist=8
+06:26:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:26:52  COMBAT TICK: TALK_VANNAKA
+06:26:52  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3107, y=9507, plane=0) dist=10
+06:26:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:26:54  COMBAT TICK: TALK_VANNAKA
+06:26:54  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3107, y=9507, plane=0) dist=10
+06:26:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:26:56  COMBAT TICK: TALK_VANNAKA
+06:26:57  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3108, y=9508, plane=0) dist=1
+06:26:57  Build 166 talk: direct invoke 'Talk-to' on 'Combat Instructor' id=3307 idx=1990
+06:26:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:26:59  Build 224: CLIENT BLOCKER: blocking overlay visible ('[06:26:58] Mismatch in overlaid cache archive hash for 12/84: D1173E761A81C65F358FC67899AC') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+06:26:59  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+06:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+06:27:01  Combat fast-forward: have bronze arrows (ranging step) -> EQUIP_BOW_ARROWS
+06:27:01  COMBAT TICK: EQUIP_BOW_ARROWS
+06:27:01  Build 124: INVENTORY check: [548:67 name='' bounds=null] [161:62 name='' bounds=null] [164:55 name='' bounds=[633,591 33x36]] [161:69 name='' bounds=null] [164:62 name='' bounds=[633,591 33x36]] | name-matched name='' bounds=[633,591 33x36] age=542ms
+06:27:01  Build 124: tabstrip tree: 548:root=N TAB69=mixin:null/packed:null/roots:null ICON76=mixin:null/packed:null/roots:null; 161:root=N TAB64=mixin:null/packed:null/roots:null ICON71=mixin:null/packed:null/roots:null; 164:root=Y TAB57=mixin:hidden/packed:hidden/roots:null ICON64=mixin:hidden/packed:hidden/roots:null;
+06:27:01  clickTabIcon INVENTORY: clicking name-matched() at 649,609
+06:27:01  MOUSE CLICKED INVENTORY tab icon (name-matched())
+06:27:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:02  Build 224: CLIENT BLOCKER: blocking overlay visible ('[06:27:01] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+06:27:02  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+06:27:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:04  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+06:27:04  COMBAT TICK: EQUIP_BOW_ARROWS
+06:27:04  Bow+arrows verified equipped -> KILL_RAT_RANGED
+06:27:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:05  COMBAT TICK: KILL_RAT_RANGED
+06:27:06  Attacking giant rat (ranged)
+06:27:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:08  COMBAT TICK: KILL_RAT_RANGED
+06:27:08  Attacking giant rat (ranged)
+06:27:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:10  COMBAT TICK: KILL_RAT_RANGED
+06:27:10  Attacking giant rat (ranged)
+06:27:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:12  COMBAT TICK: KILL_RAT_RANGED
+06:27:12  Attacking giant rat (ranged)
+06:27:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:14  COMBAT TICK: KILL_RAT_RANGED
+06:27:15  Attacking giant rat (ranged)
+06:27:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:17  COMBAT TICK: KILL_RAT_RANGED
+06:27:17  Attacking giant rat (ranged)
+06:27:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:19  COMBAT TICK: KILL_RAT_RANGED
+06:27:19  Attacking giant rat (ranged)
+06:27:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:21  Screenshot saved: 2026-09-29_06-27-21_COMBAT_auto.png
+06:27:21  Build 82: cleaned up 3 old screenshots
+06:27:21  COMBAT TICK: KILL_RAT_RANGED
+06:27:22  Attacking giant rat (ranged)
+06:27:22  Diag tail uploaded: 2026-09-29_06-27-21_COMBAT_diag.txt
+06:27:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:24  COMBAT TICK: KILL_RAT_RANGED
+06:27:24  Attacking giant rat (ranged)
+06:27:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:26  COMBAT TICK: KILL_RAT_RANGED
+06:27:27  Attacking giant rat (ranged)
+06:27:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:29  COMBAT TICK: KILL_RAT_RANGED
+06:27:29  Attacking giant rat (ranged)
+06:27:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:31  COMBAT TICK: KILL_RAT_RANGED
+06:27:31  Attacking giant rat (ranged)
+06:27:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:33  COMBAT TICK: KILL_RAT_RANGED
+06:27:34  Attacking giant rat (ranged)
+06:27:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:36  COMBAT TICK: KILL_RAT_RANGED
+06:27:36  Attacking giant rat (ranged)
+06:27:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:38  COMBAT TICK: KILL_RAT_RANGED
+06:27:38  Attacking giant rat (ranged)
+06:27:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:40  COMBAT TICK: KILL_RAT_RANGED
+06:27:40  Attacking giant rat (ranged)
+06:27:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:43  COMBAT TICK: KILL_RAT_RANGED
+06:27:43  Attacking giant rat (ranged)
+06:27:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:45  COMBAT TICK: KILL_RAT_RANGED
+06:27:45  Attacking giant rat (ranged)
+06:27:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:47  COMBAT TICK: KILL_RAT_RANGED
+06:27:47  Attacking giant rat (ranged)
+06:27:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:49  COMBAT TICK: KILL_RAT_RANGED
+06:27:50  Attacking giant rat (ranged)
+06:27:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:52  COMBAT TICK: KILL_RAT_RANGED
+06:27:52  Attacking giant rat (ranged)
+06:27:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:54  COMBAT TICK: KILL_RAT_RANGED
+06:27:54  Attacking giant rat (ranged)
+06:27:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:56  COMBAT TICK: KILL_RAT_RANGED
+06:27:57  Attacking giant rat (ranged)
+06:27:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:27:59  COMBAT TICK: KILL_RAT_RANGED
+06:27:59  Attacking giant rat (ranged)
+06:28:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:01  COMBAT TICK: KILL_RAT_RANGED
+06:28:01  Attacking giant rat (ranged)
+06:28:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:03  COMBAT TICK: KILL_RAT_RANGED
+06:28:04  Attacking giant rat (ranged)
+06:28:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:06  COMBAT TICK: KILL_RAT_RANGED
+06:28:06  Attacking giant rat (ranged)
+06:28:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:08  COMBAT TICK: KILL_RAT_RANGED
+06:28:08  Attacking giant rat (ranged)
+06:28:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:10  COMBAT TICK: KILL_RAT_RANGED
+06:28:11  Attacking giant rat (ranged)
+06:28:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:12  COMBAT TICK: KILL_RAT_RANGED
+06:28:13  Attacking giant rat (ranged)
+06:28:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:15  COMBAT TICK: KILL_RAT_RANGED
+06:28:15  Attacking giant rat (ranged)
+06:28:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:17  COMBAT TICK: KILL_RAT_RANGED
+06:28:17  Attacking giant rat (ranged)
+06:28:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:19  COMBAT TICK: KILL_RAT_RANGED
+06:28:20  Attacking giant rat (ranged)
+06:28:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:21  Screenshot saved: 2026-09-29_06-28-21_COMBAT_auto.png
+06:28:21  Build 82: cleaned up 1 old screenshots
+06:28:22  COMBAT TICK: KILL_RAT_RANGED
+06:28:22  Attacking giant rat (ranged)
+06:28:22  Diag tail uploaded: 2026-09-29_06-28-21_COMBAT_diag.txt
+06:28:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:24  COMBAT TICK: KILL_RAT_RANGED
+06:28:24  Attacking giant rat (ranged)
+06:28:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:26  COMBAT TICK: KILL_RAT_RANGED
+06:28:27  Attacking giant rat (ranged)
+06:28:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:29  COMBAT TICK: KILL_RAT_RANGED
+06:28:29  Attacking giant rat (ranged)
+06:28:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:31  COMBAT TICK: KILL_RAT_RANGED
+06:28:31  Attacking giant rat (ranged)
+06:28:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:33  COMBAT TICK: KILL_RAT_RANGED
+06:28:34  Attacking giant rat (ranged)
+06:28:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:35  COMBAT TICK: KILL_RAT_RANGED
+06:28:36  Attacking giant rat (ranged)
+06:28:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:38  COMBAT TICK: KILL_RAT_RANGED
+06:28:38  Attacking giant rat (ranged)
+06:28:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:40  COMBAT TICK: KILL_RAT_RANGED
+06:28:40  Attacking giant rat (ranged)
+06:28:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:42  COMBAT TICK: KILL_RAT_RANGED
+06:28:43  Attacking giant rat (ranged)
+06:28:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:45  COMBAT TICK: KILL_RAT_RANGED
+06:28:45  Attacking giant rat (ranged)
+06:28:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:47  COMBAT TICK: KILL_RAT_RANGED
+06:28:47  Attacking giant rat (ranged)
+06:28:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:49  COMBAT TICK: KILL_RAT_RANGED
+06:28:50  Attacking giant rat (ranged)
+06:28:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:52  COMBAT TICK: KILL_RAT_RANGED
+06:28:52  Attacking giant rat (ranged)
+06:28:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:54  COMBAT TICK: KILL_RAT_RANGED
+06:28:54  Attacking giant rat (ranged)
+06:28:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:56  COMBAT TICK: KILL_RAT_RANGED
+06:28:57  Attacking giant rat (ranged)
+06:28:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:28:59  COMBAT TICK: KILL_RAT_RANGED
+06:28:59  Attacking giant rat (ranged)
+06:29:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:29:01  COMBAT TICK: KILL_RAT_RANGED
+06:29:01  Attacking giant rat (ranged)
+06:29:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:29:03  COMBAT TICK: KILL_RAT_RANGED
+06:29:04  Attacking giant rat (ranged)
+06:29:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:29:06  COMBAT TICK: KILL_RAT_RANGED
+06:29:06  Attacking giant rat (ranged)
+06:29:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:29:08  COMBAT TICK: KILL_RAT_RANGED
+06:29:08  Attacking giant rat (ranged)
+06:29:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:29:10  COMBAT TICK: KILL_RAT_RANGED
+06:29:11  Attacking giant rat (ranged)
+06:29:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:29:13  COMBAT TICK: KILL_RAT_RANGED
+06:29:13  Attacking giant rat (ranged)
+06:29:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:29:15  COMBAT TICK: KILL_RAT_RANGED
+06:29:15  Attacking giant rat (ranged)
+06:29:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:29:17  COMBAT TICK: KILL_RAT_RANGED
+06:29:18  Attacking giant rat (ranged)
+06:29:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:29:20  COMBAT TICK: KILL_RAT_RANGED
+06:29:20  Attacking giant rat (ranged)
+06:29:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:29:22  Screenshot saved: 2026-09-29_06-29-22_COMBAT_auto.png
