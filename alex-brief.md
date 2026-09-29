@@ -1,10 +1,24 @@
 ## Current build
-- **Build 438 / patch-435** (shipped 2026-09-29 17:14 EDT). MILK_COW NPC VALIDATION (Alex 17:13).
-  - Phase 0: replaced "no id=8689 -> HELD" with dairy cow NPC search (Prized/Dairy cow, exact name match, synchronous via blocking client-thread invoke, no getObjectComposition, no async cache). If found, routes via stepToward (shared resolver handles gate with direction scoring). If not found after 5 scans, HELD.
-  - Phase 3: added NPC validation gate BEFORE any bucket action. Must find Prized/Dairy cow NPC (exact name) or no bucket action issues. 5 bounded scans then HELD.
-  - Target resolution is NPC name/id/actions only, synchronous. No blocking object scans resurrected.
-  - Note: version.txt went 432 -> 435 (patch-433 and 434 zips exist but version skipped). Full overlays, safe.
-  - Acceptance to watch: dairy-gate route should show handoff -> candidate scores -> one Open/Close -> next-tick object proof -> side proof -> dairy candidate; else typed HOLD.
+- **Build 439 / patch-436** (shipped 2026-09-29 17:19 EDT). DAIRY GATE CONTRACT ALIGNMENT (Alex 17:17-17:18, contract sections 8-9).
+  - REMOVED the entire dairy-specific gate state machine from MILK_COW:
+    - Phases 1-2 deleted (gate scan + crossing with 20s timeout/retry).
+    - Fields removed: milkGateTile, milkGateName, milkGateMs, milkGateRetried, milkGateId, milkGateAltTile, milkInsideTile, milkGateProofLogged, milkGateFrom.
+    - Methods removed: walkThroughGate400, findPenGate396, findPenGate408, gateCandidatesDiag396.
+    - No Gate.click, no direct walkStep for gate recovery, no milkGate* retry loop.
+  - Phase 0 now routes DIRECTLY to the dairy cow NPC via stepToward:
+    - `stepToward(cowPos, "to dairy cow")` -> shared Rs2Traversal on stall.
+    - Gate crossing uses SHARED requestTraversal/tick/result with direction scoring.
+    - Decompile verified: no milkGate*/findPenGate*/walkThroughGate* in the class.
+  - Contract sections 8-9: quest states may ONLY request/tick shared traversal. No quest-local Gate.click, Climb/Cross, or walkThrough for route recovery. SATISFIED for MILK_COW.
+  - Acceptance log markers to watch for a fresh dairy route:
+    1. `Build 439: WALK_STALL -> TRAVERSAL_HANDOFF 'to dairy cow'`
+    2. `TRAVERSAL START [SHARED:to dairy cow]`
+    3. `EDGE_SCAN [SHARED:to dairy cow] candidates=N scores: [...]`
+    4. One `Open`/`Close` action (not repeated)
+    5. Next-tick object-state proof
+    6. Next-tick side proof (SIDE_PROOF / CROSSING PROOF)
+    7. `Build 439: MILK_COW: cow validated: 'Dairy cow'...`
+    - Failure: `ROUTE_BLOCKED` or `DOOR_CROSSING_FAILED` + sticky HOLD (milkPhase=9).
 
 ## Current build
 - **Build 436 / patch-433** (shipped 2026-09-29 17:09 EDT). CANDIDATE-DIRECTION RULE (Alex 17:08, contract).
