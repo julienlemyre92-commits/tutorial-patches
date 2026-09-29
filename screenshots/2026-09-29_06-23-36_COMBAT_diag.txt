@@ -1,0 +1,250 @@
+06:18:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:18:52  COMBAT TICK: WAIT_GATE_OPEN
+06:18:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:18:54  COMBAT TICK: WAIT_GATE_OPEN
+06:18:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:18:56  COMBAT TICK: WAIT_GATE_OPEN
+06:18:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:18:58  COMBAT TICK: WAIT_GATE_OPEN
+06:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19  COMBAT TICK: WAIT_GATE_OPEN
+06:19:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:02  COMBAT TICK: WAIT_GATE_OPEN
+06:19:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:04  COMBAT TICK: WAIT_GATE_OPEN
+06:19:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:06  COMBAT TICK: WAIT_GATE_OPEN
+06:19:07  Gate state changed: snapshot id=9719 now id=38848 -> open
+06:19:07  Pen gate verified open -> walking through
+06:19:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:08  COMBAT TICK: ENTER_PEN
+06:19:09  Inside the pen -> KILL_RAT_MELEE
+06:19:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:10  COMBAT TICK: KILL_RAT_MELEE
+06:19:11  Attacking giant rat (melee)
+06:19:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:12  Screenshot saved: 2026-09-29_06-19-12_COMBAT_auto.png
+06:19:12  Build 82: cleaned up 1 old screenshots
+06:19:13  COMBAT TICK: KILL_RAT_MELEE
+06:19:13  Attack click produced no combat (miss 1)
+06:19:13  Attacking giant rat (melee)
+06:19:13  Diag tail uploaded: 2026-09-29_06-19-12_COMBAT_diag.txt
+06:19:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:15  COMBAT TICK: KILL_RAT_MELEE
+06:19:15  Attack click produced no combat (miss 2)
+06:19:16  Attacking giant rat (melee)
+06:19:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:20  Build 224: CLIENT BLOCKER: blocking overlay visible ('[06:19:17] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+06:19:20  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+06:19:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:21  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+06:19:22  COMBAT TICK: KILL_RAT_MELEE
+06:19:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:23  COMBAT TICK: KILL_RAT_MELEE
+06:19:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:25  COMBAT TICK: KILL_RAT_MELEE
+06:19:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:27  COMBAT TICK: KILL_RAT_MELEE
+06:19:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:28  COMBAT TICK: KILL_RAT_MELEE
+06:19:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:30  COMBAT TICK: KILL_RAT_MELEE
+06:19:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:32  COMBAT TICK: KILL_RAT_MELEE
+06:19:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:34  COMBAT TICK: KILL_RAT_MELEE
+06:19:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:35  COMBAT TICK: KILL_RAT_MELEE
+06:19:35  Melee rat killed -> EXIT_PEN_TALK
+06:19:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:37  COMBAT TICK: EXIT_PEN_TALK
+06:19:37  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3104, y=9508, plane=0) dist=14
+06:19:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:39  COMBAT TICK: EXIT_PEN_TALK
+06:19:39  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3104, y=9508, plane=0) dist=14
+06:19:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:41  COMBAT TICK: EXIT_PEN_TALK
+06:19:41  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3104, y=9508, plane=0) dist=14
+06:19:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:43  COMBAT TICK: EXIT_PEN_TALK
+06:19:43  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3104, y=9508, plane=0) dist=14
+06:19:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:45  COMBAT TICK: EXIT_PEN_TALK
+06:19:45  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3104, y=9508, plane=0) dist=14
+06:19:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:47  COMBAT TICK: EXIT_PEN_TALK
+06:19:47  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3104, y=9508, plane=0) dist=14
+06:19:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:49  COMBAT TICK: EXIT_PEN_TALK
+06:19:49  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3104, y=9508, plane=0) dist=14
+06:19:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:51  COMBAT TICK: EXIT_PEN_TALK
+06:19:52  Talk not starting, nudging pen gate open
+06:20:05  Cache query: click('Open') returned true
+06:20:05  Build 199: one-shot 'Open' click dispatched -- no crossing claim; caller verifies
+06:20:05  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3104, y=9507, plane=0) dist=15
+06:20:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:07  Build 224: CLIENT BLOCKER: blocking overlay visible ('[06:20:06] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+06:20:07  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+06:20:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:08  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+06:20:09  COMBAT TICK: EXIT_PEN_TALK
+06:20:09  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3106, y=9510, plane=0) dist=13
+06:20:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:11  COMBAT TICK: EXIT_PEN_TALK
+06:20:11  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3106, y=9510, plane=0) dist=13
+06:20:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:13  Screenshot saved: 2026-09-29_06-20-13_COMBAT_auto.png
+06:20:13  Build 82: cleaned up 1 old screenshots
+06:20:13  COMBAT TICK: EXIT_PEN_TALK
+06:20:13  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3106, y=9510, plane=0) dist=9
+06:20:14  Diag tail uploaded: 2026-09-29_06-20-13_COMBAT_diag.txt
+06:20:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:15  COMBAT TICK: EXIT_PEN_TALK
+06:20:15  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3106, y=9510, plane=0) dist=9
+06:20:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:17  COMBAT TICK: EXIT_PEN_TALK
+06:20:18  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3106, y=9510, plane=0) dist=1
+06:20:18  Build 166 talk: direct invoke 'Talk-to' on 'Combat Instructor' id=3307 idx=1990
+06:20:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:20  COMBAT TICK: EXIT_PEN_TALK
+06:20:20  dialogueTick: clicking continue (priority over keyword handling)
+06:20:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:22  COMBAT TICK: EXIT_PEN_TALK
+06:20:22  dialogueTick: clicking continue (priority over keyword handling)
+06:20:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:24  Combat fast-forward: already have shortbow -> EQUIP_BOW_ARROWS
+06:20:24  COMBAT TICK: EQUIP_BOW_ARROWS
+06:20:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:25  COMBAT TICK: EQUIP_BOW_ARROWS
+06:20:25  Wielding shortbow
+06:20:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:27  Build 224: CLIENT BLOCKER: blocking overlay visible ('[06:20:26] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+06:20:27  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+06:20:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:29  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+06:20:29  COMBAT TICK: EQUIP_BOW_ARROWS
+06:20:29  Wielding bronze arrows
+06:20:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:31  Build 224: CLIENT BLOCKER: blocking overlay visible ('[06:20:30] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+06:20:31  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+06:20:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:32  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+06:20:32  COMBAT TICK: EQUIP_BOW_ARROWS
+06:20:32  Bow+arrows verified equipped -> KILL_RAT_RANGED
+06:20:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:34  COMBAT TICK: KILL_RAT_RANGED
+06:20:34  Attacking giant rat (ranged)
+06:20:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:36  COMBAT TICK: KILL_RAT_RANGED
+06:20:37  Attacking giant rat (ranged)
+06:20:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:39  COMBAT TICK: KILL_RAT_RANGED
+06:20:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:40  COMBAT TICK: KILL_RAT_RANGED
+06:20:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:42  COMBAT TICK: KILL_RAT_RANGED
+06:20:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:44  COMBAT TICK: KILL_RAT_RANGED
+06:20:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:45  Build 224: CLIENT BLOCKER: blocking overlay visible ('[06:20:44] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+06:20:45  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+06:20:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:47  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+06:20:47  COMBAT TICK: KILL_RAT_RANGED
+06:20:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:49  COMBAT TICK: KILL_RAT_RANGED
+06:20:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:50  COMBAT TICK: KILL_RAT_RANGED
+06:20:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:52  COMBAT TICK: KILL_RAT_RANGED
+06:20:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:54  COMBAT TICK: KILL_RAT_RANGED
+06:20:54  Ranged rat killed -> FINAL_LADDER
+06:20:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:56  COMBAT TICK: FINAL_LADDER
+06:21:10  Cache query: click('Open') returned true
+06:21:10  Build 199: one-shot 'Open' click dispatched -- no crossing claim; caller verifies
+06:21:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:21:12  COMBAT TICK: FINAL_LADDER
+06:21:27  Cache query: click('Climb-up') returned true
+06:21:27  Build 199: one-shot 'Climb-up' click dispatched -- no crossing claim; caller verifies
+06:21:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:21:29  Screenshot saved: 2026-09-29_06-21-29_COMBAT_auto.png
+06:21:29  COMBAT TICK: FINAL_LADDER
+06:21:30  Diag tail uploaded: 2026-09-29_06-21-29_COMBAT_diag.txt
+06:21:30  dialogueTick: clicking continue (priority over keyword handling)
+06:21:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:21:32  COMBAT TICK: FINAL_LADDER
+06:21:32  dialogueTick: clicking continue (priority over keyword handling)
+06:21:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:21:34  COMBAT TICK: FINAL_LADDER
+06:21:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:21:36  COMBAT TICK: FINAL_LADDER
+06:21:50  Cache query: click('Open') returned true
+06:21:50  Build 199: one-shot 'Open' click dispatched -- no crossing claim; caller verifies
+06:21:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:21:52  COMBAT TICK: FINAL_LADDER
+06:21:52  dialogueTick: clicking continue (priority over keyword handling)
+06:21:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:21:54  Build 224: CLIENT BLOCKER: blocking overlay visible ('[06:21:53] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+06:21:54  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+06:21:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:21:55  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+06:21:55  COMBAT TICK: FINAL_LADDER
+06:22:10  Cache query: click('Climb-up') returned true
+06:22:10  Build 199: one-shot 'Climb-up' click dispatched -- no crossing claim; caller verifies
+06:22:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:22:12  COMBAT TICK: FINAL_LADDER
+06:22:12  dialogueTick: clicking continue (priority over keyword handling)
+06:22:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:22:14  Build 224: CLIENT BLOCKER: blocking overlay visible ('[06:22:13] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+06:22:14  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+06:22:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:22:15  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+06:22:15  COMBAT TICK: FINAL_LADDER
+06:22:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:22:17  COMBAT TICK: FINAL_LADDER
+06:22:32  Cache query: click('Open') returned true
+06:22:32  Build 199: one-shot 'Open' click dispatched -- no crossing claim; caller verifies
+06:22:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:22:34  Screenshot saved: 2026-09-29_06-22-34_COMBAT_auto.png
+06:22:34  Build 82: cleaned up 1 old screenshots
+06:22:34  COMBAT TICK: FINAL_LADDER
+06:22:34  dialogueTick: clicking continue (priority over keyword handling)
+06:22:35  Diag tail uploaded: 2026-09-29_06-22-34_COMBAT_diag.txt
+06:22:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:22:36  Build 224: CLIENT BLOCKER: blocking overlay visible ('[06:22:35] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+06:22:36  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+06:22:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:22:37  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+06:22:37  COMBAT TICK: FINAL_LADDER
+06:22:52  Cache query: click('Climb-up') returned true
+06:22:52  Build 199: one-shot 'Climb-up' click dispatched -- no crossing claim; caller verifies
+06:22:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:22:54  COMBAT TICK: FINAL_LADDER
+06:22:54  dialogueTick: clicking continue (priority over keyword handling)
+06:22:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:22:56  Build 224: CLIENT BLOCKER: blocking overlay visible ('[06:22:55] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+06:22:56  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+06:22:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:22:57  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+06:22:57  COMBAT TICK: FINAL_LADDER
+06:22:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:22:59  COMBAT TICK: FINAL_LADDER
+06:23:14  Cache query: click('Open') returned true
+06:23:14  Build 199: one-shot 'Open' click dispatched -- no crossing claim; caller verifies
+06:23:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:16  COMBAT TICK: FINAL_LADDER
+06:23:16  dialogueTick: clicking continue (priority over keyword handling)
+06:23:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:18  Build 224: CLIENT BLOCKER: blocking overlay visible ('[06:23:17] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+06:23:18  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+06:23:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:19  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+06:23:19  COMBAT TICK: FINAL_LADDER
+06:23:34  Cache query: click('Climb-up') returned true
+06:23:34  Build 199: one-shot 'Climb-up' click dispatched -- no crossing claim; caller verifies
+06:23:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:36  Screenshot saved: 2026-09-29_06-23-36_COMBAT_auto.png
+06:23:36  Build 82: cleaned up 1 old screenshots
