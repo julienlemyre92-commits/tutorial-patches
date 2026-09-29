@@ -1,3 +1,5 @@
+# Alex brief -- CURRENT BUILD: Build 362 (patch-360, version.txt=360)
+
 ## Build 361 / patch-359 (2026-09-29 ~07:07 EDT) -- POLL-BOOTH cache-miss soft-lock (review-loop worker)
 - Live result (Build 360): bank opened 06:56:49 ("Bank is open (stable 3
   ticks)"), closed 06:56:51-54. Poll-booth step then spun 4+ min (retry
