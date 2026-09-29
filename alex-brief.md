@@ -1,8 +1,8 @@
 ## Current build
-- **Build 401 / patch-398** (shipped 2026-09-29 ~14:00 EDT). Change: cow lookup fix (Alex 13:59).
-- Build 400 PROVED the gate crossing contract: walkStep INVOKED -> movement (3237,3285)->(3237,3286) -> phase 3. But post-crossing scans 1-3 found no cow.
-- Build 401: phase 3 tries 'Prized dairy cow' -> 'Dairy cow' -> 'Cow' (radius 30, was 20); logs ALL NPC names within 30 on each failed scan. Gate is NOT reopened/retried. Acceptance: one cow lookup, one bucket-on-cow, next-tick Bucket of milk.
-- Watch for: `Build 401: STARTUP -- RUNNING_BUILD=401 (patch-398)` -> NPC list in scan logs -> cow found -> `You milk the cow.` -> Bucket of milk proof.
+- **Build 402 / patch-399** (shipped 2026-09-29 ~14:05 EDT). Change: pen-side state detection (Alex 14:04).
+- 401 restarted at (3237,3286) -- the proven post-gate tile -- but phase 1 reopened Gate@(3236,3285) and walked back out. State-detection defect.
+- Build 402: at MILK_COW phase 0, before any gate scan, check for Prized dairy cow/Dairy cow/Cow within 15. If found, skip the gate and go to phase 3 (one cow lookup). Gate NOT reopened when on pen side. Plugin-selection gate unchanged; retries bounded.
+- Watch for: `Build 402: STARTUP -- RUNNING_BUILD=402 (patch-399)` -> `already on pen side` -> one cow lookup -> `You milk the cow.` -> Bucket of milk.
 ## Build 397 / patch-394 (2026-09-29 ~13:24 EDT) -- Alex's motion correction: per-tick pos log, NPC lookup only at gate-adjacent tile
 
 Alex's correction (13:22): comparing 13:20:41 vs 13:21:43 MILK_COW frames, the player sprite SHIFTS along the fenced path (left-center -> upper-left, red route/minimap updating) -- the bot is NOT motionless. `no dairy cow nearby` is a target-search failure during movement, not proof walking stopped. Also: the 13:20:19 RuneLite WorldService Error is environmental noise, not the MILK_COW diagnosis.
