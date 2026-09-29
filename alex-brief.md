@@ -1,4 +1,12 @@
 ## Current build
+- **Build 453 / patch-449** (shipped 2026-09-29 17:53 EDT). DIRECT IDEMPOTENCY TEST.
+  - Alex 17:51-17:52: Build 452's fixture moved by ordinary walker without resolver handoff. Acceptance DENIED for reusable pathing. Direct movement != resolver test.
+  - New phase 10: bypasses the walker entirely. Issues requestTraversal directly, re-issues the EXACT same key on the next tick while active.
+  - The resolver MUST log TRAVERSAL IDEMPOTENT with dedup proof (no reset, no re-arm, blacklist preserved).
+  - Does NOT move the player. Does NOT claim progress. Pure dedup isolation test.
+  - If the request isn't active on tick 1, logs fixture-unavailable explicitly.
+
+## Current build
 - **Build 452 / patch-448** (shipped 2026-09-29 17:50 EDT). FIXTURE PRIORITY FIX.
   - Alex 17:48: Build 451 correctly refused the zero-route fixture (dIn=1). The cow-based inside was too close but wasn't discarded, blocking the gate/waypoint fallback.
   - Fix: too-close inside is now DISCARDED. Priority: (1) cow inside if dist>2, (2) gate far-side (5 tiles past), (3) distant waypoint (10 tiles, for idempotency testing), (4) fixture-unavailable.
