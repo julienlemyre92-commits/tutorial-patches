@@ -1,0 +1,250 @@
+04:07:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:07:13  Build 196: tick-wait 'chef-enter-kitchen' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+04:07:13  Build 196: chef-enter-kitchen exhausted, re-issuing open+walk once
+04:07:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:07:15  Build 203: Door 9709 stepping toward WorldPoint(x=3077, y=3085, plane=0) (dist 6) -- verifying arrival next tick
+04:07:15  Build 196: tick-wait 'chef-enter-kitchen' armed, bound 25 ticks (non-blocking)
+04:07:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:07:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:07:18  Build 337: chef next step=bake (dough=true flour=false water=false)
+04:07:18  Build 209: use-on 'Bread dough|Range' item selected (count 1), clicking Range next tick
+04:07:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:07:19  Build 337: chef next step=bake (dough=true flour=false water=false)
+04:07:20  Build 209: use-on 'Bread dough|Range' clicked Range, verifying effect next tick
+04:07:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:07:21  Build 337: chef next step=bake (dough=true flour=false water=false)
+04:07:21  Build 209: use-on 'Bread dough|Range' no effect yet (attempt 1/5), re-clicking next tick
+04:07:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:07:22  Build 224: CLIENT BLOCKER: blocking overlay visible ('[04:07:21] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+04:07:22  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+04:07:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:07:23  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+04:07:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:07:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:07:25  Screenshot saved: 2026-09-29_04-07-24_CHEF_auto.png
+04:07:25  Have bread, exiting kitchen via northwest door
+04:07:25  Build 197: spamDialogue phased session armed, budget 5s -- one dialogue action per tick, verifying close on following ticks
+04:07:25  dialogueTick: clicking continue (priority over keyword handling)
+04:07:26  Diag tail uploaded: 2026-09-29_04-07-24_CHEF_diag.txt
+04:07:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:07:26  Build 224: CLIENT BLOCKER: blocking overlay visible ('[04:07:26] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+04:07:26  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+04:07:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:07:27  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+04:07:27  Have bread, exiting kitchen via northwest door
+04:10:20  Build 196: tick-wait 'chef-walk-exit' armed, bound 25 ticks (non-blocking)
+04:10:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:10:21  Screenshot saved: 2026-09-29_04-10-21_CHEF_auto.png
+04:10:22  Have bread, exiting kitchen via northwest door
+04:10:22  Build 197: spamDialogue budget exhausted (5s) -- dialogue still open, re-arming next tick if caller retries: ' / '
+04:10:22  Diag tail uploaded: 2026-09-29_04-10-21_CHEF_diag.txt
+04:10:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:10:23  Have bread, exiting kitchen via northwest door
+04:10:23  Build 197: spamDialogue phased session armed, budget 5s -- one dialogue action per tick, verifying close on following ticks
+04:10:24  dialogueTick: clicking continue (priority over keyword handling)
+04:10:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+04:10:25  Have bread, exiting kitchen via northwest door
+04:10:26  Build 203: Door 9710 arrival VERIFIED at WorldPoint(x=3073, y=3090, plane=0) (dist 2 <= 3, observed not assumed)
+04:10:32  Build 199: door 'Open' click issued on WorldPoint(x=3072, y=3090, plane=0) (id=9710, orient=null) -- verifying crossing on next ticks
+04:10:32  Door 9710: crossing not yet verified (tile before=WorldPoint(x=3073, y=3090, plane=0)) -- retry next cycle
+04:10:35  Build 196: tick-wait 'chef-beyond-exit' armed, bound 17 ticks (non-blocking)
+04:10:36  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:10:36  Build 195: varp281=200 says stage is QUEST_GUIDE but machine is at CHEF -- forcing FORWARD (game state, not proximity)
+04:10:36  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:10:36  Stage: CHEF -> QUEST_GUIDE
+04:10:37  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:10:37  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:10:38  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:10:39  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:10:39  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:10:40  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:10:40  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:10:41  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:10:42  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:10:42  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:10:43  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:10:43  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:10:44  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:10:44  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:10:45  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:10:45  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:10:46  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:10:46  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:10:47  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:10:47  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:10:48  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:10:48  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:10:49  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:10:50  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:10:50  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:10:51  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:10:51  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:10:52  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:10:53  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:10:53  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:10:54  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:10:54  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:10:55  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:10:55  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:10:56  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:10:56  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:10:57  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:10:57  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:10:58  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:10:58  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:10:59  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:10:59  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:01  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:01  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:02  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:02  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:03  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:04  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:04  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:05  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:05  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:06  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:06  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:07  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:07  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:08  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:08  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:09  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:09  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:10  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:10  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:11  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:12  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:12  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:13  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:13  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:14  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:15  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:15  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:16  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:16  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:17  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:17  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:18  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:18  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:19  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:19  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:20  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:20  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:21  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:21  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:22  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:22  Screenshot saved: 2026-09-29_04-11-22_QUEST_GUIDE_auto.png
+04:11:23  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:23  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:24  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:24  Diag tail uploaded: 2026-09-29_04-11-22_QUEST_GUIDE_diag.txt
+04:11:24  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:25  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:26  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:26  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:27  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:27  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:28  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:28  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:29  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:29  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:30  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:30  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:31  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:31  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:32  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:32  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:33  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:34  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:34  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:35  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:35  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:36  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:37  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:37  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:38  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:38  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:39  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:39  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:40  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:40  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:41  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:41  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:42  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:42  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:43  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:43  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:44  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:45  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:45  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:46  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:46  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:47  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:48  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:48  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:49  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:49  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:50  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:50  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:51  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:51  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:52  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:52  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:53  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:53  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:54  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:54  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:55  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:56  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:56  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:57  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:57  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:58  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:11:59  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:11:59  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:12  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:12  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:12:01  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:12:01  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:12:02  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:12:02  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:12:03  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:12:03  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:12:04  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:12:04  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:12:05  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:12:05  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:12:06  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:12:07  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:12:07  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:12:08  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:12:08  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:12:09  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:12:10  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:12:10  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:12:11  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:12:11  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:12:12  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:12:12  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:12:13  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:12:13  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:12:14  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:12:14  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:12:15  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:12:15  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:12:16  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:12:16  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:12:17  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:12:18  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:12:18  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:12:19  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:12:19  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:12:20  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:12:21  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:12:21  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:12:22  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:12:22  Build 197 talk: 'Quest Guide' not in NPC snapshot (not nearby)
+04:12:23  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+04:12:23  Screenshot saved: 2026-09-29_04-12-23_QUEST_GUIDE_auto.png
