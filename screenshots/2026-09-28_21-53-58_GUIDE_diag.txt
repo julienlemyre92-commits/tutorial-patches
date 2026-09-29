@@ -1,0 +1,250 @@
+21:52:58  Diag tail uploaded: 2026-09-28_21-52-57_GUIDE_diag.txt
+21:52:58  Build 258: cache-hash modal OBSERVED -- id=10616875 index=-1 text='[21:52:58] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1BCA605B7302243A844B2B6F3471C646C233AF1 != 5C2C8897332020947CDFBE802C958888FC54988726320D11AFA2705B3F088608' actions=<null> bounds=java.awt.Rectangle[x=20,y=525,width=479,height=72] hidden=false
+21:52:58  Build 258: dismissing cache-hash modal -- clicking control text='Click here to continue' index=-1 actions=<null> bounds=java.awt.Rectangle[x=20,y=601,width=479,height=17] hidden=false -- one action
+21:52:59  Build 258: cache-hash modal no longer observed -- cleared, verified
+21:52:59  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:52:59  Build 197 talk: 'Gielinor Guide' id=3308 idx=1715 at WorldPoint(x=3093, y=3105, plane=0)
+21:53  Build 166 talk: direct invoke 'Talk-to' on 'Gielinor Guide' id=3308 idx=1715
+21:53  Build 196: tick-wait 'talk:Gielinor Guide' armed, bound 17 ticks (non-blocking)
+21:53  Build 197: talkTo 'Gielinor Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+21:53  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53  Build 196: tick-wait 'talk:Gielinor Guide' SATISFIED (world changed as expected)
+21:53  Build 197: talkTo 'Gielinor Guide' VERIFIED -- dialogue open (observed, not assumed)
+21:53  Build 205: dialogueWithFirstOption clicking continue (one action this tick)
+21:53:01  Build 258: cache-hash modal OBSERVED -- id=10616875 index=-1 text='[21:53:01] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1BCA605B7302243A844B2B6F3471C646C233AF1 != 5C2C8897332020947CDFBE802C958888FC54988726320D11AFA2705B3F088608' actions=<null> bounds=java.awt.Rectangle[x=20,y=525,width=479,height=72] hidden=false
+21:53:01  Build 258: dismissing cache-hash modal -- clicking control text='Click here to continue' index=-1 actions=<null> bounds=java.awt.Rectangle[x=20,y=601,width=479,height=17] hidden=false -- one action
+21:53:02  Build 258: cache-hash modal no longer observed -- cleared, verified
+21:53:02  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:02  Build 197 talk: 'Gielinor Guide' id=3308 idx=1715 at WorldPoint(x=3093, y=3105, plane=0)
+21:53:02  Build 166 talk: direct invoke 'Talk-to' on 'Gielinor Guide' id=3308 idx=1715
+21:53:02  Build 196: tick-wait 'talk:Gielinor Guide' armed, bound 17 ticks (non-blocking)
+21:53:02  Build 197: talkTo 'Gielinor Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+21:53:03  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:03  Build 196: tick-wait 'talk:Gielinor Guide' SATISFIED (world changed as expected)
+21:53:03  Build 197: talkTo 'Gielinor Guide' VERIFIED -- dialogue open (observed, not assumed)
+21:53:03  Build 205: dialogueWithFirstOption clicking continue (one action this tick)
+21:53:04  Build 258: cache-hash modal OBSERVED -- id=10616875 index=-1 text='[21:53:04] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1BCA605B7302243A844B2B6F3471C646C233AF1 != 5C2C8897332020947CDFBE802C958888FC54988726320D11AFA2705B3F088608' actions=<null> bounds=java.awt.Rectangle[x=20,y=525,width=479,height=72] hidden=false
+21:53:04  Build 258: dismissing cache-hash modal -- clicking control text='Click here to continue' index=-1 actions=<null> bounds=java.awt.Rectangle[x=20,y=601,width=479,height=17] hidden=false -- one action
+21:53:05  Build 258: cache-hash modal no longer observed -- cleared, verified
+21:53:05  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:05  Build 197 talk: 'Gielinor Guide' id=3308 idx=1715 at WorldPoint(x=3093, y=3105, plane=0)
+21:53:05  Build 166 talk: direct invoke 'Talk-to' on 'Gielinor Guide' id=3308 idx=1715
+21:53:05  Build 196: tick-wait 'talk:Gielinor Guide' armed, bound 17 ticks (non-blocking)
+21:53:05  Build 197: talkTo 'Gielinor Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+21:53:06  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:06  Build 196: tick-wait 'talk:Gielinor Guide' SATISFIED (world changed as expected)
+21:53:06  Build 197: talkTo 'Gielinor Guide' VERIFIED -- dialogue open (observed, not assumed)
+21:53:06  Build 205: dialogueWithFirstOption clicking continue (one action this tick)
+21:53:07  Build 258: cache-hash modal OBSERVED -- id=10616875 index=-1 text='[21:53:06] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1BCA605B7302243A844B2B6F3471C646C233AF1 != 5C2C8897332020947CDFBE802C958888FC54988726320D11AFA2705B3F088608' actions=<null> bounds=java.awt.Rectangle[x=20,y=525,width=479,height=72] hidden=false
+21:53:07  Build 258: dismissing cache-hash modal -- clicking control text='Click here to continue' index=-1 actions=<null> bounds=java.awt.Rectangle[x=20,y=601,width=479,height=17] hidden=false -- one action
+21:53:08  Build 258: cache-hash modal no longer observed -- cleared, verified
+21:53:08  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:08  Build 197 talk: 'Gielinor Guide' id=3308 idx=1715 at WorldPoint(x=3093, y=3105, plane=0)
+21:53:08  Build 166 talk: direct invoke 'Talk-to' on 'Gielinor Guide' id=3308 idx=1715
+21:53:08  Build 196: tick-wait 'talk:Gielinor Guide' armed, bound 17 ticks (non-blocking)
+21:53:08  Build 197: talkTo 'Gielinor Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+21:53:09  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:09  Build 196: tick-wait 'talk:Gielinor Guide' SATISFIED (world changed as expected)
+21:53:09  Build 197: talkTo 'Gielinor Guide' VERIFIED -- dialogue open (observed, not assumed)
+21:53:09  Build 205: dialogueWithFirstOption clicking continue (one action this tick)
+21:53:10  Build 258: cache-hash modal OBSERVED -- id=10616875 index=-1 text='[21:53:09] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1BCA605B7302243A844B2B6F3471C646C233AF1 != 5C2C8897332020947CDFBE802C958888FC54988726320D11AFA2705B3F088608' actions=<null> bounds=java.awt.Rectangle[x=20,y=525,width=479,height=72] hidden=false
+21:53:10  Build 258: dismissing cache-hash modal -- clicking control text='Click here to continue' index=-1 actions=<null> bounds=java.awt.Rectangle[x=20,y=601,width=479,height=17] hidden=false -- one action
+21:53:11  Build 258: cache-hash modal no longer observed -- cleared, verified
+21:53:11  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:11  Build 197 talk: 'Gielinor Guide' id=3308 idx=1715 at WorldPoint(x=3093, y=3105, plane=0)
+21:53:11  Build 166 talk: direct invoke 'Talk-to' on 'Gielinor Guide' id=3308 idx=1715
+21:53:11  Build 196: tick-wait 'talk:Gielinor Guide' armed, bound 17 ticks (non-blocking)
+21:53:11  Build 197: talkTo 'Gielinor Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+21:53:12  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:12  Build 196: tick-wait 'talk:Gielinor Guide' SATISFIED (world changed as expected)
+21:53:12  Build 197: talkTo 'Gielinor Guide' VERIFIED -- dialogue open (observed, not assumed)
+21:53:12  Build 205: dialogueWithFirstOption clicking continue (one action this tick)
+21:53:13  Build 258: cache-hash modal OBSERVED -- id=10616875 index=-1 text='[21:53:12] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1BCA605B7302243A844B2B6F3471C646C233AF1 != 5C2C8897332020947CDFBE802C958888FC54988726320D11AFA2705B3F088608' actions=<null> bounds=java.awt.Rectangle[x=20,y=525,width=479,height=72] hidden=false
+21:53:13  Build 258: dismissing cache-hash modal -- clicking control text='Click here to continue' index=-1 actions=<null> bounds=java.awt.Rectangle[x=20,y=601,width=479,height=17] hidden=false -- one action
+21:53:14  Build 258: cache-hash modal no longer observed -- cleared, verified
+21:53:14  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:14  Build 197 talk: 'Gielinor Guide' id=3308 idx=1715 at WorldPoint(x=3093, y=3105, plane=0)
+21:53:14  Build 166 talk: direct invoke 'Talk-to' on 'Gielinor Guide' id=3308 idx=1715
+21:53:14  Build 196: tick-wait 'talk:Gielinor Guide' armed, bound 17 ticks (non-blocking)
+21:53:14  Build 197: talkTo 'Gielinor Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+21:53:15  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:15  Build 196: tick-wait 'talk:Gielinor Guide' SATISFIED (world changed as expected)
+21:53:15  Build 197: talkTo 'Gielinor Guide' VERIFIED -- dialogue open (observed, not assumed)
+21:53:15  Build 205: dialogueWithFirstOption clicking continue (one action this tick)
+21:53:16  Build 258: cache-hash modal OBSERVED -- id=10616875 index=-1 text='[21:53:15] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1BCA605B7302243A844B2B6F3471C646C233AF1 != 5C2C8897332020947CDFBE802C958888FC54988726320D11AFA2705B3F088608' actions=<null> bounds=java.awt.Rectangle[x=20,y=525,width=479,height=72] hidden=false
+21:53:16  Build 258: dismissing cache-hash modal -- clicking control text='Click here to continue' index=-1 actions=<null> bounds=java.awt.Rectangle[x=20,y=601,width=479,height=17] hidden=false -- one action
+21:53:17  Build 258: cache-hash modal no longer observed -- cleared, verified
+21:53:17  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:17  Build 197 talk: 'Gielinor Guide' id=3308 idx=1715 at WorldPoint(x=3093, y=3105, plane=0)
+21:53:17  Build 166 talk: direct invoke 'Talk-to' on 'Gielinor Guide' id=3308 idx=1715
+21:53:17  Build 196: tick-wait 'talk:Gielinor Guide' armed, bound 17 ticks (non-blocking)
+21:53:17  Build 197: talkTo 'Gielinor Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+21:53:18  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:18  Build 196: tick-wait 'talk:Gielinor Guide' SATISFIED (world changed as expected)
+21:53:18  Build 197: talkTo 'Gielinor Guide' VERIFIED -- dialogue open (observed, not assumed)
+21:53:18  Build 205: dialogueWithFirstOption clicking continue (one action this tick)
+21:53:19  Build 258: cache-hash modal OBSERVED -- id=10616875 index=-1 text='[21:53:18] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1BCA605B7302243A844B2B6F3471C646C233AF1 != 5C2C8897332020947CDFBE802C958888FC54988726320D11AFA2705B3F088608' actions=<null> bounds=java.awt.Rectangle[x=20,y=525,width=479,height=72] hidden=false
+21:53:19  Build 258: dismissing cache-hash modal -- clicking control text='Click here to continue' index=-1 actions=<null> bounds=java.awt.Rectangle[x=20,y=601,width=479,height=17] hidden=false -- one action
+21:53:19  Build 258: cache-hash modal no longer observed -- cleared, verified
+21:53:19  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:19  Build 197 talk: 'Gielinor Guide' id=3308 idx=1715 at WorldPoint(x=3093, y=3105, plane=0)
+21:53:20  Build 166 talk: direct invoke 'Talk-to' on 'Gielinor Guide' id=3308 idx=1715
+21:53:20  Build 196: tick-wait 'talk:Gielinor Guide' armed, bound 17 ticks (non-blocking)
+21:53:20  Build 197: talkTo 'Gielinor Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+21:53:21  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:21  Build 196: tick-wait 'talk:Gielinor Guide' SATISFIED (world changed as expected)
+21:53:21  Build 197: talkTo 'Gielinor Guide' VERIFIED -- dialogue open (observed, not assumed)
+21:53:21  Build 205: dialogueWithFirstOption clicking continue (one action this tick)
+21:53:21  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:21  Build 197 talk: 'Gielinor Guide' id=3308 idx=1715 at WorldPoint(x=3093, y=3105, plane=0)
+21:53:22  Build 166 talk: direct invoke 'Talk-to' on 'Gielinor Guide' id=3308 idx=1715
+21:53:22  Build 196: tick-wait 'talk:Gielinor Guide' armed, bound 17 ticks (non-blocking)
+21:53:22  Build 197: talkTo 'Gielinor Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+21:53:23  Build 258: cache-hash modal OBSERVED -- id=10616875 index=-1 text='[21:53:22] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1BCA605B7302243A844B2B6F3471C646C233AF1 != 5C2C8897332020947CDFBE802C958888FC54988726320D11AFA2705B3F088608' actions=<null> bounds=java.awt.Rectangle[x=20,y=525,width=479,height=72] hidden=false
+21:53:23  Build 258: dismissing cache-hash modal -- clicking control text='Click here to continue' index=-1 actions=<null> bounds=java.awt.Rectangle[x=20,y=601,width=479,height=17] hidden=false -- one action
+21:53:23  Build 258: cache-hash modal no longer observed -- cleared, verified
+21:53:23  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:24  Build 196: tick-wait 'talk:Gielinor Guide' SATISFIED (world changed as expected)
+21:53:24  Build 197: talkTo 'Gielinor Guide' VERIFIED -- dialogue open (observed, not assumed)
+21:53:24  Build 205: dialogueWithFirstOption clicking continue (one action this tick)
+21:53:24  Build 258: cache-hash modal OBSERVED -- id=10616875 index=-1 text='[21:53:24] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1BCA605B7302243A844B2B6F3471C646C233AF1 != 5C2C8897332020947CDFBE802C958888FC54988726320D11AFA2705B3F088608' actions=<null> bounds=java.awt.Rectangle[x=20,y=525,width=479,height=72] hidden=false
+21:53:24  Build 258: dismissing cache-hash modal -- clicking control text='Click here to continue' index=-1 actions=<null> bounds=java.awt.Rectangle[x=20,y=601,width=479,height=17] hidden=false -- one action
+21:53:25  Build 258: cache-hash modal no longer observed -- cleared, verified
+21:53:25  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:25  Build 197 talk: 'Gielinor Guide' id=3308 idx=1715 at WorldPoint(x=3093, y=3105, plane=0)
+21:53:26  Build 166 talk: direct invoke 'Talk-to' on 'Gielinor Guide' id=3308 idx=1715
+21:53:26  Build 196: tick-wait 'talk:Gielinor Guide' armed, bound 17 ticks (non-blocking)
+21:53:26  Build 197: talkTo 'Gielinor Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+21:53:26  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:26  Build 196: tick-wait 'talk:Gielinor Guide' SATISFIED (world changed as expected)
+21:53:26  Build 197: talkTo 'Gielinor Guide' VERIFIED -- dialogue open (observed, not assumed)
+21:53:27  Build 205: dialogueWithFirstOption clicking continue (one action this tick)
+21:53:27  Build 258: cache-hash modal OBSERVED -- id=10616875 index=-1 text='[21:53:27] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1BCA605B7302243A844B2B6F3471C646C233AF1 != 5C2C8897332020947CDFBE802C958888FC54988726320D11AFA2705B3F088608' actions=<null> bounds=java.awt.Rectangle[x=20,y=525,width=479,height=72] hidden=false
+21:53:27  Build 258: dismissing cache-hash modal -- clicking control text='Click here to continue' index=-1 actions=<null> bounds=java.awt.Rectangle[x=20,y=601,width=479,height=17] hidden=false -- one action
+21:53:28  Build 258: cache-hash modal no longer observed -- cleared, verified
+21:53:28  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:28  Build 197 talk: 'Gielinor Guide' id=3308 idx=1715 at WorldPoint(x=3093, y=3105, plane=0)
+21:53:28  Build 166 talk: direct invoke 'Talk-to' on 'Gielinor Guide' id=3308 idx=1715
+21:53:28  Build 196: tick-wait 'talk:Gielinor Guide' armed, bound 17 ticks (non-blocking)
+21:53:28  Build 197: talkTo 'Gielinor Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+21:53:29  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:29  Build 196: tick-wait 'talk:Gielinor Guide' SATISFIED (world changed as expected)
+21:53:29  Build 197: talkTo 'Gielinor Guide' VERIFIED -- dialogue open (observed, not assumed)
+21:53:29  Build 205: dialogueWithFirstOption clicking continue (one action this tick)
+21:53:30  Build 258: cache-hash modal OBSERVED -- id=10616875 index=-1 text='[21:53:30] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1BCA605B7302243A844B2B6F3471C646C233AF1 != 5C2C8897332020947CDFBE802C958888FC54988726320D11AFA2705B3F088608' actions=<null> bounds=java.awt.Rectangle[x=20,y=525,width=479,height=72] hidden=false
+21:53:30  Build 258: dismissing cache-hash modal -- clicking control text='Click here to continue' index=-1 actions=<null> bounds=java.awt.Rectangle[x=20,y=601,width=479,height=17] hidden=false -- one action
+21:53:31  Build 258: cache-hash modal no longer observed -- cleared, verified
+21:53:31  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:31  Build 197 talk: 'Gielinor Guide' id=3308 idx=1715 at WorldPoint(x=3093, y=3105, plane=0)
+21:53:31  Build 166 talk: direct invoke 'Talk-to' on 'Gielinor Guide' id=3308 idx=1715
+21:53:31  Build 196: tick-wait 'talk:Gielinor Guide' armed, bound 17 ticks (non-blocking)
+21:53:31  Build 197: talkTo 'Gielinor Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+21:53:32  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:32  Build 196: tick-wait 'talk:Gielinor Guide' SATISFIED (world changed as expected)
+21:53:32  Build 197: talkTo 'Gielinor Guide' VERIFIED -- dialogue open (observed, not assumed)
+21:53:32  Build 205: dialogueWithFirstOption clicking continue (one action this tick)
+21:53:33  Build 258: cache-hash modal OBSERVED -- id=10616875 index=-1 text='[21:53:33] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1BCA605B7302243A844B2B6F3471C646C233AF1 != 5C2C8897332020947CDFBE802C958888FC54988726320D11AFA2705B3F088608' actions=<null> bounds=java.awt.Rectangle[x=20,y=525,width=479,height=72] hidden=false
+21:53:33  Build 258: dismissing cache-hash modal -- clicking control text='Click here to continue' index=-1 actions=<null> bounds=java.awt.Rectangle[x=20,y=601,width=479,height=17] hidden=false -- one action
+21:53:34  Build 258: cache-hash modal no longer observed -- cleared, verified
+21:53:34  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:34  Build 197 talk: 'Gielinor Guide' id=3308 idx=1715 at WorldPoint(x=3093, y=3105, plane=0)
+21:53:34  Build 166 talk: direct invoke 'Talk-to' on 'Gielinor Guide' id=3308 idx=1715
+21:53:34  Build 196: tick-wait 'talk:Gielinor Guide' armed, bound 17 ticks (non-blocking)
+21:53:34  Build 197: talkTo 'Gielinor Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+21:53:35  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:35  Build 196: tick-wait 'talk:Gielinor Guide' SATISFIED (world changed as expected)
+21:53:35  Build 197: talkTo 'Gielinor Guide' VERIFIED -- dialogue open (observed, not assumed)
+21:53:35  Build 205: dialogueWithFirstOption clicking continue (one action this tick)
+21:53:36  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:36  Build 197 talk: 'Gielinor Guide' id=3308 idx=1715 at WorldPoint(x=3093, y=3105, plane=0)
+21:53:36  Build 166 talk: direct invoke 'Talk-to' on 'Gielinor Guide' id=3308 idx=1715
+21:53:36  Build 196: tick-wait 'talk:Gielinor Guide' armed, bound 17 ticks (non-blocking)
+21:53:36  Build 197: talkTo 'Gielinor Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+21:53:37  Build 258: cache-hash modal OBSERVED -- id=10616875 index=-1 text='[21:53:36] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1BCA605B7302243A844B2B6F3471C646C233AF1 != 5C2C8897332020947CDFBE802C958888FC54988726320D11AFA2705B3F088608' actions=<null> bounds=java.awt.Rectangle[x=20,y=525,width=479,height=72] hidden=false
+21:53:37  Build 258: dismissing cache-hash modal -- clicking control text='Click here to continue' index=-1 actions=<null> bounds=java.awt.Rectangle[x=20,y=601,width=479,height=17] hidden=false -- one action
+21:53:38  Build 258: cache-hash modal no longer observed -- cleared, verified
+21:53:38  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:38  Build 196: tick-wait 'talk:Gielinor Guide' SATISFIED (world changed as expected)
+21:53:38  Build 197: talkTo 'Gielinor Guide' VERIFIED -- dialogue open (observed, not assumed)
+21:53:38  Build 205: dialogueWithFirstOption clicking continue (one action this tick)
+21:53:39  Build 258: cache-hash modal OBSERVED -- id=10616875 index=-1 text='[21:53:38] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1BCA605B7302243A844B2B6F3471C646C233AF1 != 5C2C8897332020947CDFBE802C958888FC54988726320D11AFA2705B3F088608' actions=<null> bounds=java.awt.Rectangle[x=20,y=525,width=479,height=72] hidden=false
+21:53:39  Build 258: dismissing cache-hash modal -- clicking control text='Click here to continue' index=-1 actions=<null> bounds=java.awt.Rectangle[x=20,y=601,width=479,height=17] hidden=false -- one action
+21:53:40  Build 258: cache-hash modal no longer observed -- cleared, verified
+21:53:40  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:40  Build 197 talk: 'Gielinor Guide' id=3308 idx=1715 at WorldPoint(x=3093, y=3105, plane=0)
+21:53:40  Build 166 talk: direct invoke 'Talk-to' on 'Gielinor Guide' id=3308 idx=1715
+21:53:40  Build 196: tick-wait 'talk:Gielinor Guide' armed, bound 17 ticks (non-blocking)
+21:53:40  Build 197: talkTo 'Gielinor Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+21:53:41  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:41  Build 196: tick-wait 'talk:Gielinor Guide' SATISFIED (world changed as expected)
+21:53:41  Build 197: talkTo 'Gielinor Guide' VERIFIED -- dialogue open (observed, not assumed)
+21:53:41  Build 205: dialogueWithFirstOption clicking continue (one action this tick)
+21:53:42  Build 258: cache-hash modal OBSERVED -- id=10616875 index=-1 text='[21:53:41] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1BCA605B7302243A844B2B6F3471C646C233AF1 != 5C2C8897332020947CDFBE802C958888FC54988726320D11AFA2705B3F088608' actions=<null> bounds=java.awt.Rectangle[x=20,y=525,width=479,height=72] hidden=false
+21:53:42  Build 258: dismissing cache-hash modal -- clicking control text='Click here to continue' index=-1 actions=<null> bounds=java.awt.Rectangle[x=20,y=601,width=479,height=17] hidden=false -- one action
+21:53:43  Build 258: cache-hash modal no longer observed -- cleared, verified
+21:53:43  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:43  Build 197 talk: 'Gielinor Guide' id=3308 idx=1715 at WorldPoint(x=3093, y=3105, plane=0)
+21:53:43  Build 166 talk: direct invoke 'Talk-to' on 'Gielinor Guide' id=3308 idx=1715
+21:53:43  Build 196: tick-wait 'talk:Gielinor Guide' armed, bound 17 ticks (non-blocking)
+21:53:43  Build 197: talkTo 'Gielinor Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+21:53:44  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:44  Build 196: tick-wait 'talk:Gielinor Guide' SATISFIED (world changed as expected)
+21:53:44  Build 197: talkTo 'Gielinor Guide' VERIFIED -- dialogue open (observed, not assumed)
+21:53:44  Build 205: dialogueWithFirstOption clicking continue (one action this tick)
+21:53:45  Build 258: cache-hash modal OBSERVED -- id=10616875 index=-1 text='[21:53:44] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1BCA605B7302243A844B2B6F3471C646C233AF1 != 5C2C8897332020947CDFBE802C958888FC54988726320D11AFA2705B3F088608' actions=<null> bounds=java.awt.Rectangle[x=20,y=525,width=479,height=72] hidden=false
+21:53:45  Build 258: dismissing cache-hash modal -- clicking control text='Click here to continue' index=-1 actions=<null> bounds=java.awt.Rectangle[x=20,y=601,width=479,height=17] hidden=false -- one action
+21:53:46  Build 258: cache-hash modal no longer observed -- cleared, verified
+21:53:46  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:46  Build 197 talk: 'Gielinor Guide' id=3308 idx=1715 at WorldPoint(x=3093, y=3105, plane=0)
+21:53:46  Build 166 talk: direct invoke 'Talk-to' on 'Gielinor Guide' id=3308 idx=1715
+21:53:46  Build 196: tick-wait 'talk:Gielinor Guide' armed, bound 17 ticks (non-blocking)
+21:53:46  Build 197: talkTo 'Gielinor Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+21:53:47  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:47  Build 196: tick-wait 'talk:Gielinor Guide' SATISFIED (world changed as expected)
+21:53:47  Build 197: talkTo 'Gielinor Guide' VERIFIED -- dialogue open (observed, not assumed)
+21:53:47  Build 205: dialogueWithFirstOption clicking continue (one action this tick)
+21:53:48  Build 258: cache-hash modal OBSERVED -- id=10616875 index=-1 text='[21:53:47] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1BCA605B7302243A844B2B6F3471C646C233AF1 != 5C2C8897332020947CDFBE802C958888FC54988726320D11AFA2705B3F088608' actions=<null> bounds=java.awt.Rectangle[x=20,y=525,width=479,height=72] hidden=false
+21:53:48  Build 258: dismissing cache-hash modal -- clicking control text='Click here to continue' index=-1 actions=<null> bounds=java.awt.Rectangle[x=20,y=601,width=479,height=17] hidden=false -- one action
+21:53:48  Build 258: cache-hash modal no longer observed -- cleared, verified
+21:53:48  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:48  Build 197 talk: 'Gielinor Guide' id=3308 idx=1715 at WorldPoint(x=3093, y=3105, plane=0)
+21:53:49  Build 166 talk: direct invoke 'Talk-to' on 'Gielinor Guide' id=3308 idx=1715
+21:53:49  Build 196: tick-wait 'talk:Gielinor Guide' armed, bound 17 ticks (non-blocking)
+21:53:49  Build 197: talkTo 'Gielinor Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+21:53:49  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:50  Build 196: tick-wait 'talk:Gielinor Guide' SATISFIED (world changed as expected)
+21:53:50  Build 197: talkTo 'Gielinor Guide' VERIFIED -- dialogue open (observed, not assumed)
+21:53:50  Build 205: dialogueWithFirstOption clicking continue (one action this tick)
+21:53:50  Build 258: cache-hash modal OBSERVED -- id=10616875 index=-1 text='[21:53:50] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1BCA605B7302243A844B2B6F3471C646C233AF1 != 5C2C8897332020947CDFBE802C958888FC54988726320D11AFA2705B3F088608' actions=<null> bounds=java.awt.Rectangle[x=20,y=525,width=479,height=72] hidden=false
+21:53:50  Build 258: dismissing cache-hash modal -- clicking control text='Click here to continue' index=-1 actions=<null> bounds=java.awt.Rectangle[x=20,y=601,width=479,height=17] hidden=false -- one action
+21:53:51  Build 258: cache-hash modal no longer observed -- cleared, verified
+21:53:51  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:51  Build 197 talk: 'Gielinor Guide' id=3308 idx=1715 at WorldPoint(x=3093, y=3105, plane=0)
+21:53:52  Build 166 talk: direct invoke 'Talk-to' on 'Gielinor Guide' id=3308 idx=1715
+21:53:52  Build 196: tick-wait 'talk:Gielinor Guide' armed, bound 17 ticks (non-blocking)
+21:53:52  Build 197: talkTo 'Gielinor Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+21:53:52  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:52  Build 196: tick-wait 'talk:Gielinor Guide' SATISFIED (world changed as expected)
+21:53:52  Build 197: talkTo 'Gielinor Guide' VERIFIED -- dialogue open (observed, not assumed)
+21:53:52  Build 205: dialogueWithFirstOption clicking continue (one action this tick)
+21:53:53  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:53  Build 197 talk: 'Gielinor Guide' id=3308 idx=1715 at WorldPoint(x=3093, y=3105, plane=0)
+21:53:54  Build 166 talk: direct invoke 'Talk-to' on 'Gielinor Guide' id=3308 idx=1715
+21:53:54  Build 196: tick-wait 'talk:Gielinor Guide' armed, bound 17 ticks (non-blocking)
+21:53:54  Build 197: talkTo 'Gielinor Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+21:53:54  Build 258: cache-hash modal OBSERVED -- id=10616875 index=-1 text='[21:53:54] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1BCA605B7302243A844B2B6F3471C646C233AF1 != 5C2C8897332020947CDFBE802C958888FC54988726320D11AFA2705B3F088608' actions=<null> bounds=java.awt.Rectangle[x=20,y=525,width=479,height=72] hidden=false
+21:53:54  Build 258: dismissing cache-hash modal -- clicking control text='Click here to continue' index=-1 actions=<null> bounds=java.awt.Rectangle[x=20,y=601,width=479,height=17] hidden=false -- one action
+21:53:55  Build 258: cache-hash modal no longer observed -- cleared, verified
+21:53:55  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:55  Build 196: tick-wait 'talk:Gielinor Guide' SATISFIED (world changed as expected)
+21:53:55  Build 197: talkTo 'Gielinor Guide' VERIFIED -- dialogue open (observed, not assumed)
+21:53:55  Build 205: dialogueWithFirstOption clicking continue (one action this tick)
+21:53:56  Build 258: cache-hash modal OBSERVED -- id=10616875 index=-1 text='[21:53:56] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1BCA605B7302243A844B2B6F3471C646C233AF1 != 5C2C8897332020947CDFBE802C958888FC54988726320D11AFA2705B3F088608' actions=<null> bounds=java.awt.Rectangle[x=20,y=525,width=479,height=72] hidden=false
+21:53:56  Build 258: dismissing cache-hash modal -- clicking control text='Click here to continue' index=-1 actions=<null> bounds=java.awt.Rectangle[x=20,y=601,width=479,height=17] hidden=false -- one action
+21:53:57  Build 258: cache-hash modal no longer observed -- cleared, verified
+21:53:57  Build 263: varp281=3 post-familiarity, no dialogue open -- fresh observed transition, Talk-to allowed
+21:53:57  Build 197 talk: 'Gielinor Guide' id=3308 idx=1715 at WorldPoint(x=3093, y=3105, plane=0)
+21:53:57  Build 166 talk: direct invoke 'Talk-to' on 'Gielinor Guide' id=3308 idx=1715
+21:53:57  Build 196: tick-wait 'talk:Gielinor Guide' armed, bound 17 ticks (non-blocking)
+21:53:57  Build 197: talkTo 'Gielinor Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+21:53:58  Screenshot saved: 2026-09-28_21-53-58_GUIDE_auto.png
