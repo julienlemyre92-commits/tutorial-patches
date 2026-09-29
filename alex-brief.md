@@ -1,3 +1,29 @@
+## Build 351 / patch-349 (2026-09-29 ~05:35 EDT) -- smelt substring-trap fix (review-loop worker)
+- Live result (Build 350, session 05:29:06): mining intro FULLY verified --
+  "next step=talk/dialogue/done", pickaxe in inventory 05:29:39, Tin rocks
+  click verified 05:29:53, Copper rocks verified 05:30:03. Then the SMELT step
+  deadlocked: "Smelting bronze bar" every tick 05:30:09->05:31:07, furnace
+  never clicked, Smelting info dialogue ("Try it now. Click here to
+  continue") stuck open (screenshot 05:31:07), tick-wait 'mine-smelt' armed
+  bound 34 with no EXHAUSTED in the window.
+- Root cause: the smelting-UI check used SUBSTRING findWidget -- "bronze bar"
+  matched inside the OPEN Smelting DIALOGUE TEXT ("...smelt these into a
+  bronze bar..."), so Phase 3 "UI open" fired with no UI on screen; the
+  dialogue body got clicked and 'mine-smelt' waited for a bar that could never
+  come. Separately, the mine-esc2 ESC never closed that dialogue (it needs a
+  continue click).
+- Fix: (1) smeltUiOpen now uses findWidget("Bronze bar", true) = exact
+  equalsIgnoreCase (verified in microbot-base bytecode); (2) the "Bronze"
+  fallback on the bronze-pick click is DELETED (it could match the Bronze
+  PICKAXE in inventory -- same trap class); (3) the smelt flow owns its info
+  dialogue: while holding tin+copper ore with no bar/dagger, an open dialogue
+  gets one spamDialogue continue per tick instead of ESC. Step model now:
+  dialogue -> bronze-pick (exact) -> furnace (use tin ore -> click furnace).
+- Pending verification: Build 351 banner (RUNNING_BUILD=351), "Build 351:
+  smelt next step=" lines, smelting info dialogue continued through, furnace
+  clicked, smelting UI opened (exact "Bronze bar"), bronze-pick clicked,
+  "Bronze bar" observed in inventory -> "Build 196: bronze bar smelted".
+
 ## Build 350 / patch-348 (2026-09-29 ~05:30 EDT) -- mining intro step model (review-loop worker)
 - Live result (Build 349, session 05:21:03): quest fix FULLY verified -- Climb-down
   click landed on the LADDER (id=9726 at 3088,3119), descent verified
