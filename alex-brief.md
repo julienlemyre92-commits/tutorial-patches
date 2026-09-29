@@ -1,3 +1,27 @@
+## Build 361 / patch-359 (2026-09-29 ~07:07 EDT) -- POLL-BOOTH cache-miss soft-lock (review-loop worker)
+- Live result (Build 360): bank opened 06:56:49 ("Bank is open (stable 3
+  ticks)"), closed 06:56:51-54. Poll-booth step then spun 4+ min (retry
+  tick 180 at 07:01:16): findObject("Poll booth", 15) null EVERY tick while
+  the bank booth resolved fine on the same event-driven cache path -- the
+  step had no diagnosis and no recovery. Blue "Banking" info box
+  ("close the bank and click on the indicated poll booth") visible in
+  screenshots; Build 360's info-box gate lines never appeared live
+  (bankInfoBoxOpen() not matching this box variant -- title "Banking"
+  present but detector silent; needs your eyes on the widget semantics).
+- Fix: (1) lookup radius 15->30; (2) loose-name fallback (contains "poll")
+  over the same cached list, logged distinctly; (3) miss diagnostics every
+  ~30 retry ticks -- player tile + cache inventory (nearest 8:
+  id/name|UNRESOLVED/dist); (4) proximity gate (mirrors Build 115): booth
+  found but >4 tiles away -> non-blocking walkStep per tick toward
+  adjacentWalkable(booth), never blocking walkTo. Verification pending:
+  expect "Build 361: POLL-BOOTH MISS DIAG" lines (or the booth found +
+  "Build 100: poll booth step VERIFIED complete" + varp 281 -> 520).
+- Open question for you: why would the poll booth be absent from
+  Rs2TileObjectCache while the bank booth (same room, same path) resolves?
+  Suspects: booth outside 15-tile window (player mispositioned?), name
+  unresolvable via cachedObjectName, or a non-GameObject type the cache
+  doesn't track. The new miss-diag will discriminate.
+
 ## Build 360 / patch-358 (2026-09-29 ~06:57 EDT) -- BANKING info-box soft-lock + wrong arc order (review-loop worker)
 - Live result (Build 359): banner RUNNING_BUILD=359 verified at 06:46:06;
   FINAL_LADDER worked -- ladder climbed, varp281=510 -> BANK at 06:48:14.
