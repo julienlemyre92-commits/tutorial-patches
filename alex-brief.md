@@ -1374,3 +1374,22 @@ ACCEPTANCE (watching for, in order):
 - Screenshots 15:42:24 -> 15:46:29 (fresh, ~60s cadence): avatar MOVING through the chicken-farm area (walk-target cross, swinging camera), egg + empty bucket in inventory, stage COOKS_MILK_COW. Egg collected milestone stands; milk UNVERIFIED ~150 min (since ~13:14).
 - Build 414 acceptance pending: `Build 414: STARTUP -- RUNNING_BUILD=414 (patch-411)` -> milk-target-found -> `MILK VERIFIED` (Bucket of milk inventory delta).
 - Note: Julien activated the requested extra visual overlays (tile numbers, object/NPC IDs, collision flags) -- screenshots are overlay-dense by design; keep script state/inventory proofs authoritative.
+
+## 18:44 EDT live status -- Build 466 (patch-462) installing, 5-leg return route
+- version.txt=462 == Build 466 == patch-462.zip (shipped ~18:42 EDT; 460->461->462 in ~4 min).
+- Build 466 implements Alex's acceptance directive: the final hardcoded wheat->Cook hop is GONE,
+  replaced by a 5-leg staged return: (1) dairy->mill approach, (2) mill->wheat field,
+  (3) wheat exit (3172,3288) out of the fence, (4) wheat exit->Lumbridge road anchor (3185,3260),
+  (5) road->Cook via the LIVE Cook NPC tile (hardcoded (3209,3214) fallback only if the NPC is not loaded).
+- Sticky HOLD contract kept: one bounded RETURN_ROUTE_BLOCKED for leg 5/5 after 15 stall ticks,
+  then no re-entry; no repeated walkStep, no log spam. Dairy/milk code untouched (milk VERIFIED, Bucket of milk held).
+- 18:44:15 desktop evidence: client booting ("Starting plugins 128/147") installing patch-462;
+  diag console already printing "Build 466 - MISSION_SELECT OWNERSHIP GATE" -- Build 466 code is loading.
+- Alex (muse.ai, live): verifying the supervisor loads Build 466, then checking whether the player
+  actually leaves the wheat side. Acceptance: exits the wheat toward the Cook, or one exact blocked-edge record.
+- YouTube Live Control Panel: no broadcast selected -- no live stream; screenshots remain the visual source.
+- Acceptance pending, in order:
+  1. "Build 466: STARTUP -- RUNNING_BUILD=466 (patch-462)"
+  2. per-leg movement evidence dairy->mill->wheat->exit->road->Cook
+  3. player LEAVES the wheat side / reaches the Cook
+  4. Cook hand-in of Bucket of milk (quest state)
