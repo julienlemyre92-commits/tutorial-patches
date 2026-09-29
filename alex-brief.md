@@ -1,4 +1,12 @@
 ## Current build
+- **Build 450 / patch-446** (shipped 2026-09-29 17:44 EDT). GATE FIXTURE DIAGNOSTIC.
+  - Alex 17:42: Build 448's zero-distance guard works (SKIPPED, no false claim) but the resolver is never exercised because the player never enters the pen.
+  - New: findNearestGate() scans for gate/door objects in 15 tiles. The diagnostic builds a fixture: outside=player pos, inside=2 tiles past the gate on the far side.
+  - Phase 6 runs the two-leg crossing against the fixture. The walk WILL stall at the fence (40 ticks), the resolver engages, and the idempotency proof re-issues the exact key while active.
+  - Expected: "DIAG gate fixture", "TRAVERSAL START", "TRAVERSAL IDEMPOTENT" (dedup, blacklist preserved, actionId), then "DIAG leg1 COMPLETE" with handoff+tilechange, then leg2.
+  - No quest progress, no artificial success, dairy HOLD unchanged.
+
+## Current build
 - **Build 449 / patch-445** (shipped 2026-09-29 17:42 EDT). TWO-LEG DIAGNOSTIC CROSSING.
   - Alex 17:40: Build 446's dairy guard is correct (no dairy found -> HOLD). But dedup marker and real crossing still absent. Fixture must not depend on milkable NPC.
   - Change: capture milkDiagInsidePos from ANY cow NPC's tile (cows live inside the pen). milkOutsidePos from phase-0 start. Both from live state, no hardcode.
