@@ -1,0 +1,250 @@
+08:25:36  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:25:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:25:38  BANK TICK: up=true opened=true closed=true upStep=0
+08:25:38  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:25:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:25:39  BANK TICK: up=true opened=true closed=true upStep=0
+08:25:39  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:25:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:25:41  BANK TICK: up=true opened=true closed=true upStep=0
+08:25:41  Build 371: poll dialogue dismissal tick 200 (varp=525)
+08:25:41  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:25:41  Build 371: continue-link widget not found -- Space fallback
+08:25:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:25:42  BANK TICK: up=true opened=true closed=true upStep=0
+08:25:42  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:25:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:25:44  BANK TICK: up=true opened=true closed=true upStep=0
+08:25:44  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:25:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:25:45  BANK TICK: up=true opened=true closed=true upStep=0
+08:25:45  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:25:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:25:47  BANK TICK: up=true opened=true closed=true upStep=0
+08:25:47  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:25:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:25:48  BANK TICK: up=true opened=true closed=true upStep=0
+08:25:48  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:25:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:25:50  BANK TICK: up=true opened=true closed=true upStep=0
+08:25:50  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:25:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:25:51  BANK TICK: up=true opened=true closed=true upStep=0
+08:25:52  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:25:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:25:53  BANK TICK: up=true opened=true closed=true upStep=0
+08:25:53  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:25:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:25:55  BANK TICK: up=true opened=true closed=true upStep=0
+08:25:55  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:25:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:25:56  BANK TICK: up=true opened=true closed=true upStep=0
+08:25:56  Build 371: poll dialogue dismissal tick 210 (varp=525)
+08:25:56  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:25:56  Build 371: continue-link widget not found -- Space fallback
+08:25:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:25:58  BANK TICK: up=true opened=true closed=true upStep=0
+08:25:58  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:25:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:25:59  BANK TICK: up=true opened=true closed=true upStep=0
+08:25:59  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:01  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:01  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:02  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:02  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:04  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:04  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:06  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:06  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:07  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:07  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:09  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:09  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:10  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:10  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:12  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:12  Build 371: poll dialogue dismissal tick 220 (varp=525)
+08:26:12  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:12  Build 371: continue-link widget not found -- Space fallback
+08:26:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:13  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:13  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:15  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:15  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:16  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:16  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:18  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:18  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:20  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:20  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:21  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:21  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:23  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:23  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:24  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:24  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:26  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:26  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:27  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:27  Build 371: poll dialogue dismissal tick 230 (varp=525)
+08:26:27  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:27  Build 371: continue-link widget not found -- Space fallback
+08:26:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:29  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:29  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:30  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:30  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:32  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:32  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:34  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:34  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:35  Screenshot saved: 2026-09-29_08-26-35_BANK_auto.png
+08:26:35  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:35  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:36  Diag tail uploaded: 2026-09-29_08-26-35_BANK_diag.txt
+08:26:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:37  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:37  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:38  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:38  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:40  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:40  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:41  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:41  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:43  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:43  Build 371: poll dialogue dismissal tick 240 (varp=525)
+08:26:43  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:43  Build 371: continue-link widget not found -- Space fallback
+08:26:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:45  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:45  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:46  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:46  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:48  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:48  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:49  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:49  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:51  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:51  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:52  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:52  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:54  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:54  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:55  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:55  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:57  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:57  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:26:59  BANK TICK: up=true opened=true closed=true upStep=0
+08:26:59  Build 371: poll dialogue dismissal tick 250 (varp=525)
+08:26:59  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:26:59  Build 371: continue-link widget not found -- Space fallback
+08:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27  BANK TICK: up=true opened=true closed=true upStep=0
+08:27  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:27:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27:02  BANK TICK: up=true opened=true closed=true upStep=0
+08:27:02  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:27:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27:03  BANK TICK: up=true opened=true closed=true upStep=0
+08:27:03  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:27:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27:05  BANK TICK: up=true opened=true closed=true upStep=0
+08:27:05  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:27:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27:06  BANK TICK: up=true opened=true closed=true upStep=0
+08:27:06  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:27:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27:08  BANK TICK: up=true opened=true closed=true upStep=0
+08:27:08  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:27:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27:09  BANK TICK: up=true opened=true closed=true upStep=0
+08:27:09  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:27:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27:11  BANK TICK: up=true opened=true closed=true upStep=0
+08:27:11  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:27:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27:13  BANK TICK: up=true opened=true closed=true upStep=0
+08:27:13  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:27:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27:14  BANK TICK: up=true opened=true closed=true upStep=0
+08:27:14  Build 371: poll dialogue dismissal tick 260 (varp=525)
+08:27:14  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:27:14  Build 371: continue-link widget not found -- Space fallback
+08:27:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27:16  BANK TICK: up=true opened=true closed=true upStep=0
+08:27:16  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:27:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27:17  BANK TICK: up=true opened=true closed=true upStep=0
+08:27:17  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:27:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27:19  BANK TICK: up=true opened=true closed=true upStep=0
+08:27:19  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:27:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27:20  BANK TICK: up=true opened=true closed=true upStep=0
+08:27:20  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:27:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27:22  BANK TICK: up=true opened=true closed=true upStep=0
+08:27:22  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:27:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27:23  BANK TICK: up=true opened=true closed=true upStep=0
+08:27:23  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:27:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27:25  BANK TICK: up=true opened=true closed=true upStep=0
+08:27:25  Build 276: HIDDEN-TARGET -- 'poll (Moving on) continue link' is hidden=true (162:44) -- NOT clicking, standing down or re-scanning
+08:27:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27:26  BANK TICK: up=true opened=true closed=true upStep=0
+08:27:27  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:27:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27:28  BANK TICK: up=true opened=true closed=true upStep=0
+08:27:28  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:27:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27:30  BANK TICK: up=true opened=true closed=true upStep=0
+08:27:30  Build 371: poll dialogue dismissal tick 270 (varp=525)
+08:27:30  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:27:30  Build 371: continue-link widget not found -- Space fallback
+08:27:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27:31  BANK TICK: up=true opened=true closed=true upStep=0
+08:27:31  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:27:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27:33  BANK TICK: up=true opened=true closed=true upStep=0
+08:27:33  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:27:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27:34  BANK TICK: up=true opened=true closed=true upStep=0
+08:27:34  Build 276: HIDDEN-TARGET -- 'poll (Moving on) title' is hidden=true (263:1) -- NOT clicking, standing down or re-scanning
+08:27:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:27:35  Screenshot saved: 2026-09-29_08-27-35_BANK_auto.png
+08:27:35  Build 82: cleaned up 9 old screenshots
