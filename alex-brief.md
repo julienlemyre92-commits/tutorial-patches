@@ -1,8 +1,8 @@
 ## Current build
-- **Build 402 / patch-399** (shipped 2026-09-29 ~14:05 EDT). Change: pen-side state detection (Alex 14:04).
-- 401 restarted at (3237,3286) -- the proven post-gate tile -- but phase 1 reopened Gate@(3236,3285) and walked back out. State-detection defect.
-- Build 402: at MILK_COW phase 0, before any gate scan, check for Prized dairy cow/Dairy cow/Cow within 15. If found, skip the gate and go to phase 3 (one cow lookup). Gate NOT reopened when on pen side. Plugin-selection gate unchanged; retries bounded.
-- Watch for: `Build 402: STARTUP -- RUNNING_BUILD=402 (patch-399)` -> `already on pen side` -> one cow lookup -> `You milk the cow.` -> Bucket of milk.
+- **Build 403 / patch-400** (shipped 2026-09-29 ~14:09 EDT). Change: exact interaction verification (Alex 14:08).
+- 402 proved pen-side detection (Cow at 3250,3293) but bucket-on-Cow produced no milk. Root cause unknown: selection drop? wrong click action? non-milkable Cow?
+- Build 403: useItemOnNpc logs NPC id/name/pos at SELECT, inventory before/after, selected-item state after use() and before click(), npc.click("") return, exact bucket->milk transition on VERIFY. Abort to SELECT if deselected before click. No repeated clicks, no gate reopen. Plugin-selection gate unchanged.
+- Watch for: `Build 403: STARTUP -- RUNNING_BUILD=403 (patch-400)` -> SELECT/CLICK/VERIFY lines with ids and counts -> `VERIFIED` with transition or `FAILED` with diagnostics.
 ## Build 397 / patch-394 (2026-09-29 ~13:24 EDT) -- Alex's motion correction: per-tick pos log, NPC lookup only at gate-adjacent tile
 
 Alex's correction (13:22): comparing 13:20:41 vs 13:21:43 MILK_COW frames, the player sprite SHIFTS along the fenced path (left-center -> upper-left, red route/minimap updating) -- the bot is NOT motionless. `no dairy cow nearby` is a target-search failure during movement, not proof walking stopped. Also: the 13:20:19 RuneLite WorldService Error is environmental noise, not the MILK_COW diagnosis.
