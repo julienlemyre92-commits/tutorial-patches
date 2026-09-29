@@ -1,4 +1,10 @@
 ## Current build
+- **Build 422 / patch-419** (shipped 2026-09-29 16:32 EDT, NUDGE ALEX 16:28). TWO BUG FIXES from Build 419 evidence (16:24:09-16:26:50):
+  1. Already-open vs action-failure: edge finder now reads available actions via isOpShown/getOpOverride (field getters, not blocking composition). If "Close" shown without "Open", the edge is marked ALREADY_OPEN and the resolver skips action-issuance/verification, proceeding directly to bounded walk-through with crossing proof.
+  2. FAILED is terminal: isIdle() now true for IDLE only (not DONE/FAILED); added isDone()/hasFailed()/resultName(). doGetGrain hard-holds on hasFailed() -- no Pick, no re-request until deliberate reset. WALL_DOOR activates on IN_PROGRESS or FAILED, not DONE.
+- Watch for: `Build 422: STARTUP -- RUNNING_BUILD=422 (patch-419)` -> wheat unreachable -> EDGE with ALREADY_OPEN or Open -> walk-through -> crossing proof -> Pick.
+
+## Current build
 - **Build 421 / patch-418** (shipped 2026-09-29 16:30 EDT, NUDGE ALEX 16:27). API-CONFIRMED BOUNDED CHAIN. Alex inspected the installed jar: Rs2TileObjectQueryable supports within(WorldPoint,int), where(Predicate), withNameContains, withIds, first/nearest variants, toList; Rs2TileObjectCache exposes query() and getStream(). Implementation now uses the supported chain in order: query().within(fromPos, corridorRadius).where(...) then capped result -- name/ID filtering inside the bounded corridor, never query().toList() on the full cache. EDGE_SCAN logs elapsed/count. All calls under the 30s resolver deadline.
 - Watch for: `Build 421: STARTUP -- RUNNING_BUILD=421 (patch-418)` -> `TRAVERSAL START [GET_GRAIN]` -> `EDGE_SCAN` -> gate crossing.
 
