@@ -1,0 +1,250 @@
+01:54:20  Detected start stage: SURVIVAL
+01:54:20  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:20  Build 223: stage self-correction SKIPPED -- current machine state unreadable (null), varp281=20 live=SURVIVAL -- no force this tick, retrying next tick
+01:54:20  SURVIVAL TICK
+01:54:20  inv: raw=false cooked=false logs=false
+01:54:20  fire: false
+01:54:20  Build 202: interactNpc 'Fishing spot' not in NPC snapshot (not nearby) -- retry next tick
+01:54:20  Action fish completed
+01:54:20  Build 323: fish action issued (raw=0) -- transaction pending, awaiting next-tick proof
+01:54:20  Stage: null -> SURVIVAL
+01:54:21  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:21  SURVIVAL TICK
+01:54:21  inv: raw=false cooked=false logs=false
+01:54:21  fire: false
+01:54:21  Build 323: fish transaction pending (1/10 ticks), waiting for inventory proof
+01:54:22  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:22  SURVIVAL TICK
+01:54:22  inv: raw=false cooked=false logs=false
+01:54:22  fire: false
+01:54:22  Build 323: fish transaction pending (2/10 ticks), waiting for inventory proof
+01:54:23  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:23  SURVIVAL TICK
+01:54:23  inv: raw=false cooked=false logs=false
+01:54:23  fire: false
+01:54:23  Build 323: fish transaction pending (3/10 ticks), waiting for inventory proof
+01:54:24  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:24  SURVIVAL TICK
+01:54:24  inv: raw=false cooked=false logs=false
+01:54:24  fire: false
+01:54:24  Build 323: fish transaction pending (4/10 ticks), waiting for inventory proof
+01:54:25  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:25  SURVIVAL TICK
+01:54:25  inv: raw=false cooked=false logs=false
+01:54:25  fire: false
+01:54:25  Build 323: fish transaction pending (5/10 ticks), waiting for inventory proof
+01:54:26  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:26  SURVIVAL TICK
+01:54:26  inv: raw=false cooked=false logs=false
+01:54:26  fire: false
+01:54:26  Build 323: fish transaction pending (6/10 ticks), waiting for inventory proof
+01:54:27  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:27  SURVIVAL TICK
+01:54:27  inv: raw=false cooked=false logs=false
+01:54:27  fire: false
+01:54:27  Build 323: fish transaction pending (7/10 ticks), waiting for inventory proof
+01:54:28  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:28  SURVIVAL TICK
+01:54:28  inv: raw=false cooked=false logs=false
+01:54:28  fire: false
+01:54:28  Build 323: fish transaction pending (8/10 ticks), waiting for inventory proof
+01:54:29  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:29  SURVIVAL TICK
+01:54:29  inv: raw=false cooked=false logs=false
+01:54:29  fire: false
+01:54:29  Build 323: fish transaction pending (9/10 ticks), waiting for inventory proof
+01:54:30  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:30  SURVIVAL TICK
+01:54:30  inv: raw=false cooked=false logs=false
+01:54:30  fire: false
+01:54:30  Build 323: fish transaction timeout after 10 ticks, no shrimp (attempt 1/30)
+01:54:30  Build 323: fish no-progress -- rescanning spot next tick
+01:54:31  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:31  SURVIVAL TICK
+01:54:31  inv: raw=false cooked=false logs=false
+01:54:31  fire: false
+01:54:31  Build 202: interactNpc 'Fishing spot' not in NPC snapshot (not nearby) -- retry next tick
+01:54:31  Action fish completed
+01:54:31  Build 323: fish action issued (raw=0) -- transaction pending, awaiting next-tick proof
+01:54:32  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:32  SURVIVAL TICK
+01:54:32  inv: raw=false cooked=false logs=false
+01:54:32  fire: false
+01:54:32  Build 323: fish transaction pending (1/10 ticks), waiting for inventory proof
+01:54:33  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:33  SURVIVAL TICK
+01:54:33  inv: raw=false cooked=false logs=false
+01:54:33  fire: false
+01:54:33  Build 323: fish transaction pending (2/10 ticks), waiting for inventory proof
+01:54:34  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:34  SURVIVAL TICK
+01:54:34  inv: raw=false cooked=false logs=false
+01:54:34  fire: false
+01:54:34  Build 323: fish transaction pending (3/10 ticks), waiting for inventory proof
+01:54:34  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:35  SURVIVAL TICK
+01:54:35  inv: raw=false cooked=false logs=false
+01:54:35  fire: false
+01:54:35  Build 323: fish transaction pending (4/10 ticks), waiting for inventory proof
+01:54:35  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:35  SURVIVAL TICK
+01:54:36  inv: raw=false cooked=false logs=false
+01:54:36  fire: false
+01:54:36  Build 323: fish transaction pending (5/10 ticks), waiting for inventory proof
+01:54:36  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:36  SURVIVAL TICK
+01:54:36  inv: raw=false cooked=false logs=false
+01:54:36  fire: false
+01:54:37  Build 323: fish transaction pending (6/10 ticks), waiting for inventory proof
+01:54:37  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:37  SURVIVAL TICK
+01:54:37  inv: raw=false cooked=false logs=false
+01:54:37  fire: false
+01:54:37  Build 323: fish transaction pending (7/10 ticks), waiting for inventory proof
+01:54:38  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:38  SURVIVAL TICK
+01:54:38  inv: raw=false cooked=false logs=false
+01:54:38  fire: false
+01:54:38  Build 323: fish transaction pending (8/10 ticks), waiting for inventory proof
+01:54:39  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:39  SURVIVAL TICK
+01:54:39  inv: raw=false cooked=false logs=false
+01:54:39  fire: false
+01:54:39  Build 323: fish transaction pending (9/10 ticks), waiting for inventory proof
+01:54:40  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:40  SURVIVAL TICK
+01:54:40  inv: raw=false cooked=false logs=false
+01:54:40  fire: false
+01:54:40  Build 323: fish transaction timeout after 10 ticks, no shrimp (attempt 2/30)
+01:54:40  Build 323: fish no-progress -- rescanning spot next tick
+01:54:41  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:41  SURVIVAL TICK
+01:54:41  inv: raw=false cooked=false logs=false
+01:54:41  fire: false
+01:54:41  Build 202: interactNpc 'Fishing spot' not in NPC snapshot (not nearby) -- retry next tick
+01:54:41  Action fish completed
+01:54:41  Build 323: fish action issued (raw=0) -- transaction pending, awaiting next-tick proof
+01:54:42  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:42  SURVIVAL TICK
+01:54:42  inv: raw=false cooked=false logs=false
+01:54:42  fire: false
+01:54:42  Build 323: fish transaction pending (1/10 ticks), waiting for inventory proof
+01:54:43  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:43  SURVIVAL TICK
+01:54:43  inv: raw=false cooked=false logs=false
+01:54:43  fire: false
+01:54:43  Build 323: fish transaction pending (2/10 ticks), waiting for inventory proof
+01:54:44  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:44  SURVIVAL TICK
+01:54:44  inv: raw=false cooked=false logs=false
+01:54:44  fire: false
+01:54:44  Build 323: fish transaction pending (3/10 ticks), waiting for inventory proof
+01:54:45  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:45  SURVIVAL TICK
+01:54:45  inv: raw=false cooked=false logs=false
+01:54:45  fire: false
+01:54:45  Build 323: fish transaction pending (4/10 ticks), waiting for inventory proof
+01:54:46  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:46  SURVIVAL TICK
+01:54:46  inv: raw=false cooked=false logs=false
+01:54:46  fire: false
+01:54:46  Build 323: fish transaction pending (5/10 ticks), waiting for inventory proof
+01:54:47  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:47  SURVIVAL TICK
+01:54:47  inv: raw=false cooked=false logs=false
+01:54:47  fire: false
+01:54:47  Build 323: fish transaction pending (6/10 ticks), waiting for inventory proof
+01:54:48  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:48  SURVIVAL TICK
+01:54:48  inv: raw=false cooked=false logs=false
+01:54:48  fire: false
+01:54:48  Build 323: fish transaction pending (7/10 ticks), waiting for inventory proof
+01:54:49  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:49  SURVIVAL TICK
+01:54:49  inv: raw=false cooked=false logs=false
+01:54:49  fire: false
+01:54:49  Build 323: fish transaction pending (8/10 ticks), waiting for inventory proof
+01:54:50  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:50  SURVIVAL TICK
+01:54:50  inv: raw=false cooked=false logs=false
+01:54:50  fire: false
+01:54:50  Build 323: fish transaction pending (9/10 ticks), waiting for inventory proof
+01:54:51  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:51  SURVIVAL TICK
+01:54:51  inv: raw=false cooked=false logs=false
+01:54:51  fire: false
+01:54:51  Build 323: fish transaction timeout after 10 ticks, no shrimp (attempt 3/30)
+01:54:51  Build 323: fish no-progress -- rescanning spot next tick
+01:54:51  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:52  SURVIVAL TICK
+01:54:52  inv: raw=false cooked=false logs=false
+01:54:52  fire: false
+01:54:52  Build 202: interactNpc 'Fishing spot' not in NPC snapshot (not nearby) -- retry next tick
+01:54:52  Action fish completed
+01:54:52  Build 323: fish action issued (raw=0) -- transaction pending, awaiting next-tick proof
+01:54:52  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:52  SURVIVAL TICK
+01:54:53  inv: raw=false cooked=false logs=false
+01:54:53  fire: false
+01:54:53  Build 323: fish transaction pending (1/10 ticks), waiting for inventory proof
+01:54:53  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:53  SURVIVAL TICK
+01:54:53  inv: raw=false cooked=false logs=false
+01:54:53  fire: false
+01:54:54  Build 323: fish transaction pending (2/10 ticks), waiting for inventory proof
+01:54:54  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:54  SURVIVAL TICK
+01:54:54  inv: raw=false cooked=false logs=false
+01:54:54  fire: false
+01:54:54  Build 323: fish transaction pending (3/10 ticks), waiting for inventory proof
+01:54:55  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:55  SURVIVAL TICK
+01:54:55  inv: raw=false cooked=false logs=false
+01:54:55  fire: false
+01:54:55  Build 323: fish transaction pending (4/10 ticks), waiting for inventory proof
+01:54:56  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:56  SURVIVAL TICK
+01:54:56  inv: raw=false cooked=false logs=false
+01:54:56  fire: false
+01:54:56  Build 323: fish transaction pending (5/10 ticks), waiting for inventory proof
+01:54:57  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:57  SURVIVAL TICK
+01:54:57  inv: raw=false cooked=false logs=false
+01:54:57  fire: false
+01:54:57  Build 323: fish transaction pending (6/10 ticks), waiting for inventory proof
+01:54:58  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:58  SURVIVAL TICK
+01:54:58  inv: raw=false cooked=false logs=false
+01:54:58  fire: false
+01:54:58  Build 323: fish transaction pending (7/10 ticks), waiting for inventory proof
+01:54:59  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:54:59  SURVIVAL TICK
+01:54:59  inv: raw=false cooked=false logs=false
+01:54:59  fire: false
+01:54:59  Build 323: fish transaction pending (8/10 ticks), waiting for inventory proof
+01:55  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:55  SURVIVAL TICK
+01:55  inv: raw=false cooked=false logs=false
+01:55  fire: false
+01:55  Build 323: fish transaction pending (9/10 ticks), waiting for inventory proof
+01:55:01  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:55:01  SURVIVAL TICK
+01:55:01  inv: raw=false cooked=false logs=false
+01:55:01  fire: false
+01:55:01  Build 323: fish transaction timeout after 10 ticks, no shrimp (attempt 4/30)
+01:55:01  Build 323: fish no-progress -- rescanning spot next tick
+01:55:02  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:55:02  SURVIVAL TICK
+01:55:02  inv: raw=false cooked=false logs=false
+01:55:02  fire: false
+01:55:02  Build 202: interactNpc 'Fishing spot' not in NPC snapshot (not nearby) -- retry next tick
+01:55:02  Action fish completed
+01:55:02  Build 323: fish action issued (raw=0) -- transaction pending, awaiting next-tick proof
+01:55:03  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:55:03  SURVIVAL TICK
+01:55:03  inv: raw=false cooked=false logs=false
+01:55:03  fire: false
+01:55:03  Build 323: fish transaction pending (1/10 ticks), waiting for inventory proof
+01:55:04  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+01:55:04  Screenshot saved: 2026-09-29_01-55-04_SURVIVAL_auto.png
+01:55:04  Build 82: cleaned up 8 old screenshots
