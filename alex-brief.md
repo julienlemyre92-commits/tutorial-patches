@@ -24,9 +24,17 @@
   freeze; (4) the mine-furnace-click verify predicate's "Bronze" substring
   fallback DELETED (matched the Bronze PICKAXE in inventory, faking UI-open)
   -- exact "Bronze bar" only. Marker RUNNING_BUILD=352.
-- Verification pending: Build 352 startup banner + NEW runtime line
-  "Build 352: smelt info box OPEN ..." appearing, then the box observed
-  closed and the smelt advancing (bronze bar in inventory).
+- VERIFIED LIVE 05:47 EDT: Build 352 startup banner 05:45:07; the stuck
+  modal was cleared by the update-restart relog before the new detector
+  could observe it (no "smelt info box OPEN" line fired -- the dismissal
+  path is NOT yet live-proven, honest caveat); mine-furnace-walk SATISFIED
+  05:45:55 (first verified walk; prior two exhausted), furnace clicked, and
+  the BRONZE BAR was observed in inventory by 05:46:06 ("Skipping smelt --
+  already have bar/dagger"). Screenshot 05:46:07: "You've made a bronze
+  bar!" info box, bar in inventory, player walking to the Mining Instructor
+  for the hammer. NEXT WATCH: that post-smelt info box is ANOTHER group-229
+  interface and the smelt-scoped detector phrase won't match it -- if the
+  bot strands there, the detector needs generalizing (see open question).
 - Open question for Alex: should the info-interface ownership be generic
   (any stage) instead of smelt-scoped? The detector phrase is smelt-specific;
   other tutorial info boxes (bank, etc.) have the same invisibility.
