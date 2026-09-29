@@ -1,4 +1,15 @@
 ## Current build
+- **Build 453 / patch-449** (shipped 2026-09-29 17:53 EDT). **IDEMPOTENCY PROVEN** ✅
+  - Alex 17:55: RUNTIME VERIFICATION COMPLETE.
+  - 17:55:20: TRAVERSAL START [diag-idempotent] outside (3246,3286) -> (3244,3283)
+  - 17:55:21: same key re-issued -> TRAVERSAL IDEMPOTENT phase=FINDING_EDGE -- no reset, no re-arm
+  - EDGE_SCAN 5962ms found no edge -> ROUTE_BLOCKED -> TRAVERSAL RESET (key released)
+  - No movement, no progress claimed. Dedup + clean terminal reset PROVEN.
+  - PRESERVE phase 10. Do not regress.
+  - REMAINING: live blocked edge forward/return crossing proof. The no-edge fixture is NOT a crossing.
+  - NOTE: WebWalk reports collision_conflict -- live scene disagrees with shipped static map. Live collision remains authoritative.
+
+## Current build
 - **Build 453 / patch-449** (shipped 2026-09-29 17:53 EDT). DIRECT IDEMPOTENCY TEST.
   - Alex 17:51-17:52: Build 452's fixture moved by ordinary walker without resolver handoff. Acceptance DENIED for reusable pathing. Direct movement != resolver test.
   - New phase 10: bypasses the walker entirely. Issues requestTraversal directly, re-issues the EXACT same key on the next tick while active.
