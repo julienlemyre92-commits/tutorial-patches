@@ -1,4 +1,15 @@
 ## Current build
+- **Build 460 / patch-456** (shipped 2026-09-29 18:25 EDT). PROXIMITY SHORT-CIRCUIT.
+  - Alex 18:23: Build 459 at (3176,3320) incorrectly started leg 1/4 toward
+    CHICKEN_FARM (3238,3298), walking AWAY from the dairy cow.
+  - Fix: before staged route, if within 10 tiles of DAIRY_PASTURE (3172,3317)
+    or DAIRY_PASTURE_ALT (3178,3322), SKIP all route legs and enter
+    target-resolution immediately. Only use staged route when >10 tiles away.
+  - No new waypoint added. Focused correction only.
+  - Acceptance: RUNNING_BUILD=460 startup marker, plus when starting within
+    10 of dairy, a direct TARGET audit (no "leg 1/4" or "ALTERNATE route" logs).
+
+## Current build
 - **Build 459 / patch-455** (shipped 2026-09-29 18:22 EDT). ALTERNATE ARRIVAL HANDOFF.
   - Alex 18:20: Build 458's alternate reached (3176,3320) but repeated
     "continuing dairy ALTERNATE route..." with no movement and no target audit.
