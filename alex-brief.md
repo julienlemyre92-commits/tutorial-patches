@@ -1,4 +1,12 @@
 ## Current build
+- **Build 446 / patch-443** (shipped 2026-09-29 17:38 EDT). DAIRY-ONLY TARGET (game-verified).
+  - Game chat evidence 17:30-17:33: "Calves are too young to be milked." / "Only dairy cows are suitable for milking."
+  - Build 443 excluded calves but accepted any adult cow (id=2791) -- game rejects non-dairy.
+  - Fix: all three NPC match sites now REQUIRE "dairy" in the name (not just prefer). No dairy cow = no target = typed HOLD.
+  - Preserved: resolver idempotence (Build 445), NPC action diagnostic, diagnostic-only return, actionId-paired proofs.
+  - Still needed for acceptance: dairy TARGET lines, one bucket action, Bucket->Bucket of milk proof, return crossing.
+
+## Current build
 - **Build 445 / patch-442** (shipped 2026-09-29 17:37 EDT). RESOLVER IDEMPOTENCE (Alex 17:35/17:36, contract section 10).
   - Root cause: requestTraversal() unconditionally cleared triedEdges, reset activeEdge, and re-armed FINDING_EDGE on EVERY call. A quest tick calling it repeatedly would reset the route forever.
   - Fix: requests keyed by (from tile, target tile, plane, context). Same key + active phase = no-op with "TRAVERSAL IDEMPOTENT" diagnostic (no latch reset, no re-arm, no duplicate action). Only a genuinely new key clears/replans. Same for requestVerticalTraversal.
