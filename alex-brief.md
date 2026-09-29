@@ -1,3 +1,24 @@
+## Build 381 / patch-378 (2026-09-29 ~09:55 EDT) -- DOOR-2 ignores lateral doors (9721 fix)
+- Live 09:49-09:53 (Build 380): bank-exit DOOR-2 fixated on Door/9721@(3125,3124)
+  -- an EAST-WEST door AT the player's own Y -- clicking 'Open' every ~13s for
+  4+ min while the player oscillated (3125,3124)<->(3124,3124) with ZERO
+  southward progress (exit needs y<=3121). Screenshots 09:49:56/09:52:10 show
+  the door CLOSED and the game's yellow tutorial arrow pointing SOUTH
+  off-screen (the exit direction) while the bot faced NORTH at the wrong door.
+- Root cause: Build 368's 'behind' filter only ignored doors with
+  doorY > playerY (strictly north); a lateral door (doorY == playerY, e.g. 9721)
+  passed the filter and the nearest-door picker returned it every tick.
+- Fix: DOOR-2 now ignores any door NOT south of the player
+  (doorY >= playerY), walking south via non-blocking walkStep toward (x,3120)
+  instead. A door becomes actionable only when actually SOUTH of the player.
+- Pending verification: 'Build 381: STARTUP -- RUNNING_BUILD=381 (patch-378)',
+  'Build 381 DOOR-2:' ignore lines, player tile y decreasing (3124 -> <=3121),
+  then DOOR-2 CROSSED / advance toward PRAYER.
+- Note: sibling edited TutorialIslandScript.java 09:47:10 EDT without shipping
+  (no Build 381 marker, version.txt stayed 377); shipped over it with a minimal
+  2-spot edit after 6+ min of sibling silence -- their unshipped change is
+  preserved in the source tree.
+
 ## Build 380 / patch-377 (2026-09-29 ~09:48 EDT) -- ACC_MAN via tutorial bottom-line icon 164:54
 - Live 09:32-09:40 (Builds 374-379): the poll-dismissal loop ran
   "clickTabIcon ACC_MAN" every ~2s and EVERY attempt logged "NO VERIFIED
