@@ -1,3 +1,29 @@
+## Build 395 / patch-392 (2026-09-29 ~13:08 EDT) -- throttled tick-alive marker before the login gate
+
+Alex 13:06: asked for a throttled marker *before* the `Microbot.isLoggedIn()` gate plus an explicit logged-in/mission-select result. Added at the top of Cook's tick lambda: `Build 395: tick alive -- entering login/mission-select gate` every 60s -- proves tick-loop liveness even if the gate stays silent. Gate itself unchanged. TI marker bumped to 395 (no logic change). version.txt=392 live. NOTE: the client picked up patch-391 (Build 394) at 13:07:14, so 392 will apply on the next update check (~60s) with a client restart; mission file persists ("cooks") so the gate re-runs after reboot.
+
+## Build 394 / patch-391 (2026-09-29 ~13:06 EDT) -- Cook's tick loop actually started (the silent-Cook's root cause)
+
+Bytecode root cause (Alex 13:04-13:06 thread): `Script.run()` (base class) does checks and returns true -- NO loop, NO `scheduleWithFixedDelay`. `StateMachineScript` adds none either. TutorialIslandScript schedules its own tick loop in `run()` (`mainScheduledFuture = scheduledExecutorService.scheduleWithFixedDelay(() -> { ... step(); }, 0, config.tickDelay(), ...)`). Cook's `run()` only called `super.run()` -- zero scheduling anywhere in the file -- so `onState()` / `missionSelectTick391()` NEVER executed. The 12:59 STARTUP with no MISSION_SELECT, no heartbeat, only WebWalk telemetry is exactly what a script with no tick loop looks like; in-game vs login-screen was irrelevant.
+
+Fix: Cook's `run()` now mirrors TI -- `scheduleWithFixedDelay` driving `step()`, with the logged-out watchdog INSIDE the lambda (throttled `Build 394: logged out X min ... mission gate waiting for login` marker + 6-min `System.exit(0)` for Supervisor relaunch). Mission-select gate unchanged. TI marker bumped to 394 (no logic change). version.txt=391 live.
+
+ACCEPTED LIVE 13:07:32-13:07:52 (Alex, local client.log authoritative): jar 69,044,223 bytes 13:07:14, patch-version.txt=391; `Build 394 STARTUP -- RUNNING_BUILD=394 (patch-391)` 13:07:32; `Build 394 TICK LOOP START`; 13:07:51 MISSION_SELECT claim (desired=cooks) -> verify (lockOwner=cooks, selfEnabled=true, otherEnabled=false) -> `SWITCH COMPLETE -- cooks owns scheduler`; 13:07:52 entered DETECT, forced GET_GRAIN. This proves the missing-tick-loop root cause. Pending: ONE bounded grain action with next-tick inventory/position/state verification (GET_GRAIN entry does NOT count as action proof); stand down with diagnostics if no progress.
+
+## Build 393 / patch-390 (2026-09-29 ~12:58 EDT) -- DONE parks without finish() (the dead-command-channel root cause)
+
+Alex's bytecode finding: the run tick's DONE branch called `finish("Tutorial Island complete!")` BEFORE the later command-poll block; `finish()` -> `shutdown()` killed the whole script tick, so the 45s GitHub poll could never process SWITCH_TO_COOKS after completion (client.log silent after the 12:47:05 completion line -- only external WebWalk telemetry).
+
+Fix: Tutorial Island completion now PARKS without `shutdown()` -- housekeeping (screenshots, update check, command poll, pause handling) runs FIRST every tick, only quest-stage logic is held; throttled marker `Build 393: parked DONE -- quest logic held, housekeeping alive (command channel polling)`. Same lifecycle-safe DONE in Cook's Assistant (a future SWITCH_TO_TUTORIAL would have starved identically). No route logic changed. version.txt=390 live.
+
+ACCEPTED LIVE 12:59:10 (Alex, local client.log): TutorialIsland executed SWITCH_TO_COOKS (id=20260929-165742-switch-cooks-2), `startPlugin(CooksAssistantPlugin)` returned true, Cook's logged `Plugin enabled` + `Build 393 STARTUP/RUNNING_BUILD=393 (patch-390)`, then Tutorial Island logged disabled + SWITCH COMPLETE. The parked-DONE command channel works.
+
+## Build 392 / patch-389 (2026-09-29 ~12:46 EDT) -- MISSION_SELECT ownership gate (Alex's fix for the 12:28 14s Cook toggle)
+
+Live 12:28:30-12:28:44: Cook's Assistant was enabled then disabled 14s later with no SWITCH COMPLETE -- the toggle came from outside the scripts. Fix: mission selection is now the first post-login phase in both scripts, driven by `~/.runelite/bot-mission.txt` (cooks|tutorial). Desired==self: claim (disable+stop the other via PluginManager, write bot-mission-lock.txt), verification tick re-checks lock owner + overlay + other stopped, then SWITCH COMPLETE -- only then does quest logic run. Desired==other: yield. Fail-safe: desired plugin missing from jar -> stay on self.
+
+ACCEPTED LIVE 12:46:56-12:47:03 (Alex, local client.log): jar 69,042,509 bytes 12:46:17; `Build 392: STARTUP -- RUNNING_BUILD=392 (patch-389)` 12:46:30; `MISSION_SELECT -- desired=tutorial (self)` + claim 12:46:56; verify `lockOwner=tutorial, selfEnabled=true, otherEnabled=false` 12:47:03; `SWITCH COMPLETE -- tutorial owns the scheduler`; `Tutorial Island complete!` 12:47:05 (already DONE, parked).
+
 ## Build 389 / patch-386 (2026-09-29 ~11:45 EDT) -- completion parks in-game (kills the login/logout flap)
 
 Stream verification 11:38-11:40: Build 388's logout DID fire -- login screen
