@@ -1,3 +1,22 @@
+## Build 366 / patch-364 (2026-09-29 ~07:38 EDT) -- poll-booth direct-approach fallback (stale collision data)
+- Live result (Build 365, 07:33-07:34): the Build 365 identity log FIRED and
+  PROVED both the booth (id=26815 at 3119,3121) and the player (3123,3127) are
+  on plane 0 -- the plane hypothesis is DEAD, and the plane-corrected 5x5
+  adjacentWalkable ring STILL returns null. Rs2Tile.isTileReachable's
+  collision read is wrong for this spot (stale data), not the plane. Descent
+  VERIFIED earlier: Build 364's climb-down put the player on the bank ground
+  floor (screenshot: ground floor, ladder tooltip "Climb-up"), varp 281=520.
+- Fix: when the 5x5 adjacentWalkable search returns null, one non-blocking
+  walkStep per tick DIRECTLY toward the booth's plane-corrected tile -- the
+  walker routes its own steps around walls; the dist<=4 proximity gate then
+  hands off to the click path (Build 88 physical left-click, unchanged).
+  Bounded: 40 ticks with no player-tile movement stands down with a
+  diagnostic (never blind-spins).
+- Pending verification: Build 366 banner (RUNNING_BUILD=366), "Build 366: poll
+  direct-approach -- walkStep toward ..." lines, the player tile moving each
+  tick, then "Build 88: physically left-clicked poll booth", then
+  Build 100 verified-complete and varp 281 -> 530.
+
 ## Build 364 / patch-362 (2026-09-29 ~07:26 EDT) -- wrong-floor (plane 1) recovery for the bank poll-booth arc
 - Live result (Builds 362/363, 07:15-07:22): the player is at
   (3123,3127,plane=1) -- UPSTAIRS in the bank. Julien on stream: "it missed
