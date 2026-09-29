@@ -1,3 +1,26 @@
+## Build 382 / patch-379 (2026-09-29 ~10:21 EDT) -- ADJACENT-DOOR EXCEPTION to the 381 filter
+- Live 10:14-10:16 (Build 381): player stood at (3129,3124) FACING the exit
+  door 9722@(3130,3124) -- screenshot 10:16:12 shows the closed double door with
+  lanterns, the bank's south exit. 381 ignored it (doorY == playerY) and
+  walkStep'd south THROUGH the closed door (a wall): player immobile 2+ min,
+  DOOR STUCK fired 10:15:09 + 10:15:51, 381's own verify clause
+  (y 3124 -> <=3121) NEVER happened.
+- Root cause: a door object sits in the wall row, so the exit door the player
+  is STANDING AT shares the player's Y -- "not south" != "not the exit".
+- Fix: an ADJACENT door (chebyshev <= 2) is always actionable via the existing
+  clickDoorDirect 'Open' path; the 381 ignore-and-walk-south now applies only
+  to NON-ADJACENT doors. (The 09:49 9721 spin stays bounded by the 5-tick
+  DOOR STUCK watchdog + verifyDoorCrossing on observed tile change.)
+- CORRECTION: the 10:10/10:14 runs' "DOOR-2 CROSSED" claims were FALSE -- the
+  player never left the bank (y stayed 3124; the WebWalk cur==goal=(3124,3108)
+  line was the walker's internal claim, not observed position).
+- Pending verification: 'Build 382: STARTUP -- RUNNING_BUILD=382 (patch-379)',
+  'Build 382 DOOR-2: door ... ADJACENT' lines, 'Open' click on 9722, y
+  3124 -> <=3121, 'DOOR-2 CROSSED', varp 281 540 -> 550+ (PRAYER).
+- Note: sibling edited TutorialIslandScript.java 10:02:26 EDT without shipping
+  (version.txt stayed 378 for 14+ min); compiled their edit IN and shipped
+  under fresh version 379 -- their change is preserved, not clobbered.
+
 ## Build 381 / patch-378 (2026-09-29 ~09:55 EDT) -- DOOR-2 ignores lateral doors (9721 fix)
 - Live 09:49-09:53 (Build 380): bank-exit DOOR-2 fixated on Door/9721@(3125,3124)
   -- an EAST-WEST door AT the player's own Y -- clicking 'Open' every ~13s for
