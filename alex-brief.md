@@ -1,54 +1,23 @@
-## Build 376 / patch-373 (2026-09-29 ~09:00 EDT) -- DISMISS THE ACTUALLY-OPEN BOX (rendered continue link first)
-- Live 08:54:28-33 (Build 375): after the 08:54:28 poll-booth click the
-  "(Moving on...)" box was open (burst screenshots 08-54-28/30 -- title
-  rendered blue, NO continue link), then by 08:54:33 the box became the
-  "Poll booths are found in towns across the world..." info box -- which
-  HAS a rendered blue "Click here to continue" link (screenshot
-  08-54-33_BANK_burst-poll-booth-clicked-1.png). The box CHANGES mid-run.
-- Root cause: the Build 374 dismissal only scans for "(Moving on" title
-  text -- at 08:54:30 it returned 0 candidates while the title was
-  RENDERED on screen (the title-text scan misses visibly-rendered
-  titles), then blindly clicks the stale cached title point (259,517),
-  landing on body text of the wrong box. varp stuck at 525.
-- Fix: dismissal tick now (1) full-tree scans for "Click here to
-  continue" widgets -- whichever box is actually open -- and physically
-  clicks one with sane on-canvas bounds (no hidden bail, no packed-id
-  skip, ROTATES across candidates each tick so a phantom candidate can't
-  shadow the rendered link); (2) falls back to the Moving-on title scan;
-  (3) then Space. One click/tick. Julien's "(Moving on...)" correction
-  (no dismiss control -- go out the doors) still applies once THAT box is
-  the open one: the 5-tick pollDialogueStuck fall-through to the Build 375
-  guide proximity walk is unchanged.
-- Pending verification: "Build 376: STARTUP -- RUNNING_BUILD=376
-  (patch-373)", then "Build 376: continue-link candidates (...)" +
-  "clicking RENDERED 'Click here to continue' link ..." lines, then the
-  box observed changed/closed and varp 281 -> 530 (or the "(Moving on...)"
-  box returning, which the stuck-walk then handles).
+## Build 378 / patch-375 (2026-09-29 ~09:25 EDT) -- gate open via PHYSICAL left-click (doInvoke menu bug class)
+- Live 09:15-09:18 (Build 377): poll-stuck walk clicked the bank's south large
+  double door with clickDoorDirectInner("Open") every ~8s for 2+ min
+  ("Cache query: click('Open') returned true") yet the door NEVER opened and
+  the player never moved from (3121,3118); 09:17:58 screenshot shows the
+  right-click menu OPEN on the door ("Open Large door / 2 more options").
+- Root cause: the Build 88/90 bug class -- Rs2TileObjectModel.click(action)
+  routes through Microbot.doInvoke -> mouse.click(point, entry), which OPENS
+  the right-click menu but never selects the row; returns true unconditionally.
+- Fix: "Open Large door" is the door's DEFAULT (top) menu entry, so a plain
+  physical left-click fires it (leftClickObject, the proven Build 88/90 path).
+  New clickGatePhysicalOpen(radius) replaces both clickDoorDirectInner("Open")
+  call sites in the poll-stuck walk. Verified by observed door/walk state next
+  tick, never by the click return.
+- Pending verification: "Build 378: STARTUP -- RUNNING_BUILD=378 (patch-375)",
+  then "Build 378: physical left-click on gate ..." lines, door observed open,
+  player tile moving south through it, then guide dialogue + varp 281 -> 530.
+- Note: Build 376 (patch-373) was SKIPPED live -- bot went 375 -> 377 directly
+  (09:13:45 restart); 376's dismissal code is still in the cumulative source.
 
-## Build 375 / patch-372 (2026-09-29 ~08:52 EDT) -- POLL-STUCK PROXIMITY WALK (stop talk-spam at dist 12+)
-- Root cause, PROVEN by screenshot 08:46:03 (Build 374): the "(Moving on...)"
-  box is UNCLICKABLE -- a physical click visibly landed ON the box (blue
-  marker on the title) and the box stayed open; 40+ min of clicks across
-  Builds 370-374, no continue link exists, Space dead. The box text says
-  "move on through the door indicated" -- the player stands AT the south
-  fence gate (yellow arrow on it) with the Account Guide 12-15 tiles south,
-  while the bot spammed Talk-to at dist 12-15 and the open box swallowed
-  every click (guide dialogue never opened).
-- Fix (step-model law -- explicit ordered plan): when pollDialogueStuck,
-  doAccountGuideStep does NOT talk until adjacent: (1) dist(guide)>4 -> one
-  non-blocking walkStep per tick toward adjacentWalkable(guide); (2) no
-  reachable adjacent tile OR 8 ticks with no tile progress -> one 'Open'
-  click on the nearest gate; (3) talk ONLY at dist<=4 (the gate crossing or
-  the guide dialogue is what should close the box / advance varp 525->530).
-  Scoped to pollDialogueStuck; normal varp>=530 flow untouched.
-- Ship note: two review-loop workers overlapped on this ship -- the patch was
-  compiled from the shared source tree and uploaded once as patch-372
-  (byte-identical class files verified); version.txt=372. No version reuse,
-  no overwrite.
-- Pending verification: "Build 375: STARTUP -- RUNNING_BUILD=375 (patch-372)",
-  then "Build 375: poll-stuck walk to Account Guide (dist N...)" lines with
-  shrinking dist, player tile moving south through the gate, then a real
-  guide dialogue (dialogueTick) and varp 281 -> 530.
 ## Build 374 / patch-371 (2026-09-29 ~08:43 EDT) -- poll title TRUE-POSITION click + false-phase re-talk
 - Root cause 1, PROVEN by screenshots (Build 373, 08:30-08:36): 160+ dismissal
   ticks clicked the title widget's REPORTED bounds center (259,569) -- but the
