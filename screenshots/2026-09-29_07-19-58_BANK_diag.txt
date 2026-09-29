@@ -1,0 +1,250 @@
+07:17:15  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:16  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:18  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:19  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:21  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:21  Build 101: poll booth not in object cache this tick, retrying next tick
+07:17:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:22  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:24  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:25  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:27  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:28  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:30  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:30  Build 101: poll booth not in object cache this tick, retrying next tick
+07:17:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:31  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:33  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:34  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:36  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:37  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:39  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:39  Build 101: poll booth not in object cache this tick, retrying next tick
+07:17:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:40  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:42  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:43  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:45  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:46  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:48  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:48  Build 101: poll booth not in object cache this tick, retrying next tick
+07:17:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:49  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:51  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:51  Build 87: still waiting on poll booth step (tick 60)
+07:17:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:52  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:54  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:55  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:57  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:57  Build 101: poll booth not in object cache this tick, retrying next tick
+07:17:57  Build 361: POLL-BOOTH MISS DIAG -- player=WorldPoint(x=3123, y=3127, plane=1) cachedWithin30=451 nearest=[id=1902 name=null dist=0, id=1933 name=null dist=1, id=1902 name=null dist=1, id=196 name=null dist=1, id=1902 name=null dist=1, id=1824 name=null dist=1, id=1933 name=null dist=1, id=16679 name=Ladder dist=1]
+07:17:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:17:58  Screenshot saved: 2026-09-29_07-17-58_BANK_auto.png
+07:17:58  Build 82: cleaned up 1 old screenshots
+07:17:58  BANK TICK: up=true opened=true closed=true upStep=0
+07:17:59  Diag tail uploaded: 2026-09-29_07-17-58_BANK_diag.txt
+07:17:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:01  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:03  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:05  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:06  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:06  Build 101: poll booth not in object cache this tick, retrying next tick
+07:18:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:07  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:09  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:10  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:12  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:14  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:15  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:15  Build 101: poll booth not in object cache this tick, retrying next tick
+07:18:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:16  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:18  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:19  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:21  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:23  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:24  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:24  Build 101: poll booth not in object cache this tick, retrying next tick
+07:18:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:25  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:27  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:28  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:30  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:32  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:33  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:33  Build 101: poll booth not in object cache this tick, retrying next tick
+07:18:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:35  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:36  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:36  Build 87: still waiting on poll booth step (tick 90)
+07:18:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:37  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:39  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:41  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:42  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:42  Build 101: poll booth not in object cache this tick, retrying next tick
+07:18:42  Build 361: POLL-BOOTH MISS DIAG -- player=WorldPoint(x=3123, y=3127, plane=1) cachedWithin30=451 nearest=[id=1902 name=null dist=0, id=1933 name=null dist=1, id=1902 name=null dist=1, id=196 name=null dist=1, id=1902 name=null dist=1, id=1824 name=null dist=1, id=1933 name=null dist=1, id=16679 name=Ladder dist=1]
+07:18:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:44  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:45  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:46  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:48  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:50  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:51  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:51  Build 101: poll booth not in object cache this tick, retrying next tick
+07:18:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:53  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:54  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:55  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:57  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:18:58  Screenshot saved: 2026-09-29_07-18-58_BANK_auto.png
+07:18:58  Build 82: cleaned up 1 old screenshots
+07:18:59  BANK TICK: up=true opened=true closed=true upStep=0
+07:18:59  Diag tail uploaded: 2026-09-29_07-18-58_BANK_diag.txt
+07:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19  BANK TICK: up=true opened=true closed=true upStep=0
+07:19  Build 101: poll booth not in object cache this tick, retrying next tick
+07:19:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:02  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:03  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:05  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:06  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:08  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:09  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:09  Build 101: poll booth not in object cache this tick, retrying next tick
+07:19:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:11  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:12  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:14  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:15  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:17  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:18  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:18  Build 101: poll booth not in object cache this tick, retrying next tick
+07:19:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:20  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:21  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:21  Build 87: still waiting on poll booth step (tick 120)
+07:19:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:23  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:24  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:26  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:27  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:28  Build 101: poll booth not in object cache this tick, retrying next tick
+07:19:28  Build 361: POLL-BOOTH MISS DIAG -- player=WorldPoint(x=3123, y=3127, plane=1) cachedWithin30=451 nearest=[id=1902 name=null dist=0, id=1933 name=null dist=1, id=1902 name=null dist=1, id=196 name=null dist=1, id=1902 name=null dist=1, id=1824 name=null dist=1, id=1933 name=null dist=1, id=16679 name=Ladder dist=1]
+07:19:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:29  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:30  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:32  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:33  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:35  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:36  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:37  Build 101: poll booth not in object cache this tick, retrying next tick
+07:19:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:38  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:39  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:41  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:42  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:44  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:45  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:46  Build 101: poll booth not in object cache this tick, retrying next tick
+07:19:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:47  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:48  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:50  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:51  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:53  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:54  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:55  Build 101: poll booth not in object cache this tick, retrying next tick
+07:19:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:56  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:57  BANK TICK: up=true opened=true closed=true upStep=0
+07:19:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:19:58  Screenshot saved: 2026-09-29_07-19-58_BANK_auto.png
+07:19:58  Build 82: cleaned up 1 old screenshots
