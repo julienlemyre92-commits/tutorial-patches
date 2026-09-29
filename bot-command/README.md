@@ -1,4 +1,4 @@
-# bot-command — remote command channel for the Tutorial Island bot (Build 336+)
+# bot-command — remote command channel for the bot (Build 336+; both scripts from Build 390+)
 
 ## Protocol
 - Muse writes `bot-command/command.txt`. The plugin polls it ~every 45s via the
@@ -12,7 +12,7 @@
 ```
 id=<unique id, e.g. 20260929-035500-pause>
 ts=<epoch seconds when posted>
-cmd=<PAUSE|RESUME|STATUS|RESTART>
+cmd=<PAUSE|RESUME|STATUS|RESTART|SWITCH_TO_COOKS|SWITCH_TO_TUTORIAL>
 arg=<unused for now>
 ```
 
@@ -24,6 +24,15 @@ arg=<unused for now>
   force a screenshot. The diag line is the ack.
 - `RESTART` — clean exit; the Supervisor relaunches the game (same mechanism
   as the patch updater).
+- `SWITCH_TO_COOKS` (Build 390, Tutorial Island script only) — remote script
+  swap WITHOUT a client restart: enables + starts the **Cook's Assistant**
+  plugin and stops + disables **Tutorial Island** via the plugin manager,
+  flipping the enabled flags so the swap survives restarts. Ack lines:
+  `Tutorial Island: SWITCH -- flipping to cooksassistant...` then
+  `Tutorial Island: SWITCH COMPLETE -- this plugin stopped and disabled`,
+  followed by the Cook's script `Build 390: STARTUP` marker.
+- `SWITCH_TO_TUTORIAL` (Build 390, Cook's Assistant script only) — the
+  reverse swap, back to **Tutorial Island**.
 
 ## Safety rules (enforced by the plugin)
 - A command runs at most once: the id is persisted under
