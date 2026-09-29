@@ -1,4 +1,10 @@
 ## Current build
+- **Build 426 / patch-423** (shipped 2026-09-29 16:45 EDT, NUDGE ALEX 16:40/16:41). SHARED VERTICAL RESOLVER + WALK STALL HANDOFF.
+  1. Rs2Traversal now handles vertical transitions: requestVerticalTraversal(playerPos, targetPlane, ctx) with phases FINDING_LADDER -> CLIMB_ISSUED -> VERIFYING_PLANE -> DONE/FAILED. Pending latch keyed by objectId+tile+action+prePlane; no second climb until plane proof or timeout. LADDER_SCAN logs elapsed/count. Candidates must be on current plane.
+  2. Walk stall handoff: stepToward tracks failed legs (start+goal). On 40-tick stall, emits `WALK_STALL -> TRAVERSAL_HANDOFF` and invalidates the leg -- it will NOT be retried. doGetGrain hands stalled nav legs to Rs2Traversal.requestTraversal(pp, goal) with corridor; resolver finds door, one action, next-tick proof, walk-through, side proof, then replan. If no edge: ROUTE_BLOCKED + hold.
+- Watch for: `Build 426: STARTUP -- RUNNING_BUILD=426 (patch-423)` -> `TRAVERSAL START ... VERTICAL` -> `LADDER_SCAN` -> `one 'Climb-down'` -> `climb verified` -> `WALK_STALL -> TRAVERSAL_HANDOFF` -> `TRAVERSAL START [GET_GRAIN_NAV]` -> door crossing.
+
+## Current build
 - **Build 425 / patch-422** (shipped 2026-09-29 16:41 EDT, NUDGE ALEX 16:36). VERTICAL NAVIGATION FIX. Root cause: a chebDist(pp, WHEAT_FIELD) > 14 check ran BEFORE the plane logic, and chebDist ignores plane -- so from (3165,3307,2) it issued stepToward to a plane-0 goal, stalling WebWalk for 40+ ticks. Now: plane check FIRST. If plane != 0, resolve live ladder/stair (ID/name/tile logged), issue one Climb-down, verify plane delta next tick (latched, no re-click). If no ladder, emit NAVIGATION_BLOCKED with candidates and hold. Only on plane 0 does horizontal navigation run. The universal resolver now covers vertical transitions.
 - Watch for: `Build 425: STARTUP -- RUNNING_BUILD=425 (patch-422)` -> `GET_GRAIN: on plane 2 -- resolving ladder/stair` -> `ladder candidate id=...` -> `one Climb-down ... verifying next tick` -> `climb verified -- plane 2 -> 1` (or 0).
 
