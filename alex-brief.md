@@ -1,3 +1,9 @@
+## Build 356 / patch-354 (2026-09-29 ~06:15 EDT) -- combat tab lesson step model (review-loop worker)
+- Live result (Build 355): MINING completed 06:06:10 -- mining varp281=370 -> COMBAT. Combat substates all succeeded through EQUIP_SWORD_SHIELD.
+- New blocker 06:07-06:09: 3+ min of "Attack style widget not found yet, retrying" while the GAME had moved on -- tab open, Stab pre-selected, instruction = rat step, "Combat interface" info box open. Root cause: progression gated on clickAttackStyle() lookup succeeding; lookup blind for unknown reasons.
+- Fix (Build 337 step-model template): (1) combatInfoBoxOpen() detector; box-open = lesson done game-side -> ENTER_PEN; (2) attack-style click kept but BOUNDED -- 30 blind ticks fails forward to ENTER_PEN; (3) Space nudge while box open during world-click substates, never gating.
+- Verify next: Build 356 banner, "Build 356: Combat interface info box open" line, ENTER_PEN gate lines, rat kill.
+
 ## Build 355 / patch-353 (2026-09-29 ~06:05 EDT) -- smith-arc info box + dagger substring-trap fix (review-loop worker)
 - Live result (Build 354, session started 05:59:30): RUNNING_BUILD=354 banner
   confirmed at 05:59:30; "Build 354: hammer next step=dialogue" fired at
