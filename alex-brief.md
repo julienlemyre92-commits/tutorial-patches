@@ -1,4 +1,17 @@
 ## Current build
+- **Build 462 / patch-458** (shipped 2026-09-29 18:35 EDT). TWO-STEP MILK WITH LOGGING.
+  - Alex 18:32/18:33: Build 461 issued one action but no inventory delta.
+    The direct Rs2Inventory.useItemOnObject helper may not be valid for
+    special object 8689 (uses Rs2GameObject.interact by ID).
+  - Fix: two-step with explicit logging.
+    Step 1: Rs2Inventory.use("Bucket") -> log selection boolean.
+    Step 2: milkTargetObject.click("Milk") on the validated object -> log click boolean.
+    Both must be true to proceed to phase 4 (next-tick proof).
+    If either false: HOLD. One-action latch preserved.
+  - Acceptance: "Milk action issued (select=true, click=true)" then
+    Bucket x0 / Bucket of milk x1 next tick.
+
+## Current build
 - **Build 461 / patch-457** (shipped 2026-09-29 18:30 EDT). OBJECT-DIRECT MILK.
   - Alex 18:27: Build 460 found MILK TARGET FOUND: Dairy cow(id=8689)@(3172,3317,0)
     but phase 3 searched NPC names and held after 5 scans.
