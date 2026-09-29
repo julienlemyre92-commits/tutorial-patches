@@ -1,3 +1,9 @@
+## Build 357 / patch-355 (2026-09-29 ~06:24 EDT) -- FINAL_LADDER pit-gate loop fix (review-loop worker)
+- Live result (Build 356): melee rat killed 06:19:35, pen exited, ranged rat killed 06:20:54 -> FINAL_LADDER. Screenshots 06:21:29/06:22:34 + diag show the player parked AT the rat-pit gate for 2+ min: 'Open' clicked 06:21:10/06:21:50/06:22:32, each producing the instructor's scold modal "Oi! Get away from there. Only enter the rat cage when I say so."
+- Root cause: the rat pit cannot be re-entered after the ranged kill (your step-model doc, combat STEP 4-5: "Rat pit cannot be re-entered at this point"). The old FINAL_LADDER alternation (Open / Climb-up / walk-to-banker) clicked the PIT gate every 3rd tick -- farming scold modals, never advancing. The Climb-up clicks targeted the north ladder ~8-10 tiles away and never moved the player.
+- Fix (step-model law): explicit ordered plan -- NO pit-gate clicks. Walk to the cache-observed north ladder (findLadderObjectInner radius 15) via non-blocking walkStep; climb when adjacent (dist<=2). 'Climb' actions route to the ladder object (Build 349), never the nearest door. Completion stays varp-observed (281>=510).
+- Verify next: "Build 357: FINAL_LADDER next step=WALK_TO_LADDER/CLIMB_UP" lines, player walking north to the ladder, ladder displacement, varp 281 >= 510 -> BANK.
+
 ## Build 356 / patch-354 (2026-09-29 ~06:15 EDT) -- combat tab lesson step model (review-loop worker)
 - Live result (Build 355): MINING completed 06:06:10 -- mining varp281=370 -> COMBAT. Combat substates all succeeded through EQUIP_SWORD_SHIELD.
 - New blocker 06:07-06:09: 3+ min of "Attack style widget not found yet, retrying" while the GAME had moved on -- tab open, Stab pre-selected, instruction = rat step, "Combat interface" info box open. Root cause: progression gated on clickAttackStyle() lookup succeeding; lookup blind for unknown reasons.
