@@ -4,23 +4,41 @@ _Maintained by Muse. Updated on every build ship. If you have web browsing,
 read this file raw before answering Julien about the bot — it's the current
 ground truth, fresher than any forwarded summary._
 
-## Current state (2026-09-29 ~03:55 EDT)
-- Live build: **336** (`patches/patch-334.zip`, `version.txt=334`)
-- Remote command channel ("agent API") added in Build 336: the plugin polls
+## Current state (2026-09-29 ~04:00 EDT)
+- Live build: **337** (`patches/patch-335.zip`, `version.txt=335`)
+- Stage: **CHEF** (game's own varp281=140 since 03:47 EDT). Survival is COMPLETE
+  (lesson, chop, light, cook all happened before the 03:47 restart) — Julien's
+  "chop the wood" was stale info; he checked the stream and confirmed.
+- Talk loop with the Master Chef, root-caused and fixed in Build 337:
+  - Mechanism: `doChef()` ran `talkTo()` before the inventory check every tick.
+    `talkTo` issued a fresh Talk-to click while the intro dialogue was already
+    open; each new click RESET the conversation to frame 1. Observed loop:
+    click -> verify -> 1 continue -> re-click -> frame 1, every ~2-3s, so the
+    3-frame intro never finished and flour+water were never handed over.
+  - Fix part 1 (global): `talkTo()` now returns early when any dialogue is
+    already open — never re-clicks, never resets a conversation. Protects
+    every NPC stage, not just the chef.
+  - Fix part 2 (chef step model, per the explicit-next-step direction):
+    `doChef()` computes `chefNextStep()` from observed inventory each tick and
+    logs `Build 337: chef next step=<talk|dialogue|mix|bake>`:
+    dough->bake, flour+water->mix, dialogue open->dialogue (continue),
+    else->talk (ONLY while ingredients are missing). Once flour+water are in
+    hand, the bot never talks to the chef again.
+- Pending verification right now: Build 337 banner, then
+  `chef next step=talk -> dialogue -> mix -> bake` progression and Bread in
+  inventory.
+- Remote command channel (Build 336) still present: plugin polls
   `bot-command/command.txt` ~every 45s. Commands: PAUSE / RESUME / STATUS /
   RESTART. Each runs once (id persisted on disk), expires after 15 min, acks
-  via the diag log. Latency ~1-2 min (Julien confirmed 2026-09-29 ~03:55 EDT
-  the old raw-CDN lag is gone; probe-verified). Only repo collaborators can
-  post commands.
-- Stage: **SURVIVAL** (tutorial progress varp 281)
+  via the diag log. Latency ~1-2 min (raw-CDN lag is gone, probe-verified
+  2026-09-29). Only repo collaborators can post commands.
 - Verified milestones, in order: fishing produced 2 raw shrimp (Build 329) →
-  chop rejected by the tutorial until the expert's lesson runs (Build 331) →
-  expert handed over a tinderbox → his "take a look at that menu" dialogue
-  needed a PHYSICAL skills-icon click, verified working (Build 333) →
-  continue/Talk-to ping-pong fixed with a dialogue-seen latch (Build 334) →
-  lesson rewritten as an explicit ordered step model (Build 335)
-- Pending verification right now: lesson reports step=done → real Tree →
-  Chop down attempt → logs entering inventory
+  chop rejected until the expert's lesson ran (Build 331) → expert handed over
+  a tinderbox → "take a look at that menu" needed a PHYSICAL skills-icon
+  click, verified working (Build 333) → continue/Talk-to ping-pong fixed with
+  a dialogue-seen latch (Build 334) → lesson rewritten as an explicit ordered
+  step model (Build 335) → survival completed, varp281=140 CHEF (03:47 EDT).
+
 
 ## Architecture you need to know
 - Microbot `StateMachineScript` plugin, patched through this repo:
