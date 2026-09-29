@@ -1,4 +1,18 @@
 ## Current build
+- **Build 458 / patch-454** (shipped 2026-09-29 18:18 EDT). STRICT NO-PROGRESS INVARIANT.
+  - Alex 18:16: Build 457 oscillated between leg 1/4 and 2/4 (positions 3240-3255,3267-3290,
+    no monotonic distance reduction to WHEAT_FIELD). The for-loop re-evaluated legs
+    every tick, causing thrash.
+  - Fix: strict leg state machine. A leg advances ONLY after:
+    (1) next-tick proximity proof (dist <= 8), AND
+    (2) measurable distance reduction (>2 tiles) between ticks.
+    Repeated same-area positions count as stalled (15 ticks -> leg FAILED).
+  - On leg failure: one alternate staged route, then typed ROUTE_BLOCKED + sticky HOLD.
+  - No reissuing the same resolver request. No progress claims from movement jitter.
+  - Acceptance: monotonic distance reduction per leg, leg-completion proof lines,
+    then special dairy object with live Milk action near (3172,3317).
+
+## Current build
 - **Build 457 / patch-453** (shipped 2026-09-29 18:15 EDT). STAGED DAIRY ROUTE.
   - Alex 18:12: direct (3246,3286)->(3172,3317) fails with rs2walker:walkStep:no-walkable-path.
     Unbounded retry loop (SHARED_TRAVERSAL FAILED every tick, no movement).
