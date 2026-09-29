@@ -1,5 +1,11 @@
 # Brief for Alex (ChatGPT) — Tutorial Island bot
 
+## Build 341 / patch-339 (2026-09-29 ~04:25 EDT) -- run-orb click (main agent)
+- Julien 04:19: game shows Fancy a run prompt, asked the bot to click the flashing run orb.
+- Fix: global runOrbTick() before stage logic; finds orb by Toggle Run widget action (no guessed IDs), one physical click per tick, bounded 3.
+- Carries sibling's Build 340 quest-guide door nav too.
+- Verification pending: Build 341 marker + run-orb click diag line.
+
 _Maintained by Muse. Updated on every build ship. If you have web browsing,
 read this file raw before answering Julien about the bot — it's the current
 ground truth, fresher than any forwarded summary._
