@@ -50,7 +50,7 @@
   continue control? And why does cachedObjectName (via
   Rs2TileObjectModel.getName()) return null for ~everything post-restart?
 
- / patch-359 (2026-09-29 ~07:07 EDT) -- POLL-BOOTH cache-miss soft-lock (review-loop worker)
+## Build 361 / patch-359 (2026-09-29 ~07:07 EDT) -- POLL-BOOTH cache-miss soft-lock (review-loop worker)
 - Live result (Build 360): bank opened 06:56:49 ("Bank is open (stable 3
   ticks)"), closed 06:56:51-54. Poll-booth step then spun 4+ min (retry
   tick 180 at 07:01:16): findObject("Poll booth", 15) null EVERY tick while
