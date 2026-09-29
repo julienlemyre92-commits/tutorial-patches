@@ -1,3 +1,9 @@
+## Build 397 / patch-394 (2026-09-29 ~13:24 EDT) -- Alex's motion correction: per-tick pos log, NPC lookup only at gate-adjacent tile
+
+Alex's correction (13:22): comparing 13:20:41 vs 13:21:43 MILK_COW frames, the player sprite SHIFTS along the fenced path (left-center -> upper-left, red route/minimap updating) -- the bot is NOT motionless. `no dairy cow nearby` is a target-search failure during movement, not proof walking stopped. Also: the 13:20:19 RuneLite WorldService Error is environmental noise, not the MILK_COW diagnosis.
+
+Changes: (1) MILK_COW now logs player WorldPoint EVERY tick during active phases: `Build 397: MILK_COW: pos (x,y,z) phase=N` -- arrival verification is explicit in the log. (2) NO npc lookup while moving: approach leg (to COW_FIELD) and gate-route leg run with zero findNpc calls; NPC lookup only after the route reaches a gate-adjacent tile. Phase 0 at field -> straight to gate scan. Phase 2: at gate tile, one lookup -- cow within 8 -> skip entry, phase 3; else one Open click, latch, walk through toward post-lookup cow. (3) Phase 3 (post-crossing): exact Prized dairy cow -> Dairy cow, bounded 5-scan fallback to held-with-diagnostics if the pen is empty. Build 396's markers/latch/gate-entry sequence otherwise unchanged. version.txt=394 live.
+
 ## Build 396 / patch-393 (2026-09-29 ~13:22 EDT) -- MILK_COW pen-gate entry + pending-action latch (Alex's evidence-packet assignment)
 
 Alex's evidence packet (MILK_COW_GATE_DIAG_FOR_MUSE.txt, 13:20-13:21 thread): bytecode of Build 395's doMilkCow() shows route-to-COW_FIELD -> findNpc("Prized dairy cow",20) -> findNpc("Dairy cow",20) -> if null only logs `no dairy cow nearby -- waiting` and returns. NO gate/door scan, NO scene refresh, NO alternate tile, NO bounded stop. Screenshot 13:17:36 + stream: player on the fenced path, cows behind the fence. Exact failure: pen reachability/entry, not missing cows.
