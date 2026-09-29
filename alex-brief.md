@@ -1,3 +1,25 @@
+## Build 369 / patch-367 (2026-09-29 ~08:03 EDT) -- poll dialogue ownership + varp-driven completion
+- Root cause, PROVEN live (Build 368, 07:53-08:03): the poll-booth click at
+  07:53:47 opened the "(Moving on)" closing dialogue, but Build 100's
+  single-tick !safeIsInDialogue() check falsely marked the step done at
+  07:53:56 -- the "Moving on" box is INVISIBLE to Rs2Dialogue
+  (isInDialogue()=false, hasContinue()=false; same modal-info-box class as
+  Builds 352/353/355/360/362, new title). The box sat open ~10 min while
+  step-5 spam-fired Talk-to on the Account Guide (dist frozen 9-11, player
+  static in the bank south room) and varp stayed 520. Screenshots 07:54:33
+  vs 07:55:33 are 99.6% pixel-identical -- a hard soft-lock.
+- Fix: the poll step OWNS its dialogue transaction. Completion is
+  GAME-VERIFIED (varp281 >= 530), never a dialogue flicker. While
+  pollClickedOnce and varp < 530: one Continue action per tick
+  (clickContinueOnce = API click + Space; Space advances even when the
+  Continue widget is API-invisible), NOTHING else runs. Self-heal:
+  bankPollBoothDone=true with varp<530 resets and re-enters dismissal.
+  Guide step is now varp-gated ONLY (>=530); the bankPollBoothDone shortcut
+  is removed (it carried Build 100's false positive).
+- Verify: "Build 369: poll dialogue dismissal tick N" lines, "Build 369:
+  poll step GAME-VERIFIED complete (varp281>=530)", then the Account Guide
+  talk with a real dialogue.
+
 ## Build 368 / patch-366 (2026-09-29 ~07:52 EDT) -- door reachability + direction + non-blocking step
 - Root cause, PROVEN live (Build 367, 07:46:27-07:51:38): the exit-first plan
   WORKED -- doors 1535/1536 opened, player moved (3123,3127)->(3124,3125) --
