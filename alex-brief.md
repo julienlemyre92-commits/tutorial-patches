@@ -1,3 +1,34 @@
+## Build 350 / patch-348 (2026-09-29 ~05:30 EDT) -- mining intro step model (review-loop worker)
+- Live result (Build 349, session 05:21:03): quest fix FULLY verified -- Climb-down
+  click landed on the LADDER (id=9726 at 3088,3119), descent verified
+  (varp281=260, player in caves y>9000), stage advanced QUEST_GUIDE -> MINING at
+  05:21:53. Then the MINING stage deadlocked immediately: Talk-to click ->
+  dialogue open -> ESC -> Talk-to again, every ~3s, 05:22:49-05:24:04, dialogue
+  pinned at frame 1 ("Hi there. You must be new around here...") forever.
+- Root cause (two parts): (1) the mining intro block assumed "the explanation
+  dialog has no continue button -- close it with ESC" -- WRONG, the intro HAS
+  "Click here to continue" (screenshot 05:24:04) and the instructor hands the
+  bronze pickaxe only when it is clicked through, so ESC'ing it skipped the
+  handover; (2) the Build 337 talkTo skip's clearTickWait() nuked the intro's
+  own mine-esc wait every tick, so the intro re-armed it every tick while
+  talkTo() re-issued a fresh Talk-to click every ~3s -- each fresh click RESET
+  the conversation to frame 1 (the exact Build-337 chef loop).
+- Fix: mining intro converted to the proven Build 337 chef step model. Each
+  tick derives mineStep from observed state and logs it
+  ("Build 350: mining intro next step=<done|dialogue|talk>"): Bronze pickaxe in
+  inventory (or dagger, or bar+hammer) -> done, never talk again; dialogue
+  open -> one spamDialogue action per tick (60s budget, continue-first);
+  else -> talkTo (bounded 3 attempts -> stand down; 337 guard prevents reset
+  clicks while the dialogue is open). Completion predicate: Bronze pickaxe
+  OBSERVED in inventory -- never the ESC, never dialogue-close alone. The old
+  ESC intro block is deleted. Watch for: "Build 350: mining intro next step="
+  lines, pickaxe appearing, then tin/copper mining (mineOre, rocks "Tin
+  rocks"/"Copper rocks" -- needs the pickaxe).
+- Verification pending: Build 350 banner (RUNNING_BUILD=350), intro spamDialogue
+  continuing the instructor's dialogue, "Bronze pickaxe" in inventory, then the
+  step=done transition. alex-inbox: no new notes.
+
+
 ## Build 349 / patch-347 (2026-09-29 ~05:20 EDT) -- quest ladder targeting + text-gated dialogue close (review-loop worker)
 - Live result (Build 348, session 05:12:32): the re-talk loop is DEAD -- latch
   line "Build 348: Quest Guide lecture COMPLETE (observed ' would you like to
