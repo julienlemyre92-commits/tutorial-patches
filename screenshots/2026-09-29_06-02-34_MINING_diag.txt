@@ -1,0 +1,250 @@
+06:00:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:20  Skipping mining — already have bar/dagger
+06:00:20  Skipping smelt — already have bar/dagger
+06:00:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:22  Skipping mining — already have bar/dagger
+06:00:22  Skipping smelt — already have bar/dagger
+06:00:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:24  Skipping mining — already have bar/dagger
+06:00:24  Skipping smelt — already have bar/dagger
+06:00:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:25  Skipping mining — already have bar/dagger
+06:00:25  Skipping smelt — already have bar/dagger
+06:00:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:27  Skipping mining — already have bar/dagger
+06:00:27  Skipping smelt — already have bar/dagger
+06:00:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:29  Skipping mining — already have bar/dagger
+06:00:29  Skipping smelt — already have bar/dagger
+06:00:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:30  Skipping mining — already have bar/dagger
+06:00:30  Skipping smelt — already have bar/dagger
+06:00:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:31  Screenshot saved: 2026-09-29_06-00-31_MINING_auto.png
+06:00:31  Build 82: cleaned up 2 old screenshots
+06:00:32  Skipping mining — already have bar/dagger
+06:00:32  Skipping smelt — already have bar/dagger
+06:00:32  Diag tail uploaded: 2026-09-29_06-00-31_MINING_diag.txt
+06:00:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:34  Skipping mining — already have bar/dagger
+06:00:34  Skipping smelt — already have bar/dagger
+06:00:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:36  Skipping mining — already have bar/dagger
+06:00:36  Skipping smelt — already have bar/dagger
+06:00:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:37  Skipping mining — already have bar/dagger
+06:00:37  Skipping smelt — already have bar/dagger
+06:00:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:39  Skipping mining — already have bar/dagger
+06:00:39  Skipping smelt — already have bar/dagger
+06:00:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:41  Skipping mining — already have bar/dagger
+06:00:41  Skipping smelt — already have bar/dagger
+06:00:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:42  Skipping mining — already have bar/dagger
+06:00:42  Skipping smelt — already have bar/dagger
+06:00:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:44  Skipping mining — already have bar/dagger
+06:00:44  Skipping smelt — already have bar/dagger
+06:00:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:46  Skipping mining — already have bar/dagger
+06:00:46  Skipping smelt — already have bar/dagger
+06:00:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:48  Skipping mining — already have bar/dagger
+06:00:48  Skipping smelt — already have bar/dagger
+06:00:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:49  Skipping mining — already have bar/dagger
+06:00:49  Skipping smelt — already have bar/dagger
+06:00:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:51  Skipping mining — already have bar/dagger
+06:00:51  Skipping smelt — already have bar/dagger
+06:00:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:53  Skipping mining — already have bar/dagger
+06:00:53  Skipping smelt — already have bar/dagger
+06:00:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:54  Skipping mining — already have bar/dagger
+06:00:54  Skipping smelt — already have bar/dagger
+06:00:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:56  Skipping mining — already have bar/dagger
+06:00:56  Skipping smelt — already have bar/dagger
+06:00:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:58  Skipping mining — already have bar/dagger
+06:00:58  Skipping smelt — already have bar/dagger
+06:00:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:00:59  Skipping mining — already have bar/dagger
+06:00:59  Skipping smelt — already have bar/dagger
+06:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:01  Skipping mining — already have bar/dagger
+06:01:01  Skipping smelt — already have bar/dagger
+06:01:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:03  Skipping mining — already have bar/dagger
+06:01:03  Skipping smelt — already have bar/dagger
+06:01:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:04  Skipping mining — already have bar/dagger
+06:01:04  Skipping smelt — already have bar/dagger
+06:01:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:06  Skipping mining — already have bar/dagger
+06:01:06  Skipping smelt — already have bar/dagger
+06:01:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:08  Skipping mining — already have bar/dagger
+06:01:08  Skipping smelt — already have bar/dagger
+06:01:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:10  Skipping mining — already have bar/dagger
+06:01:10  Skipping smelt — already have bar/dagger
+06:01:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:11  Skipping mining — already have bar/dagger
+06:01:11  Skipping smelt — already have bar/dagger
+06:01:11  Build 196: tick-wait 'mine-dagger' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+06:01:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:13  Skipping mining — already have bar/dagger
+06:01:13  Skipping smelt — already have bar/dagger
+06:01:13  Build 212: clicking dagger widget at 146,66 -- no blocking sleep; effect verified next tick by mine-dagger tick-wait
+06:01:13  Build 196: tick-wait 'mine-dagger' armed, bound 42 ticks (non-blocking)
+06:01:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:15  Skipping mining — already have bar/dagger
+06:01:15  Skipping smelt — already have bar/dagger
+06:01:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:16  Skipping mining — already have bar/dagger
+06:01:16  Skipping smelt — already have bar/dagger
+06:01:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:18  Skipping mining — already have bar/dagger
+06:01:18  Skipping smelt — already have bar/dagger
+06:01:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:20  Skipping mining — already have bar/dagger
+06:01:20  Skipping smelt — already have bar/dagger
+06:01:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:21  Skipping mining — already have bar/dagger
+06:01:21  Skipping smelt — already have bar/dagger
+06:01:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:23  Skipping mining — already have bar/dagger
+06:01:23  Skipping smelt — already have bar/dagger
+06:01:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:25  Skipping mining — already have bar/dagger
+06:01:25  Skipping smelt — already have bar/dagger
+06:01:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:27  Skipping mining — already have bar/dagger
+06:01:27  Skipping smelt — already have bar/dagger
+06:01:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:28  Skipping mining — already have bar/dagger
+06:01:28  Skipping smelt — already have bar/dagger
+06:01:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:30  Skipping mining — already have bar/dagger
+06:01:30  Skipping smelt — already have bar/dagger
+06:01:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:32  Skipping mining — already have bar/dagger
+06:01:32  Skipping smelt — already have bar/dagger
+06:01:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:33  Screenshot saved: 2026-09-29_06-01-32_MINING_auto.png
+06:01:33  Skipping mining — already have bar/dagger
+06:01:33  Skipping smelt — already have bar/dagger
+06:01:33  Diag tail uploaded: 2026-09-29_06-01-32_MINING_diag.txt
+06:01:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:35  Skipping mining — already have bar/dagger
+06:01:35  Skipping smelt — already have bar/dagger
+06:01:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:37  Skipping mining — already have bar/dagger
+06:01:37  Skipping smelt — already have bar/dagger
+06:01:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:38  Skipping mining — already have bar/dagger
+06:01:38  Skipping smelt — already have bar/dagger
+06:01:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:40  Skipping mining — already have bar/dagger
+06:01:40  Skipping smelt — already have bar/dagger
+06:01:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:42  Skipping mining — already have bar/dagger
+06:01:42  Skipping smelt — already have bar/dagger
+06:01:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:44  Skipping mining — already have bar/dagger
+06:01:44  Skipping smelt — already have bar/dagger
+06:01:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:45  Skipping mining — already have bar/dagger
+06:01:45  Skipping smelt — already have bar/dagger
+06:01:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:47  Skipping mining — already have bar/dagger
+06:01:47  Skipping smelt — already have bar/dagger
+06:01:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:49  Skipping mining — already have bar/dagger
+06:01:49  Skipping smelt — already have bar/dagger
+06:01:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:50  Skipping mining — already have bar/dagger
+06:01:50  Skipping smelt — already have bar/dagger
+06:01:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:52  Skipping mining — already have bar/dagger
+06:01:52  Skipping smelt — already have bar/dagger
+06:01:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:54  Skipping mining — already have bar/dagger
+06:01:54  Skipping smelt — already have bar/dagger
+06:01:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:55  Skipping mining — already have bar/dagger
+06:01:55  Skipping smelt — already have bar/dagger
+06:01:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:57  Skipping mining — already have bar/dagger
+06:01:57  Skipping smelt — already have bar/dagger
+06:01:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:01:59  Skipping mining — already have bar/dagger
+06:01:59  Skipping smelt — already have bar/dagger
+06:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:02:01  Skipping mining — already have bar/dagger
+06:02:01  Skipping smelt — already have bar/dagger
+06:02:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:02:02  Skipping mining — already have bar/dagger
+06:02:02  Skipping smelt — already have bar/dagger
+06:02:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:02:04  Skipping mining — already have bar/dagger
+06:02:04  Skipping smelt — already have bar/dagger
+06:02:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:02:06  Skipping mining — already have bar/dagger
+06:02:06  Skipping smelt — already have bar/dagger
+06:02:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:02:07  Skipping mining — already have bar/dagger
+06:02:07  Skipping smelt — already have bar/dagger
+06:02:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:02:09  Skipping mining — already have bar/dagger
+06:02:09  Skipping smelt — already have bar/dagger
+06:02:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:02:11  Skipping mining — already have bar/dagger
+06:02:11  Skipping smelt — already have bar/dagger
+06:02:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:02:13  Skipping mining — already have bar/dagger
+06:02:13  Skipping smelt — already have bar/dagger
+06:02:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:02:14  Skipping mining — already have bar/dagger
+06:02:14  Skipping smelt — already have bar/dagger
+06:02:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:02:16  Skipping mining — already have bar/dagger
+06:02:16  Skipping smelt — already have bar/dagger
+06:02:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:02:18  Skipping mining — already have bar/dagger
+06:02:18  Skipping smelt — already have bar/dagger
+06:02:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:02:19  Skipping mining — already have bar/dagger
+06:02:19  Skipping smelt — already have bar/dagger
+06:02:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:02:21  Skipping mining — already have bar/dagger
+06:02:21  Skipping smelt — already have bar/dagger
+06:02:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:02:23  Skipping mining — already have bar/dagger
+06:02:23  Skipping smelt — already have bar/dagger
+06:02:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:02:24  Skipping mining — already have bar/dagger
+06:02:24  Skipping smelt — already have bar/dagger
+06:02:24  Build 196: tick-wait 'mine-dagger' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+06:02:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:02:26  Skipping mining — already have bar/dagger
+06:02:26  Skipping smelt — already have bar/dagger
+06:02:26  Build 212: clicking dagger widget at 146,66 -- no blocking sleep; effect verified next tick by mine-dagger tick-wait
+06:02:26  Build 196: tick-wait 'mine-dagger' armed, bound 42 ticks (non-blocking)
+06:02:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:02:28  Skipping mining — already have bar/dagger
+06:02:28  Skipping smelt — already have bar/dagger
+06:02:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:02:30  Skipping mining — already have bar/dagger
+06:02:30  Skipping smelt — already have bar/dagger
+06:02:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:02:31  Skipping mining — already have bar/dagger
+06:02:31  Skipping smelt — already have bar/dagger
+06:02:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:02:33  Skipping mining — already have bar/dagger
+06:02:33  Skipping smelt — already have bar/dagger
+06:02:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:02:34  Screenshot saved: 2026-09-29_06-02-34_MINING_auto.png
