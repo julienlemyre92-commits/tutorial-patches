@@ -1,138 +1,24 @@
-# Alex brief -- CURRENT BUILD: Build 363 (patch-361, version.txt=361)
-
-## Build 362 / patch-360 (2026-09-29 ~07:14 EDT) -- POLL-BOOTHS info-box soft-lock + post-restart 510 replay (review-loop worker)
-- Live result (Build 361): RUNNING_BUILD=361 banner verified at 07:07:55;
-  after the update restart at varp281=520 the "Poll booths" tutorial info
-  interface ("Now it's time for a quick look at polls. Just click on the
-  indicated poll booth to continue.") sat open, modal and invisible to
-  safeIsInDialogue(), while doBank spun 3+ min logging ONLY "BANK TICK:
-  up=true opened=false closed=false" -- bankOpened had reset on restart, so
-  every tick fell into the !bankOpened branch where clickBoothDirect("Use")
-  hit findObject("Bank booth",15)=null and returned SILENTLY (invisible
-  stall); the 510 arc replayed at varp 520 though the game's own varp proves
-  510 complete.
-- Fix: (1) pollBoothsBoxOpen() detector + ownership gate (one dismiss action
-  per tick, all bank work gated until observed closed); (2) varp-sync at the
-  top of doBank: varp281>=520 game-verifies the 510 arc, syncing
-  bankWentUp/bankOpened/bankClosed true so the flow goes straight to the
-  poll-booth step. Verification pending (expected at next check):
-  "Build 362: STARTUP" banner, "varp281=520 >= 520 -- syncing true", the
-  poll-booths gate lines, then poll-booth walk/click lines, Build 100
-  verified-complete, varp 281 -> 530.
-
-## Build 363 / patch-361 (2026-09-29 ~07:22 EDT) -- poll-box title-detector miss + nameless poll booth (review-loop worker)
-- Live result (Build 362): RUNNING_BUILD=362 banner verified at 07:15:57,
-  and the new varp-sync fired live at 07:16:22 ("varp281=520 >= 520
-  game-verifies the 510 arc -- syncing bankWentUp/bankOpened/bankClosed
-  true"). BUT the "Build 362: Poll-booths info box OPEN" runtime line NEVER
-  fired -- pollBoothsBoxOpen() returned false EVERY tick while the box was
-  visibly open in every screenshot 07:08-07:17 (same miss class as Build
-  360's Banking-box detector: findWidget title/body lookups are unreliable
-  for these group-229 modals -- NEED YOUR EYES on the widget semantics).
-- Miss-diag ground truth (07:16:27): player WorldPoint(3123,3127,plane=1),
-  451 objects cached within 30, nearest 8 all name=null/UNRESOLVED except
-  id=16679 Ladder -- so exact 'Poll booth' AND loose 'poll' name matches
-  both miss. RuneMate thread corroborates: the poll booth is notoriously
-  invisible to object APIs ("no longer shows up as any type of object"),
-  appearing with null names when it does. OSRS Wiki: poll booth ids
-  26492/26796 (blue closed/open variants).
-- Fix: (1) modal continue fallback in doBank -- when no dialogue is flagged
-  yet Rs2Dialogue.hasContinue() is true, the box owns the tick: one
-  clickContinueOnce() per tick (the PROVEN 06:56:45 Banking-box dismissal
-  path), nothing else, until observed gone; (2) object-ID fallback for the
-  poll booth via findObjectById (26492/26796), needing zero name
-  resolution. Pending verification: "Build 363: STARTUP", "Build 363:
-  continue control visible without dialogue flag", observed box absence,
-  "Build 363: poll booth found via OBJECT ID match", Build 100
-  verified-complete, varp 281 -> 530.
-- Open question for you: why do findWidget title lookups miss these
-  group-229 modals while Rs2Dialogue.hasContinue() sees the same box's
-  continue control? And why does cachedObjectName (via
-  Rs2TileObjectModel.getName()) return null for ~everything post-restart?
-
-## Build 361 / patch-359 (2026-09-29 ~07:07 EDT) -- POLL-BOOTH cache-miss soft-lock (review-loop worker)
-- Live result (Build 360): bank opened 06:56:49 ("Bank is open (stable 3
-  ticks)"), closed 06:56:51-54. Poll-booth step then spun 4+ min (retry
-  tick 180 at 07:01:16): findObject("Poll booth", 15) null EVERY tick while
-  the bank booth resolved fine on the same event-driven cache path -- the
-  step had no diagnosis and no recovery. Blue "Banking" info box
-  ("close the bank and click on the indicated poll booth") visible in
-  screenshots; Build 360's info-box gate lines never appeared live
-  (bankInfoBoxOpen() not matching this box variant -- title "Banking"
-  present but detector silent; needs your eyes on the widget semantics).
-- Fix: (1) lookup radius 15->30; (2) loose-name fallback (contains "poll")
-  over the same cached list, logged distinctly; (3) miss diagnostics every
-  ~30 retry ticks -- player tile + cache inventory (nearest 8:
-  id/name|UNRESOLVED/dist); (4) proximity gate (mirrors Build 115): booth
-  found but >4 tiles away -> non-blocking walkStep per tick toward
-  adjacentWalkable(booth), never blocking walkTo. Verification pending:
-  expect "Build 361: POLL-BOOTH MISS DIAG" lines (or the booth found +
-  "Build 100: poll booth step VERIFIED complete" + varp 281 -> 520).
-- Open question for you: why would the poll booth be absent from
-  Rs2TileObjectCache while the bank booth (same room, same path) resolves?
-  Suspects: booth outside 15-tile window (player mispositioned?), name
-  unresolvable via cachedObjectName, or a non-GameObject type the cache
-  doesn't track. The new miss-diag will discriminate.
-
-## Build 360 / patch-358 (2026-09-29 ~06:57 EDT) -- BANKING info-box soft-lock + wrong arc order (review-loop worker)
-- Live result (Build 359): banner RUNNING_BUILD=359 verified at 06:46:06;
-  FINAL_LADDER worked -- ladder climbed, varp281=510 -> BANK at 06:48:14.
-  Then doBank soft-locked 06:48:29-06:54:35: the "Banking" tutorial info
-  interface (group 229: "This is the Bank of Gielinor, where you can store
-  all your most valued items. To open your bank, just click on the indicated
-  booth", yellow arrow ON the booth) sat open, modal and invisible to
-  safeIsInDialogue(), while doBank issued Talk-to clicks on the Account
-  Guide (id=3310, dist 3-4) every ~2s -- every click swallowed by the box,
-  the guide dialogue never opened, the box never closed (upStep=0 forever).
-  Same soft-lock class as the mining Builds 352/353/355.
-- Root causes: (1) no arc owned the Banking info box; (2) Build 110's
-  guide-FIRST order contradicts the game's own varp order -- your canonical
-  Varplayer/281 table (510=open bank; 520=close bank/open poll booth;
-  530=talk Account Guide; 531=open Account Management; 532=talk again;
-  540=exit): at varp 510 the game wants the BOOTH, not the guide. Build 110's
-  2026-09-27 "booth never opens" evidence is better explained by Build 90's
-  through-the-wall click bug (same era) than by a game gate.
-- Fix: (1) bankInfoBoxOpen() detector (title "Banking" / body "Bank of
-  Gielinor", collides with nothing); (2) ownership gate at the top of doBank
-  -- one dismiss action per tick (its own "Click here to continue" control,
-  else Space, reusing dismissSmeltingInfoBox) until OBSERVED closed, never
-  ESC'd; (3) the Account Guide step now runs only when varp>=530 or when
-  booth+poll are observed done (canonical order), so at varp 510/520 the flow
-  reaches the booth click (clickBoothDirect("Use")).
-- Pending verification: Build 360 banner, "Build 360: Banking info box OPEN"
-  lines, then observed absence, then "Bank is open (stable 3 ticks)" and
-  varp 281 -> 520.
-- REVIEW QUESTION: the guide-step two-talk sequence (doAccountGuideStep,
-  phases 0/1/2 + physical ACC_MAN tab click) was written for guide-FIRST and
-  assumed varp>=533 fail-safe. At varp 530+ the game's guide instruction
-  dialog ("The guide here will tell you all about your account...") may
-  reappear between talks -- check that dialogueTick's Build 108 mapping still
-  routes it rather than dismissing it as a gate dialog.
-
-## Build 359 / patch-357 (2026-09-29 ~06:46 EDT) -- FINAL_LADDER wrong-object climb + wall-tile walk (review-loop worker)
-- Live result (Build 358): Build 358 banner verified live at 06:33:16; its gate fired ("Build 358: ranged kill already registered -> FINAL_LADDER"). But FINAL_LADDER then cycled WALK_TO_LADDER(dist 7-8) -> CLIMB_UP(dist 1) -> WALK_TO_LADDER for 6+ min (06:34-06:37): player stuck on the same corridor tiles, "Moving on" dialogue open in all four screenshots, three one-shot Climb-up clicks, zero climbs.
-- Root causes (Julien's step-model law): (1) the one-shot used issueDoorClickOnce -> clickDoorDirectInner -> findGateObjectInner, which matches "door" FIRST -- the Build 349 ladder-first fix only covered clickDoorDirect, so the Climb-up clicks went to the nearest door/gate, never the ladder (same bug class as Build 348's Climb-down-on-door-9716); (2) the walk targeted the ladder's own tile (3111,9526), a likely wall tile -- same hang class as the 04:07 door-tile freeze; (3) the dist read oscillates 1<->7 while the player stands still, so a single dist<=2 fired climbs on a bogus read; (4) the dialogue branch had no verified dismissal.
-- Fix: explicit ordered plan -- (1) dialogue owns the tick with verified dismissal (12-tick stuck escalation: Space + continue click); (2) walk to adjacentWalkable(ladder), re-driven every tick, 20s no-progress re-drive; (3) climb only on 2 consecutive dist<=2 ticks via the phased ladder-first clickDoorDirect (click + ladderDisplacementObserved verification, bounded 3 cycles). Also added ladder-first to clickDoorDirectInner for Climb* (defense in depth). Completion stays varp-observed (281>=510).
-- Verify: "Build 359: FINAL_LADDER next step=" lines with player tile, walk progress north, "Build 199: door 'Climb-up' CROSSING VERIFIED", varp 281 >= 510 -> BANK.
-- Build notes: 28 java files / 98 classes compiled with jdk-17 -encoding UTF-8, 0 errors; RUNNING_BUILD=359 verified via strings; zip via zip (net/ prefix, 108 entries, Rs2GrandExchange shim present); version.txt re-checked via API immediately before upload (356, no sibling ship); patch-357.zip absent-confirmed; remote blob sha256 matches local; version.txt=357 confirmed after. Source mtime = own Build 359 edit, no sibling edits.
-
-## Build 358 / patch-356 (2026-09-29 ~06:32 EDT) -- ranged-kill replay loop fix (review-loop worker)
-- Live result (Build 357): patch-355 update restarted the client at 06:26:20 (banner verified live). At 06:27:04 the sub-machine re-derived KILL_RAT_RANGED from "bow+arrows equipped" and attacked every ~2s; the game answered "You've already done that. Perhaps you should move on." -- the ranged kill had registered pre-restart (varp281=500, "Moving on" dialogue closed 06:21-06:22 under Build 356), but the transient kill-observed flag (combatWasInCombat) does not survive a restart. Screenshot 06:28:21: player at pit gate, bow equipped, "already done that" modal open, tutorial instruction "climb up the ladder to the North".
-- Root cause: KILL_RAT_RANGED's DONE WHEN ("one rat killed with ranged") was never re-derived from observed game state -- only from the transient in-combat transition. The sub-state also never dismisses dialogues, so the modal sat open while attacks continued.
-- Fix (step-model law): combatKillRatRanged() now gates on observed state -- (1) varp 281 in [500,510) AND the game's own "climb up the ladder" tutorial instruction visible -> kill registered -> FINAL_LADDER, no attack; (2) any open dialogue gets one dialogueTick per tick (the "already done that" text is an explicit done-signal -> FINAL_LADDER).
-- Verify next: "Build 358: ... -> FINAL_LADDER" lines, then "Build 357: FINAL_LADDER next step=WALK_TO_LADDER", player walking north, varp 281 >= 510 -> BANK.
-
-## Build 357 / patch-355 (2026-09-29 ~06:24 EDT) -- FINAL_LADDER pit-gate loop fix (review-loop worker)
-- Live result (Build 356): melee rat killed 06:19:35, pen exited, ranged rat killed 06:20:54 -> FINAL_LADDER. Screenshots 06:21:29/06:22:34 + diag show the player parked AT the rat-pit gate for 2+ min: 'Open' clicked 06:21:10/06:21:50/06:22:32, each producing the instructor's scold modal "Oi! Get away from there. Only enter the rat cage when I say so."
-- Root cause: the rat pit cannot be re-entered after the ranged kill (your step-model doc, combat STEP 4-5: "Rat pit cannot be re-entered at this point"). The old FINAL_LADDER alternation (Open / Climb-up / walk-to-banker) clicked the PIT gate every 3rd tick -- farming scold modals, never advancing. The Climb-up clicks targeted the north ladder ~8-10 tiles away and never moved the player.
-- Fix (step-model law): explicit ordered plan -- NO pit-gate clicks. Walk to the cache-observed north ladder (findLadderObjectInner radius 15) via non-blocking walkStep; climb when adjacent (dist<=2). 'Climb' actions route to the ladder object (Build 349), never the nearest door. Completion stays varp-observed (281>=510).
-- Verify next: "Build 357: FINAL_LADDER next step=WALK_TO_LADDER/CLIMB_UP" lines, player walking north to the ladder, ladder displacement, varp 281 >= 510 -> BANK.
-
-## Build 356 / patch-354 (2026-09-29 ~06:15 EDT) -- combat tab lesson step model (review-loop worker)
-- Live result (Build 355): MINING completed 06:06:10 -- mining varp281=370 -> COMBAT. Combat substates all succeeded through EQUIP_SWORD_SHIELD.
-- New blocker 06:07-06:09: 3+ min of "Attack style widget not found yet, retrying" while the GAME had moved on -- tab open, Stab pre-selected, instruction = rat step, "Combat interface" info box open. Root cause: progression gated on clickAttackStyle() lookup succeeding; lookup blind for unknown reasons.
-- Fix (Build 337 step-model template): (1) combatInfoBoxOpen() detector; box-open = lesson done game-side -> ENTER_PEN; (2) attack-style click kept but BOUNDED -- 30 blind ticks fails forward to ENTER_PEN; (3) Space nudge while box open during world-click substates, never gating.
-- Verify next: Build 356 banner, "Build 356: Combat interface info box open" line, ENTER_PEN gate lines, rat kill.
+## Build 364 / patch-362 (2026-09-29 ~07:26 EDT) -- wrong-floor (plane 1) recovery for the bank poll-booth arc
+- Live result (Builds 362/363, 07:15-07:22): the player is at
+  (3123,3127,plane=1) -- UPSTAIRS in the bank. Julien on stream: "it missed
+  click and went upstairs in the bank", "a place you've never seen it". The
+  poll booth is on plane 0, so every poll-booth lookup from plane 1 misses BY
+  CONSTRUCTION -- Builds 362/363 could dismiss the box and still never finish.
+  (Build 363, shipped by a sibling worker as patch-361 while I investigated,
+  added the modal continue-fallback + poll-booth object-ID lookup
+  26492/26796; kept as-is, built on.)
+- Fix: after the modal gates, when bank varp is 520-539 and observed plane is
+  1, nothing else runs -- one recovery tick: find the nearby ladder by object
+  id 16679 (observed live at dist=1, name "Ladder") or cached name-contains
+  "ladder", require its plane == 1, walk to adjacentWalkable(ladder) when
+  dist>2, else one physical ladder.click("Climb-down"). Completion is the
+  OBSERVED plane 1->0 transition; bounded 40 ticks then diagnostic
+  stand-down. Rs2TileObjectModel has no getActions(), so identity rests on
+  id+name+plane+proximity with full evidence logged -- a wrong-object click
+  fails closed, never a false success.
+- Pending verification: Build 364 banner (RUNNING_BUILD=364), "Build 364:
+  down-ladder candidate" lines, "physically clicked Climb-down", plane 1->0
+  observed, then the poll-booth ID match and varp 281 -> 530.
 
 ## Build 355 / patch-353 (2026-09-29 ~06:05 EDT) -- smith-arc info box + dagger substring-trap fix (review-loop worker)
 - Live result (Build 354, session started 05:59:30): RUNNING_BUILD=354 banner
