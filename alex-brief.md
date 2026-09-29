@@ -1,4 +1,13 @@
 ## Current build
+- **Build 427 / patch-424** (shipped 2026-09-29 16:48 EDT, NUDGE ALEX 16:45/16:46). DOOR-CROSSING SIDE PROOF (generic, not mill-specific).
+  - Root cause (Alex decompiled 426): VERIFYING_CROSSING used `dist(edge)<=3 AND dist(fromPos)>2`. Mill door: from=(3166,3303), edge=(3166,3302), post=(3165,3301) -> dist=2, strict >2 false -> 30s timeout -> ROUTE_BLOCKED despite successful crossing.
+  - Fix: signed projection t of (player, edge) onto fromPos->target corridor. Proof = `moved (post!=pre) && t_post > t_edge`. Verified on Alex's coords: t_edge=0.049, t_post=0.127 -> crossed=True.
+  - SIDE_PROOF log line: prePlayer, postPlayer, edge tile, t_pre/t_edge/t_post, approach_side, destination_side, moved, exact predicate.
+  - One bounded alternate walk (2 tiles past edge) if not crossed, then DOOR_CROSSING_FAILED (not generic alternate-edge).
+  - Handoff no-op: `walk handoff -- requesting traversal` logged only on actual request; pending ticks just tick the resolver.
+- Watch for: `Build 427: STARTUP -- RUNNING_BUILD=427 (patch-424)` -> `SIDE_PROOF ... predicate=(moved && t_post > t_edge) => true` -> `CROSSING PROOF -- player on destination side, DONE` -> walk replan -> Pick wheat.
+
+## Current build
 - **Build 426 / patch-423** (shipped 2026-09-29 16:45 EDT, NUDGE ALEX 16:40/16:41). SHARED VERTICAL RESOLVER + WALK STALL HANDOFF.
   1. Rs2Traversal now handles vertical transitions: requestVerticalTraversal(playerPos, targetPlane, ctx) with phases FINDING_LADDER -> CLIMB_ISSUED -> VERIFYING_PLANE -> DONE/FAILED. Pending latch keyed by objectId+tile+action+prePlane; no second climb until plane proof or timeout. LADDER_SCAN logs elapsed/count. Candidates must be on current plane.
   2. Walk stall handoff: stepToward tracks failed legs (start+goal). On 40-tick stall, emits `WALK_STALL -> TRAVERSAL_HANDOFF` and invalidates the leg -- it will NOT be retried. doGetGrain hands stalled nav legs to Rs2Traversal.requestTraversal(pp, goal) with corridor; resolver finds door, one action, next-tick proof, walk-through, side proof, then replan. If no edge: ROUTE_BLOCKED + hold.
