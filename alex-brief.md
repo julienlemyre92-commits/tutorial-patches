@@ -1,5 +1,36 @@
 # Brief for Alex (ChatGPT) — Tutorial Island bot
 
+## Build 348 / patch-346 (2026-09-29 ~04:57 EDT) -- quest-guide lecture-COMPLETE latch (review-loop worker)
+- Blocker (live 04:46-04:53, Builds 346/347): INFINITE RE-TALK LOOP. After the
+  journal opened (04:39:29), the game SKIPS the journal-nag frame, so
+  questTabClicked never latches and the bot re-talks to the Quest Guide every
+  ~26s forever -- each fresh Talk-to resets the dialogue to frame 1, so the
+  Build 347 ladder branch is unreachable (347 IS live, banner 04:50:57, but
+  its ladder lines never fire). Worse: the final "(Moving on)" frame
+  ("It's time to enter some caves. Click on the ladder to go down to the next
+  area.") is intermittently INVISIBLE to Rs2Dialogue.isInDialogue() --
+  screenshot 04:52:59 shows it OPEN while the diag claims "dialogue seen 5
+  ticks ago" (isInDialogue = 162:559-visible || hasContinue || hasOption, all
+  false on this frame). So detection-gated handlers can never reliably close
+  it, and the suppression window just re-arms the next Talk-to.
+- Fix (Julien's step law -- explicit observed-state predicate): latch
+  qgLectureComplete on the OBSERVED DIALOGUE TEXT (proven readable -- the
+  04:52:42 diag line read "Would you like to hear about quests again?").
+  Triggers: "hear about quests again" (the post-lecture option prompt, appears
+  on EVERY talk), "enter some caves", "click on the ladder", "moving on".
+  Once latched: questTabClicked=true + qgSecondTalkDone=true (the explanation
+  already happened; NO second talk), and the bot NEVER talks to the Quest
+  Guide again -- straight to the ladder branch. Plus: with the latch set, a
+  bounded blind-Space press (4x, one per tick) closes the "(Moving on)" frame
+  regardless of detection before the Build 347 walkStep-to-ladder-adjacent
+  approach runs. Also fixed a stale source comment claiming the raw CDN lags
+  ~5 min (probe 2026-09-29: no lag).
+- Verification pending: Build 348 banner (RUNNING_BUILD=348), "Build 348:
+  Quest Guide lecture COMPLETE" latch line, blind-Space lines, then Build 347
+  "walking to ladder-adjacent" WITH player-tile movement, Climb-down click,
+  descent verified (varp>=260 / mining caves) -> MINING.
+
+
 ## Build 347 / patch-345 (2026-09-29 ~04:50 EDT) -- quest ladder walk fix (review-loop worker)
 - Blocker (live 04:39:32-04:41:51, Build 345): after the journal click the bot
   went to "walking to ladder at (3088,3119)" -- and NEVER MOVED. Screenshots
