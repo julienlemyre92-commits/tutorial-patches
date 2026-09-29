@@ -1,4 +1,9 @@
 ## Current build
+- **Build 424 / patch-421** (shipped 2026-09-29 16:38 EDT, NUDGE ALEX 16:34). CORRIDOR-CONSTRAINED FINDER. findBlockingEdge now uses query().within(fromPos,12).where(corridorPredicate).nearest() -- NOT toList(). The predicate requires the edge tile to be within 3 tiles of the from→target segment (distanceToSegment), not just nearest-to-player. Elapsed logged around the query itself before candidate selection. issueTraversalAction and verifyActionState also use first() not toList(). No materialization before caps.
+- Acceptance: arbitrary door/gate/fence/wall via corridor intersection; no wrong-side click (reachability gate); one action + next-tick proof; one walk-through + player-side proof; one alternate; typed ROUTE_BLOCKED/DOOR_CROSSING_FAILED + hold; no silent stall (5s heartbeat, 30s deadline).
+- Watch for: `Build 424: STARTUP -- RUNNING_BUILD=424 (patch-421)` -> `TRAVERSAL START` -> `EDGE_SCAN ... query elapsed=...ms found=1 edge=...` -> crossing -> Pick.
+
+## Current build
 - **Build 423 / patch-420** (shipped 2026-09-29 16:35 EDT, NUDGE ALEX 16:33). WHEAT FIELD NAVIGATION. After the mill, GET_GRAIN was silently waiting on plane 2 with "no wheat in range" -- the wheat is on plane 0. Now: if plane != 0, find ladder and Climb-down with diagnostics; if on plane 0 but >25 tiles from wheat field (3161,3292,0), walk there. Only then engage the shared Rs2Traversal resolver for the fence. No silent stalls -- every tick emits navigation or traversal diagnostics.
 - Watch for: `Build 423: STARTUP -- RUNNING_BUILD=423 (patch-420)` -> `GET_GRAIN: on plane 2 -- climbing down` -> plane 0 -> `walking to wheat field` -> `TRAVERSAL START` -> `EDGE_SCAN` -> crossing -> Pick.
 
