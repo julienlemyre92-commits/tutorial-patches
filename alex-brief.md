@@ -1,3 +1,34 @@
+## Build 389 / patch-386 (2026-09-29 ~11:45 EDT) -- completion parks in-game (kills the login/logout flap)
+
+Stream verification 11:38-11:40: Build 388's logout DID fire -- login screen
+seen ("WELCOME TO GIELINOR / CLICK HERE TO PLAY", "last logged in a minute
+ago") -- but the client logged back in on its own within ~a minute.
+
+Root cause: the Supervisor runs launcher_clicker.py --check-once every 30s;
+it clicks CLICK HERE TO PLAY on ANY visible lobby and cannot distinguish an
+intentional completion logout from a disconnect. The self-heal build IS
+installed on Julien's PC (terminal showed "check-once: nothing to do"). A
+plugin-side logout would flap login/logout forever -- a bot-detection signal,
+worse than parking in-game.
+
+Fix: doDone() no longer logs out in either script -- Tutorial Island parks
+in-game at Lumbridge, fully idle and stable. Fresh startup deletes any stale
+bot-intentional-logout sentinel. Same treatment in Cook's Assistant (no
+logout on quest completion).
+
+Staged in repo infrastructure/: sentinel-aware Supervisor.bat (skips the
+--check-once login click while %USERPROFILE%/.runelite/bot-intentional-logout
+exists) + README with reinstall steps. Julien installs manually when home;
+a later build can re-enable logout-on-completion.
+
+Patch-386.zip verified healthy: 399,865 bytes, 115 entries, all under net/,
+both scripts present, zero zero-byte files. version.txt=386 live.
+
+Pending verification: Build 389 startup banner ("Build 389: STARTUP --
+RUNNING_BUILD=389 (patch-386)"), "parking in-game" diag line, and NO
+login/logout cycling on stream. Screenshot feed dark since 10:38:42 -- the
+stream is the only live witness.
+
 ## Build 388 / patch-385 (2026-09-29 ~11:40 EDT) -- completion logout actually logs out
 
 Julien (not at PC) confirmed on stream: character idle ~50 min at the
