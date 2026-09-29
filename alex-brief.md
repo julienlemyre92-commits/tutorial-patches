@@ -1,9 +1,8 @@
 ## Current build
-- **Build 399 / patch-396** (shipped 2026-09-29 ~13:39 EDT). Change: the through-gate movement fix (Alex 13:37).
-- Build 398's verification PROVED the gate opens (inspect id=1560 WALL [Open] reachable=true; one Open click; door-state proof id 1560->1559, menu Open->Close) but the player never moved off (3237,3284) -- stepping ONTO the gate tile goes nowhere.
-- Build 399: door-state proof is explicitly NOT crossing (logged once, never repeated); once the door is open, compute the inside tile (walkable gate neighbor on the cows' side, else mirror of the approach) and make ONE walk through to it with next-tick position/plane proof, then one cow lookup. Unconditional 20s timeout + one bounded retry (rescan + alternate adjacent tile) still bound everything; no movement after the retry -> GATE ENTRY FAILED diagnostics (now including inside-tile walkability) and STOP.
-- Watch for: `Build 399: STARTUP -- RUNNING_BUILD=399 (patch-396)` -> MISSION_SELECT claim -> verify -> SWITCH COMPLETE -> MILK_COW `inside tile=(x,y,z)` -> one walk -> `movement proof` or `crossing proof` -> one cow lookup -> `You milk the cow.` -> Bucket of milk proof.
-
+- **Build 400 / patch-397** (shipped 2026-09-29 ~13:55 EDT). Change: the walker-invocation fix (Alex 13:52, decompiled bytecode root cause).
+- Root cause of both failed gate attempts: the shared stepToward() returns true when chebDist<=2 WITHOUT calling Rs2Walker.walkStep. Both inside tiles were exactly distance 2 ((3235,3285) and (3237,3286) from (3237,3284)), so the Build 399 "inside tile -- one walk" log was false and walkStall stayed 0.
+- Build 400: gate-crossing bypasses stepToward via walkThroughGate400(), which issues exactly one Rs2Walker.walkStep(insideTile,0) per tick; a once-per-leg acceptance log proves the primitive was invoked; next-tick WorldPoint proof, then one cow lookup. Bounded 20s timeout + one retry + GATE ENTRY FAILED (now with walkStepInvoked) preserved. No blind tiles, no extra retries.
+- Watch for: `Build 400: STARTUP -- RUNNING_BUILD=400 (patch-397)` -> MISSION_SELECT -> SWITCH COMPLETE -> `walkStep INVOKED` -> next-tick WorldPoint change across the fence -> one cow lookup -> `You milk the cow.` -> Bucket of milk proof.
 ## Build 397 / patch-394 (2026-09-29 ~13:24 EDT) -- Alex's motion correction: per-tick pos log, NPC lookup only at gate-adjacent tile
 
 Alex's correction (13:22): comparing 13:20:41 vs 13:21:43 MILK_COW frames, the player sprite SHIFTS along the fenced path (left-center -> upper-left, red route/minimap updating) -- the bot is NOT motionless. `no dairy cow nearby` is a target-search failure during movement, not proof walking stopped. Also: the 13:20:19 RuneLite WorldService Error is environmental noise, not the MILK_COW diagnosis.
