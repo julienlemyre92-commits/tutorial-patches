@@ -4,9 +4,22 @@ _Maintained by Muse. Updated on every build ship. If you have web browsing,
 read this file raw before answering Julien about the bot — it's the current
 ground truth, fresher than any forwarded summary._
 
-## Current state (2026-09-29 ~04:33 EDT)
-- Live build: **344** (`patches/patch-342.zip`, `version.txt=342`) shipped
-  ~04:32, pickup pending; 342 (`patch-340.zip`, banner 04:27:39) last live.
+## Current state (2026-09-29 ~04:38 EDT)
+- PACKAGING INCIDENT (root cause of the 04:30-04:38 stall): patches 341/342
+  (Builds 343/344) were zipped from the WRONG root -- their entries are
+  `runelite/client/plugins/...` instead of `net/runelite/client/plugins/...`.
+  Check-Update.ps1's `jar uf` therefore ADDED 100 junk entries instead of
+  overwriting the real classes; the bot relaunched at 04:32:59 still on
+  Build 342. The zip also omitted the Rs2GrandExchange shim class (the build
+  file list missed it). FIXED: **Build 345** (`patches/patch-343.zip`,
+  `version.txt=343`, shipped ~04:38) -- recompiled the full 28-file/98-class
+  tree (incl. shim) and zipped from the correct root; all entries verified
+  `net/`-prefixed, `RUNNING_BUILD=345` + both feature diags in bytecode.
+  Lesson: always `unzip -l` the patch and check the `net/` prefix before
+  uploading; class count sanity (98 classes).
+- Live build right now: **342** (banner 04:32:59, patch-340). Build 345
+  pickup pending (bot restarts via Supervisor on game exit; the plugin's
+  self-restart only fires on terminal-stuck latch).
 - Stage: **QUEST_GUIDE** (varp281=200). Verified live: quest building entered
   04:20:12 (door 9716 opened), Talk-to Quest Guide issued, player inside the
   building with the intro dialogue open (04:20:36 + 04:23:18 screenshots).
@@ -31,12 +44,12 @@ ground truth, fresher than any forwarded summary._
     perfectly still doing nothing -- because with the dialogue genuinely
     open the latch resets to 0 each tick. Fix: suppress ONLY inside overlay
     windows (`!safeIsInDialogue()` added to the condition).
-- Live build: **342** (`patches/patch-340.zip`, banner at 04:27:39);
-  **343** (`patches/patch-341.zip`, `version.txt=341`) and **344**
-  (`patches/patch-342.zip`, `version.txt=342`) shipped ~04:30-04:32,
-  pickup pending. (SIBLING SHIP: Build 341 / patch-339 by a parallel
-  worker at ~04:20:44 -- its "Fancy a run?" run-orb feature never fired.)
-- Pending verification right now: Build 344 banner (`RUNNING_BUILD=344`),
+- Live build: **342** (`patches/patch-340.zip`, banner at 04:27:39 and again
+  04:32:59); **343** (`patches/patch-341.zip`) and **344**
+  (`patches/patch-342.zip`) were uploaded ~04:30-04:32 but NEVER injected
+  (wrong zip root, see above); **345** (`patches/patch-343.zip`,
+  `version.txt=343`) supersedes both, pickup pending.
+- Pending verification right now: Build 345 banner (`RUNNING_BUILD=345`),
   the Build 343 \"quest-guide wants the journal\" lines + physical QUESTS
   click, questTabClicked latch, the dialogue advancing to \"Fancy a run?\"
   (global runOrbTick handles the run orb), then ladder descent to the
