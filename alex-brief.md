@@ -1,3 +1,23 @@
+## Build 383 / patch-380 (2026-09-29 ~10:28 EDT) -- CACHE-MISMATCH CHATBOX FALSE POSITIVE
+- Build 382 VERIFIED LIVE: 10:23:22 startup banner RUNNING_BUILD=382; 10:23:52
+  'Build 382 DOOR-2: door ... ADJACENT to player (dist=1) -- clicking Open';
+  10:23:54 'Open' click issued on 9722; 10:23:55 varp281=550 -> PRAYER forced
+  forward. Bank exit CONFIRMED by game state (varp 540->550). Door saga over.
+- NEW BLOCKER 10:23:39-10:24:22: bot stood itself down permanently --
+  'Build 224: cache-mismatch overlay persists after 3 dismissal attempts'.
+  Root cause: the client prints 'Mismatch in overlaid cache archive hash for
+  12/84' as CHATBOX text lines; findCacheMismatchWidget()'s global text find
+  matched those chat widgets (not hidden) and treated chat history as a
+  blocking modal. 3x Space = no-ops on chat text -> stand-down while the game
+  sat fully playable (screenshot 10:24:22: no modal, player outside bank).
+- Fix: walk the matched widget's parents -- chatbox root (162:0) as ancestor
+  means chat text, ignored as a glitch dialog (the ORIGINAL handling), never
+  a blocker. A REAL overlay lives OUTSIDE the chatbox subtree (Build 330
+  precedent: it sat OVER the chat box) and still triggers the 224 path.
+- Pending verification: 'Build 383: STARTUP -- RUNNING_BUILD=383 (patch-380)',
+  'Build 383: cache-mismatch text is inside the chatbox -- ignoring' lines,
+  NO stand-down, bot walks south to Brother Brace, varp 281 550 -> 560+.
+
 ## Build 382 / patch-379 (2026-09-29 ~10:21 EDT) -- ADJACENT-DOOR EXCEPTION to the 381 filter
 - Live 10:14-10:16 (Build 381): player stood at (3129,3124) FACING the exit
   door 9722@(3130,3124) -- screenshot 10:16:12 shows the closed double door with
