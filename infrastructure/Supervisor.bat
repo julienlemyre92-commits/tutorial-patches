@@ -91,8 +91,18 @@ if errorlevel 2 (
 REM Self-heal login states every cycle: dismiss the disconnect dialog and
 REM click CLICK HERE TO PLAY / Login / Play Now if visible. Single quick
 REM pass; does nothing when the game is already in-game.
+REM STAND-DOWN (2026-09-29): when the bot intentionally logs out on quest/
+REM tutorial completion, the plugin writes %USERPROFILE%\.runelite\bot-intentional-logout.
+REM While that sentinel exists, SKIP the login click so the account parks at
+REM the login screen instead of flapping login/logout every 30s. A fresh game
+REM launch always logs in normally (launch path below is unaffected), and the
+REM plugin deletes the sentinel on startup, so standing down never sticks.
 echo [%date% %time%] Checking login state...
-python -u "%~dp0launcher_clicker.py" --check-once
+if exist "%USERPROFILE%\.runelite\bot-intentional-logout" (
+    echo Standing down: intentional-logout sentinel present -- not auto-logging in.
+) else (
+    python -u "%~dp0launcher_clicker.py" --check-once
+)
 goto waitloop
 
 REM Subroutine: gracefully close the game (allows config save), force if needed
