@@ -1,3 +1,28 @@
+## Build 388 / patch-385 (2026-09-29 ~11:40 EDT) -- completion logout actually logs out
+
+Julien (not at PC) confirmed on stream: character idle ~50 min at the
+Lumbridge General Store with the unclicked Adventurer Jon guidance dialogue.
+Plugin was alive (patch checks every ~60s) but nobody logged the character
+out after the Tutorial Island completion.
+
+Root cause: the Build 385 logout lived in doMagic(), which is unreachable
+after completion -- the varp-authoritative detector returns Stage.DONE (never
+MAGIC), so case DONE -> finish() ran shutdown() with the character still
+logged in. Rs2Player.logout() is fire-and-forget (LOGOUT tab + Logout menu
+entry on widget 69:3; silently no-ops if that widget is null).
+
+Fix: Stage.DONE is now handled by doDone() -- one-shot logout, verify
+!isLoggedIn(), one re-issue at 30 ticks, finish anyway at 60 ticks. The dead
+Build 385 block was removed from doMagic(). The Build 194 logged-out watchdog
+exit(0) is suppressed after an intentional completion logout (client parks at
+the login screen instead of relaunch/relogin looping). Same watchdog
+suppression applied to Cook's Assistant (its doDone() logout placement was
+already correct); its BUILD_NUMBER bumped 387 -> 388.
+
+NOT live-verified yet. Expect on next update check: client restart, then
+"Build 388: logout() issued" + "logout verified" diag lines, then the login
+screen on stream.
+
 ## Build 387 / patch-384 (2026-09-29 ~11:25 EDT) -- Cook's Assistant: research-verified fixes
 
 Julien asked for online research on the quest + overlay verification. Research
