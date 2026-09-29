@@ -1,4 +1,17 @@
 ## Current build
+- **Build 463 / patch-459** (shipped 2026-09-29 18:38 EDT). STAGED RETURN ROUTE.
+  - Alex 18:33: Milk step RESOLVED (Bucket x0, Bucket of milk x1 verified).
+    Next defect: `SHARED_TRAVERSAL FAILED 'to the Cook'` after milk.
+  - Diagnosis: direct stepToward(COOK_TILE) from dairy (3172,3317) fails --
+    long-distance pathfinder cannot route to (3209,3214) directly.
+    Same class as dairy outbound failure (Build 456).
+  - Fix: staged return via validated anchors (reverse of outbound):
+    DAIRY_PASTURE -> MILL_APPROACH -> WHEAT_FIELD -> COOK_TILE.
+    Each leg is a short hop. Typed diagnosis on failure: RETURN_ROUTE_BLOCKED.
+  - Dairy interaction preserved, untouched.
+  - Acceptance: "return leg 1/3", "return leg 2/3", "return leg 3/3" then Cook dialogue.
+
+## Current build
 - **Build 462 / patch-458** (shipped 2026-09-29 18:35 EDT). TWO-STEP MILK WITH LOGGING.
   - Alex 18:32/18:33: Build 461 issued one action but no inventory delta.
     The direct Rs2Inventory.useItemOnObject helper may not be valid for
