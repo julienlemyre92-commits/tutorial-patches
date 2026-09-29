@@ -1,3 +1,30 @@
+## Build 376 / patch-373 (2026-09-29 ~09:00 EDT) -- DISMISS THE ACTUALLY-OPEN BOX (rendered continue link first)
+- Live 08:54:28-33 (Build 375): after the 08:54:28 poll-booth click the
+  "(Moving on...)" box was open (burst screenshots 08-54-28/30 -- title
+  rendered blue, NO continue link), then by 08:54:33 the box became the
+  "Poll booths are found in towns across the world..." info box -- which
+  HAS a rendered blue "Click here to continue" link (screenshot
+  08-54-33_BANK_burst-poll-booth-clicked-1.png). The box CHANGES mid-run.
+- Root cause: the Build 374 dismissal only scans for "(Moving on" title
+  text -- at 08:54:30 it returned 0 candidates while the title was
+  RENDERED on screen (the title-text scan misses visibly-rendered
+  titles), then blindly clicks the stale cached title point (259,517),
+  landing on body text of the wrong box. varp stuck at 525.
+- Fix: dismissal tick now (1) full-tree scans for "Click here to
+  continue" widgets -- whichever box is actually open -- and physically
+  clicks one with sane on-canvas bounds (no hidden bail, no packed-id
+  skip, ROTATES across candidates each tick so a phantom candidate can't
+  shadow the rendered link); (2) falls back to the Moving-on title scan;
+  (3) then Space. One click/tick. Julien's "(Moving on...)" correction
+  (no dismiss control -- go out the doors) still applies once THAT box is
+  the open one: the 5-tick pollDialogueStuck fall-through to the Build 375
+  guide proximity walk is unchanged.
+- Pending verification: "Build 376: STARTUP -- RUNNING_BUILD=376
+  (patch-373)", then "Build 376: continue-link candidates (...)" +
+  "clicking RENDERED 'Click here to continue' link ..." lines, then the
+  box observed changed/closed and varp 281 -> 530 (or the "(Moving on...)"
+  box returning, which the stuck-walk then handles).
+
 ## Build 375 / patch-372 (2026-09-29 ~08:52 EDT) -- POLL-STUCK PROXIMITY WALK (stop talk-spam at dist 12+)
 - Root cause, PROVEN by screenshot 08:46:03 (Build 374): the "(Moving on...)"
   box is UNCLICKABLE -- a physical click visibly landed ON the box (blue
