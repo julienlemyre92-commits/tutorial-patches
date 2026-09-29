@@ -13,6 +13,24 @@ pipeline only injects into the Microbot jar.
    `Supervisor.bat` again). `launcher_clicker.py` is re-read fresh on every
    call, but `Supervisor.bat` changes need the restart.
 
+## What changed (2026-09-29) — intentional-logout stand-down
+
+**The problem:** Build 388 taught the bot to log out when Tutorial Island
+completes, so the account would park at the login screen. The logout worked
+(stream showed the login screen at ~11:38) — but the Supervisor's 30s
+`--check-once` self-heal clicks CLICK HERE TO PLAY on ANY visible lobby and
+can't tell an intentional logout from a disconnect, so the client logged back
+in within a minute. A plugin-side logout would flap login/logout forever.
+
+**The fix:** `Supervisor.bat` now checks for the sentinel file
+`%USERPROFILE%\.runelite\bot-intentional-logout` before the `--check-once`
+call. While the sentinel exists, the Supervisor stands down (no auto-login)
+and the account parks at the login screen. The plugin writes the sentinel
+right before an intentional completion logout, and deletes it on every fresh
+startup — so standing down never sticks, and the normal launch-time login is
+unaffected. **Julien: reinstall `Supervisor.bat` (steps above) when home, then
+a follow-up plugin build re-enables logout-on-completion.**
+
 ## What changed (2026-09-28)
 
 **The problem:** the Supervisor ran the login clicker exactly once at launch,
