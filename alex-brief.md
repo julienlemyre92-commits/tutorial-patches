@@ -1,22 +1,27 @@
-## Build 379 / patch-376 (2026-09-29 ~09:40 EDT) -- stall-driven door open (dist>4 gate removed)
-- Live 09:29-09:31 (Build 378): the Build 375 walk carried the player from
-  (3121,3118) to chebDist 4 / Manhattan 3-5, NORTH of the CLOSED south double
-  doors (Account Guide south of them at (3127,3124)). The old `dist > 4` gate
-  then stopped the walk; phase-0 talkToOnce's walkStep walked into the closed
-  doors every ~2s with ZERO tile progress (screenshots 09:29:05 vs 09:31:09
-  pixel-identical, "(Moving on...)" modal open, varp 525). The Build 378
-  physical gate-open never fired -- it lived inside `dist > 4`.
-- Key evidence: the 09:17:58 screenshot proves canvas clicks DO reach the door
-  while the box is open (right-click menu opened on it) -- the modal only covers
-  the chatbox; object interaction is not gated on dialogue state. So the
-  physical gate-open click is valid even with the box open.
-- Fix: track the player tile every tick in the poll-stuck block; 8 ticks with no
-  tile change while not truly adjacent (chebDist > 2) fires
-  clickGatePhysicalOpen(8) regardless of dist. True adjacency (dist<=2) falls
-  through to the talk. dist 3-4 keeps the old walk; dist>4 unchanged.
-- Pending verification: "Build 379: STARTUP -- RUNNING_BUILD=379 (patch-376)",
-  then "Build 379: poll-stuck STALLED" + "physical gate-open click" lines, then
-  doors observed open / player tile moving south / varp 281 -> 530.
+## Build 380 / patch-377 (2026-09-29 ~09:48 EDT) -- ACC_MAN via tutorial bottom-line icon 164:54
+- Live 09:32-09:40 (Builds 374-379): the poll-dismissal loop ran
+  "clickTabIcon ACC_MAN" every ~2s and EVERY attempt logged "NO VERIFIED
+  TARGET" -- packed 548:72/161:67 resolve with null bounds (ComponentID-derived,
+  never valid on the tutorial tab bar) and the WorldModel name-matcher skips
+  every tutorial icon (names are ''). The Build 124 scan PROVED the icon is
+  rendered: 164:54 [600,591 33x36] = the 3rd tutorial bottom-line icon = the
+  compass = the flashing account icon (visually confirmed in the 09:24:15 and
+  09:40:19 tab-bar crops).
+- Fix: appended packed 164:54 (10747958) to the ACC_MAN case in
+  clickTabIconVerified, LAST (the two dead IDs resolve null and are skipped,
+  164:54 is the first real hit). NOTE: 10747958 also sits in the QUESTS case as
+  the bottom-line stone -- on the Tutorial Island tab bar it renders the account
+  compass during the poll phase (visually confirmed); quest-guide phase is long
+  past. The flashing icon REQUIRES the physical click (script-915 fallback never
+  sets the game's tutorial flag).
+- Pending verification: "Build 380: STARTUP -- RUNNING_BUILD=380 (patch-377)",
+  "Build 380: ACC_MAN 164:54 bottom-line compass icon RESOLVED",
+  "clicking packed(164:54", "MOUSE CLICKED ACC_MAN", account panel opening,
+  then varp 281 -> 530.
+- Note: Build 379 (patch-376, stall-driven door open) shipped 09:35 but was
+  NEVER observed live (no Build 379 lines through 09:40:19); its code is in the
+  cumulative source. Also: a sibling edited the source 09:39:44 EDT without
+  shipping -- no conflict detected at ship time (version.txt 376 -> 377 fresh).
 
 ## Build 378 / patch-375 (2026-09-29 ~09:25 EDT) -- gate open via PHYSICAL left-click (doInvoke menu bug class)
 - Live 09:15-09:18 (Build 377): poll-stuck walk clicked the bank's south large
