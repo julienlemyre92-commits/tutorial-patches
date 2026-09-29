@@ -1,0 +1,250 @@
+02:12:05  Build 166 talk: 'Survival Expert' id=8503 idx=1720 at WorldPoint(x=3104, y=3095, plane=0) dist=5
+02:12:05  Action talk-expert completed
+02:12:05  Stage: null -> SURVIVAL
+02:12:06  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:06  SURVIVAL TICK
+02:12:06  inv: raw=false cooked=false logs=false
+02:12:06  fire: false
+02:12:06  Build 326: net transaction pending (1/15 ticks), awaiting net proof
+02:12:08  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:08  SURVIVAL TICK
+02:12:08  inv: raw=false cooked=false logs=false
+02:12:08  fire: false
+02:12:08  Build 326: net transaction pending (2/15 ticks), awaiting net proof
+02:12:09  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:09  SURVIVAL TICK
+02:12:09  inv: raw=false cooked=false logs=false
+02:12:09  fire: false
+02:12:09  Build 326: net transaction pending (3/15 ticks), awaiting net proof
+02:12:10  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:10  SURVIVAL TICK
+02:12:10  inv: raw=false cooked=false logs=false
+02:12:10  fire: false
+02:12:10  Build 326: net transaction pending (4/15 ticks), awaiting net proof
+02:12:11  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:12  SURVIVAL TICK
+02:12:12  inv: raw=false cooked=false logs=false
+02:12:12  fire: false
+02:12:12  Build 326: net transaction pending (5/15 ticks), awaiting net proof
+02:12:13  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:13  SURVIVAL TICK
+02:12:13  inv: raw=false cooked=false logs=false
+02:12:13  fire: false
+02:12:13  Build 326: net transaction pending (6/15 ticks), awaiting net proof
+02:12:14  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:14  SURVIVAL TICK
+02:12:14  inv: raw=false cooked=false logs=false
+02:12:14  fire: false
+02:12:14  Build 326: net transaction pending (7/15 ticks), awaiting net proof
+02:12:15  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:15  SURVIVAL TICK
+02:12:15  inv: raw=false cooked=false logs=false
+02:12:15  fire: false
+02:12:15  Build 326: net transaction pending (8/15 ticks), awaiting net proof
+02:12:17  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:17  SURVIVAL TICK
+02:12:17  inv: raw=false cooked=false logs=false
+02:12:17  fire: false
+02:12:17  Build 326: net transaction pending (9/15 ticks), awaiting net proof
+02:12:18  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:18  SURVIVAL TICK
+02:12:18  inv: raw=false cooked=false logs=false
+02:12:18  fire: false
+02:12:18  Build 326: net transaction pending (10/15 ticks), awaiting net proof
+02:12:19  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:19  SURVIVAL TICK
+02:12:19  inv: raw=false cooked=false logs=false
+02:12:19  fire: false
+02:12:19  Build 326: net transaction pending (11/15 ticks), awaiting net proof
+02:12:20  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:20  SURVIVAL TICK
+02:12:20  inv: raw=false cooked=false logs=false
+02:12:20  fire: false
+02:12:20  Build 326: net transaction pending (12/15 ticks), awaiting net proof
+02:12:22  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:22  SURVIVAL TICK
+02:12:22  inv: raw=false cooked=false logs=false
+02:12:22  fire: false
+02:12:22  Build 326: net transaction pending (13/15 ticks), awaiting net proof
+02:12:23  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:23  SURVIVAL TICK
+02:12:23  inv: raw=false cooked=false logs=false
+02:12:23  fire: false
+02:12:23  Build 326: net transaction pending (14/15 ticks), awaiting net proof
+02:12:24  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:24  SURVIVAL TICK
+02:12:24  inv: raw=false cooked=false logs=false
+02:12:24  fire: false
+02:12:24  Build 326: net transaction timeout after 15 ticks, no net -- standing down
+02:12:24  Build 196: STAGE STAND-DOWN [SURVIVAL]: Survival Expert Talk-to produced no net in 15 ticks -- parked, never faking completion
+02:12:24  Build 267 instruction-root scan: roots=6 {root=164:0 static=-1 dynamic=0} {root=164:66 static=-1 dynamic=0} {root=164:67 static=-1 dynamic=0} {root=164:68 static=5 dynamic=1} {root=164:69 static=-1 dynamic=0} {root=164:97 static=-1 dynamic=0} visits=75 NO-CONT-CANDIDATE MOVINGON-NOTFOUND NO-INSTR-CANDIDATE 
+02:12:24  Build 268 viewport-dynamic scan: {root=164:68 static=5[null;null;null;null;164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] dynamic=1[164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] } {root=164:97 static=null[] dynamic=0[] } 
+02:12:24  Build 269 chatbox-162 probe: 162:0 present parentHidden=false visits=1 
+02:12:24  Build 270 chatbox-162-children probe: 162:3 selfHidden=false bounds=java.awt.Rectangle[x=0,y=640,width=519,height=23] actions=null text='' 162:4 selfHidden=false bounds=java.awt.Rectangle[x=5,y=640,width=56,height=23] actions=[Ljava.lang.String;@2a9d151d text='' 162:6 h=false b=java.awt.Rectangle[x=5,y=640,width=56,height=22] t='All' 162:9 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='Game' 162:10 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='On' 162:13 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='Public' 162:14 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='On' 162:17 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Private' 162:18 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Friends' 162:21 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='Channel' 162:22 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='On' 162:25 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='Clan' 162:26 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='On' 162:29 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='Trade' 162:30 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='On' sweep-present=29 findWidget('Click here to continue')=null 
+02:12:24  Build 271 overlay-group probe: group 165: present=0 matched=0 group 601: present=0 matched=0 group 80: present=0 matched=0 
+02:12:24  Build 275 settings probe: findWidget('Settings menu')=null findWidget('flashing spanner icon')=null findWidget('display your settings menu')=null 
+02:12:24  Build 300: stand-down evidence key for [SURVIVAL]: v20|t7c|s|cfalse
+02:12:25  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:25  SURVIVAL TICK
+02:12:26  inv: raw=false cooked=false logs=false
+02:12:26  fire: false
+02:12:26  Build 267 instruction-root scan: roots=6 {root=164:0 static=-1 dynamic=0} {root=164:66 static=-1 dynamic=0} {root=164:67 static=-1 dynamic=0} {root=164:68 static=5 dynamic=1} {root=164:69 static=-1 dynamic=0} {root=164:97 static=-1 dynamic=0} visits=75 NO-CONT-CANDIDATE MOVINGON-NOTFOUND NO-INSTR-CANDIDATE 
+02:12:26  Build 268 viewport-dynamic scan: {root=164:68 static=5[null;null;null;null;164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] dynamic=1[164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] } {root=164:97 static=null[] dynamic=0[] } 
+02:12:26  Build 269 chatbox-162 probe: 162:0 present parentHidden=false visits=1 
+02:12:26  Build 270 chatbox-162-children probe: 162:3 selfHidden=false bounds=java.awt.Rectangle[x=0,y=640,width=519,height=23] actions=null text='' 162:4 selfHidden=false bounds=java.awt.Rectangle[x=5,y=640,width=56,height=23] actions=[Ljava.lang.String;@2a9d151d text='' 162:6 h=false b=java.awt.Rectangle[x=5,y=640,width=56,height=22] t='All' 162:9 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='Game' 162:10 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='On' 162:13 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='Public' 162:14 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='On' 162:17 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Private' 162:18 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Friends' 162:21 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='Channel' 162:22 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='On' 162:25 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='Clan' 162:26 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='On' 162:29 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='Trade' 162:30 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='On' sweep-present=29 findWidget('Click here to continue')=null 
+02:12:26  Build 271 overlay-group probe: group 165: present=0 matched=0 group 601: present=0 matched=0 group 80: present=0 matched=0 
+02:12:26  Build 275 settings probe: findWidget('Settings menu')=null findWidget('flashing spanner icon')=null findWidget('display your settings menu')=null 
+02:12:26  Build 196: stage SURVIVAL still parked (stand-down latch holds)
+02:12:27  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:27  SURVIVAL TICK
+02:12:27  inv: raw=false cooked=false logs=false
+02:12:27  fire: false
+02:12:27  Build 267 instruction-root scan: roots=6 {root=164:0 static=-1 dynamic=0} {root=164:66 static=-1 dynamic=0} {root=164:67 static=-1 dynamic=0} {root=164:68 static=5 dynamic=1} {root=164:69 static=-1 dynamic=0} {root=164:97 static=-1 dynamic=0} visits=75 NO-CONT-CANDIDATE MOVINGON-NOTFOUND NO-INSTR-CANDIDATE 
+02:12:27  Build 268 viewport-dynamic scan: {root=164:68 static=5[null;null;null;null;164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] dynamic=1[164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] } {root=164:97 static=null[] dynamic=0[] } 
+02:12:27  Build 269 chatbox-162 probe: 162:0 present parentHidden=false visits=1 
+02:12:27  Build 270 chatbox-162-children probe: 162:3 selfHidden=false bounds=java.awt.Rectangle[x=0,y=640,width=519,height=23] actions=null text='' 162:4 selfHidden=false bounds=java.awt.Rectangle[x=5,y=640,width=56,height=23] actions=[Ljava.lang.String;@2a9d151d text='' 162:6 h=false b=java.awt.Rectangle[x=5,y=640,width=56,height=22] t='All' 162:9 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='Game' 162:10 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='On' 162:13 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='Public' 162:14 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='On' 162:17 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Private' 162:18 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Friends' 162:21 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='Channel' 162:22 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='On' 162:25 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='Clan' 162:26 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='On' 162:29 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='Trade' 162:30 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='On' sweep-present=29 findWidget('Click here to continue')=null 
+02:12:27  Build 271 overlay-group probe: group 165: present=0 matched=0 group 601: present=0 matched=0 group 80: present=0 matched=0 
+02:12:27  Build 275 settings probe: findWidget('Settings menu')=null findWidget('flashing spanner icon')=null findWidget('display your settings menu')=null 
+02:12:28  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:28  SURVIVAL TICK
+02:12:28  inv: raw=false cooked=false logs=false
+02:12:28  fire: false
+02:12:28  Build 267 instruction-root scan: roots=6 {root=164:0 static=-1 dynamic=0} {root=164:66 static=-1 dynamic=0} {root=164:67 static=-1 dynamic=0} {root=164:68 static=5 dynamic=1} {root=164:69 static=-1 dynamic=0} {root=164:97 static=-1 dynamic=0} visits=75 NO-CONT-CANDIDATE MOVINGON-NOTFOUND NO-INSTR-CANDIDATE 
+02:12:28  Build 268 viewport-dynamic scan: {root=164:68 static=5[null;null;null;null;164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] dynamic=1[164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] } {root=164:97 static=null[] dynamic=0[] } 
+02:12:28  Build 269 chatbox-162 probe: 162:0 present parentHidden=false visits=1 
+02:12:28  Build 270 chatbox-162-children probe: 162:3 selfHidden=false bounds=java.awt.Rectangle[x=0,y=640,width=519,height=23] actions=null text='' 162:4 selfHidden=false bounds=java.awt.Rectangle[x=5,y=640,width=56,height=23] actions=[Ljava.lang.String;@2a9d151d text='' 162:6 h=false b=java.awt.Rectangle[x=5,y=640,width=56,height=22] t='All' 162:9 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='Game' 162:10 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='On' 162:13 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='Public' 162:14 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='On' 162:17 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Private' 162:18 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Friends' 162:21 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='Channel' 162:22 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='On' 162:25 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='Clan' 162:26 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='On' 162:29 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='Trade' 162:30 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='On' sweep-present=29 findWidget('Click here to continue')=null 
+02:12:28  Build 271 overlay-group probe: group 165: present=0 matched=0 group 601: present=0 matched=0 group 80: present=0 matched=0 
+02:12:28  Build 275 settings probe: findWidget('Settings menu')=null findWidget('flashing spanner icon')=null findWidget('display your settings menu')=null 
+02:12:29  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:29  SURVIVAL TICK
+02:12:29  inv: raw=false cooked=false logs=false
+02:12:29  fire: false
+02:12:29  Build 267 instruction-root scan: roots=6 {root=164:0 static=-1 dynamic=0} {root=164:66 static=-1 dynamic=0} {root=164:67 static=-1 dynamic=0} {root=164:68 static=5 dynamic=1} {root=164:69 static=-1 dynamic=0} {root=164:97 static=-1 dynamic=0} visits=75 NO-CONT-CANDIDATE MOVINGON-NOTFOUND NO-INSTR-CANDIDATE 
+02:12:29  Build 268 viewport-dynamic scan: {root=164:68 static=5[null;null;null;null;164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] dynamic=1[164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] } {root=164:97 static=null[] dynamic=0[] } 
+02:12:29  Build 269 chatbox-162 probe: 162:0 present parentHidden=false visits=1 
+02:12:29  Build 270 chatbox-162-children probe: 162:3 selfHidden=false bounds=java.awt.Rectangle[x=0,y=640,width=519,height=23] actions=null text='' 162:4 selfHidden=false bounds=java.awt.Rectangle[x=5,y=640,width=56,height=23] actions=[Ljava.lang.String;@2a9d151d text='' 162:6 h=false b=java.awt.Rectangle[x=5,y=640,width=56,height=22] t='All' 162:9 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='Game' 162:10 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='On' 162:13 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='Public' 162:14 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='On' 162:17 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Private' 162:18 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Friends' 162:21 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='Channel' 162:22 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='On' 162:25 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='Clan' 162:26 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='On' 162:29 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='Trade' 162:30 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='On' sweep-present=29 findWidget('Click here to continue')=null 
+02:12:29  Build 271 overlay-group probe: group 165: present=0 matched=0 group 601: present=0 matched=0 group 80: present=0 matched=0 
+02:12:29  Build 275 settings probe: findWidget('Settings menu')=null findWidget('flashing spanner icon')=null findWidget('display your settings menu')=null 
+02:12:30  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:31  SURVIVAL TICK
+02:12:31  inv: raw=false cooked=false logs=false
+02:12:31  fire: false
+02:12:31  Build 267 instruction-root scan: roots=6 {root=164:0 static=-1 dynamic=0} {root=164:66 static=-1 dynamic=0} {root=164:67 static=-1 dynamic=0} {root=164:68 static=5 dynamic=1} {root=164:69 static=-1 dynamic=0} {root=164:97 static=-1 dynamic=0} visits=75 NO-CONT-CANDIDATE MOVINGON-NOTFOUND NO-INSTR-CANDIDATE 
+02:12:31  Build 268 viewport-dynamic scan: {root=164:68 static=5[null;null;null;null;164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] dynamic=1[164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] } {root=164:97 static=null[] dynamic=0[] } 
+02:12:31  Build 269 chatbox-162 probe: 162:0 present parentHidden=false visits=1 
+02:12:31  Build 270 chatbox-162-children probe: 162:3 selfHidden=false bounds=java.awt.Rectangle[x=0,y=640,width=519,height=23] actions=null text='' 162:4 selfHidden=false bounds=java.awt.Rectangle[x=5,y=640,width=56,height=23] actions=[Ljava.lang.String;@2a9d151d text='' 162:6 h=false b=java.awt.Rectangle[x=5,y=640,width=56,height=22] t='All' 162:9 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='Game' 162:10 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='On' 162:13 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='Public' 162:14 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='On' 162:17 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Private' 162:18 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Friends' 162:21 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='Channel' 162:22 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='On' 162:25 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='Clan' 162:26 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='On' 162:29 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='Trade' 162:30 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='On' sweep-present=29 findWidget('Click here to continue')=null 
+02:12:31  Build 271 overlay-group probe: group 165: present=0 matched=0 group 601: present=0 matched=0 group 80: present=0 matched=0 
+02:12:31  Build 275 settings probe: findWidget('Settings menu')=null findWidget('flashing spanner icon')=null findWidget('display your settings menu')=null 
+02:12:32  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:32  SURVIVAL TICK
+02:12:32  inv: raw=false cooked=false logs=false
+02:12:32  fire: false
+02:12:32  Build 267 instruction-root scan: roots=6 {root=164:0 static=-1 dynamic=0} {root=164:66 static=-1 dynamic=0} {root=164:67 static=-1 dynamic=0} {root=164:68 static=5 dynamic=1} {root=164:69 static=-1 dynamic=0} {root=164:97 static=-1 dynamic=0} visits=75 NO-CONT-CANDIDATE MOVINGON-NOTFOUND NO-INSTR-CANDIDATE 
+02:12:32  Build 268 viewport-dynamic scan: {root=164:68 static=5[null;null;null;null;164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] dynamic=1[164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] } {root=164:97 static=null[] dynamic=0[] } 
+02:12:32  Build 269 chatbox-162 probe: 162:0 present parentHidden=false visits=1 
+02:12:32  Build 270 chatbox-162-children probe: 162:3 selfHidden=false bounds=java.awt.Rectangle[x=0,y=640,width=519,height=23] actions=null text='' 162:4 selfHidden=false bounds=java.awt.Rectangle[x=5,y=640,width=56,height=23] actions=[Ljava.lang.String;@2a9d151d text='' 162:6 h=false b=java.awt.Rectangle[x=5,y=640,width=56,height=22] t='All' 162:9 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='Game' 162:10 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='On' 162:13 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='Public' 162:14 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='On' 162:17 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Private' 162:18 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Friends' 162:21 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='Channel' 162:22 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='On' 162:25 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='Clan' 162:26 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='On' 162:29 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='Trade' 162:30 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='On' sweep-present=29 findWidget('Click here to continue')=null 
+02:12:32  Build 271 overlay-group probe: group 165: present=0 matched=0 group 601: present=0 matched=0 group 80: present=0 matched=0 
+02:12:32  Build 275 settings probe: findWidget('Settings menu')=null findWidget('flashing spanner icon')=null findWidget('display your settings menu')=null 
+02:12:33  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:33  SURVIVAL TICK
+02:12:33  inv: raw=false cooked=false logs=false
+02:12:33  fire: false
+02:12:33  Build 267 instruction-root scan: roots=6 {root=164:0 static=-1 dynamic=0} {root=164:66 static=-1 dynamic=0} {root=164:67 static=-1 dynamic=0} {root=164:68 static=5 dynamic=1} {root=164:69 static=-1 dynamic=0} {root=164:97 static=-1 dynamic=0} visits=75 NO-CONT-CANDIDATE MOVINGON-NOTFOUND NO-INSTR-CANDIDATE 
+02:12:33  Build 268 viewport-dynamic scan: {root=164:68 static=5[null;null;null;null;164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] dynamic=1[164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] } {root=164:97 static=null[] dynamic=0[] } 
+02:12:33  Build 269 chatbox-162 probe: 162:0 present parentHidden=false visits=1 
+02:12:33  Build 270 chatbox-162-children probe: 162:3 selfHidden=false bounds=java.awt.Rectangle[x=0,y=640,width=519,height=23] actions=null text='' 162:4 selfHidden=false bounds=java.awt.Rectangle[x=5,y=640,width=56,height=23] actions=[Ljava.lang.String;@2a9d151d text='' 162:6 h=false b=java.awt.Rectangle[x=5,y=640,width=56,height=22] t='All' 162:9 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='Game' 162:10 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='On' 162:13 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='Public' 162:14 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='On' 162:17 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Private' 162:18 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Friends' 162:21 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='Channel' 162:22 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='On' 162:25 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='Clan' 162:26 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='On' 162:29 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='Trade' 162:30 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='On' sweep-present=29 findWidget('Click here to continue')=null 
+02:12:33  Build 271 overlay-group probe: group 165: present=0 matched=0 group 601: present=0 matched=0 group 80: present=0 matched=0 
+02:12:33  Build 275 settings probe: findWidget('Settings menu')=null findWidget('flashing spanner icon')=null findWidget('display your settings menu')=null 
+02:12:34  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:34  SURVIVAL TICK
+02:12:34  inv: raw=false cooked=false logs=false
+02:12:34  fire: false
+02:12:34  Build 267 instruction-root scan: roots=6 {root=164:0 static=-1 dynamic=0} {root=164:66 static=-1 dynamic=0} {root=164:67 static=-1 dynamic=0} {root=164:68 static=5 dynamic=1} {root=164:69 static=-1 dynamic=0} {root=164:97 static=-1 dynamic=0} visits=75 NO-CONT-CANDIDATE MOVINGON-NOTFOUND NO-INSTR-CANDIDATE 
+02:12:34  Build 268 viewport-dynamic scan: {root=164:68 static=5[null;null;null;null;164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] dynamic=1[164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] } {root=164:97 static=null[] dynamic=0[] } 
+02:12:34  Build 269 chatbox-162 probe: 162:0 present parentHidden=false visits=1 
+02:12:34  Build 270 chatbox-162-children probe: 162:3 selfHidden=false bounds=java.awt.Rectangle[x=0,y=640,width=519,height=23] actions=null text='' 162:4 selfHidden=false bounds=java.awt.Rectangle[x=5,y=640,width=56,height=23] actions=[Ljava.lang.String;@2a9d151d text='' 162:6 h=false b=java.awt.Rectangle[x=5,y=640,width=56,height=22] t='All' 162:9 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='Game' 162:10 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='On' 162:13 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='Public' 162:14 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='On' 162:17 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Private' 162:18 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Friends' 162:21 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='Channel' 162:22 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='On' 162:25 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='Clan' 162:26 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='On' 162:29 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='Trade' 162:30 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='On' sweep-present=29 findWidget('Click here to continue')=null 
+02:12:34  Build 271 overlay-group probe: group 165: present=0 matched=0 group 601: present=0 matched=0 group 80: present=0 matched=0 
+02:12:34  Build 275 settings probe: findWidget('Settings menu')=null findWidget('flashing spanner icon')=null findWidget('display your settings menu')=null 
+02:12:35  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:36  SURVIVAL TICK
+02:12:36  inv: raw=false cooked=false logs=false
+02:12:36  fire: false
+02:12:36  Build 267 instruction-root scan: roots=6 {root=164:0 static=-1 dynamic=0} {root=164:66 static=-1 dynamic=0} {root=164:67 static=-1 dynamic=0} {root=164:68 static=5 dynamic=1} {root=164:69 static=-1 dynamic=0} {root=164:97 static=-1 dynamic=0} visits=75 NO-CONT-CANDIDATE MOVINGON-NOTFOUND NO-INSTR-CANDIDATE 
+02:12:36  Build 268 viewport-dynamic scan: {root=164:68 static=5[null;null;null;null;164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] dynamic=1[164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] } {root=164:97 static=null[] dynamic=0[] } 
+02:12:36  Build 269 chatbox-162 probe: 162:0 present parentHidden=false visits=1 
+02:12:36  Build 270 chatbox-162-children probe: 162:3 selfHidden=false bounds=java.awt.Rectangle[x=0,y=640,width=519,height=23] actions=null text='' 162:4 selfHidden=false bounds=java.awt.Rectangle[x=5,y=640,width=56,height=23] actions=[Ljava.lang.String;@2a9d151d text='' 162:6 h=false b=java.awt.Rectangle[x=5,y=640,width=56,height=22] t='All' 162:9 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='Game' 162:10 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='On' 162:13 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='Public' 162:14 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='On' 162:17 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Private' 162:18 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Friends' 162:21 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='Channel' 162:22 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='On' 162:25 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='Clan' 162:26 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='On' 162:29 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='Trade' 162:30 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='On' sweep-present=29 findWidget('Click here to continue')=null 
+02:12:36  Build 271 overlay-group probe: group 165: present=0 matched=0 group 601: present=0 matched=0 group 80: present=0 matched=0 
+02:12:36  Build 275 settings probe: findWidget('Settings menu')=null findWidget('flashing spanner icon')=null findWidget('display your settings menu')=null 
+02:12:37  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:37  SURVIVAL TICK
+02:12:37  inv: raw=false cooked=false logs=false
+02:12:37  fire: false
+02:12:37  Build 267 instruction-root scan: roots=6 {root=164:0 static=-1 dynamic=0} {root=164:66 static=-1 dynamic=0} {root=164:67 static=-1 dynamic=0} {root=164:68 static=5 dynamic=1} {root=164:69 static=-1 dynamic=0} {root=164:97 static=-1 dynamic=0} visits=75 NO-CONT-CANDIDATE MOVINGON-NOTFOUND NO-INSTR-CANDIDATE 
+02:12:37  Build 268 viewport-dynamic scan: {root=164:68 static=5[null;null;null;null;164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] dynamic=1[164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] } {root=164:97 static=null[] dynamic=0[] } 
+02:12:37  Build 269 chatbox-162 probe: 162:0 present parentHidden=false visits=1 
+02:12:37  Build 270 chatbox-162-children probe: 162:3 selfHidden=false bounds=java.awt.Rectangle[x=0,y=640,width=519,height=23] actions=null text='' 162:4 selfHidden=false bounds=java.awt.Rectangle[x=5,y=640,width=56,height=23] actions=[Ljava.lang.String;@2a9d151d text='' 162:6 h=false b=java.awt.Rectangle[x=5,y=640,width=56,height=22] t='All' 162:9 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='Game' 162:10 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='On' 162:13 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='Public' 162:14 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='On' 162:17 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Private' 162:18 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Friends' 162:21 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='Channel' 162:22 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='On' 162:25 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='Clan' 162:26 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='On' 162:29 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='Trade' 162:30 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='On' sweep-present=29 findWidget('Click here to continue')=null 
+02:12:37  Build 271 overlay-group probe: group 165: present=0 matched=0 group 601: present=0 matched=0 group 80: present=0 matched=0 
+02:12:37  Build 275 settings probe: findWidget('Settings menu')=null findWidget('flashing spanner icon')=null findWidget('display your settings menu')=null 
+02:12:38  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:38  SURVIVAL TICK
+02:12:38  inv: raw=false cooked=false logs=false
+02:12:38  fire: false
+02:12:38  Build 267 instruction-root scan: roots=6 {root=164:0 static=-1 dynamic=0} {root=164:66 static=-1 dynamic=0} {root=164:67 static=-1 dynamic=0} {root=164:68 static=5 dynamic=1} {root=164:69 static=-1 dynamic=0} {root=164:97 static=-1 dynamic=0} visits=75 NO-CONT-CANDIDATE MOVINGON-NOTFOUND NO-INSTR-CANDIDATE 
+02:12:38  Build 268 viewport-dynamic scan: {root=164:68 static=5[null;null;null;null;164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] dynamic=1[164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] } {root=164:97 static=null[] dynamic=0[] } 
+02:12:38  Build 269 chatbox-162 probe: 162:0 present parentHidden=false visits=1 
+02:12:38  Build 270 chatbox-162-children probe: 162:3 selfHidden=false bounds=java.awt.Rectangle[x=0,y=640,width=519,height=23] actions=null text='' 162:4 selfHidden=false bounds=java.awt.Rectangle[x=5,y=640,width=56,height=23] actions=[Ljava.lang.String;@2a9d151d text='' 162:6 h=false b=java.awt.Rectangle[x=5,y=640,width=56,height=22] t='All' 162:9 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='Game' 162:10 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='On' 162:13 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='Public' 162:14 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='On' 162:17 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Private' 162:18 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Friends' 162:21 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='Channel' 162:22 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='On' 162:25 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='Clan' 162:26 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='On' 162:29 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='Trade' 162:30 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='On' sweep-present=29 findWidget('Click here to continue')=null 
+02:12:38  Build 271 overlay-group probe: group 165: present=0 matched=0 group 601: present=0 matched=0 group 80: present=0 matched=0 
+02:12:38  Build 275 settings probe: findWidget('Settings menu')=null findWidget('flashing spanner icon')=null findWidget('display your settings menu')=null 
+02:12:39  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:39  SURVIVAL TICK
+02:12:39  inv: raw=false cooked=false logs=false
+02:12:39  fire: false
+02:12:39  Build 267 instruction-root scan: roots=6 {root=164:0 static=-1 dynamic=0} {root=164:66 static=-1 dynamic=0} {root=164:67 static=-1 dynamic=0} {root=164:68 static=5 dynamic=1} {root=164:69 static=-1 dynamic=0} {root=164:97 static=-1 dynamic=0} visits=75 NO-CONT-CANDIDATE MOVINGON-NOTFOUND NO-INSTR-CANDIDATE 
+02:12:39  Build 268 viewport-dynamic scan: {root=164:68 static=5[null;null;null;null;164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] dynamic=1[164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] } {root=164:97 static=null[] dynamic=0[] } 
+02:12:39  Build 269 chatbox-162 probe: 162:0 present parentHidden=false visits=1 
+02:12:39  Build 270 chatbox-162-children probe: 162:3 selfHidden=false bounds=java.awt.Rectangle[x=0,y=640,width=519,height=23] actions=null text='' 162:4 selfHidden=false bounds=java.awt.Rectangle[x=5,y=640,width=56,height=23] actions=[Ljava.lang.String;@2a9d151d text='' 162:6 h=false b=java.awt.Rectangle[x=5,y=640,width=56,height=22] t='All' 162:9 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='Game' 162:10 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='On' 162:13 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='Public' 162:14 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='On' 162:17 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Private' 162:18 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Friends' 162:21 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='Channel' 162:22 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='On' 162:25 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='Clan' 162:26 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='On' 162:29 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='Trade' 162:30 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='On' sweep-present=29 findWidget('Click here to continue')=null 
+02:12:39  Build 271 overlay-group probe: group 165: present=0 matched=0 group 601: present=0 matched=0 group 80: present=0 matched=0 
+02:12:39  Build 275 settings probe: findWidget('Settings menu')=null findWidget('flashing spanner icon')=null findWidget('display your settings menu')=null 
+02:12:41  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:41  SURVIVAL TICK
+02:12:41  inv: raw=false cooked=false logs=false
+02:12:41  fire: false
+02:12:41  Build 267 instruction-root scan: roots=6 {root=164:0 static=-1 dynamic=0} {root=164:66 static=-1 dynamic=0} {root=164:67 static=-1 dynamic=0} {root=164:68 static=5 dynamic=1} {root=164:69 static=-1 dynamic=0} {root=164:97 static=-1 dynamic=0} visits=75 NO-CONT-CANDIDATE MOVINGON-NOTFOUND NO-INSTR-CANDIDATE 
+02:12:41  Build 268 viewport-dynamic scan: {root=164:68 static=5[null;null;null;null;164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] dynamic=1[164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] } {root=164:97 static=null[] dynamic=0[] } 
+02:12:41  Build 269 chatbox-162 probe: 162:0 present parentHidden=false visits=1 
+02:12:41  Build 270 chatbox-162-children probe: 162:3 selfHidden=false bounds=java.awt.Rectangle[x=0,y=640,width=519,height=23] actions=null text='' 162:4 selfHidden=false bounds=java.awt.Rectangle[x=5,y=640,width=56,height=23] actions=[Ljava.lang.String;@2a9d151d text='' 162:6 h=false b=java.awt.Rectangle[x=5,y=640,width=56,height=22] t='All' 162:9 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='Game' 162:10 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='On' 162:13 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='Public' 162:14 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='On' 162:17 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Private' 162:18 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Friends' 162:21 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='Channel' 162:22 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='On' 162:25 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='Clan' 162:26 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='On' 162:29 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='Trade' 162:30 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='On' sweep-present=29 findWidget('Click here to continue')=null 
+02:12:41  Build 271 overlay-group probe: group 165: present=0 matched=0 group 601: present=0 matched=0 group 80: present=0 matched=0 
+02:12:41  Build 275 settings probe: findWidget('Settings menu')=null findWidget('flashing spanner icon')=null findWidget('display your settings menu')=null 
+02:12:42  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:42  SURVIVAL TICK
+02:12:42  inv: raw=false cooked=false logs=false
+02:12:42  fire: false
+02:12:42  Build 267 instruction-root scan: roots=6 {root=164:0 static=-1 dynamic=0} {root=164:66 static=-1 dynamic=0} {root=164:67 static=-1 dynamic=0} {root=164:68 static=5 dynamic=1} {root=164:69 static=-1 dynamic=0} {root=164:97 static=-1 dynamic=0} visits=75 NO-CONT-CANDIDATE MOVINGON-NOTFOUND NO-INSTR-CANDIDATE 
+02:12:42  Build 268 viewport-dynamic scan: {root=164:68 static=5[null;null;null;null;164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] dynamic=1[164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] } {root=164:97 static=null[] dynamic=0[] } 
+02:12:42  Build 269 chatbox-162 probe: 162:0 present parentHidden=false visits=1 
+02:12:42  Build 270 chatbox-162-children probe: 162:3 selfHidden=false bounds=java.awt.Rectangle[x=0,y=640,width=519,height=23] actions=null text='' 162:4 selfHidden=false bounds=java.awt.Rectangle[x=5,y=640,width=56,height=23] actions=[Ljava.lang.String;@2a9d151d text='' 162:6 h=false b=java.awt.Rectangle[x=5,y=640,width=56,height=22] t='All' 162:9 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='Game' 162:10 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='On' 162:13 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='Public' 162:14 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='On' 162:17 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Private' 162:18 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Friends' 162:21 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='Channel' 162:22 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='On' 162:25 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='Clan' 162:26 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='On' 162:29 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='Trade' 162:30 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='On' sweep-present=29 findWidget('Click here to continue')=null 
+02:12:42  Build 271 overlay-group probe: group 165: present=0 matched=0 group 601: present=0 matched=0 group 80: present=0 matched=0 
+02:12:42  Build 275 settings probe: findWidget('Settings menu')=null findWidget('flashing spanner icon')=null findWidget('display your settings menu')=null 
+02:12:43  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:43  SURVIVAL TICK
+02:12:43  inv: raw=false cooked=false logs=false
+02:12:43  fire: false
+02:12:43  Build 267 instruction-root scan: roots=6 {root=164:0 static=-1 dynamic=0} {root=164:66 static=-1 dynamic=0} {root=164:67 static=-1 dynamic=0} {root=164:68 static=5 dynamic=1} {root=164:69 static=-1 dynamic=0} {root=164:97 static=-1 dynamic=0} visits=75 NO-CONT-CANDIDATE MOVINGON-NOTFOUND NO-INSTR-CANDIDATE 
+02:12:43  Build 268 viewport-dynamic scan: {root=164:68 static=5[null;null;null;null;164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] dynamic=1[164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] } {root=164:97 static=null[] dynamic=0[] } 
+02:12:43  Build 269 chatbox-162 probe: 162:0 present parentHidden=false visits=1 
+02:12:43  Build 270 chatbox-162-children probe: 162:3 selfHidden=false bounds=java.awt.Rectangle[x=0,y=640,width=519,height=23] actions=null text='' 162:4 selfHidden=false bounds=java.awt.Rectangle[x=5,y=640,width=56,height=23] actions=[Ljava.lang.String;@2a9d151d text='' 162:6 h=false b=java.awt.Rectangle[x=5,y=640,width=56,height=22] t='All' 162:9 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='Game' 162:10 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='On' 162:13 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='Public' 162:14 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='On' 162:17 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Private' 162:18 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Friends' 162:21 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='Channel' 162:22 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='On' 162:25 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='Clan' 162:26 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='On' 162:29 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='Trade' 162:30 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='On' sweep-present=29 findWidget('Click here to continue')=null 
+02:12:43  Build 271 overlay-group probe: group 165: present=0 matched=0 group 601: present=0 matched=0 group 80: present=0 matched=0 
+02:12:43  Build 275 settings probe: findWidget('Settings menu')=null findWidget('flashing spanner icon')=null findWidget('display your settings menu')=null 
+02:12:44  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:44  SURVIVAL TICK
+02:12:44  inv: raw=false cooked=false logs=false
+02:12:44  fire: false
+02:12:44  Build 267 instruction-root scan: roots=6 {root=164:0 static=-1 dynamic=0} {root=164:66 static=-1 dynamic=0} {root=164:67 static=-1 dynamic=0} {root=164:68 static=5 dynamic=1} {root=164:69 static=-1 dynamic=0} {root=164:97 static=-1 dynamic=0} visits=75 NO-CONT-CANDIDATE MOVINGON-NOTFOUND NO-INSTR-CANDIDATE 
+02:12:44  Build 268 viewport-dynamic scan: {root=164:68 static=5[null;null;null;null;164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] dynamic=1[164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] } {root=164:97 static=null[] dynamic=0[] } 
+02:12:44  Build 269 chatbox-162 probe: 162:0 present parentHidden=false visits=1 
+02:12:44  Build 270 chatbox-162-children probe: 162:3 selfHidden=false bounds=java.awt.Rectangle[x=0,y=640,width=519,height=23] actions=null text='' 162:4 selfHidden=false bounds=java.awt.Rectangle[x=5,y=640,width=56,height=23] actions=[Ljava.lang.String;@2a9d151d text='' 162:6 h=false b=java.awt.Rectangle[x=5,y=640,width=56,height=22] t='All' 162:9 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='Game' 162:10 h=false b=java.awt.Rectangle[x=67,y=640,width=56,height=22] t='On' 162:13 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='Public' 162:14 h=false b=java.awt.Rectangle[x=129,y=640,width=56,height=22] t='On' 162:17 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Private' 162:18 h=false b=java.awt.Rectangle[x=191,y=640,width=56,height=22] t='Friends' 162:21 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='Channel' 162:22 h=false b=java.awt.Rectangle[x=253,y=640,width=56,height=22] t='On' 162:25 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='Clan' 162:26 h=false b=java.awt.Rectangle[x=315,y=640,width=56,height=22] t='On' 162:29 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='Trade' 162:30 h=false b=java.awt.Rectangle[x=377,y=640,width=56,height=22] t='On' sweep-present=29 findWidget('Click here to continue')=null 
+02:12:44  Build 271 overlay-group probe: group 165: present=0 matched=0 group 601: present=0 matched=0 group 80: present=0 matched=0 
+02:12:44  Build 275 settings probe: findWidget('Settings menu')=null findWidget('flashing spanner icon')=null findWidget('display your settings menu')=null 
+02:12:46  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+02:12:46  Screenshot saved: 2026-09-29_02-12-46_SURVIVAL_auto.png
+02:12:46  Build 82: cleaned up 2 old screenshots
