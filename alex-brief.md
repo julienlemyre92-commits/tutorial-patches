@@ -1,4 +1,14 @@
 ## Current build
+- **Build 448 / patch-444** (shipped 2026-09-29 17:40 EDT). VALID DIAG-RETURN + IDEMPOTENCY PROOF.
+  - Alex 17:38: Build 445's DIAG-RETURN was invalid -- entry=(3243,3289) and player already there, zero-distance "completion" with no gate crossing.
+  - Fix: capture milkOutsidePos on FIRST tick of phase 0 (before any pen approach). DIAG-RETURN targets the outside tile, not entry.
+  - Zero-distance guard: if dist<=2 at return start, logs "DIAG-RETURN SKIPPED -- already at target, no crossing to prove" and does NOT claim proof.
+  - Handoff requirement: DIAG-RETURN COMPLETE only if the shared resolver actually engaged (handoff seen). Arrival without handoff = "NOT accepted as gate-crossing proof".
+  - Idempotency proof (Build 447 work): stepToward re-issues the EXACT stored request (from/goal/label) on every tick while the resolver is active. Expect "TRAVERSAL IDEMPOTENT" lines with blacklist preserved, no duplicate action.
+  - Preserved: dairy-only target, NPC action diagnostic (hasMilk=false -> HOLD, no click), no-Milk HOLD unchanged.
+  - Acceptance needs: "outside pos captured", "DIAG-RETURN starting -- to OUTSIDE", "TRAVERSAL IDEMPOTENT", and either a real crossing or an honest SKIP.
+
+## Current build
 - **Build 446 / patch-443** (shipped 2026-09-29 17:38 EDT). DAIRY-ONLY TARGET (game-verified).
   - Game chat evidence 17:30-17:33: "Calves are too young to be milked." / "Only dairy cows are suitable for milking."
   - Build 443 excluded calves but accepted any adult cow (id=2791) -- game rejects non-dairy.
