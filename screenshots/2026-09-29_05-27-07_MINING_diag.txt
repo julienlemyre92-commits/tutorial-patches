@@ -1,0 +1,250 @@
+05:25:40  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:25:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:25:41  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:25:41  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:25:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:25:43  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:25:43  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:25:43  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:25:43  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:25:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:25:44  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:25:44  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:25:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:25:45  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:25:46  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:25:46  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:25:46  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:25:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:25:47  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:25:47  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:25:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:25:48  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:25:48  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:25:48  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:25:48  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:25:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:25:50  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:25:50  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:25:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:25:51  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:25:51  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:25:51  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:25:51  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:25:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:25:52  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:25:52  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:25:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:25:54  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:25:54  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:25:54  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:25:54  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:25:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:25:55  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:25:55  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:25:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:25:57  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:25:57  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:25:57  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:25:57  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:25:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:25:58  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:25:58  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:25:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:26  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:26  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:26  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:26:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:01  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:26:01  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:26:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:03  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:26:03  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:26:03  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:26:03  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:26:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:04  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:26:04  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:26:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:05  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:26:06  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:26:06  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:26:06  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:26:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:07  Screenshot saved: 2026-09-29_05-26-06_MINING_auto.png
+05:26:07  Build 82: cleaned up 1 old screenshots
+05:26:07  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:26:07  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:26:07  Diag tail uploaded: 2026-09-29_05-26-06_MINING_diag.txt
+05:26:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:08  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:26:09  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:26:09  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:26:09  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:26:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:10  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:26:10  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:26:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:11  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:26:11  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:26:11  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:26:11  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:26:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:12  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:26:13  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:26:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:14  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:26:14  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:26:14  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:26:14  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:26:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:15  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:26:15  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:26:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:17  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:26:17  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:26:17  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:26:17  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:26:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:18  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:26:18  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:26:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:20  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:26:20  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:26:20  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:26:20  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:26:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:21  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:26:21  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:26:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:22  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:26:23  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:26:23  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:26:23  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:26:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:24  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:26:24  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:26:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:25  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:26:26  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:26:26  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:26:26  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:26:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:27  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:26:27  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:26:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:28  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:26:28  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:26:28  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:26:28  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:26:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:30  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:26:30  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:26:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:31  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:26:31  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:26:31  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:26:31  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:26:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:32  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:26:32  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:26:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:34  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:26:34  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:26:34  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:26:34  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:26:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:35  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:26:35  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:26:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:37  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:26:37  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:26:37  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:26:37  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:26:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:38  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:26:38  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:26:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:40  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:26:40  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:26:40  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:26:40  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:26:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:41  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:26:41  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:26:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:42  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:26:43  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:26:43  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:26:43  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:26:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:44  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:26:44  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:26:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:45  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:26:46  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:26:46  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:26:46  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:26:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:47  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:26:47  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:26:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:48  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:26:48  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:26:48  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:26:48  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:26:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:49  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:26:50  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:26:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:51  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:26:51  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:26:51  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:26:51  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:26:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:52  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:26:52  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:26:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:54  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:26:54  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:26:54  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:26:54  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:26:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:55  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:26:55  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:26:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:57  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:26:57  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:26:57  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:26:57  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:26:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:58  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:26:58  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:26:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:26:59  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:27  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:27  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:27  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:27:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:27:01  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:27:01  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:27:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:27:02  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:27:03  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:27:03  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:27:03  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:27:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:27:04  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:27:04  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:27:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:27:05  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9505, plane=0)
+05:27:05  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+05:27:05  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+05:27:05  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:27:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:27:07  Build 337: talkTo 'Mining Instructor' skipped -- dialogue already open, no reset click
+05:27:07  Build 196: tick-wait 'mine-esc' armed, bound 3 ticks (non-blocking)
+05:27:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+05:27:07  Screenshot saved: 2026-09-29_05-27-07_MINING_auto.png
+05:27:07  Build 82: cleaned up 1 old screenshots
