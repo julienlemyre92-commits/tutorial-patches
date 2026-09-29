@@ -1,0 +1,250 @@
+08:15:14  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:16  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:16  Build 370: poll dialogue dismissal tick 120 (varp=525, physical=true)
+08:15:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:17  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:18  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:20  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:21  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:22  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:24  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:25  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:26  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:28  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:29  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:29  Build 370: poll dialogue dismissal tick 130 (varp=525, physical=true)
+08:15:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:30  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:32  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:33  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:34  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:36  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:37  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:38  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:40  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:41  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:42  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:42  Build 370: poll dialogue dismissal tick 140 (varp=525, physical=true)
+08:15:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:44  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:45  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:46  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:48  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:49  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:50  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:52  Screenshot saved: 2026-09-29_08-15-51_BANK_auto.png
+08:15:52  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:53  Diag tail uploaded: 2026-09-29_08-15-51_BANK_diag.txt
+08:15:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:53  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:55  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:56  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:56  Build 370: poll dialogue dismissal tick 150 (varp=525, physical=true)
+08:15:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:57  BANK TICK: up=true opened=true closed=true upStep=0
+08:15:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:15:59  BANK TICK: up=true opened=true closed=true upStep=0
+08:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:01  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:03  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:04  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:06  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:07  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:08  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:10  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:10  Build 370: poll dialogue dismissal tick 160 (varp=525, physical=true)
+08:16:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:11  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:13  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:14  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:15  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:17  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:18  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:19  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:21  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:22  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:24  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:24  Build 370: poll dialogue dismissal tick 170 (varp=525, physical=true)
+08:16:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:25  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:26  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:28  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:29  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:30  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:32  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:33  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:35  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:36  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:37  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:37  Build 370: poll dialogue dismissal tick 180 (varp=525, physical=true)
+08:16:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:39  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:40  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:41  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:43  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:44  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:46  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:47  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:48  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:50  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:51  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:51  Build 370: poll dialogue dismissal tick 190 (varp=525, physical=true)
+08:16:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:52  Screenshot saved: 2026-09-29_08-16-52_BANK_auto.png
+08:16:53  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:53  Diag tail uploaded: 2026-09-29_08-16-52_BANK_diag.txt
+08:16:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:54  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:55  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:57  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:58  BANK TICK: up=true opened=true closed=true upStep=0
+08:16:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:16:59  BANK TICK: up=true opened=true closed=true upStep=0
+08:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:01  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:02  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:04  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:05  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:05  Build 370: poll dialogue dismissal tick 200 (varp=525, physical=true)
+08:17:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:06  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:08  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:09  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:11  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:12  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:13  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:15  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:16  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:17  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:19  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:19  Build 370: poll dialogue dismissal tick 210 (varp=525, physical=true)
+08:17:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:20  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:22  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:23  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:24  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:26  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:27  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:28  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:30  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:31  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:33  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:33  Build 370: poll dialogue dismissal tick 220 (varp=525, physical=true)
+08:17:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:34  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:35  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:37  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:38  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:39  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:41  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:42  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:44  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:45  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:46  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:46  Build 370: poll dialogue dismissal tick 230 (varp=525, physical=true)
+08:17:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:48  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:49  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:50  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:52  BANK TICK: up=true opened=true closed=true upStep=0
+08:17:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+08:17:53  Screenshot saved: 2026-09-29_08-17-53_BANK_auto.png
+08:17:53  Build 82: cleaned up 1 old screenshots
