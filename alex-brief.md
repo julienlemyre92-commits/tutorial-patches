@@ -1,4 +1,12 @@
 ## Current build
+- **Build 449 / patch-445** (shipped 2026-09-29 17:42 EDT). TWO-LEG DIAGNOSTIC CROSSING.
+  - Alex 17:40: Build 446's dairy guard is correct (no dairy found -> HOLD). But dedup marker and real crossing still absent. Fixture must not depend on milkable NPC.
+  - Change: capture milkDiagInsidePos from ANY cow NPC's tile (cows live inside the pen). milkOutsidePos from phase-0 start. Both from live state, no hardcode.
+  - Phase 6 is now two legs: leg1 outside->inside, leg2 inside->outside. Each leg requires nonzero start distance, resolver handoff (TRAVERSAL IDEMPOTENT expected on re-issue), and actual tile change. Arrival without handoff+tilechange = "NOT accepted".
+  - The stepToward idempotency proof (re-issue same key while active) is live -- expect "TRAVERSAL IDEMPOTENT" with actionId and blacklist preserved.
+  - No artificial success, no quest progress, no-Milk HOLD unchanged.
+
+## Current build
 - **Build 448 / patch-444** (shipped 2026-09-29 17:40 EDT). VALID DIAG-RETURN + IDEMPOTENCY PROOF.
   - Alex 17:38: Build 445's DIAG-RETURN was invalid -- entry=(3243,3289) and player already there, zero-distance "completion" with no gate crossing.
   - Fix: capture milkOutsidePos on FIRST tick of phase 0 (before any pen approach). DIAG-RETURN targets the outside tile, not entry.
