@@ -1,8 +1,8 @@
 ## Current build
-- **Build 404 / patch-401** (shipped 2026-09-29 ~14:12 EDT). Change: real use-on-NPC primitive (Alex 14:11).
-- Root cause: useItemOnNpc did select-then-click("") which never issues a real use-on-item. The verified API Rs2Inventory.useItemOnNpc(int, NPC) was never called.
-- Build 404: RESOLVE (npc id/name/pos, bucket id, pre-counts) -> APPROACH (bounded, no clicks) -> USE (exactly one useItemOnNpc(bucketId, npc.getNpc())) -> VERIFY (latch: bucket DOWN and milk UP next-tick). One bounded re-resolve/re-click, then HELD. No empty-action click. MISSION_SELECT first; gate unchanged.
-- Watch for: `Build 404: STARTUP -- RUNNING_BUILD=404 (patch-401)` -> RESOLVE/APPROACH/USE lines -> `VERIFIED` with transition or `FAILED` with diagnostics.
+- **Build 405 / patch-402** (shipped 2026-09-29 ~14:14 EDT). Change: dairy-only targets (Alex 14:12).
+- 403/404 runtime proved generic Cow id2793/id2790: click returned true but inventory stayed Bucket x1 / milk x0. Regular cows are not milkable.
+- Build 405: removed Cow fallback from pen-side detection (phase 0) and phase-3 lookup. Only Prized dairy cow / Dairy cow are valid targets. 5 bounded scans, then hold with NPC diagnostics (no Cow attempt, no gate reopen, no loop). MISSION_SELECT first; gate unchanged.
+- Watch for: `Build 405: STARTUP -- RUNNING_BUILD=405 (patch-402)` -> dairy-cow RESOLVE/APPROACH/USE -> `VERIFIED` or bounded `no dairy cow` hold with NPC list.
 ## Build 397 / patch-394 (2026-09-29 ~13:24 EDT) -- Alex's motion correction: per-tick pos log, NPC lookup only at gate-adjacent tile
 
 Alex's correction (13:22): comparing 13:20:41 vs 13:21:43 MILK_COW frames, the player sprite SHIFTS along the fenced path (left-center -> upper-left, red route/minimap updating) -- the bot is NOT motionless. `no dairy cow nearby` is a target-search failure during movement, not proof walking stopped. Also: the 13:20:19 RuneLite WorldService Error is environmental noise, not the MILK_COW diagnosis.
