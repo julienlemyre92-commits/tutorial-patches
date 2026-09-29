@@ -6,12 +6,36 @@ pipeline only injects into the Microbot jar.
 
 ## Install
 
-1. Download `launcher_clicker.py` and `Supervisor.bat` from this folder.
+1. Download `launcher_clicker.py`, `Supervisor.bat`, and `Check-Update.ps1`
+   from this folder.
 2. Copy them into your bot bundle folder (where the current ones live),
    overwriting the old files.
 3. Restart the Supervisor (close the Supervisor window, double-click
    `Supervisor.bat` again). `launcher_clicker.py` is re-read fresh on every
    call, but `Supervisor.bat` changes need the restart.
+
+## What changed (2026-09-29) — quiet Supervisor + visible heartbeat
+
+**The problem (Julien):** the Supervisor window showed a wall of text every
+30s (`Checking for patches...`, `Local version: 386`, `Remote version: 386`,
+`Already up to date.`, `Found Tesseract at: ...`, `check-once: nothing to
+do`) — noise. But the window must stay alive and visibly prove it is
+working, so Julien and the stream can see it at a glance.
+
+**The fix:**
+- `Supervisor.bat` wait loop no longer echoes the per-cycle check headers.
+  It prints ONE heartbeat line per cycle:
+  `[date time] Supervisor OK | patch 386 | in-game | next check 30s`
+  (or `parked at login (intentional)` while the logout sentinel exists).
+  Anything that ACTED — new patch, login click, restart, error — still
+  prints its own line above the heartbeat.
+- `Check-Update.ps1` gained `-Quiet`: silent when up to date (exit 0),
+  still loud on new patch (exit 2) / failure (exit 1).
+- `launcher_clicker.py` gained `--quiet`: in `--check-once` mode it prints
+  only when it actually clicks/dismisses something; the per-cycle no-op
+  lines are silenced. Real actions still print.
+- `Check-Update.ps1` is now distributed from this folder (it was previously
+  bundle-only), so all three files update in one copy.
 
 ## What changed (2026-09-29) — intentional-logout stand-down
 
@@ -54,4 +78,7 @@ The bot sat behind the dialog for ~3 hours.
 - `launcher_clicker.py` — OCR login automation (pyautogui/pytesseract).
   One-shot mode at launch (`--timeout 180`), healing mode via `--check-once`.
 - `Supervisor.bat` — patch check → launch → login click → 30s watch loop
-  (game alive? new patch? login state OK?).
+  (game alive? new patch? login state OK?). Prints one heartbeat line per
+  cycle (`Supervisor OK | patch N | in-game | next check 30s`).
+- `Check-Update.ps1` — patch download/inject/validate. `-CheckOnly` for the
+  30s loop (exit 2 = new patch), `-Quiet` to silence the up-to-date path.
