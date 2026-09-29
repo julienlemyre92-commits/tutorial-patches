@@ -1,0 +1,250 @@
+07:52:32  Build 192 - CAST HOME TELEPORT FOR DEPARTURE. Live 2026-09-28 01:09-01:16 (Build 191): departure dialogue (mainland Yes + Ironman No, both via 190 keypress-first) COMPLETES -- Ironman Q appeared and closed -- but varp never leaves 680 across 3 full cycles; latch tripped on 'mainland persists after 3 clicks'. Root cause: NO dialogue answer advances varp. The game's own instruction is 'When you're ready, use your Home Teleport spell. This will take you to the mainland.' -- the PLAYER must cast Home Teleport. Fix: when the departure dialogue closes with varp still 670-999, cast LUMBRIDGE_HOME_TELEPORT via Rs2Magic.cast (same pattern as Wind Strike) instead of re-talking; bounded 3 attempts, then fall back to re-talk so the latch guards still apply. Completion only varp>=1000.
+07:52:32  Build 191 - LATCH SELF-RESTART ON NEW PATCH. Live 2026-09-28 00:59 (Build 189): terminal-stuck latch parked the bot stably at varp 680, but the pipeline only restarts the game on exit -- so patch 190 (keypress-first option dispatch) sat on disk 21+ min while 189's classes stayed loaded. Deadlock. Fix: when departureTerminalStuck is latched AND bundle patch-version.txt names a build newer than RUNNING_BUILD (seen 3 ticks running), log it and System.exit(0) so the Supervisor's restart-on-exit loop relaunches with the fix. Keeps 190 keypress-first. Completion only varp>=1000.
+07:52:32  Build 190 - KEYPRESS-FIRST OPTION DISPATCH. Live 2026-09-28 00:26-00:28 (Build 189): mainland Yes mouse-click (client-thread bounds + virtual mouse) failed 3x consecutively -> terminal-stuck latch, bot parked at mainland Q, varp 680. On 187 the same click needed up to 4 attempts. clickDialogueOptionNoSleep now tries Rs2Dialogue.keyPressForDialogueOption(index) FIRST (presses the option widget, else dispatches the digit key directly to the client canvas via Rs2Keyboard.dispatchKeyEvent -- NOT the OS keyboard, no focus risk; the client's own handler maps 1-4 to options natively). Mouse click kept as fallback only. Completion only varp>=1000.
+07:52:32  Build 189 - TERMINAL STUCK LATCH. Guards latch departureTerminalStuck on failure (mainland 3x / ironman 10x); outer departure loop checks flag and stops re-talking instead of cycling indefinitely. Captures widget IDs on latch. Completion only varp>=1000.
+07:52:32  Build 160 - NONBLOCKING WALK+LIVENESS. walkStep(WalkerState) replaces blocking walkTo; 610 chapel exit via handleDoorRouteTick; 670 departure retries until varp>=1000; varp-only cast truth. Keeps 159 thresholds.
+07:52:32  Build 154 - ADJACENT CLICKS. Review loop 2026-09-27: 153 made 9722 selectable but the reachability gates still blocked the click (findReachableAdjacentTile excludes own tile -> 'temporarily unreachable'/'no reachable adjacent' forever). Fix: player-adjacent counts as reachable in the selection-tick walk phase AND the phase-1 APPROACH handler -> direct click on 9722. 
+07:52:32  Build 153 - ADJACENT READY.  Alex 2026-09-27: Player already adjacent to door = ready to click, not no-adjacent. Bumbaa: valid approach tile means ready to interact. Fixes 9722 SKIP loop. 
+07:52:32  Build 142 live-check: expecting 'Build 142 DOOR' runtime lines and 9721/1535 never selected while no-adjacent. 
+07:52:32  Build 133 - 540 POLL-BOOTH GUARD. Alex 2026-09-27 20:27: Build 132 set 3 flags but MISSED bankPollBoothDone -- poll-booth click fired at 20:27:05. Varp 540 means 520 (poll booth) is done. Fix: 540 substate now sets ALL four flags (accountGuideDone, bankOpened, bankClosed, bankPollBoothDone). Exclusive exit substate. Keeps Build 132 - 540 SKIP REDO. 
+07:52:32  Build 132 - 540 SKIP REDO. Alex 2026-09-27 20:22: at varp=540 bot redid Account Guide (5s timeouts, false 'done') and booth ('I can't reach that!', opened=false) instead of EXIT. Varp 540 PROVES 530/531/532/510/520 are done. Fix: 540 substate sets accountGuideDone/bankOpened/bankClosed=true so doBank skips to exit/door logic. No false completion from timeouts. Keeps Build 131 - EXPLICIT 540 SUBSTATE. 
+07:52:32  Build 131 - EXPLICIT 540 SUBSTATE. Alex 2026-09-27 20:20: varp=540 is EXIT_ACCOUNT_GUIDE_ROOM (distinct step). Live: 'Click here to continue' dialogue blocks, doors are OPEN. Bot must dismiss dialogue FIRST, then cross door, verify varp 540->550. Keeps Build 130 - NO-PROGRESS GUARD. 
+07:52:32  Build 130 - NO-PROGRESS GUARD. Alex 2026-09-27 20:15: 20:15:16 diag showed PRAYER with talked1=true, 90x NO VERIFIED TARGET + script-915 while 'Moving on' dialogue blocked. Runtime was in PRAYER but varp=540 requires exit flow. Fix: halt tab retries after 20 failures with clear blocker log. Verified transition, not click attempt. Keeps Build 129 - UNAMBIGUOUS VARP LABELS. 
+07:52:32  Build 129 - UNAMBIGUOUS VARP LABELS. Alex: stale 'Build 121: varp' strings confused the active build. Now: 'VARP-281' and 'VARP 281 =' with no build number -- the startup banner identifies the build. Keeps Build 128 - CORRECTED VARP THRESHOLD. 
+07:52:32  Build 128 - CORRECTED VARP THRESHOLD. Alex wiki table: 540=Exit AG room (DO IT, not skip); 550=Talk Brace (PRAYER). Old >=540 skip was wrong. Keeps Build 127 - SCAN DATA-LOSS FIX. 
+07:52:32  Build 127 - SCAN DATA-LOSS FIX. Live 2026-09-27 20:04 (Build 125): the all-roots tab scan DID fire at fb==4 (~20:00:58, fresh Build-125 session) but its 'Build 125 SCAN:' output scrolled out of the 250-line diag tail (PRAYER loop logs ~6 lines/sec -> ~40s window < 60s upload interval) before the 20:01:51 upload, so the tab-strip location was lost. Fix: (1) re-scan every 10 fallbacks (fb=4,14,24...), (2) cache a one-line SCAN-SUMMARY re-diag'd on EVERY fallback so every uploaded tail carries the group numbers. Keeps Build 126 - RESET PRAYER ON BANK SKIP. 
+07:52:32  Build 126 - RESET PRAYER ON BANK SKIP. Live 2026-09-27 20:03 (Build 123/124): varp=540 bank-skip set bankDone=true but prayerTalked1=true persisted from the 19:28 run -- doPrayer() skipped 'walk to church' and tab-clicked while outdoors. Julien: 'you have to go through 2 doors in the bank where you did one of them' -- the bot must WALK with door handling, not tab-click. Fix: Build 123 skip now calls resetPrayerFlags() so PRAYER starts fresh and walks south through both doors. Keeps Build 125 - FIND THE TAB STRIP. 
+07:52:32  Build 125 - FIND THE TAB STRIP. Live 2026-09-27 19:56 (Build 124): the Build 120 widget dump PROVED the visible flashing prayer icon is NOT in groups 548/161/164 -- 548 has 96 children but is hidden=true, 161 and 164 have 0 children. Yet the icon is visibly flashing on screen (screenshot 19:56:38). The client is in resizable mode using a different toplevel (165=ToplevelDisplay? 80? 601?). Fix: when the tab icon misses 4x fallbacks, scanAllRootsForTabs() enumerates EVERY loaded widget root for visible icon-sized widgets -- no more guessing groups. Keeps Build 124 - TIMEOUT IS NOT COMPLETION. 
+07:52:32  Build 124 - TIMEOUT IS NOT COMPLETION. Live 2026-09-27 19:51 (Build 122): Account Guide Talk-to timed out 2x (19:50:42, 19:50:48, door-blocked), then 19:50:52 logged 'Account Guide done' -- the 150-tick fail-safe marked a FAILED dialogue as complete. Alex: 'Treat dialogue timeout as failure, not completion.' Fix: the 150-tick fail-safe now checks varp 281 -- only marks done if varp>=533 (game confirms step complete); otherwise resets counter for door recovery instead of fake-completing. Keeps Build 123 - VARP-AWARE BANK SKIP. 
+07:52:32  Build 123 - VARP-AWARE BANK SKIP. Live 2026-09-27 19:50 (Build 122): varp=540 (bank 'exit' step) but bot redid the Account Guide from scratch, getting door-blocked (5s click timeouts on 'Account Guide'). Julien: 'door never been fixeed' -- the door isn't broken, redoing completed steps is. Fix: doBank() reads varp 281 at entry; if >=540 (bank complete), marks bankDone=true immediately and returns -- PRAYER's walk handles the exit door. Keeps Build 122 - CIRCUIT BREAKER FIX. 
+07:52:32  Build 122 - CIRCUIT BREAKER FIX. Live 2026-09-27 19:46 (Build 121): varp-281 detector WORKED (varp=540 -> BANK, banner confirmed 19:44:53), circuit breaker FIRED at 19:46:35 after 15 booth clicks -- but the bot stayed in BANK! Root cause: the breaker set startStage=PRAYER, but startStage is only read once by initialState(); the state machine transitions BANK->PRAYER when bankDone==true. Fix: breaker now sets bankDone=true to trigger the real transition. Keeps Build 121 - VARP 281 GROUND TRUTH. 
+07:52:32  Build 121 - VARP 281 GROUND TRUTH. Live 2026-09-27 19:42 (Build 119): bot restarted INSIDE the bank, position-detector saw the booth and returned BANK -- but the game instruction said 'Exit through the door and follow the path to the chapel' (BANK already complete). Bot looped the booth 20+ times (opened=false) for 3min while the game waited for PRAYER. Julien: 'shamefull'. Fix: (1) detectStartStage reads varplayer 281 FIRST -- the game's own tutorial progress counter (OSRS Wiki, via Alex's research) -- mapping 510-540=BANK, 550-610=PRAYER, etc. Position fallback only if varp unreadable. (2) Circuit breaker: 15 booth clicks without opening forces PRAYER. Keeps Build 120 - PRAYER WIDGET DUMP. 
+07:52:32  Build 120 - PRAYER WIDGET DUMP. Live 2026-09-27 19:38 (Build 118/119): PRAYER tab icon INVISIBLE -- packed 548:69/161:64/164:64 all null AND WorldModel name-match finds nothing (age=MAX). Bot looped 'NO VERIFIED TARGET' + script-915 (attempts 24-38) with talked1=true tab=false. Alex's independent review: 'capture the actual client/widget layout'. Fix: when a tab icon misses 3x script fallbacks, dump ALL widgets in groups 548/161/164 (children 0-150) with name/actions/bounds/hidden to the diag -- no more guessing IDs. Keeps Build 119 - CHAPEL DOOR HANG FIX. 
+07:52:32  Build 119 - CHAPEL DOOR HANG FIX. Live 2026-09-27 19:28-19:32 (Build 118): bot reached the church (y<=3115) for the PRAYER stage, but Brother Brace is behind the chapel door -- talkToOnce's npc.click('Talk-to') HUNG the tick thread for 4min (auto-walk loops on 'recovery_target_walled'), and Julien saw it 'stuck at the door repeating actions'. Fix: (1) npc.click now runs with a 5s timeout via CompletableFuture so the tick ALWAYS survives; (2) if 3+ talk attempts produce no dialog, assume a closed door is blocking and clickDoorDirect('Open') before retrying. Keeps Build 118 - CHURCH NOT BANK. 
+07:52:32  Build 118 - CHURCH NOT BANK. Live 2026-09-27 19:19 (Build 117): client restarted with the character INSIDE the chapel ('speak to Brother Brace' instruction on screen), but detectStartStage returned BANK — the Banker's 40-tile radius reaches the church (~20 tiles away) and was checked BEFORE Brother Brace, so the bot redid the Account Guide (Julien saw the friends tab open) and bank booth while the game waited for the chapel step. Fix: Brother Brace within 20 tiles now returns PRAYER before the Banker check; the bank-booth-within-10 check still covers genuinely being inside the bank room. Keeps Build 117 - BOTTOM-LINE TAB ICONS. 
+07:52:32  Build 117 - BOTTOM-LINE TAB ICONS (group 164). Live 2026-09-27 19:09 (Build 116): PRAYER flashing-icon prompt STILL looped — packed 548:69/161:64 null AND Build 116's name-match scan of groups 548+161 found nothing. Root cause: Julien's client runs the resizable BOTTOM-LINE layout — tab icons live in group 164 (RuneLite WidgetInfo RESIZABLE_VIEWPORT_BOTTOM_LINE_*_ICON, verified against WidgetInfo bytecode: prayer = 164:64), a group the bot never scanned. Fix: name-match scan + packed ID lists now cover all three layouts (548 fixed, 161 resizable-side, 164 bottom-line); group-164 icons accepted when the official-WidgetInfo-mapped widget exists, is visible and icon-sized (logged), never a blind derived child. Keeps Build 116 - VERIFIED TAB TARGETS. 
+07:52:32  Build 116 - VERIFIED TAB TARGETS FOR ALL TABS. Live 2026-09-27 19:00 (Build 115): PRAYER flashing-icon prompt looped — packed 548:69/161:64 never resolved in the WorldModel cache, so the forced physical click never fired and the script-915 fallback looped without setting the game's tutorial flag. Root cause: packed IDs are sequence-derived, never verified against the widget tree (same trap as ACC_MAN 548:72 in Build 115). Fix: WorldModel now name-matches EVERY tab icon on GameTick (groups 548/161, smallest match wins); clickTabIcon uses the verified target for all tabs (fresh name-matched bounds, else name-verified packed bounds), never a blind derived child. Keeps Build 115 - VERIFIED ACC_MAN TARGET + BOOTH PROXIMITY GATE. 
+07:52:32  Build 115 - VERIFIED ACC_MAN TARGET + BOOTH PROXIMITY GATE. Live 2026-09-27 18:45: 15+ physical clicks at packed 548:72 bounds (576,186) never advanced the tutorial (Build 113 live 18:42:20, loop 18:42:53-18:44:38) — the 548:72/161:67 IDs were derived by sequence-continuation (varc index 8), NEVER verified against the widget tree. Fix: clickTabIcon(ACC_MAN) now uses a VERIFIED target — prefers the tree-anchored name-matched bounds (fresh <10s), else the packed bounds only if the sampled widget NAME contains 'account'; logs packed name+bounds and name-matched bounds+age on EVERY click so the diag proves the target (never a blind derived child). Also: booth 'I can't reach that!' (seen in 18:44:41 screenshot) — Build 109's text-based recovery never fired, so clickBoothDirect now has a PROXIMITY GATE: if the player is >4 tiles from the booth, walk adjacent FIRST instead of clicking (text-independent). Keeps Build 114 - FORCED PHYSICAL TAB CLICK.
+07:52:32  Build 114 - FORCED PHYSICAL TAB CLICK. Live 2026-09-27 18:45: root cause of the 18:35-18:39 booth loop (click booth -> 'Click on the flashing icon to open your Account Management menu' -> click icon -> click booth, opened=false): clickTabIcon's isTabCurrent() fast path SILENTLY returned true when the account panel was already open (opened via the script-915 fallback in an earlier build), so the game's flashing-icon tutorial flag was never set and the physical click NEVER happened — no 'MOUSE CLICKED ACC_MAN' line was ever logged across ~48 booth clicks. Build 113's ACC_MAN packed IDs were correct but never reached because of this fast path. Fix: clickTabIcon(tab, forcePhysical) overload; every tutorial 'flashing icon' prompt (account, quests, prayer, magic, combat, equipment, settings, dagger-inventory, generic tab branch, account-guide step) now bypasses the fast path and always performs the real mouse click. Operational switches (open inventory to wield) keep the fast path. Keeps Build 113 - ACC_MAN PHYSICAL CLICK. Live 2026-09-27 18:36: root cause of the 18:32-18:34 booth loop (click booth -> 'Click on the flashing icon to open your Account Management menu' -> click icon -> click booth, opened=false): clickTabIcon(ACC_MAN) had NO case in its packed-ID switch (ids stayed null) and WorldModel never sampled the account icon, so the flashing icon was NEVER physically clicked. The script-915 fallback opens the tab panel but does not set the game's 'clicked the flashing icon' tutorial flag, so the Account Guide step never truly completes. Fix: ACC_MAN packed IDs 548:72 / 161:67 (varc index 8) sampled in WorldModel, plus a per-tick name-matched fallback (widget name/actions containing 'account'). Keeps Build 112 - SINGLE SCRIPT FIX. Live 2026-09-27 18:28: patch 111 shipped with TWO competing scripts (TutorialIslandScript + TutorialIslandAgentScript) in the same jar — bot went silent for 13+ min after downloading it, no screenshots, likely startup conflict. This build removes the agent, plugin injects the single TutorialIslandScript again. Keeps Build 110 - ACCOUNT GUIDE FIRST. Live 2026-09-27 18:08: fresh run looped the bank booth forever (click booth -> the game re-popped the 'Account (Management)' instruction dialog: 'The guide here will tell you all about your account. Just click on him to hear what he's got to say.' -> dismiss -> click booth, opened=false) because the bot tried to open the bank BEFORE talking to the Account Guide. Live proof the official order is Account Guide -> bank booth -> poll booth -> exit: the instruction dialog names him while the bank never opens. Now: doAccountGuideStep runs FIRST in doBank (talk, account tab, talk again), before any booth click. Keeps Build 109 (can't-reach recovery); Build 108 (Account Guide gate recovery); Build 107 (tab switch async); Build 106 (dialog-transition); Build 105 (bank door stall); Build 104 (name cache); Build 103; Build 102 (event-driven); Build 101; Build 100; Build 99; Build 98; Build 97; Build 96; Build 95; Build 94; Build 93; Build 92; Build 91; Build 90; Build 89; Build 88; Build 87; Build 86; Build 85; Build 84; Build 83; Build 82; Build 81/80.
+07:52:32  Build 104: loaded 272 cached object names (rev 240)
+07:52:32  REBUILD: WorldModel registered on event bus
+07:52:32  Build 78: Check-Update.ps1 $versionUrl line not in expected form, skipping repair
+07:52:32  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+07:52:32  Build 216: canvas-only screenshot skipped: IllegalComponentStateException
+07:52:32  Build 194: logged out 0 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+07:52:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:52:52  VARP: 281 = 520
+07:52:52  VARP-281 stage detection -> BANK (overrides position)
+07:52:52  Detected start stage: BANK
+07:52:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:52:52  Build 223: stage self-correction SKIPPED -- current machine state unreadable (null), varp281=520 live=BANK -- no force this tick, retrying next tick
+07:52:52  Build 224: CLIENT BLOCKER: blocking overlay visible ('[07:52:51] Mismatch in overlaid cache archive hash for 12/223: 731D34761408EE074A436E08A1B') -- dismissing its own 'Click here to continue' before name submission; overlay must clear first
+07:52:52  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 1/3), verifying overlay clears next tick
+07:52:52  Stage: null -> BANK
+07:52:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:52:53  Build 224: cache-mismatch overlay still open after dismissal 1/3 -- re-deriving target next tick
+07:52:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:52:54  Build 224: cache-mismatch overlay observed but its continue control not usable -- Space keypress once (attempt 2/3), verifying overlay clears next tick
+07:52:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:52:55  Build 224: cache-mismatch overlay CLEARED after dismissal (verified by observed absence next tick) -- resuming creator
+07:52:56  BANK TICK: up=false opened=false closed=false upStep=0
+07:52:56  Build 362: varp281=520 >= 520 game-verifies the 510 arc -- syncing bankWentUp/bankOpened/bankClosed true
+07:52:56  Build 367: poll booth is OUTSIDE (booth=WorldPoint(x=3119, y=3121, plane=0), player=WorldPoint(x=3124, y=3125, plane=0)) -- exiting the bank first via the door routine
+07:52:57  Build 134 DOOR-2 START: player at WorldPoint(x=3124, y=3125, plane=0) (in bank main area). Finding door-2 target.
+07:53:05  Build 368 DOOR-2: door Door/1535/Open@WorldPoint(x=3124, y=3126, plane=0) is BEHIND the player (playerNow=WorldPoint(x=3124, y=3125, plane=0)) -- ignoring, walking south.
+07:53:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:53:06  BANK TICK: up=true opened=true closed=true upStep=1
+07:53:16  Build 368 DOOR-2: door Door/1535/Open@WorldPoint(x=3124, y=3126, plane=0) is BEHIND the player (playerNow=WorldPoint(x=3124, y=3125, plane=0)) -- ignoring, walking south.
+07:53:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:53:17  BANK TICK: up=true opened=true closed=true upStep=1
+07:53:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:53:19  BANK TICK: up=true opened=true closed=true upStep=1
+07:53:21  Build 365: poll booth id=26815 at=WorldPoint(x=3119, y=3121, plane=0) objPlane=0 player=WorldPoint(x=3124, y=3120, plane=0) dist=5) -- walkStep toward WorldPoint(x=3121, y=3119, plane=0)
+07:53:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:53:22  BANK TICK: up=true opened=true closed=true upStep=1
+07:53:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:53:24  BANK TICK: up=true opened=true closed=true upStep=1
+07:53:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:53:26  BANK TICK: up=true opened=true closed=true upStep=1
+07:53:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:53:29  BANK TICK: up=true opened=true closed=true upStep=1
+07:53:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:53:31  BANK TICK: up=true opened=true closed=true upStep=1
+07:53:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:53:32  Screenshot saved: 2026-09-29_07-53-32_BANK_auto.png
+07:53:32  Build 82: cleaned up 1 old screenshots
+07:53:33  BANK TICK: up=true opened=true closed=true upStep=1
+07:53:33  Diag tail uploaded: 2026-09-29_07-53-32_BANK_diag.txt
+07:53:34  Build 365: poll booth id=26815 at=WorldPoint(x=3119, y=3121, plane=0) objPlane=0 player=WorldPoint(x=3124, y=3120, plane=0) dist=5) -- walkStep toward WorldPoint(x=3121, y=3119, plane=0)
+07:53:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:53:36  BANK TICK: up=true opened=true closed=true upStep=1
+07:53:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:53:38  BANK TICK: up=true opened=true closed=true upStep=1
+07:53:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:53:40  BANK TICK: up=true opened=true closed=true upStep=1
+07:53:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:53:42  BANK TICK: up=true opened=true closed=true upStep=1
+07:53:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:53:44  BANK TICK: up=true opened=true closed=true upStep=1
+07:53:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:53:46  BANK TICK: up=true opened=true closed=true upStep=1
+07:53:47  Left-clicking object at 487,453
+07:53:47  Build 88: physically left-clicked poll booth
+07:53:47  Build 87: poll booth click attempt (retry tick 16)
+07:53:47  Build 82: burst recording started (8 shots): poll-booth-clicked
+07:53:47  Screenshot saved: 2026-09-29_07-53-47_BANK_burst-poll-booth-clicked-8.png
+07:53:47  Build 82: cleaned up 1 old screenshots
+07:53:48  Screenshot saved: 2026-09-29_07-53-48_BANK_burst-poll-booth-clicked-7.png
+07:53:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:53:48  Diag tail uploaded: 2026-09-29_07-53-47_BANK_diag.txt
+07:53:49  Screenshot saved: 2026-09-29_07-53-49_BANK_burst-poll-booth-clicked-6.png
+07:53:49  BANK TICK: up=true opened=true closed=true upStep=1
+07:53:49  Diag upload failed, HTTP 409
+07:53:49  Screenshot saved: 2026-09-29_07-53-49_BANK_burst-poll-booth-clicked-5.png
+07:53:49  Diag tail uploaded: 2026-09-29_07-53-49_BANK_diag.txt
+07:53:49  Diag upload failed, HTTP 422
+07:53:50  dialogueTick: clicking continue (priority over keyword handling)
+07:53:50  Screenshot saved: 2026-09-29_07-53-50_BANK_burst-poll-booth-clicked-4.png
+07:53:51  Screenshot saved: 2026-09-29_07-53-50_BANK_burst-poll-booth-clicked-3.png
+07:53:51  Diag tail uploaded: 2026-09-29_07-53-50_BANK_diag.txt
+07:53:51  Diag upload failed, HTTP 422
+07:53:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:53:51  Screenshot saved: 2026-09-29_07-53-51_BANK_burst-poll-booth-clicked-2.png
+07:53:51  BANK TICK: up=true opened=true closed=true upStep=1
+07:53:52  Screenshot saved: 2026-09-29_07-53-52_BANK_burst-poll-booth-clicked-1.png
+07:53:52  Diag tail uploaded: 2026-09-29_07-53-51_BANK_diag.txt
+07:53:52  dialogueTick: clicking continue (priority over keyword handling)
+07:53:52  Build 82: burst recording finished: poll-booth-clicked
+07:53:53  Diag tail uploaded: 2026-09-29_07-53-52_BANK_diag.txt
+07:53:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:53:54  BANK TICK: up=true opened=true closed=true upStep=1
+07:53:54  dialogueTick: clicking continue (priority over keyword handling)
+07:53:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:53:56  BANK TICK: up=true opened=true closed=true upStep=1
+07:53:56  Build 100: poll booth step VERIFIED complete (dialog opened then dismissed after click; title unreadable so used dialog transition, not text)
+07:53:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:53:57  BANK TICK: up=true opened=true closed=true upStep=1
+07:53:58  Build 108: talking to the Account Guide (round 1/2)
+07:53:58  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3123, plane=0) dist=10
+07:53:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:01  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3123, plane=0) dist=10
+07:54:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:02  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:03  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3123, plane=0) dist=10
+07:54:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:05  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:06  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3123, plane=0) dist=10
+07:54:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:07  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:08  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3123, plane=0) dist=9
+07:54:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:09  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:10  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3126, y=3124, plane=0) dist=9
+07:54:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:12  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:13  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3123, plane=0) dist=9
+07:54:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:14  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:15  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3123, plane=0) dist=9
+07:54:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:17  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:18  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3123, plane=0) dist=9
+07:54:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:19  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:20  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3126, y=3124, plane=0) dist=9
+07:54:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:21  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:22  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3126, y=3124, plane=0) dist=9
+07:54:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:24  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:25  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3126, y=3124, plane=0) dist=9
+07:54:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:26  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:27  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3123, plane=0) dist=10
+07:54:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:29  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:30  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=10
+07:54:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:31  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:32  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3123, plane=0) dist=10
+07:54:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:33  Screenshot saved: 2026-09-29_07-54-33_BANK_auto.png
+07:54:33  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:34  Diag tail uploaded: 2026-09-29_07-54-33_BANK_diag.txt
+07:54:35  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3123, plane=0) dist=10
+07:54:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:36  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:37  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3123, plane=0) dist=10
+07:54:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:38  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:39  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3124, plane=0) dist=11
+07:54:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:41  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:42  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3124, plane=0) dist=11
+07:54:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:43  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:44  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3123, plane=0) dist=9
+07:54:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:45  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:46  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3123, plane=0) dist=9
+07:54:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:48  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:49  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3124, plane=0) dist=11
+07:54:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:50  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:51  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=10
+07:54:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:53  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:54  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3124, plane=0) dist=11
+07:54:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:55  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:56  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3124, plane=0) dist=11
+07:54:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:54:58  BANK TICK: up=true opened=true closed=true upStep=1
+07:54:59  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=10
+07:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:55  BANK TICK: up=true opened=true closed=true upStep=1
+07:55:01  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=10
+07:55:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:55:02  BANK TICK: up=true opened=true closed=true upStep=1
+07:55:03  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=10
+07:55:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:55:05  BANK TICK: up=true opened=true closed=true upStep=1
+07:55:06  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=10
+07:55:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:55:07  BANK TICK: up=true opened=true closed=true upStep=1
+07:55:08  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3124, plane=0) dist=11
+07:55:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:55:10  BANK TICK: up=true opened=true closed=true upStep=1
+07:55:11  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=10
+07:55:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:55:12  BANK TICK: up=true opened=true closed=true upStep=1
+07:55:13  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3127, y=3124, plane=0) dist=10
+07:55:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:55:14  BANK TICK: up=true opened=true closed=true upStep=1
+07:55:15  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3124, plane=0) dist=11
+07:55:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:55:17  BANK TICK: up=true opened=true closed=true upStep=1
+07:55:18  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3126, y=3124, plane=0) dist=9
+07:55:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:55:19  BANK TICK: up=true opened=true closed=true upStep=1
+07:55:20  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3126, y=3124, plane=0) dist=9
+07:55:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:55:22  BANK TICK: up=true opened=true closed=true upStep=1
+07:55:23  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3126, y=3124, plane=0) dist=9
+07:55:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:55:24  BANK TICK: up=true opened=true closed=true upStep=1
+07:55:25  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3126, y=3124, plane=0) dist=9
+07:55:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:55:26  BANK TICK: up=true opened=true closed=true upStep=1
+07:55:27  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3126, y=3124, plane=0) dist=9
+07:55:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:55:29  BANK TICK: up=true opened=true closed=true upStep=1
+07:55:30  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3126, y=3124, plane=0) dist=9
+07:55:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:55:31  BANK TICK: up=true opened=true closed=true upStep=1
+07:55:32  Build 166 talk: 'Account Guide' id=3310 idx=1727 at WorldPoint(x=3128, y=3123, plane=0) dist=10
+07:55:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+07:55:33  Screenshot saved: 2026-09-29_07-55-33_BANK_auto.png
+07:55:33  Build 82: cleaned up 1 old screenshots
