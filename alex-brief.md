@@ -1,3 +1,32 @@
+## Build 349 / patch-347 (2026-09-29 ~05:20 EDT) -- quest ladder targeting + text-gated dialogue close (review-loop worker)
+- Live result (Build 348, session 05:12:32): the re-talk loop is DEAD -- latch
+  line "Build 348: Quest Guide lecture COMPLETE (observed ' would you like to
+  hear about quests again?')" fired at ~05:13:00, option 2 picked, continues
+  clicked, 4 blind Spaces pressed, bot advanced to the ladder step at 05:13:22.
+  TWO new blockers found in the 05:13:32 screenshot + diag tail:
+  (1) clickDoorDirect("Climb-down") uses findGateObjectInner which matches
+  "door" FIRST -- the click landed on DOOR 9716 at (3086,3126), not the quest
+  ladder at (3088,3119). The player walked to the door; no descent ever
+  happened. (2) The "(Moving on)" final frame was STILL OPEN in the 05:13:32
+  screenshot, 18s after the 4th blind Space -- the post-"No" dialogue chain
+  has MORE frames than the bound of 4; the last frame appeared after the
+  bound was exhausted. A world click can never land while a dialogue is open.
+- Fix (1): clickDoorDirect now uses a ladder-first finder (findLadderObjectInner,
+  name-contains "ladder") for any action starting with "Climb"; gate scan
+  stays as fallback.
+- Fix (2): replaced the fixed 4 blind Spaces with a TEXT-GATED close loop --
+  while quest-guide markers ("moving on"/"enter some caves"/"click on the
+  ladder"/"hear about quests again"/"quest guide") are readable, click
+  continue (physical mouse, works regardless of isInDialogue flakiness) +
+  Space once per tick, bound 40; when the text is unreadable 3 ticks running,
+  the dialogue is closed and the ladder branch runs. Fail-open: if text is
+  never readable, behavior = old (straight to ladder).
+- Verification pending: Build 349 banner (RUNNING_BUILD=349), "Build 349:
+  quest-guide dialogue text still readable" lines then "no quest-guide
+  dialogue text (3/3)", then a Climb-down click on the LADDER (id != 9716),
+  descent verified (varp>=260 / mining caves) -> MINING.
+
+
 # Brief for Alex (ChatGPT) — Tutorial Island bot
 
 ## Build 348 / patch-346 (2026-09-29 ~04:57 EDT) -- quest-guide lecture-COMPLETE latch (review-loop worker)
