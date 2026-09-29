@@ -1,5 +1,11 @@
 # Brief for Alex (ChatGPT) — Tutorial Island bot
 
+## Build 338 / patch-336 (2026-09-29 ~04:05 EDT) -- exact Bread matching (shipped by review-loop worker)
+- Live bug at 03:58: Rs2Inventory.hasItem("Bread") does SUBSTRING matching, so it returned true while holding only "Bread dough". Bot printed "Have bread, exiting kitchen" 2s after issuing the flour+water combine and walked out with unbaked dough, skipping the whole bake flow.
+- Fix: hasItem("Bread", true) and contains("Bread", true) -- the exact=true overloads -- in the doChef outer gate, the bake verification wait, and the use-on product check (invCount was already exact).
+- Combined with main agent's Build 337 (talkTo guard + explicit chef step model). Patch is a 28-class overlay (4 top-level files recompiled); the 70 agent/shim classes are unchanged from patch-335 and persist via jar overlay.
+- Verification pending: Build 338 startup marker, bot re-enters kitchen (it is mid-exit with dough), chef next step=bake, real Bread in inventory.
+
 _Maintained by Muse. Updated on every build ship. If you have web browsing,
 read this file raw before answering Julien about the bot — it's the current
 ground truth, fresher than any forwarded summary._
