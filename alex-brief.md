@@ -1,21 +1,54 @@
-## Build 366 / patch-364 (2026-09-29 ~07:38 EDT) -- poll-booth direct-approach fallback (stale collision data)
-- Live result (Build 365, 07:33-07:34): the Build 365 identity log FIRED and
-  PROVED both the booth (id=26815 at 3119,3121) and the player (3123,3127) are
-  on plane 0 -- the plane hypothesis is DEAD, and the plane-corrected 5x5
-  adjacentWalkable ring STILL returns null. Rs2Tile.isTileReachable's
-  collision read is wrong for this spot (stale data), not the plane. Descent
-  VERIFIED earlier: Build 364's climb-down put the player on the bank ground
-  floor (screenshot: ground floor, ladder tooltip "Climb-up"), varp 281=520.
-- Fix: when the 5x5 adjacentWalkable search returns null, one non-blocking
-  walkStep per tick DIRECTLY toward the booth's plane-corrected tile -- the
-  walker routes its own steps around walls; the dist<=4 proximity gate then
-  hands off to the click path (Build 88 physical left-click, unchanged).
-  Bounded: 40 ticks with no player-tile movement stands down with a
-  diagnostic (never blind-spins).
-- Pending verification: Build 366 banner (RUNNING_BUILD=366), "Build 366: poll
-  direct-approach -- walkStep toward ..." lines, the player tile moving each
-  tick, then "Build 88: physically left-clicked poll booth", then
-  Build 100 verified-complete and varp 281 -> 530.
+## Build 368 / patch-366 (2026-09-29 ~07:52 EDT) -- door reachability + direction + non-blocking step
+- Root cause, PROVEN live (Build 367, 07:46:27-07:51:38): the exit-first plan
+  WORKED -- doors 1535/1536 opened, player moved (3123,3127)->(3124,3125) --
+  then stalled forever. findExitDoorForSubstate picked Door/1535@(3124,3126)
+  NORTH of the player (behind the south-exit travel direction) and
+  isDoorReachable() tested Rs2Tile.isTileReachable on the DOOR TILE -- a WALL
+  for a closed door, so a closed door could NEVER be clicked ("door not
+  reachable. Cannot issue action." every tick; the 5-tick no-progress watchdog
+  fired 07:51:06 and stood the routine down). Same bug class Build 154 fixed
+  for door 9722, but in Build 134's DOOR-2 path. Also the post-click
+  Rs2Walker.walkTo(beyond) blocked the tick thread ~11-13s per cycle
+  (07:46:42->07:46:55, 07:46:57->07:47:08) -- hang-rule violation.
+- Fix: (1) isDoorReachable -- player-adjacent (chebyshev<=1) counts as
+  reachable; the door tile itself is never required (open door OR any adjacent
+  tile reachable as fallbacks); (2) door-2 ignores doors behind the travel
+  direction (doorY > playerY) and walks south via non-blocking walkStep
+  instead of re-clicking the door it came through; (3) post-click walkTo is now
+  one non-blocking walkStep per tick.
+- Pending verification: "Build 368 DOOR-2:" behind-door ignores, reachable=true
+  on adjacent closed doors, player tile moving south every tick
+  (y 3125 -> <=3121), then proximity walkStep + "Build 88: physically
+  left-clicked poll booth", varp 281 -> 530.
+- Note for Alex: the picker still returns the NEAREST named door -- if two
+  doors ahead both show Open, only the first gets clicked per tick; the
+  behind-door filter only kicks in when the picker returns a door north of the
+  player. Watch whether 1535/1536 cache staleness (Open after auto-close)
+  causes a click-Open-on-already-open-door no-op cycle.
+
+## Build 367 / patch-365 (2026-09-29 ~07:45 EDT) -- poll-booth EXIT-FIRST (the booth is outside the bank)
+- Root cause, PROVEN by Build 365's identity log (07:33-07:40): the poll booth
+  (object id=26815) is at WorldPoint(3119,3121,plane 0) -- OUTSIDE the bank's
+  south door (y<=3121 = outside per Build 90/86; the bank door row is y~3124).
+  The player stood inside at (3123,3127). The BFS unreachability was CORRECT,
+  not stale collision data. (A sibling's Build 366 / patch-364, shipped ~07:36
+  mid-investigation, theorized stale collision and walked directly at the booth
+  tile -- stalled into the closed door, dist frozen at 6. Its wall-walking
+  fallback is removed.)
+- Fix (step-model law -- the poll step now has an explicit ordered plan):
+  (1) while the player is inside (y>3121) and the booth is outside (y<=3121),
+  run the bank-exit door routine -- Build 134's two-door state machine
+  extracted verbatim into doBankExitDoors(), one action per tick;
+  (2) once outside (observed y<=3121), the existing proximity gate + physical
+  click runs. The poll-booth finder (exact -> loose -> object-id) is extracted
+  into findPollBooth() so the exit branch can observe the booth's tile. The
+  click and varp 281 -> 530 completion gates are untouched.
+- Pending verification: "Build 367: poll booth is OUTSIDE ... exiting the bank
+  first", DOOR-2 crossing (y 3127->3121 observed), proximity walkStep, then
+  "Build 88: physically left-clicked poll booth" and varp 281 -> 530.
+- Note for Alex: after the poll booth, doAccountGuideStep already walks back
+  INSIDE the bank from outside (walks to (3122,3126)) for the varp-530 guide
+  talk -- watch whether the (already opened) south door lets it back in.
 
 ## Build 364 / patch-362 (2026-09-29 ~07:26 EDT) -- wrong-floor (plane 1) recovery for the bank poll-booth arc
 - Live result (Builds 362/363, 07:15-07:22): the player is at
