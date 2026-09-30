@@ -1393,3 +1393,13 @@ ACCEPTANCE (watching for, in order):
   2. per-leg movement evidence dairy->mill->wheat->exit->road->Cook
   3. player LEAVES the wheat side / reaches the Cook
   4. Cook hand-in of Bucket of milk (quest state)
+
+## 22:08 EDT live status -- PROBE TIMEOUT ESCALATION (review-loop, no-race stand-down)
+
+- version.txt=512 (unchanged since 21:54; Alex ships PC-local hot-reloads, no repo pushes). In-game live code = Alex's Build 515 branch per active-method diag lines (COLLISION/LOS probing overlays) -- do NOT trust the stale "Build 418" labels some diag lines print.
+- Stage: COOKS_GET_BUCKET. Player static at chicken farm (~3224,3295 -> 3303) since ~21:50. Inventory: Bucket x0, Egg x1, Pot of flour x1, dialogue closed, milkPhase=0.
+- Review-loop has NOT shipped since 21:50 per the no-race rule (Alex owns the cooking branch; local source copy stale at 21:18 mtime). No competing patches from this side.
+- PROBE TIMEOUT FLAG (fired 22:05, still open 22:08): Build 515 solid-edge probing began ~21:54 (~14 min ago). Probe center static at (3224,3303) since 21:58:59; numbered COLLISION/LOS overlays replaced ~22:02 by a compass-direction tile scan overlay (n/nw/s/se/ne/e/w tiles); "DIAG: TARGET milkPhase=0 (no milk candidates in range)" persists top-left. No route handed to traversal, player has not moved, bucket not acquired. Probe is ALIVE (overlays/timer/menus change every frame) but the probe->traversal handoff has not fired in ~14 min. The ground bucket at (3225,3294) sits behind a non-openable fence/wall edge from the player and the script has no working walk-around yet. If the long scan is expected, ignore this; if the handoff condition can never fire, the probe needs a timeout/fallback that hands an approximate route (or a bounded give-up line) to traversal.
+- Watch: right-click "Search Coop / N more options" menu lingers open in recent frames (coop/ground-egg hover at 22:05-22:06) -- make sure it doesn't eat the bucket click once the route resolves.
+- Infra noise (cosmetic, not blocking): run energy depleted ("You don't have enough energy left to run!"), "Error looking up worlds" (world-list API down; login carried by random-free-world selection), hot-status.properties AccessDeniedException (hot-reload status writer), Microbot cache-archive-hash mismatch spam, gravestone expired 21:54.
+- alex-inbox: 2 notes, both SEEN. bot-command/command.txt: stale 16:57 SWITCH_TO_COOKS only (ignored).
