@@ -1,0 +1,14 @@
+build=553
+pid=35236
+timestamp=1790760895644
+varp=0
+questState=NOT_STARTED
+sha256=66ab826463550904aec4444297bd5b641575d63331c37bea50794a9eecce2e00
+stage=START_HETTY
+world=308
+error=none
+ratTail=0
+onion=0
+burntMeat=0
+eyeOfNewt=0
+healthPercent=100.0
