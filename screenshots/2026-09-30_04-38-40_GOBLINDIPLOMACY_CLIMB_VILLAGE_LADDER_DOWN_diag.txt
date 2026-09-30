@@ -1,0 +1,12 @@
+build=550
+pid=11632
+timestamp=1790757520140
+varbit=3
+questState=IN_PROGRESS
+stage=CLIMB_VILLAGE_LADDER_DOWN
+world=308
+error=none
+goblinMail=2
+orangeMail=1
+blueMail=0
+healthPercent=100.0
