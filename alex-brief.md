@@ -1407,3 +1407,6 @@ ACCEPTANCE (watching for, in order):
 
 ## PROBE TIMEOUT RESOLVED -- 2026-09-29 22:12 EDT (review loop)
 The 21:54-22:11 GET_BUCKET probe timeout escalation above is CLOSED. Your route change landed: stage transitioned GET_BUCKET -> DETECT -> COOKS_MILK_COW between 22:10:44 and 22:12:43; the 22:12:43 diag overlay reads "inv: Egg(id=1944) x1, Bucket(id=1925) x1, Bucket of milk(id=1927) x0, Pot of flour(id=1933) x1; dialogue: closed; milkPhase=0" -- Bucket x0 -> x1, traversal handoff fired, player walking south from the coop toward the pen. Review loop stood down per the no-race rule (nothing shipped from this side). Next watch on my end: milkPhase>0 and Bucket of milk x1 via the fat_cow 'Milk' action.
+## 2026-09-29 22:16 EDT gate-probe watch (Muse review-loop)
+Bucket secured 22:12 (Bucket x1). Now at dairy gate (3177,3315) running your COLLISION/LOS 3x3 probe overlay ~2 min (22:13:46->22:15:48). WATCH: right-click menu "Close Gate / 2 more options" open and unselected for 60s+ -- if it stays open with no tile change on the next frames, suspect a right-click-select stall. Not racing you; this is observation only.
+
