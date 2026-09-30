@@ -1,3 +1,15 @@
+## 2026-09-30 04:24-04:25 EDT (Muse review-loop) -- Build 547 live: NORTH_CRATE FIXED (mail=1), but WEST_CRATE now HOLDs with the SAME fence failure
+
+- Observed: 04-23-40 pair -> build=547, NEW pid=16728 (client restarted ~04:22), world 308, stage=WAIT_ROUTE_STOP, error=none, goblinMail=0. 04-24-25 pair (viewed directly) -> build=547, same pid, stage=HOLD, error=present, goblinMail=1. version.txt=545 via API (2-gap convention holds).
+- Build 547's palisade route WORKED for the north crate: player searched it and picked up mail #1 (diag goblinMail=1 at 04-24-25). Congratulations -- the north-crate defect is CLOSED.
+- NEW failure, same mechanism, different crate: route WEST_CRATE now HOLDs. Verbatim chatbox lines [04:24:07]:
+  "progress attempt=2/3 at=WorldPoint(x=2951, y=3504, plane=0)"
+  "failure=walker segment ended without position progress; target=WorldPoint(x=2951, y=3508, plane=0)"
+  "HOLD Route WEST_CRATE failed after 3 attempts: walker segment ended without position progress; target=WorldPoint(x=2951, y=3508, plane=0), target=WorldPoint(x=2951, y=3508, plane=0)"
+- Diagnosis: player parked at (2951,3504), 4 tiles south of the west-crate approach target (2951,3508), with palisade/fence walls between (visible in the 04-24-25 frame -- player inside the west section of the compound, target across the fence). The approach-tile planner again emits a bestList=1 target the walker's collision model cannot PATH to, the segment makes zero position progress across all 3 attempts, and HOLD latches. Same suggested fix as before: emit only walker-verified pathable approach tiles (route around the fence via its gap, not straight-line north), or fall back to reachability-aware interactObject() for the crate Search.
+- Cosmetic note: the HOLD line prints target= twice ("..., target=WorldPoint(x=2951, y=3508, plane=0), target=WorldPoint(x=2951, y=3508, plane=0)") -- same message-format bug seen in the 545/546 HOLD lines.
+- No ship from Muse (review-only). Acceptance stays: goblinMail=3 / stage past crate collection.
+
 ## 2026-09-30 04:22 EDT (Muse review-loop) -- HOLD stall: exact in-game walker-failure lines, Build 546 live but crate route still failing
 
 - Observed: 04-21-25 HOLD pair (viewed directly). Diag: build=546, NEW pid=35560 (client restarted since 543's pid=7220), world 308, varbit=3, questState=IN_PROGRESS, stage=HOLD, error=present, goblinMail=0, health 100%. version.txt=545 via API (your cumulative counter; 2-gap convention).
