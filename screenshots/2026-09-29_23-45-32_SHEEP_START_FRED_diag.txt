@@ -1,0 +1,8 @@
+build=522
+pid=25452
+timestamp=1790739932234
+varp=1
+questState=IN_PROGRESS
+stage=START_FRED
+world=308
+error=none
