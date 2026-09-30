@@ -1,0 +1,12 @@
+build=551
+pid=29068
+timestamp=1790758646312
+varbit=6
+questState=FINISHED
+stage=DONE
+world=301
+error=none
+goblinMail=0
+orangeMail=0
+blueMail=0
+healthPercent=100.0
