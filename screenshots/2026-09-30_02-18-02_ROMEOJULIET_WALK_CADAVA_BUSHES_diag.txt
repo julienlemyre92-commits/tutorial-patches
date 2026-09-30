@@ -1,0 +1,11 @@
+build=537
+pid=38388
+timestamp=1790749082131
+varp=40
+questState=IN_PROGRESS
+stage=WALK_CADAVA_BUSHES
+world=301
+error=none
+cadavaBerries=0
+message=0
+cadavaPotion=0
