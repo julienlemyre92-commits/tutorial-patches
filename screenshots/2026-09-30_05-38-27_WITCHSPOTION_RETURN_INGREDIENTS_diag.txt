@@ -1,0 +1,14 @@
+build=553
+pid=35236
+timestamp=1790761107203
+varp=1
+questState=IN_PROGRESS
+sha256=66ab826463550904aec4444297bd5b641575d63331c37bea50794a9eecce2e00
+stage=RETURN_INGREDIENTS
+world=308
+error=none
+ratTail=1
+onion=1
+burntMeat=1
+eyeOfNewt=1
+healthPercent=100.0
