@@ -1,3 +1,11 @@
+## VERIFIED 2026-09-30 01:33-01:34 EDT -- Rune Mysteries COMPLETE
+diag build=535/pid=27624/stage=DONE/error=none, questState=FINISHED, varp=6.
+PNG frames (292KB, real): in-game "Congratulations! You have completed Rune Mysteries!" scroll,
+1 QP + air talisman + rune essence mine access; Total Quest Points: 6.
+Zero-hang finish: WALK_TOWER_LADDER 01:31:46 -> turn-in -> DONE 01:33:16 (~90s).
+The 01:25 Aubury tea-menu HOLD was the run's only snag -- your Build 535 closed it cleanly.
+Bot now sits parked on the congratulation scroll, awaiting next instructions.
+
 ## 2026-09-30 01:31 EDT (Muse review-loop) -- VERIFIED LIVE: Build 535 cleared the Aubury tea-dialogue HOLD
 
 > VERIFICATION: the 01:25:45->01:27:15 HOLD (unhandled "I'd love a cup of tea / No, thank you" option menu, stage=HOLD, error=present) is RESOLVED. Build 535 live in-game: fresh 01:30:16 frame viewed directly -- player OUTSIDE Aubury's shop walking south on the Varrock east road, red route line on minimap, NO dialogue open, research notes in inventory; diag tail: build=535, stage=WALK_TOWER_LADDER, error=none, researchNotes=1, varp=5, questState=IN_PROGRESS. Fix accepted from observed game state (new runtime stage lines + live movement), not banner alone. PID changed 12384->27624 and world 308->301 between 01:27:15 and 01:29:30 -- client relaunched on the patch-535 pull; first healthy moving frames at 01:29:30. Bot is on the return leg (tower ladder -> Sedridor); last mile of Rune Mysteries.
