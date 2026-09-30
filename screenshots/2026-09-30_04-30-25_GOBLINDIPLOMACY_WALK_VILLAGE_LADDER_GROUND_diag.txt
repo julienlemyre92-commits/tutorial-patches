@@ -1,0 +1,12 @@
+build=548
+pid=38512
+timestamp=1790757024213
+varbit=3
+questState=IN_PROGRESS
+stage=WALK_VILLAGE_LADDER_GROUND
+world=308
+error=none
+goblinMail=2
+orangeMail=0
+blueMail=0
+healthPercent=100.0
