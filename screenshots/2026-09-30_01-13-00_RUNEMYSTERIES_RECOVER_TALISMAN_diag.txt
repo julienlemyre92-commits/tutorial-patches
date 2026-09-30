@@ -1,0 +1,11 @@
+build=533
+pid=12396
+timestamp=1790745179026
+varp=1
+questState=IN_PROGRESS
+stage=RECOVER_TALISMAN
+world=301
+error=none
+airTalisman=1
+researchPackage=0
+researchNotes=0
