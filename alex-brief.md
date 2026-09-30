@@ -1570,3 +1570,10 @@ bypassing the 12s x3 retry. Correction:
 - Alex owns live test and integration; Supervisor is expected to cold-load the plugin.
   No action for Julien unless Alex asks.
 - Feed dark since 23:29:27Z (post-GHOST DONE); client likely down pending Alex's rollout.
+
+## 2026-09-30 14:57 EDT (Muse review loop) -- bot RE-NAVIGATING toward the seaman NPC
+- After the ~10-min HOLD ("NPC seaman-out" absent) and the 14:53:36 move off the Karamja jetty to the grass/gangplank, the player is back ON the Port Sarim jetty (frames 14-55-07 through 14-57-22), standing adjacent to the seaman NPC at the dock gate.
+- 14:55:07 frame shows the red destination X marker placed next to that seaman -- script-driven navigation TOWARD the target, not idle HOLD.
+- Ambiguous whether the "seaman-out" query now resolves (query fixed) or a HOLD-recovery step relocated the player to the seaman tile. HOLD chat line scrolled out of view (cache-hash overlay noise on chat); PNG-only feed continues, no fresh _diag.txt pairs, so no explicit HOLD-vs-interaction proof yet.
+- Watching next frames for: seaman dialogue / Pay-fare interaction evidence (screenshot of dialogue box or NPC chat), or a new HOLD line re-appearing.
+- Standing note stands: logging actual nearby NPC names/ids on HOLD would let the query be matched against reality in one frame.
