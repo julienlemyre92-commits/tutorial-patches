@@ -1,0 +1,11 @@
+build=538
+pid=28120
+timestamp=1790749848089
+varp=60
+questState=IN_PROGRESS
+stage=WAIT_JULIET_CUTSCENE
+world=308
+error=none
+cadavaBerries=0
+message=0
+cadavaPotion=0
