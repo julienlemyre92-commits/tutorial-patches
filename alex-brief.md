@@ -1,3 +1,10 @@
+## 2026-09-30 15:04 EDT (Muse review-loop) -- stationary again at gangplank spot, ~135s idle, no seaman interaction
+
+- 4 NEW frames downloaded/viewed (15-00-22, 15-01-07, 15-01-52, 15-02-37, ~421-425KB real game frames; all added to seen list). Player STATIONARY at the Port Sarim dock gangplank/grass spot (the 14:53 relocation spot) across 15:00:22 -> 15:02:37 -- zero player movement for 135s+ between frames. Session timer 00:17:08 -> 00:19:23 (game live, entities moving around the player).
+- A green-robed NPC stands adjacent to the player in all frames (likely a dock NPC; seaman-like figure also near the fence). Red-X destination markers appear in 15-00-22 (NW of player) and 15-01-52 (by player) -- script may have placed walk destinations but no movement followed. No dialogue open, no boarding interaction, HOLD line scrolled out of view under the cache-hash overlay noise (PNG-only feed, no diag txt pairs since feed resumed).
+- Reading: this looks like a renewed HOLD / walk-failure loop at the gangplank -- the script reached this tile from the jetty (14:55-14:57 movement) and is now parked again. The open defect is still the seaman target resolution ("NPC seaman-out" query vs the loaded scene); standing review note: log actual nearby NPC names/ids on HOLD so the query can be matched against reality.
+- Nothing shipped (review-only; your releases). No action for Julien.
+
 ## 2026-09-30 14:55 EDT (Muse review-loop) -- MOVEMENT after ~10-min HOLD: bot left the jetty, now at dock/gangplank area
 
 - STATE CHANGE: between 14-52-51 and 14-53-36 the player moved off the Karamja jetty (where it had held ~10 min on "NPC seaman-out") to the Port Sarim dock area near a gangplank/fence/tree. 2 new frames downloaded/viewed (14-53-36, 14-54-21, ~423KB real game frames). Session timer 00:10:22 -> 00:11:07, game live; cache-archive-hash mismatch lines still in chat (overlay noise, unchanged).
@@ -1570,11 +1577,3 @@ bypassing the 12s x3 retry. Correction:
 - Alex owns live test and integration; Supervisor is expected to cold-load the plugin.
   No action for Julien unless Alex asks.
 - Feed dark since 23:29:27Z (post-GHOST DONE); client likely down pending Alex's rollout.
-
-## 2026-09-30 14:57 EDT (Muse review loop) -- bot RE-NAVIGATING toward the seaman NPC
-- After the ~10-min HOLD ("NPC seaman-out" absent) and the 14:53:36 move off the Karamja jetty to the grass/gangplank, the player is back ON the Port Sarim jetty (frames 14-55-07 through 14-57-22), standing adjacent to the seaman NPC at the dock gate.
-- 14:55:07 frame shows the red destination X marker placed next to that seaman -- script-driven navigation TOWARD the target, not idle HOLD.
-- Ambiguous whether the "seaman-out" query now resolves (query fixed) or a HOLD-recovery step relocated the player to the seaman tile. HOLD chat line scrolled out of view (cache-hash overlay noise on chat); PNG-only feed continues, no fresh _diag.txt pairs, so no explicit HOLD-vs-interaction proof yet.
-- Watching next frames for: seaman dialogue / Pay-fare interaction evidence (screenshot of dialogue box or NPC chat), or a new HOLD line re-appearing.
-- Standing note stands: logging actual nearby NPC names/ids on HOLD would let the query be matched against reality in one frame.
-- 15:01 EDT (Muse review-loop): 3 new frames 14-58-07/14-58-52/14-59-37 show the player STATIONARY on the Port Sarim jetty for 90s+ (session timer 00:14:53->00:16:23, game live). The 14:55-14:57 red-X navigation toward the seaman has stopped; no dialogue open, no NPC interaction visible, HOLD line still scrolled out under cache-hash overlay noise. Ambiguous: seaman interaction may have occurred silently, or HOLD re-engaged. PNG-only feed continues (no _diag.txt pairs). Standing note stands: logging actual nearby NPC names/ids on HOLD would resolve this in one frame.
