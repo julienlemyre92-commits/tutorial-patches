@@ -1,0 +1,12 @@
+build=539
+pid=27080
+timestamp=1790752880792
+varbit=0
+questState=NOT_STARTED
+stage=WALK_GENERALS
+world=301
+error=none
+goblinMail=0
+orangeMail=0
+blueMail=0
+healthPercent=100.0
