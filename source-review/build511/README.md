@@ -1,0 +1,1 @@
+Build511: inventory reads use the script-owned executor with cancellation, eliminating untracked common-pool tasks during reload. First hot candidate; runtime validation pending. Supervisor helper supports hashed script-only artifacts and requires live build/hash/PID proof.
