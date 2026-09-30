@@ -1,0 +1,11 @@
+build=536
+pid=38168
+timestamp=1790748406617
+varp=10
+questState=IN_PROGRESS
+stage=START_ROMEO
+world=308
+error=none
+cadavaBerries=0
+message=0
+cadavaPotion=0
