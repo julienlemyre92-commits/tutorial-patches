@@ -1,0 +1,11 @@
+build=531
+pid=25448
+timestamp=1790743565926
+varbit=-1
+questState=UNKNOWN
+stage=WAIT_LOGIN
+world=301
+error=none
+spade=0
+ancientCasket=0
+coins=0
