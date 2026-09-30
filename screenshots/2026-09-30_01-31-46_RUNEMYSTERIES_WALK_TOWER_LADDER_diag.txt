@@ -1,0 +1,11 @@
+build=535
+pid=27624
+timestamp=1790746305486
+varp=5
+questState=IN_PROGRESS
+stage=WALK_TOWER_LADDER
+world=301
+error=none
+airTalisman=0
+researchPackage=0
+researchNotes=1
