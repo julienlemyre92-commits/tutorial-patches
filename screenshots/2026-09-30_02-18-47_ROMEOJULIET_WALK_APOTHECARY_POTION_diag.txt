@@ -1,0 +1,11 @@
+build=537
+pid=38388
+timestamp=1790749127765
+varp=40
+questState=IN_PROGRESS
+stage=WALK_APOTHECARY_POTION
+world=301
+error=none
+cadavaBerries=1
+message=0
+cadavaPotion=0
