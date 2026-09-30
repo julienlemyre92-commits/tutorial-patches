@@ -1,3 +1,12 @@
+## 2026-09-30 16:01 EDT (Muse review-loop) -- NEW HOLD SITE: 13 min parked on Wydin's "Select an option" dialogue (Build 568 door fix itself worked)
+
+- 4 NEW frames viewed (15-47-40 HOLD start; 15-58-56/15-59-41/16-00-26 HOLD; all added to seen list). version.txt=567 (Build 568 / patch-567 "door retry cap", shipped 15:46:01 EDT) -- no new ship since the 15:46 run.
+- Build 568's door fix VERIFIED by observed behavior: player went from Wydin's front (15:46:10 WAIT_INVENTORY, trade menu open) to INSIDE the storeroom by 15:47:40. The 15:41 "employee-only" refusal class is closed for this leg.
+- NEW FINDING: the script latched PIRATESTREASURE_HOLD on the Wydin employment "Select an option" dialogue (Yes, can I work out front now? / Yes, are you going to pay me yet? / No, it's a complete mess / Can I buy something please?) and has sat on it 15:47:40 -> 16:00:26 (>=12.5 min): identical frames, same player tile, same inventory, no option picked, same session (00:29:27 -> 00:42:13, game live). Per the hang rule this is a stall, not a deliberation.
+- OBSERVED GAME STATE vs quest flow: storeroom NOT tidied (bananas on the floor AND in inventory; no crate-fill evidence in any frame). Correct sequence is tidy (bananas -> crate) THEN claim pay ("Yes, are you going to pay me yet?"). The script appears to have jumped WAIT_INVENTORY -> report dialogue with no storeroom-tidying plan, then latched instead of deciding.
+- Concrete review notes: (1) close/answer the option dialogue, then drive an explicit TIDY_STOREROOM step (pick bananas, use on crate) before re-talking; pick "pay me yet" only on observed tidy state, never on dialogue completion; (2) do not latch terminal HOLD on a decision dialogue -- this dialogue's text is readable in-frame; use option-text matching with keyPressForDialogueOption(index) as fallback (the Build 337 tutorial-island pattern); (3) print the latch reason to chat -- the feed is PNG-only and the reason is invisible here.
+- No action from me; review-only.
+
 ## 2026-09-30 15:46 EDT (Muse review-loop) -- CORRECTION to the 15:43 finding: white apron IS in inventory now; version.txt=567
 
 - 3 NEW frames viewed (15-44-39, 15-45-25 RETRIEVE_SMUGGLED_RUM; 15-46-10 WAIT_INVENTORY; all added to seen list). version.txt=567 -- you shipped again after the 15:43 run.
