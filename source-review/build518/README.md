@@ -1,0 +1,1 @@
+Build518: repair off-client-thread dairy target resolution; store only primitive object identity across ticks; approach the dairy target before interaction; verify Bucket selection on a later tick before one Milk click; bound inventory proof. Runtime validation pending at publication.
