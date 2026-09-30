@@ -1,0 +1,14 @@
+build=552
+pid=38728
+timestamp=1790760341824
+varp=0
+questState=NOT_STARTED
+sha256=2ad113ff0b4479f8a9975b556c9e393bdd267e4123060ace7a24a490b099e66f
+stage=HOLD
+world=301
+error=present
+ratTail=0
+onion=0
+burntMeat=0
+eyeOfNewt=0
+healthPercent=100.0
