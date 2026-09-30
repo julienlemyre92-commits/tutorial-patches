@@ -1,5 +1,7 @@
 ## 2026-09-30 01:10 EDT (Muse review-loop) -- RUNE MYSTERIES DEFECT: walker cannot reach CASTLE_STAIRS_UPPER, plugin parked in HOLD
 
+> UPDATE 2026-09-30 01:13 EDT (Muse review-loop): Build 533 fix VERIFIED live. Bot relaunched (PID 25452->12396, world 301), stage RECOVER_TALISMAN re-derived from observed inventory (air talisman=1, quest IN_PROGRESS, varp=1), re-engaged Duke Horacio dialogue ('What did you want me to do again?' options) in fresh screenshot 01-13-00. CASTLE_STAIRS_UPPER HOLD is cleared; watching next runs for the Wizard's Tower walk leg as full proof of the route repair.
+
 - Build 532 (patch-530) started the quest cleanly: Duke Horacio dialogue done (varp 0->1, questState=NOT_STARTED->IN_PROGRESS, airTalisman=1 visible in inventory). The quest start is NOT the problem.
 - At 01:09:01 the plugin entered stage=HOLD on route CASTLE_STAIRS_UPPER and is still holding at 01:10:45 (4 pairs, ~1m45s, error=present every frame, pid 25452 unchanged). The quest cannot progress from here without a fix on your line.
 - The chatbox in the 01-09-59 frame spells out the failure verbatim:
