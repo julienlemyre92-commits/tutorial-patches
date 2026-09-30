@@ -1,0 +1,102 @@
+# Sheep Shearer Microbot plugin
+
+Separate novice Lumbridge quest plugin for the existing Microbot client.
+The Restless Ghost, Cook's Assistant, and Tutorial Island classes remain in
+the cumulative client JAR. Build 521 / patch 519 is the proven Ghost baseline.
+
+## Quest sequence checked against the installed Quest Helper
+
+1. Inspect `Quest.SHEEP_SHEARER.getState(client)` and varplayer 179 on the
+   client thread. Only `FINISHED` is completion proof.
+2. At varp 0, speak to Fred the Farmer (NPC 732, 3190,3273,0). Start via
+   “I'm looking for a quest.”, “Yes, okay. I can do that.”, and “Yes.”
+   Confirm varp progression before leaving.
+3. Obtain shears (item 1735) from Fred or a ground item in his house if absent.
+   Enter the sheep pen through the live walker's gate route. Select a live
+   sheep with a `Shear` action, excluding rams and the disguised penguins;
+   require wool (1737) inventory growth after each shear.
+4. Carry up to the free inventory slots worth of wool. The quest needs 20
+   unnoted balls of wool (1759), but Fred accepts partial deliveries.
+   Recalculate remaining as 20 for varp 1, otherwise `21 - varp` for
+   varp 2..20; verify each hand-in by varp increase.
+5. Walk to Lumbridge Castle, use upstairs staircase object 56230 at
+   3204,3207,0 and verify plane 1. Use the spinning wheel object 14889 at
+   3209,3212,1; inspect the live production interface for item 1759 (the
+   installed helper highlights widget group 270 child 14). Click the live
+   product choice once, then prove wool decrease and ball increase. When
+   spinning finishes, descend via staircase 16672 at 3204,3207,1 and verify
+   plane 0.
+6. Return to Fred with unnoted balls. Choose “I need to talk to you about
+   shearing these sheep!”, await observed varp/quest-state change, and repeat
+   bounded gather/spin/turn-in batches until `QuestState.FINISHED`.
+
+The [OSRS Wiki walkthrough](https://oldschool.runescape.wiki/w/Sheep_Shearer)
+confirms 20 balls, Fred-provided shears, the sheep pen, the castle wheel, and
+partial deliveries. Exact IDs and coordinates above came from the installed
+client's Quest Helper bytecode and must be checked against live scene objects.
+
+## Release and validation
+
+Build 528 packages into cumulative patch 526 and a separate plugin artifact.
+The first plugin load requires a cold RuneLite restart. The Supervisor restores
+saved RuneLite bounds `(1376,124,820,702)` before login to preserve the OBS
+scene. The loaded `RUNNING_BUILD` marker and fresh PID-matched status, rather
+than the disk patch number, prove the running code. Build 527 completed one
+Sheep Shearer run on PID 14280: varp 179 reached 21, `QuestState.FINISHED`,
+and the game displayed the congratulations scroll at 00:15:49 EDT on
+September 30. The initial login required one explicit invocation of the
+existing launcher helper, so that run does not prove automatic login. A
+second fresh quest run and Build 528 gameplay validation remain pending.
+
+## Build 523 focused correction
+
+Build 522 loaded on PID 25452 and autonomously started Fred's quest: varp 179
+advanced from 0 to 1 and shears appeared in inventory. The next action exposed
+an inventory-capacity bug: `ItemContainer#getItems()` contained only populated
+entries, so counting absent entries inside that array reported zero free slots
+and sent the player toward Draynor Bank despite visible space. Build 523 uses
+the installed `Rs2Inventory.emptySlotCount()` API for the 28-slot capacity
+decision and records `emptySlots` in status. The rest of Sheep Shearer remains
+under live validation; this is not a completion claim.
+
+## Build 524 focused correction
+
+Build 523 autonomously gathered 20 wool and climbed the castle staircase.
+At the first-floor wheel, a four-tile arrival threshold left the player across
+the room wall. Three `Spin` clicks were accepted by the client API but the game
+said “Can't reach that!”, then the bounded proof correctly entered HOLD at
+23:54:20 EDT. Build 524 routes to an adjacent wheel tile before clicking.
+It also re-resolves and validates the production widget on the client thread
+at click time, addressing Muse's review finding about transient null bounds.
+Build 524 loaded on PID 35488 but its target object tile was sealed. The
+walker retargeted to the player's current tile (3207,3212,1) and the script
+held after three unproved approach attempts. No balls were produced.
+
+## Build 525 focused correction
+
+The installed walker's own log showed `sealed_target_retarget`, so Build 525
+targets an actual floor tile within the wheel room (3210,3212,1) with exact
+arrival proof before trying `Spin`. Historical Lumbridge map data shows that
+tile as floor rather than a solid object. The live client's route and door
+crossing were verified on PID37944 at 00:03:32 EDT.
+
+## Build 526 focused correction
+
+Build 525 opened the wheel interface at 00:03:36 EDT. `Spin` automatically
+moved the player from the exact approach tile to (3209,3213,1), where the
+script walked back and closed the interface. It repeated this route/open
+cycle with wool unchanged. Build 526 recognizes the interior room area and
+preserves an open production interface before choosing the product.
+Build 526 later proved wool-to-ball conversion in the live client.
+
+## Build 527 focused correction
+
+Build 526 loaded on PID14872, produced at least 19 balls through proved wool decrease and ball increase, then entered the Fred return stage. The full Microbot walker to the upstairs staircase repeatedly clicked (3205,3209,1) from unchanged player tile (3206,3211,1) for over two minutes. Its blocking call prevented status writes and the quest's 12-second proof timeout from starting. Build 527 removes only that pre-stair walk and issues one live staircase `Climb-down` interaction with the existing later plane-change proof and three-attempt HOLD. The completed 20-ball count, descent, Fred turn-in, varp 21, and `QuestState.FINISHED` were observed in the live Build 527 run.
+
+## Natural behavior goal
+
+Build 528 adds bounded action pacing after proved changes, based on the design
+in `work/questcommon/NATURAL_PACING.md`. Observation and pending-action proof
+still run every tick, and failed interactions retain finite retries and HOLD.
+Pacing has not yet been validated on a fresh Sheep Shearer quest. Target
+variation and safe camera decisions remain candidates for later focused work.
