@@ -1,0 +1,12 @@
+build=528
+pid=35064
+timestamp=1790742249022
+varp=21
+questState=FINISHED
+stage=DONE
+world=308
+error=none
+wool=0
+balls=0
+shears=1
+emptySlots=22
