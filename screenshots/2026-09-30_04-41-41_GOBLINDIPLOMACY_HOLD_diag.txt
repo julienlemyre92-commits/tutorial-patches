@@ -1,0 +1,12 @@
+build=550
+pid=11632
+timestamp=1790757700188
+varbit=5
+questState=IN_PROGRESS
+stage=HOLD
+world=308
+error=present
+goblinMail=1
+orangeMail=0
+blueMail=0
+healthPercent=100.0
