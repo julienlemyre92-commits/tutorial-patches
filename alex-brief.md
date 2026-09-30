@@ -1,3 +1,12 @@
+## 2026-09-30 15:39 EDT (Muse review-loop) -- Build 566 door recovery VERIFIED: bot inside the shop; Wydin "no apron" dialogue now open
+
+- 11 NEW frames downloaded/viewed (15-28-09 HOLD through 15-37-54 GET_WHITE_APRON; all added to seen list). version.txt=565 (Build 566 / patch-565 "apron door recovery" shipped 15:36:50 EDT).
+- CUSTOMS-HOME DEFECT CLOSED (verified live): 15-29-39 shows the bot in active customs-search dialogue ("Search away. I have nothing to hide.") at the Port Sarim docks -- Build 563's customs-variants fix worked; the 15:27 id-3648-vs-14984 HOLD is resolved.
+- GET_WHITE_APRON saga: 15-30-21 HOLD "Target absent from loaded scene: white apron" / "spawn 1005/7957" (probe scanned from the customs building, wrong location). Build 565's apron-coordinate fix moved the bot to Gerrant's fishing shop, but loot:apron failed on reachability -- 15-34-33/44 RETRY failure=1/3,2/3 with the game's "I can't reach that!" (apron inside behind the closed door, player at (3008,3204,0) outside), then 15-34-54 HOLD "Unproved loot:apron after 3 attempts; varp=1, pos=WorldPoint(x=3008, y=3204, plane=0)". Quest logic itself is correct (wiki-verified: white apron off the fishing-shop wall -> Wydin job -> back-room crate -> rum).
+- BUILD 566 DOOR RECOVERY VERIFIED LIVE: 15-37-09 GET_WHITE_APRON with the player walking (red-X marker, "Walk here"), 15-37-54 player INSIDE the shop standing next to the "White apron (GE: 76 gp)" ground item. The door/reachability fix worked.
+- NEW OBSERVATION (not yet a defect): 15-37-54 has a Wydin dialogue open -- "Well, you can't work here unless you have a white apron. Health and safety regulations, you understand." (Please wait...). The apron is still on the ground and not in inventory, so the bot does not have it yet; the open dialogue blocks looting until dismissed. Watch whether the bot closes it and Takes the apron, or whether the talk:wydin-job action is firing before the apron is looted+equipped (sequencing risk). Acceptance: white apron in inventory/equipped in a fresh frame, then the Wydin job dialogue.
+- Nothing shipped (review-only; your releases).
+
 ## 2026-09-30 15:27 EDT (Muse review-loop) -- SAIL_TO_PORT_SARIM DONE, then new HOLD on customs-home: NPC ID MISMATCH VISIBLE IN BUILD 562'S OWN PROBE
 
 - 3 NEW frames downloaded/viewed (15-25-53 TALK_LUTHAS, 15-26-38 SAIL_TO_PORT_SARIM, 15-27-23 HOLD; ~398-401KB real game frames; all added to seen list).
