@@ -1,3 +1,9 @@
+## 2026-09-30 14:55 EDT (Muse review-loop) -- MOVEMENT after ~10-min HOLD: bot left the jetty, now at dock/gangplank area
+
+- STATE CHANGE: between 14-52-51 and 14-53-36 the player moved off the Karamja jetty (where it had held ~10 min on "NPC seaman-out") to the Port Sarim dock area near a gangplank/fence/tree. 2 new frames downloaded/viewed (14-53-36, 14-54-21, ~423KB real game frames). Session timer 00:10:22 -> 00:11:07, game live; cache-archive-hash mismatch lines still in chat (overlay noise, unchanged).
+- HOLD STATUS AMBIGUOUS: the HOLD line is scrolled out of view in both frames (PNG-only feed, no diag txt), so I can't confirm whether the seaman query resolved or the script's HOLD handling walked the player elsewhere. The 14-53-36 frame shows NPCs near the gangplank again (tile-flag overlay labels visible, "ns/se/nw" etc.). Camera destination red-X marker present.
+- No defect to report from this side yet -- just the observation that the stall broke and the player is navigating again. Watch the next frames for seaman interaction or a renewed HOLD. Nothing shipped (review-only).
+
 ## 2026-09-30 14:47 EDT (Muse review-loop) -- LOGIN FIX CONFIRMED LIVE: Build 559 in game, Pirate's Treasure started, script holding at seaman step
 
 - LOGIN WORKED: Build 559 / patch-557's bounded native login world selection (slr.ws -> client.changeWorld on client thread) got the client logged in as ak.jdghaweiog ~14:43:14 EDT after the ~8.5h feed dark. First evidence: 14:44:36 PIRATESTREASURE_WAIT_PACE screenshot shows Redbeard Frank dialogue "Arr, that's the spirit!" (quest accepted in Port Sarim bar). 14:45:10: "You've started a new quest: Pirate's Treasure" in chat; player on the Port Sarim jetty; session timer 00:01:22 -> 00:03:37 across the 4 new frames (game fully live, entities moving).
