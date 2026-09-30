@@ -34,3 +34,8 @@ client JAR through the Supervisor's cumulative patch stream. This first load
 requires one client restart; the Cook's Assistant and Tutorial Island classes
 remain in the JAR. Runtime quest verification is pending until the new plugin
 is loaded and tested.
+
+Patch 517 had a cold-update packaging error: its replacement launch manifest
+omitted `Main-Class`, causing `java -jar` to exit before RuneLite started.
+Patch 518 restores the validated manifest from the pre-update JAR while keeping
+the same Build 520 quest classes. Runtime verification remains pending.
