@@ -1,0 +1,14 @@
+build=553
+pid=35236
+timestamp=1790761050986
+varp=1
+questState=IN_PROGRESS
+sha256=66ab826463550904aec4444297bd5b641575d63331c37bea50794a9eecce2e00
+stage=BUY_BETTY_NEWT
+world=308
+error=none
+ratTail=1
+onion=1
+burntMeat=0
+eyeOfNewt=0
+healthPercent=100.0
