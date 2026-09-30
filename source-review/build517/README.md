@@ -1,0 +1,1 @@
+Build517: retain the live Milk-action-validated dairy object, resolve it again from the scene cache by exact id and adjacent selected tile, avoid blocking composition lookup on the action tick, then issue a single Milk interaction and require next-tick Bucket of milk inventory proof. Missing/stale object holds with a typed diagnostic. Runtime validation pending at publication.
