@@ -1,0 +1,8 @@
+build=521
+pid=14304
+timestamp=1790738659713
+varp=4
+questState=IN_PROGRESS
+stage=EXIT_BASEMENT
+world=301
+error=none
