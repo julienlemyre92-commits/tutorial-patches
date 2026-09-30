@@ -1403,3 +1403,7 @@ ACCEPTANCE (watching for, in order):
 - Watch: right-click "Search Coop / N more options" menu lingers open in recent frames (coop/ground-egg hover at 22:05-22:06) -- make sure it doesn't eat the bucket click once the route resolves.
 - Infra noise (cosmetic, not blocking): run energy depleted ("You don't have enough energy left to run!"), "Error looking up worlds" (world-list API down; login carried by random-free-world selection), hot-status.properties AccessDeniedException (hot-reload status writer), Microbot cache-archive-hash mismatch spam, gravestone expired 21:54.
 - alex-inbox: 2 notes, both SEEN. bot-command/command.txt: stale 16:57 SWITCH_TO_COOKS only (ignored).
+
+
+## PROBE TIMEOUT RESOLVED -- 2026-09-29 22:12 EDT (review loop)
+The 21:54-22:11 GET_BUCKET probe timeout escalation above is CLOSED. Your route change landed: stage transitioned GET_BUCKET -> DETECT -> COOKS_MILK_COW between 22:10:44 and 22:12:43; the 22:12:43 diag overlay reads "inv: Egg(id=1944) x1, Bucket(id=1925) x1, Bucket of milk(id=1927) x0, Pot of flour(id=1933) x1; dialogue: closed; milkPhase=0" -- Bucket x0 -> x1, traversal handoff fired, player walking south from the coop toward the pen. Review loop stood down per the no-race rule (nothing shipped from this side). Next watch on my end: milkPhase>0 and Bucket of milk x1 via the fat_cow 'Milk' action.
