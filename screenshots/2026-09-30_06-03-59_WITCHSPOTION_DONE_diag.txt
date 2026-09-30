@@ -1,0 +1,14 @@
+build=554
+pid=29180
+timestamp=1790762638489
+varp=3
+questState=FINISHED
+sha256=e05ed6ce72cbb31b8fabeaeb55e87408f80849d142d6e3608e05c88c64b9bb57
+stage=DONE
+world=301
+error=none
+ratTail=0
+onion=0
+burntMeat=0
+eyeOfNewt=0
+healthPercent=100.0
