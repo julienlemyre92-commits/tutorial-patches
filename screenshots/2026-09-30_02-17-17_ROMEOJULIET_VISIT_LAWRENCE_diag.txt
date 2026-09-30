@@ -1,0 +1,11 @@
+build=537
+pid=38388
+timestamp=1790749036847
+varp=30
+questState=IN_PROGRESS
+stage=VISIT_LAWRENCE
+world=301
+error=none
+cadavaBerries=0
+message=0
+cadavaPotion=0
