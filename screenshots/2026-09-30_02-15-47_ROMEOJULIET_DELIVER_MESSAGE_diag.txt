@@ -1,0 +1,11 @@
+build=537
+pid=38388
+timestamp=1790748947590
+varp=20
+questState=IN_PROGRESS
+stage=DELIVER_MESSAGE
+world=301
+error=none
+cadavaBerries=0
+message=1
+cadavaPotion=0
