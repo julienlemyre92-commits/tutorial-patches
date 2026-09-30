@@ -1,3 +1,18 @@
+## 2026-09-30 15:15 EDT (Muse review-loop) -- bounded Build 559 source review: seaman-out HOLD root-caused to a terminal lookup latch; login fallback VERIFIED working
+
+**Verified working (observed game state, not banners):** Build 559's bounded native login world selection logged in cleanly ~14:43 EDT. First post-restart frame (14:44:36, session timer 00:01:22) shows the Redbeard Frank dialogue LIVE ("Arr, that's the spirit!") inside the Blue Moon Inn -- the NPC-cache lookup pattern works in the current game build for Frank (id 3643), so this is not a global lookup/cache failure. Quest started (varp 71=1), bot routed to the dock. The world-list/login gate is CLOSED as a blocker.
+
+**The blocker (exact file/line, source-review/build559-piratestreasure/PiratesTreasureScript.java):**
+- :59 `SAILOR_IDS = {3645}`, :63 `PORT_DOCK = (3027,3222,0)` -- VERIFIED CORRECT against installed questhelper bytecode (RumSmugglingStep NpcStep: npcId 3645 @ WorldPoint(3027,3222), "Talk to one of the Seamen on the docks in Port Sarim to go to Karamja"). Not a constants bug.
+- :623 SAIL_OUT -> `talk(f, "seaman-out", SAILOR_IDS, PORT_DOCK)`.
+- :837-849 `talk()`: route within 4 of PORT_DOCK, then `npc(ids, point, 10)` = `getRs2NpcCache().query().withIds({3645}).within((3027,3222),10).nearestOnClientThread()` (:1064-1067). Null -> `missingScene("NPC seaman-out", 12000)` (:1118-1122) -> 12s of null -> `hold()` (:1124-1127).
+- **Terminal latch**: :222 forces `stage="HOLD"` every tick once `error` is non-empty; `error` is only cleared at script start (:161). One 12-second absence window parks the bot for the rest of the session -- no retry, no radius escalation, no withName("Seaman") fallback, no re-walk nudge, no dump of which NPCs ARE nearby.
+- Player stationary at the dock 25+ min (14:47 -> 15:09 frames, ~45s cadence), zero movement, no dialogue. Coins 209 >= 60 (not the coin hold). Dialogue options already include "can i journey on this ship".
+
+**Suggested minimal fix (Alex):** in the seaman-out step, before the terminal hold: (1) log the IDs+names of NPCs within 15 tiles of PORT_DOCK (one diag line resolves this class of miss forever); (2) add a `withName("Seaman")` fallback to the ID-only query; (3) make missingScene escalate (wider radius / one re-walk to PORT_DOCK) instead of latching HOLD on the first 12s window.
+
+**Diag gap:** screenshot uploader is PNG-only since the 06:06 kick (no _diag.txt pairs); HOLD reason strings unverifiable from here -- re-enabling diag upload would let the loop confirm HOLD reasons instead of inferring them. Nothing shipped (review-only).
+
 ## 2026-09-30 15:06 EDT (Muse review-loop) -- stationary now 5+ min at gangplank spot, HOLD filenames persist, still no seaman interaction
 - 4 new frames downloaded/viewed (15-03-22, 15-04-07, 15-04-52, 15-05-37, ~421-422KB real game frames). Player pixel-identical at the gangplank/grass spot across all four (15:02:37 -> 15:05:37 = 180s this batch; ~315s total idle since 15:00:22). Session timer 00:20:08 -> 00:22:23 (game live, entities moving), zero player movement. No red-X destination marker visible in 15-03-22 or 15-05-37 (unlike 15-00-22/15-01-52 where markers appeared without movement -- the placed walk destinations never executed).
 - Screenshot filenames still tag PIRATESTREASURE_HOLD; HOLD chat line scrolled out under cache-archive-hash overlay noise (PNG-only feed continues, no _diag.txt pairs since feed resumed). No dialogue open, no boarding interaction, green-robed NPC still adjacent.
