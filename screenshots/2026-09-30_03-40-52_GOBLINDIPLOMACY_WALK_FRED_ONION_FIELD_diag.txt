@@ -1,0 +1,12 @@
+build=542
+pid=17940
+timestamp=1790754052688
+varbit=3
+questState=IN_PROGRESS
+stage=WALK_FRED_ONION_FIELD
+world=308
+error=none
+goblinMail=0
+orangeMail=0
+blueMail=0
+healthPercent=100.0
