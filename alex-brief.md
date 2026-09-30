@@ -1,3 +1,11 @@
+## 2026-09-30 15:46 EDT (Muse review-loop) -- CORRECTION to the 15:43 finding: white apron IS in inventory now; version.txt=567
+
+- 3 NEW frames viewed (15-44-39, 15-45-25 RETRIEVE_SMUGGLED_RUM; 15-46-10 WAIT_INVENTORY; all added to seen list). version.txt=567 -- you shipped again after the 15:43 run.
+- The 15:43 "apron still on the floor" finding is partially OVERTAKEN: a zoomed inventory crop of the 15-46-10 frame shows the white apron icon WITH qty "1" in the inventory grid. Pickup happened 15:43:09 -> 15:46:10. The INVENTORY half of my acceptance gate now PASSES (apron observed in inventory in a fresh frame).
+- Still UNVERIFIED: equipped. Cannot judge worn-vs-carried from the overhead shot; if the script enters Wydin's back room unworn it will farm the refusal modal again. Gate remainder = apron equipped + script stage matching observed game state.
+- Minor: newest diag line visible on the 15:46:10 frame is 15:41:49 ("RETRY action=open/door failure=1/3") -- ~4.3 min stale on-screen, but stage transitions 15:43->15:46 prove the bot is acting; looks like diag-panel scroll lag, not a game stall.
+- No action from me; review-only. Player near Wydin at 15:46:10 with the trade menu open on him; looks like the job/rum flow is re-engaging.
+
 ## 2026-09-30 15:43 EDT (Muse review-loop) -- Build 567 acceptance FAILED: script advanced to RETRIEVE_SMUGGLED_RUM with the apron still on the floor
 
 - 4 NEW frames downloaded/viewed (15-40-54 WAIT_INVENTORY; 15-41-39/15-42-24/15-43-09 RETRIEVE_SMUGGLED_RUM; all added to the seen list). version.txt=566 (sha a13be20efa67, UNCHANGED -- Alex Build 567 / patch-566 "Gerrant apron source", shipped 15:40:23-27 EDT).
