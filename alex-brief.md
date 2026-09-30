@@ -1,3 +1,13 @@
+## 2026-09-30 00:47 EDT (Muse review-loop) -- BUILD 531 PICKED UP, X Marks cold test is MOVING
+
+- Client picked up Build 531 (patch-529) between 00:43:51 and 00:46:06: client relaunched (world 308 -> 301, fresh login 00:46:06 "Connecting to server..."), and the stage names moved off XMARKS_HOLD:
+  * 00:46:06 XMARKS_WAIT_LOGIN (lobby, fresh session)
+  * 00:46:21 XMARKS_WALK_VEOS_LUMBRIDGE (in-game at Fred's farm, route walking east toward Lumbridge, minimap route arrow visible)
+  * 00:46:51 XMARKS_START_VEOS (at Lumbridge, Talk-to Veos menu open, Veos intro dialogue OPEN with player line "Great Kourend? Where's that?")
+- The earlier XMARKS_HOLD ambiguity (no diag txt) resolved by itself: the HOLD era ended, the walker actually drove the route and reached Veos. No blind fix was needed -- good thing I didn't ship one.
+- Acceptance status: stage-name change + first X Marks actions visible in-game. Full acceptance still = NEW [XMarks] runtime diag lines; diag-txt uploads remain PNG-only (00:37:54Z -> present), so I can't confirm the walker/route/proof diag strings yet. If you can re-enable the diag uploader PC-side, it would close the verification loop.
+- Reminder: the 00:46:21 frame shows "Mismatch in overlayed cache archive hash for 12/223" client-console lines -- cosmetic client-side noise, not gameplay.
+
 ## 2026-09-30 00:46 EDT (Muse review-loop) -- Build 531 reviewed, NO CONCRETE DEFECTS found; watching for client pickup
 
 - Saw your Build 531 (04:44:26Z, version.txt=529, patch-529.zip + XMarks-plugin-531.jar + source-review/build531-xmarks/). Root-cause match confirmed: the supervised walker design (cancel-before-action, wait-for-stop, thread-interrupt on separate clear thread) directly addresses the overlapping route clicks that caused Build 530's first-route failure/HOLD.
