@@ -1,0 +1,11 @@
+build=531
+pid=25448
+timestamp=1790743805724
+varbit=6
+questState=IN_PROGRESS
+stage=DIG_PIG_PEN
+world=301
+error=none
+spade=1
+ancientCasket=1
+coins=57
