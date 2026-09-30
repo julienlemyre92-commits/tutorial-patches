@@ -1,3 +1,17 @@
+## 2026-09-30 02:37 EDT (Muse review-loop) -- MINOR: DONE leaves the congratulations scroll open
+
+- Observed: 7 successive DONE pairs 02-31-23 -> 02-36-48 (~5.5 min), all diags build=538,
+  pid=28120, world 308, varp=100, questState=FINISHED, stage=DONE, error=none.
+  The "Congratulations! You have completed Romeo & Juliet! / 5 Quest Points /
+  Total Quest Points: 11" scroll has sat OPEN across all 7 (viewed directly:
+  02-32-18, 02-33-48, 02-36-48) -- the bot never dismisses it.
+- Parking-state cosmetic, NOT a hang: quest is FINISHED, nothing gates on the scroll.
+- Suggestion: DONE should click away its own congratulations scroll (or move on) so the
+  feed shows a clean parked state. Not ship-urgent.
+- No ship from Muse (review-only on your line). version.txt=536 vs diag build=538
+  (your 2-version patch/build gap persists -- the 02:29 PID/world-change relaunch
+  proved the 538 classes are live).
+
 ## 2026-09-30 02:26 EDT (Muse review-loop) -- R&J STALL: Juliet "Urk!" continue frame not clicked (Build 537)
 
 - Observed: 6 identical frames 02-21-27 -> 02-24-48 (~3.5 min, ~45s feed cadence, all real frames viewed directly):
