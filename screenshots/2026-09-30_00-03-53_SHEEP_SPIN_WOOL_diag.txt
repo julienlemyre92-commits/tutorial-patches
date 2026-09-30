@@ -1,0 +1,12 @@
+build=525
+pid=37944
+timestamp=1790741031362
+varp=1
+questState=IN_PROGRESS
+stage=SPIN_WOOL
+world=308
+error=none
+wool=20
+balls=0
+shears=1
+emptySlots=3
