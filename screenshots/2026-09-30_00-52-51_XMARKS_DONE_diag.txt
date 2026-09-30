@@ -1,0 +1,11 @@
+build=531
+pid=25448
+timestamp=1790743971253
+varbit=8
+questState=FINISHED
+stage=DONE
+world=301
+error=none
+spade=1
+ancientCasket=0
+coins=257
