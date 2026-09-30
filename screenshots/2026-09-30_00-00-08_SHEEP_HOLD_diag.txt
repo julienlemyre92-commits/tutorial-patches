@@ -1,0 +1,12 @@
+build=524
+pid=35488
+timestamp=1790740808533
+varp=1
+questState=IN_PROGRESS
+stage=HOLD
+world=301
+error=present
+wool=20
+balls=0
+shears=1
+emptySlots=3
