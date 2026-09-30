@@ -1,0 +1,11 @@
+build=531
+pid=25448
+timestamp=1790743580493
+varbit=0
+questState=NOT_STARTED
+stage=WALK_VEOS_LUMBRIDGE
+world=301
+error=none
+spade=0
+ancientCasket=0
+coins=60
