@@ -1,0 +1,11 @@
+build=534
+pid=12384
+timestamp=1790745629969
+varp=1
+questState=IN_PROGRESS
+stage=BRING_TALISMAN
+world=308
+error=none
+airTalisman=1
+researchPackage=0
+researchNotes=0
