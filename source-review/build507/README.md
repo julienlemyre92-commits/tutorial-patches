@@ -1,0 +1,1 @@
+Build507: install stable script reload host (one bootstrap restart), native login state fast path, scheduler termination, exact bucket arrival. Live hot reload pending validation. Script-only replacement excludes config, overlay and shared APIs. Failed teardown holds rather than starting duplicates.
