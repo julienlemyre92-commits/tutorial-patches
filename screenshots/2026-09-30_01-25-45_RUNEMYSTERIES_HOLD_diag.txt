@@ -1,0 +1,11 @@
+build=534
+pid=12384
+timestamp=1790745944417
+varp=5
+questState=IN_PROGRESS
+stage=HOLD
+world=308
+error=present
+airTalisman=0
+researchPackage=0
+researchNotes=1
