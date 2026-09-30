@@ -1,0 +1,12 @@
+build=541
+pid=32036
+timestamp=1790753804854
+varbit=3
+questState=IN_PROGRESS
+stage=WAIT_REDBERRY_STOCK
+world=308
+error=none
+goblinMail=0
+orangeMail=0
+blueMail=0
+healthPercent=100.0
