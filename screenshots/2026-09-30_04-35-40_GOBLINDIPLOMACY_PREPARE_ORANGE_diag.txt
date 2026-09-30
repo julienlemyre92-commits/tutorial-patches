@@ -1,0 +1,12 @@
+build=549
+pid=37304
+timestamp=1790757340812
+varbit=3
+questState=IN_PROGRESS
+stage=PREPARE_ORANGE
+world=301
+error=none
+goblinMail=3
+orangeMail=0
+blueMail=0
+healthPercent=100.0
