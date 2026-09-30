@@ -1,0 +1,11 @@
+build=531
+pid=25448
+timestamp=1790743692115
+varbit=3
+questState=IN_PROGRESS
+stage=WAIT_PACE
+world=301
+error=none
+spade=1
+ancientCasket=0
+coins=57
