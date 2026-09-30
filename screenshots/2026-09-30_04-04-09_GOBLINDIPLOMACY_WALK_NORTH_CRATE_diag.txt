@@ -1,0 +1,12 @@
+build=544
+pid=37596
+timestamp=1790755449035
+varbit=3
+questState=IN_PROGRESS
+stage=WALK_NORTH_CRATE
+world=301
+error=none
+goblinMail=0
+orangeMail=0
+blueMail=0
+healthPercent=100.0
