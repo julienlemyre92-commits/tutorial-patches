@@ -1,0 +1,12 @@
+build=539
+pid=27080
+timestamp=1790752997953
+varbit=0
+questState=NOT_STARTED
+stage=TALK_GENERALS_START
+world=301
+error=none
+goblinMail=0
+orangeMail=0
+blueMail=0
+healthPercent=100.0
