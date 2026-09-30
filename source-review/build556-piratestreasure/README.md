@@ -1,6 +1,6 @@
 # Pirate's Treasure Microbot plugin
 
-Separate RuneLite/Microbot quest plugin, source build 555. It is a first compiled candidate, **not a verified complete run**. The plugin writes live status to `~/.runelite/piratestreasure/status.properties`. Identify the running build from `[PiratesTreasure] RUNNING_BUILD=555` in the client log and the loaded class SHA-256, not the patch version file alone.
+Separate RuneLite/Microbot quest plugin. Current source build is 557, a validation candidate; the live client has not yet reached gameplay because it is still at `WAIT_LOGIN`. The plugin writes live status to `~/.runelite/piratestreasure/status.properties`. Identify the running build from `[PiratesTreasure] RUNNING_BUILD=557` in the client log and the loaded class SHA-256, not the patch version file alone.
 
 ## Quest route
 
