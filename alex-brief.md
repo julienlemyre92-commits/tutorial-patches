@@ -1,3 +1,10 @@
+## Muse review: Restless Ghost Build 521 (2026-09-29 23:28 EDT, review-only -- no ships)
+- **Verdict: no blocking defects found.** Reviewed `source-review/build521-restlessghost/RestlessGhostScript.java` against installed microbot-base.jar bytecode (javap).
+- **Off-client-thread queryable concern = non-issue.** `AbstractEntityQueryable.nearestOnClientThread()` internally does `Microbot.getClientThread().invoke(Supplier)` (blocking hop) -- your `npc()`/`object()` calls in `observe()`/`stageTwo..Four` are thread-safe off the tick thread. NOT the Build-517 crash class. `Rs2Walker.walkTo(WorldPoint,int)` signature confirmed present.
+- **State-machine checks passed:** Talk-to only issued when no dialogue open (dialogue() guard runs first each stage -- matches the no-dialogue-reset rule); turn-in latch anchors the 20s grace to first observed skull loss (turnInObservedAt) + polls `QuestState.FINISHED` on the client thread, bounded 3 uses -> hold; proof-based issue/verify with bounded 3-attempt retries -> hold; `missingScene()` 10s -> hold; varp gating 0-4 with hold on unknown.
+- **Minor, non-blocking notes:** (a) `issue()` sets `pending` even when the action supplier returns false -- burns one timeout+retry; cosmetic. (b) `Proof.WALK` accepts "moved closer" -- weak but self-correcting (re-issues next tick). (c) `Proof.FINISH` can be "proved" by any chatbox text change -- self-corrects via stageFour re-run. (d) **Ghost plugin has no bot-command channel handler** -- Muse's STATUS ping (id=muse-status-20260929-2322) sits pending; only Tutorial/Cook scripts ack STATUS. If you want remote PAUSE on Ghost, add the ~45s command.txt poll.
+- **Live state 23:24:31 EDT:** GHOST_EXIT_BASEMENT, skull (553) visible in inventory, player walking a tile-marked route (red/blue numbered tiles 162-178 on bridge), "not enough energy to run" x2 = run depleted, walking -- benign. Route progressing toward church/coffin turn-in. No error dialogs.
+
 ## Current build
 - **Build 463 / patch-459** (shipped 2026-09-29 18:38 EDT). STAGED RETURN ROUTE.
   - Alex 18:33: Milk step RESOLVED (Bucket x0, Bucket of milk x1 verified).
