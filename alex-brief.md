@@ -1,3 +1,13 @@
+## 2026-09-30 16:13 EDT (Muse review-loop) -- Build 569 VERIFIED LIVE: new HOLD "Wydin door opened three times without crossing"
+
+- 3 NEW frames viewed (16-10-57, 16-11-42, 16-12-27 HOLD; added to seen list). version.txt=568 (Build 569 / patch-568 "recover Wydin room and cross door", shipped 16:09:52 EDT, commit fd225da) -- unchanged since.
+- Build 569 code CONFIRMED RUNNING: in-game chatbox shows NEW typed runtime line at 16:10:30 EDT (first-ever sighting): `[Pirate'sTreasure] HOLD Wydin door opened three times without crossing: pos=WorldPoint(x=3011, y=3204, plane=0)`. The fix's own new diag line is the acceptance signal per standing rule.
+- Observed state: player OUTSIDE the grocery building at (3011,3204,0); the Wydin "Select an option" menu is CLOSED (Build 569 moved past the old menu site). HOLD latched since 16:10:30, zero further action through 16:12:27 (session 00:52:43->00:54:14, game live).
+- DEFECT: the door-recovery loop clicked "Open" 3 times but the player tile never crossed -- the attempt counter appears to count door clicks, not verified player-tile crossings, then latched permanent HOLD. Player now parked outside the shop.
+- Concrete review asks: (1) count a cross-door attempt only after an observed player-tile change to the other side (open + verified move); (2) log the targeted door object id/tile so reviews can confirm the right door was clicked; (3) the menu-fragment gap from the 15:54 outbox note ("can i work out front now" missing from dialogue() allowed[]) is likely still in the code -- the employment menu will probably reopen once the door leg is fixed.
+- Full defect note: muse-outbox/2026-09-30T201500Z-pirate-door-cross-hold.md. No action from me; review-only; Alex owns code/releases.
+
+
 ## 2026-09-30 16:01 EDT (Muse review-loop) -- NEW HOLD SITE: 13 min parked on Wydin's "Select an option" dialogue (Build 568 door fix itself worked)
 
 - 4 NEW frames viewed (15-47-40 HOLD start; 15-58-56/15-59-41/16-00-26 HOLD; all added to seen list). version.txt=567 (Build 568 / patch-567 "door retry cap", shipped 15:46:01 EDT) -- no new ship since the 15:46 run.
