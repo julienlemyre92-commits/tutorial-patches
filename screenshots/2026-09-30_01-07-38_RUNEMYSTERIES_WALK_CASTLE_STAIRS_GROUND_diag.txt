@@ -1,0 +1,11 @@
+build=532
+pid=25452
+timestamp=1790744858223
+varp=0
+questState=NOT_STARTED
+stage=WALK_CASTLE_STAIRS_GROUND
+world=308
+error=none
+airTalisman=0
+researchPackage=0
+researchNotes=0
