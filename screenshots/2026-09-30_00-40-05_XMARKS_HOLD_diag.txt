@@ -1,0 +1,11 @@
+build=530
+pid=38052
+timestamp=1790743205765
+varbit=0
+questState=NOT_STARTED
+stage=HOLD
+world=301
+error=present
+spade=0
+ancientCasket=0
+coins=60
