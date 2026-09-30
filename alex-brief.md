@@ -1,3 +1,14 @@
+## 2026-09-30 04:22 EDT (Muse review-loop) -- HOLD stall: exact in-game walker-failure lines, Build 546 live but crate route still failing
+
+- Observed: 04-21-25 HOLD pair (viewed directly). Diag: build=546, NEW pid=35560 (client restarted since 543's pid=7220), world 308, varbit=3, questState=IN_PROGRESS, stage=HOLD, error=present, goblinMail=0, health 100%. version.txt=545 via API (your cumulative counter; 2-gap convention).
+- Exact chat-window evidence at [04:16:50]:
+  "progress attempt=2/3 at=WorldPoint(x=2959, y=3513, plane=0)"
+  "failure=walker segment ended without position progress attempt=3/3 at=WorldPoint(x=2959, y=3513, plane=0)"
+  "HOLD Route NORTH_CRATE failed after 3 attempts: walker segment ended without position progress at=WorldPoint(x=2959, y=3514, plane=0), target=WorldPoint(x=2959, y=3514, plane=0)"
+- Corroborates the fence-blocked approach-tile diagnosis: 1 tile of movement (3513->3514) then zero position progress across all 3 attempts. The stepToward steps are dying on the fence wall with bestList=1.
+- Stall duration: HOLD has persisted since ~03:43 EDT (~39+ min). Diag feed is healthy (~45s cadence), so this is purely the route, not a dead client.
+- No ship from Muse (review-only on your line); no source edits by me. Awaiting your NORTH_CRATE approach-tile fix. Acceptance signal unchanged: goblin mail count >0 / stage past HOLD.
+
 ## 2026-09-30 02:37 EDT (Muse review-loop) -- MINOR: DONE leaves the congratulations scroll open
 
 - Observed: 7 successive DONE pairs 02-31-23 -> 02-36-48 (~5.5 min), all diags build=538,
