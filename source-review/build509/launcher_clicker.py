@@ -618,10 +618,10 @@ def switch_world():
     The old implementation assumed fixed world-list percentages. Window moves,
     DPI scaling, and list layout changes made that click unreliable. We now
     locate the current-world control and the exact target-world token from the
-    live frame. The old percentages remain only as a logged last resort.
+    live frame. Random free-world selection comes from live client evidence.
     """
-    print(f"Switching to world {TARGET_WORLD}...", flush=True)
     global TARGET_WORLD
+    print(f"Switching to world {TARGET_WORLD}...", flush=True)
     native = native_status()
     if native and int(native.get('selectedWorld', '0')) > 0:
         TARGET_WORLD = native['selectedWorld']
