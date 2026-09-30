@@ -1440,3 +1440,74 @@ Reviewed source-review/build520-restlessghost/ (README + Config + Plugin + Scrip
 VERIFY LIST (not defects, need live evidence): "Climb-down"/"Climb-up" action strings on ladders 2147/2148 (3-retry hold bounds a miss); Rs2Inventory.useItemOnObject(SKULL, id) runtime selection behavior; Frame.basement() assumes plane 0 implicitly (true for both surface and basement zones, so fine).
 POSITIVE: the turn-in latch (finalizing + VERIFY_FINISH 12s window + finalUses<=3 + hold if skull left inventory without FINISHED) applies the Cook's turn-in-race lesson correctly; QuestState.FINISHED via getState() on the client thread is the only completion proof; every action is bounded (3 attempts -> hold) so no Build-519-style infinite oscillation; skeleton handling is grab-and-run via exitBasement; amulet-loss re-issue path exists at stage 2; NPC/object/item ids (2812/923/922, 2145/15061, 2147/2148, 2146, 552/553, varp 107, varbit 2130) match the installed-questhelper research.
 Bot state: Cook's PAUSED/HOLDING since your PAUSE (22:51); Cook monitoring remains stopped per your order; feed alive (~1/min, newest 23:07:00) but the _auto capture is foreground-locked on your dev session -- the 23:06:52 desktop capture is the useful one (shows the OBS diag dashboard: LOGGED_IN world 497, RuneLite PID 4252, Script Build 519/Restless Ghost, Supervisor PID 14908; disk patch marker 506 pre-restart; YouTube Studio Live Control Panel has no stream selected, so the broadcast may not be up).
+
+
+# Muse review: Sheep Shearer Build 522 (2026-09-29 ~23:45 EDT)
+
+Reviewed `source-review/build522-sheepshearer/` (SheepShearerScript.java 511 lines,
+SheepShearerPlugin.java, SheepShearerConfig.java, README.md) against the installed
+microbot-base.jar bytecode. **No blocking defects — ship-ready for a first live run
+after a cold RuneLite restart.**
+
+## Verified correct (bytecode-checked)
+
+- varp **179** = `QUEST_SHEEP_SHEARER` (`QuestVarPlayer.<init>`: bipush 12, sipush 179).
+- Item ids: shears **1735**, wool **1737**, ball of wool **1759** (SheepShearer.class strings).
+- Fred the Farmer NPC **732** @ **(3190, 3273, 0)** (questhelper bytecode: sipush 732/3190/3273).
+- QuestHelper step text says *"Pickup the shears in Fred's house"* — matches the
+  ground-item shears path in `getShears()`; the script does not wrongly assume
+  Fred hands shears over in dialogue.
+- **Threading**: `AbstractEntityQueryable.nearestOnClientThread()` dispatches via
+  `Microbot.getClientThread().invoke()` internally (verified in javap bytecode) —
+  the `npc()`/`object()` helpers are safe from the tick executor thread. The
+  Build-517 off-client-thread crash class does **not** apply here.
+- Cook's turn-in-race lesson applied: `turnInExpected` + bounded 20s
+  `VERIFY_PARTIAL_TURN_IN` before HOLD. `dialogue()` owns the tick while Fred's
+  chat is open, so the 20s clock only runs after chat closes — correct ordering.
+- Completion proof is `QuestState.FINISHED` only; `varp >= 21` without FINISHED
+  holds (correct safety).
+- Plugin mutual-exclusion covers Cook's / Tutorial Island / Restless Ghost
+  plugins; `enabledByDefault = false`.
+
+## Defects (non-blocking)
+
+1. **`Proof.TURN_IN` is dead code.** `proved()` and `verifyPending()` carry
+   TURN_IN branches ("Balls left inventory but varp did not advance"), but no
+   `issue()` call uses `Proof.TURN_IN` — the turn-in talk issues `Proof.TALK`.
+   The intended extra safety net never fires. Harmless (`turnInExpected`
+   covers the same ground); cleanup item.
+2. **`SPIN_PROGRESS` timeout (12s) < full-batch spin time.** ~20 wool at ~1.2s
+   per ball exceeds the 12s proof window, so every large batch logs 1–2
+   spurious RETRY warnings and re-clicks the product choice mid-spin. Harmless
+   in practice (production stays open, `before` is re-snapshotted, continuous
+   progress proves on the next tick), but the noise will read as a stall in
+   the diag. Consider ~40s timeout or optimistic `spinning=true`.
+3. **`getShears` dead-ends.** If `shears == 0` and no ground shears 1735 near
+   Fred's house, holds after 12s with no path to re-ask Fred. QuestHelper
+   confirms the house spawn is the source, so low risk — still a HOLD on a
+   recoverable state.
+4. **Counter drift continues**: `version.txt` = 520 (patch-520.zip) vs
+   `BUILD_NUMBER` = 522. Same 2-behind drift as the 521/519 pair.
+
+## Verify list (needs live evidence, not defects)
+
+- `SHEEP_IDS = {2786, 2699, 2787, 2693, 2694, 2695}` + `canShear` "Shear"-action
+  filter: README claims rams and disguised penguins are excluded, but the
+  filter only checks for a "Shear" action — if a ram/penguin composition also
+  exposes Shear, it gets clicked. Check against live scene objects (README
+  already flags this).
+- Action strings "Climb-up"/"Climb-down" on staircases 56230/16672 and "Spin"
+  on wheel 14889 (3-retry hold bounds a miss).
+- Production widget 270:14 / 300:16 + `getItemId() == 1759` product click.
+- Partial turn-in varp math (`needed = 21 - varp`): assumes varp increments 1
+  per ball turned in from varp 1 (0 balls) upward.
+
+## Operational
+
+- README: first load needs a **cold RuneLite restart**; Supervisor restores
+  bounds (1376,124,820,702) to preserve the OBS scene.
+- After GHOST DONE (23:27:23) the feed has been dark 15+ min (last upload
+  23:29:27Z) — client likely down. Julien must cold-restart, **DISABLE** Cook's
+  Assistant + Tutorial Island + Restless Ghost in the overlay, then enable
+  Sheep Shearer — otherwise `ownsInput` sits at WAIT_EXCLUSIVE forever (same
+  trap as the Ghost 521 review).
