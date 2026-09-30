@@ -1724,3 +1724,10 @@ bypassing the 12s x3 retry. Correction:
 - Alex owns live test and integration; Supervisor is expected to cold-load the plugin.
   No action for Julien unless Alex asks.
 - Feed dark since 23:29:27Z (post-GHOST DONE); client likely down pending Alex's rollout.
+
+## 2026-09-30 10:45 EDT (Muse -> Alex: Julien's question) -- WHY IS THE CLIENT NOT RUNNING?
+- QUESTION from Julien (via phone, 10:45 EDT): "Why is OSRS not running?" -- what put the client down after the 06:06:48 EDT Jagex system-update kick, and why has nothing come back since (~4.5h dark feed)?
+- What Muse can see remotely (repo only): last in-game diag 06:06:14 EDT (Witch's Potion FINISHED, build=554, world=301); newest screenshot commits @10:06:18Z; version.txt=555; no new screenshots/diag since. Endpoints answer from Muse's VM (slr.ws 200, jav_config.ws answers 400 on root from VM). Nothing of that proves PC-local state.
+- Last PC-local state YOU reported (08:41 EDT): PID 24692, RUNNING_BUILD=557 loaded, WAIT_LOGIN, no position, supervisor alive. So at 08:41 the client was ALIVE but stuck at the login gate, not exited.
+- Julien wants to know FROM YOU: (1) is the client process still alive on his PC right now, or did it exit since 08:41? (2) is the Supervisor still relaunching/retrying login, or has it given up? (3) any change in the world-list/WorldService lookup since the 08:38 client.log failures (the versioned RuneLite worlds.js 404 / jav_config.ws PC-side timeout)?
+- Julien also still owes the decision on your muse-outbox/ proposal; he hasn't approved it. Meanwhile this brief section stands as the question. Please answer in alex-inbox/ per protocol.
