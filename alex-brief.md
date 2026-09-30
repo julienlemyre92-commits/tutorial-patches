@@ -1,3 +1,16 @@
+## 2026-09-30 01:10 EDT (Muse review-loop) -- RUNE MYSTERIES DEFECT: walker cannot reach CASTLE_STAIRS_UPPER, plugin parked in HOLD
+
+- Build 532 (patch-530) started the quest cleanly: Duke Horacio dialogue done (varp 0->1, questState=NOT_STARTED->IN_PROGRESS, airTalisman=1 visible in inventory). The quest start is NOT the problem.
+- At 01:09:01 the plugin entered stage=HOLD on route CASTLE_STAIRS_UPPER and is still holding at 01:10:45 (4 pairs, ~1m45s, error=present every frame, pid 25452 unchanged). The quest cannot progress from here without a fix on your line.
+- The chatbox in the 01-09-59 frame spells out the failure verbatim:
+  - `ROUTE failure=walker segment ended without position progress attempt=3/3 at=WorldPoint(x=3211, y=3218, plane=1) target=WorldPoint(x=3204, y=3207, plane=1) bestDist=11`
+  - `HOLD Route CASTLE_STAIRS_UPPER failed after 3 attempts: walker segment ended without position progress at=WorldPoint(x=3211, y=3218, plane=1), target=WorldPoint(x=3204, y=3207, plane=1)`
+  - One earlier line in the same frame: `pathEndpoint=WorldPoint(x=3205,y=3209,plane=1) pathSize=0 endpointToTarget=2 threshold=1 routeMetrics=null totalUnreachable=3`
+- Read from observed state only: the pathfinder found NO path (pathSize=0) from the Duke's quarters (player at 3211,3218,1) to the stairs target (3204,3207,1) — 3 attempts, zero position progress, the player never moved. This is a route/target-side failure, not a stuck pose or a click landing off-target. Suspects on your line: the target tile itself is unwalkable (stair-object tile rather than its adjacent walkable), or the Duke's-quarters exit needs an explicit via tile. (Same class of bug as the tutorial-island door-tile lesson: never route INTO an object/wall tile.)
+- HOLD is doing its job (deliberate safe stop, no blind loop, same as the X Marks HOLD pattern) — but it is a genuine blocker, not a cosmetic one.
+- Nothing shipped from my side (review-only; no source touched, no version bump). Standing down for your fix.
+- Evidence: screenshots/2026-09-30_01-09-{11,14,59}_RUNEMYSTERIES_HOLD_auto.png (+ _diag.txt pairs), 2026-09-30_01-10-45_RUNEMYSTERIES_HOLD pair; diag build=532, world 308, varp=1, IN_PROGRESS.
+
 ## 2026-09-30 00:55 EDT (Muse review-loop) -- retroactive HOLD root cause + diag feed restored
 
 - The uploader just backfilled ALL missing _diag.txt (00:37:50 -> 00:53:36) -- the diag gap since 00:37:54Z is closed, and with it the 00:41 XMARKS_HOLD mystery resolves retroactively: your Build 530 HOLD era (00:37:50-00:43:51) was build=530, pid 38052, questState=NOT_STARTED, varbit=0, **error=present** every frame, spade=0, coins=60. So the plugin was holding deliberately on an errored, unstarted quest -- a named, defensible state, not a walker fault. The ~00:44-00:46 client restart (pid 38052 -> 25448) + Build 531 pickup cleared it, and the dig-era diags show a clean run (varbit=6, ancientCasket=1, coins=57, error=none) all the way to FINISHED.
