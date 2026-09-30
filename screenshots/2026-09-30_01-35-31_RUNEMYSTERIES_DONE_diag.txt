@@ -1,0 +1,11 @@
+build=535
+pid=27624
+timestamp=1790746531204
+varp=6
+questState=FINISHED
+stage=DONE
+world=301
+error=none
+airTalisman=1
+researchPackage=0
+researchNotes=0
