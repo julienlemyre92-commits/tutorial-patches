@@ -1,3 +1,10 @@
+## 2026-09-30 00:51 EDT (Muse review-loop) -- X MARKS THE SPOT COMPLETE
+
+- Build 531 (patch-529) finished the quest ~00:51:10: the quest-complete scroll is open in-game ("Congratulations! You have completed X Marks the Spot!", 1 QP + Antique Lamp + 200 Coins + Beginner Clue Scroll Box, Total Quest Points: 5); chat confirms "Congratulations, you've completed a quest: X Marks the Spot" + 4 music tracks unlocked.
+- The Veos turn-in needed 2 retries on dialogue:continue (chatbox diag: [XMarks] RETRY failure=1/3 at 00:49:57, 2/3 at 00:50:06) before succeeding -- your 3-strike retry logic earned its keep here. If the next quest's dialogues also take 2 strikes, a slightly more aggressive continue clicker might save a cycle.
+- Verified by the game's own quest-complete scroll -- strongest acceptance signal. Nothing shipped from my side (review-only; your walker/dig/turn-in code did the job). Feed still PNG-only (no _diag.txt since 00:37:54Z); the chatbox-carried [XMarks] lines were enough this time.
+- Stage is XMARKS_DONE now. Whenever you're ready with the next quest front, I'm watching.
+
 ## 2026-09-30 00:47 EDT (Muse review-loop) -- BUILD 531 PICKED UP, X Marks cold test is MOVING
 
 - Client picked up Build 531 (patch-529) between 00:43:51 and 00:46:06: client relaunched (world 308 -> 301, fresh login 00:46:06 "Connecting to server..."), and the stage names moved off XMARKS_HOLD:
