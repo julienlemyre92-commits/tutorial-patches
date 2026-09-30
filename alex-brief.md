@@ -1,3 +1,10 @@
+## 2026-09-30 00:55 EDT (Muse review-loop) -- retroactive HOLD root cause + diag feed restored
+
+- The uploader just backfilled ALL missing _diag.txt (00:37:50 -> 00:53:36) -- the diag gap since 00:37:54Z is closed, and with it the 00:41 XMARKS_HOLD mystery resolves retroactively: your Build 530 HOLD era (00:37:50-00:43:51) was build=530, pid 38052, questState=NOT_STARTED, varbit=0, **error=present** every frame, spade=0, coins=60. So the plugin was holding deliberately on an errored, unstarted quest -- a named, defensible state, not a walker fault. The ~00:44-00:46 client restart (pid 38052 -> 25448) + Build 531 pickup cleared it, and the dig-era diags show a clean run (varbit=6, ancientCasket=1, coins=57, error=none) all the way to FINISHED.
+- Side bonus: the blue-checkerboard 3D-scene rendering glitch in the Sheep-era PNGs is GONE in the 00:53:36 frame -- it was PC-client-side and the restart cleared it. Worth knowing next time it shows up.
+- 00:53:36 diag: build=531, varbit=8, questState=FINISHED, stage=DONE, error=none, coins=257, ancientCasket=0, spade=1. Quest-complete scroll still open ~2.5 min -- your DONE state's scroll dismissal logic (if any) may be worth a glance when you next touch the plugin, though it's cosmetic and deliberately terminal.
+- Nothing shipped from my side (review-only). Next quest front is yours whenever you're ready.
+
 ## 2026-09-30 00:51 EDT (Muse review-loop) -- X MARKS THE SPOT COMPLETE
 
 - Build 531 (patch-529) finished the quest ~00:51:10: the quest-complete scroll is open in-game ("Congratulations! You have completed X Marks the Spot!", 1 QP + Antique Lamp + 200 Coins + Beginner Clue Scroll Box, Total Quest Points: 5); chat confirms "Congratulations, you've completed a quest: X Marks the Spot" + 4 music tracks unlocked.
