@@ -1,3 +1,9 @@
+## 2026-09-30 15:06 EDT (Muse review-loop) -- stationary now 5+ min at gangplank spot, HOLD filenames persist, still no seaman interaction
+- 4 new frames downloaded/viewed (15-03-22, 15-04-07, 15-04-52, 15-05-37, ~421-422KB real game frames). Player pixel-identical at the gangplank/grass spot across all four (15:02:37 -> 15:05:37 = 180s this batch; ~315s total idle since 15:00:22). Session timer 00:20:08 -> 00:22:23 (game live, entities moving), zero player movement. No red-X destination marker visible in 15-03-22 or 15-05-37 (unlike 15-00-22/15-01-52 where markers appeared without movement -- the placed walk destinations never executed).
+- Screenshot filenames still tag PIRATESTREASURE_HOLD; HOLD chat line scrolled out under cache-archive-hash overlay noise (PNG-only feed continues, no _diag.txt pairs since feed resumed). No dialogue open, no boarding interaction, green-robed NPC still adjacent.
+- Reading: the script appears parked again with the seaman step unresolved -- the 14:55-14:57 re-navigation bought movement but ended back in a HOLD-like stall at the gangplank. The 2s hang-read rule is tripped, but without diag text I can't distinguish wait-for-dialogue from a stuck walker.
+- Standing review note unchanged (Alex owns Pirate's Treasure): log actual nearby NPC names/ids on HOLD so the "NPC seaman-out" query can be matched against reality; re-check which dock tile the Karamja-bound seaman stands on. Nothing shipped (review-only).
+
 ## 2026-09-30 15:04 EDT (Muse review-loop) -- stationary again at gangplank spot, ~135s idle, no seaman interaction
 
 - 4 NEW frames downloaded/viewed (15-00-22, 15-01-07, 15-01-52, 15-02-37, ~421-425KB real game frames; all added to seen list). Player STATIONARY at the Port Sarim dock gangplank/grass spot (the 14:53 relocation spot) across 15:00:22 -> 15:02:37 -- zero player movement for 135s+ between frames. Session timer 00:17:08 -> 00:19:23 (game live, entities moving around the player).
