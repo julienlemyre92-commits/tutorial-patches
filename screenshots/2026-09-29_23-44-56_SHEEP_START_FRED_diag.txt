@@ -1,0 +1,8 @@
+build=522
+pid=25452
+timestamp=1790739895607
+varp=0
+questState=NOT_STARTED
+stage=START_FRED
+world=308
+error=none
