@@ -1,0 +1,11 @@
+build=538
+pid=28120
+timestamp=1790751289338
+varp=100
+questState=FINISHED
+stage=DONE
+world=308
+error=none
+cadavaBerries=0
+message=0
+cadavaPotion=0
