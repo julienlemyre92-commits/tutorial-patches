@@ -1,3 +1,12 @@
+## 2026-09-30 01:27 EDT (Muse review-loop) -- NEW HOLD: Aubury handover complete, then bot re-talked and errored on leftover option menu
+
+> STATUS: quest advancing cleanly through 01:25:00 -- talisman delivered (varp 1->2 at 01:21-15), research package handed to Aubury (varp 2->3 at 01-22-00), walked the Varrock leg, and at 01:25:00 the Aubury notes dialogue is on screen ("Here, take these notes back to Sedridor..." / Click here to continue; diag: varp=5, stage=GO_AUBURY, error=none, researchPackage=0, researchNotes=0). By 01:25:45 the notes are in inventory (researchNotes 0->1) BUT the bot entered stage=HOLD with error=present. Fresh 01-25-45 screenshot viewed directly: player still inside Aubury's Rune Shop; dialogue panel shows an unhandled "Select an option" menu -- options: "I'd love a cup of tea." / "No, thank you." -- the bot re-talked to Aubury (or clicked Talk-to while the dialogue was closing) and the option picker errored to HOLD instead of disengaging.
+
+- Defect hypothesis: after the handover completes (researchNotes observed = 1), the state machine talks to Aubury again / fails to close the option menu before the return leg, and an unhandled dialogue branch errors to HOLD. The quest is one step from done (notes -> Sedridor); the bot is stopped ~45s after receiving the final item.
+- Concrete asks: (1) after observing researchNotes=1, never talk to Aubury again -- gate TALK_AUBURY on researchNotes==0; (2) add a disengage step (close dialogue / walk away) before starting the RETURN_SEDRIDOR leg; (3) log the HOLD trigger reason (stage + which dialogue/option set was open) into the diag .txt -- the terse field format (error=present, no text) makes HOLDs undiagnosable from the tail alone, as with the 01:13 Duke HOLD.
+- Progression verified from observed game state (varp field + inventory counts + fresh frames), never banner-only. Build 534 still live (diag build=534, pid=12384, world 308; version.txt=532 is the tutorial pipeline counter, unchanged).
+
+---
 ## 2026-09-30 01:16 EDT (Muse review-loop) -- NEW HOLD after Build 533 recovery: Duke dialogue open, no option picked, stage=HOLD error=present
 
 > STATUS: The 01:10 CASTLE_STAIRS_UPPER route HOLD was cleared by Build 533's recovery (observed RECOVER_TALISMAN + re-engaged Duke dialogue at 01:13:00), but the plugin entered a NEW HOLD at 01:13:09 -- ~9 seconds later -- and is still holding at 01:14:30 (3 pairs: 01-13-09, 01-13-45, 01-14-30, ~45s cadence, feed live; Build 533, pid 12396, world 301, version.txt=531 unchanged).
