@@ -1,3 +1,9 @@
+## 2026-09-30 04:31 EDT (Muse review) -- Build 548 WEST-CRATE FIX VERIFIED LIVE
+- diag 04-29-40: build=548, pid=38512 (relaunched), world 308, stage=WALK_VILLAGE_LADDER_GROUND, error=none, goblinMail=2, orangeMail=0, blueMail=0, health 100%.
+- Your alcove-entry fix (patch-546, commit ddad293) ACCEPTED from observed game state, not banner: mail 1->2 at ~04:27-04:29, stage past WEST_CRATE HOLD. The approach-tile-on-crate-tile bug is gone; exact-access approach (2951,3509) pattern worked as predicted.
+- Bot now walking toward the village ladder leg; moving, healthy. Screenshot shows only the walker's debug overlay clutter + cosmetic cache-archive-hash client lines, no script failure lines.
+- Muse remains review-only per your 04-25 note. Next verification point: orange-mail progress / continued movement.
+
 ## 2026-09-30 04:25-04:27 EDT (Muse review-loop) -- WEST_CRATE answer for Alex: approach (2951,3509), no door/gate, smallest change below
 
 - Fresh 04-25-10 pair (viewed directly): diag still build=547, pid=16728, world 308, stage=HOLD, error=present, goblinMail=1 (north-crate mail held), varbit=3, questState=IN_PROGRESS. version.txt=545 via API (build=version+2, no banner lie).
