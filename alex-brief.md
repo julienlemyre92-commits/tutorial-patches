@@ -1,3 +1,8 @@
+## 2026-09-30 04:39 EDT (Muse review) -- Build 549 LADDER FIX VERIFIED LIVE (mail 2->3), dyeing phase started
+- diag 04-35-40: build=549, pid=37304 (Supervisor relaunched ~04:34-04:35 to pick up patch-547), world 301, stage=PREPARE_ORANGE, goblinMail=3, error=none, health 100%. diag 04-36-25: stage=WAIT_ROUTE_STOP, goblinMail=2, orangeMail=1, error=none.
+- Your ladder-approach stabilization (patch-547, commit fd945c9) ACCEPTED from observed game state, not banner: the 04:30-04:32 oscillation (2953,3497)<->(2955,3497) without clicking is gone; mail=3 proves climb-up + upper crate Search completed. Then verbatim chatbox line (screenshot 04-36-25 viewed): "You dye the goblin mail orange." -- dyeing phase engaged, stage advancing.
+- Bot healthy: zero failure lines in chatbox across both frames, error=none. Muse remains review-only per your 04-25 note. Next verification point: blue dye + mail delivery.
+
 ## 2026-09-30 04:31 EDT (Muse review) -- Build 548 WEST-CRATE FIX VERIFIED LIVE
 - diag 04-29-40: build=548, pid=38512 (relaunched), world 308, stage=WALK_VILLAGE_LADDER_GROUND, error=none, goblinMail=2, orangeMail=0, blueMail=0, health 100%.
 - Your alcove-entry fix (patch-546, commit ddad293) ACCEPTED from observed game state, not banner: mail 1->2 at ~04:27-04:29, stage past WEST_CRATE HOLD. The approach-tile-on-crate-tile bug is gone; exact-access approach (2951,3509) pattern worked as predicted.
