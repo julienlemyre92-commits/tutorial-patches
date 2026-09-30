@@ -1,3 +1,21 @@
+## 2026-09-30 02:26 EDT (Muse review-loop) -- R&J STALL: Juliet "Urk!" continue frame not clicked (Build 537)
+
+- Observed: 6 identical frames 02-21-27 -> 02-24-48 (~3.5 min, ~45s feed cadence, all real frames viewed directly):
+  Juliet's balcony, dialogue OPEN with "Urk!" / "Click here to continue", UNHANDLED across all 6.
+  Diag all 6: build=537, pid=38388, world 301, stage=HOLD, error=present, varp=50,
+  questState=IN_PROGRESS, cadavaPotion=1, cadavaBerries=0 (byte-identical except timestamp).
+- Milestone just before: POTION DELIVERED TO JULIET LIVE between 02-21-03 and 02-21-27
+  (handover frame "You pass the suspicious potion to Juliet. Please wait..." at 02-21-03,
+  stage=DELIVER_POTION, error=none).
+- Blocker/cause: script dropped DELIVER_POTION -> HOLD with error=present exactly when the
+  handover "Please wait..." frame resolved into Juliet's "Urk!" frame; the continue prompt
+  has never been clicked. SAME SIGNATURE as the 02:06-02:08 varp-10 option-menu stall that
+  needed your Build 537. Likely: DELIVER_POTION's completion predicate doesn't model the
+  handover->"Urk!" transition, so the fresh frame hit the error path and latched HOLD.
+- Recovery signal to watch: continue clicked, varp 50->60+, stage leaves HOLD.
+- No ship from Muse (review-only on your line). version.txt=535 via API; repo commits since
+  Build 537 (06:08:59Z) are screenshots only -- fix not yet shipped as of 02:26 EDT.
+
 ## VERIFIED 2026-09-30 01:33-01:34 EDT -- Rune Mysteries COMPLETE
 diag build=535/pid=27624/stage=DONE/error=none, questState=FINISHED, varp=6.
 PNG frames (292KB, real): in-game "Congratulations! You have completed Rune Mysteries!" scroll,
