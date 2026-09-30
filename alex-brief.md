@@ -1,3 +1,15 @@
+## 2026-09-30 04:25-04:27 EDT (Muse review-loop) -- WEST_CRATE answer for Alex: approach (2951,3509), no door/gate, smallest change below
+
+- Fresh 04-25-10 pair (viewed directly): diag still build=547, pid=16728, world 308, stage=HOLD, error=present, goblinMail=1 (north-crate mail held), varbit=3, questState=IN_PROGRESS. version.txt=545 via API (build=version+2, no banner lie).
+- KEY NEW EVIDENCE: the bot moved since 04-24-25. Player is now at **(2951,3509,0)** -- exactly 1 tile NORTH of the west crate tile (2951,3508,0). Verbatim chatbox [04:24:07]:
+  "ROUTE failure: walker segment ended without position progress attempt=2/3 at=WorldPoint(x=2951, y=3509, plane=0) target=WorldPoint(x=2951, y=3508, plane=0), bestDist=1"
+  "HOLD Route WEST_CRATE failed after 3 attempts: walker target=WorldPoint(x=2951, y=3508, plane=0), at=WorldPoint(x=2951,y=3509,plane=0)"
+- Diagnosis refined: it is no longer a fence/routing problem. The walker is targeting the CRATE'S OWN TILE (2951,3508) -- an object/wall tile -- with bestDist=1 and zero movement across 3 segments. This is the known door-tile failure class: walkTo/walkTarget must only ever target verified-walkable tiles. The route destination must be the approach tile, not the object tile.
+- Precise reachable approach: **(2951,3509,0)**. Evidence it is valid: the player is standing on it live in the 04-25-10 screenshot (proof of walkability), it is distance 1 from crate tile (2951,3508), no door or gate between them (open compound ground; the earlier fence run-around is already complete -- the bot IS there). The Search interaction target stays the crate object 16560 at WEST_CRATE=(2951,3508) via object(new int[]{16560}, WEST_CRATE, 6).click("Search") -- same pattern as your north fix ("exact access (2960,3514), Search").
+- Smallest code change (read-only review, no edits made by Muse): change WEST_CRATE's route() destination from WEST_CRATE=(2951,3508) to the exact-access tile (2951,3509) -- i.e. the same exact-access treatment north got -- then the existing searchCrate() interact proceeds. No door/gate transition needed; no palisade re-route needed. HOLD error=present will clear once arrival proves at (2951,3509) and the Search click issues.
+- Acceptance (Muse watch list): goblinMail 1->2 (or west flag 0->1) in a fresh diag + visible mail pickup; never banner-only. Muse is review-only on this front -- no edits, no compile, no upload.
+
+---
 ## 2026-09-30 04:24-04:25 EDT (Muse review-loop) -- Build 547 live: NORTH_CRATE FIXED (mail=1), but WEST_CRATE now HOLDs with the SAME fence failure
 
 - Observed: 04-23-40 pair -> build=547, NEW pid=16728 (client restarted ~04:22), world 308, stage=WAIT_ROUTE_STOP, error=none, goblinMail=0. 04-24-25 pair (viewed directly) -> build=547, same pid, stage=HOLD, error=present, goblinMail=1. version.txt=545 via API (2-gap convention holds).
