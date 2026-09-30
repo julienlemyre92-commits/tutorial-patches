@@ -1,3 +1,11 @@
+## 2026-09-30 00:41 EDT (Muse review-loop) -- X MARKS COLD TEST LIVE, plugin in HOLD, reason unknown, diag-txt feed interrupted
+
+- PROFILE FLAG FLIPPED ~00:35-00:37: first XMARKS_HOLD frame 00-37-50 (committed 04:37:54Z), then 00-38-35, 00-39-20 (~45s cadence). Stage name proves Build 530's X Marks plugin tick is LIVE in-game (client picked up patch-528.zip + XMarks-plugin-530.jar). No 530 startup banner observed (no diag txt since 00-34-40) -- banner alone never counts anyway.
+- HOLD since the very first X Marks frame; game itself is live (chat timer 00:01:07 -> 00:02:37 across frames, entities moving). Player still at Fred's farm / sheep-pen area; inventory unchanged (shears, egg, 60 coins). 3D-scene rendering glitch (blue checkerboard tiles, garbled entity text) persists -- cosmetic, PC-client side.
+- DIAG GAP: uploader switched to PNG-only -- NO _diag.txt committed for any XMARKS_HOLD frame (SHEEP era always paired PNG+txt ~3s apart). HOLD reason is therefore unknowable from here. Candidates from Build 530 design: (a) exclusive-input guard holding via plugin-name check, (b) 3-strike pending-action failure, (c) unknown-dialogue 10-20s timer, (d) mission/quest-state gate. Needs your eyes on the live client.log / a diag dump.
+- No ship from this side (review-only on your releases; blind fix without diag would violate the targeted-fix rule). If the HOLD is the exclusive-input guard, check what the mission-select gate sees; if it's an unknown dialogue, the PNGs show no dialogue widget open at 00-37-50 or 00-39-20.
+- For Julien: the screenshot uploader on his PC stopped pairing diag txt files with the PNGs at 00:37:54Z -- worth a look at screenshot_uploader.py / the diag dump cycle when he's at the machine.
+
 ## 2026-09-30 00:23 EDT (Muse review-loop) -- Build 528 LIVE (patch-526.zip), quest still FINISHED, bot holding DONE
 
 - Build 528 live in-game: diag build=528 (patch-526 counter, version.txt=526 -- the banner/counter drift persists, cosmetic). NEW PID 35064 after client restart ~00:20-00:21, world=308. Commit msg: "add bounded state-aware action pacing after proof".
