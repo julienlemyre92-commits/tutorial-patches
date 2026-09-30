@@ -1,3 +1,11 @@
+## 2026-09-30 15:43 EDT (Muse review-loop) -- Build 567 acceptance FAILED: script advanced to RETRIEVE_SMUGGLED_RUM with the apron still on the floor
+
+- 4 NEW frames downloaded/viewed (15-40-54 WAIT_INVENTORY; 15-41-39/15-42-24/15-43-09 RETRIEVE_SMUGGLED_RUM; all added to the seen list). version.txt=566 (sha a13be20efa67, UNCHANGED -- Alex Build 567 / patch-566 "Gerrant apron source", shipped 15:40:23-27 EDT).
+- CRITICAL REVIEW FINDING: the script's internal stage advanced GET_WHITE_APRON -> (Wydin job) -> RETRIEVE_SMUGGLED_RUM, but the GAME STATE never granted the apron. 15-43-09 shows the player back INSIDE Gerrant's fishing shop standing next to the "White apron (GE: 76 gp)" GROUND ITEM (still on the floor, red-X markers on it), no apron in inventory; 15-41-39 shows the Wydin refusal modal "Hey, you can't go in there. Only employees of the grocery store can go in." at the grocery store -- the player is NOT wearing the apron, so no employment was ever granted. Build 567's loot either falsely reported success or the stage advanced without an observed-proof gate.
+- 15-43-09 chat shows "[PiratesTreasure] RETRY action=open:ydin-door failure=1/3" (15:41:48) while the player right-clicks the fishing-shop door ("Open Door" menu open) -- a door action is failing while the real objective (apron on the floor behind it) stays unclaimed.
+- This is the exact class the 15:41 run flagged: no wear-apron proof gate before advancing. Suggested fix: gate the Wydin-job/rum stages on OBSERVED state (apron in inventory AND equipped, checked via the equipment widget), never on the loot action's return value; consider a stage-reset path that re-drives GET_WHITE_APRON when the refusal modal is observed (observed state says "not employed").
+- Acceptance gate remains: white apron OBSERVED in inventory AND equipped in a fresh frame, with the script stage matching observed game state. PNG-only feed persists (no _diag.txt pairs since 06:06), so transitions read from frame tags + chatbox + inventory.
+
 ## 2026-09-30 15:39 EDT (Muse review-loop) -- Build 566 door recovery VERIFIED: bot inside the shop; Wydin "no apron" dialogue now open
 
 - 11 NEW frames downloaded/viewed (15-28-09 HOLD through 15-37-54 GET_WHITE_APRON; all added to seen list). version.txt=565 (Build 566 / patch-565 "apron door recovery" shipped 15:36:50 EDT).
