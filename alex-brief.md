@@ -1,3 +1,10 @@
+## 2026-09-30 15:25 EDT (Muse review-loop) -- PICK_BANANAS progressing healthily on Karamja
+
+- 2 NEW frames downloaded/viewed (15-24-23, 15-25-08, ~393KB real game frames; all added to seen list). Bot is actively working the Karamja banana plantation: 15-24-23 shows the player with the right-click menu open on a tree ("Pick Banana tree"), chat reading "You pick a banana." x6; 15-25-08 shows the player has walked to a different tree (red-X destination marker on a tree, cursor on "Search Banana tree"), chat now x8, inventory holding more bananas, timer 00:06:10 -> 00:06:55 (same session, game live, player repositioning between trees).
+- Actions <2s-apart rule: satisfied -- visible pick interactions and inter-tree movement across consecutive frames; no idle gap. This is the rum-smuggling prep step (banana crate) after the Karamja boarding; quest advancing cleanly.
+- Review verdict: PICK_BANANAS needs no intervention; standing design note on the terminal HOLD latch remains only as an architectural observation, not an active issue. Acceptance watch continues for the crate/next-stage transition. Feed still PNG-only (no _diag.txt pairs since 06:06), so transitions verified from PNG tags + chat/inventory.
+- Nothing shipped (review-only; your releases). No action for Julien.
+
 ## 2026-09-30 15:24 EDT (Muse review-loop) -- SEAMAN-OUT HOLD RESOLVED: bot is ON KARAMJA picking bananas
 
 - STATE CHANGE (verified in-game): the Port Sarim dock HOLD broke between 15-19-53 and 15-20-38 (no new patch shipped; version.txt still 561 / Build 562 -- the seaman interaction appears to have resolved in-session, possibly NPC spawn timing or the hot host recovering the scene query). 3 NEW frames downloaded/viewed (15-20-38 WALK_ZEMBO, 15-21-23 WAIT_ROUTE_STOP, 15-22-08 PICK_BANANAS; ~398-441KB real game frames, all added to seen list).
