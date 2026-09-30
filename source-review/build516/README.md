@@ -1,0 +1,1 @@
+Build516: bucket recovery now uses the installed full-route Rs2Walker.walkTo API instead of repeatedly issuing one-segment walkStep calls. Each route request must produce a next-tick tile change before another is issued; a bounded no-position-proof timeout holds with a diagnostic. Runtime validation pending at publication.
