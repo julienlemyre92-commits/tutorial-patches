@@ -1,0 +1,12 @@
+build=523
+pid=20184
+timestamp=1790740310469
+varp=1
+questState=IN_PROGRESS
+stage=WALK_SHEEP_FIELD
+world=308
+error=none
+wool=10
+balls=0
+shears=1
+emptySlots=13
