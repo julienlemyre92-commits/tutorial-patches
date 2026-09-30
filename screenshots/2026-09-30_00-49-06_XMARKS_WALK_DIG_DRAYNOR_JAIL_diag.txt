@@ -1,0 +1,11 @@
+build=531
+pid=25448
+timestamp=1790743745912
+varbit=4
+questState=IN_PROGRESS
+stage=WALK_DIG_DRAYNOR_JAIL
+world=301
+error=none
+spade=1
+ancientCasket=0
+coins=57
