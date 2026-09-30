@@ -1,0 +1,1 @@
+Build512: live Jagex world list fallback for confirmed bundled RuneLite WorldService HTTP404. Native list preferred; F2P only, conservative population limit, no special flags, strict payload/host checks. Select randomly, apply changeWorld, verify next tick before Play. Includes script-only hot host2 support and bounded retries. Runtime validation pending at publication.
