@@ -1,0 +1,12 @@
+build=526
+pid=14872
+timestamp=1790741425426
+varp=1
+questState=IN_PROGRESS
+stage=TURN_IN_BALLS
+world=301
+error=none
+wool=0
+balls=20
+shears=1
+emptySlots=3
