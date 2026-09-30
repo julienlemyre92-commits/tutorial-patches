@@ -1,0 +1,11 @@
+build=536
+pid=38168
+timestamp=1790748452050
+varp=10
+questState=IN_PROGRESS
+stage=HOLD
+world=308
+error=present
+cadavaBerries=0
+message=0
+cadavaPotion=0
