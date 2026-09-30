@@ -1,0 +1,12 @@
+build=550
+pid=11632
+timestamp=1790757610891
+varbit=4
+questState=IN_PROGRESS
+stage=TALK_GENERALS_BLUE
+world=308
+error=none
+goblinMail=1
+orangeMail=0
+blueMail=1
+healthPercent=100.0
