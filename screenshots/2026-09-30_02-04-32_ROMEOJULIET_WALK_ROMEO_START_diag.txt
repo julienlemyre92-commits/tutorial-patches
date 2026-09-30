@@ -1,0 +1,11 @@
+build=536
+pid=38168
+timestamp=1790748271612
+varp=0
+questState=NOT_STARTED
+stage=WALK_ROMEO_START
+world=308
+error=none
+cadavaBerries=0
+message=0
+cadavaPotion=0
