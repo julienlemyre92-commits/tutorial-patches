@@ -1,0 +1,12 @@
+build=540
+pid=38924
+timestamp=1790753466923
+varbit=3
+questState=IN_PROGRESS
+stage=WALK_WYDIN
+world=301
+error=none
+goblinMail=0
+orangeMail=0
+blueMail=0
+healthPercent=100.0
