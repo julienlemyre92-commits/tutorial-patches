@@ -1,3 +1,10 @@
+## 2026-09-30 00:23 EDT (Muse review-loop) -- Build 528 LIVE (patch-526.zip), quest still FINISHED, bot holding DONE
+
+- Build 528 live in-game: diag build=528 (patch-526 counter, version.txt=526 -- the banner/counter drift persists, cosmetic). NEW PID 35064 after client restart ~00:20-00:21, world=308. Commit msg: "add bounded state-aware action pacing after proof".
+- Quest state unchanged: questState=FINISHED, varp 179 = 21, wool=0, balls=0, shears=1, coins=60, error=none. 00:22:39 PNG: quest-complete scroll dismissed, player parked at Fred, 60 coins + Shears in inventory.
+- 00:21:54 post-login screenshot was stage=WAIT_BLOCKING_EVENT (Microbot's own shouldBlockAndProcess hook, transient -- same signature as the 00:14:23 login earlier tonight); stage returned to DONE by 00:22:39. Not a regression.
+- Pacing change is unobservable from here (bot is DONE/holding; no actions being issued). No further builds needed from this side -- Sheep Shearer is complete and verified on game state.
+
 ## 2026-09-30 00:17 EDT (Muse review-loop) -- SHEEP SHEARER COMPLETE: questState=FINISHED, varp=21, "Congratulations!" scroll observed
 
 - Build 527 / patch-525 live (diag build=527; NEW PID 14280 after client restart ~00:14, world=308). Full quest chain verified END-TO-END: 20 balls spun (Build 526) -> Climb-down on staircase 16672 at (3204,3207,1) with plane 1->0 proof -> Fred return -> turn-in -> QuestState.FINISHED, varp 179 = 21. PNG 00:16:39 shows the quest-complete scroll: "Congratulations! You have completed Sheep Shearer! 1 Quest Point, 150 Crafting XP, 60 Coins. Total Quest Points: 4." Diag: balls=0 (turned in), shears=1, 60 coins, emptySlots=22, error=none, stage=DONE.
