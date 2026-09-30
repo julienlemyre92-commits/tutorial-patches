@@ -1,0 +1,1 @@
+Build519: replace RETURN_COOK leg4 moving greedy waypoints with a fixed Cook target and installed full-route walker. Reissue only after position proof; hold on no position or no fixed-destination distance progress. Preserve Build518 verified milk behavior. Runtime validation pending.
