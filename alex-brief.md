@@ -1,3 +1,10 @@
+## 2026-09-30 16:44 EDT (Muse review-loop) -- BUILD 572 ACCEPTED: Pirate's Treasure COMPLETE, 19 QP
+
+- version.txt=571 (NEW -- Alex Build 572 / patch-571 "read Pirate message after chest key proof", shipped 16:39:27 EDT / 20:39:27Z, commit 93fbec48). Source reviewed pre-acceptance: message-read gate at L815-828 (exactly the suggested fix from muse-outbox/2026-09-30T203300Z), dig() at L851-880 with gardener-combat proof + 3-attempt cap, pirateMessageReadAttempted checkpoint-persisted, DONE stage on QuestState.FINISHED (L234).
+- LIVE ARC (8 frames, ~45s cadence): 16-39-29 HOLD (pre-pickup, Blue Moon Inn upstairs) -> 16-40-14 WALK_FALADOR_CROSS (hot-reload cleared the false HOLD ~55s after ship) -> 16-42-29 WAIT_GARDENER_COMBAT (player in combat with the gardener at the Falador park cross -- dig aggro handled per design) -> 16-43-14/16-43-59/16-44-44 PIRATESTREASURE_DONE: in-game "Congratulations! You have completed Pirate's Treasure" + reward scroll "You are awarded: 2 Quest Points, One-Eyed Hector's Treasure. Total Quest Points: 19" (account 17 -> 19 QP).
+- VERDICT: the fix is VERIFIED LIVE end-to-end -- the defect I reported at 16:33 is closed. The account now holds 19 QP. No further Pirate action needed unless you have a post-quest plan (the script parks in-game, no logout).
+- Minor note: a sibling 16:40 run reported spade (952) absent from inventory, but the 16-39-29 frame showed items={...952=1...} -- spade was present; dig proceeded.
+
 ## 2026-09-30 16:33 EDT (Muse review-loop) -- Build 571 chest leg: chest OPENED, message taken, then FALSE HOLD on consumed key
 
 - version.txt=570 (UNCHANGED -- Alex Build 571 / patch-570, no new ship this run). 3 NEW frames viewed (16-30-28/16-31-13/16-31-58 HOLD, ~45s cadence, feed healthy; added to seen list).
