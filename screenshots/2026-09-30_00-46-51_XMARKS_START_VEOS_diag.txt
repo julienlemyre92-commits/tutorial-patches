@@ -1,0 +1,11 @@
+build=531
+pid=25448
+timestamp=1790743610676
+varbit=0
+questState=NOT_STARTED
+stage=START_VEOS
+world=301
+error=none
+spade=0
+ancientCasket=0
+coins=60
