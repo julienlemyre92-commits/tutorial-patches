@@ -1,0 +1,11 @@
+build=534
+pid=12384
+timestamp=1790745855024
+varp=3
+questState=IN_PROGRESS
+stage=WALK_AUBURY
+world=308
+error=none
+airTalisman=0
+researchPackage=1
+researchNotes=0
