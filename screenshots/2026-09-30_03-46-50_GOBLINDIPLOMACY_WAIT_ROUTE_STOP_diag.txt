@@ -1,0 +1,12 @@
+build=543
+pid=7220
+timestamp=1790754409707
+varbit=3
+questState=IN_PROGRESS
+stage=WAIT_ROUTE_STOP
+world=308
+error=none
+goblinMail=0
+orangeMail=0
+blueMail=0
+healthPercent=100.0
