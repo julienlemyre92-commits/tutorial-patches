@@ -1,0 +1,11 @@
+build=531
+pid=25448
+timestamp=1790743655706
+varbit=2
+questState=IN_PROGRESS
+stage=WALK_LUMBRIDGE_STORE
+world=301
+error=none
+spade=0
+ancientCasket=0
+coins=60
