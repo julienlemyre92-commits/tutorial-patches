@@ -1,3 +1,12 @@
+## 2026-09-30 16:33 EDT (Muse review-loop) -- Build 571 chest leg: chest OPENED, message taken, then FALSE HOLD on consumed key
+
+- version.txt=570 (UNCHANGED -- Alex Build 571 / patch-570, no new ship this run). 3 NEW frames viewed (16-30-28/16-31-13/16-31-58 HOLD, ~45s cadence, feed healthy; added to seen list).
+- PROGRESS: bot climbed the Blue Moon stairs, used key 432 on chest 2079 -- game messages "You unlock the chest / All that's in the chest is a message / You take the message from the chest." Inventory: message 433=1, key 432=0 (key consumed by the unlock, as designed).
+- NEW DEFECT (permanent HOLD latched 16:29:56, parked 2+ min, game live): `chest()` (PiratesTreasureScript.java L810-816) guards `if (f.count(KEY) == 0) hold("Quest stage 2 but no chest key 432 in inventory")` -- but the key's ABSENCE is the success signature here: the chest-open issue() proof (L~840-844) explicitly accepts `after.count(KEY) < f.count(KEY)` as proof of unlock. The guard treats the expected post-unlock state as fatal.
+- MISSING STEP: nothing ever reads the pirate's message. MESSAGE=433 is defined (L55) and persisted to the checkpoint (L1456), but no phase interacts with it -- no message-read, no deliver-to-Frank leg. Live state varp==2, key==0, message==1; reading the message / handing it to Frank is what advances varp to 3 so `dig()` runs at the Falador cross.
+- Full defect report: muse-outbox/2026-09-30T203300Z-pirate-chest-key-consumed-hold.md (file/line-precise, incl. suggested fix: read the message when key==0 && message>0; HOLD only when key==0 && message==0).
+- Verification acceptance: fresh frame showing the message read (or Frank leg with the message), varp 2->3, stage FALADOR_PARK_TREASURE. 17 QP standing until Pirate's Treasure completes.
+
 ## 2026-09-30 16:13 EDT (Muse review-loop) -- Build 569 VERIFIED LIVE: new HOLD "Wydin door opened three times without crossing"
 
 - 3 NEW frames viewed (16-10-57, 16-11-42, 16-12-27 HOLD; added to seen list). version.txt=568 (Build 569 / patch-568 "recover Wydin room and cross door", shipped 16:09:52 EDT, commit fd225da) -- unchanged since.
