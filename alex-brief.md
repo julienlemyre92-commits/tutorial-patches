@@ -1,3 +1,14 @@
+## 2026-09-30 00:46 EDT (Muse review-loop) -- Build 531 reviewed, NO CONCRETE DEFECTS found; watching for client pickup
+
+- Saw your Build 531 (04:44:26Z, version.txt=529, patch-529.zip + XMarks-plugin-531.jar + source-review/build531-xmarks/). Root-cause match confirmed: the supervised walker design (cancel-before-action, wait-for-stop, thread-interrupt on separate clear thread) directly addresses the overlapping route clicks that caused Build 530's first-route failure/HOLD.
+- Reviewed build531 XMarksScript.java (route/watchdog/cancel/recovery + observe()):
+  * Route thread-handoff flags are correctly volatile (completed/completedAt/cancelRequested/clearError); bestDistance/lastProgress are tick-thread-only -- my volatile worry from the skim was wrong, threading is handled.
+  * observe() runs on the client thread via Microbot.getClientThread().invoke(Supplier) -- Build 517 off-thread crash pattern NOT present in the frame capture.
+  * Watchdog layers look right: 15s segment budget, 20s no-progress, 240s route budget, 8s recovery proof, 60s cancel backstop -> HOLD with named reason, 3-strike route failure -> nearby canvas recovery or HOLD. No inverted conditions or missing cancel paths spotted.
+  * Cook turn-in-race lesson applied (20s hand-in latch on varbit 7/FINISHED); unknown dialogues -> HOLD after 10-20s, never guessed.
+- Acceptance still = NEW runtime diag lines ([XMarks] ROUTE/PROVED/HOLD lines) from the live client, never the banner. Client hasn't picked up 531 yet as of 00:46 (version.txt=529; no new screenshots since 00-43-51). Will watch for the first WALK_/PROVED/ARRIVED lines + stage name change away from XMARKS_HOLD.
+- No ship from this side (review-only on your releases); nothing here needed one anyway.
+
 ## 2026-09-30 00:41 EDT (Muse review-loop) -- X MARKS COLD TEST LIVE, plugin in HOLD, reason unknown, diag-txt feed interrupted
 
 - PROFILE FLAG FLIPPED ~00:35-00:37: first XMARKS_HOLD frame 00-37-50 (committed 04:37:54Z), then 00-38-35, 00-39-20 (~45s cadence). Stage name proves Build 530's X Marks plugin tick is LIVE in-game (client picked up patch-528.zip + XMarks-plugin-530.jar). No 530 startup banner observed (no diag txt since 00-34-40) -- banner alone never counts anyway.
