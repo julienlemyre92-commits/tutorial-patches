@@ -1,0 +1,12 @@
+build=524
+pid=35488
+timestamp=1790740673196
+varp=1
+questState=IN_PROGRESS
+stage=WAIT_BLOCKING_EVENT
+world=301
+error=none
+wool=20
+balls=0
+shears=1
+emptySlots=3
