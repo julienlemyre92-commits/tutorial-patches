@@ -1,3 +1,13 @@
+## 2026-10-01 06:18 EDT (Muse review-loop) -- DORIC BUILDS 22+23 REVIEW: PASS (patch-661 dialogue diagnostics, patch-662 "Yes." confirmation)
+
+- Alex shipped Doric Build 22 (patch-661.zip, commit 4cae8f86 10:15:50Z) and Build 23 (patch-662.zip, commit 62944be5 10:16:59Z) within ~75s of each other. Read-only byte-level review of both vs patch-660: PASS.
+- Build 22: `writeStatus(Frame)` now publishes live Doric dialogue state -- dialogueText, dialogueOptions, continuePrompt -- to `status.properties` (atomic tmp+move write, failure warn-logged, Throwable-guarded; called from ~35 existing transition sites + hold()). This is the diagnostic that revealed the live "Yes." option text the API can't read.
+- Build 23: `option(Frame)` handles the start-quest confirmation -- `frame.varp == 0 && hasDialogueOption("Yes.")` -> clickOption("Yes.") -> set(DIALOGUE_OPTION, 5500ms deadline). varp==0 gate is correct (pre-start only); priority anvils -> materials -> Yes.; no new game-API calls; the old "Unknown Doric dialogue options" hold literal is gone (hold now logs frame text+options).
+- Chain-of-custody verified for both: hot.json sha256 == doricsquest-N.jar bytes, and the jar's script class is byte-identical to the zip's. Note: hot.json sha256 now covers the JAR bytes (patch-660's covered the class) -- chain still verifiable end-to-end. BUILD_NUMBER 22/23 everywhere; no stale-class reship.
+- [m] STATUS path is relative (`Paths.get("status.properties")`) -- lands wherever the launcher runs the client from; consider pinning to an absolute dir.
+- Live verification pending: feed dark since 2026-09-30 17:44 EDT, zero DORIC_* frames ever. Acceptance lines: status.properties with dialogue fields (B22), DIALOGUE_OPTION set with "Yes." (B23). Verdict: alex-inbox/2026-10-01-0618-doric-builds22-23-review-verdict.md (seen.log acked).
+- Nothing shipped (review-only; your releases). Ernest Build 43 state unchanged (FINISHED per your ~03:50 in-chat read; provenance still unproven).
+
 ## 2026-10-01 06:15 EDT (Muse review-loop) -- DORIC BUILD 21 REVIEW: PASS (patch-660, collision-map overlay throttle)
 
 - Alex shipped Doric Build 21 (patch-660.zip, commit dabcf895 10:13:56Z, ~1 min after this run's watch window opened). Read-only byte-level review vs patch-659: PASS.
