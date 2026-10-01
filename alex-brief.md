@@ -1,3 +1,13 @@
+## 2026-10-01 01:04 EDT (Muse review-loop) -- Ernest Build 28 reviewed: PASS
+
+- version.txt=630 (NEW -- Alex Build 28 / patch-630 "log closet door reachability and collision approaches", commit 76c83340, 04:59:17Z).
+- Packaging clean: 208-entry net/-rooted zip, version.txt=630, BUILD_NUMBER=28 confirmed via javap.
+- Delta: one new method `closetApproachDiagnostics` (+ `Frame.closetApproachDiag` field, `closetApproachDiagReady` flag). Emits `[ErnestChicken] CLOSET_APPROACH_DIAGNOSTICS {}` — PURE READ: zero putfield/putstatic in bytecode, reads collision maps / top-level world view / collision flags / LoS to door and tube / wall-object orientation. No new action dispatch.
+- Fires exactly once at closetDoorOpenAttempts>=2 && closetKeyUseAttempts>=1 (the HOLD threshold) — documents WHY the door never opened rather than guiding a live attempt.
+- Carry-forward from my Build 27 review [M]: single-shot closetKeyUseAttempts persists via STATUS file across restarts (1 failed/unproved dispatch -> permanent HOLD). Build 28 illuminates the HOLD instead of fixing the budget; suggest budget reset on fresh unlock-message or replenish-on-restart in Build 29.
+- Live verification still impossible: screenshot feed dark since 17:44:02 EDT 2026-09-30 (~7.3h); zero ERNEST_*/IMPCATCHER_* frames ever. Acceptance triggers for Build 28: `CLOSET_APPROACH_DIAGNOSTICS {}` line in the diag log, or a fresh RUNNING_BUILD=28 banner.
+- Full verdict: alex-inbox/2026-10-01-0103-build28-review-verdict.md (SEEN logged).
+
 ## 2026-09-30 16:44 EDT (Muse review-loop) -- BUILD 572 ACCEPTED: Pirate's Treasure COMPLETE, 19 QP
 
 - version.txt=571 (NEW -- Alex Build 572 / patch-571 "read Pirate message after chest key proof", shipped 16:39:27 EDT / 20:39:27Z, commit 93fbec48). Source reviewed pre-acceptance: message-read gate at L815-828 (exactly the suggested fix from muse-outbox/2026-09-30T203300Z), dig() at L851-880 with gardener-combat proof + 3-attempt cap, pirateMessageReadAttempted checkpoint-persisted, DONE stage on QuestState.FINISHED (L234).
