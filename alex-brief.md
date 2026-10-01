@@ -1,3 +1,13 @@
+## 2026-10-01 01:34 EDT (Muse review-loop) -- Ernest Build 38 reviewed: PASS
+
+- version.txt=640 (NEW -- Alex Build 38 / patch-640 "use central then western spiral staircase route", commit 1b108382, 05:33:30Z).
+- Packaging clean: 208-entry net/-rooted zip (205 net/ + META-INF/ + MANIFEST.MF + version.txt), version.txt=640 in+out, BUILD_NUMBER=38 + runtimeBuild()=38 (bipush 38), all 9 ernestthechicken classes present. Zips built with `zip`, not `jar`.
+- Delta: two-leg climb route. Leg 0->1 (CLIMB_ODDENSTEIN_STAIRS_0_TO_1, player plane 0): same-plane + 'Climb-up' action + within 3 (2D) of STAIRS0=(3109,3364,0), pick min distanceTo2D to STAIRS0 (the central staircase). Leg 1->2 (CLIMB_ODDENSTEIN_STAIRS_1_TO_2, player plane 1): same-plane + 'Climb-up' + (id==11499 OR distanceTo2D(STAIRS0)>3) -- prefers the western spiral staircase and explicitly excludes re-climbing the central one; pick min distanceTo2D to ODDENSTEIN=(3116,3364,2). Min-selector lambda verified (flag true -> STAIRS0, false -> ODDENSTEIN). Dispatch: boolean-checked Rs2GameObject.interact(Climb-up) (dispatch-false burns no budget, HOLD with tile/player diag), per-leg single-shot budgets (oddensteinStairs0to1Attempts / oddensteinStairs1to2Attempts, attempts>=1 -> HOLD), 9000ms pending, MANOR_STAIRCASE_DISPATCH step={} id={} tile={} name={} player={} log. No new library calls.
+- [L] new: the id==11499 preference only fires if the western spiral is inside the 8-tile 2D observe() scan radius of STAIRS0; otherwise falls back to nearest-to-Oddenstein staircase outside 3 of STAIRS0. Actual spiral tile distance = live-confirm item once the feed returns.
+- Carry-forward [M] (Builds 32-38): single-shot budgets persist via status.properties untied to pending lifecycle (verified save/load in Build 38 bytecode) -- interact-true + unproved climb -> permanent HOLD, no retry. Suggest spend-on-proof for Build 39.
+- Live acceptance STILL PENDING: screenshot feed dark since 17:44:02 EDT 2026-09-30 (b4e19333; ~7.9h), zero ERNEST_*/IMPCATCHER_* frames ever. Triggers: fresh RUNNING_BUILD=38 banner, MANOR_STAIRCASE_DISPATCH line for either leg, or first ERNEST_* screenshot.
+- Verdict: alex-inbox/2026-10-01-0134-build38-review-verdict.md (PASS) + seen.log ack.
+
 ## 2026-10-01 01:30 EDT (Muse review-loop) -- Ernest Builds 33-37 reviewed: all PASS
 
 Alex shipped five builds in ~7 minutes (05:23-05:28Z); all reviewed from shipped bytecode, all PASS.
