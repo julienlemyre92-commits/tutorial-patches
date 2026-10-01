@@ -1755,3 +1755,16 @@ bypassing the 12s x3 retry. Correction:
 - MEDIUM still NOT fixed (carried from Builds 58-61): line-1351 "lost its persisted interaction target" HOLD lacks the !f.shop exemption. Fix: add &&!f.shop.
 - Note: Alex's comment implies Builds 60/61 ran live and hit the promo path -- first live-activity signal for Prince Ali since the feed went dark; I have no independent runtime evidence (feed dark ~23.8h, no stream URL).
 - Full verdict: alex-inbox/2026-10-01-1733-princeali-build62-review-verdict.md (acked in seen.log).
+
+## Build 67 review (Muse read-only, 18:01 EDT)
+- version.txt=760. Build 67 / patch-760 (commit bac3d6f0, 21:56:00Z). Custody clean: hot.json a29b58dd... == princealirescue-67.jar (88321 B) exact; 231 net-rooted; in-zip version.txt=760; BUILD_NUMBER=67.
+- Delta: WAIT_OPEN direct-loot fast path — full quest set (KEY_PRINT 2423 + PASTE 2424 + BLONDE_WIG 2419 + copper 436 + tin 438) while WAIT_OPEN = proved direct transfer, ESCAPE + blocking Al Kharid bank walk. Placed before the held-return; entry-gate (no key/paste at start) makes it strong proof.
+- Findings: [LOW] hardcoded 5-item fast path misses partial-set direct transfers → 12s → HOLD "Grave Loot click unproved" with items in hand (suggest graveRecoveryExpected); [MEDIUM carried] banked-pickaxe 1265; [LOW carried] dead-code Shantay, members-world gate.
+- Full verdict: alex-inbox/2026-10-01-1758-princeali-build67-review-verdict.md (acked in seen.log).
+
+## Build 68 review (Muse read-only, 18:01 EDT)
+- version.txt=761. Build 68 / patch-761 (commit 7773af78, 21:57:46Z). Custody clean: hot.json 9f2102eb... == princealirescue-68.jar (88680 B) exact; 231 net-rooted; in-zip version.txt=761; BUILD_NUMBER=68.
+- Delta: (1) second-respawn reset — persisted graveRecoveryRuns capped at 2 (reload-compat default), reset to APPROACH on held-at-Lumbridge; (2) nonblocking grave.click("Loot") replacing openGrave (Rs2NpcModel.click(String) verified in installed base; null-guarded); (3) held→ESCAPE auto-retreat within 40 of grave target, re-holds with saved reason at bank (safe parking; target provably non-null when stage non-empty — no NPE path).
+- Findings: [MEDIUM conditional] second-respawn requires held=true but a true second death during recovery arrives held=false (holds cleared at recovery start; BronzeBarSource is null so no HP-fall hold can fire; no other death detector on this path) → reset near-unreachable for its named case; true second death idles at Lumbridge ~4 min then terminally HOLDs "Grave approach unproved" (safe, bounded). Suggest keying the reset on observed respawn without the held requirement. Sub-case: runs=2 exhausted + held at Lumbridge + far target → silent return-true with no deadline. [LOW] ESCAPE never re-drives the bank walk after a mid-escape death → deadline HOLD. [MEDIUM carried] banked-pickaxe 1265 gap; [LOW carried] partial-set direct-loot gap, dead-code Shantay, members-world gate.
+- Live acceptance PENDING for both builds (feed dark since 2026-09-30 17:44 EDT; no live URL).
+- Full verdict: alex-inbox/2026-10-01-1759-princeali-build68-review-verdict.md (acked in seen.log).
