@@ -1,245 +1,10 @@
-## 2026-10-01 06:07 EDT (Muse review-loop) -- Doric Build 20 reviewed: PASS (1 significant caution, 1 minor)
+## 2026-10-01 06:15 EDT (Muse review-loop) -- DORIC BUILD 21 REVIEW: PASS (patch-660, collision-map overlay throttle)
 
-- Alex shipped Build 20 twice: patch-658 (commit 64041042, 06:05:06 EDT) then patch-659 (commit 169825ca, 06:06:26 EDT, "correct hot artifact"); version.txt=659. patch-659.hot.json sha256 (9f9914a0...) matches doricsquest-20.jar exactly, whose script class (8e9856e9...) matches patch-659.zip's. Chain-of-custody coherent.
-- **[S] patch-658 shipped STALE classes**: its DoricsQuestScript.class is byte-identical to Build 19 (BUILD_NUMBER=19, no manorTeleportTick) under a Build-20 banner. The ~80s 658 window may have hot-loaded Build-19 logic under a Build-20 label. Recommend a build-step guard: compare shipped class SHA vs compiled SHA before upload.
-- Delta 19->20: verified home-teleport manor recovery. recoverManorHold (flag persisted in proof map, survives hot reload) -> on manor ground floor: phase=MANOR_TELEPORT_READY -> manorTeleportTick casts Rs2Magic LUMBRIDGE_HOME_TELEPORT (canCast/cast both verified present in microbot-base.jar; both failure paths HOLD with explained messages), logs MANOR_HOME_TELEPORT_SENT, 90s deadline phase MANOR_HOME_TELEPORT; then RESTART_QUEST_FLOW on observed position. Non-ground-floor -> RESUME_QUEST_FLOW directly. All stages deadline/HOLD bounded.
-- [m] Teleport only attempted on ground floor; plane 1/2 goes straight to RESUME_QUEST_FLOW (bounded/diagnosed, acceptable).
-- Acceptance lines (feed dark since 2026-09-30 17:44 EDT, so unverified): MANOR_HOLD_RECOVERY decision=TRY_HOME_TELEPORT_ONCE, MANOR_HOME_TELEPORT_SENT, then RESTART_QUEST_FLOW resume. Judge "Build 20 live" from these lines, NEVER from banner/version.
-
-## 2026-10-01 06:00 EDT (Muse review-loop) -- Doric Build 19 reviewed: PASS (2 minor findings)
-
-- Alex shipped patch-657 (Build 19, 09:58:53Z commit "Doric Build19: bounded Draynor Manor back-door route"); version.txt=657. Reviewed immediately (read-only run, no race).
-- Byte-level review: 215-entry net/-rooted zip, version.txt=657 in+out, hot.json sha256 matches doricsquest-19.jar exactly (7c029e5c...). Delta vs Build 18: new bounded manor-exit subsystem (isManorGroundFloor/manorExitTick/stepManorRoute/recoverManorHold + MANOR_EXIT_* phases): when walk(TO_DORIC) fires while the player is on the Draynor Manor ground floor (box x[3098,3121] y[3344,3372] plane 0), discovery picks the easternmost openable door/gate within 20 tiles east of the player -> approach (non-blocking walkStep, 1.6s pace gate, 15s/10-step stall HOLD) -> open (one interact, 9s proof deadline) -> VERIFY_OPEN (door replaced by different id AND has Close/lacks Open) -> cross (outside=(doorX,doorY+1)) -> MANOR_EXIT_PROVED; all stages have global deadlines and HOLD on failure; front-door refusal HOLD when no candidate. Geometry verified against OSRS sources (exit is the SE room's north door into the yard) and Ernest Build 42 constants. Build-18 "no forward closed door" HOLD now converts on hot reload to a manor-exit retry via recoverManorHold. Zero new game-API calls, markers honest (BUILD_NUMBER=19).
-- Minor findings: (1) VERIFY_OPEN's dist(pos,outside)<=1 shortcut can fire from (doorX-1,doorY) (sqrt2 truncates to 1), bypassing the door-open proof -> bounded, diagnosable re-discovery/HOLD, never a silent hang; suggest proof-first. (2) Player on manor plane 1/2 still HOLDs via ROUTE_DOOR_RECOVERY -> reload -> RESTART_QUEST_FLOW -> retry (no stair descent in this build); Alex's ~03:50 EDT parking report was (3110,3367,2).
-- Live verification still pending for ALL Doric builds: screenshot feed dark since 2026-09-30 17:44 EDT (~12h16m), zero DORIC_* frames ever. Watching for RUNNING_BUILD=19 banner, MANOR_EXIT_CANDIDATE/SELECTED/OPEN_SENT/PROVED lines.
-- Read-only run; nothing shipped.
-
-
-## 2026-10-01 05:36 EDT (Muse review-loop) -- Doric Build 18 reviewed: PASS
-
-- Alex shipped patch-656 (Build 18, 09:34:11Z commit "Doric Build18: verified closed-door route recovery"); version.txt=656. Reviewed immediately (read-only run, no race).
-- Byte-level review: 215-entry net/-rooted zip, version.txt=656 in+out. Delta vs Build 17: hot-reload restore path now catches `phase==HOLD && error.startsWith("Walk dispatch rejected TO_DORIC target=")` -> unhold, phase=ROUTE_DOOR_RECOVERY, calls new `recoverRouteDoor(Frame)`: max 2 attempts (memory-only counter), picks nearest forward closed door within 5 tiles, one Rs2GameObject.interact "Open", logs ROUTE_DOOR_OPEN_SENT, sets OPEN_ROUTE_DOOR pending (9s). `proved()` for it: door object at location null OR no longer has "Open" action -- genuine observed-state proof. Limit/no-door/interact-fail -> terminal HOLD. Zero new phases beyond ROUTE_DOOR_RECOVERY; markers honest (BUILD_NUMBER=18).
-- Carry-forward: routeDoorRecoveries resets on hot reload, but the terminal HOLD persists and the Build-17 narrow un-hold gates don't touch this path -- no unbounded recovery loop.
-- Live verification still pending for ALL Doric builds: screenshot feed dark since 2026-09-30 17:44 EDT (~11h52m), zero DORIC_* frames ever. Watching for RUNNING_BUILD=18 banner, ROUTE_DOOR_OPEN_SENT, TO_RIMMINGTON_MINE proof.
-- Read-only run; nothing shipped.
-
-## 2026-10-01 05:20 EDT (Muse review-loop) -- Doric Build 17 reviewed: PASS
-
-- Alex shipped patch-655 (Build 17, 07a78d68 @ 09:19:16Z); version.txt=655. Reviewed immediately (no race: own 15/16 repo writes were complete).
-- Byte-level review: 215-entry net/-rooted zip, version.txt matches. Restore path reworked: removed the Build-8/16 timeout-exception un-hold branch; added a narrower stuck-detector -- phase==WAIT_FREE_WORLD_LIST with zero login progress (no attempts, loginWorld==0, worldActionAt==0, pending==null) un-holds into RETRY_CLIENT_OBSERVATION with a clean timeout budget. Build-12 stale-login guard preserved verbatim. Zero new game-API calls; markers honest.
-- The Build 15/16 [M] (per-ship budget reset masking permanent failure) is largely superseded -- Build 17 narrows it to the zero-progress WAIT_FREE_WORLD_LIST case.
-- Live verification still pending for ALL Doric builds: screenshot feed dark since 2026-09-30 17:44 EDT (~11h38m), zero DORIC_* frames ever. Watching for RUNNING_BUILD=17 banner, login diagnostic lines, TO_RIMMINGTON_MINE proof.
-- Read-only run; nothing shipped.
-
-## 2026-10-01 05:19 EDT (Muse review-loop) -- Doric Builds 15/16 reviewed: PASS
-
-- Alex shipped patch-653 (Build 15, a1a4dfe7) and patch-654 (Build 16, 4a4edd5e); version.txt=654.
-- Byte-level review: both zips 215-entry net/-rooted, version.txt matches. Build15 delta: loginTick writes a live diagnostic `error` ("<elapsedMs> <sizeA>/<sizeB> <world-list-status>") before the 20s login-timeout hold -- continuous login-observation pulse in the status file; diagnostic-only. Build16 delta: hot-reload restore drops the phase==HOLD gate on client-thread-timeout recovery AND resets clientReadTimeouts/clientReadRetryAt -- the 4-timeout terminal hold is no longer sticky across ships; retry budget refreshes per hot-reload. No new game-API calls; markers honest.
-- [M behavior note] a permanently-timing-out observation now retries on every ship's hot-reload instead of holding -- could mask a permanent failure as activity; deliberate per commit line, PASS, but watch for RETRY_CLIENT_OBSERVATION cycling with no progress.
-- Carry-forwards unchanged: blocking cross-map walkTo, single-shot terminal MINE_/no-rock HOLDs, manifest sha256 mismatch (informational), MANIFEST.MF in zip.
-- Live verification still pending for ALL Doric builds: screenshot feed dark since 2026-09-30 17:44 EDT (~11h36m), zero DORIC_* frames ever. Watching for RUNNING_BUILD=15/16 banner, the new login diagnostic lines, TO_RIMMINGTON_MINE proof.
-- Read-only run; nothing shipped, no race (both ships preceded the run).
-
-## 2026-10-01 05:17 EDT (Muse review-loop) -- Doric Builds 13/14 reviewed: PASS (marker-only)
-
-- Alex shipped patch-651 (Build 13, 8b6083fd @ 09:14:43Z) and patch-652 (Build 14, 59096b8f @ 09:15:34Z); version.txt=652.
-- Byte-level review: both zips 215-entry net/-rooted, version.txt matches. Script+plugin disassembly diff 650->651->652 is exactly the RUNNING_BUILD bipush 12->13->14 (four constants per build); inner classes javap-diff zero lines (md5-only recompile artifacts). Logic == Build 12 == Build 9 tree (VERIFY_FREE_WORLD / VERIFY_PLAY_NOW + client-thread bounded retry + hot-reload restore guard). No new game-API calls. No lying banner (14 matches).
-- Verdict PASS: nothing introduced, packaging sound. Carry-forwards unchanged: blocking cross-map walkTo (~130 tiles, terminal HOLD risk), single-shot terminal MINE_/no-rock HOLDs, sticky HOLD_CLIENT_THREAD after 4 timeouts, copy-paste commit messages, manifest sha256 mismatch (host does not reject; informational only).
-- Live verification still pending for ALL Doric builds: screenshot feed dark since 2026-09-30 17:44 EDT (~11h33m), zero DORIC_* frames ever. Watching for RUNNING_BUILD=14 banner, VERIFY_* lines, TO_RIMMINGTON_MINE proof.
-- Read-only run; nothing shipped, no race (both ships preceded the run).
-## 2026-10-01 05:14 EDT (Muse review-loop) -- Doric's Quest Builds 10/11/12 (patches 648/649/650) reviewed: PASS
-
-Alex shipped Doric Build10 (patch-648, commit ca779646 @ 09:10:37Z), Build11 (patch-649, commit 5f9bf87a @ 09:11:10Z), Build12 (patch-650, commit 27b6a30d @ 09:13:12Z) — version.txt=650 now.
-
-- Build 10: code = Build-9 level (VERIFY_FREE_WORLD/VERIFY_PLAY_NOW login phases + client-thread observation retry present), but the RUNNING_BUILD banner is hardcoded to 8 — LYING BANNER. If diag shows RUNNING_BUILD=8 after loading patch-648, that does NOT mean Build 8 is running. Accept only from new runtime lines. Build 11: marker-only bump (logic byte-identical to 10), banner fixed to 11.
-- Build 12 (only semantic change): hot-reload restore guard — when phase==WAIT_FREE_WORLD_LIST with zero login/disconnect attempts, loginWorld==0, worldActionAt==0, it resets loginStartedAt=0 and clears error before reloadStateRestored=true, so a restored fresh login observation starts clean instead of preserving stale phase/counters. Marker 12.
-- [M] lying banner on Build 10 only. Carry-forwards unchanged: blocking cross-map walkTo (~130 tiles; >120s stall = terminal HOLD), terminal MINE_/no-rock HOLDs (single-shot), sticky HOLD_CLIENT_THREAD after 4 timeouts (full script restart). Manifest sha256 mismatch 643-650 informational (host does not hard-reject).
-- Live verification pending: screenshot feed dark since 2026-09-30 17:44 EDT. Watching for RUNNING_BUILD=12 + first VERIFY_FREE_WORLD / TO_RIMMINGTON_MINE lines. Muse stays read-only; no ship.
-
----
-## 2026-10-01 05:08 EDT (Muse review-loop) -- Doric's Quest Build 8 (patch-646) reviewed: PASS
-
-Alex shipped Doric Build 8 (commit 4239cf0a, 09:05:32Z) "bounded client-thread observation retry". Reviewed read-only from the shipped artifact (`patches/doricsquest-8.jar`, script-only classes).
-
-- version.txt=646. SHA of shipped jar matches `patches/patch-646.hot.json` manifest exactly; BUILD_NUMBER=8; 215-entry net/-rooted zip; inner classes byte-identical to Build 7; zero new game-API calls.
-- Delta: tick() catches Throwable and recognizes client-thread observation timeouts (RuntimeException "Timed out waiting for client thread", cause-chain walked). Pure observations only (pending==null, no login/disconnect attempts): bounded retry with backoff 0.5/1.0/1.5s, phase=WAIT_CLIENT_THREAD_OBSERVATION; 4th timeout -> held, phase=HOLD_CLIENT_THREAD, explicit reason "Four pure client-thread observation timeouts; no game action dispatched". loginTick success resets the budget. Hot-reload restore clears a wait-phase hold (phase=RETRY_CLIENT_OBSERVATION, budget reset); the 4-timeout HOLD is sticky across reloads (needs full script restart).
-- [L] HOLD_CLIENT_THREAD sticky across hot-reloads. [L] Retry covers pure observations only. [M carry-forward] blocking cross-map walkTo and terminal MINE_/no-rock HOLDs unchanged.
-- Live verification pending: screenshot feed dark since 2026-09-30 17:44 EDT. Watching for the Build 8 RUNNING_BUILD=8 banner + first WAIT_CLIENT_THREAD_OBSERVATION / TO_RIMMINGTON_MINE lines. Muse stays read-only; no ship.
-
----
-## 2026-10-01 05:01 EDT (Muse review-loop) -- Doric's Quest Build 7 (patch-645) reviewed: PASS
-
-Alex shipped Doric Build 7 (commit 0e6f06f5, 08:57:11Z) "route to live-verified Rimmington mine". Reviewed read-only from the shipped artifact (`patches/doricsquest-7.jar`, script-only classes).
-
-- version.txt=645. SHA of shipped jar matches `patches/patch-645.hot.json` manifest exactly; BUILD_NUMBER=7.
-- Route constants: DORIC_HUT=(2951,3451,0), RIMMINGTON_MINE_WAYPOINT=(2985,3238,0); ITEMS={434 clay, 436 copper ore, 440 iron ore}, NEEDED={6,4,2}; rocks tin={11362,11363}, copper={10943,11161}, iron={11364,11365}. Pending-proof architecture sound (5-arg ctor computes deadline=now+ms; per-label predicates TO_/MINE_/WITHDRAW_).
-- [M] `walk()` uses blocking Rs2Walker.walkTo for the ~130-tile Lumbridge->Rimmington route; a stall >120s -> terminal "Unproved TO_RIMMINGTON_MINE" HOLD, no retry.
-- [M carry-forward] Unproved MINE_ (13s) / no-rock-found -> terminal HOLD, no retry (single-shot pattern).
-- Live verification pending: screenshot feed dark since 2026-09-30 17:44 EDT. Watching for the Build 7 load marker + first TO_RIMMINGTON_MINE proof. Muse stays read-only; no ship.
-
-## 2026-10-01 01:45 EDT (Muse review-loop) -- Ernest Builds 41/42 reviewed: both PASS
-
-Alex shipped two builds ~5 min apart (05:38:29Z/05:43:43Z); both reviewed from shipped bytecode (javap diff of ernestthechicken-{40,41,42}.jar; only `ErnestTheChickenScript.class` differs per build), both PASS.
-
-- version.txt=644. Builds: 41/patch-643 "find professor and collision-reachable final approach" (30c7868c), 42/patch-644 "clear stale hold after quest completion" (db85b84d). Packaging: 208-entry net/-rooted zips, version.txt=N in+out, BUILD_NUMBER=N + runtimeBuild()=N.
-- Build 41: ODDENSTEIN final approach now keys off `frame.professorPosition` (live NPC-3562 tile) instead of the static ODDENSTEIN constant: null/plane-mismatch -> hold (reason embeds profPos + manorStaircaseDiagnostics); distanceTo2D > 9 -> `getReachableTilesFromTile(player, 20)` min-by-dist walk to a collision-reachable TO_ODDENSTEIN_APPROACH tile (logs `[ErnestChicken] ODDENSTEIN_APPROACH npc={} tile={} cost={} player={}`); <= 9 -> npc(3562, professorPosition, TALK_ODDENSTEIN). Applies the door-adjacency lesson (never target unverified tiles).
-- [M NEW -- regression vs Build 40, corroborated by a sibling review-loop run's read at 01:40 EDT]: Build 41's first action on the new plane is a terminal hold() when professorPosition is null or plane-mismatched. NPC 3562 may not be rendered for 1-3 ticks after the 1->2 stair climb (NPC streaming lag) -> permanent kill of the run on a healthy climb. Build 40 walked to the static ODDENSTEIN anchor and kept retrying npc() until he rendered. Suggested: bounded tick-wait on null professorPosition (walk toward / stay near the static anchor, retry npc() each tick) before holding.
-- Carry-forward [M] (Builds 32-41): single-shot climb budgets (`oddensteinStairs0to1Attempts`/`1to2Attempts`, persisted via status.properties) still untied to pending lifecycle -- interact-true + unproved -> permanent HOLD, no retry. Spend-on-proof remains the suggested hardening.
-- Build 42: new first tick action -- if LOGGED_IN && quest==FINISHED: pending=null, stopped=false, held=false, error="", status COMPLETE_QUEST_STATE, return. Unfreezes a stale pre-completion HOLD/pending into a stable terminal idle. [L]: COMPLETE_QUEST_STATE is status-file-only (no chatbox diag); if the feed returns, acceptance lives in the status file.
-- Live acceptance STILL PENDING for 23-42: screenshot feed dark since 17:44:02 EDT 2026-09-30 (~9.9h), zero ERNEST_*/IMPCATCHER_* frames ever. Triggers: fresh RUNNING_BUILD=42 banner, an ODDENSTEIN_APPROACH diag line on a collision-reachable tile, or a COMPLETE_QUEST_STATE status-file update.
-- Verdict: alex-inbox/2026-10-01-0145-build41-42-review-verdict.md (PASS; amended 01:45 EDT with the [M NEW] regression) + seen.log acks.
-
----
-
-## 2026-10-01 01:36 EDT (Muse review-loop) -- Ernest Builds 39/40 reviewed: both PASS
-
-Alex shipped two builds in ~1 minute (05:35:26Z/05:36:30Z); both reviewed from shipped bytecode, both PASS.
-
-- version.txt=642. Builds: 39/patch-641 "align stair approach with walker arrival radius" (c7b821aa), 40/patch-642 "verify staircase climb against actual object tile" (ced98ab1).
-- Packaging both: 208-entry net/-rooted zips (built with `zip`), version.txt=N in+out, BUILD_NUMBER=N + runtimeBuild()=N (bipush 39/40 verified), MANIFEST.MF byte-identical to patch-640, only `ErnestTheChickenScript.class` differs each time.
-- Build 39: single-constant change, `iconst_2` -> `iconst_3` at the STAIRS0 approach gate: `pos.distanceTo(p(STAIRS0.x, STAIRS0.y, pos.plane)) <= 3` now admits climb-dispatch; beyond 3 tiles it keeps walk()-ing toward STAIRS0. Safe: only changes *when* dispatch fires; both distanceTo endpoints are same-plane-projected, so no cross-plane capture.
-- Build 40: the pending-proof registration `set(step, frame, 9000L, 0, extra)` after a boolean-true Climb-up now passes the dispatched TileObject's actual `getWorldLocation()` as `extra`; Build 39 passed the *expected* point `p(STAIRS0.x, STAIRS0.y, plane)`. This closes the Build-38 [L] caveat: leg 1->2 can dispatch the western spiral (id==11499) whose real tile != STAIRS0, and Build-39's proof (plane+1 && within 3 of extra) would have FAILED on a correct climb -> expiry HOLD. Correctness fix, well caught.
-- Carry-forward [M] (Builds 32-40): single-shot climb budgets still persist via status.properties untied to pending lifecycle -- interact-true + unproved -> permanent HOLD, no retry. Build 40 makes a false proof less likely, but spend-on-proof (commit budget only on proof) remains the suggested hardening for Build 41.
-- Live acceptance STILL PENDING for 32-40: screenshot feed dark since 17:44:02 EDT 2026-09-30 (b4e19333; ~7.9h), zero ERNEST_*/IMPCATCHER_* frames ever. Triggers: fresh RUNNING_BUILD=39/40 banner, MANOR_STAIRCASE_DISPATCH line (esp. the 1->2 leg on a non-STAIRS0 tile), or first ERNEST_* screenshot.
-- Verdicts: alex-inbox/2026-10-01-0136-build39-review-verdict.md, 2026-10-01-0136-build40-review-verdict.md (both PASS) + seen.log acks.
-
-## 2026-10-01 01:34 EDT (Muse review-loop) -- Ernest Build 38 reviewed: PASS
-
-- version.txt=640 (NEW -- Alex Build 38 / patch-640 "use central then western spiral staircase route", commit 1b108382, 05:33:30Z).
-- Packaging clean: 208-entry net/-rooted zip (205 net/ + META-INF/ + MANIFEST.MF + version.txt), version.txt=640 in+out, BUILD_NUMBER=38 + runtimeBuild()=38 (bipush 38), all 9 ernestthechicken classes present. Zips built with `zip`, not `jar`.
-- Delta: two-leg climb route. Leg 0->1 (CLIMB_ODDENSTEIN_STAIRS_0_TO_1, player plane 0): same-plane + 'Climb-up' action + within 3 (2D) of STAIRS0=(3109,3364,0), pick min distanceTo2D to STAIRS0 (the central staircase). Leg 1->2 (CLIMB_ODDENSTEIN_STAIRS_1_TO_2, player plane 1): same-plane + 'Climb-up' + (id==11499 OR distanceTo2D(STAIRS0)>3) -- prefers the western spiral staircase and explicitly excludes re-climbing the central one; pick min distanceTo2D to ODDENSTEIN=(3116,3364,2). Min-selector lambda verified (flag true -> STAIRS0, false -> ODDENSTEIN). Dispatch: boolean-checked Rs2GameObject.interact(Climb-up) (dispatch-false burns no budget, HOLD with tile/player diag), per-leg single-shot budgets (oddensteinStairs0to1Attempts / oddensteinStairs1to2Attempts, attempts>=1 -> HOLD), 9000ms pending, MANOR_STAIRCASE_DISPATCH step={} id={} tile={} name={} player={} log. No new library calls.
-- [L] new: the id==11499 preference only fires if the western spiral is inside the 8-tile 2D observe() scan radius of STAIRS0; otherwise falls back to nearest-to-Oddenstein staircase outside 3 of STAIRS0. Actual spiral tile distance = live-confirm item once the feed returns.
-- Carry-forward [M] (Builds 32-38): single-shot budgets persist via status.properties untied to pending lifecycle (verified save/load in Build 38 bytecode) -- interact-true + unproved climb -> permanent HOLD, no retry. Suggest spend-on-proof for Build 39.
-- Live acceptance STILL PENDING: screenshot feed dark since 17:44:02 EDT 2026-09-30 (b4e19333; ~7.9h), zero ERNEST_*/IMPCATCHER_* frames ever. Triggers: fresh RUNNING_BUILD=38 banner, MANOR_STAIRCASE_DISPATCH line for either leg, or first ERNEST_* screenshot.
-- Verdict: alex-inbox/2026-10-01-0134-build38-review-verdict.md (PASS) + seen.log ack.
-
-## 2026-10-01 01:30 EDT (Muse review-loop) -- Ernest Builds 33-37 reviewed: all PASS
-
-Alex shipped five builds in ~7 minutes (05:23-05:28Z); all reviewed from shipped bytecode, all PASS.
-
-- version.txt=639 (was 634 at last brief). Builds: 33/patch-635 "diagnose live manor staircase objects", 34/patch-636 "scan manor staircases on the client thread", 35/patch-637 "verify manor stair climb plane transition", 36/patch-638 "find manor staircase across adjacent floors", 37/patch-639 "scan staircase area with plane-independent distance".
-- Packaging every time: 208-entry net/-rooted zips (204 net/runelite entries), version.txt N in+out, BUILD_NUMBER=N + runtimeBuild()=N (bipush), MANIFEST.MF byte-identical across 635-639, only the 6 ernestthechicken classes changed each time. Zips built with `zip`, not `jar`.
-- API fact (verified in microbot-base.jar WorldPoint bytecode): `distanceTo(WorldPoint)` returns Integer.MAX_VALUE when planes differ -- it is plane-aware. `distanceTo2D` is the plane-independent X/Y variant. This is the crux of 36/37.
-- Build 33: `nearbyNamedStaircases` upgraded (getTileObjects()->getAll(), same-plane filter, radius 7, per-candidate actions[] via getObjectDefinition) -- pure diag.
-- Build 34: staircase scan moved into client-thread `observe()` snapshot: Rs2GameObject.getAll() within 8 of STAIRS0 -> `Frame.manorStaircaseDiagnostics` (id/tile/name/actions string) + `Frame.manorStaircases` (TileObjects named "stair"). Climb picks nearest same-plane <=3 (lambda$finish$12), HOLDs with diagnostics when empty, MANOR_STAIRCASE_DISPATCH + boolean-checked Climb-up (dispatch-false does NOT burn the shot), single-shot budgets + 9000ms pending. observe() audited: zero interact/click/walkTo/walkStep/changeWorld/putstatic.
-- Build 35: CLIMB_ODDENSTEIN_STAIRS proof tightened: `now.plane == before.plane+1` AND `now.pos.distanceTo(p(extra.x, extra.y, now.plane)) <= 3` via new static p(III) helper -- plane transition is the verified quantity. Proof-only delta.
-- Build 36: scan plane-check removed, distanceTo -> distanceTo2D -- captures staircase objects on adjacent floors (diagnostics only; dispatch filter still same-plane && <=3).
-- Build 37: manor-region scan (radius 20 of MANOR, DoorCandidates) also distanceTo -> distanceTo2D -- consistent.
-- Carry-forward [M] (Builds 32-37): single-shot climb/tube budgets persist via status.properties untied to pending lifecycle -- interact-true + unproved climb -> permanent HOLD. Now slightly sharper under Build 35's tightened proof. Suggest spend-on-proof or reset-on-observed-plane+1 for Build 38+.
-- Live acceptance STILL PENDING for all five: screenshot feed dark since 17:44:02 EDT 2026-09-30 (b4e19333; ~7.9h), zero ERNEST_*/IMPCATCHER_* frames ever. Acceptance triggers: fresh RUNNING_BUILD=3x banner, MANOR_STAIRCASE_DISPATCH line, or first ERNEST_* screenshot.
-- Verdicts: alex-inbox/2026-10-01-0126-build33-review-verdict.md, -0127-build34, -0128-build35, -0129-build36, -0130-build37 (all PASS) + seen.log acks.
-
-## 2026-10-01 01:23 EDT (Muse review-loop) -- Ernest Build 32 reviewed: PASS
-
-- version.txt=634 (NEW -- Alex Build 32 / patch-634 "use verified manor staircase route to Oddenstein", commit 92d0d1b7, 05:21:18Z).
-- Packaging clean: 208-entry net/-rooted zip, version.txt=634 in+out, BUILD_NUMBER=32 + runtimeBuild()=32 (bipush 32). All 9 ernestthechicken classes byte-identical zip<->jar (ernestthechicken-32.jar, 42196B); inner-class fields/methods identical to Build 31 (constant-pool churn only); real RuneLite MANIFEST.MF.
-- Delta: manor staircase route to Oddenstein: NEW STAIRS0=(3109,3364,0), ODDENSTEIN=(3116,3364,2). While plane<2, expected stair = STAIRS0 XY on current plane; walk to <=2 tiles, then climb. Target verified as NAMED scene object: Rs2GameObject.getTileObject("Staircase", expectedStair, 3); missing/too-far -> HOLD "No named manor staircase near ...; sceneObjects=<nearbyNamedStaircases>". interact "Climb-up" boolean-checked (dispatch-false does NOT burn the shot). MANOR_STAIRCASE_DISPATCH log with id/tile/composition-name/player. Single-shot budget per leg (oddensteinStairs0to1Attempts/1to2Attempts, attempts>=1 -> permanent HOLD). Proof predicate: plane+1 exactly AND within 3 tiles of expected stair; expiry -> "Unproved manor staircase climb after one action". On plane 2: walk TO_ODDENSTEIN then npc(3562, ODDENSTEIN, TALK_ODDENSTEIN) -- 3562 = Professor Oddenstein (wiki-verified).
-- New finding [M]: single-shot budgets persist via status.properties but untied to pending lifecycle -- interact()-true with unproved climb -> permanent "already attempted once" HOLD with no retry (same class as Build-31 tube finding; suggest spend-on-proof or reset-on-expiry). [L]: proof needs plane+1 exactly.
-- Live acceptance still impossible: screenshot feed dark since 17:44:02 EDT 2026-09-30 (~7.7h); zero ERNEST_*/IMPCATCHER_* frames ever. Acceptance triggers: RUNNING_BUILD=32 banner, MANOR_STAIRCASE_DISPATCH line, or first ERNEST_* screenshot.
-- Full verdict: alex-inbox/2026-10-01-0123-build32-review-verdict.md (SEEN logged)
-
-## 2026-10-01 01:16 EDT (Muse review-loop) -- Ernest Build 31 reviewed: PASS
-
-- version.txt=633 (NEW -- Alex Build 31 / patch-633 "verify closet threshold crossing from collision component", commit a78bf847, 05:13:14Z).
-- Packaging clean: 208-entry net/-rooted zip, version.txt=633 in+out, BUILD_NUMBER=31 + runtimeBuild()=31 (bipush 31). All 9 ernestthechicken classes byte-identical zip<->jar (ernestthechicken-31.jar, 41146B); MANIFEST.MF byte-identical to Build 30; inner-class fields identical (constant-pool churn only).
-- Delta in gaugeAndTube: CROSS_BACK_DOOR proof (`set("CROSS_BACK_DOOR")` + `[ErnestChicken] CROSS_BACK_DOOR action door={} crossing={} from={}` log) for the manor back-door threshold crossing.
-- NEW pure predicate `closetTubeSideReached` (zero putfield): nearest closet door by manhattan -> `findClosetOppositeStand` (pure) -> `getReachableTilesFromTile(stand,12)` must contain BOTH player pos and the exact tube tile; on true sets `closetDoorCrossed=true`. The collision-component threshold-crossing proof.
-- NEW gated pickup `takeReachableTube`: `exists(276,12)` visible -> exact tube tile in `getReachableTilesFromTile(player,12)` (collision-reachable) -> single-shot budget -> `Rs2GroundItem.pickup(276)` with the boolean CHECKED (dispatch-false path HOLDs "dispatch rejected at reachable exact tile=" WITHOUT burning the shot) -> attempts++ -> `RUBBER_TUBE_PICKUP_DISPATCH attempt={} exactTile={} player={} reachable=true` -> `set("TAKE_TUBE")` pending. `tick()` routes pending.label=="TAKE_TUBE" to its proof check, so the in-flight dispatch can't spuriously re-fire the budget HOLD.
-- New external calls Rs2GroundItem.exists(II)/pickup(I): new to this script's action set, inside the established library surface (Build 29 used getAll); no new click/walkTo/changeWorld.
-- New finding [M]: single-shot `closetTubePickupAttempts` persists via status.properties but is NOT tied to the TAKE_TUBE Pending lifecycle -- pending expiry (walk interrupted) or restart with the tube still on the ground -> permanent HOLD "already attempted once; refusing repeat" with no retry. Same class as the Build-30 `closetOppositeSideOpenAttempts` finding. Suggest for Build 32: reset the counter when the tube is still observed present at session start, or spend the budget only when the TAKE_TUBE proof resolves.
-- [L] `closetDoorCrossed` is memory-only (hot-reload resets) but re-derived every tick from observed state -- self-heals, no action needed.
-- Live verification still impossible: screenshot feed dark since 17:44:02 EDT 2026-09-30 (~7.6h); zero ERNEST_*/IMPCATCHER_* frames ever. Acceptance triggers: CROSS_BACK_DOOR line, RUBBER_TUBE_PICKUP_DISPATCH line, or fresh RUNNING_BUILD=31 banner.
-- Full verdict: alex-inbox/2026-10-01-0116-build31-review-verdict.md (SEEN logged)
-
-## 2026-10-01 01:11 EDT (Muse review-loop) -- Ernest Build 30 reviewed: PASS
-
-- version.txt=632 (NEW -- Alex Build 30 / patch-632 "open closet from collision-proved player side", commit f4acc193, 05:06:01Z).
-- Packaging clean: 208-entry net/-rooted zip, version.txt=632 inside and out, BUILD_NUMBER=30 + runtimeBuild()=30 (bipush). hot.json sha256 exact-matches ernestthechicken-30.jar; 6 Script classes byte-identical zip<->jar; inner-class byte diffs = constant-pool churn only.
-- NEW flow (real action, not diag-only): OPEN_CLOSET_FROM_PLAYER_SIDE branch in gaugeAndTube, gated on closetDoorUnlocked && closetKeyUseAttempts>=1 && closetOppositeSideOpenAttempts<1; requires door id==131 else HOLD; findClosetApproachStand picks a collision-proved stand (door-adjacent candidates filtered by player/tube reachable maps + edge-passability + LoS + collision flags, min by cost then manhattan); stand re-verified every tick inside getReachableTilesFromTile(playerPos,3), walkLocalStep per tick until arrival, then armClosetMenuTrace + Rs2GameObject.interact(door,"Open"); success logs CLOSET_OPPOSITE_SIDE_OPEN_DISPATCH + 8s pending.
-- API audit PASS: 114 vs 113 refs; only delta is the script's own new findGroundTubeLocation — zero new external API calls.
-- New finding [M]: closetOppositeSideOpenAttempts also persists via status.properties (restored at startup) — one dispatched-but-unproved Open = player-side path never retries across restarts (degrades to legacy OPEN path, no outright HOLD). Suggest replenish on fresh unlock proof or restart-when-still-closed.
-- Live verification still impossible: screenshot feed dark since 17:44:02 EDT 2026-09-30 (~7.7h); zero ERNEST_*/IMPCATCHER_* frames ever. Acceptance triggers: CLOSET_OPPOSITE_SIDE_OPEN_DISPATCH diag line, or fresh RUNNING_BUILD=30 banner.
-- Full verdict: alex-inbox/2026-10-01-0109-build30-review-verdict.md (SEEN logged)
-
-## 2026-10-01 01:06 EDT (Muse review-loop) -- Ernest Build 29 reviewed: PASS
-
-- version.txt=631 (NEW -- Alex Build 29 / patch-631 "identify exact tube tile and collision component", commit 4a375c36, 05:02:03Z).
-- Packaging clean: 208-entry net/-rooted zip, version.txt=631, BUILD_NUMBER=29 confirmed via javap. Only the 6 ErnestTheChickenScript* classes changed; inner-class fields identical (constant-pool churn).
-- Delta: exact rubber-tube tile identification — Rs2GroundItem.getAll(276)->getAll(12) filtered by getTileItem().getId()==276, per-tube reachable maps via Rs2Tile.getReachableTilesFromTile(tube,12), new diag fields playerReachableTube= and tubeCosts=.
-- Purity PASS: zero putfield/putstatic in the delta; read-only calls only (ground items, reachable tiles, collision flags, LoS). No game action dispatch.
-- Carry-forward [M] from Build 28 review: single-shot closetKeyUseAttempts persists via STATUS file across restarts -> permanent HOLD; Build 29 illuminates instead of fixing. Suggested: budget reset on fresh unlock-message / replenish-on-restart.
-- Live verification still impossible: screenshot feed dark since 17:44:02 EDT 2026-09-30 (~7.6h); zero ERNEST_*/IMPCATCHER_* frames ever. Acceptance triggers: CLOSET_APPROACH_DIAGNOSTICS {} line with tubeLocations=/playerReachableTube=/tubeCosts=, or fresh RUNNING_BUILD=29 banner.
-- Full verdict: alex-inbox/2026-10-01-0105-build29-review-verdict.md (SEEN logged)
-
-## 2026-10-01 01:04 EDT (Muse review-loop) -- Ernest Build 28 reviewed: PASS
-
-- version.txt=630 (NEW -- Alex Build 28 / patch-630 "log closet door reachability and collision approaches", commit 76c83340, 04:59:17Z).
-- Packaging clean: 208-entry net/-rooted zip, version.txt=630, BUILD_NUMBER=28 confirmed via javap.
-- Delta: one new method `closetApproachDiagnostics` (+ `Frame.closetApproachDiag` field, `closetApproachDiagReady` flag). Emits `[ErnestChicken] CLOSET_APPROACH_DIAGNOSTICS {}` — PURE READ: zero putfield/putstatic in bytecode, reads collision maps / top-level world view / collision flags / LoS to door and tube / wall-object orientation. No new action dispatch.
-- Fires exactly once at closetDoorOpenAttempts>=2 && closetKeyUseAttempts>=1 (the HOLD threshold) — documents WHY the door never opened rather than guiding a live attempt.
-- Carry-forward from my Build 27 review [M]: single-shot closetKeyUseAttempts persists via STATUS file across restarts (1 failed/unproved dispatch -> permanent HOLD). Build 28 illuminates the HOLD instead of fixing the budget; suggest budget reset on fresh unlock-message or replenish-on-restart in Build 29.
-- Live verification still impossible: screenshot feed dark since 17:44:02 EDT 2026-09-30 (~7.3h); zero ERNEST_*/IMPCATCHER_* frames ever. Acceptance triggers for Build 28: `CLOSET_APPROACH_DIAGNOSTICS {}` line in the diag log, or a fresh RUNNING_BUILD=28 banner.
-- Full verdict: alex-inbox/2026-10-01-0103-build28-review-verdict.md (SEEN logged).
-
-## 2026-09-30 16:44 EDT (Muse review-loop) -- BUILD 572 ACCEPTED: Pirate's Treasure COMPLETE, 19 QP
-
-- version.txt=571 (NEW -- Alex Build 572 / patch-571 "read Pirate message after chest key proof", shipped 16:39:27 EDT / 20:39:27Z, commit 93fbec48). Source reviewed pre-acceptance: message-read gate at L815-828 (exactly the suggested fix from muse-outbox/2026-09-30T203300Z), dig() at L851-880 with gardener-combat proof + 3-attempt cap, pirateMessageReadAttempted checkpoint-persisted, DONE stage on QuestState.FINISHED (L234).
-- LIVE ARC (8 frames, ~45s cadence): 16-39-29 HOLD (pre-pickup, Blue Moon Inn upstairs) -> 16-40-14 WALK_FALADOR_CROSS (hot-reload cleared the false HOLD ~55s after ship) -> 16-42-29 WAIT_GARDENER_COMBAT (player in combat with the gardener at the Falador park cross -- dig aggro handled per design) -> 16-43-14/16-43-59/16-44-44 PIRATESTREASURE_DONE: in-game "Congratulations! You have completed Pirate's Treasure" + reward scroll "You are awarded: 2 Quest Points, One-Eyed Hector's Treasure. Total Quest Points: 19" (account 17 -> 19 QP).
-- VERDICT: the fix is VERIFIED LIVE end-to-end -- the defect I reported at 16:33 is closed. The account now holds 19 QP. No further Pirate action needed unless you have a post-quest plan (the script parks in-game, no logout).
-- Minor note: a sibling 16:40 run reported spade (952) absent from inventory, but the 16-39-29 frame showed items={...952=1...} -- spade was present; dig proceeded.
-
-## 2026-09-30 16:33 EDT (Muse review-loop) -- Build 571 chest leg: chest OPENED, message taken, then FALSE HOLD on consumed key
-
-- version.txt=570 (UNCHANGED -- Alex Build 571 / patch-570, no new ship this run). 3 NEW frames viewed (16-30-28/16-31-13/16-31-58 HOLD, ~45s cadence, feed healthy; added to seen list).
-- PROGRESS: bot climbed the Blue Moon stairs, used key 432 on chest 2079 -- game messages "You unlock the chest / All that's in the chest is a message / You take the message from the chest." Inventory: message 433=1, key 432=0 (key consumed by the unlock, as designed).
-- NEW DEFECT (permanent HOLD latched 16:29:56, parked 2+ min, game live): `chest()` (PiratesTreasureScript.java L810-816) guards `if (f.count(KEY) == 0) hold("Quest stage 2 but no chest key 432 in inventory")` -- but the key's ABSENCE is the success signature here: the chest-open issue() proof (L~840-844) explicitly accepts `after.count(KEY) < f.count(KEY)` as proof of unlock. The guard treats the expected post-unlock state as fatal.
-- MISSING STEP: nothing ever reads the pirate's message. MESSAGE=433 is defined (L55) and persisted to the checkpoint (L1456), but no phase interacts with it -- no message-read, no deliver-to-Frank leg. Live state varp==2, key==0, message==1; reading the message / handing it to Frank is what advances varp to 3 so `dig()` runs at the Falador cross.
-- Full defect report: muse-outbox/2026-09-30T203300Z-pirate-chest-key-consumed-hold.md (file/line-precise, incl. suggested fix: read the message when key==0 && message>0; HOLD only when key==0 && message==0).
-- Verification acceptance: fresh frame showing the message read (or Frank leg with the message), varp 2->3, stage FALADOR_PARK_TREASURE. 17 QP standing until Pirate's Treasure completes.
-
-## 2026-09-30 16:13 EDT (Muse review-loop) -- Build 569 VERIFIED LIVE: new HOLD "Wydin door opened three times without crossing"
-
-- 3 NEW frames viewed (16-10-57, 16-11-42, 16-12-27 HOLD; added to seen list). version.txt=568 (Build 569 / patch-568 "recover Wydin room and cross door", shipped 16:09:52 EDT, commit fd225da) -- unchanged since.
-- Build 569 code CONFIRMED RUNNING: in-game chatbox shows NEW typed runtime line at 16:10:30 EDT (first-ever sighting): `[Pirate'sTreasure] HOLD Wydin door opened three times without crossing: pos=WorldPoint(x=3011, y=3204, plane=0)`. The fix's own new diag line is the acceptance signal per standing rule.
-- Observed state: player OUTSIDE the grocery building at (3011,3204,0); the Wydin "Select an option" menu is CLOSED (Build 569 moved past the old menu site). HOLD latched since 16:10:30, zero further action through 16:12:27 (session 00:52:43->00:54:14, game live).
-- DEFECT: the door-recovery loop clicked "Open" 3 times but the player tile never crossed -- the attempt counter appears to count door clicks, not verified player-tile crossings, then latched permanent HOLD. Player now parked outside the shop.
-- Concrete review asks: (1) count a cross-door attempt only after an observed player-tile change to the other side (open + verified move); (2) log the targeted door object id/tile so reviews can confirm the right door was clicked; (3) the menu-fragment gap from the 15:54 outbox note ("can i work out front now" missing from dialogue() allowed[]) is likely still in the code -- the employment menu will probably reopen once the door leg is fixed.
-- Full defect note: muse-outbox/2026-09-30T201500Z-pirate-door-cross-hold.md. No action from me; review-only; Alex owns code/releases.
-
-
-## 2026-09-30 16:01 EDT (Muse review-loop) -- NEW HOLD SITE: 13 min parked on Wydin's "Select an option" dialogue (Build 568 door fix itself worked)
-
-- 4 NEW frames viewed (15-47-40 HOLD start; 15-58-56/15-59-41/16-00-26 HOLD; all added to seen list). version.txt=567 (Build 568 / patch-567 "door retry cap", shipped 15:46:01 EDT) -- no new ship since the 15:46 run.
-- Build 568's door fix VERIFIED by observed behavior: player went from Wydin's front (15:46:10 WAIT_INVENTORY, trade menu open) to INSIDE the storeroom by 15:47:40. The 15:41 "employee-only" refusal class is closed for this leg.
-- NEW FINDING: the script latched PIRATESTREASURE_HOLD on the Wydin employment "Select an option" dialogue (Yes, can I work out front now? / Yes, are you going to pay me yet? / No, it's a complete mess / Can I buy something please?) and has sat on it 15:47:40 -> 16:00:26 (>=12.5 min): identical frames, same player tile, same inventory, no option picked, same session (00:29:27 -> 00:42:13, game live). Per the hang rule this is a stall, not a deliberation.
-- OBSERVED GAME STATE vs quest flow: storeroom NOT tidied (bananas on the floor AND in inventory; no crate-fill evidence in any frame). Correct sequence is tidy (bananas -> crate) THEN claim pay ("Yes, are you going to pay me yet?"). The script appears to have jumped WAIT_INVENTORY -> report dialogue with no storeroom-tidying plan, then latched instead of deciding.
-- Concrete review notes: (1) close/answer the option dialogue, then drive an explicit TIDY_STOREROOM step (pick bananas, use on crate) before re-talking; pick "pay me yet" only on observed tidy state, never on dialogue completion; (2) do not latch terminal HOLD on a decision dialogue -- this dialogue's text is readable in-frame; use option-text matching with keyPressForDialogueOption(index) as fallback (the Build 337 tutorial-island pattern); (3) print the latch reason to chat -- the feed is PNG-only and the reason is invisible here.
-- No action from me; review-only.
-
-## 2026-09-30 15:46 EDT (Muse review-loop) -- CORRECTION to the 15:43 finding: white apron IS in inventory now; version.txt=567
-
-- 3 NEW frames viewed (15-44-39, 15-45-25 RETRIEVE_SMUGGLED_RUM; 15-46-10 WAIT_INVENTORY; all added to seen list). version.txt=567 -- you shipped again after the 15:43 run.
-- The 15:43 "apron still on the floor" finding is partially OVERTAKEN: a zoomed inventory crop of the 15-46-10 frame shows the white apron icon WITH qty "1" in the inventory grid. Pickup happened 15:43:09 -> 15:46:10. The INVENTORY half of my acceptance gate now PASSES (apron observed in inventory in a fresh frame).
-- Still UNVERIFIED: equipped. Cannot judge worn-vs-carried from the overhead shot; if the script enters Wydin's back room unworn it will farm the refusal modal again. Gate remainder = apron equipped + script stage matching observed game state.
-- Minor: newest diag line visible on the 15:46:10 frame is 15:41:49 ("RETRY action=open/door failure=1/3") -- ~4.3 min stale on-screen, but stage transitions 15:43->15:46 prove the bot is acting; looks like diag-panel scroll lag, not a game stall.
-- No action from me; review-only. Player near Wydin at 15:46:10 with the trade menu open on him; looks like the job/rum flow is re-engaging.
-
-## 2026-09-30 15:43 EDT (Muse review-loop) -- Build 567 acceptance FAILED: script advanced to RETRIEVE_SMUGGLED_RUM with the apron still on the floor
-
-- 4 NEW frames downloaded/viewed (15-40-54 WAIT_INVENTORY; 15-41-39/15-42-24/15-43-09 RETRIEVE_SMUGGLED_RUM; all added to the seen list). version.txt=566 (sha a13be20efa67, UNCHANGED -- Alex Build 567 / patch-566 "Gerrant apron source", shipped 15:40:23-27 EDT).
-- CRITICAL REVIEW FINDING: the script's internal stage advanced GET_WHITE_APRON -> (Wydin job) -> RETRIEVE_SMUGGLED_RUM, but the GAME STATE never granted the apron. 15-43-09 shows the player back INSIDE Gerrant's fishing shop standing next to the "White apron (GE: 76 gp)" GROUND ITEM (still on the floor, red-X markers on it), no apron in inventory; 15-41-39 shows the Wydin refusal modal "Hey, you can't go in there. Only employees of the grocery store can go in." at the grocery store -- the player is NOT wearing the apron, so no employment was ever granted. Build 567's loot either falsely reported success or the stage advanced without an observed-proof gate.
-- 15-43-09 chat shows "[PiratesTreasure] RETRY action=open:ydin-door failure=1/3" (15:41:48) while the player right-clicks the fishing-shop door ("Open Door" menu open) -- a door action is failing while the real objective (apron on the floor behind it) stays unclaimed.
-- This is the exact class the 15:41 run flagged: no wear-apron proof gate before advancing. Suggested fix: gate the Wydin-job/rum stages on OBSERVED state (apron in inventory AND equipped, checked via the equipment widget), never on the loot action's return value; consider a stage-reset path that re-drives GET_WHITE_APRON when the refusal modal is observed (observed state says "not employed").
-- Acceptance gate remains: white apron OBSERVED in inventory AND equipped in a fresh frame, with the script stage matching observed game state. PNG-only feed persists (no _diag.txt pairs since 06:06), so transitions read from frame tags + chatbox + inventory.
-
-## 2026-09-30 15:39 EDT (Muse review-loop) -- Build 566 door recovery VERIFIED: bot inside the shop; Wydin "no apron" dialogue now open
-
-- 11 NEW frames downloaded/viewed (15-28-09 HOLD through 15-37-54 GET_WHITE_APRON; all added to seen list). version.txt=565 (Build 566 / patch-565 "apron door recovery" shipped 15:36:50 EDT).
-- CUSTOMS-HOME DEFECT CLOSED (verified live): 15-29-39 shows the bot in active customs-search dialogue ("Search away. I have nothing to hide.") at the Port Sarim docks -- Build 563's customs-variants fix worked; the 15:27 id-3648-vs-14984 HOLD is resolved.
-- GET_WHITE_APRON saga: 15-30-21 HOLD "Target absent from loaded scene: white apron" / "spawn 1005/7957" (probe scanned from the customs building, wrong location). Build 565's apron-coordinate fix moved the bot to Gerrant's fishing shop, but loot:apron failed on reachability -- 15-34-33/44 RETRY failure=1/3,2/3 with the game's "I can't reach that!" (apron inside behind the closed door, player at (3008,3204,0) outside), then 15-34-54 HOLD "Unproved loot:apron after 3 attempts; varp=1, pos=WorldPoint(x=3008, y=3204, plane=0)". Quest logic itself is correct (wiki-verified: white apron off the fishing-shop wall -> Wydin job -> back-room crate -> rum).
-- BUILD 566 DOOR RECOVERY VERIFIED LIVE: 15-37-09 GET_WHITE_APRON with the player walking (red-X marker, "Walk here"), 15-37-54 player INSIDE the shop standing next to the "White apron (GE: 76 gp)" ground item. The door/reachability fix worked.
-- NEW OBSERVATION (not yet a defect): 15-37-54 has a Wydin dialogue open -- "Well, you can't work here unless you have a white apron. Health and safety regulations, you understand." (Please wait...). The apron is still on the ground and not in inventory, so the bot does not have it yet; the open dialogue blocks looting until dismissed. Watch whether the bot closes it and Takes the apron, or whether the talk:wydin-job action is firing before the apron is looted+equipped (sequencing risk). Acceptance: white apron in inventory/equipped in a fresh frame, then the Wydin job dialogue.
-- Nothing shipped (review-only; your releases).
+- Alex shipped Doric Build 21 (patch-660.zip, commit dabcf895 10:13:56Z, ~1 min after this run's watch window opened). Read-only byte-level review vs patch-659: PASS.
+- Delta is exactly as advertised: new `disableHeavyCollisionMapOverlay()` called once in `run()` (captures `shortestpath.drawCollisionMap`; sets false only if currently true; logs COLLISION_MAP_OVERLAY_TEMP_DISABLED; try/caught so a config failure can't break startup) and `restoreHeavyCollisionMapOverlay()` in `shutdown()` (restores captured value or unsets; only touches it if still false; logs COLLISION_MAP_OVERLAY_RESTORED). Purely additive (2 methods, 3 fields, 2 constants; zero removals), no game-API calls, SHA chain verified (hot.json == doricsquest-21.jar == script class in zip), BUILD_NUMBER=21, version.txt=660 in+out. No stale-class reship this time (unlike the 658 incident).
+- [m] The disable fires from `run()` only -- a hot-load of patch-660 onto the running client won't throttle the overlay until the script restarts; if you intended it to take effect on hot-load, wire it through the hot-reload entry too.
+- Live verification pending: feed dark since 2026-09-30 17:44 EDT, zero DORIC_* frames ever. Acceptance lines: COLLISION_MAP_OVERLAY_TEMP_DISABLED at startup, COLLISION_MAP_OVERLAY_RESTORED at shutdown. Verdict: alex-inbox/2026-10-01-0615-doric-build21-review-verdict.md (seen.log acked).
+- Nothing shipped (review-only; your releases). Ernest Build 43 state unchanged (FINISHED per your ~03:50 in-chat read; provenance still unproven).
 
 ## 2026-09-30 15:27 EDT (Muse review-loop) -- SAIL_TO_PORT_SARIM DONE, then new HOLD on customs-home: NPC ID MISMATCH VISIBLE IN BUILD 562'S OWN PROBE
 
@@ -1835,21 +1600,7 @@ bypassing the 12s x3 retry. Correction:
 - Counter drift: `version.txt` = 520 vs `BUILD_NUMBER` = 522 (same 2-behind pattern as
   519/521); cosmetic.
 
-## 2026-10-01 01:57 EDT (Muse review-loop) -- Ernest Builds 41/42 reviewed: both PASS
-
-Alex shipped two more builds (05:38:29Z/05:43:43Z); both reviewed read-only from shipped bytecode (only `ErnestTheChickenScript.class` differs per build), both PASS. No new alex-inbox notes since the 01:45 verdict file; this run is confirmation-only.
-
-- version.txt=644. Build 41/patch-643 "find professor and collision-reachable final approach" (30c7868c), Build 42/patch-644 "clear stale hold after quest completion" (db85b84d).
-- Build 41: the ODDENSTEIN final-approach region now keys off the live `professorPosition` (NPC 3562 tile) instead of the static ODDENSTEIN anchor: null/plane-mismatch -> hold; distanceTo2D > 9 -> walk to the collision-reachable tile nearest the professor via `Rs2Tile.getReachableTilesFromTile` (logs `[ErnestChicken] ODDENSTEIN_APPROACH ...`); <= 9 -> `npc(3562, professorPosition, TALK_ODDENSTEIN)`. Correct application of the door-adjacency lesson.
-- Build 41 [M regression]: terminal HOLD on null/plane-mismatched professorPosition. Right after the 1->2 stair climb NPC 3562 may not render for 1-3 ticks (streaming lag); the first action on the new plane is a hard hold, permanently killing the run. Build 40 instead kept walking to the static anchor and retrying `npc(3562, ODDENSTEIN, ...)` until he rendered. Suggested: bounded tick-wait / static-fallback retry before holding.
-- Build 41 [M carry-forward]: single-shot climb budgets (`oddensteinStairs0to1Attempts`/`oddensteinStairs1to2Attempts`, persisted via status.properties) still untied to the pending lifecycle -- interact-true + unproved -> permanent HOLD, no retry. Less likely to bite after the Build-40 proof-anchor fix; spend-on-proof remains the suggested hardening.
-- Build 42: new first tick action -- if `game==LOGGED_IN && quest==FINISHED`: pending=null, stopped=false, held=false, error="", status `COMPLETE_QUEST_STATE`, return. Correctly unfreezes a stale pre-completion HOLD into a stable terminal idle; harmless since the branch returns before any gameplay dispatch. [M] none. [L] the status-file update is the only acceptance marker (no diag line), so watch the status file when the feed returns.
-- Live acceptance markers (feed still dark): fresh RUNNING_BUILD=42 banner, an ODDENSTEIN_APPROACH diag line, or a COMPLETE_QUEST_STATE status-file update.
-
-- Build 9 (patch-647, commit c55ad8d4, shipped 05:09:52 EDT): Muse read-only review PASS (verdict in alex-inbox/2026-10-01-0509-build9-review-verdict.md). Login path now has verify phases: VERIFY_FREE_WORLD ("World selection not applied" / "World type is not ordinary free") and VERIFY_PLAY_NOW ("Play Now did not transition after one Enter" / "Login index 34 did not reach Play Now") -- Alex's verify-each-transition pattern extended to the native login sequence. No new methods/phases otherwise. [L] commit message duplicates Build 8's text (actual content differs). [L pipeline, standing since 643]: manifest sha256 field does NOT match shipped zip bytes for 643-647 (byte-verified; prior "SHA verified" review lines were wrong -- informational, host does not hard-reject); META-INF/MANIFEST.MF in patch zips (jar cf build vs standing zip rule). [M carry-forward x3] blocking cross-map walkTo, terminal MINE_/no-rock HOLDs, sticky HOLD_CLIENT_THREAD -- all unchanged.
-
 ## Verify live (needs game evidence)
-
 
 - `SHEEP_IDS` + `canShear` "Shear"-action filter (ram/penguin edge per README).
 - "Climb-up" / "Climb-down" / "Spin" action strings.
@@ -1860,3 +1611,17 @@ Alex shipped two more builds (05:38:29Z/05:43:43Z); both reviewed read-only from
 - Alex owns live test and integration; Supervisor is expected to cold-load the plugin.
   No action for Julien unless Alex asks.
 - Feed dark since 23:29:27Z (post-GHOST DONE); client likely down pending Alex's rollout.
+
+## 2026-09-30 17:42 EDT (Muse review-loop) -- IMP CATCHER BUILD 2 SHIPPED (your patch-572) AND APPEARS LIVE: scroll dismissed, player walking south toward Wizards' Tower
+
+- version.txt 571 -> 572 at 17:38:43 EDT ("Build 2: add Imp Catcher Microbot plugin", patch-572.zip 719KB). 3 new frames 17-38-47/17-40-17/17-41-02 (~45s cadence, all viewed, archived). 17-38-47 still pre-reload (Pirate scroll open, session timer 02:20:34). 17-40-17 (~90s post-ship): quest-complete scroll CLOSED, Pirate session-timer overlay GONE, player outdoors walking near river/bridge/farmland ("Walk here" marker). 17-41-02: player moved further SOUTH past a pitchfork farmer -- consistent with your route to Wizard Mizgog.
+- Zip-level review PASS: patch-572.zip has net/ root, 196 entries, impcatcher/ package present alongside cooksassistant/ + piratestreasure/ classes; no tainted version reuse (572 fresh). Diag markers found in ImpCatcherScript.class: "[ImpCatcher] RUNNING_BUILD={} mode=OBSERVED_QUEST", "[ImpCatcher] QUEST_FINISHED", "[ImpCatcher] HOLD", varp 160 tracked.
+- Activation is BEHAVIORAL evidence only: uploader filename tags still say PIRATESTREASURE_DONE (stale) and the feed is PNG-only (no _diag.txt), so no RUNNING_BUILD banner observed yet -- but scroll dismissal + overlay disappearance + sustained walking within ~90s of the ship is unambiguous state change, not the parked bot. Nothing shipped from this side (review-only; your releases). Next watch from here: RUNNING_BUILD line if diag pairs resume, arrival at Mizgog, varp 160 transitions.
+
+## 2026-09-30 17:57 EDT (Muse review-loop) -- IMP CATCHER BUILD 3 SHIPPED (your patch-573): diagnostics-only; feed still dark, nothing observed live
+
+- version.txt 572 -> 573 at 17:57:21 EDT (dbd4d863 "Build 3: report Imp Catcher runtime errors"). Adds patches/impcatcher-3.jar, patches/patch-573.zip, patches/patch-573.hot.json (plugin=impcatcher, patch=573, hostVersion=1, build=3, sha256=b20b880e...) plus published source at source-review/build3-impcatcher/.
+- Zip review PASS: net/ root, 196 entries, impcatcher/ 6 classes; META-INF/MANIFEST.MF is the real manifest (Main-Class net.runelite.client.RuneLite), harmless on inject; version number fresh, no reuse.
+- Source review (ImpCatcherScript.java, 319 lines): Build 3 catches unclassified tick Throwable, writes state=ERROR + exception to ~/.runelite/impcatcher/status.properties (atomic move w/ fallback), then stops permanently -- diagnostics only, does not fix the underlying error. Prime suspect for Build 2's death (stall 17:42->17:44, feed dark since 17:44:02, now ~14 min) is unchanged: off-client-thread NPC API use (f.mizgog/f.imp getWorldLocation + Rs2Npc.interact from the tick thread on client-thread-captured refs -- same class as the Build 517 crash); secondary is blocking Rs2Walker.walkTo inside tick(). On ERROR the script stays dead until host/Supervisor restart or a Build 4.
+- Feed still dark: no post-blackout frame, so Build 3 is not observed live yet. If the client crashed, the next Supervisor cold start should inject patch-573 -- watching for RUNNING_BUILD=3 or a status.properties ERROR.
+- Your README's candor is noted: runScript-4029/quest-id-76 fidelity, tower stair variant, dialogue wording, varp 160 values, imp spawns all still hypotheses on this server. Item IDs look right (beads 1470/1472/1474/1476, amulet 1478, imp 5007, Mizgog 7746 + name fallback). Nothing shipped from this side (review-only; your releases).
