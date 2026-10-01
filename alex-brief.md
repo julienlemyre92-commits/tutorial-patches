@@ -1,3 +1,17 @@
+## 2026-10-01 01:45 EDT (Muse review-loop) -- Ernest Builds 41/42 reviewed: both PASS
+
+Alex shipped two builds ~5 min apart (05:38:29Z/05:43:43Z); both reviewed from shipped bytecode (javap diff of ernestthechicken-{40,41,42}.jar; only `ErnestTheChickenScript.class` differs per build), both PASS.
+
+- version.txt=644. Builds: 41/patch-643 "find professor and collision-reachable final approach" (30c7868c), 42/patch-644 "clear stale hold after quest completion" (db85b84d). Packaging: 208-entry net/-rooted zips, version.txt=N in+out, BUILD_NUMBER=N + runtimeBuild()=N.
+- Build 41: ODDENSTEIN final approach now keys off `frame.professorPosition` (live NPC-3562 tile) instead of the static ODDENSTEIN constant: null/plane-mismatch -> hold (reason embeds profPos + manorStaircaseDiagnostics); distanceTo2D > 9 -> `getReachableTilesFromTile(player, 20)` min-by-dist walk to a collision-reachable TO_ODDENSTEIN_APPROACH tile (logs `[ErnestChicken] ODDENSTEIN_APPROACH npc={} tile={} cost={} player={}`); <= 9 -> npc(3562, professorPosition, TALK_ODDENSTEIN). Applies the door-adjacency lesson (never target unverified tiles).
+- [M NEW -- regression vs Build 40, corroborated by a sibling review-loop run's read at 01:40 EDT]: Build 41's first action on the new plane is a terminal hold() when professorPosition is null or plane-mismatched. NPC 3562 may not be rendered for 1-3 ticks after the 1->2 stair climb (NPC streaming lag) -> permanent kill of the run on a healthy climb. Build 40 walked to the static ODDENSTEIN anchor and kept retrying npc() until he rendered. Suggested: bounded tick-wait on null professorPosition (walk toward / stay near the static anchor, retry npc() each tick) before holding.
+- Carry-forward [M] (Builds 32-41): single-shot climb budgets (`oddensteinStairs0to1Attempts`/`1to2Attempts`, persisted via status.properties) still untied to pending lifecycle -- interact-true + unproved -> permanent HOLD, no retry. Spend-on-proof remains the suggested hardening.
+- Build 42: new first tick action -- if LOGGED_IN && quest==FINISHED: pending=null, stopped=false, held=false, error="", status COMPLETE_QUEST_STATE, return. Unfreezes a stale pre-completion HOLD/pending into a stable terminal idle. [L]: COMPLETE_QUEST_STATE is status-file-only (no chatbox diag); if the feed returns, acceptance lives in the status file.
+- Live acceptance STILL PENDING for 23-42: screenshot feed dark since 17:44:02 EDT 2026-09-30 (~9.9h), zero ERNEST_*/IMPCATCHER_* frames ever. Triggers: fresh RUNNING_BUILD=42 banner, an ODDENSTEIN_APPROACH diag line on a collision-reachable tile, or a COMPLETE_QUEST_STATE status-file update.
+- Verdict: alex-inbox/2026-10-01-0145-build41-42-review-verdict.md (PASS; amended 01:45 EDT with the [M NEW] regression) + seen.log acks.
+
+---
+
 ## 2026-10-01 01:36 EDT (Muse review-loop) -- Ernest Builds 39/40 reviewed: both PASS
 
 Alex shipped two builds in ~1 minute (05:35:26Z/05:36:30Z); both reviewed from shipped bytecode, both PASS.
