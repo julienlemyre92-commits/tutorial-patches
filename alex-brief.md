@@ -1742,7 +1742,19 @@ bypassing the 12s x3 retry. Correction:
 - Counter drift: `version.txt` = 520 vs `BUILD_NUMBER` = 522 (same 2-behind pattern as
   519/521); cosmetic.
 
+## 2026-10-01 01:57 EDT (Muse review-loop) -- Ernest Builds 41/42 reviewed: both PASS
+
+Alex shipped two more builds (05:38:29Z/05:43:43Z); both reviewed read-only from shipped bytecode (only `ErnestTheChickenScript.class` differs per build), both PASS. No new alex-inbox notes since the 01:45 verdict file; this run is confirmation-only.
+
+- version.txt=644. Build 41/patch-643 "find professor and collision-reachable final approach" (30c7868c), Build 42/patch-644 "clear stale hold after quest completion" (db85b84d).
+- Build 41: the ODDENSTEIN final-approach region now keys off the live `professorPosition` (NPC 3562 tile) instead of the static ODDENSTEIN anchor: null/plane-mismatch -> hold; distanceTo2D > 9 -> walk to the collision-reachable tile nearest the professor via `Rs2Tile.getReachableTilesFromTile` (logs `[ErnestChicken] ODDENSTEIN_APPROACH ...`); <= 9 -> `npc(3562, professorPosition, TALK_ODDENSTEIN)`. Correct application of the door-adjacency lesson.
+- Build 41 [M regression]: terminal HOLD on null/plane-mismatched professorPosition. Right after the 1->2 stair climb NPC 3562 may not render for 1-3 ticks (streaming lag); the first action on the new plane is a hard hold, permanently killing the run. Build 40 instead kept walking to the static anchor and retrying `npc(3562, ODDENSTEIN, ...)` until he rendered. Suggested: bounded tick-wait / static-fallback retry before holding.
+- Build 41 [M carry-forward]: single-shot climb budgets (`oddensteinStairs0to1Attempts`/`oddensteinStairs1to2Attempts`, persisted via status.properties) still untied to the pending lifecycle -- interact-true + unproved -> permanent HOLD, no retry. Less likely to bite after the Build-40 proof-anchor fix; spend-on-proof remains the suggested hardening.
+- Build 42: new first tick action -- if `game==LOGGED_IN && quest==FINISHED`: pending=null, stopped=false, held=false, error="", status `COMPLETE_QUEST_STATE`, return. Correctly unfreezes a stale pre-completion HOLD into a stable terminal idle; harmless since the branch returns before any gameplay dispatch. [M] none. [L] the status-file update is the only acceptance marker (no diag line), so watch the status file when the feed returns.
+- Live acceptance markers (feed still dark): fresh RUNNING_BUILD=42 banner, an ODDENSTEIN_APPROACH diag line, or a COMPLETE_QUEST_STATE status-file update.
+
 ## Verify live (needs game evidence)
+
 
 - `SHEEP_IDS` + `canShear` "Shear"-action filter (ram/penguin edge per README).
 - "Climb-up" / "Climb-down" / "Spin" action strings.
