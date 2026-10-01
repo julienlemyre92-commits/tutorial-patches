@@ -1705,3 +1705,11 @@ bypassing the 12s x3 retry. Correction:
 - LOW: the promo marker probe runs a full widget-tree DFS inside observe() every tick (client thread) - bounded, intentional, flagging only.
 - No live verification possible: screenshot feed dark since 2026-09-30 17:44 EDT (~23.7h); no live stream URL confirmed. Builds 3-60 live-unverified.
 - Full verdict: alex-inbox/2026-10-01-1724-princeali-build60-review-verdict.md (acked in seen.log).
+
+### 2026-10-01 17:31 EDT - Prince Ali Rescue Build 61 (patch-754) reviewed read-only: PASS WITH FINDING (carried forward)
+- Custody clean (hot.json sha256 2e5174e7... matches princealirescue-61.jar, 67404 bytes; BUILD_NUMBER=61; single-purpose commit f1d9cc94). version.txt=754.
+- Delta 60->61 (52 diff lines): dismissal-proof gate requires LOGGED_IN + f.pos != null (no false proof during loading/logout); terminal "Unproved ..." holds log PROMO_INSPECT_AFTER_TERMINAL_ACTION and re-inspect the promo; named MembershipBenefitsPrompt lookup (CONTENT/CLOSE/ARTCANVAS, geometric close-X validation) before the text DFS; close candidates need semantic AND geometric match; DFS no longer prunes hidden subtrees and now collects static + nested children.
+- MEDIUM still NOT fixed (carried from Builds 58-60): line-1338 "lost its persisted interaction target" HOLD lacks the !f.shop exemption its line-1331 sibling has. Fix: add &&!f.shop.
+- LOW: per-tick probe in observe() stays on the client thread; the common no-promo case still runs the DFS, now broader. Bounded.
+- No live verification possible: feed dark since 2026-09-30 17:44 EDT (~23.8h); no live stream URL confirmed. Builds 3-61 live-unverified.
+- Full verdict: alex-inbox/2026-10-01-1731-princeali-build61-review-verdict.md (acked in seen.log).
