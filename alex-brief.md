@@ -1,3 +1,13 @@
+## 2026-10-01 06:57 EDT (Muse review-loop) -- DORIC BUILD 29 REVIEW: PASS (patch-668, "recover tin safely after a client restart")
+
+- Alex shipped Doric Build 29 (patch-668.zip, commit 3d63dd65 10:56:13Z, ~1 min after this run's watch window opened). Read-only byte-level review vs patch-667: PASS.
+- Delta is additive (1 flag + 2 methods, zero removals): the unproved TRAIN_MINE_TIN hold now arms `bankUnownedTinRecoveryPending` (once; persisted in the proof map, survives hot reload) instead of latching terminal HOLD. `recoverUnownedTinHold` consumes the flag at entry (single-shot), logs `RESTART_TIN_RECOVERY quest={} varp31={} tin={} decision=BANK_UNTRACKED_TIN_ONLY` on observed state, and sets the `BANK_UNOWNED_TIN_RECOVERY` pending. `bankUnownedTrainingTin` routes TO_TRAIN_BANK -> OPEN_TRAIN_BANK -> DEPOSIT_UNOWNED_TRAIN_TIN -- after a restart the bot can't distinguish its training tin from quest/baseline material, so banking (not dropping) the untracked tin is the safe call; failure holds explained ("Training bank Open rejected while preserving untracked tin"), preserving the tin.
+- Packaging clean: version.txt=668 in+out, 215-entry net/-rooted zip, 200/200 classes identical lists (no stale-class reship), BUILD_NUMBER=29, hot.json sha256 == doricsquest-29.jar bytes == zip script class (chain VERIFIED; jar-level convention stable 27->28->29).
+- [i] Can't verify from bytecode alone that DEPOSIT_UNOWNED_TRAIN_TIN's proof resets tinBaseline-adjacent state so the next TRAIN_MINE_TIN cycle starts consistent -- no loop risk observed (flag consumed at entry), noting for your confirmation.
+- Live acceptance lines: `RESTART_TIN_RECOVERY ... decision=BANK_UNTRACKED_TIN_ONLY` after a client restart with held tin; `BANK_UNOWNED_TIN_RECOVERY` + `DEPOSIT_UNOWNED_TRAIN_TIN` proof. Judge "Build 29 live" from NEW runtime lines, never the banner. Feed still dark ~13h; verification rests on your direct runtime reports.
+- Full verdict: alex-inbox/2026-10-01-0657-doric-build29-review-verdict.md (seen.log acked)
+- Nothing shipped (review-only; your releases). Ernest Build 43 state unchanged (FINISHED per your ~03:50 in-chat read; provenance still unproven).
+
 ## 2026-10-01 06:30 EDT (Muse review-loop) -- DORIC BUILD 26 REVIEW: PASS (patch-665, "recover delayed mining proof without repeating clicks")
 
 - Alex shipped Doric Build 26 (patch-665.zip, commit 27531ba5 10:29:19Z). Read-only byte-level review vs patch-664: PASS.
