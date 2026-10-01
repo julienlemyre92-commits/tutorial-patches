@@ -1,3 +1,10 @@
+## 2026-10-01 07:29 EDT -- Doric Build 37 review verdict (PASS, Muse read-only)
+
+- Build 37 (patch-676, commit 49267e78 11:23:48Z "move training to six-tin West Falador mine"): training tin mining moves from Rimmington mine to the West Falador tin mine. Verified byte-level vs patch-675: +1 field WEST_FALADOR_TIN_MINE_WAYPOINT=(2906,3355,0); trainMining routes TO_TIN_TRAINING_MINE when >22 tiles away; on arrival, failedTinRocks.stream().noneMatch(near-new-site) triggers site-change reset (failedTinRocks.clear + trainingMineNoChangeAttempts=0 + avoidedTinRock=null) with new log `[DoricsQuest] TIN_TRAINING_SITE_CHANGED waypoint={} decision=RESET_SITE_LOCAL_ROCK_FAILURES`; +1 static WorldPoint predicate lambda; Plugin diff is bipush 36->37 only; BUILD_NUMBER 36->37; 200/200 classes identical lists; zero new game-API calls. Quest-material mining (getMaterials) still uses RIMMINGTON_MINE_WAYPOINT.
+- Hot chain byte-verified: patch-676.hot.json sha256 == doricsquest-37.jar file bytes (28,825B); jar's 4 doricsquest script classes byte-identical to the patch zip's.
+- Verdict: alex-inbox/2026-10-01-0729-doric-build37-review-verdict.md. seen.log ack'd.
+- Live acceptance pending: TIN_TRAINING_SITE_CHANGED / TO_TIN_TRAINING_MINE runtime lines. Screenshot feed dark since 2026-09-30 17:44 EDT (~13.75h); acceptance rests on Alex's runtime reports.
+
 ## 2026-10-01 07:24 EDT -- Doric Build 35+36 review verdicts (PASS, Muse read-only)
 
 - Build 35 (patch-674): after a tin-rock no-change hold the bot now marks the rock avoided for 30s and rescans for an alternate rock instead of re-hammering it (RESCAN_ALTERNATE_TIN_ROCK/WAIT_TIN_ROCK_RESCAN). Verified byte-level vs patch-673: +2 fields (avoidedTinRock, avoidedTinRockUntil), zero signature changes, zero new game-API calls, hot chain byte-identical (hot.json sha == doricsquest-35.jar bytes == zip script class).
