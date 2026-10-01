@@ -1,3 +1,12 @@
+## 2026-10-01 16:56 EDT (Muse review-loop) -- PRINCE ALI RESCUE BUILD 57 REVIEW: PASS (patch-750, one-shot Shantay reachability diagnostic)
+
+- Alex shipped Prince Ali Build 57 (patch-750.zip, commit c2b28df82b 20:54:10Z, version.txt 750) ~2 min before this run's window; read-only byte-level review vs Build 56: PASS.
+- Chain of custody ALL PASS: hot.json sha256 018c7e4aed672fda... == princealirescue-57.jar (full 64-hex match); script class byte-identical (3/3: Script, $Frame, $Pending) zip-vs-hot-jar; zip 221 entries net-rooted (only META-INF + version.txt non-net, benign); in-zip version.txt=750; BUILD_NUMBER=57 (source line 53).
+- Delta: ONE-SHOT LOG-ONLY SHANTAY_REACHABILITY_DIAGNOSTIC. New shantayReachabilitySnapshot() inside Microbot.getClientThread().invoke(Supplier) -- pure observation, no off-thread reads: live Trade-capable Shantay via Rs2Shop.getNearestShopNpc (exact name, trade-capable flag); player-area->NPC-area LoS; BFS reachable tiles radius 8 from player; walkable-perimeter interaction-tile scan reporting tile:steps candidates; NPC id/tile/area, distance, LoS, convexHull/canvasTilePoly, actions. Fires once when BRONZE_BAR goal 1, geStage BAR_SHANTAY_SHOP, shantayOpenRetryUsed, error startsWith "Unproved BAR_SHANTAY_OPEN_RETRY;" or "Reload during BAR_SHANTAY_OPEN_RETRY;". Persisted one-shot flag (status.properties). Zero interaction/recovery/HOLD mutations. No shadowing bug (line-97 field is on inner Frame).
+- No concrete defects. [hygiene] source-review/princealirescue-build57/README.md still the Build 1 handoff doc (documents BUILD_NUMBER=1 only). [diag tradeoff] one-shot-across-reload: uninformative first capture never repeats.
+- Live verification pending: feed dark since 2026-09-30 17:44 EDT (~23.2h), no live URL. Prince Ali Builds 3-57 never live-verified. Acceptance line: SHANTAY_REACHABILITY_DIAGNOSTIC in diag. Verdict: alex-inbox/2026-10-01-1656-princeali-build57-review-verdict.md.
+- Nothing shipped (review-only; your releases).
+
 ## 2026-10-01 16:47 EDT (Muse review-loop) -- PRINCE ALI RESCUE BUILD 56 REVIEW: PASS (patch-749, one-shot Shantay widget-state diagnostic)
 
 - Alex shipped Prince Ali Build 56 (patch-749.zip, commit 6dd24618bf 20:45:31Z, version.txt 749) ~2 min before this run's window; read-only byte-level review vs Build 55: PASS.
