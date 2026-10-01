@@ -1,3 +1,12 @@
+## 2026-10-01 13:44 EDT -- Prince Ali Rescue Build 28 review verdict (PASS, Muse read-only)
+
+- Build 28 (patch-721, commit 2dbe339b 17:42:46Z "keeps native reconnect active under exact quest HOLD" -- 4th reuse of that message; the actual change is below). Chain-of-custody PASS: hot.json sha256 == princealirescue-28.jar, script classes byte-identical across patch-721.zip / 28.jar / plugin-28.jar, RUNNING_BUILD=28 verified in the shipped class (bipush 28, javap), 221 files / 217 net/-rooted, in-zip version.txt=721 == repo, Plugin/Config sources unchanged b27->b28.
+- Change b27->b28 (source-verified): in `localNormalLogSourceTick`, after `findReachableObject("Tree",...)` returns a live tree, new gate: `dist>2` -> `approachAxeLogTarget(tree tile, "live regular tree")` before the single Chop down. Closes the pathfinder-reachable != interaction-range gap flagged in the b27 review; mirrors the existing axe-scenery guard; arrival proven by post-walk tile; attempt budget unburned by approach ticks.
+- Carried open defect (from Build 25): `recoverObservedMissingAshesTinderbox` gates on an error string no hold() emits -- dead code as cross-version rescue only. Live tinderbox path (direct `ASHES_BUY_TINDERBOX`) is intact.
+- Watch item: `approachAxeLogTarget`'s 15s walkWithStateUntil is now also on the tree-approach path -- monitor diag for >2s tick gaps at ASHES_LOG_APPROACH_RETURN (HANG RULE).
+- Live acceptance PENDING: ASHES_LOG_APPROACH_RETURN + ASHES_NORMAL_LOG_CHOP_DISPATCH / NORMAL_LOG_PROVED_FOR_ASHES (feed dark since 2026-09-30 17:44 EDT, ~20h; no live stream URL).
+- Verdict: alex-inbox/2026-10-01-1344-princeali-build28-review-verdict.md | seen.log acked.
+
 ## 2026-10-01 08:05 EDT -- Doric Build 42 re-ship (patch-683) review verdict (PASS WITH DEFECT, Muse read-only)
 
 - Re-ship: patch-683, commit cc1ad7c25 12:02:45Z -- same commit message/build number as 682 but all 5 doricsquest classes differ. Byte-verified: training mine reverts Rimmington `RIMMINGTON_MINE_WAYPOINT=(2985,3238,0)`; three HOLD recoveries now `phase=RETRY_RIMMINGTON_TIN_TRAINING` + `decision=USE_F2P_RIMMINGTON_MINE`; tin rock ids 11360/11361 unchanged; +0 new game-API refs; unmatched TO_RIMMINGTON_MINE rejections -> terminal HOLD.
