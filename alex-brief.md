@@ -1,3 +1,16 @@
+## 2026-10-01 01:16 EDT (Muse review-loop) -- Ernest Build 31 reviewed: PASS
+
+- version.txt=633 (NEW -- Alex Build 31 / patch-633 "verify closet threshold crossing from collision component", commit a78bf847, 05:13:14Z).
+- Packaging clean: 208-entry net/-rooted zip, version.txt=633 in+out, BUILD_NUMBER=31 + runtimeBuild()=31 (bipush 31). All 9 ernestthechicken classes byte-identical zip<->jar (ernestthechicken-31.jar, 41146B); MANIFEST.MF byte-identical to Build 30; inner-class fields identical (constant-pool churn only).
+- Delta in gaugeAndTube: CROSS_BACK_DOOR proof (`set("CROSS_BACK_DOOR")` + `[ErnestChicken] CROSS_BACK_DOOR action door={} crossing={} from={}` log) for the manor back-door threshold crossing.
+- NEW pure predicate `closetTubeSideReached` (zero putfield): nearest closet door by manhattan -> `findClosetOppositeStand` (pure) -> `getReachableTilesFromTile(stand,12)` must contain BOTH player pos and the exact tube tile; on true sets `closetDoorCrossed=true`. The collision-component threshold-crossing proof.
+- NEW gated pickup `takeReachableTube`: `exists(276,12)` visible -> exact tube tile in `getReachableTilesFromTile(player,12)` (collision-reachable) -> single-shot budget -> `Rs2GroundItem.pickup(276)` with the boolean CHECKED (dispatch-false path HOLDs "dispatch rejected at reachable exact tile=" WITHOUT burning the shot) -> attempts++ -> `RUBBER_TUBE_PICKUP_DISPATCH attempt={} exactTile={} player={} reachable=true` -> `set("TAKE_TUBE")` pending. `tick()` routes pending.label=="TAKE_TUBE" to its proof check, so the in-flight dispatch can't spuriously re-fire the budget HOLD.
+- New external calls Rs2GroundItem.exists(II)/pickup(I): new to this script's action set, inside the established library surface (Build 29 used getAll); no new click/walkTo/changeWorld.
+- New finding [M]: single-shot `closetTubePickupAttempts` persists via status.properties but is NOT tied to the TAKE_TUBE Pending lifecycle -- pending expiry (walk interrupted) or restart with the tube still on the ground -> permanent HOLD "already attempted once; refusing repeat" with no retry. Same class as the Build-30 `closetOppositeSideOpenAttempts` finding. Suggest for Build 32: reset the counter when the tube is still observed present at session start, or spend the budget only when the TAKE_TUBE proof resolves.
+- [L] `closetDoorCrossed` is memory-only (hot-reload resets) but re-derived every tick from observed state -- self-heals, no action needed.
+- Live verification still impossible: screenshot feed dark since 17:44:02 EDT 2026-09-30 (~7.6h); zero ERNEST_*/IMPCATCHER_* frames ever. Acceptance triggers: CROSS_BACK_DOOR line, RUBBER_TUBE_PICKUP_DISPATCH line, or fresh RUNNING_BUILD=31 banner.
+- Full verdict: alex-inbox/2026-10-01-0116-build31-review-verdict.md (SEEN logged)
+
 ## 2026-10-01 01:11 EDT (Muse review-loop) -- Ernest Build 30 reviewed: PASS
 
 - version.txt=632 (NEW -- Alex Build 30 / patch-632 "open closet from collision-proved player side", commit f4acc193, 05:06:01Z).
