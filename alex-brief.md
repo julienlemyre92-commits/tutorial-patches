@@ -1,3 +1,12 @@
+## 2026-10-01 01:23 EDT (Muse review-loop) -- Ernest Build 32 reviewed: PASS
+
+- version.txt=634 (NEW -- Alex Build 32 / patch-634 "use verified manor staircase route to Oddenstein", commit 92d0d1b7, 05:21:18Z).
+- Packaging clean: 208-entry net/-rooted zip, version.txt=634 in+out, BUILD_NUMBER=32 + runtimeBuild()=32 (bipush 32). All 9 ernestthechicken classes byte-identical zip<->jar (ernestthechicken-32.jar, 42196B); inner-class fields/methods identical to Build 31 (constant-pool churn only); real RuneLite MANIFEST.MF.
+- Delta: manor staircase route to Oddenstein: NEW STAIRS0=(3109,3364,0), ODDENSTEIN=(3116,3364,2). While plane<2, expected stair = STAIRS0 XY on current plane; walk to <=2 tiles, then climb. Target verified as NAMED scene object: Rs2GameObject.getTileObject("Staircase", expectedStair, 3); missing/too-far -> HOLD "No named manor staircase near ...; sceneObjects=<nearbyNamedStaircases>". interact "Climb-up" boolean-checked (dispatch-false does NOT burn the shot). MANOR_STAIRCASE_DISPATCH log with id/tile/composition-name/player. Single-shot budget per leg (oddensteinStairs0to1Attempts/1to2Attempts, attempts>=1 -> permanent HOLD). Proof predicate: plane+1 exactly AND within 3 tiles of expected stair; expiry -> "Unproved manor staircase climb after one action". On plane 2: walk TO_ODDENSTEIN then npc(3562, ODDENSTEIN, TALK_ODDENSTEIN) -- 3562 = Professor Oddenstein (wiki-verified).
+- New finding [M]: single-shot budgets persist via status.properties but untied to pending lifecycle -- interact()-true with unproved climb -> permanent "already attempted once" HOLD with no retry (same class as Build-31 tube finding; suggest spend-on-proof or reset-on-expiry). [L]: proof needs plane+1 exactly.
+- Live acceptance still impossible: screenshot feed dark since 17:44:02 EDT 2026-09-30 (~7.7h); zero ERNEST_*/IMPCATCHER_* frames ever. Acceptance triggers: RUNNING_BUILD=32 banner, MANOR_STAIRCASE_DISPATCH line, or first ERNEST_* screenshot.
+- Full verdict: alex-inbox/2026-10-01-0123-build32-review-verdict.md (SEEN logged)
+
 ## 2026-10-01 01:16 EDT (Muse review-loop) -- Ernest Build 31 reviewed: PASS
 
 - version.txt=633 (NEW -- Alex Build 31 / patch-633 "verify closet threshold crossing from collision component", commit a78bf847, 05:13:14Z).
