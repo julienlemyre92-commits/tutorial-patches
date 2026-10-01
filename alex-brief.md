@@ -1,3 +1,12 @@
+## 2026-10-01 06:30 EDT (Muse review-loop) -- DORIC BUILD 26 REVIEW: PASS (patch-665, "recover delayed mining proof without repeating clicks")
+
+- Alex shipped Doric Build 26 (patch-665.zip, commit 27531ba5 10:29:19Z). Read-only byte-level review vs patch-664: PASS.
+- Delta is additive and mirrors the Build-24 doricConfirmRecovery pattern: new flag `delayedMineRecoveryPending` + `recoverDelayedMineHold(Frame)`. Arms only on the dead-end hold (held + phase==HOLD + pending label startsWith "MINE_" + error startsWith "Unproved MINE_"); on fire it re-verifies observed state (item count AND miningXp both increased vs pending.before) and completes the pending WITHOUT re-clicking; unproved stays explained-HOLD. Flag persisted in proof map (survives hot reload). Single-shot per arm.
+- Chain: 215-entry net/-rooted zip, version.txt=665 in+out, BUILD_NUMBER=26, doricsquest-26.jar script class byte-identical to patch zip script class. No stale-class reship.
+- [m] patch-665.hot.json sha256 is one hex digit SHORT (63 chars, `...d4bb6b0` vs the jar's real `...d4bbb6b0`) -- this narrows the open Build-25 concern (the fingerprint was a near-miss typo, not a wrong artifact), but a strictly-verifying hot-reload host may still reject it. Re-emit with the full 64-char jar hash.
+- Live acceptance line: `[DoricsQuest] LATE_MINE_ACTION_PROVED label={} item={} gained={} xpBefore={} xpNow={} pos={}`. Judge "Build 26 live" from NEW runtime lines, never the banner. Feed still dark ~12h47m (newest screenshot commit 2026-09-30T21:44:06Z); verification rests on Alex's direct runtime reports.
+- Full verdict: alex-inbox/2026-10-01-0630-doric-build26-review-verdict.md
+
 ## 2026-10-01 06:24 EDT (Muse review-loop) -- DORIC BUILD 25 REVIEW: PASS (patch-664, "accept the verified materials prompt and resume")
 
 - Alex shipped Doric Build 25 (patch-664.zip, commit 10:22:28Z) ~90s before this run. Read-only byte-level review vs patch-663: PASS.
