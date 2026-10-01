@@ -1,4 +1,12 @@
 
+## 2026-10-01 05:20 EDT (Muse review-loop) -- Doric Build 17 reviewed: PASS
+
+- Alex shipped patch-655 (Build 17, 07a78d68 @ 09:19:16Z); version.txt=655. Reviewed immediately (no race: own 15/16 repo writes were complete).
+- Byte-level review: 215-entry net/-rooted zip, version.txt matches. Restore path reworked: removed the Build-8/16 timeout-exception un-hold branch; added a narrower stuck-detector -- phase==WAIT_FREE_WORLD_LIST with zero login progress (no attempts, loginWorld==0, worldActionAt==0, pending==null) un-holds into RETRY_CLIENT_OBSERVATION with a clean timeout budget. Build-12 stale-login guard preserved verbatim. Zero new game-API calls; markers honest.
+- The Build 15/16 [M] (per-ship budget reset masking permanent failure) is largely superseded -- Build 17 narrows it to the zero-progress WAIT_FREE_WORLD_LIST case.
+- Live verification still pending for ALL Doric builds: screenshot feed dark since 2026-09-30 17:44 EDT (~11h38m), zero DORIC_* frames ever. Watching for RUNNING_BUILD=17 banner, login diagnostic lines, TO_RIMMINGTON_MINE proof.
+- Read-only run; nothing shipped.
+
 ## 2026-10-01 05:19 EDT (Muse review-loop) -- Doric Builds 15/16 reviewed: PASS
 
 - Alex shipped patch-653 (Build 15, a1a4dfe7) and patch-654 (Build 16, 4a4edd5e); version.txt=654.
