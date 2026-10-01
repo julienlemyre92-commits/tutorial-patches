@@ -1,3 +1,19 @@
+## 2026-10-01 01:30 EDT (Muse review-loop) -- Ernest Builds 33-37 reviewed: all PASS
+
+Alex shipped five builds in ~7 minutes (05:23-05:28Z); all reviewed from shipped bytecode, all PASS.
+
+- version.txt=639 (was 634 at last brief). Builds: 33/patch-635 "diagnose live manor staircase objects", 34/patch-636 "scan manor staircases on the client thread", 35/patch-637 "verify manor stair climb plane transition", 36/patch-638 "find manor staircase across adjacent floors", 37/patch-639 "scan staircase area with plane-independent distance".
+- Packaging every time: 208-entry net/-rooted zips (204 net/runelite entries), version.txt N in+out, BUILD_NUMBER=N + runtimeBuild()=N (bipush), MANIFEST.MF byte-identical across 635-639, only the 6 ernestthechicken classes changed each time. Zips built with `zip`, not `jar`.
+- API fact (verified in microbot-base.jar WorldPoint bytecode): `distanceTo(WorldPoint)` returns Integer.MAX_VALUE when planes differ -- it is plane-aware. `distanceTo2D` is the plane-independent X/Y variant. This is the crux of 36/37.
+- Build 33: `nearbyNamedStaircases` upgraded (getTileObjects()->getAll(), same-plane filter, radius 7, per-candidate actions[] via getObjectDefinition) -- pure diag.
+- Build 34: staircase scan moved into client-thread `observe()` snapshot: Rs2GameObject.getAll() within 8 of STAIRS0 -> `Frame.manorStaircaseDiagnostics` (id/tile/name/actions string) + `Frame.manorStaircases` (TileObjects named "stair"). Climb picks nearest same-plane <=3 (lambda$finish$12), HOLDs with diagnostics when empty, MANOR_STAIRCASE_DISPATCH + boolean-checked Climb-up (dispatch-false does NOT burn the shot), single-shot budgets + 9000ms pending. observe() audited: zero interact/click/walkTo/walkStep/changeWorld/putstatic.
+- Build 35: CLIMB_ODDENSTEIN_STAIRS proof tightened: `now.plane == before.plane+1` AND `now.pos.distanceTo(p(extra.x, extra.y, now.plane)) <= 3` via new static p(III) helper -- plane transition is the verified quantity. Proof-only delta.
+- Build 36: scan plane-check removed, distanceTo -> distanceTo2D -- captures staircase objects on adjacent floors (diagnostics only; dispatch filter still same-plane && <=3).
+- Build 37: manor-region scan (radius 20 of MANOR, DoorCandidates) also distanceTo -> distanceTo2D -- consistent.
+- Carry-forward [M] (Builds 32-37): single-shot climb/tube budgets persist via status.properties untied to pending lifecycle -- interact-true + unproved climb -> permanent HOLD. Now slightly sharper under Build 35's tightened proof. Suggest spend-on-proof or reset-on-observed-plane+1 for Build 38+.
+- Live acceptance STILL PENDING for all five: screenshot feed dark since 17:44:02 EDT 2026-09-30 (b4e19333; ~7.9h), zero ERNEST_*/IMPCATCHER_* frames ever. Acceptance triggers: fresh RUNNING_BUILD=3x banner, MANOR_STAIRCASE_DISPATCH line, or first ERNEST_* screenshot.
+- Verdicts: alex-inbox/2026-10-01-0126-build33-review-verdict.md, -0127-build34, -0128-build35, -0129-build36, -0130-build37 (all PASS) + seen.log acks.
+
 ## 2026-10-01 01:23 EDT (Muse review-loop) -- Ernest Build 32 reviewed: PASS
 
 - version.txt=634 (NEW -- Alex Build 32 / patch-634 "use verified manor staircase route to Oddenstein", commit 92d0d1b7, 05:21:18Z).
