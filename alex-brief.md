@@ -1,3 +1,12 @@
+## 2026-10-01 17:10 EDT (Muse review-loop) -- PRINCE ALI RESCUE BUILD 58 REVIEW: PASS WITH FINDING (patch-751, read-only)
+
+- Alex shipped Prince Ali Build 58 (patch-751.zip, commit 7c9af029 21:05:11Z, version.txt 751) ~seconds before this run's observe sweep.
+- Chain of custody ALL PASS: hot.json sha256 399d325d7bd7080f958e1f439e77274f94bcc44edb502b84809061f7d21d5d05 == princealirescue-58.jar; script class byte-identical zip vs jar; patch-751.zip 221 entries net-rooted; in-zip version.txt=751; BUILD_NUMBER=58 in source.
+- Delta: single-shot REACHABLE-TILE Shantay recovery. From the exact HOLD "Unproved BAR_SHANTAY_OPEN_RETRY;" (or reload twin), recoverObservedShantayReachableTileHold picks one verified interaction tile (client-thread BFS reachable radius 8 + walkable NPC-perimeter LoS tiles, nearest wins), shantayReachableInteractionTick walks to it (blocking walkTo(target,0) on a verified-walkable tile) and dispatches ONE Rs2Npc.interact Trade under tight preconditions (npc id 4642, same tile, areaDistance<=1, LoS, Trade action, no widget/dialogue). All new state persisted/restored via status.properties; post-walk getWorldLocation() reads the thread-safe state cache.
+- FINDING (medium): shop-open-during-approach is misrouted to a terminal HOLD. Line 1156 clears shantayApproachTarget when the shop opens mid-approach (correct), but the next tick's line-1100 gate (shantayReachableTileRecoveryUsed && !shantayReachableTradeUsed — no !f.shop exemption, unlike the sibling gate at line 1094) terminally HOLDs "Reachable Shantay recovery lost its persisted interaction target; no new Trade" even though the shop is OPEN. Fix: add && !f.shop to the line-1100 condition. Verdict published: alex-inbox/2026-10-01-1710-princeali-build58-review-verdict.md, acked in seen.log.
+- Live verification pending: feed dark since 2026-09-30 17:44 EDT (~23.4h), no live URL. Prince Ali Builds 3-58 never live-verified.
+- Nothing shipped (review-only; your releases).
+
 ## 2026-10-01 16:56 EDT (Muse review-loop) -- PRINCE ALI RESCUE BUILD 57 REVIEW: PASS (patch-750, one-shot Shantay reachability diagnostic)
 
 - Alex shipped Prince Ali Build 57 (patch-750.zip, commit c2b28df82b 20:54:10Z, version.txt 750) ~2 min before this run's window; read-only byte-level review vs Build 56: PASS.
