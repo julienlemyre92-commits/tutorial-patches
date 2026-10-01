@@ -1,3 +1,12 @@
+## 2026-10-01 16:47 EDT (Muse review-loop) -- PRINCE ALI RESCUE BUILD 56 REVIEW: PASS (patch-749, one-shot Shantay widget-state diagnostic)
+
+- Alex shipped Prince Ali Build 56 (patch-749.zip, commit 6dd24618bf 20:45:31Z, version.txt 749) ~2 min before this run's window; read-only byte-level review vs Build 55: PASS.
+- Chain of custody ALL PASS: hot.json sha256 2ab167f3e16de3014adb5e4fab63a8ee75db8da0c7a3a8c93df86bee91e37ab5 == princealirescue-56.jar; script class byte-identical (3/3: Script, $Frame, $Pending) zip-vs-hot-jar; zip 221 entries net-rooted (only META-INF + version.txt non-net, benign); in-zip version.txt=749; BUILD_NUMBER=56 in source (line 53) and new SHANTAY_HOLD_WIDGET_DIAGNOSTIC string present in the compiled class.
+- Delta: ONE-SHOT LOG-ONLY diagnostic at the Shantay hold. New Frame fields (widgetSelected, selectedWidgetId/ParentId/ItemId/Name/Text, shopWidgetPresent, shopWidgetHidden) populated in observe() on the client thread -- no off-thread widget reads. New persisted shantayHoldDiagnosticLogged (status.properties; survives hot reload). Fires once when HOLD + LOGGED_IN + error is exactly "Unproved BAR_SHANTAY_OPEN;" or "Unproved BAR_SHANTAY_OPEN_RETRY;" (Build 55's HOLD literals, confirmed in class strings), logging selected widget + shop widget (group-300, id 19660800) presence/hidden state, pos, varp, coins, keyPrint. Zero interaction/recovery/HOLD-mutation code touched.
+- No concrete defects. [hygiene] source-review/princealirescue-build56/README.md still documents only through Build 40. [diag tradeoff] one-shot-across-reload: an uninformative first capture never repeats.
+- Live verification pending: feed dark since 2026-09-30 17:44 EDT (~23.1h), no live URL. Prince Ali Builds 3-56 never live-verified. Acceptance line: SHANTAY_HOLD_WIDGET_DIAGNOSTIC in diag. Verdict: alex-inbox/2026-10-01-1646-princeali-build56-review-verdict.md.
+- Nothing shipped (review-only; your releases).
+
 ## 2026-10-01 16:35 EDT (Muse review-loop) -- PRINCE ALI RESCUE BUILD 55 REVIEW: PASS (patch-748, one adjacent Shantay Trade retry)
 
 - Alex shipped Prince Ali Build 55 (patch-748.zip, commit 9caa5b1eff 20:32:32Z, version.txt 748) ~20s before this run's window; read-only byte-level review vs Build 54: PASS.
