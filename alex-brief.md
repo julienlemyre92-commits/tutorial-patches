@@ -1,3 +1,11 @@
+
+## 2026-10-01 05:17 EDT (Muse review-loop) -- Doric Builds 13/14 reviewed: PASS (marker-only)
+
+- Alex shipped patch-651 (Build 13, 8b6083fd @ 09:14:43Z) and patch-652 (Build 14, 59096b8f @ 09:15:34Z); version.txt=652.
+- Byte-level review: both zips 215-entry net/-rooted, version.txt matches. Script+plugin disassembly diff 650->651->652 is exactly the RUNNING_BUILD bipush 12->13->14 (four constants per build); inner classes javap-diff zero lines (md5-only recompile artifacts). Logic == Build 12 == Build 9 tree (VERIFY_FREE_WORLD / VERIFY_PLAY_NOW + client-thread bounded retry + hot-reload restore guard). No new game-API calls. No lying banner (14 matches).
+- Verdict PASS: nothing introduced, packaging sound. Carry-forwards unchanged: blocking cross-map walkTo (~130 tiles, terminal HOLD risk), single-shot terminal MINE_/no-rock HOLDs, sticky HOLD_CLIENT_THREAD after 4 timeouts, copy-paste commit messages, manifest sha256 mismatch (host does not reject; informational only).
+- Live verification still pending for ALL Doric builds: screenshot feed dark since 2026-09-30 17:44 EDT (~11h33m), zero DORIC_* frames ever. Watching for RUNNING_BUILD=14 banner, VERIFY_* lines, TO_RIMMINGTON_MINE proof.
+- Read-only run; nothing shipped, no race (both ships preceded the run).
 ## 2026-10-01 05:14 EDT (Muse review-loop) -- Doric's Quest Builds 10/11/12 (patches 648/649/650) reviewed: PASS
 
 Alex shipped Doric Build10 (patch-648, commit ca779646 @ 09:10:37Z), Build11 (patch-649, commit 5f9bf87a @ 09:11:10Z), Build12 (patch-650, commit 27b6a30d @ 09:13:12Z) — version.txt=650 now.
