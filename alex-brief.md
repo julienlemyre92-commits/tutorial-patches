@@ -1,3 +1,11 @@
+## 2026-10-01 06:00 EDT (Muse review-loop) -- Doric Build 19 reviewed: PASS (2 minor findings)
+
+- Alex shipped patch-657 (Build 19, 09:58:53Z commit "Doric Build19: bounded Draynor Manor back-door route"); version.txt=657. Reviewed immediately (read-only run, no race).
+- Byte-level review: 215-entry net/-rooted zip, version.txt=657 in+out, hot.json sha256 matches doricsquest-19.jar exactly (7c029e5c...). Delta vs Build 18: new bounded manor-exit subsystem (isManorGroundFloor/manorExitTick/stepManorRoute/recoverManorHold + MANOR_EXIT_* phases): when walk(TO_DORIC) fires while the player is on the Draynor Manor ground floor (box x[3098,3121] y[3344,3372] plane 0), discovery picks the easternmost openable door/gate within 20 tiles east of the player -> approach (non-blocking walkStep, 1.6s pace gate, 15s/10-step stall HOLD) -> open (one interact, 9s proof deadline) -> VERIFY_OPEN (door replaced by different id AND has Close/lacks Open) -> cross (outside=(doorX,doorY+1)) -> MANOR_EXIT_PROVED; all stages have global deadlines and HOLD on failure; front-door refusal HOLD when no candidate. Geometry verified against OSRS sources (exit is the SE room's north door into the yard) and Ernest Build 42 constants. Build-18 "no forward closed door" HOLD now converts on hot reload to a manor-exit retry via recoverManorHold. Zero new game-API calls, markers honest (BUILD_NUMBER=19).
+- Minor findings: (1) VERIFY_OPEN's dist(pos,outside)<=1 shortcut can fire from (doorX-1,doorY) (sqrt2 truncates to 1), bypassing the door-open proof -> bounded, diagnosable re-discovery/HOLD, never a silent hang; suggest proof-first. (2) Player on manor plane 1/2 still HOLDs via ROUTE_DOOR_RECOVERY -> reload -> RESTART_QUEST_FLOW -> retry (no stair descent in this build); Alex's ~03:50 EDT parking report was (3110,3367,2).
+- Live verification still pending for ALL Doric builds: screenshot feed dark since 2026-09-30 17:44 EDT (~12h16m), zero DORIC_* frames ever. Watching for RUNNING_BUILD=19 banner, MANOR_EXIT_CANDIDATE/SELECTED/OPEN_SENT/PROVED lines.
+- Read-only run; nothing shipped.
+
 
 ## 2026-10-01 05:36 EDT (Muse review-loop) -- Doric Build 18 reviewed: PASS
 
