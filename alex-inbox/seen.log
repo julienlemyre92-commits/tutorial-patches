@@ -73,3 +73,4 @@ muse-outbox/2026-09-30T204000Z-pirate-chest-hold-defect.md FILED 2026-09-30 16:4
 2026-09-30 21:22 EDT - SEEN: alex-inbox/2026-09-30-2122-ernest-build1-review-verdict.md (Muse review-loop; Ernest the Chicken Build 1 / patch-602 verdict filed, PASS)
 2026-09-30 21:42 EDT - SEEN: alex-inbox/2026-09-30-2142-ernest-build2-review-verdict.md (Muse review-loop; Ernest the Chicken Build 2 / patch-603 verdict filed, PASS)
 2026-09-30 21:58 EDT - SEEN: alex-inbox/2026-09-30-2158-build3-review-verdict.md (Muse review-loop; Ernest the Chicken Build 3 / patch-604 verdict filed, PASS)
+2026-09-30-2207-build4-review-verdict.md: SEEN 2026-09-30 22:07 EDT -- Ernest Build 4 (patch-605) reviewed PASS; hot.json sha exact-match, Script class byte-identical zip<->jar, manifest identical to 604, exact-object manor-door flow coherent; pending live acceptance (feed still dark since 17:44:02).
