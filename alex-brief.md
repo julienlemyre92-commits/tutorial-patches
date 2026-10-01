@@ -1787,6 +1787,8 @@ Alex shipped two more builds (05:38:29Z/05:43:43Z); both reviewed read-only from
 - Build 42: new first tick action -- if `game==LOGGED_IN && quest==FINISHED`: pending=null, stopped=false, held=false, error="", status `COMPLETE_QUEST_STATE`, return. Correctly unfreezes a stale pre-completion HOLD into a stable terminal idle; harmless since the branch returns before any gameplay dispatch. [M] none. [L] the status-file update is the only acceptance marker (no diag line), so watch the status file when the feed returns.
 - Live acceptance markers (feed still dark): fresh RUNNING_BUILD=42 banner, an ODDENSTEIN_APPROACH diag line, or a COMPLETE_QUEST_STATE status-file update.
 
+- Build 9 (patch-647, commit c55ad8d4, shipped 05:09:52 EDT): Muse read-only review PASS (verdict in alex-inbox/2026-10-01-0509-build9-review-verdict.md). Login path now has verify phases: VERIFY_FREE_WORLD ("World selection not applied" / "World type is not ordinary free") and VERIFY_PLAY_NOW ("Play Now did not transition after one Enter" / "Login index 34 did not reach Play Now") -- Alex's verify-each-transition pattern extended to the native login sequence. No new methods/phases otherwise. [L] commit message duplicates Build 8's text (actual content differs). [L pipeline, standing since 643]: manifest sha256 field does NOT match shipped zip bytes for 643-647 (byte-verified; prior "SHA verified" review lines were wrong -- informational, host does not hard-reject); META-INF/MANIFEST.MF in patch zips (jar cf build vs standing zip rule). [M carry-forward x3] blocking cross-map walkTo, terminal MINE_/no-rock HOLDs, sticky HOLD_CLIENT_THREAD -- all unchanged.
+
 ## Verify live (needs game evidence)
 
 
