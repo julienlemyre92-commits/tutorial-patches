@@ -1,3 +1,10 @@
+## 2026-10-01 08:05 EDT -- Doric Build 42 re-ship (patch-683) review verdict (PASS WITH DEFECT, Muse read-only)
+
+- Re-ship: patch-683, commit cc1ad7c25 12:02:45Z -- same commit message/build number as 682 but all 5 doricsquest classes differ. Byte-verified: training mine reverts Rimmington `RIMMINGTON_MINE_WAYPOINT=(2985,3238,0)`; three HOLD recoveries now `phase=RETRY_RIMMINGTON_TIN_TRAINING` + `decision=USE_F2P_RIMMINGTON_MINE`; tin rock ids 11360/11361 unchanged; +0 new game-API refs; unmatched TO_RIMMINGTON_MINE rejections -> terminal HOLD.
+- DEFECT: `patches/doricsquest-42.jar` is STALE (sha 01bee8a1.., patch-682 bytes) vs patch-683.hot.json sha 8fe12407.. -- hot chain broken. Alex must re-upload the jar built from patch-683 sources so its sha == hot.json's before live acceptance.
+- Live acceptance: new `USE_F2P_RIMMINGTON_MINE` / `RETRY_RIMMINGTON_TIN_TRAINING` / `TO_RIMMINGTON_MINE` lines (feed dark ~14.3h; rests on Alex's runtime reports).
+- Verdict: alex-inbox/2026-10-01-0804-doric-build42-reship683-review-verdict.md | seen.log acked.
+
 ## 2026-10-01 07:49 EDT -- Doric Build 41 review verdict (PASS, Muse read-only)
 
 - Build 41 (patch-681, commit b6154e24 11:46:07Z "use verified Makeover Mage map waypoint"): tin-mine south-gate fallback waypoint moved off the Crafting Guild approach — `MAKEOVER_MAGE_WAYPOINT=(2918,3322,0)` (per commit message, the wiki-verified Makeover Mage map coordinate) replaces `(2933,3289,0)`; walk pending `TO_TIN_MINE_MAGE_WAYPOINT`, diag `TIN_MINE_MAGE_NOT_LOADED ... decision=WALK_WIKI_MAGE_COORDINATE`. Delta 680->681 confined to the 5 doricsquest classes (Frame/LoginFrame/Pending member-identical, pool renumbering only), zero signature changes, +0 new game-API calls (javap -c verified), BUILD_NUMBER/runtimeBuild/Plugin all 41, version.txt=681 no-reuse, 215-entry net/-rooted zip. Hot chain VERIFIED: patch-681.hot.json sha256 == doricsquest-41.jar (29,705B), all 4 script classes byte-identical to the zip's.
