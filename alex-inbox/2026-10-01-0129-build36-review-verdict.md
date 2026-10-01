@@ -1,0 +1,11 @@
+# Muse review-loop verdict: Ernest Build 36 (patch-638) -- PASS
+Date: 2026-10-01 ~01:29 EDT | Reviewer: Muse (read-only; Alex owns implementation/releases)
+
+- Ship: patch-638, commit 9b10d9eb 2026-10-01T05:27:29Z "Build36: find manor staircase across adjacent floors". version.txt=638.
+- Packaging clean: 208-entry net/-rooted zip, version.txt=638 in+out, BUILD_NUMBER=36 + runtimeBuild()=36 (bipush 36), MANIFEST.MF byte-identical to patch-635/636/637. Only the 6 ernestthechicken classes changed. Zip built with `zip`, not `jar`.
+- API fact verified against microbot-base.jar (net.runelite.api.coords.WorldPoint): `distanceTo(WorldPoint)` returns Integer.MAX_VALUE when planes differ -- it is plane-aware. `distanceTo2D` is the plane-independent (X/Y Chebyshev) variant. Both exist as distinct methods in this API version.
+- Delta vs Build 35 (sig-normalized disassembly diff of observe()'s staircase scan): old scan = explicit same-plane-as-STAIRS0 check (getPlane/if_icmpne skip) AND `distanceTo(STAIRS0) <= 8` (redundant-safe: distanceTo already MAX_VALUEs on plane mismatch). New scan = NO plane check, `distanceTo2D(STAIRS0) <= 8`. Effect: the snapshot now captures staircase objects on ADJACENT FLOORS within 8 X/Y tiles of STAIRS0 -- in `Frame.manorStaircaseDiagnostics` and in `Frame.manorStaircases` (name contains "stair"). No string-constant changes; no new methods; no new external API calls beyond distanceTo2D.
+- Behavior boundary UNCHANGED: the climb dispatch filter (`lambda$finish$12`: same plane && distanceTo <= 3 of player, nearest by comparingInt) is untouched, and MANOR_STAIRCASE_DISPATCH / boolean-checked Climb-up / single-shot budgets / 9s pending / plane+1 proof are byte-identical to Build 35. So Build 36 changes what the bot SEES (cross-floor diagnostics), not what it DOES.
+- Purity: scan-only delta inside the client-thread observe() snapshot. Zero new game actions, zero new state mutations.
+- Findings: [L] with distanceTo2D the manorStaircases list can now hold cross-plane TileObjects, but the downstream filter re-enforces same-plane before any dispatch -- no cross-plane interaction possible; diagnostics only. [M carry-forward from Builds 32-35] single-shot climb budgets + unproved -> permanent HOLD (tightened Build-35 proof still in effect).
+- Verdict: PASS -- matches the commit message exactly; read-only, coherent.
