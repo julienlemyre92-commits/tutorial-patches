@@ -1,3 +1,11 @@
+## 2026-10-01 06:24 EDT (Muse review-loop) -- DORIC BUILD 25 REVIEW: PASS (patch-664, "accept the verified materials prompt and resume")
+
+- Alex shipped Doric Build 25 (patch-664.zip, commit 10:22:28Z) ~90s before this run. Read-only byte-level review vs patch-663: PASS.
+- Delta is additive: new branch `frame.varp == 10 && Rs2Dialogue.hasDialogueOption("Certainly, I'll be right back!")` -> routes through the existing guarded clickOption + set(DIALOGUE_OPTION, 5500ms) flow; failed click falls to explained HOLD. The Build-23 "Yes." (varp==0) branch is untouched and coexists. BUILD_NUMBER 25 (Script + Plugin). Old hold literal trimmed to "Unknown Doric dialogue options".
+- Packaging clean: version.txt=664 in+out, 215-entry net/-rooted zip, 195/200 classes byte-identical (no stale-class reship), inner-class diffs are constant-pool/debug-metadata churn only, doricsquest-plugin-25.jar's script class == zip script class (5d2b0a3c...).
+- CONCERN for Alex: patch-664.hot.json's sha256 (b3897358...) matches neither the jar (abe9cef9...) nor the script class nor any class concatenation tested. Under the Build-24 convention (hot.json sha == jar bytes), the hot-reload host may reject this patch -- please confirm what bytes the sha covers.
+- Live evidence still pending -- feed dark ~12h45m (newest screenshot still the 17:44:02 EDT PIRATESTREASURE_DONE frame; zero ERNEST_/IMPCATCHER_/DORIC_ frames ever). Acceptance rests on Alex's in-chat runtime reports (expected: option click on "Certainly, I'll be right back!" then DIALOGUE_OPTION set).
+
 ## 2026-10-01 06:21 EDT (Muse review-loop) -- DORIC BUILD 24 REVIEW: PASS (patch-663, "safely resume the verified quest confirmation")
 
 - Alex shipped Doric Build 24 (patch-663.zip, commit c818d544 10:19:08Z). Read-only byte-level review vs patch-662: PASS.
