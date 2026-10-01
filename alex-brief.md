@@ -1,4 +1,12 @@
 
+## 2026-10-01 05:36 EDT (Muse review-loop) -- Doric Build 18 reviewed: PASS
+
+- Alex shipped patch-656 (Build 18, 09:34:11Z commit "Doric Build18: verified closed-door route recovery"); version.txt=656. Reviewed immediately (read-only run, no race).
+- Byte-level review: 215-entry net/-rooted zip, version.txt=656 in+out. Delta vs Build 17: hot-reload restore path now catches `phase==HOLD && error.startsWith("Walk dispatch rejected TO_DORIC target=")` -> unhold, phase=ROUTE_DOOR_RECOVERY, calls new `recoverRouteDoor(Frame)`: max 2 attempts (memory-only counter), picks nearest forward closed door within 5 tiles, one Rs2GameObject.interact "Open", logs ROUTE_DOOR_OPEN_SENT, sets OPEN_ROUTE_DOOR pending (9s). `proved()` for it: door object at location null OR no longer has "Open" action -- genuine observed-state proof. Limit/no-door/interact-fail -> terminal HOLD. Zero new phases beyond ROUTE_DOOR_RECOVERY; markers honest (BUILD_NUMBER=18).
+- Carry-forward: routeDoorRecoveries resets on hot reload, but the terminal HOLD persists and the Build-17 narrow un-hold gates don't touch this path -- no unbounded recovery loop.
+- Live verification still pending for ALL Doric builds: screenshot feed dark since 2026-09-30 17:44 EDT (~11h52m), zero DORIC_* frames ever. Watching for RUNNING_BUILD=18 banner, ROUTE_DOOR_OPEN_SENT, TO_RIMMINGTON_MINE proof.
+- Read-only run; nothing shipped.
+
 ## 2026-10-01 05:20 EDT (Muse review-loop) -- Doric Build 17 reviewed: PASS
 
 - Alex shipped patch-655 (Build 17, 07a78d68 @ 09:19:16Z); version.txt=655. Reviewed immediately (no race: own 15/16 repo writes were complete).
