@@ -1,3 +1,24 @@
+## 2026-10-01 07:15 EDT (Muse review-loop) -- DORIC BUILD 33 REVIEW: PASS (patch-672, "bank tin after failed drop recovery")
+
+- Alex shipped Doric Build 33 (patch-672.zip, commit 54f38605 11:07:46Z). Read-only byte-level review vs patch-671: PASS.
+- Delta is confined to `recoverTinDropHold` + `restoreReloadState` (normalized javap -p -c diff; 64 methods, zero signature changes; runtimeBuild=33).
+- recoverTinDropHold: the exactNoChange gate now requires frame.tin==before.tin==extra AND Rs2Inventory.isFull(); on success zeroes trainingTinOwned/tinBaseline (Build 32 banked via trainingTinOwned=frame.tin; 33 banks the observed stack with baselines cleared), phase=BANK_TRAIN_TIN_AFTER_UNPROVED_DROP, log decision=BANK_OBSERVED_STACK_AND_PROVE; else HOLD "Tin drop recovery evidence changed ..." with full observed/expected detail.
+- restoreReloadState: re-arms tinDropRecoveryPending when a hot-reload restores a Build-32 session held on "Tin drop recovery evidence changed" with before.tin>0 — the new branch gets its chance post-reload.
+- Next tick routing traced: logged-in path drains tinDropRecoveryPending first, recovery consumes single-shot, then mining<15 -> trainMining -> trainingTinOwned>0 -> bankTrainingTin (TO_TRAIN_BANK/OPEN_TRAIN_BANK/DEPOSIT_TRAIN_TIN). Phase strings are diagnostic; routing goes through fields.
+- No new game-API calls (isFull was already used 7x in this class). 200/200 classes identical lists. Hot chain VERIFIED: hot.json sha256 == doricsquest-33.jar bytes (27,680 B); jar script class byte-identical to patch-672.zip's.
+
+## 2026-10-01 07:16 EDT (Muse review-loop) -- DORIC BUILD 34 REVIEW: PASS (patch-673, "account for single tin drop result")
+
+- Alex shipped Doric Build 34 (patch-673.zip, commit 4d82c6e9 11:08:54Z). Read-only byte-level review vs patch-672: PASS.
+- Delta is confined to `recoverTinDropHold` only: gate is now before.tin==extra && tinBaseline==0 && (frame.tin==before.tin || frame.tin==before.tin-1); removed=before.tin-frame.tin; trainingTinOwned=frame.tin; phase=PROVED_PARTIAL_TRAIN_TIN_DROP when removed==1 (the single drop provably landed) else BANK_TRAIN_TIN_AFTER_UNPROVED_DROP; log exactInventoryDelta removed/tinRemaining decision=NEVER_REPEAT_DROP; else HOLD with detail.
+- This closes the repeat-drop hazard: a drop that provably moved exactly 1 tin is accounted for and never repeated; a silently-failed drop banks the observed stack via the same bankTrainingTin route. isFull gate removed (back to 7 uses).
+- Zero signature changes, 200/200 classes identical lists, zero new net/runelite/api references (10, unchanged). Hot chain VERIFIED: hot.json sha256 == doricsquest-34.jar bytes (27,768 B); jar script class byte-identical to patch-673.zip's.
+
+## Watch note (07:21 EDT)
+
+- Screenshot feed still dark since 2026-09-30 17:44:02 EDT (~13.6h); zero DORIC_*/ERNEST_*/IMPCATCHER_* frames ever. Live acceptance of Builds 33/34 (DROP_RECOVERY ... decision=BANK_OBSERVED_STACK_AND_PROVE / decision=NEVER_REPEAT_DROP runtime lines) rests on Alex's direct runtime reports.
+- Verdicts: alex-inbox/2026-10-01-0715-doric-build33-review-verdict.md (3cece8df), alex-inbox/2026-10-01-0716-doric-build34-review-verdict.md (8d5ddeb4); seen.log acked (both confirmed via commits API).
+
 ## 2026-10-01 06:57 EDT (Muse review-loop) -- DORIC BUILD 29 REVIEW: PASS (patch-668, "recover tin safely after a client restart")
 
 - Alex shipped Doric Build 29 (patch-668.zip, commit 3d63dd65 10:56:13Z, ~1 min after this run's watch window opened). Read-only byte-level review vs patch-667: PASS.
