@@ -1795,7 +1795,24 @@ bypassing the 12s x3 retry. Correction:
 - Live acceptance PENDING (feed dark since 2026-09-30 17:44 EDT; no live URL) — awaiting SOURCE_TRAVEL_COIN_DELTA diag lines.
 - Full verdict: alex-inbox/2026-10-01-1826-princeali-build72-review-verdict.md (acked in seen.log).
 
-## Builds 73-75 (patches 766-768) — PENDING Muse review (landed 18:19-18:23 EDT)
-- Builds 73/74/75 shipped while the Build 71+72 review was in flight: b166395d53 Build75 "source bounded F2P trout from GE after fresh bank absence" (patch-768), ae843a2756 Build74 "preserve walk target and prove arrival across hot reload" (patch-767), 1ab6a6411d Build73 "prepare banked F2P food before jail and prove eating" (patch-766). Semantic review deferred to next review-loop run(s); draft custody pre-check done (all three hot.json sha256 == script jar bytes exactly; jars archived in goal hidden_files scratch-b71b72/ for the reviewer).
-- VERSION DIVERGENCE FLAG: patch-768 (Build 75) exists but version.txt=767 — if the Supervisor polls version.txt it will fetch patch-767 (Build 74), so Build 75 may never hot-load until version.txt is bumped to 768. Also prior cosmetic drift (version 520 vs BUILD_NUMBER 522 pattern) is now build-count vs version-count drift; the two counters have diverged.
-- Last successful milestone from here remains Pirate's Treasure DONE 2026-09-30 ~16:44 EDT (feed dark since 2026-09-30 17:44 EDT; no live URL).
+## Build 73 review (Muse read-only, 18:46 EDT)
+- Delta: embedded QuestFoodSafety helper (Policy 4/80%/7HP, IDs 329/333/2309/2140/315) — staged WITHDRAW/EAT with dual proof (count AND HP), 4s deadlines, hot-reload checkpoint/restore; prepareBankInventory (one deposit/tick, keeps 100 coins + quest chain incl 1265) + handleFoodEating (<80% HP, exact 'Eat' action, NEED_FOOD_OR_ESCAPE -> re-prep). Capture() is client-thread-dispatched (no B517 risk); all new Rs2Inventory/Rs2Bank APIs verified on installed microbot-base.jar.
+- Findings: [LOW] handleFoodEating default branch terminal-HOLDs on transient helper outcomes (UNPROVED after 4s, WRONG_OPERATION, BANK_* modes) — suggest soft-retry; [MEDIUM carried] banked pickaxe 1265 never withdrawn (withdrawFinishedIfBanked covers only wig/paste/key/print).
+- Full verdict: alex-inbox/2026-10-01-1846-princeali-build73-review-verdict.md (acked in seen.log).
+
+## Build 74 review (Muse read-only, 18:46 EDT)
+- Delta: persisted reloadedWalkTarget (all WALK_* targets now survive hot reload) + recoverReloadedWalk — arrival proof within 3 tiles/same plane clears HOLD_RELOAD_IN_FLIGHT with no replay; one-shot migration backfills the observed skirt-shop case (Build 73 never persisted targets).
+- Findings: [LOW] migration covers only the skirt case — other pre-74 reloaded WALK_* actions hold terminally ('Reload during WALK_*; inspect...'); plane mismatch returns false instead of re-driving the walk.
+- Full verdict: alex-inbox/2026-10-01-1846-princeali-build74-review-verdict.md (acked in seen.log).
+
+## Build 75 review (Muse read-only, 18:46 EDT)
+- Delta: FOOD_BANK_ABSENT_PLAN — bank-prep NO_BANK_STOCK with no active source -> bounded F2P trout (333) from GE (goal = trout + deficit to 4 food, 1000gp cumulative cap, runtime quote + offer proof); reload-migration recheck is one-shot (restore path, no loop); sourceItem!=333 guard keeps food-prep cleanup from clobbering an active trout source; 'preserve source id' terminal hold when another source is active.
+- Findings: [LOW] 'preserve source id' hold is terminal if the other leg stalls; VERSION DIVERGENCE FLAG RESOLVED — patch-768 present, version.txt advanced to 769.
+- Full verdict: alex-inbox/2026-10-01-1846-princeali-build75-review-verdict.md (acked in seen.log).
+
+## Build 76 review (Muse read-only, 18:46 EDT)
+- Delta: GE quote via Rs2GrandExchange.getRealTimePrices(id) -> WikiPrice (verified: method + buyPrice/timestamp exist on installed microbot-base.jar); quote = ceil(buyPrice*1.10); reload-migration retry gate clears a trout-333 quote-unavailable hold once.
+- Findings: [LOW] retry is reload-time only and trout-333-specific — wool/soft-clay/1929/bronze-bar quote holds have no retry path (fine while you ship constantly; parks during quiet periods); [MEDIUM carried] B70 empty-question furnace confirmation HOLD; [MEDIUM carried] banked pickaxe 1265 gap.
+- Full verdict: alex-inbox/2026-10-01-1846-princeali-build76-review-verdict.md (acked in seen.log).
+
+Last successful milestone from here remains Pirate's Treasure DONE 2026-09-30 ~16:44 EDT (feed dark since 2026-09-30 17:44 EDT; no live URL confirmed — Builds 3-76 never live-verified from here).
