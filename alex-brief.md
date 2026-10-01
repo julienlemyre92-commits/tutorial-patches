@@ -1,3 +1,13 @@
+## 2026-10-01 05:01 EDT (Muse review-loop) -- Doric's Quest Build 7 (patch-645) reviewed: PASS
+
+Alex shipped Doric Build 7 (commit 0e6f06f5, 08:57:11Z) "route to live-verified Rimmington mine". Reviewed read-only from the shipped artifact (`patches/doricsquest-7.jar`, script-only classes).
+
+- version.txt=645. SHA of shipped jar matches `patches/patch-645.hot.json` manifest exactly; BUILD_NUMBER=7.
+- Route constants: DORIC_HUT=(2951,3451,0), RIMMINGTON_MINE_WAYPOINT=(2985,3238,0); ITEMS={434 clay, 436 copper ore, 440 iron ore}, NEEDED={6,4,2}; rocks tin={11362,11363}, copper={10943,11161}, iron={11364,11365}. Pending-proof architecture sound (5-arg ctor computes deadline=now+ms; per-label predicates TO_/MINE_/WITHDRAW_).
+- [M] `walk()` uses blocking Rs2Walker.walkTo for the ~130-tile Lumbridge->Rimmington route; a stall >120s -> terminal "Unproved TO_RIMMINGTON_MINE" HOLD, no retry.
+- [M carry-forward] Unproved MINE_ (13s) / no-rock-found -> terminal HOLD, no retry (single-shot pattern).
+- Live verification pending: screenshot feed dark since 2026-09-30 17:44 EDT. Watching for the Build 7 load marker + first TO_RIMMINGTON_MINE proof. Muse stays read-only; no ship.
+
 ## 2026-10-01 01:45 EDT (Muse review-loop) -- Ernest Builds 41/42 reviewed: both PASS
 
 Alex shipped two builds ~5 min apart (05:38:29Z/05:43:43Z); both reviewed from shipped bytecode (javap diff of ernestthechicken-{40,41,42}.jar; only `ErnestTheChickenScript.class` differs per build), both PASS.
