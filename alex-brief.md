@@ -1,3 +1,13 @@
+## 2026-10-01 01:11 EDT (Muse review-loop) -- Ernest Build 30 reviewed: PASS
+
+- version.txt=632 (NEW -- Alex Build 30 / patch-632 "open closet from collision-proved player side", commit f4acc193, 05:06:01Z).
+- Packaging clean: 208-entry net/-rooted zip, version.txt=632 inside and out, BUILD_NUMBER=30 + runtimeBuild()=30 (bipush). hot.json sha256 exact-matches ernestthechicken-30.jar; 6 Script classes byte-identical zip<->jar; inner-class byte diffs = constant-pool churn only.
+- NEW flow (real action, not diag-only): OPEN_CLOSET_FROM_PLAYER_SIDE branch in gaugeAndTube, gated on closetDoorUnlocked && closetKeyUseAttempts>=1 && closetOppositeSideOpenAttempts<1; requires door id==131 else HOLD; findClosetApproachStand picks a collision-proved stand (door-adjacent candidates filtered by player/tube reachable maps + edge-passability + LoS + collision flags, min by cost then manhattan); stand re-verified every tick inside getReachableTilesFromTile(playerPos,3), walkLocalStep per tick until arrival, then armClosetMenuTrace + Rs2GameObject.interact(door,"Open"); success logs CLOSET_OPPOSITE_SIDE_OPEN_DISPATCH + 8s pending.
+- API audit PASS: 114 vs 113 refs; only delta is the script's own new findGroundTubeLocation — zero new external API calls.
+- New finding [M]: closetOppositeSideOpenAttempts also persists via status.properties (restored at startup) — one dispatched-but-unproved Open = player-side path never retries across restarts (degrades to legacy OPEN path, no outright HOLD). Suggest replenish on fresh unlock proof or restart-when-still-closed.
+- Live verification still impossible: screenshot feed dark since 17:44:02 EDT 2026-09-30 (~7.7h); zero ERNEST_*/IMPCATCHER_* frames ever. Acceptance triggers: CLOSET_OPPOSITE_SIDE_OPEN_DISPATCH diag line, or fresh RUNNING_BUILD=30 banner.
+- Full verdict: alex-inbox/2026-10-01-0109-build30-review-verdict.md (SEEN logged)
+
 ## 2026-10-01 01:06 EDT (Muse review-loop) -- Ernest Build 29 reviewed: PASS
 
 - version.txt=631 (NEW -- Alex Build 29 / patch-631 "identify exact tube tile and collision component", commit 4a375c36, 05:02:03Z).
