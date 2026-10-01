@@ -1,0 +1,2390 @@
+package net.runelite.client.plugins.microbot.princealirescue;
+
+import java.io.OutputStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Properties;
+import java.util.Set;
+import java.util.concurrent.TimeUnit;
+import java.util.function.BooleanSupplier;
+import net.runelite.api.Client;
+import net.runelite.api.GameState;
+import net.runelite.api.NPCComposition;
+import net.runelite.api.Quest;
+import net.runelite.api.QuestState;
+import net.runelite.api.coords.WorldPoint;
+import net.runelite.api.widgets.Widget;
+import net.runelite.client.plugins.microbot.Microbot;
+import net.runelite.client.plugins.microbot.Script;
+import net.runelite.client.plugins.microbot.api.npc.models.Rs2NpcModel;
+import net.runelite.client.plugins.microbot.api.tileobject.models.Rs2TileObjectModel;
+import net.runelite.client.plugins.microbot.util.bank.Rs2Bank;
+import net.runelite.client.plugins.microbot.util.bank.enums.BankLocation;
+import net.runelite.client.plugins.microbot.util.dialogues.Rs2Dialogue;
+import net.runelite.client.plugins.microbot.util.equipment.Rs2Equipment;
+import net.runelite.client.plugins.microbot.util.events.WelcomeScreenEvent;
+import net.runelite.client.plugins.microbot.util.gameobject.Rs2GameObject;
+import net.runelite.client.plugins.microbot.util.grandexchange.Rs2GrandExchange;
+import net.runelite.client.plugins.microbot.util.grandexchange.models.GrandExchangeOfferDetails;
+import net.runelite.client.plugins.microbot.util.grounditem.Rs2GroundItem;
+import net.runelite.client.plugins.microbot.util.inventory.Rs2Inventory;
+import net.runelite.client.plugins.microbot.util.npc.Rs2Npc;
+import net.runelite.client.plugins.microbot.util.player.Rs2Player;
+import net.runelite.client.plugins.microbot.util.security.LoginManager;
+import net.runelite.client.plugins.microbot.util.shop.Rs2Shop;
+import net.runelite.client.plugins.microbot.util.tile.Rs2Tile;
+import net.runelite.client.plugins.microbot.util.walker.Rs2Walker;
+import net.runelite.client.plugins.microbot.util.walker.WalkerState;
+import net.runelite.client.plugins.microbot.util.widget.Rs2Widget;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/** QuestHelper stage route, with one dispatched action and a later observation as proof. */
+public final class PrinceAliRescueScript extends Script {
+    private static final Logger LOG = LoggerFactory.getLogger(PrinceAliRescueScript.class);
+    public static final int BUILD_NUMBER = 43;
+    private static final int VARP = 273;
+    private static final int SOFT_CLAY=1761, CLAY=434, WOOL=1759, RAW_WOOL=1737, SHEARS=1735,
+        DYE=1765, ONION=1957, TINDERBOX=590, LOGS=1511, BRONZE_AXE=1351,
+        REDBERRIES=1951,
+        ASHES=592, WATER=1929, EMPTY_BUCKET=1925, FLOUR=1933, BRONZE_BAR=2349, SKIRT=1013,
+        BEER=1917, ROPE=954, COINS=995, WIG=2421, BLONDE_WIG=2419,
+        PASTE=2424, KEY_PRINT=2423, BRONZE_KEY=2418;
+    private static final int HASSAN=4285, OSMAN=4286, NED=4280, AGGIE=120,
+        KELI=11578, LEELA=4274, JOE=11577, ALI=11579, CELL_DOOR=2881;
+    private static final int[] SHEEP_IDS={2786,2699,2787,2693,2694,2695};
+    private static final int[] ONION_IDS={3366,5538};
+    private static final int[] WOODCUTTING_AXES={1351,1349,1353,1361,1355,1357,1359,6739};
+    private static final int BRONZE_AXE_LOGS_OBJECT=5581;
+    private static final WorldPoint HASSAN_POS=new WorldPoint(3298,3163,0),
+        OSMAN_POS=new WorldPoint(3286,3180,0), NED_POS=new WorldPoint(3097,3257,0),
+        AGGIE_POS=new WorldPoint(3086,3257,0), KELI_POS=new WorldPoint(3127,3244,0),
+        LEELA_POS=new WorldPoint(3113,3262,0), JOE_POS=new WorldPoint(3124,3245,0),
+        CELL_POS=new WorldPoint(3123,3240,0), CELL_DOOR_POS=new WorldPoint(3123,3243,0),
+        THESSALIA_POS=new WorldPoint(3206,3415,0),
+        BLUE_MOON_POS=new WorldPoint(3228,3393,0),
+        WYDIN_POS=new WorldPoint(3013,3204,0),
+        FRED_POS=new WorldPoint(3190,3273,0), FRED_ONION_FIELD=new WorldPoint(3190,3263,0),
+        SHEEP_FIELD=new WorldPoint(3201,3268,0), ASHES_FIRE_FIELD=new WorldPoint(3201,3268,0),
+        ALKHARID_GENERAL_STORE=new WorldPoint(3315,3175,0),
+        ALKHARID_PALACE_COURTYARD=new WorldPoint(3293,3171,0),
+        LUMBRIDGE_STORE=new WorldPoint(3212,3246,0),
+        CASTLE_STAIRS_GROUND=new WorldPoint(3204,3207,0),
+        CASTLE_STAIRS_FIRST=new WorldPoint(3204,3207,1),
+        WOOL_WHEEL=new WorldPoint(3209,3212,1), WOOL_WHEEL_ROOM=new WorldPoint(3210,3212,1);
+    private static final Path STATUS=Paths.get(System.getProperty("user.home"),
+        ".runelite","princealirescue","status.properties");
+
+    private static final class Frame {
+        GameState game; QuestState quest; WorldPoint pos; int varp, loginIndex, world, canvasWidth;
+        double health; boolean bank, shop, continuePrompt, inDialogue, production; int animation=-1;
+        String dialogue="", options="";
+        final Map<Integer,Integer> items=new HashMap<>();
+        int count(int id) { return items.getOrDefault(id,0); }
+    }
+    private static final class Pending {
+        final String action; final Frame before; final long deadline; final int item;
+        final WorldPoint target;
+        Pending(String action,Frame before,long timeout,int item,WorldPoint target) {
+            this.action=action; this.before=before; this.deadline=System.currentTimeMillis()+timeout;
+            this.item=item; this.target=target;
+        }
+    }
+    private BooleanSupplier ownsInput;
+    private volatile boolean stopped, held;
+    private String phase="START", error="";
+    private Pending pending;
+    private int loginAttempts, welcomeAttempts, disconnectAttempts, selectedWorld, routeFailures;
+    private long loginAt, welcomeAt, disconnectAt, lastMoveAt;
+    private String lastRoute="";
+    private boolean bankInspected, keySubmitted, reloadStateRestored;
+    private boolean keyHandinPending;
+    private String restoredInFlightAction="", lastReloadHoldError="";
+    private String loginError="";
+    private final Map<String,Integer> talkAttempts=new HashMap<>();
+    private String lastMaterialSignature="";
+    private int sourceItem, sourceGoal, sourceAttempts, sourceSpent, sourceLastCount, sourceLastCoins;
+    private WorldPoint onionApproach, onionLastPosition;
+    private long onionLastStepAt, onionLastProgressAt;
+    private int onionStepAttempts;
+    private boolean onionFailedAttemptRecovered, onionTimeoutRecovered,
+        onionSecondPickCapRecovered, ashesFallbackRecovered, ashesTinderboxShopRecovered,
+        ashesLogSourceRecovered, ashesTreeRetryRecovered, ashesTreeRerouteRecovered,
+        ashesFredTreeRescanRecovered, ashesFredLineOfSightApproachRecovered,
+        ashesTreeApproachFailureRecovered, ashesApproachReloadRecovered;
+    private final Set<String> ashesNoLosTreeTargets=new HashSet<>();
+    private WorldPoint ashesFireTile;
+    private long ashesFireStartedAt;
+    private int ashesFireAttempts, ashesTinderboxPurchaseAttempts;
+    private int waterBucketPurchaseAttempts, waterFillAttempts, waterApproachAttempts;
+    private boolean waterQuoteRecovered, waterCandidateHoldRecovered;
+    private WorldPoint waterApproachTarget, waterApproachLastPosition;
+    private long waterApproachStartedAt, waterApproachProgressAt;
+    private WorldPoint ashesLogApproachLastPosition;
+    private long ashesLogApproachStartedAt, ashesLogApproachProgressAt;
+    private int ashesLogApproachAttempts;
+    private long sourceStartedAt;
+    private long sourceShopOpenedAt;
+    private int geQuote, geInitialItem, geInitialCoins, geQuantity, geReservedTotal;
+    private long geOfferAt;
+    private String geStage="";
+    private String geOfferSlotName="";
+    private final Set<String> failedWoolSheep=new HashSet<>();
+    private String woolShearTarget="";
+    private int woolShearFailures=0, lastRawWool=-1, lastWoolBalls=-1;
+    private boolean woolSpinning=false;
+    private boolean woolStageRecoveredFromStatus=false;
+    private long woolProgressAt=0, woolNoSheepSince=0;
+    private long woolStairLastStepAt=0, woolStairLastProgressAt=0;
+    private int woolStairStepAttempts=0;
+    private WorldPoint woolStairLastPosition;
+    private static final Set<Integer> QUEST_ITEMS=Set.of(SOFT_CLAY,CLAY,WOOL,RAW_WOOL,SHEARS,DYE,ONION,REDBERRIES,
+        ASHES,WATER,FLOUR,BRONZE_BAR,SKIRT,BEER,ROPE,COINS,WIG,BLONDE_WIG,
+        PASTE,KEY_PRINT,BRONZE_KEY);
+
+    public boolean run(PrinceAliRescueConfig config, BooleanSupplier owner) {
+        if (isRunning()) return true;
+        ownsInput=owner;
+        LOG.info("[PrinceAliRescue] RUNNING_BUILD={} pid={}",BUILD_NUMBER,ProcessHandle.current().pid());
+        long delay=Math.max(500,Math.min(2000,config.tickDelay()));
+        mainScheduledFuture=scheduledExecutorService.scheduleWithFixedDelay(this::tick,0,delay,TimeUnit.MILLISECONDS);
+        return true;
+    }
+    public int runtimeBuild() { return BUILD_NUMBER; }
+    @Override public void shutdown() {
+        stopped=true;
+        if(mainScheduledFuture!=null) mainScheduledFuture.cancel(true);
+        scheduledExecutorService.shutdownNow(); super.shutdown();
+    }
+    public boolean awaitStopped() {
+        try { return scheduledExecutorService.awaitTermination(5,TimeUnit.SECONDS); }
+        catch(InterruptedException e) { Thread.currentThread().interrupt(); return false; }
+    }
+    public Map<String,Object> quiesceForReload() {
+        if(mainScheduledFuture!=null) mainScheduledFuture.cancel(false);
+        scheduledExecutorService.shutdown();
+        try {
+            if(!scheduledExecutorService.awaitTermination(30,TimeUnit.SECONDS))
+                throw new IllegalStateException("Prince Ali tick did not quiesce");
+        } catch(InterruptedException e) {
+            Thread.currentThread().interrupt(); throw new IllegalStateException("reload interrupted",e);
+        }
+        stopped=true;
+        Map<String,Object> state=new HashMap<>();
+        state.put("held",held); state.put("phase",phase); state.put("error",error);
+        state.put("bankInspected",bankInspected); state.put("keySubmitted",keySubmitted);
+        state.put("keyHandinPending",keyHandinPending);
+        state.put("talkAttempts",new HashMap<>(talkAttempts));
+        state.put("lastMaterialSignature",lastMaterialSignature);
+        state.put("sourceItem",sourceItem); state.put("sourceGoal",sourceGoal);
+        state.put("sourceAttempts",sourceAttempts); state.put("sourceSpent",sourceSpent);
+        state.put("onionApproach",onionApproach); state.put("onionLastPosition",onionLastPosition);
+        state.put("onionLastStepAt",onionLastStepAt); state.put("onionLastProgressAt",onionLastProgressAt);
+        state.put("onionStepAttempts",onionStepAttempts);
+        state.put("onionFailedAttemptRecovered",onionFailedAttemptRecovered);
+        state.put("onionTimeoutRecovered",onionTimeoutRecovered);
+        state.put("onionSecondPickCapRecovered",onionSecondPickCapRecovered);
+        state.put("ashesFallbackRecovered",ashesFallbackRecovered);
+        state.put("ashesTinderboxShopRecovered",ashesTinderboxShopRecovered);
+        state.put("ashesLogSourceRecovered",ashesLogSourceRecovered);
+        state.put("ashesTreeRetryRecovered",ashesTreeRetryRecovered);
+        state.put("ashesTreeRerouteRecovered",ashesTreeRerouteRecovered);
+        state.put("ashesFredTreeRescanRecovered",ashesFredTreeRescanRecovered);
+        state.put("ashesFredLineOfSightApproachRecovered",ashesFredLineOfSightApproachRecovered);
+        state.put("ashesTreeApproachFailureRecovered",ashesTreeApproachFailureRecovered);
+        state.put("ashesApproachReloadRecovered",ashesApproachReloadRecovered);
+        state.put("ashesNoLosTreeTargets",new HashSet<>(ashesNoLosTreeTargets));
+        state.put("ashesFireTile",ashesFireTile); state.put("ashesFireStartedAt",ashesFireStartedAt);
+        state.put("ashesFireAttempts",ashesFireAttempts);
+        state.put("ashesTinderboxPurchaseAttempts",ashesTinderboxPurchaseAttempts);
+        state.put("waterBucketPurchaseAttempts",waterBucketPurchaseAttempts);
+        state.put("waterFillAttempts",waterFillAttempts);
+        state.put("waterQuoteRecovered",waterQuoteRecovered);
+        state.put("waterCandidateHoldRecovered",waterCandidateHoldRecovered);
+        state.put("waterApproachAttempts",waterApproachAttempts);
+        state.put("waterApproachTarget",waterApproachTarget);
+        state.put("waterApproachLastPosition",waterApproachLastPosition);
+        state.put("waterApproachStartedAt",waterApproachStartedAt);
+        state.put("waterApproachProgressAt",waterApproachProgressAt);
+        state.put("ashesLogApproachLastPosition",ashesLogApproachLastPosition);
+        state.put("ashesLogApproachStartedAt",ashesLogApproachStartedAt);
+        state.put("ashesLogApproachProgressAt",ashesLogApproachProgressAt);
+        state.put("ashesLogApproachAttempts",ashesLogApproachAttempts);
+        state.put("sourceLastCount",sourceLastCount); state.put("sourceStartedAt",sourceStartedAt);
+        state.put("sourceLastCoins",sourceLastCoins);
+        state.put("sourceShopOpenedAt",sourceShopOpenedAt);
+        state.put("geQuote",geQuote); state.put("geInitialItem",geInitialItem);
+        state.put("geInitialCoins",geInitialCoins); state.put("geQuantity",geQuantity);
+        state.put("geReservedTotal",geReservedTotal); state.put("geOfferAt",geOfferAt);
+        state.put("geStage",geStage);
+        state.put("geOfferSlotName",geOfferSlotName);
+        state.put("failedWoolSheep",new HashSet<>(failedWoolSheep));
+        state.put("woolShearTarget",woolShearTarget); state.put("woolShearFailures",woolShearFailures);
+        state.put("lastRawWool",lastRawWool); state.put("lastWoolBalls",lastWoolBalls);
+        state.put("woolSpinning",woolSpinning); state.put("woolProgressAt",woolProgressAt);
+        state.put("woolStageRecoveredFromStatus",woolStageRecoveredFromStatus);
+        state.put("woolNoSheepSince",woolNoSheepSince);
+        state.put("woolStairLastStepAt",woolStairLastStepAt);
+        state.put("woolStairLastProgressAt",woolStairLastProgressAt);
+        state.put("woolStairStepAttempts",woolStairStepAttempts);
+        state.put("woolStairLastPosition",woolStairLastPosition);
+        state.put("selectedWorld",selectedWorld); state.put("loginAttempts",loginAttempts);
+        state.put("welcomeAttempts",welcomeAttempts); state.put("disconnectAttempts",disconnectAttempts);
+        state.put("loginError",loginError);
+        state.put("loginAt",loginAt); state.put("welcomeAt",welcomeAt);
+        state.put("disconnectAt",disconnectAt); state.put("routeFailures",routeFailures);
+        state.put("lastRoute",lastRoute); state.put("lastMoveAt",lastMoveAt);
+        // Do not replay an in-flight click after reload. Resume from a fresh scene observation.
+        state.put("pendingAction",pending==null?"":pending.action);
+        super.shutdown(); return state;
+    }
+    public void restoreReloadState(Map<String,Object> state) {
+        if(isRunning()) throw new IllegalStateException("running script reload");
+        held=(Boolean)state.getOrDefault("held",false);
+        phase=(String)state.getOrDefault("phase","RESUME");
+        error=(String)state.getOrDefault("error","");
+        lastReloadHoldError=error;
+        restoredInFlightAction="";
+        if(held && "HOLD".equals(phase)
+            && error.startsWith("Unrecognized Prince Ali dialogue options:")
+            && error.contains("No. I think I know everything I need to.")) {
+            held=false; phase="RESUME_KNOWN_OSMAN_DIALOGUE"; error="";
+            LOG.info("[PrinceAliRescue] Reload recovery: resuming only the newly recognized Osman option menu");
+        }
+        bankInspected=(Boolean)state.getOrDefault("bankInspected",false);
+        keySubmitted=(Boolean)state.getOrDefault("keySubmitted",false);
+        keyHandinPending=(Boolean)state.getOrDefault("keyHandinPending",false);
+        Object savedAttempts=state.get("talkAttempts");
+        if(savedAttempts instanceof Map<?,?>) for(Map.Entry<?,?> entry:((Map<?,?>)savedAttempts).entrySet())
+            if(entry.getKey() instanceof String && entry.getValue() instanceof Integer)
+                talkAttempts.put((String)entry.getKey(),(Integer)entry.getValue());
+        lastMaterialSignature=(String)state.getOrDefault("lastMaterialSignature","");
+        sourceItem=(Integer)state.getOrDefault("sourceItem",0);
+        sourceGoal=(Integer)state.getOrDefault("sourceGoal",0);
+        sourceAttempts=(Integer)state.getOrDefault("sourceAttempts",0);
+        Object savedOnionApproach=state.get("onionApproach");
+        if(savedOnionApproach instanceof WorldPoint) onionApproach=(WorldPoint)savedOnionApproach;
+        Object savedOnionPosition=state.get("onionLastPosition");
+        if(savedOnionPosition instanceof WorldPoint) onionLastPosition=(WorldPoint)savedOnionPosition;
+        onionLastStepAt=(Long)state.getOrDefault("onionLastStepAt",0L);
+        onionLastProgressAt=(Long)state.getOrDefault("onionLastProgressAt",0L);
+        onionStepAttempts=(Integer)state.getOrDefault("onionStepAttempts",0);
+        onionFailedAttemptRecovered=(Boolean)state.getOrDefault("onionFailedAttemptRecovered",false);
+        onionTimeoutRecovered=(Boolean)state.getOrDefault("onionTimeoutRecovered",false);
+        onionSecondPickCapRecovered=(Boolean)state.getOrDefault("onionSecondPickCapRecovered",false);
+        ashesFallbackRecovered=(Boolean)state.getOrDefault("ashesFallbackRecovered",false);
+        ashesTinderboxShopRecovered=(Boolean)state.getOrDefault("ashesTinderboxShopRecovered",false);
+        ashesLogSourceRecovered=(Boolean)state.getOrDefault("ashesLogSourceRecovered",false);
+        ashesTreeRetryRecovered=(Boolean)state.getOrDefault("ashesTreeRetryRecovered",false);
+        ashesTreeRerouteRecovered=(Boolean)state.getOrDefault("ashesTreeRerouteRecovered",false);
+        ashesFredTreeRescanRecovered=(Boolean)state.getOrDefault("ashesFredTreeRescanRecovered",false);
+        ashesFredLineOfSightApproachRecovered=(Boolean)state.getOrDefault("ashesFredLineOfSightApproachRecovered",false);
+        ashesTreeApproachFailureRecovered=(Boolean)state.getOrDefault("ashesTreeApproachFailureRecovered",false);
+        ashesApproachReloadRecovered=(Boolean)state.getOrDefault("ashesApproachReloadRecovered",false);
+        Object savedNoLosTrees=state.get("ashesNoLosTreeTargets");
+        if(savedNoLosTrees instanceof Set<?>) for(Object tile:(Set<?>)savedNoLosTrees)
+            if(tile instanceof String) ashesNoLosTreeTargets.add((String)tile);
+        Object savedAshesFireTile=state.get("ashesFireTile");
+        if(savedAshesFireTile instanceof WorldPoint) ashesFireTile=(WorldPoint)savedAshesFireTile;
+        ashesFireStartedAt=(Long)state.getOrDefault("ashesFireStartedAt",0L);
+        ashesFireAttempts=(Integer)state.getOrDefault("ashesFireAttempts",0);
+        ashesTinderboxPurchaseAttempts=(Integer)state.getOrDefault("ashesTinderboxPurchaseAttempts",0);
+        waterBucketPurchaseAttempts=(Integer)state.getOrDefault("waterBucketPurchaseAttempts",0);
+        waterFillAttempts=(Integer)state.getOrDefault("waterFillAttempts",0);
+        waterQuoteRecovered=(Boolean)state.getOrDefault("waterQuoteRecovered",false);
+        waterCandidateHoldRecovered=(Boolean)state.getOrDefault("waterCandidateHoldRecovered",false);
+        waterApproachAttempts=(Integer)state.getOrDefault("waterApproachAttempts",0);
+        Object savedWaterTarget=state.get("waterApproachTarget");
+        if(savedWaterTarget instanceof WorldPoint) waterApproachTarget=(WorldPoint)savedWaterTarget;
+        Object savedWaterPosition=state.get("waterApproachLastPosition");
+        if(savedWaterPosition instanceof WorldPoint) waterApproachLastPosition=(WorldPoint)savedWaterPosition;
+        waterApproachStartedAt=(Long)state.getOrDefault("waterApproachStartedAt",0L);
+        waterApproachProgressAt=(Long)state.getOrDefault("waterApproachProgressAt",0L);
+        if(sourceItem==WATER&&"WATER_LOCAL_SOURCE".equals(geStage)&&waterApproachTarget!=null) {
+            long resumedAt=System.currentTimeMillis();
+            waterApproachStartedAt=resumedAt; waterApproachProgressAt=resumedAt;
+            LOG.info("[PrinceAliRescue] REBASED_WATER_APPROACH_BUDGET after reload target={} pos={} attempts={}",
+                waterApproachTarget,waterApproachLastPosition,waterApproachAttempts);
+        }
+        Object savedAshesLogPosition=state.get("ashesLogApproachLastPosition");
+        if(savedAshesLogPosition instanceof WorldPoint) ashesLogApproachLastPosition=(WorldPoint)savedAshesLogPosition;
+        ashesLogApproachStartedAt=(Long)state.getOrDefault("ashesLogApproachStartedAt",0L);
+        ashesLogApproachProgressAt=(Long)state.getOrDefault("ashesLogApproachProgressAt",0L);
+        ashesLogApproachAttempts=(Integer)state.getOrDefault("ashesLogApproachAttempts",0);
+        sourceSpent=(Integer)state.getOrDefault("sourceSpent",0);
+        sourceLastCount=(Integer)state.getOrDefault("sourceLastCount",0);
+        sourceLastCoins=(Integer)state.getOrDefault("sourceLastCoins",0);
+        sourceStartedAt=(Long)state.getOrDefault("sourceStartedAt",0L);
+        sourceShopOpenedAt=(Long)state.getOrDefault("sourceShopOpenedAt",0L);
+        geQuote=(Integer)state.getOrDefault("geQuote",0);
+        geInitialItem=(Integer)state.getOrDefault("geInitialItem",0);
+        geInitialCoins=(Integer)state.getOrDefault("geInitialCoins",0);
+        geQuantity=(Integer)state.getOrDefault("geQuantity",0);
+        geReservedTotal=(Integer)state.getOrDefault("geReservedTotal",0);
+        geOfferAt=(Long)state.getOrDefault("geOfferAt",0L);
+        geStage=(String)state.getOrDefault("geStage","");
+        geOfferSlotName=(String)state.getOrDefault("geOfferSlotName","");
+        Object savedFailedSheep=state.get("failedWoolSheep");
+        if(savedFailedSheep instanceof Set<?>) for(Object key:(Set<?>)savedFailedSheep)
+            if(key instanceof String) failedWoolSheep.add((String)key);
+        woolShearTarget=(String)state.getOrDefault("woolShearTarget","");
+        woolShearFailures=(Integer)state.getOrDefault("woolShearFailures",0);
+        lastRawWool=(Integer)state.getOrDefault("lastRawWool",-1);
+        lastWoolBalls=(Integer)state.getOrDefault("lastWoolBalls",-1);
+        woolSpinning=(Boolean)state.getOrDefault("woolSpinning",false);
+        woolStageRecoveredFromStatus=(Boolean)state.getOrDefault("woolStageRecoveredFromStatus",false);
+        woolProgressAt=(Long)state.getOrDefault("woolProgressAt",0L);
+        woolNoSheepSince=(Long)state.getOrDefault("woolNoSheepSince",0L);
+        woolStairLastStepAt=(Long)state.getOrDefault("woolStairLastStepAt",0L);
+        woolStairLastProgressAt=(Long)state.getOrDefault("woolStairLastProgressAt",0L);
+        woolStairStepAttempts=(Integer)state.getOrDefault("woolStairStepAttempts",0);
+        Object savedStairPosition=state.get("woolStairLastPosition");
+        if(savedStairPosition instanceof WorldPoint) woolStairLastPosition=(WorldPoint)savedStairPosition;
+        if(held && "HOLD".equals(phase) && sourceItem==WOOL
+            && error.startsWith("GE quote unavailable/above 1000gp cumulative cap id="+WOOL)) {
+            held=false; phase="RESUME_LOCAL_WOOL_SOURCE"; error=""; geStage="WOOL_GATHER";
+            sourceStartedAt=System.currentTimeMillis(); sourceAttempts=0;
+            LOG.info("[PrinceAliRescue] Reload recovery: switching wool from unavailable GE quote to local sheep/shears/spinning-wheel source");
+        }
+        selectedWorld=(Integer)state.getOrDefault("selectedWorld",0);
+        loginError=(String)state.getOrDefault("loginError","");
+        loginAttempts=(Integer)state.getOrDefault("loginAttempts",0);
+        welcomeAttempts=(Integer)state.getOrDefault("welcomeAttempts",0);
+        disconnectAttempts=(Integer)state.getOrDefault("disconnectAttempts",0);
+        loginAt=(Long)state.getOrDefault("loginAt",0L);
+        welcomeAt=(Long)state.getOrDefault("welcomeAt",0L);
+        disconnectAt=(Long)state.getOrDefault("disconnectAt",0L);
+        routeFailures=(Integer)state.getOrDefault("routeFailures",0);
+        lastRoute=(String)state.getOrDefault("lastRoute","");
+        lastMoveAt=(Long)state.getOrDefault("lastMoveAt",0L);
+        String inFlight=(String)state.getOrDefault("pendingAction","");
+        if(!inFlight.isEmpty()) {
+            restoredInFlightAction=inFlight;
+            held=true; phase="HOLD_RELOAD_IN_FLIGHT";
+            error="Reload during "+inFlight+"; inspect quest/inventory/scene before resuming";
+        }
+        if(sourceItem==0&&!held) restoreExactSavedWoolStage();
+        reloadStateRestored=true;
+    }
+
+    private void tick() {
+        if(stopped||Thread.currentThread().isInterrupted()) return;
+        try {
+            if(ownsInput!=null&&!ownsInput.getAsBoolean()) { phase="YIELD_OTHER_PLUGIN"; status(null); return; }
+            Frame f=Microbot.getClientThread().invoke((java.util.function.Supplier<Frame>)this::observe);
+            if(f==null) { phase="WAIT_CLIENT"; status(null); return; }
+            if(held) {
+                // A quest HOLD must not disable the existing native reconnect or
+                // WelcomeScreenEvent path. Preserve the original quest diagnosis.
+                String savedPhase=phase, savedError=error;
+                if(loginTick(f)) {
+                    held=true; phase=savedPhase; error=savedError; status(f); return;
+                }
+                held=true; phase=savedPhase; error=savedError;
+                if(recoverObservedUnavailableDyeQuote(f)) { status(f); return; }
+                if(recoverObservedOnionPickHold(f)) { status(f); return; }
+                if(recoverObservedOnionSecondPickCap(f)) { status(f); return; }
+                if(recoverObservedOnionTimeoutHold(f)) { status(f); return; }
+                if(recoverObservedUnavailableAshesQuote(f)) { status(f); return; }
+                if(recoverObservedUnavailableWaterQuote(f)) { status(f); return; }
+                if(recoverObservedWaterFountainWithoutDirectAction(f)) { status(f); return; }
+                if(recoverObservedMissingAshesTinderbox(f)) { status(f); return; }
+                if(recoverObservedMissingAshesLog(f)) { status(f); return; }
+                if(recoverObservedTreeChopAfterReload(f)) { status(f); return; }
+                if(recoverObservedInaccessibleTreeTarget(f)) { status(f); return; }
+                if(recoverObservedNoTreeAtFred(f)) { status(f); return; }
+                if(recoverObservedFredTreeLineOfSightHold(f)) { status(f); return; }
+                if(recoverObservedTreeApproachHold(f)) { status(f); return; }
+                if(recoverObservedTreeApproachReload(f)) { status(f); return; }
+                if(recoverObservedWoolSpinAfterReload(f)) { status(f); return; }
+                if(recoverObservedWoolDescentHold(f)) { status(f); return; }
+                if(recoverObservedWoolGatherPlaneHold(f)) { status(f); return; }
+                if(recoverObservedWoolStairRouteHold(f)) { status(f); return; }
+                status(f); return;
+            }
+            if(loginTick(f)) { status(f); return; }
+            if(f.quest==QuestState.FINISHED) { phase="COMPLETE_QUEST_STATE"; status(f); return; }
+            if(keyHandinPending&&f.count(KEY_PRINT)==0) {
+                keySubmitted=true; keyHandinPending=false;
+            }
+            String signature=f.varp+":"+f.items.hashCode();
+            if(!signature.equals(lastMaterialSignature)) {
+                talkAttempts.clear(); lastMaterialSignature=signature;
+            }
+            if(f.health>=0&&f.health<25) { hold(f,"Health below 25%; jail guard risk, no unverified combat recovery"); return; }
+            if(pending!=null) {
+                if(pending.action.startsWith("SOURCE_")
+                    &&f.count(pending.item)>pending.before.count(pending.item)) {
+                    int coinDelta=pending.before.count(COINS)-f.count(COINS);
+                    if(coinDelta<=0||coinDelta>unitCap(pending.item)) {
+                        hold(f,"Source item gain lacked verified bounded coin loss id="+pending.item+
+                            " coinDelta="+coinDelta); return;
+                    }
+                }
+            if(proved(pending,f)) {
+                LOG.info("[PrinceAliRescue] PROVED {} varp={} pos={}",pending.action,f.varp,f.pos);
+                if("WOOL_CLIMB_DOWN".equals(pending.action)) resetWoolStairRoute();
+                    if("GIVE_PRINT_OSMAN".equals(pending.action)&&f.count(KEY_PRINT)<pending.before.count(KEY_PRINT)) keySubmitted=true;
+                    if(pending.action.startsWith("WALK_")) { routeFailures=0; lastMoveAt=System.currentTimeMillis(); }
+                    if("WOOL_SHEAR".equals(pending.action)) {
+                        failedWoolSheep.clear(); woolShearTarget=""; woolShearFailures=0;
+                    }
+                if("WOOL_SPIN".equals(pending.action)) {
+                        woolSpinning=true; woolProgressAt=System.currentTimeMillis();
+                        lastRawWool=f.count(RAW_WOOL); lastWoolBalls=f.count(WOOL);
+                    }
+                    if("PICK_DYE_ONION".equals(pending.action)) sourceAttempts=0;
+                    if("LIGHT_ASH_FIRE".equals(pending.action)) {
+                        ashesFireTile=pending.target; ashesFireStartedAt=System.currentTimeMillis();
+                        LOG.info("[PrinceAliRescue] PROVED_ASHES_FIRE tile={} at={}",
+                            ashesFireTile,ashesFireStartedAt);
+                    }
+                    if("SOURCE_SHOP_OPEN".equals(pending.action))
+                        sourceShopOpenedAt=System.currentTimeMillis();
+                    if("WATER_SHOP_OPEN".equals(pending.action))
+                        sourceShopOpenedAt=System.currentTimeMillis();
+                    if("ASHES_SHOP_OPEN".equals(pending.action))
+                        sourceShopOpenedAt=System.currentTimeMillis();
+                    if("GE_PLACE".equals(pending.action)) {
+                        geStage="WAIT_FILL"; geOfferAt=System.currentTimeMillis();
+                        geReservedTotal+=geQuote*geQuantity;
+                        GrandExchangeOfferDetails placed=Rs2GrandExchange.hasBuyOffer(pending.item);
+                        geOfferSlotName=placed==null?"":placed.getSlot().name();
+                    }
+                    if("GE_COLLECT".equals(pending.action)) geStage="DONE";
+                    if("GE_CANCEL".equals(pending.action)) geStage="CANCELLED";
+                    phase="PROVED_"+pending.action; pending=null; status(f); return;
+                }
+                if("WOOL_OPEN_WHEEL".equals(pending.action)
+                    &&f.count(WOOL)>pending.before.count(WOOL)
+                    &&f.count(RAW_WOOL)<pending.before.count(RAW_WOOL)) {
+                    woolSpinning=true; woolProgressAt=System.currentTimeMillis();
+                    lastRawWool=f.count(RAW_WOOL); lastWoolBalls=f.count(WOOL);
+                    LOG.info("[PrinceAliRescue] PROVED WOOL_SPIN_BY_INVENTORY after wheel-open action rawWool={} balls={} pos={}",
+                        f.count(RAW_WOOL),f.count(WOOL),f.pos);
+                    phase="PROVED_WOOL_SPIN_BY_INVENTORY"; pending=null; status(f); return;
+                }
+                if(System.currentTimeMillis()>=pending.deadline) {
+                    if("WOOL_SHEAR".equals(pending.action)) {
+                        if(!woolShearTarget.isEmpty()) failedWoolSheep.add(woolShearTarget);
+                        woolShearTarget=""; pending=null; woolShearFailures++;
+                        if(woolShearFailures>=3) {
+                            hold(f,"Three live sheep Shear attempts produced no raw-wool increase; targets="+failedWoolSheep);
+                        } else { phase="WOOL_RESCAN_"+woolShearFailures; status(f); }
+                        return;
+                    }
+                    if(pending.action.startsWith("WALK_")&&routeFailures++<2) {
+                        phase="ROUTE_RESCAN"; pending=null; status(f); return;
+                    }
+                    hold(f,"Unproved "+pending.action+"; before varp="+pending.before.varp+
+                        " now="+f.varp+" beforePos="+pending.before.pos+" nowPos="+f.pos);
+                } else status(f);
+                return;
+            }
+            if(sourceItem!=0) { sourceTick(f); return; }
+            if(Rs2Dialogue.hasSelectAnOption()) { dialogueOption(f); return; }
+            if(Rs2Dialogue.hasContinue()) {
+                Rs2Dialogue.clickContinue(); set("CONTINUE",f,6000,0,null); return;
+            }
+            if(f.inDialogue) { hold(f,"Unrecognized dialogue without Continue/option: "+f.dialogue); return; }
+            if(f.varp==0) { talk(f,HASSAN,HASSAN_POS,"START_HASSAN"); return; }
+            if(f.varp==10) { talk(f,OSMAN,OSMAN_POS,"START_OSMAN"); return; }
+            if(f.varp>=100) { talk(f,HASSAN,HASSAN_POS,"FINISH_HASSAN"); return; }
+            if(f.varp>=50) { freeAli(f); return; }
+            if(f.varp>=40) { useRopeOnKeli(f); return; }
+            if(f.varp>=30) {
+                for(int id:new int[]{BEER,BRONZE_KEY,BLONDE_WIG,PASTE,ROPE,SKIRT})
+                    if(id!=BEER||f.varp<33) if(!need(f,id,id==BEER?33-f.varp:1)) return;
+                talk(f,JOE,JOE_POS,"GIVE_BEER_JOE"); return;
+            }
+            if(f.varp==20) { prepare(f); return; }
+            hold(f,"Unknown Prince Ali quest varp="+f.varp+" state="+f.quest);
+        } catch(Throwable ex) {
+            held=true; phase="HOLD_EXCEPTION"; error=ex.toString();
+            LOG.error("[PrinceAliRescue] HOLD_EXCEPTION",ex); status(null);
+        }
+    }
+    private Frame observe() {
+        Client c=Microbot.getClient(); if(c==null) return null;
+        Frame f=new Frame(); f.game=c.getGameState(); f.loginIndex=c.getLoginIndex();
+        f.world=c.getWorld(); f.canvasWidth=c.getCanvasWidth();
+        if(f.game!=GameState.LOGGED_IN||c.getLocalPlayer()==null) return f;
+        f.pos=c.getLocalPlayer().getWorldLocation(); f.animation=c.getLocalPlayer().getAnimation();
+        f.quest=Quest.PRINCE_ALI_RESCUE.getState(c); f.varp=c.getVarpValue(VARP);
+        f.health=Rs2Player.getHealthPercentage(); f.bank=Rs2Bank.isOpen(); f.shop=Rs2Shop.isOpen();
+        f.production=findProduct(c)!=null;
+        f.continuePrompt=Rs2Dialogue.hasContinue(); f.inDialogue=Rs2Dialogue.isInDialogue();
+        String text=Rs2Dialogue.getDialogueText(); f.dialogue=text==null?"":text;
+        StringBuilder options=new StringBuilder();
+        for(Widget w:Rs2Dialogue.getDialogueOptions())
+            if(w!=null&&w.getText()!=null) options.append(w.getText()).append('|');
+        f.options=options.toString();
+        Rs2Inventory.items().forEach(item -> f.items.merge(item.getId(),item.getQuantity(),Integer::sum));
+        return f;
+    }
+    private boolean loginTick(Frame f) {
+        long now=System.currentTimeMillis();
+        if(f.game==GameState.LOGGED_IN) {
+            WelcomeScreenEvent welcome=new WelcomeScreenEvent();
+            if(!welcome.validate()) {
+                loginAttempts=welcomeAttempts=disconnectAttempts=0; loginError=""; return false;
+            }
+            phase="WAIT_WELCOME";
+            if(welcomeAttempts++==0) {
+                welcomeAt=now; LOG.info("[PrinceAliRescue] WELCOME_DISMISS_DISPATCH via WelcomeScreenEvent");
+                welcome.execute();
+            }
+            else if(now-welcomeAt>12000) loginHold(f,"Welcome screen persisted after native execute");
+            return true;
+        }
+        if(f.game!=GameState.LOGIN_SCREEN) { phase="WAIT_LOGIN_SCREEN"; return true; }
+        if(f.loginIndex==24) {
+            if(disconnectAttempts++==0&&f.canvasWidth>0) {
+                LOG.info("[PrinceAliRescue] DISCONNECT_MODAL_DISMISS_DISPATCH loginIndex=24 canvasWidth={}",f.canvasWidth);
+                Microbot.getClientThread().invoke(() -> {
+                    Microbot.getMouse().click(365+(f.canvasWidth-804)/2,308); return true;
+                });
+                disconnectAt=now; phase="VERIFY_DISCONNECT_DISMISS";
+            } else if(now-disconnectAt>8000) loginHold(f,"Disconnected modal remained after native dismiss");
+            return true;
+        }
+        if(disconnectAttempts>0) {
+            LOG.info("[PrinceAliRescue] DISCONNECT_MODAL_DISMISS_PROVED loginIndex={}",f.loginIndex);
+            disconnectAttempts=0; loginAttempts=0; loginAt=0;
+            loginError="";
+            phase="DISCONNECT_DISMISSED"; return true;
+        }
+        disconnectAttempts=0;
+        if(f.loginIndex!=10&&f.loginIndex!=34) { phase="WAIT_LOGIN_INDEX_"+f.loginIndex; return true; }
+        if(selectedWorld==0) {
+            selectedWorld=LoginManager.getRandomWorld(false);
+            if(selectedWorld<=0||LoginManager.isMemberWorld(selectedWorld)) {
+                loginHold(f,"No verified ordinary free world from native LoginManager"); return true;
+            }
+        }
+        if(loginAttempts++==0) {
+            loginAt=now; phase="VERIFY_NATIVE_LOGIN";
+            LOG.info("[PrinceAliRescue] NATIVE_LOGIN_DISPATCH world={} index={}",selectedWorld,f.loginIndex);
+            if(!LoginManager.login(selectedWorld)) loginHold(f,"Native LoginManager.login rejected");
+        } else if(now-loginAt>20000) loginHold(f,"Native login did not reach game; index="+f.loginIndex);
+        return true;
+    }
+    private void loginHold(Frame f,String reason) {
+        if(held) {
+            if(!reason.equals(loginError)) LOG.warn("[PrinceAliRescue] LOGIN_HOLD {}",reason);
+            loginError=reason;
+            return;
+        }
+        loginError=reason;
+        hold(f,reason);
+    }
+    private void prepare(Frame f) {
+        // Reconcile only the supplies required for the current unfinished subphase.
+        if(!bankInspected) {
+            if(!f.bank) {
+                WorldPoint bankPoint=nearestBank(f.pos);
+                if(f.pos==null||f.pos.distanceTo(bankPoint)>8) walk(f,bankPoint,"TO_SUPPLY_BANK");
+                else if(Rs2Bank.openBank()) set("OPEN_BANK",f,15000,0,null);
+                else hold(f,"Initial supply bank open rejected");
+                return;
+            }
+            bankInspected=true; phase="BANK_INVENTORY_INSPECTED"; status(f); return;
+        }
+        for(int finished:new int[]{BLONDE_WIG,PASTE,BRONZE_KEY,KEY_PRINT})
+            if((finished!=KEY_PRINT||f.count(BRONZE_KEY)==0)
+                &&withdrawFinishedIfBanked(f,finished)) return;
+        if(f.count(BLONDE_WIG)==0) {
+            if(f.count(WIG)>0) {
+                if(!need(f,DYE,1)) return;
+                if(closeIfOpen(f)) return;
+                if(Rs2Inventory.combine(WIG,DYE)) set("DYE_WIG",f,7000,BLONDE_WIG,null);
+                else hold(f,"Wig + yellow dye combine rejected");
+                return;
+            }
+            if(!need(f,WOOL,3)) return;
+            talk(f,NED,NED_POS,"MAKE_WIG"); return;
+        }
+        if(f.count(PASTE)==0) {
+            for(int id:new int[]{REDBERRIES,ASHES,WATER,FLOUR}) if(!need(f,id,1)) return;
+            talk(f,AGGIE,AGGIE_POS,"MAKE_PASTE"); return;
+        }
+        if(f.count(BRONZE_KEY)==0) {
+            if(f.count(KEY_PRINT)>0) {
+                if(!need(f,BRONZE_BAR,1)) return;
+                talk(f,OSMAN,OSMAN_POS,"GIVE_PRINT_OSMAN"); return;
+            }
+            if(!keySubmitted) {
+                if(!need(f,SOFT_CLAY,1)) return;
+                talk(f,KELI,KELI_POS,"GET_KEY_PRINT"); return;
+            }
+        }
+        for(int id:new int[]{BEER,ROPE,SKIRT})
+            if(!need(f,id,id==BEER?3:1)) return;
+        talk(f,LEELA,LEELA_POS,"GET_KEY_LEELA");
+    }
+    private boolean withdrawFinishedIfBanked(Frame f,int id) {
+        if(!f.bank||f.count(id)>0||!Rs2Bank.hasBankItem(id,1)) return false;
+        if(!Rs2Bank.hasWithdrawAsItem()) {
+            if(Rs2Bank.setWithdrawAsItem()) set("WITHDRAW_MODE",f,6000,0,null);
+            else hold(f,"Cannot set bank withdraw-as-item for finished supply "+id);
+            return true;
+        }
+        if(Rs2Bank.withdrawDeficit(id,1)) set("WITHDRAW",f,7000,id,null);
+        else hold(f,"Finished supply withdrawal rejected id="+id);
+        return true;
+    }
+    private boolean need(Frame f,int id,int amount) {
+        if(f.count(id)>=amount) return true;
+        if(id==SOFT_CLAY&&f.count(CLAY)>0&&f.count(WATER)>0) {
+            if(closeIfOpen(f)) return false;
+            if(Rs2Inventory.combine(CLAY,WATER)) set("CRAFT_SOFT_CLAY",f,7000,SOFT_CLAY,null);
+            else hold(f,"Clay + water combine rejected");
+            return false;
+        }
+        if(id==DYE&&f.count(ONION)>=2&&f.count(COINS)>=5) {
+            if(closeIfOpen(f)) return false;
+            if(f.pos==null||f.pos.distanceTo(AGGIE_POS)>8) {
+                walk(f,AGGIE_POS,"TO_DYE_AGGIE"); return false;
+            }
+            if(Rs2Npc.getNpc(AGGIE)==null) { hold(f,"Aggie not visible for yellow dye"); return false; }
+            if(Rs2Inventory.useItemOnNpc(ONION,AGGIE))
+                set("CRAFT_YELLOW_DYE",f,10000,DYE,null);
+            else hold(f,"Onion on Aggie rejected for yellow dye");
+            return false;
+        }
+        if(!f.bank) {
+            WorldPoint bankPoint=nearestBank(f.pos);
+            if(f.pos==null||f.pos.distanceTo(bankPoint)>8) {
+                walk(f,bankPoint,"TO_SUPPLY_BANK"); return false;
+            }
+            if(Rs2Bank.openBank()) set("OPEN_BANK",f,15000,0,null);
+            else hold(f,"Bank open rejected for item "+id);
+            return false;
+        }
+        bankInspected=true;
+        int deficit=amount-f.count(id);
+        if(id==SOFT_CLAY&&(f.count(CLAY)>0||Rs2Bank.hasBankItem(CLAY,1))
+            &&(f.count(WATER)>0||Rs2Bank.hasBankItem(WATER,1))) {
+            int ingredient=f.count(CLAY)==0?CLAY:f.count(WATER)==0?WATER:0;
+            if(ingredient!=0) {
+                if(!Rs2Bank.hasWithdrawAsItem()) {
+                    if(Rs2Bank.setWithdrawAsItem()) set("WITHDRAW_MODE",f,6000,0,null);
+                    else hold(f,"Soft-clay ingredient withdraw mode rejected");
+                } else if(Rs2Bank.withdrawDeficit(ingredient,1))
+                    set("WITHDRAW",f,7000,ingredient,null);
+                else hold(f,"Soft-clay ingredient withdrawal rejected id="+ingredient);
+                return false;
+            }
+        }
+        if(id==DYE&&(f.count(ONION)>=2||
+            Rs2Bank.hasBankItem(ONION,2-f.count(ONION)))) {
+            int ingredient=f.count(ONION)<2?ONION:f.count(COINS)<5?COINS:0;
+            int required=ingredient==ONION?2:5;
+            if(ingredient!=0&&Rs2Bank.hasBankItem(ingredient,required-f.count(ingredient))) {
+                if(!Rs2Bank.hasWithdrawAsItem()) {
+                    if(Rs2Bank.setWithdrawAsItem()) set("WITHDRAW_MODE",f,6000,0,null);
+                    else hold(f,"Yellow-dye ingredient withdraw mode rejected");
+                } else if(Rs2Bank.withdrawDeficit(ingredient,required))
+                    set("WITHDRAW",f,7000,ingredient,null);
+                else hold(f,"Yellow-dye ingredient withdrawal rejected id="+ingredient);
+                return false;
+            }
+        }
+        if(!Rs2Bank.hasBankItem(id,deficit)) {
+            int partial=Rs2Bank.count(id);
+            if(partial>0) {
+                if(!Rs2Bank.hasWithdrawAsItem()) {
+                    if(Rs2Bank.setWithdrawAsItem()) set("WITHDRAW_MODE",f,6000,0,null);
+                    else hold(f,"Cannot set bank withdraw-as-item for partial id="+id);
+                } else if(Rs2Bank.withdrawX(id,Math.min(deficit,partial)))
+                    set("WITHDRAW",f,7000,id,null);
+                else hold(f,"Partial bank withdrawal rejected id="+id+" available="+partial);
+                return false;
+            }
+            beginSource(f,id,amount);
+            return false;
+        }
+        if(!Rs2Bank.hasWithdrawAsItem()) {
+            if(Rs2Bank.setWithdrawAsItem()) set("WITHDRAW_MODE",f,6000,0,null);
+            else hold(f,"Cannot set bank withdraw-as-item");
+            return false;
+        }
+        if(Rs2Inventory.isFull()&&f.count(id)==0) {
+            net.runelite.client.plugins.microbot.util.inventory.Rs2ItemModel extra=
+                Rs2Inventory.items().filter(item->!QUEST_ITEMS.contains(item.getId())&&!item.isFood())
+                    .findFirst().orElse(null);
+            if(extra==null) { hold(f,"Inventory full; no safe unneeded item to deposit for "+id); return false; }
+            if(Rs2Bank.depositX(extra.getId(),extra.getQuantity()))
+                set("DEPOSIT_UNNEEDED",f,7000,extra.getId(),null);
+            else hold(f,"Exact bank deposit rejected for unrelated id="+extra.getId());
+            return false;
+        }
+        if(Rs2Bank.withdrawDeficit(id,amount)) set("WITHDRAW",f,7000,id,null);
+        else hold(f,"Bank withdrawal rejected id="+id+" deficit="+deficit);
+        return false;
+    }
+    private static WorldPoint nearestBank(WorldPoint pos) {
+        WorldPoint best=BankLocation.DRAYNOR_VILLAGE.getWorldPoint();
+        if(pos==null) return best;
+        for(BankLocation location:new BankLocation[]{BankLocation.AL_KHARID,
+            BankLocation.DRAYNOR_VILLAGE,BankLocation.FALADOR_EAST,
+            BankLocation.GRAND_EXCHANGE}) {
+            WorldPoint candidate=location.getWorldPoint();
+            if(pos.distanceTo(candidate)<pos.distanceTo(best)) best=candidate;
+        }
+        return best;
+    }
+    private void beginSource(Frame f,int id,int amount) {
+        if(id!=ROPE&&id!=SKIRT&&id!=BEER&&id!=REDBERRIES&&id!=FLOUR
+            &&!geEligible(id)) {
+            hold(f,"No verified local source for item id="+id+" deficit="+(amount-f.count(id))+
+                "; GE runtime stock/server price unverified; no blind offer placed");
+            return;
+        }
+        sourceItem=id; sourceGoal=amount; sourceAttempts=0; sourceSpent=0;
+        sourceLastCount=f.count(id); sourceStartedAt=System.currentTimeMillis();
+        sourceLastCoins=f.count(COINS);
+        sourceShopOpenedAt=0;
+        geStage=id==WOOL?"WOOL_GATHER":id==WATER?"WATER_LOCAL_SOURCE":geEligible(id)?"PREPARE":"";
+        geQuote=geInitialItem=geInitialCoins=geQuantity=0; geOfferAt=0;
+        geOfferSlotName="";
+        phase="SOURCE_"+sourceName(id); status(f);
+    }
+    private static boolean geEligible(int id) {
+        return id==SOFT_CLAY||id==WOOL||id==DYE||id==ASHES
+            ||id==WATER||id==BRONZE_BAR;
+    }
+    private static String geName(int id) {
+        return id==SOFT_CLAY?"Soft clay":id==WOOL?"Ball of wool":
+            id==DYE?"Yellow dye":id==ASHES?"Ashes":
+            id==WATER?"Bucket of water":id==BRONZE_BAR?"Bronze bar":"";
+    }
+    private static String sourceName(int id) {
+        return id==WOOL?"WOOL_LOCAL_SHEEP_WHEEL":id==ROPE?"ROPE_NED":id==SKIRT?"SKIRT_THESSALIA":
+            id==BEER?"BEER_BLUE_MOON":id==REDBERRIES?"REDBERRIES_WYDIN":
+            id==FLOUR?"FLOUR_WYDIN":"UNKNOWN_"+id;
+    }
+    private static int unitCap(int id) {
+        return id==ROPE?18:id==SKIRT||id==BEER?2:id==REDBERRIES?3:id==FLOUR?10:0;
+    }
+    private void sourceTick(Frame f) {
+        if(woolStageRecoveredFromStatus) {
+            if(f.game!=GameState.LOGGED_IN||f.varp!=20||f.pos==null||f.pos.getPlane()!=1
+                ||f.pos.distanceTo(WOOL_WHEEL)>10||f.count(WOOL)!=1||f.count(RAW_WOOL)!=0
+                ||f.count(SHEARS)!=1) {
+                sourceItem=sourceGoal=0; bankInspected=false;
+                woolStageRecoveredFromStatus=false; phase="RECONCILE_SAVED_WOOL_STAGE";
+                error=""; status(f); return;
+            }
+            woolStageRecoveredFromStatus=false; resetWoolStairRoute();
+            sourceStartedAt=System.currentTimeMillis(); sourceAttempts=0;
+            LOG.info("[PrinceAliRescue] RESTORED_SAVED_WOOL_STAGE from same-PID status; fresh frame confirms varp=20 balls=1 raw=0 shears=1 pos={}",f.pos);
+        }
+        int id=sourceItem, cost=unitCap(id);
+        if(id==WOOL) { woolSourceTick(f); return; }
+        if(id==WATER) { localWaterSourceTick(f); return; }
+        if(id==DYE&&"DYE_LOCAL_ONIONS".equals(geStage)) { localDyeOnionSourceTick(f); return; }
+        if(id==ASHES&&("ASHES_LOCAL_BURN".equals(geStage)
+            ||"ASHES_BUY_TINDERBOX".equals(geStage)
+            ||"ASHES_GET_NORMAL_LOG".equals(geStage))) { localAshesSourceTick(f); return; }
+        if(geEligible(id)) { geTick(f); return; }
+        int remaining=sourceGoal-f.count(id);
+        if(System.currentTimeMillis()-sourceStartedAt>360000) {
+            hold(f,"Source timed out after 6 minutes item="+id+" remaining="+remaining); return;
+        }
+        if(f.count(COINS)>sourceLastCoins) sourceLastCoins=f.count(COINS);
+        if(f.count(id)>sourceLastCount) {
+            int gain=f.count(id)-sourceLastCount;
+            int spent=sourceLastCoins-f.count(COINS);
+            if(spent<=0||spent>unitCap(id)*gain||sourceSpent+spent>100) {
+                hold(f,"Source gain/coin delta invalid id="+id+" gain="+gain+
+                    " spent="+spent+" total="+sourceSpent); return;
+            }
+            sourceSpent+=spent; sourceLastCoins=f.count(COINS);
+            sourceLastCount=f.count(id); sourceAttempts=0;
+        }
+        if(remaining<=0) {
+            if(f.shop) { Rs2Shop.closeShop(); set("SOURCE_SHOP_CLOSE",f,6000,0,null); return; }
+            sourceItem=sourceGoal=sourceAttempts=sourceSpent=0; sourceShopOpenedAt=0;
+            phase="SOURCE_COMPLETE_"+sourceName(id); status(f); return;
+        }
+        if(sourceAttempts>=3) {
+            hold(f,"Three source interactions without inventory gain item="+id); return;
+        }
+        if(cost<=0||sourceSpent+cost>100) {
+            hold(f,"Source price budget exceeded item="+id+" spent="+sourceSpent); return;
+        }
+        int requiredCoins=cost*remaining;
+        if(f.bank) {
+            if(f.count(COINS)<requiredCoins) {
+                int missing=requiredCoins-f.count(COINS);
+                if(!Rs2Bank.hasBankItem(COINS,missing)) {
+                    hold(f,"Insufficient coins for source id="+id+" need="+requiredCoins+
+                        " inventory="+f.count(COINS)+" bankShort="+missing); return;
+                }
+                if(!Rs2Bank.hasWithdrawAsItem()) {
+                    if(Rs2Bank.setWithdrawAsItem()) set("WITHDRAW_MODE",f,6000,0,null);
+                    else hold(f,"Coin withdraw mode rejected");
+                } else if(Rs2Bank.withdrawDeficit(COINS,requiredCoins))
+                    set("WITHDRAW",f,7000,COINS,null);
+                else hold(f,"Coin deficit withdrawal rejected id="+id);
+                return;
+            }
+            closeIfOpen(f); return;
+        }
+        if(f.count(COINS)<requiredCoins) {
+            hold(f,"Source coin reserve fell below cap id="+id+" remaining="+remaining+
+                " coins="+f.count(COINS)+" required="+requiredCoins); return;
+        }
+        WorldPoint target=id==ROPE?NED_POS:id==SKIRT?THESSALIA_POS:
+            id==BEER?BLUE_MOON_POS:WYDIN_POS;
+        if(f.pos==null||f.pos.distanceTo(target)>8) {
+            walk(f,target,"TO_SOURCE_"+sourceName(id)); return;
+        }
+        if(id==BEER) {
+            if(f.options.contains("Could I buy a beer please?")) {
+                if(Rs2Dialogue.clickOption("Could I buy a beer please?"))
+                    set("SOURCE_BEER_OPTION",f,7000,id,null);
+                else hold(f,"Beer option click rejected");
+                return;
+            }
+            if(Rs2Dialogue.hasContinue()) {
+                Rs2Dialogue.clickContinue(); set("SOURCE_CONTINUE",f,7000,id,null); return;
+            }
+            if(f.inDialogue) {
+                hold(f,"Bartender dialogue lacks verified beer option: "+f.options); return;
+            }
+            if(Rs2Npc.getNpc("Bartender")==null) {
+                hold(f,"Blue Moon waypoint reached but no live Bartender; pos="+f.pos); return;
+            }
+            sourceAttempts++;
+            if(Rs2Npc.interact("Bartender","Talk-to"))
+                set("SOURCE_BEER_TALK",f,10000,id,null);
+            else hold(f,"Bartender Talk-to rejected");
+            return;
+        }
+        String shopNpc=id==ROPE?"Ned":id==SKIRT?"Thessalia":"Wydin";
+        if(!f.shop) {
+            if(Rs2Shop.getNearestShopNpc(shopNpc,true)==null) {
+                hold(f,"Source shop NPC "+shopNpc+" not visible at "+target); return;
+            }
+            if(Rs2Shop.openShop(shopNpc,true)) set("SOURCE_SHOP_OPEN",f,7000,id,null);
+            else hold(f,"Shop Open rejected NPC="+shopNpc);
+            return;
+        }
+        if(Rs2Shop.shopItems==null||Rs2Shop.shopItems.isEmpty()) {
+            if(sourceShopOpenedAt>0&&System.currentTimeMillis()-sourceShopOpenedAt<5000) {
+                phase="WAIT_SOURCE_SHOP_STOCK"; status(f); return;
+            }
+            hold(f,"Shop stock list unavailable after open shop="+shopNpc); return;
+        }
+        if(!Rs2Shop.hasMinimumStock(id,1)) {
+            hold(f,"Local shop stock unavailable item="+id+" shop="+shopNpc); return;
+        }
+        sourceAttempts++;
+        if(Rs2Shop.buyItem(id,"1")) set("SOURCE_BUY",f,7000,id,null);
+        else hold(f,"Local shop Buy-1 rejected item="+id);
+    }
+    private void woolSourceTick(Frame f) {
+        long now=System.currentTimeMillis();
+        if(now-sourceStartedAt>360000) {
+            hold(f,"Local wool source exceeded six minutes; balls="+f.count(WOOL)+
+                " rawWool="+f.count(RAW_WOOL)); return;
+        }
+        if(f.inDialogue||f.continuePrompt||!f.options.isEmpty()) {
+            hold(f,"Unexpected dialogue during local wool source: "+f.dialogue+" options="+f.options); return;
+        }
+        if(f.bank) {
+            if(f.count(SHEARS)==0&&Rs2Bank.hasBankItem(SHEARS,1)) {
+                if(!Rs2Bank.hasWithdrawAsItem()) {
+                    if(Rs2Bank.setWithdrawAsItem()) set("WITHDRAW_MODE",f,6000,0,null);
+                    else hold(f,"Shears bank withdraw mode rejected");
+                } else if(Rs2Bank.withdrawDeficit(SHEARS,1))
+                    set("WITHDRAW",f,7000,SHEARS,null);
+                else hold(f,"Shears withdrawal rejected");
+                return;
+            }
+            int rawDeficit=sourceGoal-f.count(WOOL)-f.count(RAW_WOOL);
+            if(rawDeficit>0&&Rs2Bank.hasBankItem(RAW_WOOL,1)) {
+                if(!Rs2Bank.hasWithdrawAsItem()) {
+                    if(Rs2Bank.setWithdrawAsItem()) set("WITHDRAW_MODE",f,6000,0,null);
+                    else hold(f,"Raw wool bank withdraw mode rejected");
+                } else if(Rs2Bank.withdrawDeficit(RAW_WOOL,rawDeficit))
+                    set("WITHDRAW",f,7000,RAW_WOOL,null);
+                else hold(f,"Raw wool bank withdrawal rejected; deficit="+rawDeficit);
+                return;
+            }
+            closeIfOpen(f); return;
+        }
+
+        if(woolSpinning) {
+            if(lastRawWool!=f.count(RAW_WOOL)||lastWoolBalls!=f.count(WOOL)) {
+                lastRawWool=f.count(RAW_WOOL); lastWoolBalls=f.count(WOOL); woolProgressAt=now;
+            }
+            if(f.animation==894) {
+                if(now-woolProgressAt>15000) {
+                    hold(f,"Spinning animation continued 15s without wool/ball progress"); return;
+                }
+                phase="WAIT_WOOL_SPIN_ANIMATION"; status(f); return;
+            }
+            if(now-woolProgressAt<8000) { phase="WAIT_WOOL_SPIN_SETTLE"; status(f); return; }
+            woolSpinning=false;
+        }
+
+            if(f.count(WOOL)>=sourceGoal) {
+                if(f.pos==null) { phase="WAIT_WOOL_RETURN_POSITION"; status(f); return; }
+                if(f.pos.getPlane()==1) {
+                    descendForWool(f,"after wool spin");
+                    return;
+                }
+            if(f.pos.getPlane()!=0) { hold(f,"Unexpected plane after spinning wool: "+f.pos); return; }
+            resetWoolStairRoute();
+            sourceItem=sourceGoal=sourceAttempts=sourceSpent=0; geStage="";
+            woolShearTarget=""; woolShearFailures=0; woolNoSheepSince=0;
+            phase="WOOL_SOURCE_COMPLETE"; status(f); return;
+        }
+
+        if(f.count(RAW_WOOL)>0) {
+            geStage="WOOL_SPIN";
+            if(f.pos==null) { phase="WAIT_WOOL_POSITION"; status(f); return; }
+            if(f.pos.getPlane()==0) {
+                if(f.pos.distanceTo(CASTLE_STAIRS_GROUND)>4) {
+                    walk(f,CASTLE_STAIRS_GROUND,"WOOL_TO_CASTLE_STAIRS"); return;
+                }
+                Rs2TileObjectModel stairs=object(56230,CASTLE_STAIRS_GROUND,6);
+                if(stairs==null) { hold(f,"Castle upstairs stair 56230 not visible at "+f.pos); return; }
+                if(stairs.click("Climb-up")) set("WOOL_CLIMB_UP",f,12000,0,CASTLE_STAIRS_GROUND);
+                else hold(f,"Climb-up rejected at castle stair 56230");
+                return;
+            }
+            if(f.pos.getPlane()!=1) { hold(f,"Unexpected plane during wool spinning: "+f.pos); return; }
+            boolean inWheelRoom=f.pos.getX()>=3209&&f.pos.getX()<=3211
+                &&f.pos.getY()>=3212&&f.pos.getY()<=3214;
+            if(!f.production&&!inWheelRoom) {
+                walk(f,WOOL_WHEEL_ROOM,"WOOL_TO_WHEEL_ROOM"); return;
+            }
+            if(!f.production) {
+                Rs2TileObjectModel wheel=object(14889,WOOL_WHEEL,6);
+                if(wheel==null) { hold(f,"Spinning wheel 14889 not visible at "+f.pos); return; }
+                if(wheel.click("Spin")) set("WOOL_OPEN_WHEEL",f,10000,0,WOOL_WHEEL);
+                else hold(f,"Spin action rejected at wheel 14889");
+                return;
+            }
+            boolean clicked=Microbot.getClientThread().invoke((java.util.function.Supplier<Boolean>)() -> {
+                Widget product=findProduct(Microbot.getClient());
+                return product!=null&&!product.isHidden()&&product.getBounds()!=null
+                    &&Rs2Widget.clickWidget(product);
+            });
+            if(clicked) set("WOOL_SPIN",f,15000,WOOL,null);
+            else hold(f,"Visible spinning product 1759 not clickable");
+            return;
+        }
+
+        geStage="WOOL_GATHER";
+        if(Rs2Inventory.emptySlotCount()<=0) {
+            hold(f,"No free inventory slot for quest wool; preserving all current items"); return;
+        }
+        if(f.count(SHEARS)==0) {
+            if(f.pos==null||f.pos.distanceTo(FRED_POS)>4) {
+                walk(f,FRED_POS,"WOOL_TO_FRED_SHEARS"); return;
+            }
+            if(!Rs2GroundItem.exists(SHEARS,8)) {
+                hold(f,"Shears 1735 absent from inventory and Fred house ground scan"); return;
+            }
+            if(Rs2GroundItem.take(SHEARS)) set("WOOL_GET_SHEARS",f,10000,SHEARS,FRED_POS);
+            else hold(f,"Taking ground shears 1735 rejected");
+            return;
+        }
+        if(f.pos==null) { hold(f,"Missing player position while gathering wool"); return; }
+        if(f.pos.getPlane()==1) {
+            descendForWool(f,"returning to sheep field");
+            return;
+        }
+        if(f.pos.getPlane()!=0) {
+            hold(f,"Unexpected plane while gathering wool: "+f.pos); return;
+        }
+        if(f.pos.distanceTo(SHEEP_FIELD)>3) {
+            walk(f,SHEEP_FIELD,"WOOL_TO_SHEEP_FIELD"); return;
+        }
+        Rs2NpcModel sheep=Microbot.getRs2NpcCache().query().withIds(SHEEP_IDS)
+            .within(SHEEP_FIELD,14).where(n->canShear(n)&&!failedWoolSheep.contains(sheepKey(n)))
+            .nearestReachable();
+        if(sheep==null) {
+            if(woolNoSheepSince==0) woolNoSheepSince=now;
+            if(now-woolNoSheepSince>75000) hold(f,"No reachable untried sheep with Shear action near "+SHEEP_FIELD);
+            else { phase="WAIT_SHEEP_RESPAWN"; status(f); }
+            return;
+        }
+        woolNoSheepSince=0; woolShearTarget=sheepKey(sheep);
+        if(sheep.click("Shear")) set("WOOL_SHEAR",f,12000,RAW_WOOL,sheep.getWorldLocation());
+        else hold(f,"Shear click rejected for live sheep "+woolShearTarget);
+    }
+
+    private void localDyeOnionSourceTick(Frame f) {
+        if(System.currentTimeMillis()-sourceStartedAt>360000) {
+            hold(f,"Local yellow-dye source exceeded six minutes; onions="+f.count(ONION)
+                +" coins="+f.count(COINS)); return;
+        }
+        if(f.count(DYE)>=sourceGoal) {
+            sourceItem=sourceGoal=sourceAttempts=0; geStage="";
+            phase="LOCAL_YELLOW_DYE_COMPLETE"; status(f); return;
+        }
+        if(f.count(COINS)<5) {
+            if(!f.bank) {
+                WorldPoint bankPoint=nearestBank(f.pos);
+                if(f.pos==null||f.pos.distanceTo(bankPoint)>8) walk(f,bankPoint,"TO_DYE_FEE_BANK");
+                else if(Rs2Bank.openBank()) set("OPEN_BANK",f,12000,0,null);
+                else hold(f,"Bank open rejected while sourcing Aggie's 5-coin dye fee");
+                return;
+            }
+            int deficit=5-f.count(COINS);
+            if(!Rs2Bank.hasBankItem(COINS,deficit)) {
+                hold(f,"Aggie's yellow-dye fee unavailable; need 5 coins, carried="+f.count(COINS)); return;
+            }
+            if(!Rs2Bank.hasWithdrawAsItem()) {
+                if(Rs2Bank.setWithdrawAsItem()) set("WITHDRAW_MODE",f,6000,0,null);
+                else hold(f,"Coin withdraw mode rejected for Aggie's dye fee");
+            } else if(Rs2Bank.withdrawDeficit(COINS,5)) set("WITHDRAW",f,7000,COINS,null);
+            else hold(f,"Five-coin dye-fee withdrawal rejected");
+            return;
+        }
+        if(f.count(ONION)<2) {
+            if(f.bank) { closeIfOpen(f); return; }
+            if(Rs2Inventory.isFull()) { hold(f,"No inventory slot for quest onions; refusing to discard carried items"); return; }
+            if(f.pos==null||f.pos.getPlane()!=0||f.pos.distanceTo(FRED_ONION_FIELD)>5) {
+                walk(f,FRED_ONION_FIELD,"TO_YELLOW_DYE_ONIONS"); return;
+            }
+            Rs2TileObjectModel onion=object(ONION_IDS[0],FRED_ONION_FIELD,17);
+            if(onion==null) onion=object(ONION_IDS[1],FRED_ONION_FIELD,17);
+            if(onion==null) { hold(f,"No live onion plant 3366/5538 at Fred's field "+FRED_ONION_FIELD); return; }
+            net.runelite.api.ObjectComposition composition=onion.getObjectComposition();
+            String action=null;
+            if(composition!=null&&composition.getActions()!=null) {
+                List<String> actions=java.util.Arrays.asList(composition.getActions());
+                if(actions.contains("Pick")) action="Pick";
+                else if(actions.contains("Take")) action="Take";
+            }
+            if(action==null) { hold(f,"Live onion plant has no verified Pick/Take action id="+onion.getId()); return; }
+            if(sourceAttempts>=2) { hold(f,"Two onion-pick attempts without two verified onions; count="+f.count(ONION)); return; }
+            Map<WorldPoint,Integer> reachable=Rs2Tile.getReachableTilesFromTile(f.pos,10);
+            WorldPoint approach=null;
+            if(reachable!=null) for(WorldPoint tile:reachable.keySet()) {
+                if(tile.getPlane()==onion.getWorldLocation().getPlane()
+                    &&tile.distanceTo(onion.getWorldLocation())<=1&&Rs2Tile.isWalkable(tile)
+                    &&(approach==null||f.pos.distanceTo(tile)<f.pos.distanceTo(approach))) approach=tile;
+            }
+            if(approach==null) {
+                final WorldPoint onionTile=onion.getWorldLocation();
+                net.runelite.api.TileObject gate=Rs2GameObject.getAll(o->o!=null,f.pos,8).stream()
+                    .filter(o->Rs2GameObject.hasAction(o,"Open"))
+                    .filter(o->{String n=Rs2GameObject.getCompositionName(o).orElse("").toLowerCase();
+                        return n.contains("gate")||n.contains("door");})
+                    .filter(o->o.getWorldLocation()!=null&&o.getWorldLocation().getPlane()==f.pos.getPlane()
+                        &&o.getWorldLocation().distanceTo(onionTile)<=5)
+                    .min(java.util.Comparator.comparingInt(o->f.pos.distanceTo(o.getWorldLocation())))
+                    .orElse(null);
+                if(gate!=null) {
+                    LOG.info("[PrinceAliRescue] ONION_GATE_OPEN_DISPATCH id={} tile={} name={} player={} onion={}",
+                        gate.getId(),gate.getWorldLocation(),Rs2GameObject.getCompositionName(gate).orElse(""),f.pos,
+                        onion.getWorldLocation());
+                    if(Rs2GameObject.interact(gate,"Open")) set("OPEN_ONION_GATE",f,9000,gate.getId(),gate.getWorldLocation());
+                    else hold(f,"Open rejected for live onion-field gate id="+gate.getId()+" tile="+gate.getWorldLocation());
+                    return;
+                }
+                hold(f,"No reachable tile adjacent to onion id="+onion.getId()+" tile="+onion.getWorldLocation()
+                    +" and no nearby live closed gate; player="+f.pos+" reachable="+(reachable==null?0:reachable.size()));
+                return;
+            }
+            if(f.pos.distanceTo(approach)>0) {
+                long now=System.currentTimeMillis();
+                if(onionLastPosition==null||!onionLastPosition.equals(f.pos)) {
+                    onionLastPosition=f.pos; onionLastProgressAt=now;
+                }
+                if(now-onionLastProgressAt>20000||onionStepAttempts>=12) {
+                    Rs2Walker.clearWalkingRoute("prince-ali-onion-approach-no-progress");
+                    hold(f,"Bounded onion walkStep made no verified progress attempts="+onionStepAttempts
+                        +" player="+f.pos+" approach="+approach+" onion="+onion.getWorldLocation()); return;
+                }
+                if(now-onionLastStepAt<1600||Rs2Player.isMoving()) { phase="WAIT_ONION_APPROACH_STEP"; status(f); return; }
+                onionApproach=approach;
+                WalkerState state=Rs2Walker.walkStep(approach,0);
+                onionLastStepAt=now; onionStepAttempts++;
+                LOG.info("[PrinceAliRescue] ONION_APPROACH_STEP state={} attempt={} player={} approach={} plant={} dist={}",
+                    state,onionStepAttempts,f.pos,approach,onion.getWorldLocation(),f.pos.distanceTo(approach));
+                if(state==WalkerState.UNREACHABLE||state==WalkerState.EXIT) {
+                    Rs2Walker.clearWalkingRoute("prince-ali-onion-approach-"+state);
+                    hold(f,"Onion approach walkStep "+state+" player="+f.pos+" approach="+approach
+                        +" plant="+onion.getWorldLocation()); return;
+                }
+                phase="WAIT_ONION_APPROACH_STEP"; status(f); return;
+            }
+            onionApproach=null; onionLastPosition=null; onionStepAttempts=0;
+            sourceAttempts++;
+            LOG.info("[PrinceAliRescue] DYE_ONION_PICK_DISPATCH id={} tile={} action={} player={} dist={} reachable={} count={}",
+                onion.getId(),onion.getWorldLocation(),action,f.pos,f.pos.distanceTo(onion.getWorldLocation()),
+                onion.isReachable(),f.count(ONION));
+            if(onion.click(action)) set("PICK_DYE_ONION",f,9000,ONION,onion.getWorldLocation());
+            else hold(f,"Onion pick rejected id="+onion.getId()+" tile="+onion.getWorldLocation());
+            return;
+        }
+        if(closeIfOpen(f)) return;
+        sourceItem=sourceGoal=sourceAttempts=0; geStage="";
+        phase="DYE_ONIONS_READY_FOR_AGGIE"; status(f);
+    }
+
+    private boolean recoverObservedUnavailableWaterQuote(Frame f) {
+        if(waterQuoteRecovered||!"HOLD".equals(phase)
+            ||!error.startsWith("GE quote unavailable/above 1000gp cumulative cap id=1929 quote=0 deficit=")
+            ||sourceItem!=WATER||sourceGoal!=1||!"PREPARE".equals(geStage)
+            ||f.game!=GameState.LOGGED_IN||f.varp!=20||f.pos==null||f.pos.getPlane()!=0
+            ||f.count(WATER)>0||f.count(COINS)<2) return false;
+        held=false; error=""; geStage="WATER_LOCAL_SOURCE";
+        waterBucketPurchaseAttempts=0; waterFillAttempts=0; resetWaterApproach();
+        sourceStartedAt=System.currentTimeMillis(); sourceAttempts=0;
+        waterQuoteRecovered=true; phase="RECOVER_WATER_FROM_AL_KHARID_SOURCE";
+        LOG.info("[PrinceAliRescue] RECOVERED_EXACT_ZERO_WATER_QUOTE; using one bounded local bucket/fountain cycle coins={} pos={}",
+            f.count(COINS),f.pos);
+        return true;
+    }
+
+    private boolean recoverObservedWaterFountainWithoutDirectAction(Frame f) {
+        if(waterCandidateHoldRecovered||!"HOLD".equals(phase)
+            ||!error.startsWith("No live Fill/Use fountain, well, or sink found in Al Kharid courtyard;")
+            ||sourceItem!=WATER||sourceGoal!=1||!"WATER_LOCAL_SOURCE".equals(geStage)
+            ||f.game!=GameState.LOGGED_IN||f.varp!=20||f.pos==null||f.pos.getPlane()!=0
+            ||f.pos.distanceTo(ALKHARID_PALACE_COURTYARD)>4||f.count(EMPTY_BUCKET)!=1||f.count(WATER)>0) return false;
+        held=false; error=""; waterCandidateHoldRecovered=true;
+        phase="RESUME_BUCKET_USE_ON_OBSERVED_FOUNTAIN";
+        LOG.info("[PrinceAliRescue] RECOVERED_EXACT_FOUNTAIN_WITHOUT_DIRECT_ACTION; fresh scene/inventory confirms bucket=1 water=0 player={} fountain-search resumes via item-on-object",f.pos);
+        return true;
+    }
+
+    private void localWaterSourceTick(Frame f) {
+        long now=System.currentTimeMillis();
+        if(f.game!=GameState.LOGGED_IN||f.varp!=20||f.pos==null||f.pos.getPlane()!=0) {
+            hold(f,"Water material source requires live logged-in varp273=20 plane=0; game="+
+                f.game+" varp="+f.varp+" pos="+f.pos); return;
+        }
+        if(now-sourceStartedAt>360000) { hold(f,"Local water source exceeded six minutes"); return; }
+        if(f.count(WATER)>=sourceGoal) {
+            if(f.shop) { Rs2Shop.closeShop(); set("WATER_SHOP_CLOSE",f,6000,0,null); return; }
+            sourceItem=sourceGoal=sourceAttempts=sourceSpent=0; geStage="";
+            waterBucketPurchaseAttempts=0; waterFillAttempts=0; waterQuoteRecovered=false;
+            resetWaterApproach(); phase="LOCAL_WATER_COMPLETE"; status(f); return;
+        }
+        if(f.inDialogue||f.continuePrompt||!f.options.isEmpty()) {
+            hold(f,"Unexpected dialogue during local water source: "+f.dialogue+" options="+f.options); return;
+        }
+        if(f.bank) { closeIfOpen(f); return; }
+
+        if(f.count(EMPTY_BUCKET)==0) {
+            resetWaterApproach();
+            if(f.shop) {
+                if(Rs2Shop.shopItems==null||Rs2Shop.shopItems.isEmpty()) {
+                    if(sourceShopOpenedAt>0&&now-sourceShopOpenedAt<5000) {
+                        phase="WAIT_WATER_SHOP_STOCK"; status(f); return;
+                    }
+                    hold(f,"Al Kharid shop stock unavailable for empty bucket id=1925"); return;
+                }
+                if(!Rs2Shop.hasMinimumStock(EMPTY_BUCKET,1)) {
+                    hold(f,"Al Kharid shop has no observed stock for empty bucket id=1925"); return;
+                }
+                if(f.count(COINS)<2) { hold(f,"Cannot buy quest-needed bucket: carried coins="+f.count(COINS)); return; }
+                if(waterBucketPurchaseAttempts>=1) {
+                    hold(f,"One bounded bucket purchase lacked inventory/coin proof"); return;
+                }
+                waterBucketPurchaseAttempts++;
+                if(Rs2Shop.buyItem(EMPTY_BUCKET,"1")) set("WATER_BUY_BUCKET",f,8000,EMPTY_BUCKET,null);
+                else hold(f,"Al Kharid shop rejected Buy-1 empty bucket");
+                return;
+            }
+            if(f.pos.distanceTo(ALKHARID_GENERAL_STORE)>10) {
+                walk(f,ALKHARID_GENERAL_STORE,"TO_WATER_BUCKET_SHOP"); return;
+            }
+            if(Rs2Shop.getNearestShopNpc("Shop keeper",true)==null) {
+                hold(f,"Al Kharid General Store waypoint reached but no live Shop keeper with Trade action; pos="+f.pos); return;
+            }
+            sourceShopOpenedAt=0;
+            if(Rs2Shop.openShop("Shop keeper",true)) set("WATER_SHOP_OPEN",f,8000,0,null);
+            else hold(f,"Al Kharid General Store open rejected");
+            return;
+        }
+        if(f.shop) { Rs2Shop.closeShop(); set("WATER_SHOP_CLOSE",f,6000,0,null); return; }
+
+        List<net.runelite.api.TileObject> candidates=Rs2GameObject.getAll(o->o!=null,f.pos,16).stream()
+            .filter(o->o.getWorldLocation()!=null&&o.getWorldLocation().getPlane()==f.pos.getPlane())
+            .filter(o->{
+                String name=Rs2GameObject.getCompositionName(o).orElse("").toLowerCase(java.util.Locale.ROOT);
+                return name.contains("fountain")||name.contains("well")||name.contains("sink");
+            })
+            .sorted(java.util.Comparator.comparingInt(o->f.pos.distanceTo(o.getWorldLocation())))
+            .toList();
+        if(candidates.isEmpty()) {
+            if(f.pos.distanceTo(ALKHARID_PALACE_COURTYARD)>10) {
+                walk(f,ALKHARID_PALACE_COURTYARD,"TO_AL_KHARID_WATER_SOURCE"); return;
+            }
+            String nearby=Rs2GameObject.getAll(o->o!=null,f.pos,8).stream()
+                .filter(o->o.getWorldLocation()!=null)
+                .filter(o->Rs2GameObject.getCompositionName(o).orElse("").toLowerCase(java.util.Locale.ROOT)
+                    .matches(".*(fountain|well|sink|water).*"))
+                .map(o->o.getId()+"@"+o.getWorldLocation()+" "+
+                    Rs2GameObject.getCompositionName(o).orElse("")+" fill="+
+                    Rs2GameObject.hasAction(o,"Fill")+" use="+Rs2GameObject.hasAction(o,"Use"))
+                .limit(12).collect(java.util.stream.Collectors.joining(";"));
+            hold(f,"No live Fill/Use fountain, well, or sink found in Al Kharid courtyard; nearby="+nearby+" player="+f.pos);
+            return;
+        }
+        net.runelite.api.TileObject waterSource=candidates.get(0);
+        WorldPoint target=waterSource.getWorldLocation();
+        int distance=f.pos.distanceTo(target);
+        if(distance>2) {
+            if(!target.equals(waterApproachTarget)) {
+                waterApproachTarget=target; waterApproachLastPosition=f.pos;
+                waterApproachStartedAt=now; waterApproachProgressAt=now; waterApproachAttempts=0;
+                Rs2Walker.clearWalkingRoute("prince-ali-water-source-approach-start");
+            } else if(!f.pos.equals(waterApproachLastPosition)) {
+                waterApproachLastPosition=f.pos; waterApproachProgressAt=now; waterApproachAttempts=0;
+            }
+            if(now-waterApproachStartedAt>90000||now-waterApproachProgressAt>30000||waterApproachAttempts>=4) {
+                Rs2Walker.clearWalkingRoute("prince-ali-water-source-approach-exhausted");
+                hold(f,"Bounded approach to live water source made no verified progress attempts="+
+                    waterApproachAttempts+" player="+f.pos+" target="+target); return;
+            }
+            if(Rs2Player.isMoving()) { phase="WAIT_WATER_SOURCE_APPROACH"; status(f); return; }
+            long callStarted=now;
+            net.runelite.client.plugins.microbot.util.walker.WalkerState walkState=
+                Rs2Walker.walkWithStateUntil(target,2,()->System.currentTimeMillis()-callStarted>=8000);
+            WorldPoint post=Rs2Player.getWorldLocation();
+            if(post!=null) f.pos=post;
+            LOG.info("[PrinceAliRescue] WATER_SOURCE_APPROACH_RETURN state={} before={} post={} target={} attempt={} elapsedMs={}",
+                walkState,waterApproachLastPosition,post,target,waterApproachAttempts+1,System.currentTimeMillis()-callStarted);
+            if(post!=null&&post.distanceTo(target)<=2) {
+                waterApproachLastPosition=post; waterApproachProgressAt=System.currentTimeMillis();
+                phase="WATER_SOURCE_APPROACH_REACHED"; status(f); return;
+            }
+            waterApproachAttempts++;
+            if(post!=null&&!post.equals(waterApproachLastPosition)) {
+                waterApproachLastPosition=post; waterApproachProgressAt=System.currentTimeMillis();
+                waterApproachAttempts=0;
+            }
+            phase="WAIT_WATER_SOURCE_APPROACH"; status(f); return;
+        }
+        resetWaterApproach();
+        if(waterFillAttempts>=1) { hold(f,"One water fill attempt did not prove bucket 1925 to water 1929"); return; }
+        waterFillAttempts++;
+        boolean sent=Rs2GameObject.hasAction(waterSource,"Fill")
+            ?Rs2GameObject.interact(waterSource,"Fill")
+            :Rs2Inventory.useItemOnObject(EMPTY_BUCKET,waterSource.getId());
+        LOG.info("[PrinceAliRescue] WATER_FILL_DISPATCH objectId={} name={} tile={} action={} bucket={} water={} distance={} attempt={}",
+            waterSource.getId(),Rs2GameObject.getCompositionName(waterSource).orElse(""),target,
+            Rs2GameObject.hasAction(waterSource,"Fill")?"Fill":"Use bucket on live water-source object",
+            f.count(EMPTY_BUCKET),f.count(WATER),distance,waterFillAttempts);
+        if(sent) set("WATER_FILL_BUCKET",f,10000,EMPTY_BUCKET,target);
+        else hold(f,"Live water-source interaction rejected id="+waterSource.getId()+" tile="+target);
+    }
+
+    private void resetWaterApproach() {
+        waterApproachTarget=null; waterApproachLastPosition=null;
+        waterApproachStartedAt=waterApproachProgressAt=0; waterApproachAttempts=0;
+    }
+
+    private void localAshesSourceTick(Frame f) {
+        long now=System.currentTimeMillis();
+        if(f.game!=GameState.LOGGED_IN||f.varp!=20||f.pos==null||f.pos.getPlane()!=0) {
+            hold(f,"Ashes material source requires live logged-in varp273=20 plane=0; game="+
+                f.game+" varp="+f.varp+" pos="+f.pos); return;
+        }
+        if(now-sourceStartedAt>360000) { hold(f,"Local ashes source exceeded six minutes"); return; }
+        if(f.count(ASHES)>=sourceGoal) {
+            sourceItem=sourceGoal=sourceAttempts=0; geStage="";
+            ashesFireTile=null; ashesFireStartedAt=0;
+            phase="LOCAL_ASHES_COMPLETE"; status(f); return;
+        }
+        if(Rs2GroundItem.exists(ASHES,10)) {
+            if(Rs2GroundItem.take(ASHES)) set("TAKE_ASHES",f,8000,ASHES,null);
+            else hold(f,"Nearby ashes id=592 detected but Take was rejected");
+            return;
+        }
+        if(ashesFireStartedAt>0) {
+            if(now-ashesFireStartedAt>180000) {
+                hold(f,"Fire expired but ashes id=592 did not appear within three minutes at "+ashesFireTile); return;
+            }
+            phase="WAIT_ASHES_FIRE_BURNOUT"; status(f); return;
+        }
+        if("ASHES_GET_NORMAL_LOG".equals(geStage)) {
+            if(f.shop) { Rs2Shop.closeShop(); set("SOURCE_SHOP_CLOSE",f,6000,0,null); return; }
+            if(closeIfOpen(f)) return;
+            localNormalLogSourceTick(f); return;
+        }
+        if("ASHES_BUY_TINDERBOX".equals(geStage)) { localTinderboxShopTick(f); return; }
+        if(f.count(TINDERBOX)==0||f.count(LOGS)==0) {
+            if(f.shop) { Rs2Shop.closeShop(); set("SOURCE_SHOP_CLOSE",f,6000,0,null); return; }
+            if(!f.bank) {
+                WorldPoint bankPoint=nearestBank(f.pos);
+                if(f.pos==null||f.pos.distanceTo(bankPoint)>8) walk(f,bankPoint,"TO_ASHES_SUPPLY_BANK");
+                else if(Rs2Bank.openBank()) set("OPEN_BANK",f,12000,0,null);
+                else hold(f,"Bank open rejected while sourcing tinderbox/logs for ashes");
+                return;
+            }
+            if(f.count(TINDERBOX)==0) {
+                if(!Rs2Bank.hasBankItem(TINDERBOX,1)) {
+                    geStage="ASHES_BUY_TINDERBOX";
+                    if(closeIfOpen(f)) return;
+                    localTinderboxShopTick(f); return;
+                }
+                if(!Rs2Bank.hasWithdrawAsItem()) {
+                    if(Rs2Bank.setWithdrawAsItem()) set("WITHDRAW_MODE",f,6000,0,null);
+                    else hold(f,"Tinderbox withdraw mode rejected");
+                } else if(Rs2Bank.withdrawDeficit(TINDERBOX,1)) set("WITHDRAW",f,7000,TINDERBOX,null);
+                else hold(f,"Tinderbox withdrawal rejected");
+                return;
+            }
+            if(f.count(LOGS)==0) {
+                if(!Rs2Bank.hasBankItem(LOGS,1)) {
+                    int bankedAxe=bankedWoodcuttingAxe();
+                    if(!hasWoodcuttingAxe(f)&&bankedAxe!=0) {
+                        if(!Rs2Bank.hasWithdrawAsItem()) {
+                            if(Rs2Bank.setWithdrawAsItem()) set("WITHDRAW_MODE",f,6000,0,null);
+                            else hold(f,"Axe withdrawal mode rejected while sourcing one normal log");
+                        } else if(Rs2Bank.withdrawDeficit(bankedAxe,1))
+                            set("WITHDRAW",f,7000,bankedAxe,null);
+                        else hold(f,"Banked woodcutting axe withdrawal rejected id="+bankedAxe);
+                        return;
+                    }
+                    geStage="ASHES_GET_NORMAL_LOG";
+                    if(closeIfOpen(f)) return;
+                    localNormalLogSourceTick(f); return;
+                }
+                if(!Rs2Bank.hasWithdrawAsItem()) {
+                    if(Rs2Bank.setWithdrawAsItem()) set("WITHDRAW_MODE",f,6000,0,null);
+                    else hold(f,"Logs withdraw mode rejected");
+                } else if(Rs2Bank.withdrawDeficit(LOGS,1)) set("WITHDRAW",f,7000,LOGS,null);
+                else hold(f,"One normal log withdrawal rejected");
+                return;
+            }
+        }
+        if(f.count(TINDERBOX)<1||f.count(LOGS)<1) {
+            hold(f,"Ashes fire prep did not retain one tinderbox and one log"); return;
+        }
+        if(closeIfOpen(f)) return;
+        if(f.pos==null||f.pos.getPlane()!=0||f.pos.distanceTo(ASHES_FIRE_FIELD)>6) {
+            walk(f,ASHES_FIRE_FIELD,"TO_ASHES_FIRE_FIELD"); return;
+        }
+        net.runelite.api.TileObject existingFire=nearbyFire(f.pos,6);
+        if(existingFire!=null) {
+            ashesFireTile=existingFire.getWorldLocation(); ashesFireStartedAt=now;
+            LOG.info("[PrinceAliRescue] ADOPT_NEARBY_LIVE_FIRE tile={} player={}; waiting for ground ashes",
+                ashesFireTile,f.pos);
+            phase="WAIT_NEARBY_FIRE_FOR_ASHES"; status(f); return;
+        }
+        if(ashesFireAttempts>=1) { hold(f,"One firemaking attempt did not produce verified ashes"); return; }
+        ashesFireAttempts++;
+        ashesFireTile=f.pos;
+        LOG.info("[PrinceAliRescue] LIGHT_ASH_FIRE_DISPATCH tinderbox={} logs={} tile={} attempt={}",
+            f.count(TINDERBOX),f.count(LOGS),ashesFireTile,ashesFireAttempts);
+        if(Rs2Inventory.combine(TINDERBOX,LOGS)) set("LIGHT_ASH_FIRE",f,60000,LOGS,ashesFireTile);
+        else hold(f,"Tinderbox-on-logs combine rejected at "+ashesFireTile);
+    }
+
+    private void localTinderboxShopTick(Frame f) {
+        if(f.count(TINDERBOX)>0) {
+            if(f.shop) { Rs2Shop.closeShop(); set("SOURCE_SHOP_CLOSE",f,6000,0,null); return; }
+            geStage="ASHES_LOCAL_BURN"; phase="TINDERBOX_READY_FROM_LOCAL_SHOP"; status(f); return;
+        }
+        if(f.bank) { closeIfOpen(f); return; }
+        if(f.pos==null||f.pos.distanceTo(LUMBRIDGE_STORE)>8) {
+            walk(f,LUMBRIDGE_STORE,"TO_ASHES_TINDERBOX_SHOP"); return;
+        }
+        if(f.shop) {
+            if(Rs2Shop.shopItems==null||Rs2Shop.shopItems.isEmpty()) {
+                if(sourceShopOpenedAt>0&&System.currentTimeMillis()-sourceShopOpenedAt<5000) {
+                    phase="WAIT_ASHES_TINDERBOX_STOCK"; status(f); return;
+                }
+                hold(f,"Lumbridge shop stock unavailable while sourcing tinderbox id=590"); return;
+            }
+            if(!Rs2Shop.hasMinimumStock(TINDERBOX,1)) {
+                hold(f,"Lumbridge shop has no observed tinderbox stock id=590"); return;
+            }
+            if(f.count(COINS)<1) { hold(f,"Cannot buy required tinderbox: no carried coin"); return; }
+            if(ashesTinderboxPurchaseAttempts>=1) {
+                hold(f,"One tinderbox shop purchase lacked inventory proof"); return;
+            }
+            ashesTinderboxPurchaseAttempts++;
+            if(Rs2Shop.buyItem(TINDERBOX,"1")) set("ASHES_BUY_TINDERBOX",f,7000,TINDERBOX,null);
+            else hold(f,"Lumbridge shop rejected tinderbox Buy-1");
+            return;
+        }
+        if(Rs2Shop.getNearestShopNpc("Shop keeper",true)==null) {
+            hold(f,"Lumbridge shop keeper unavailable at the verified store waypoint"); return;
+        }
+        if(Rs2Shop.openShop("Shop keeper",true)) set("ASHES_SHOP_OPEN",f,7000,0,null);
+        else hold(f,"Lumbridge shop open rejected while sourcing tinderbox");
+    }
+
+    private boolean hasWoodcuttingAxe(Frame f) {
+        for(int id:WOODCUTTING_AXES)
+            if(f.count(id)>0) return true;
+        return hasEquippedWoodcuttingAxe();
+    }
+
+    private int bankedWoodcuttingAxe() {
+        for(int id:WOODCUTTING_AXES) if(Rs2Bank.hasBankItem(id,1)) return id;
+        return 0;
+    }
+
+    private void approachAxeLogTarget(Frame f,WorldPoint target,String label) {
+        approachAxeLogTarget(f,target,label,2);
+    }
+
+    private void approachAxeLogTarget(Frame f,WorldPoint target,String label,int radius) {
+        long now=System.currentTimeMillis();
+        if(target==null||f.pos==null) { hold(f,"Missing live tile for axe/log approach: "+label); return; }
+        if(ashesLogApproachStartedAt==0) {
+            Rs2Walker.clearWalkingRoute("prince-ali-ashes-log-approach-start");
+            ashesLogApproachStartedAt=now; ashesLogApproachProgressAt=now;
+            ashesLogApproachLastPosition=f.pos; ashesLogApproachAttempts=0;
+        } else if(!f.pos.equals(ashesLogApproachLastPosition)) {
+            ashesLogApproachLastPosition=f.pos; ashesLogApproachProgressAt=now;
+            ashesLogApproachAttempts=0;
+        }
+        if(now-ashesLogApproachStartedAt>120000||now-ashesLogApproachProgressAt>45000
+            ||ashesLogApproachAttempts>=4) {
+            Rs2Walker.clearWalkingRoute("prince-ali-ashes-log-approach-exhausted");
+            hold(f,"Bounded walk toward "+label+" made no verified progress attempts="+
+                ashesLogApproachAttempts+" player="+f.pos+" target="+target); return;
+        }
+        if(Rs2Player.isMoving()) { phase="WAIT_ASHES_LOG_APPROACH"; status(f); return; }
+        WorldPoint before=f.pos;
+        long callStarted=System.currentTimeMillis();
+        WalkerState walkState=Rs2Walker.walkWithStateUntil(target,radius,
+            ()->System.currentTimeMillis()-callStarted>=15000);
+        WorldPoint post=Rs2Player.getWorldLocation();
+        if(post!=null) f.pos=post;
+        LOG.info("[PrinceAliRescue] ASHES_LOG_APPROACH_RETURN label={} walkerState={} before={} post={} target={} radius={} attempt={} elapsedMs={}",
+            label,walkState,before,post,target,radius,ashesLogApproachAttempts+1,System.currentTimeMillis()-callStarted);
+        if(post!=null&&post.getPlane()==target.getPlane()&&post.distanceTo(target)<=radius) {
+            resetAshesLogApproach(); set("ASHES_APPROACH_LOG_SOURCE",f,8000,0,target); return;
+        }
+        ashesLogApproachAttempts++;
+        if(post!=null&&!post.equals(before)) {
+            ashesLogApproachLastPosition=post; ashesLogApproachProgressAt=now;
+            ashesLogApproachAttempts=0; phase="WAIT_ASHES_LOG_APPROACH"; status(f); return;
+        }
+        if(ashesLogApproachAttempts>=4||now-ashesLogApproachProgressAt>45000) {
+            Rs2Walker.clearWalkingRoute("prince-ali-ashes-log-approach-no-progress");
+            hold(f,"Walker made no tile progress toward "+label+" at "+post+" target="+target); return;
+        }
+        phase="WAIT_ASHES_LOG_APPROACH"; status(f);
+    }
+
+    private void resetAshesLogApproach() {
+        ashesLogApproachLastPosition=null; ashesLogApproachStartedAt=0;
+        ashesLogApproachProgressAt=0; ashesLogApproachAttempts=0;
+    }
+
+    private void localNormalLogSourceTick(Frame f) {
+        if(f.count(LOGS)>0) {
+            geStage="ASHES_LOCAL_BURN";
+            phase="NORMAL_LOG_PROVED_FOR_ASHES"; status(f);
+            return;
+        }
+        if(f.pos==null||f.pos.getPlane()!=0) {
+            hold(f,"Cannot source one normal log from unexpected position/plane pos="+f.pos); return;
+        }
+        if(!hasWoodcuttingAxe(f)) {
+            Rs2TileObjectModel axeLogs=object(BRONZE_AXE_LOGS_OBJECT,FRED_POS,12);
+            if(axeLogs==null||!Rs2GameObject.hasAction(axeLogs,"Take-axe")) {
+                if(f.pos.distanceTo(FRED_POS)>2) {
+                    approachAxeLogTarget(f,FRED_POS,"Fred farm waypoint"); return;
+                }
+                hold(f,"Fred farm bronze-axe scenery 5581 unavailable; no axe in inventory, equipment, or inspected bank"); return;
+            }
+            if(!axeLogs.isReachable()||f.pos.distanceTo(axeLogs.getWorldLocation())>2) {
+                approachAxeLogTarget(f,axeLogs.getWorldLocation(),"live axe scenery 5581"); return;
+            }
+            sourceAttempts++;
+            LOG.info("[PrinceAliRescue] ASHES_BRONZE_AXE_DISPATCH id={} action=Take-axe tile={} reachable={} attempt={}",
+                axeLogs.getId(),axeLogs.getWorldLocation(),axeLogs.isReachable(),sourceAttempts);
+            if(axeLogs.click("Take-axe")) set("ASHES_TAKE_BRONZE_AXE",f,30000,BRONZE_AXE,axeLogs.getWorldLocation());
+            else hold(f,"Fred farm Take-axe interaction rejected tile="+axeLogs.getWorldLocation());
+            return;
+        }
+        // Always leave the bank area and use the verified Fred's farm tree area first.
+        // A merely path-reachable Tree elsewhere may be behind a live gate/collision edge.
+        if(f.pos.distanceTo(FRED_POS)>16) {
+            approachAxeLogTarget(f,FRED_POS,"Fred farm tree area"); return;
+        }
+        net.runelite.api.GameObject tree=nearestReachableNormalTree(f,16,ashesNoLosTreeTargets);
+        if(tree==null||tree.getWorldLocation()==null) {
+            String candidates=Rs2GameObject.getAll(o->o!=null,f.pos,16).stream()
+                .filter(o->"Tree".equalsIgnoreCase(Rs2GameObject.getCompositionName(o).orElse("")))
+                .map(o->o.getId()+"@"+o.getWorldLocation()+" chop="+Rs2GameObject.hasAction(o,"Chop down")+
+                    " reachable="+(o instanceof net.runelite.api.GameObject&&
+                        Rs2GameObject.isReachable((net.runelite.api.GameObject)o))+" los="+Rs2GameObject.hasLineOfSight(o))
+                .limit(12).toList().toString();
+            hold(f,"No untried reachable regular Tree with Chop down within 16 tiles of Fred farm; player="+
+                f.pos+" rejectedNoLos="+ashesNoLosTreeTargets+" trees="+candidates); return;
+        }
+        // Route beside one live, path-reachable tree; fresh LOS must still be true before Chop.
+        int treeDistance=f.pos.distanceTo(tree.getWorldLocation());
+        if(treeDistance>2) {
+            approachAxeLogTarget(f,tree.getWorldLocation(),"live regular tree",2); return;
+        }
+        if(!Rs2GameObject.hasLineOfSight(tree)) {
+            String key=tree.getId()+"@"+tree.getWorldLocation();
+            ashesNoLosTreeTargets.add(key); resetAshesLogApproach();
+            LOG.info("[PrinceAliRescue] ASHES_TREE_REJECT_NO_LOS id={} tile={} player={} tried={}; selecting another live reachable tree",
+                tree.getId(),tree.getWorldLocation(),f.pos,ashesNoLosTreeTargets.size());
+            phase="RESCAN_ANOTHER_ASHES_TREE"; status(f); return;
+        }
+        if(sourceAttempts>=2) {
+            hold(f,"Bounded tree Chop down retry limit reached without log gain; player="+f.pos+
+                " tree="+tree.getWorldLocation()); return;
+        }
+        sourceAttempts++;
+        LOG.info("[PrinceAliRescue] ASHES_NORMAL_LOG_CHOP_DISPATCH treeId={} tile={} axeInInventory={} axeEquipped={} attempt={}",
+            tree.getId(),tree.getWorldLocation(),hasAnyInventoryAxe(f),hasEquippedWoodcuttingAxe(),sourceAttempts);
+        if(Rs2GameObject.interact(tree,"Chop down"))
+            set("ASHES_CHOP_NORMAL_TREE",f,60000,LOGS,tree.getWorldLocation());
+        else hold(f,"Live reachable tree Chop down rejected id="+tree.getId()+" tile="+tree.getWorldLocation());
+    }
+
+    private static boolean hasAnyInventoryAxe(Frame f) {
+        for(int id:WOODCUTTING_AXES) if(f.count(id)>0) return true;
+        return false;
+    }
+
+    private static net.runelite.api.GameObject nearestReachableNormalTree(Frame f,int radius,Set<String> rejected) {
+        if(f==null||f.pos==null) return null;
+        return Rs2GameObject.getAll(o->o!=null,f.pos,radius).stream()
+            .filter(net.runelite.api.GameObject.class::isInstance)
+            .map(net.runelite.api.GameObject.class::cast)
+            .filter(o->"Tree".equalsIgnoreCase(Rs2GameObject.getCompositionName(o).orElse("")))
+            .filter(o->Rs2GameObject.hasAction(o,"Chop down"))
+            .filter(Rs2GameObject::isReachable)
+            .filter(o->o.getWorldLocation()!=null
+                &&!(o.getId()==1276&&o.getWorldLocation().equals(new WorldPoint(3265,3215,0)))
+                &&!rejected.contains(o.getId()+"@"+o.getWorldLocation()))
+            .min(java.util.Comparator.comparingInt(o->f.pos.distanceTo(o.getWorldLocation())))
+            .orElse(null);
+    }
+
+    private static boolean hasEquippedWoodcuttingAxe() {
+        return Microbot.getClientThread().invoke((java.util.function.Supplier<Boolean>)()->{
+            List<net.runelite.client.plugins.microbot.util.inventory.Rs2ItemModel> equipped=
+                Rs2Equipment.items();
+            return equipped!=null&&equipped.stream().anyMatch(item->{
+                for(int id:WOODCUTTING_AXES) if(item.getId()==id) return true;
+                return false;
+            });
+        });
+    }
+
+    private static String sheepKey(Rs2NpcModel sheep) {
+        return sheep.getId()+":"+sheep.getIndex();
+    }
+    private static boolean canShear(Rs2NpcModel sheep) {
+        if(sheep==null||sheep.getNpc()==null) return false;
+        NPCComposition composition=sheep.getNpc().getComposition();
+        if(composition==null||composition.getActions()==null) return false;
+        for(String action:composition.getActions()) if("Shear".equalsIgnoreCase(action)) return true;
+        return false;
+    }
+    private static Widget findProduct(Client c) {
+        if(c==null) return null;
+        Widget product=findProduct(c.getWidget(270,14),0);
+        return product!=null?product:findProduct(c.getWidget(300,16),0);
+    }
+    private static Widget findProduct(Widget widget,int depth) {
+        if(widget==null||widget.isHidden()||depth>8) return null;
+        if(widget.getItemId()==WOOL) return widget;
+        Widget[] children=widget.getChildren();
+        if(children!=null) for(Widget child:children) { Widget found=findProduct(child,depth+1); if(found!=null) return found; }
+        Widget[] dynamic=widget.getDynamicChildren();
+        if(dynamic!=null) for(Widget child:dynamic) { Widget found=findProduct(child,depth+1); if(found!=null) return found; }
+        Widget[] statics=widget.getStaticChildren();
+        if(statics!=null) for(Widget child:statics) { Widget found=findProduct(child,depth+1); if(found!=null) return found; }
+        return null;
+    }
+
+    private void geTick(Frame f) {
+        int id=sourceItem;
+        long now=System.currentTimeMillis();
+        if(now-sourceStartedAt>360000) {
+            hold(f,"GE source exceeded six minutes id="+id+" stage="+geStage); return;
+        }
+        if("CANCELLED".equals(geStage)) {
+            hold(f,"GE offer cancelled after no fill; inspect returned coins/items id="+id+
+                " inventory="+f.count(id)+" coins="+f.count(COINS)); return;
+        }
+        if("DONE".equals(geStage)) {
+            if(Rs2GrandExchange.isOpen()) {
+                Rs2GrandExchange.closeExchange(); set("GE_CLOSE",f,6000,id,null); return;
+            }
+            sourceItem=sourceGoal=0; geStage="";
+            phase="GE_SOURCE_COMPLETE_"+id; status(f); return;
+        }
+        if("PREPARE".equals(geStage)) {
+            if(geQuote==0) {
+                // The quote is a spending ceiling candidate, not proof of private-server stock.
+                geQuote=Rs2GrandExchange.getPrice(id);
+                int remaining=sourceGoal-f.count(id);
+                if(geQuote<=0||remaining<=0||
+                    (long)geQuote*remaining>1000-geReservedTotal) {
+                    if(id==DYE&&remaining>0) {
+                        geStage="DYE_LOCAL_ONIONS"; sourceAttempts=0;
+                        onionFailedAttemptRecovered=false; onionApproach=null; onionLastPosition=null;
+                        onionTimeoutRecovered=false;
+                        onionLastStepAt=0; onionLastProgressAt=0; onionStepAttempts=0;
+                        sourceStartedAt=now; phase="DYE_LOCAL_ONION_FALLBACK"; status(f);
+                        LOG.info("[PrinceAliRescue] GE_DYE_UNAVAILABLE_FALLBACK quote={} deficit={} reserved={}; sourcing onions locally",
+                            geQuote,remaining,geReservedTotal);
+                        return;
+                    }
+                    if(id==ASHES&&remaining>0) {
+                        geStage="ASHES_LOCAL_BURN"; sourceAttempts=0; sourceStartedAt=now;
+                        ashesFallbackRecovered=false; ashesFireTile=null; ashesFireStartedAt=0; ashesFireAttempts=0;
+                        ashesTinderboxShopRecovered=false; ashesTinderboxPurchaseAttempts=0;
+                        phase="ASHES_LOCAL_FIREMAKING_FALLBACK"; status(f);
+                        LOG.info("[PrinceAliRescue] GE_ASHES_UNAVAILABLE_FALLBACK quote={} deficit={}; local firemaking path",
+                            geQuote,remaining);
+                        return;
+                    }
+                    hold(f,"GE quote unavailable/above 1000gp cumulative cap id="+id+
+                        " quote="+geQuote+" deficit="+remaining+
+                        " reserved="+geReservedTotal); return;
+                }
+                geQuantity=remaining; geInitialItem=f.count(id);
+                phase="GE_QUOTE_BOUNDED_"+id; status(f); return;
+            }
+            int reserve=geQuote*geQuantity;
+            if(f.bank) {
+                if(f.count(COINS)<reserve) {
+                    int shortfall=reserve-f.count(COINS);
+                    if(!Rs2Bank.hasBankItem(COINS,shortfall)) {
+                        hold(f,"GE coin cap not funded id="+id+" need="+reserve+
+                            " inventory="+f.count(COINS)+" bankShort="+shortfall); return;
+                    }
+                    if(!Rs2Bank.hasWithdrawAsItem()) {
+                        if(Rs2Bank.setWithdrawAsItem()) set("WITHDRAW_MODE",f,6000,0,null);
+                        else hold(f,"GE coin withdraw mode rejected");
+                    } else if(Rs2Bank.withdrawDeficit(COINS,reserve))
+                        set("WITHDRAW",f,7000,COINS,null);
+                    else hold(f,"GE coin withdrawal rejected");
+                    return;
+                }
+                closeIfOpen(f); return;
+            }
+            if(f.count(COINS)<reserve) {
+                hold(f,"GE reserve vanished before offer id="+id+" need="+reserve); return;
+            }
+            WorldPoint exchange=BankLocation.GRAND_EXCHANGE.getWorldPoint();
+            if(f.pos==null||f.pos.distanceTo(exchange)>8) {
+                walk(f,exchange,"TO_GE_"+id); return;
+            }
+            if(!Rs2GrandExchange.isOpen()) {
+                if(Rs2GrandExchange.openExchange()) set("GE_OPEN",f,8000,id,null);
+                else hold(f,"GE runtime clerk/widget unavailable id="+id);
+                return;
+            }
+            if(!Rs2GrandExchange.isAllSlotsEmpty()||Rs2GrandExchange.getAvailableSlot()==null) {
+                hold(f,"GE has existing offers or no free slot; refusing to touch user offers"); return;
+            }
+            geInitialCoins=f.count(COINS);
+            geOfferAt=now;
+            if(Rs2GrandExchange.buyItem(geName(id),geQuote,geQuantity))
+                set("GE_PLACE",f,15000,id,null);
+            else hold(f,"GE bounded offer rejected id="+id+" quote="+geQuote+
+                " qty="+geQuantity+"; no second offer attempted");
+            return;
+        }
+        if("WAIT_FILL".equals(geStage)) {
+            GrandExchangeOfferDetails offer=Rs2GrandExchange.hasBuyOffer(id);
+            if(offer==null||offer.getPrice()>geQuote||offer.getTotalQuantity()!=geQuantity) {
+                hold(f,"GE offer state/price mismatch id="+id+" offer="+offer); return;
+            }
+            if(offer.getState()==net.runelite.api.GrandExchangeOfferState.BOUGHT
+                ||offer.getQuantitySold()>=geQuantity) {
+                if(!Rs2GrandExchange.isOpen()) {
+                    if(Rs2GrandExchange.openExchange()) set("GE_OPEN",f,8000,id,null);
+                    else hold(f,"GE completed offer cannot reopen for collection");
+                    return;
+                }
+                if(Rs2GrandExchange.collectOffer(offer.getSlot(),false))
+                    set("GE_COLLECT",f,10000,id,null);
+                else hold(f,"GE completed offer collect rejected slot="+offer.getSlot());
+                return;
+            }
+            if(now-geOfferAt<45000) {
+                phase="GE_WAIT_FILL_"+id; status(f); return;
+            }
+            if(!Rs2GrandExchange.isOpen()) {
+                if(Rs2GrandExchange.openExchange()) set("GE_OPEN",f,8000,id,null);
+                else hold(f,"GE timed-out offer cannot reopen for cancellation");
+                return;
+            }
+            // cancelSpecificOffers collects all slots. The strict single-offer guard
+            // prevents touching unrelated offers.
+            long occupied=java.util.Arrays.stream(
+                net.runelite.client.plugins.microbot.util.grandexchange.GrandExchangeSlots.values())
+                .filter(slot->Rs2GrandExchange.getOfferDetails(slot)!=null).count();
+            if(occupied!=1||!offer.getSlot().name().equals(geOfferSlotName)) {
+                hold(f,"GE timeout; other active offer appeared, manual slot review required"); return;
+            }
+            if(!Rs2GrandExchange.cancelSpecificOffers(java.util.List.of(offer.getSlot()),false).isEmpty())
+                set("GE_CANCEL",f,10000,id,null);
+            else hold(f,"GE timed-out offer cancellation rejected slot="+offer.getSlot());
+            return;
+        }
+        hold(f,"Unknown GE source stage="+geStage+" id="+id);
+    }
+    private void freeAli(Frame f) {
+        for(int id:new int[]{BLONDE_WIG,PASTE,SKIRT,BRONZE_KEY}) if(!need(f,id,1)) return;
+        if(closeIfOpen(f)) return;
+        if(f.pos!=null&&f.pos.getX()>=3121&&f.pos.getX()<=3125
+            &&f.pos.getY()>=3240&&f.pos.getY()<=3243) {
+            talk(f,ALI,CELL_POS,"FREE_ALI"); return;
+        }
+        if(f.pos==null||f.pos.distanceTo(CELL_DOOR_POS)>8) {
+            walk(f,CELL_DOOR_POS,"TO_CELL_DOOR"); return;
+        }
+        if(Rs2Inventory.useItemOnObject(BRONZE_KEY,CELL_DOOR))
+            set("UNLOCK_CELL",f,10000,BRONZE_KEY,CELL_POS);
+        else hold(f,"Bronze key on verified cell door 2881 rejected");
+    }
+    private void useRopeOnKeli(Frame f) {
+        if(!need(f,ROPE,1)) return;
+        if(closeIfOpen(f)) return;
+        if(f.pos==null||f.pos.distanceTo(KELI_POS)>8) { walk(f,KELI_POS,"TO_KELI"); return; }
+        if(Rs2Npc.getNpc(KELI)==null) { hold(f,"Lady Keli not visible at jail"); return; }
+        if(Rs2Inventory.useItemOnNpc(ROPE,KELI)) set("TIE_KELI",f,12000,ROPE,null);
+        else hold(f,"Rope on Lady Keli rejected");
+    }
+    private void talk(Frame f,int npc,WorldPoint target,String action) {
+        if(closeIfOpen(f)) return;
+        if(f.pos==null||f.pos.distanceTo(target)>8) { walk(f,target,"TO_"+action); return; }
+        if(Rs2Npc.getNpc(npc)==null) { hold(f,"NPC "+npc+" not visible near "+target); return; }
+        int attempts=talkAttempts.getOrDefault(action,0);
+        if(attempts>=3) { hold(f,"Three "+action+" conversations without material/varp progress"); return; }
+        talkAttempts.put(action,attempts+1);
+        if("GIVE_PRINT_OSMAN".equals(action)) keyHandinPending=true;
+        if(Rs2Npc.interact(npc,"Talk-to")) set(action,f,11000,0,null);
+        else hold(f,"NPC "+npc+" Talk-to rejected at "+f.pos);
+    }
+    private boolean closeIfOpen(Frame f) {
+        if(!f.bank) return false;
+        if(Rs2Bank.closeBank()) set("CLOSE_BANK",f,7000,0,null);
+        else hold(f,"Bank close rejected");
+        return true;
+    }
+    private void walk(Frame f,WorldPoint target,String action) {
+        if(!action.equals(lastRoute)) { routeFailures=0; lastRoute=action; }
+        if(routeFailures>=2) {
+            // A nearby closed gate/door is a route barrier, never proof of arrival.
+            net.runelite.api.TileObject door=Rs2GameObject.getAll(o->o!=null,f.pos,5).stream()
+                .filter(o->Rs2GameObject.hasAction(o,"Open"))
+                .filter(o->{ String name=Rs2GameObject.getCompositionName(o).orElse("").toLowerCase();
+                    return name.contains("door")||name.contains("gate"); })
+                .findFirst().orElse(null);
+            if(door==null) { hold(f,"Walker stalled twice; no nearby verified door/gate; target="+target); return; }
+            if(Rs2GameObject.interact(door,"Open")) set("OPEN_ROUTE_DOOR",f,8000,door.getId(),door.getWorldLocation());
+            else hold(f,"Nearby route door Open rejected");
+            routeFailures=0; return;
+        }
+        // The installed blocking API returns true only for ARRIVED. False can be EXIT
+        // after the player already reached its 10-tile arrival radius, so sample the
+        // post-call cached tile before classifying it as a genuine route failure.
+        boolean arrived=Rs2Walker.walkTo(target);
+        WorldPoint postWalk=Rs2Player.getWorldLocation();
+        if(!arrived&&postWalk!=null&&postWalk.distanceTo(target)>10) {
+            f.pos=postWalk;
+            hold(f,"Walker exited outside its arrival radius target="+target+" post="+postWalk);
+            return;
+        }
+        if(postWalk!=null) f.pos=postWalk;
+        LOG.info("[PrinceAliRescue] WALK_RETURN action={} target={} arrived={} post={} radius=10",
+            action,target,arrived,postWalk);
+        set("WALK_"+action,f,20000,0,target);
+    }
+    private boolean recoverObservedUnavailableDyeQuote(Frame f) {
+        if(!"HOLD".equals(phase)
+            ||!error.startsWith("GE quote unavailable/above 1000gp cumulative cap id=1765 quote=0 deficit=")
+            ||sourceItem!=DYE||sourceGoal!=1||!"PREPARE".equals(geStage)
+            ||f.game!=GameState.LOGGED_IN||f.varp!=20||f.pos==null
+            ||f.count(WIG)==0||f.count(DYE)>0||f.count(ONION)>=2||f.count(COINS)<5) return false;
+        held=false; error=""; geStage="DYE_LOCAL_ONIONS";
+        onionFailedAttemptRecovered=false; onionApproach=null; onionLastPosition=null;
+        onionLastStepAt=0; onionLastProgressAt=0; onionStepAttempts=0;
+        sourceStartedAt=System.currentTimeMillis(); sourceAttempts=0;
+        phase="RESUME_LOCAL_YELLOW_DYE_SOURCE";
+        LOG.info("[PrinceAliRescue] RECOVERED_UNAVAILABLE_DYE_QUOTE; switching to bounded local onion/Aggie source coins={} pos={}",
+            f.count(COINS),f.pos);
+        return true;
+    }
+    private boolean recoverObservedOnionPickHold(Frame f) {
+        boolean exactPriorPickHold=error.startsWith("Unproved PICK_DYE_ONION;")
+            ||"Reload during PICK_DYE_ONION; inspect quest/inventory/scene before resuming".equals(error);
+        if(onionFailedAttemptRecovered||!("HOLD".equals(phase)||"HOLD_RELOAD_IN_FLIGHT".equals(phase))
+            ||!exactPriorPickHold||sourceItem!=DYE||sourceGoal!=1
+            ||f.game!=GameState.LOGGED_IN||f.varp!=20||f.pos==null||f.pos.getPlane()!=0
+            ||f.count(WIG)==0||f.count(DYE)>0||f.count(ONION)>=2||f.count(COINS)<5
+            ||f.pos.distanceTo(FRED_ONION_FIELD)>12) return false;
+        held=false; error=""; onionFailedAttemptRecovered=true;
+        restoredInFlightAction="";
+        sourceStartedAt=System.currentTimeMillis();
+        onionApproach=null; onionLastPosition=null; onionLastStepAt=0;
+        onionLastProgressAt=System.currentTimeMillis(); onionStepAttempts=0;
+        phase="RECOVER_ONION_PICK_BY_ROUTING_TO_REACHABLE_SIDE";
+        LOG.info("[PrinceAliRescue] RECOVERED_UNPROVED_ONION_PICK count={} attempts={} player={}; rerouting to verified adjacent tile; no click replay",
+            f.count(ONION),sourceAttempts,f.pos);
+        return true;
+    }
+    private boolean recoverObservedOnionTimeoutHold(Frame f) {
+        if(onionTimeoutRecovered||!onionFailedAttemptRecovered||!"HOLD".equals(phase)
+            ||!error.startsWith("Local yellow-dye source exceeded six minutes; onions=")
+            ||sourceItem!=DYE||sourceGoal!=1||!"DYE_LOCAL_ONIONS".equals(geStage)
+            ||f.game!=GameState.LOGGED_IN||f.varp!=20||f.pos==null||f.pos.getPlane()!=0
+            ||f.pos.distanceTo(FRED_ONION_FIELD)>12||f.count(WIG)==0||f.count(DYE)>0
+            ||f.count(ONION)>=2||f.count(COINS)<5) return false;
+        onionTimeoutRecovered=true; sourceStartedAt=System.currentTimeMillis();
+        held=false; error=""; phase="RESUME_ONION_SOURCE_WITH_FRESH_BOUNDED_TIMER";
+        LOG.info("[PrinceAliRescue] RECOVERED_STALE_ONION_SOURCE_TIMER once; count={} attempts={} player={}; no action replay",
+            f.count(ONION),sourceAttempts,f.pos);
+        return true;
+    }
+    private boolean recoverObservedOnionSecondPickCap(Frame f) {
+        if(onionSecondPickCapRecovered||!"HOLD".equals(phase)
+            ||!error.startsWith("Two onion-pick attempts without two verified onions; count=")
+            ||sourceItem!=DYE||sourceGoal!=1||!"DYE_LOCAL_ONIONS".equals(geStage)
+            ||f.game!=GameState.LOGGED_IN||f.varp!=20||f.pos==null||f.pos.getPlane()!=0
+            ||f.pos.distanceTo(FRED_ONION_FIELD)>12||f.count(WIG)==0||f.count(DYE)>0
+            ||f.count(ONION)!=1||f.count(COINS)<5) return false;
+        sourceAttempts=0; sourceStartedAt=System.currentTimeMillis();
+        onionSecondPickCapRecovered=true;
+        held=false; error=""; phase="RESUME_SECOND_VERIFIED_ONION_PICK";
+        LOG.info("[PrinceAliRescue] RECOVERED_SECOND_ONION_PICK_CAP with exactly one verified onion; resetting per-pick attempt budget player={}",f.pos);
+        return true;
+    }
+    private boolean recoverObservedUnavailableAshesQuote(Frame f) {
+        if(ashesFallbackRecovered||!"HOLD".equals(phase)
+            ||!error.startsWith("GE quote unavailable/above 1000gp cumulative cap id=592 quote=0 deficit=")
+            ||sourceItem!=ASHES||sourceGoal!=1||!"PREPARE".equals(geStage)
+            ||f.game!=GameState.LOGGED_IN||f.varp!=20||f.pos==null||f.pos.getPlane()!=0
+            ||f.count(ASHES)>0) return false;
+        held=false; error=""; geStage="ASHES_LOCAL_BURN"; sourceStartedAt=System.currentTimeMillis();
+        ashesFallbackRecovered=true; ashesFireTile=null; ashesFireStartedAt=0; ashesFireAttempts=0;
+        phase="RECOVER_ASHES_FROM_EXACT_ZERO_QUOTE";
+        LOG.info("[PrinceAliRescue] RECOVERED_EXACT_ASHES_ZERO_QUOTE; checking nearby ashes and banked firemaking supplies");
+        return true;
+    }
+    private boolean recoverObservedMissingAshesTinderbox(Frame f) {
+        if(ashesTinderboxShopRecovered||!"HOLD".equals(phase)
+            ||!error.equals("Local ashes source needs tinderbox id=590; none carried or banked")
+            ||sourceItem!=ASHES||sourceGoal!=1||!"ASHES_LOCAL_BURN".equals(geStage)
+            ||f.game!=GameState.LOGGED_IN||f.varp!=20||f.pos==null||f.pos.getPlane()!=0
+            ||f.count(ASHES)>0||f.count(TINDERBOX)>0) return false;
+        held=false; error=""; geStage="ASHES_BUY_TINDERBOX";
+        sourceStartedAt=System.currentTimeMillis(); sourceShopOpenedAt=0;
+        ashesTinderboxShopRecovered=true; ashesTinderboxPurchaseAttempts=0;
+        phase="RECOVER_TINDERBOX_FROM_LOCAL_SHOP";
+        LOG.info("[PrinceAliRescue] RECOVERED_EXACT_MISSING_TINDERBOX_HOLD; using stock-checked Lumbridge shop path");
+        return true;
+    }
+    private boolean recoverObservedMissingAshesLog(Frame f) {
+        if(ashesLogSourceRecovered||!"HOLD".equals(phase)
+            ||!error.equals("Local ashes source needs normal logs id=1511; none carried or banked")
+            ||sourceItem!=ASHES||sourceGoal!=1||!"ASHES_LOCAL_BURN".equals(geStage)
+            ||f.game!=GameState.LOGGED_IN||f.varp!=20||f.pos==null||f.pos.getPlane()!=0
+            ||f.count(ASHES)>0||f.count(LOGS)>0||f.count(TINDERBOX)==0) return false;
+        held=false; error=""; geStage="ASHES_GET_NORMAL_LOG";
+        sourceStartedAt=System.currentTimeMillis(); sourceAttempts=0;
+        ashesLogSourceRecovered=true; phase="RECOVER_EXACT_MISSING_LOG_HOLD";
+        LOG.info("[PrinceAliRescue] RECOVERED_EXACT_MISSING_LOG_HOLD; sourcing one normal log from a live tree pos={} coins={}",
+            f.pos,f.count(COINS));
+        return true;
+    }
+    private boolean recoverObservedTreeChopAfterReload(Frame f) {
+        boolean exactTreeReload="ASHES_CHOP_NORMAL_TREE".equals(restoredInFlightAction)
+            &&lastReloadHoldError.startsWith("Unproved ASHES_CHOP_NORMAL_TREE;");
+        boolean exactWrappedTreeReload="Reload during ASHES_CHOP_NORMAL_TREE; inspect quest/inventory/scene before resuming"
+            .equals(error);
+        boolean exactExpiredSourceHold="HOLD".equals(phase)
+            &&"Local ashes source exceeded six minutes".equals(error)
+            &&ashesTreeRetryRecovered&&sourceAttempts==1;
+        if((ashesTreeRetryRecovered&&!exactExpiredSourceHold)
+            ||(!"HOLD_RELOAD_IN_FLIGHT".equals(phase)&&!exactExpiredSourceHold)
+            ||(!exactTreeReload&&!exactWrappedTreeReload&&!exactExpiredSourceHold)
+            ||sourceItem!=ASHES||sourceGoal!=1||!"ASHES_GET_NORMAL_LOG".equals(geStage)
+            ||f.game!=GameState.LOGGED_IN||f.varp!=20||f.pos==null||f.pos.getPlane()!=0
+            ||f.count(LOGS)>0||f.count(TINDERBOX)==0||!hasWoodcuttingAxe(f)) return false;
+        net.runelite.api.GameObject tree=Rs2GameObject.findReachableObject("Tree",true,16,f.pos,true,"Chop down");
+        if(tree==null||tree.getWorldLocation()==null||f.pos.distanceTo(tree.getWorldLocation())>2) return false;
+        held=false; error=""; phase="RETRY_TIMED_OUT_TREE_APPROACH";
+        sourceAttempts=Math.max(1,sourceAttempts); ashesTreeRetryRecovered=true;
+        sourceStartedAt=System.currentTimeMillis();
+        restoredInFlightAction=""; lastReloadHoldError="";
+        LOG.info("[PrinceAliRescue] RECOVERED_EXACT_TREE_CHOP_TIMEOUT after fresh scene/inventory check wrapper={} expiredSourceHold={} player={} tree={} attempts={}; one bounded nearby retry remains",
+            exactWrappedTreeReload,exactExpiredSourceHold,
+            f.pos,tree.getWorldLocation(),sourceAttempts);
+        return true;
+    }
+    private boolean recoverObservedInaccessibleTreeTarget(Frame f) {
+        if(ashesTreeRerouteRecovered||!"HOLD".equals(phase)
+            ||!error.startsWith("Live reachable tree Chop down rejected id=1276 tile=WorldPoint(x=3265, y=3215, plane=0)")
+            ||sourceItem!=ASHES||sourceGoal!=1||!"ASHES_GET_NORMAL_LOG".equals(geStage)
+            ||sourceAttempts!=2||f.game!=GameState.LOGGED_IN||f.varp!=20||f.pos==null||f.pos.getPlane()!=0
+            ||f.pos.distanceTo(new WorldPoint(3265,3215,0))>4||f.count(LOGS)>0
+            ||f.count(TINDERBOX)==0||!hasWoodcuttingAxe(f)) return false;
+        held=false; error=""; phase="REROUTE_TO_FRED_FARM_AFTER_BLOCKED_TREE";
+        ashesTreeRerouteRecovered=true; sourceAttempts=0; sourceStartedAt=System.currentTimeMillis();
+        resetAshesLogApproach();
+        LOG.info("[PrinceAliRescue] RECOVERED_EXACT_BLOCKED_TREE_TARGET id=1276 tile=3265,3215; fresh state confirms no log and one exact failed-reach recovery; rerouting to Fred's farm for a different nearby tree player={}",f.pos);
+        return true;
+    }
+    private boolean recoverObservedNoTreeAtFred(Frame f) {
+        if(ashesFredTreeRescanRecovered||!"HOLD".equals(phase)
+            ||!error.startsWith("No live reachable regular Tree with Chop down near Fred farm;")
+            ||!ashesTreeRerouteRecovered||sourceItem!=ASHES||sourceGoal!=1
+            ||!"ASHES_GET_NORMAL_LOG".equals(geStage)||sourceAttempts!=0
+            ||f.game!=GameState.LOGGED_IN||f.varp!=20||f.pos==null||f.pos.getPlane()!=0
+            ||f.pos.distanceTo(FRED_POS)>2||f.count(LOGS)>0||f.count(TINDERBOX)==0||!hasWoodcuttingAxe(f)) return false;
+        held=false; error=""; phase="RESCAN_FRED_TREES_WITH_LINE_OF_SIGHT";
+        ashesFredTreeRescanRecovered=true; sourceStartedAt=System.currentTimeMillis();
+        LOG.info("[PrinceAliRescue] RECOVERED_EXACT_NO_TREE_WITHIN_8_HOLD; rescanning live regular trees within 16 tiles, requiring Chop down, reachability, and line of sight; excluding the failed id1276 tile");
+        return true;
+    }
+    private boolean recoverObservedFredTreeLineOfSightHold(Frame f) {
+        if(ashesFredLineOfSightApproachRecovered||!"HOLD".equals(phase)
+            ||!error.startsWith("No live regular Tree with Chop down and clear line of sight within 16 tiles of Fred farm;")
+            ||!ashesFredTreeRescanRecovered||sourceItem!=ASHES||sourceGoal!=1
+            ||!"ASHES_GET_NORMAL_LOG".equals(geStage)||sourceAttempts!=0
+            ||f.game!=GameState.LOGGED_IN||f.varp!=20||f.pos==null||f.pos.getPlane()!=0
+            ||f.pos.distanceTo(FRED_POS)>2||f.count(LOGS)>0||f.count(TINDERBOX)==0
+            ||!hasWoodcuttingAxe(f)) return false;
+        held=false; error=""; phase="RESCAN_FRED_TREES_AND_APPROACH_FOR_LOS";
+        ashesFredLineOfSightApproachRecovered=true; ashesNoLosTreeTargets.clear();
+        sourceStartedAt=System.currentTimeMillis(); resetAshesLogApproach();
+        LOG.info("[PrinceAliRescue] RECOVERED_EXACT_FRED_TREE_NO_LOS_HOLD; will approach one reachable live tree to radius 1, verify fresh line of sight, reject blocked trees and require log 1511 inventory gain");
+        return true;
+    }
+    private boolean recoverObservedTreeApproachHold(Frame f) {
+        if(ashesTreeApproachFailureRecovered||!"HOLD".equals(phase)
+            ||!error.startsWith("Walker made no tile progress toward live regular tree at ")
+            ||!ashesFredLineOfSightApproachRecovered||sourceItem!=ASHES||sourceGoal!=1
+            ||!"ASHES_GET_NORMAL_LOG".equals(geStage)||sourceAttempts!=0
+            ||f.game!=GameState.LOGGED_IN||f.varp!=20||f.pos==null||f.pos.getPlane()!=0
+            ||f.pos.distanceTo(FRED_POS)>16||f.count(LOGS)>0||f.count(TINDERBOX)==0
+            ||!hasWoodcuttingAxe(f)) return false;
+        net.runelite.api.GameObject tree=nearestReachableNormalTree(f,16,ashesNoLosTreeTargets);
+        if(tree==null||tree.getWorldLocation()==null||f.pos.distanceTo(tree.getWorldLocation())>2) return false;
+        String key=tree.getId()+"@"+tree.getWorldLocation();
+        ashesNoLosTreeTargets.add(key); ashesTreeApproachFailureRecovered=true;
+        held=false; error=""; phase="RESCAN_AFTER_BLOCKED_TREE_APPROACH";
+        sourceStartedAt=System.currentTimeMillis(); resetAshesLogApproach();
+        LOG.info("[PrinceAliRescue] RECOVERED_EXACT_TREE_APPROACH_HOLD; excluded stalled live tree id={} tile={} after fresh state check; rescan another candidate player={}",
+            tree.getId(),tree.getWorldLocation(),f.pos);
+        return true;
+    }
+    private boolean recoverObservedTreeApproachReload(Frame f) {
+        if(!"HOLD_RELOAD_IN_FLIGHT".equals(phase)
+            ||!"Reload during ASHES_APPROACH_LOG_SOURCE; inspect quest/inventory/scene before resuming".equals(error)
+            ||sourceItem!=ASHES||sourceGoal!=1
+            ||f.game!=GameState.LOGGED_IN||f.varp!=20||f.pos==null||f.pos.getPlane()!=0
+            ||f.pos.distanceTo(FRED_POS)>16||f.count(LOGS)>0||f.count(TINDERBOX)==0) return false;
+        held=false; error=""; phase="RESCAN_AFTER_TREE_APPROACH_RELOAD";
+        geStage="ASHES_GET_NORMAL_LOG";
+        sourceStartedAt=System.currentTimeMillis();
+        resetAshesLogApproach(); restoredInFlightAction=""; lastReloadHoldError="";
+        LOG.info("[PrinceAliRescue] RECOVERED_EXACT_TREE_APPROACH_RELOAD; fresh state confirms logged-in varp20, no log 1511, axe+tinderbox, and inside Fred's 16-tile search; resume from live tree scan without replaying movement or chop");
+        return true;
+    }
+    private boolean recoverObservedWoolSpinAfterReload(Frame f) {
+        if(!"HOLD_RELOAD_IN_FLIGHT".equals(phase)
+            ||!"WOOL_OPEN_WHEEL".equals(restoredInFlightAction)
+            ||!lastReloadHoldError.startsWith("Unproved WOOL_OPEN_WHEEL;")
+            ||sourceItem!=WOOL||f.game!=GameState.LOGGED_IN||f.varp!=20
+            ||f.count(WOOL)<1||f.count(RAW_WOOL)!=0||f.pos==null||f.pos.getPlane()!=1
+            ||f.pos.distanceTo(WOOL_WHEEL)>6) return false;
+        held=false; error=""; phase="RECOVER_WOOL_SPIN_FROM_INVENTORY";
+        woolSpinning=true; woolProgressAt=System.currentTimeMillis();
+        lastRawWool=f.count(RAW_WOOL); lastWoolBalls=f.count(WOOL);
+        sourceStartedAt=System.currentTimeMillis(); sourceAttempts=0;
+        LOG.info("[PrinceAliRescue] RECOVERED_WOOL_SPIN_HOLD from exact wheel-open reload; rawWool={} balls={} pos={}",
+            f.count(RAW_WOOL),f.count(WOOL),f.pos);
+        restoredInFlightAction=""; lastReloadHoldError="";
+        return true;
+    }
+    private boolean recoverObservedWoolDescentHold(Frame f) {
+        boolean savedStepApproach="HOLD_RELOAD_IN_FLIGHT".equals(phase)
+            &&"WOOL_APPROACH_DOWNSTAIRS".equals(restoredInFlightAction)
+            &&"Reload during WOOL_APPROACH_DOWNSTAIRS; inspect quest/inventory/scene before resuming".equals(error);
+        boolean savedInFlight="HOLD_RELOAD_IN_FLIGHT".equals(phase)
+            &&"WOOL_CLIMB_DOWN".equals(restoredInFlightAction)
+            &&lastReloadHoldError.startsWith("Unproved WOOL_CLIMB_DOWN;");
+        boolean exactLiveHold="HOLD".equals(phase)&&error.startsWith("Unproved WOOL_CLIMB_DOWN;");
+        boolean exactStairRouteHold="HOLD".equals(phase)
+            &&error.startsWith("Walker exited before reaching live castle stair;");
+        boolean exactWrappedReloadHold="HOLD_RELOAD_IN_FLIGHT".equals(phase)
+            &&"Reload during WOOL_CLIMB_DOWN; inspect quest/inventory/scene before resuming".equals(error);
+        if((!savedStepApproach&&!savedInFlight&&!exactLiveHold&&!exactStairRouteHold&&!exactWrappedReloadHold)
+            ||sourceItem!=WOOL||sourceGoal!=3||f.game!=GameState.LOGGED_IN||f.varp!=20
+            ||f.count(WOOL)<1||f.count(WOOL)>=sourceGoal||f.count(RAW_WOOL)!=0
+            ||f.count(SHEARS)==0||f.pos==null||f.pos.getPlane()!=1
+            ||f.pos.distanceTo(WOOL_WHEEL)>10) return false;
+        held=false; error=""; phase="RESUME_WOOL_DESCENT_APPROACH";
+        sourceStartedAt=System.currentTimeMillis(); sourceAttempts=0; woolSpinning=false;
+        restoredInFlightAction=""; lastReloadHoldError="";
+        LOG.info("[PrinceAliRescue] RECOVERED_WOOL_DESCENT_HOLD cause={} balls={} goal={} rawWool={} pos={}; will inspect route doors and approach live stairs before another click",
+            exactStairRouteHold?"STAIR_ROUTE_HOLD":"DESCENT_HOLD",f.count(WOOL),sourceGoal,f.count(RAW_WOOL),f.pos);
+        return true;
+    }
+    private boolean recoverObservedWoolGatherPlaneHold(Frame f) {
+        if(!"HOLD".equals(phase)
+            ||!error.equals("Unexpected position/plane while gathering wool: "+f.pos)
+            ||sourceItem!=WOOL||f.game!=GameState.LOGGED_IN||f.varp!=20
+            ||f.count(WOOL)>=sourceGoal||f.count(RAW_WOOL)!=0||f.pos==null
+            ||f.pos.getPlane()!=1||f.pos.distanceTo(WOOL_WHEEL)>8) return false;
+        held=false; error=""; phase="RESUME_WOOL_GATHER_BY_DESCENT";
+        sourceStartedAt=System.currentTimeMillis(); sourceAttempts=0;
+        LOG.info("[PrinceAliRescue] RECOVERED_WOOL_GATHER_PLANE_HOLD balls={} goal={} rawWool={} pos={}",
+            f.count(WOOL),sourceGoal,f.count(RAW_WOOL),f.pos);
+        return true;
+    }
+    private boolean recoverObservedWoolStairRouteHold(Frame f) {
+        boolean exactRouteHold=error.equals("Walker rejected route to "+CASTLE_STAIRS_GROUND);
+        boolean expiredTimerHold=error.equals("Local wool source exceeded six minutes; balls=0 rawWool=1");
+        if(!"HOLD".equals(phase)
+            ||(!exactRouteHold&&!expiredTimerHold)
+            ||sourceItem!=WOOL||f.game!=GameState.LOGGED_IN||f.varp!=20
+            ||f.count(RAW_WOOL)<=0||f.pos==null||f.pos.getPlane()!=0
+            ||f.pos.distanceTo(CASTLE_STAIRS_GROUND)>8) return false;
+        held=false; error=""; phase="RESUME_WOOL_AT_OBSERVED_STAIRS";
+        routeFailures=0; lastRoute="";
+        sourceStartedAt=System.currentTimeMillis(); sourceAttempts=0;
+        LOG.info("[PrinceAliRescue] RECOVERED_WOOL_STAIRS_HOLD cause={} freshPos={} rawWool={} target={}",
+            exactRouteHold?"FALSE_WALK_RESULT":"EXPIRED_TIMER_AFTER_ROUTE_RECOVERY",
+            f.pos,f.count(RAW_WOOL),CASTLE_STAIRS_GROUND);
+        return true;
+    }
+    private void dialogueOption(Frame f) {
+        String[] expected={"Is there anything I can help you with?","Yes.",
+            "No. I think I know everything I need to.",
+            "Could you make other things apart from rope?","How about some sort of wig?",
+            "I have them here. Please make me a wig.","Can you make skin paste?",
+            "Yes please. Mix me some skin paste.","Heard of you? You're famous in Gielinor!",
+            "What's your latest plan then?","How do you know someone won't try to free him?",
+            "Could I see the key please?","Could I touch the key for a moment please?",
+            "I have some beer here. Fancy one?"};
+        for(String choice:expected) if(f.options.contains(choice)) {
+            if(Rs2Dialogue.clickOption(choice)) set("OPTION",f,7000,0,null);
+            else hold(f,"Known option click rejected: "+choice);
+            return;
+        }
+        hold(f,"Unrecognized Prince Ali dialogue options: "+f.options);
+    }
+    private void set(String action,Frame f,long timeout,int item,WorldPoint target) {
+        pending=new Pending(action,f,timeout,item,target); phase=action; status(f);
+    }
+    private void descendForWool(Frame f,String reason) {
+        Rs2TileObjectModel stairs=object(16672,CASTLE_STAIRS_FIRST,8);
+        if(stairs==null) {
+            hold(f,"Castle downstairs stair 16672 not visible "+reason+" at "+f.pos); return;
+        }
+        WorldPoint tile=stairs.getWorldLocation();
+        net.runelite.api.ObjectComposition composition=stairs.getObjectComposition();
+        String actions=composition==null?"[]":java.util.Arrays.toString(composition.getActions());
+        if(tile==null||!Rs2GameObject.hasAction(stairs,"Climb-down")) {
+            hold(f,"Live castle stair lacks Climb-down id="+stairs.getId()+" name="+stairs.getName()
+                +" tile="+tile+" actions="+actions+" player="+f.pos); return;
+        }
+        List<Rs2TileObjectModel> routeDoors=Microbot.getRs2TileObjectCache().query()
+            .within(f.pos,5)
+            .where(o->{
+                WorldPoint location=o.getWorldLocation();
+                if(location==null||location.getPlane()!=f.pos.getPlane()
+                    ||!Rs2GameObject.hasAction(o,"Open")) return false;
+                String name=o.getName()==null?"":o.getName().toLowerCase(java.util.Locale.ROOT);
+                return (name.contains("door")||name.contains("gate"))
+                    &&location.distanceTo(tile)<=f.pos.distanceTo(tile)+1;
+            })
+            .toListOnClientThread();
+        Rs2TileObjectModel routeDoor=routeDoors.stream()
+            .min(java.util.Comparator.comparingInt(o->o.getWorldLocation().distanceTo(f.pos)))
+            .orElse(null);
+        if(routeDoor!=null) {
+            WorldPoint doorTile=routeDoor.getWorldLocation();
+            String doorName=routeDoor.getName();
+            int doorId=routeDoor.getId();
+            net.runelite.api.ObjectComposition doorComposition=routeDoor.getObjectComposition();
+            String doorActions=doorComposition==null?"[]":java.util.Arrays.toString(doorComposition.getActions());
+            LOG.info("[PrinceAliRescue] WOOL_STAIRS_ROUTE_DOOR_DISPATCH id={} tile={} name={} actions={} from={} stair={}",
+                doorId,doorTile,doorName,doorActions,f.pos,tile);
+            if(routeDoor.click("Open")) set("WOOL_OPEN_STAIR_DOOR",f,9000,doorId,doorTile);
+            else hold(f,"Open rejected for live stair-route door id="+doorId+" tile="+doorTile+" name="+doorName);
+            return;
+        }
+        int distance=f.pos.distanceTo(tile);
+        if(distance>2) { stepWoolStairApproach(f,stairs,tile,actions); return; }
+        LOG.info("[PrinceAliRescue] WOOL_STAIRS_APPROACH_PROVED id={} tile={} player={} distance={} radius=2",
+            stairs.getId(),tile,f.pos,distance);
+        LOG.info("[PrinceAliRescue] WOOL_CLIMB_DOWN_DISPATCH id={} tile={} name={} actions={} reachable={} player={} distance={}",
+            stairs.getId(),tile,stairs.getName(),actions,stairs.isReachable(),f.pos,distance);
+        if(stairs.click("Climb-down")) set("WOOL_CLIMB_DOWN",f,12000,0,tile);
+        else hold(f,"Climb-down rejected at live castle stair id="+stairs.getId()+" tile="+tile
+            +" name="+stairs.getName()+" actions="+actions+" reachable="+stairs.isReachable());
+    }
+    private void stepWoolStairApproach(Frame f,Rs2TileObjectModel stairs,WorldPoint tile,String actions) {
+        long now=System.currentTimeMillis();
+        if(woolStairLastPosition==null) {
+            // Clear only this script's stale walker target before beginning the bounded approach.
+            Rs2Walker.clearWalkingRoute("prince-ali-wool-stair-approach-start");
+            woolStairLastPosition=f.pos; woolStairLastProgressAt=now;
+            LOG.info("[PrinceAliRescue] WOOL_STAIRS_APPROACH_BEGIN id={} tile={} from={} radius=2",
+                stairs.getId(),tile,f.pos);
+        } else if(!woolStairLastPosition.equals(f.pos)) {
+            LOG.info("[PrinceAliRescue] WOOL_STAIRS_POSITION_CHANGE before={} now={} dist={}",
+                woolStairLastPosition,f.pos,f.pos.distanceTo(tile));
+            woolStairLastPosition=f.pos; woolStairLastProgressAt=now;
+        }
+        if(now-woolStairLastProgressAt>20000||woolStairStepAttempts>=12) {
+            Rs2Walker.clearWalkingRoute("prince-ali-wool-stair-approach-no-progress");
+            hold(f,"Bounded stair walkStep made no verified progress attempts="+woolStairStepAttempts
+                +" lastStepAgeMs="+(now-woolStairLastStepAt)+" player="+f.pos+" target="+tile
+                +" actions="+actions); return;
+        }
+        if(now-woolStairLastStepAt<1600||Rs2Player.isMoving()) { phase="WAIT_WOOL_STAIRS_STEP"; status(f); return; }
+        WalkerState state=Rs2Walker.walkStep(tile,2);
+        woolStairLastStepAt=now; woolStairStepAttempts++;
+        LOG.info("[PrinceAliRescue] WOOL_STAIRS_STEP state={} attempt={} player={} target={} dist={} actions={}",
+            state,woolStairStepAttempts,f.pos,tile,f.pos.distanceTo(tile),actions);
+        if(state==WalkerState.UNREACHABLE||state==WalkerState.EXIT) {
+            Rs2Walker.clearWalkingRoute("prince-ali-wool-stair-approach-"+state);
+            hold(f,"walkStep "+state+" for live castle stair id="+stairs.getId()+" tile="+tile
+                +" player="+f.pos+" actions="+actions); return;
+        }
+        if(state==WalkerState.ARRIVED) {
+            if(f.pos.distanceTo(tile)<=2) set("WOOL_APPROACH_DOWNSTAIRS",f,8000,0,tile);
+            else hold(f,"walkStep reported ARRIVED outside stair approach radius; player="+f.pos
+                +" target="+tile+" distance="+f.pos.distanceTo(tile));
+            return;
+        }
+        phase="WAIT_WOOL_STAIRS_STEP"; status(f);
+    }
+    private void resetWoolStairRoute() {
+        woolStairLastStepAt=0; woolStairLastProgressAt=0;
+        woolStairStepAttempts=0; woolStairLastPosition=null;
+    }
+    private void restoreExactSavedWoolStage() {
+        try {
+            Properties saved=new Properties();
+            try(java.io.InputStream in=Files.newInputStream(STATUS)) { saved.load(in); }
+            long age=System.currentTimeMillis()-Long.parseLong(saved.getProperty("timestamp","0"));
+            if(age<0||age>300000||!Long.toString(ProcessHandle.current().pid()).equals(saved.getProperty("pid"))
+                ||!"15".equals(saved.getProperty("build"))
+                ||!"20".equals(saved.getProperty("varp273"))
+                ||!"LOGGED_IN".equals(saved.getProperty("gameState"))
+                ||!"1".equals(saved.getProperty("ballOfWool"))
+                ||!"0".equals(saved.getProperty("rawWool"))
+                ||!"1".equals(saved.getProperty("shears"))
+                ||!saved.getProperty("position","").contains("plane=1")
+                ||!"1759".equals(saved.getProperty("sourceItem"))
+                ||!"3".equals(saved.getProperty("sourceGoal"))) return;
+            String oldPhase=saved.getProperty("phase","");
+            if(!"RESUME_WOOL_DESCENT_APPROACH".equals(oldPhase)
+                &&!"PROVED_WOOL_OPEN_STAIR_DOOR".equals(oldPhase)
+                &&!"WAIT_WOOL_STAIRS_STEP".equals(oldPhase)) return;
+            sourceItem=WOOL; sourceGoal=3; sourceAttempts=0; sourceSpent=0;
+            sourceStartedAt=System.currentTimeMillis(); sourceLastCount=1;
+            sourceLastCoins=0;
+            bankInspected=true; geStage="WOOL_GATHER"; woolSpinning=false;
+            lastRawWool=0; lastWoolBalls=1; woolStageRecoveredFromStatus=true;
+            held=false; error=""; phase="VALIDATE_SAVED_WOOL_STAGE";
+            LOG.info("[PrinceAliRescue] RECOVERED_SAVED_WOOL_STAGE pid={} ageMs={} priorPhase={}; awaiting fresh frame before action",
+                saved.getProperty("pid"),age,oldPhase);
+        } catch(Exception ignored) { }
+    }
+    private boolean proved(Pending p,Frame f) {
+        if(f.quest==QuestState.FINISHED) return true;
+        if("ASHES_TAKE_BRONZE_AXE".equals(p.action))
+            return f.count(BRONZE_AXE)>p.before.count(BRONZE_AXE);
+        if("ASHES_CHOP_NORMAL_TREE".equals(p.action))
+            return f.count(LOGS)>p.before.count(LOGS);
+        if("ASHES_APPROACH_LOG_SOURCE".equals(p.action))
+            return f.pos!=null&&p.target!=null&&f.pos.getPlane()==p.target.getPlane()
+                &&f.pos.distanceTo(p.target)<=2;
+        if("WOOL_GET_SHEARS".equals(p.action)) return f.count(SHEARS)>p.before.count(SHEARS);
+        if("WOOL_SHEAR".equals(p.action)) return f.count(RAW_WOOL)>p.before.count(RAW_WOOL);
+        if("WOOL_CLIMB_UP".equals(p.action)) return f.pos!=null&&f.pos.getPlane()==1;
+        if("WOOL_CLIMB_DOWN".equals(p.action)) return f.pos!=null&&f.pos.getPlane()==0;
+        if("WOOL_APPROACH_DOWNSTAIRS".equals(p.action)) return f.pos!=null&&p.target!=null
+            &&f.pos.getPlane()==1&&f.pos.distanceTo(p.target)<=2;
+        if("WOOL_OPEN_STAIR_DOOR".equals(p.action)) {
+            net.runelite.api.TileObject door=Rs2GameObject.findObjectByLocation(p.target);
+            return door==null||!Rs2GameObject.hasAction(door,"Open");
+        }
+        if("WOOL_OPEN_WHEEL".equals(p.action)) return f.production;
+        if("WOOL_SPIN".equals(p.action)) return f.count(WOOL)>p.before.count(WOOL)
+            &&f.count(RAW_WOOL)<p.before.count(RAW_WOOL);
+        if("OPEN_BANK".equals(p.action)) return f.bank;
+        if("CLOSE_BANK".equals(p.action)) return !f.bank;
+        if("WITHDRAW_MODE".equals(p.action)) return Rs2Bank.hasWithdrawAsItem();
+        if("WITHDRAW".equals(p.action)) return f.count(p.item)>p.before.count(p.item);
+        if("CRAFT_SOFT_CLAY".equals(p.action)) return f.count(SOFT_CLAY)>p.before.count(SOFT_CLAY)
+            &&f.count(CLAY)<p.before.count(CLAY)
+            &&f.count(WATER)<p.before.count(WATER);
+        if("CRAFT_YELLOW_DYE".equals(p.action)) return f.count(DYE)>p.before.count(DYE)
+            &&f.count(ONION)<p.before.count(ONION)
+            &&p.before.count(COINS)-f.count(COINS)==5;
+        if("PICK_DYE_ONION".equals(p.action)) return f.count(ONION)>p.before.count(ONION);
+        if("TAKE_ASHES".equals(p.action)) return f.count(ASHES)>p.before.count(ASHES);
+        if("LIGHT_ASH_FIRE".equals(p.action)) return p.target!=null
+            &&f.count(LOGS)<p.before.count(LOGS)&&nearbyFire(p.target,2)!=null;
+        if("ASHES_SHOP_OPEN".equals(p.action)) return f.shop;
+        if("ASHES_BUY_TINDERBOX".equals(p.action)) {
+            int debit=p.before.count(COINS)-f.count(COINS);
+            return f.count(TINDERBOX)>p.before.count(TINDERBOX)&&debit>0&&debit<=10;
+        }
+        if("WATER_SHOP_OPEN".equals(p.action)) return f.shop;
+        if("WATER_SHOP_CLOSE".equals(p.action)) return !f.shop;
+        if("WATER_BUY_BUCKET".equals(p.action)) {
+            int debit=p.before.count(COINS)-f.count(COINS);
+            return f.count(EMPTY_BUCKET)>p.before.count(EMPTY_BUCKET)&&debit>0&&debit<=5;
+        }
+        if("WATER_FILL_BUCKET".equals(p.action))
+            return f.count(WATER)>p.before.count(WATER)&&f.count(EMPTY_BUCKET)<p.before.count(EMPTY_BUCKET);
+        if("SOURCE_SHOP_OPEN".equals(p.action)) return f.shop;
+        if("SOURCE_SHOP_CLOSE".equals(p.action)) return !f.shop;
+        if("SOURCE_BUY".equals(p.action)) return f.count(p.item)>p.before.count(p.item)
+            &&f.count(COINS)<p.before.count(COINS);
+        if("GE_OPEN".equals(p.action)) return Rs2GrandExchange.isOpen();
+        if("GE_CLOSE".equals(p.action)) return !Rs2GrandExchange.isOpen();
+        if("GE_PLACE".equals(p.action)) {
+            GrandExchangeOfferDetails offer=Rs2GrandExchange.hasBuyOffer(p.item);
+            int debit=p.before.count(COINS)-f.count(COINS);
+            return offer!=null&&offer.getPrice()>0&&offer.getPrice()<=geQuote
+                &&offer.getTotalQuantity()==geQuantity&&debit>0
+                &&debit<=1000-geReservedTotal;
+        }
+        if("GE_COLLECT".equals(p.action)) return f.count(p.item)>=geInitialItem+geQuantity
+            &&geInitialCoins>f.count(COINS)
+            &&geInitialCoins-f.count(COINS)<=1000;
+        if("GE_CANCEL".equals(p.action)) {
+            if(geOfferSlotName.isEmpty()) return false;
+            GrandExchangeOfferDetails offer=Rs2GrandExchange.getOfferDetails(
+                net.runelite.client.plugins.microbot.util.grandexchange.GrandExchangeSlots.valueOf(
+                    geOfferSlotName));
+            return offer==null||offer.getState()==net.runelite.api.GrandExchangeOfferState.CANCELLED_BUY;
+        }
+        if(p.action.startsWith("SOURCE_BEER_")) return dialogueChanged(p.before,f)
+            ||f.count(BEER)>p.before.count(BEER);
+        if("SOURCE_CONTINUE".equals(p.action)) return dialogueChanged(p.before,f)
+            ||f.count(BEER)>p.before.count(BEER);
+        if("DEPOSIT_UNNEEDED".equals(p.action)) return f.count(p.item)<p.before.count(p.item)
+            && f.bank;
+        if("DYE_WIG".equals(p.action)) return f.count(BLONDE_WIG)>p.before.count(BLONDE_WIG);
+        if("OPEN_ROUTE_DOOR".equals(p.action)) {
+            net.runelite.api.TileObject door=Rs2GameObject.findObjectByLocation(p.target);
+            return door==null||!Rs2GameObject.hasAction(door,"Open");
+        }
+        if("OPEN_ONION_GATE".equals(p.action)) {
+            net.runelite.api.TileObject gate=Rs2GameObject.findObjectByLocation(p.target);
+            return gate==null||!Rs2GameObject.hasAction(gate,"Open");
+        }
+        if(p.action.startsWith("WALK_")) return f.pos!=null&&p.before.pos!=null
+            &&(!f.pos.equals(p.before.pos)||f.pos.distanceTo(p.target)<=10);
+        if("UNLOCK_CELL".equals(p.action)) return f.pos!=null&&f.pos.getX()>=3121
+            &&f.pos.getX()<=3125&&f.pos.getY()>=3240&&f.pos.getY()<=3243;
+        if("TIE_KELI".equals(p.action)) return f.varp>p.before.varp;
+        if("GIVE_PRINT_OSMAN".equals(p.action))
+            return f.count(KEY_PRINT)<p.before.count(KEY_PRINT)||dialogueChanged(p.before,f);
+        if("MAKE_WIG".equals(p.action)) return f.count(WIG)>p.before.count(WIG)||dialogueChanged(p.before,f);
+        if("MAKE_PASTE".equals(p.action)) return f.count(PASTE)>p.before.count(PASTE)||dialogueChanged(p.before,f);
+        if("GET_KEY_PRINT".equals(p.action)) return f.count(KEY_PRINT)>p.before.count(KEY_PRINT)||dialogueChanged(p.before,f);
+        if("GET_KEY_LEELA".equals(p.action)) return f.count(BRONZE_KEY)>p.before.count(BRONZE_KEY)||f.varp>p.before.varp||dialogueChanged(p.before,f);
+        if("GIVE_BEER_JOE".equals(p.action)) return f.varp>p.before.varp||f.count(BEER)<p.before.count(BEER)||dialogueChanged(p.before,f);
+        if("FREE_ALI".equals(p.action)) return f.varp>=100||dialogueChanged(p.before,f);
+        return f.varp!=p.before.varp||dialogueChanged(p.before,f);
+    }
+    private static boolean dialogueChanged(Frame a,Frame b) {
+        return !a.dialogue.equals(b.dialogue)||!a.options.equals(b.options)
+            ||a.continuePrompt!=b.continuePrompt;
+    }
+    private static Rs2TileObjectModel object(int id,WorldPoint point,int radius) {
+        return Microbot.getRs2TileObjectCache().query().withId(id).within(point,radius).nearestOnClientThread();
+    }
+    private static net.runelite.api.TileObject nearbyFire(WorldPoint tile,int radius) {
+        if(tile==null) return null;
+        return Rs2GameObject.getAll(o->o!=null,tile,radius).stream()
+            .filter(o->o.getWorldLocation()!=null&&o.getWorldLocation().distanceTo(tile)<=radius)
+            .filter(o->"fire".equalsIgnoreCase(Rs2GameObject.getCompositionName(o).orElse("")))
+            .findFirst().orElse(null);
+    }
+    private void hold(Frame f,String reason) {
+        held=true; phase="HOLD"; error=reason;
+        LOG.warn("[PrinceAliRescue] HOLD {} varp={} pos={}",reason,f==null?-1:f.varp,f==null?null:f.pos);
+        status(f);
+    }
+    private void status(Frame f) {
+        try {
+            Files.createDirectories(STATUS.getParent());
+            Properties p=new Properties();
+            p.setProperty("timestamp",Long.toString(System.currentTimeMillis()));
+            p.setProperty("pid",Long.toString(ProcessHandle.current().pid()));
+            p.setProperty("build",Integer.toString(BUILD_NUMBER));
+            p.setProperty("phase",phase); p.setProperty("error",error);
+            p.setProperty("held",Boolean.toString(held));
+            p.setProperty("pending",pending==null?"":pending.action);
+            p.setProperty("loginError",loginError);
+            p.setProperty("loginAttempts",Integer.toString(loginAttempts));
+            p.setProperty("welcomeAttempts",Integer.toString(welcomeAttempts));
+            p.setProperty("disconnectAttempts",Integer.toString(disconnectAttempts));
+            p.setProperty("quest",f==null||f.quest==null?"UNKNOWN":f.quest.name());
+            p.setProperty("varp273",Integer.toString(f==null?-1:f.varp));
+            p.setProperty("loginIndex",Integer.toString(f==null?-1:f.loginIndex));
+            p.setProperty("position",f==null||f.pos==null?"UNKNOWN":f.pos.toString());
+            p.setProperty("game",f==null||f.game==null?"UNKNOWN":f.game.name());
+            p.setProperty("gameState",f==null||f.game==null?"UNKNOWN":f.game.name());
+            p.setProperty("world",Integer.toString(f==null?-1:f.world));
+            p.setProperty("items",f==null?"{}":f.items.toString());
+            p.setProperty("bankInspected",Boolean.toString(bankInspected));
+            p.setProperty("keySubmitted",Boolean.toString(keySubmitted));
+            p.setProperty("sourceItem",Integer.toString(sourceItem));
+            p.setProperty("sourceGoal",Integer.toString(sourceGoal));
+            p.setProperty("sourceAttempts",Integer.toString(sourceAttempts));
+            p.setProperty("sourceSpent",Integer.toString(sourceSpent));
+            p.setProperty("onionApproach",onionApproach==null?"":onionApproach.toString());
+            p.setProperty("onionStepAttempts",Integer.toString(onionStepAttempts));
+            p.setProperty("onionFailedAttemptRecovered",Boolean.toString(onionFailedAttemptRecovered));
+            p.setProperty("onionTimeoutRecovered",Boolean.toString(onionTimeoutRecovered));
+            p.setProperty("onionSecondPickCapRecovered",Boolean.toString(onionSecondPickCapRecovered));
+            p.setProperty("ashesFallbackRecovered",Boolean.toString(ashesFallbackRecovered));
+            p.setProperty("ashesLogSourceRecovered",Boolean.toString(ashesLogSourceRecovered));
+            p.setProperty("ashesFireTile",ashesFireTile==null?"":ashesFireTile.toString());
+            p.setProperty("ashesFireStartedAt",Long.toString(ashesFireStartedAt));
+            p.setProperty("ashesFireAttempts",Integer.toString(ashesFireAttempts));
+            p.setProperty("ashesTinderboxPurchaseAttempts",Integer.toString(ashesTinderboxPurchaseAttempts));
+            p.setProperty("woolStage",sourceItem==WOOL?geStage:"");
+            p.setProperty("rawWool",Integer.toString(f==null?0:f.count(RAW_WOOL)));
+            p.setProperty("ballOfWool",Integer.toString(f==null?0:f.count(WOOL)));
+            p.setProperty("shears",Integer.toString(f==null?0:f.count(SHEARS)));
+            p.setProperty("woolTarget",woolShearTarget);
+            p.setProperty("woolShearFailures",Integer.toString(woolShearFailures));
+            p.setProperty("woolSpinning",Boolean.toString(woolSpinning));
+            p.setProperty("production",Boolean.toString(f!=null&&f.production));
+            Path temp=STATUS.resolveSibling("status.tmp");
+            try(OutputStream out=Files.newOutputStream(temp)) { p.store(out,"Prince Ali Rescue runtime"); }
+            Files.move(temp,STATUS,StandardCopyOption.REPLACE_EXISTING);
+        } catch(Exception e) { LOG.warn("Prince Ali status write: {}",e.toString()); }
+    }
+}
+
+
+
+
