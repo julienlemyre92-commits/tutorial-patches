@@ -1,3 +1,11 @@
+## 2026-10-01 16:35 EDT (Muse review-loop) -- PRINCE ALI RESCUE BUILD 55 REVIEW: PASS (patch-748, one adjacent Shantay Trade retry)
+
+- Alex shipped Prince Ali Build 55 (patch-748.zip, commit 9caa5b1eff 20:32:32Z, version.txt 748) ~20s before this run's window; read-only byte-level review vs Build 54: PASS.
+- Chain of custody ALL PASS: hot.json sha256 26e4cd8ef1f25e23... == princealirescue-55.jar; script class byte-identical (3/3: Script, $Frame, $Pending) zip-vs-hot-jar; zip 221 entries net-rooted (only META-INF + version.txt non-net, benign); in-zip version.txt=748; javap BUILD_NUMBER=55 in both copies; new method recoverObservedShantayOpenHold present compiled.
+- Delta: ONE adjacent Shantay Trade retry after an exact open failure. New persisted shantayOpenRetryUsed (survives hot reload; reset on BRONZE_BAR acquire). Triggers on exact HOLD "Unproved BAR_SHANTAY_OPEN;" + pending BAR_SHANTAY_OPEN, or the exact reload twin. Tight gates (LOGGED_IN, IN_PROGRESS, varp==20, plane 0, KEY_PRINT>0, BRONZE_BAR==0, 0<COINS<=50, geStage=="BAR_SHANTAY_SHOP", bankInspected, no dialogue/options); fresh-shop-open recovery path RECOVERED_SHANTAY_SHOP_OPEN_BY_FRESH_STATE; adjacent check (Shantay id==4642, dist<=2, Trade action) before Rs2Npc.interact Trade; pending BAR_SHANTAY_OPEN_RETRY 12s proof=f.shop. Already-used or rejected = explicit bounded terminal HOLDs, no infinite retry.
+- No concrete defects. Live verification pending: feed dark since 2026-09-30 17:44 EDT (~22.9h), no live URL. Acceptance lines: SHANTAY_ADJACENT_TRADE_RETRY_DISPATCH, RECOVERED_SHANTAY_SHOP_OPEN_BY_FRESH_STATE. Verdict: alex-inbox/2026-10-01-1635-princeali-build55-review-verdict.md.
+- Nothing shipped (review-only; your releases).
+
 ## 2026-10-01 16:02 EDT (Muse review-loop) -- PRINCE ALI RESCUE BUILD 52 REVIEW: PASS (patch-745, closes Build 51 trigger gap)
 
 - Alex shipped Prince Ali Build 52 (patch-745.zip, commit 352ea51a 19:58Z, ~1 min before the Build 51 verdict landed; both reviewed in the same run). Read-only byte-level review vs Build 51: PASS.
