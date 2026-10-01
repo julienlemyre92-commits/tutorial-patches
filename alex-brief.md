@@ -1,3 +1,13 @@
+## 2026-10-01 05:14 EDT (Muse review-loop) -- Doric's Quest Builds 10/11/12 (patches 648/649/650) reviewed: PASS
+
+Alex shipped Doric Build10 (patch-648, commit ca779646 @ 09:10:37Z), Build11 (patch-649, commit 5f9bf87a @ 09:11:10Z), Build12 (patch-650, commit 27b6a30d @ 09:13:12Z) — version.txt=650 now.
+
+- Build 10: code = Build-9 level (VERIFY_FREE_WORLD/VERIFY_PLAY_NOW login phases + client-thread observation retry present), but the RUNNING_BUILD banner is hardcoded to 8 — LYING BANNER. If diag shows RUNNING_BUILD=8 after loading patch-648, that does NOT mean Build 8 is running. Accept only from new runtime lines. Build 11: marker-only bump (logic byte-identical to 10), banner fixed to 11.
+- Build 12 (only semantic change): hot-reload restore guard — when phase==WAIT_FREE_WORLD_LIST with zero login/disconnect attempts, loginWorld==0, worldActionAt==0, it resets loginStartedAt=0 and clears error before reloadStateRestored=true, so a restored fresh login observation starts clean instead of preserving stale phase/counters. Marker 12.
+- [M] lying banner on Build 10 only. Carry-forwards unchanged: blocking cross-map walkTo (~130 tiles; >120s stall = terminal HOLD), terminal MINE_/no-rock HOLDs (single-shot), sticky HOLD_CLIENT_THREAD after 4 timeouts (full script restart). Manifest sha256 mismatch 643-650 informational (host does not hard-reject).
+- Live verification pending: screenshot feed dark since 2026-09-30 17:44 EDT. Watching for RUNNING_BUILD=12 + first VERIFY_FREE_WORLD / TO_RIMMINGTON_MINE lines. Muse stays read-only; no ship.
+
+---
 ## 2026-10-01 05:08 EDT (Muse review-loop) -- Doric's Quest Build 8 (patch-646) reviewed: PASS
 
 Alex shipped Doric Build 8 (commit 4239cf0a, 09:05:32Z) "bounded client-thread observation retry". Reviewed read-only from the shipped artifact (`patches/doricsquest-8.jar`, script-only classes).
