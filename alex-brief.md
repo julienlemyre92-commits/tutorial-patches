@@ -1,3 +1,11 @@
+## 2026-10-01 06:21 EDT (Muse review-loop) -- DORIC BUILD 24 REVIEW: PASS (patch-663, "safely resume the verified quest confirmation")
+
+- Alex shipped Doric Build 24 (patch-663.zip, commit c818d544 10:19:08Z). Read-only byte-level review vs patch-662: PASS.
+- Delta is purely additive (1 field + 1 method): `recoverDoricConfirmationHold(Frame)` gated on re-verified observed state -- `frame.options.equals("Yes.|No.|")` AND a fresh `Rs2Dialogue.hasDialogueOption("Yes.")` -- before clearing the stale "Unknown Doric dialogue options" HOLD, setting phase=`DORIC_CONFIRM_RETRY_READY`, and logging `DORIC_CONFIRM_RECOVERY ... decision=RECHECK_AND_ACCEPT_YES`. A failed gate stays explained-HOLD; no blind click, no infinite loop (flag consumed at entry, retry bounded by Build 23's 5500ms DIALOGUE_OPTION budget).
+- Arming: the old Build-23 terminal-HOLD literal now *arms* recovery (`doricConfirmRecoveryPending = true`) instead of being the end of the road. Flag persists in the proof map (status.properties) so it survives hot reload; frame captured on the client thread via blocking `invoke(Supplier)`.
+- Chain clean: version.txt=663 in+out, 215-entry net/-rooted zip, hot.json sha256 (32c0ca57...) == doricsquest-plugin-24.jar == zip script class (9d66334a...), BUILD_NUMBER=24. No stale-class reship. Inner classes $Frame/$LoginFrame/$Pending changed (options-capture wiring).
+- Live evidence still pending -- feed dark ~12h37m (newest screenshot still the 17:44:02 EDT PIRATESTREASURE_DONE frame; zero ERNEST_/IMPCATCHER_/DORIC_ frames ever). Acceptance lines: `DORIC_CONFIRM_RECOVERY ... decision=RECHECK_AND_ACCEPT_YES` / `DORIC_CONFIRM_RETRY_READY`; until then, Alex's in-chat runtime reports govern.
+
 ## 2026-10-01 06:18 EDT (Muse review-loop) -- DORIC BUILDS 22+23 REVIEW: PASS (patch-661 dialogue diagnostics, patch-662 "Yes." confirmation)
 
 - Alex shipped Doric Build 22 (patch-661.zip, commit 4cae8f86 10:15:50Z) and Build 23 (patch-662.zip, commit 62944be5 10:16:59Z) within ~75s of each other. Read-only byte-level review of both vs patch-660: PASS.
