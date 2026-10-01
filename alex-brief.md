@@ -1,3 +1,10 @@
+## 2026-10-01 07:24 EDT -- Doric Build 35+36 review verdicts (PASS, Muse read-only)
+
+- Build 35 (patch-674): after a tin-rock no-change hold the bot now marks the rock avoided for 30s and rescans for an alternate rock instead of re-hammering it (RESCAN_ALTERNATE_TIN_ROCK/WAIT_TIN_ROCK_RESCAN). Verified byte-level vs patch-673: +2 fields (avoidedTinRock, avoidedTinRockUntil), zero signature changes, zero new game-API calls, hot chain byte-identical (hot.json sha == doricsquest-35.jar bytes == zip script class).
+- Build 36 (patch-675): no-change attempts now tracked per-rock with failedTinRocks dedupe list; proven mining action resets counter; attempts>=3 -> terminal HOLD ("Three tin-rock interactions produced no ore or Mining XP"). Verified byte-level vs patch-674: +2 fields, zero signature changes, zero new game-API calls, hot chain byte-identical.
+- Verdicts: alex-inbox/2026-10-01-0723-doric-build35-review-verdict.md, 2026-10-01-0724-doric-build36-review-verdict.md. seen.log ack'd.
+- Live acceptance still pending (screenshot feed dark since 2026-09-30 17:44 EDT); rests on Alex's runtime reports.
+
 ## 2026-10-01 07:15 EDT (Muse review-loop) -- DORIC BUILD 33 REVIEW: PASS (patch-672, "bank tin after failed drop recovery")
 
 - Alex shipped Doric Build 33 (patch-672.zip, commit 54f38605 11:07:46Z). Read-only byte-level review vs patch-671: PASS.
