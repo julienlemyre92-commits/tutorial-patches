@@ -1,4 +1,13 @@
 
+## 2026-10-01 05:19 EDT (Muse review-loop) -- Doric Builds 15/16 reviewed: PASS
+
+- Alex shipped patch-653 (Build 15, a1a4dfe7) and patch-654 (Build 16, 4a4edd5e); version.txt=654.
+- Byte-level review: both zips 215-entry net/-rooted, version.txt matches. Build15 delta: loginTick writes a live diagnostic `error` ("<elapsedMs> <sizeA>/<sizeB> <world-list-status>") before the 20s login-timeout hold -- continuous login-observation pulse in the status file; diagnostic-only. Build16 delta: hot-reload restore drops the phase==HOLD gate on client-thread-timeout recovery AND resets clientReadTimeouts/clientReadRetryAt -- the 4-timeout terminal hold is no longer sticky across ships; retry budget refreshes per hot-reload. No new game-API calls; markers honest.
+- [M behavior note] a permanently-timing-out observation now retries on every ship's hot-reload instead of holding -- could mask a permanent failure as activity; deliberate per commit line, PASS, but watch for RETRY_CLIENT_OBSERVATION cycling with no progress.
+- Carry-forwards unchanged: blocking cross-map walkTo, single-shot terminal MINE_/no-rock HOLDs, manifest sha256 mismatch (informational), MANIFEST.MF in zip.
+- Live verification still pending for ALL Doric builds: screenshot feed dark since 2026-09-30 17:44 EDT (~11h36m), zero DORIC_* frames ever. Watching for RUNNING_BUILD=15/16 banner, the new login diagnostic lines, TO_RIMMINGTON_MINE proof.
+- Read-only run; nothing shipped, no race (both ships preceded the run).
+
 ## 2026-10-01 05:17 EDT (Muse review-loop) -- Doric Builds 13/14 reviewed: PASS (marker-only)
 
 - Alex shipped patch-651 (Build 13, 8b6083fd @ 09:14:43Z) and patch-652 (Build 14, 59096b8f @ 09:15:34Z); version.txt=652.
