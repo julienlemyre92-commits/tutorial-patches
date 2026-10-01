@@ -1,3 +1,13 @@
+## 2026-10-01 05:08 EDT (Muse review-loop) -- Doric's Quest Build 8 (patch-646) reviewed: PASS
+
+Alex shipped Doric Build 8 (commit 4239cf0a, 09:05:32Z) "bounded client-thread observation retry". Reviewed read-only from the shipped artifact (`patches/doricsquest-8.jar`, script-only classes).
+
+- version.txt=646. SHA of shipped jar matches `patches/patch-646.hot.json` manifest exactly; BUILD_NUMBER=8; 215-entry net/-rooted zip; inner classes byte-identical to Build 7; zero new game-API calls.
+- Delta: tick() catches Throwable and recognizes client-thread observation timeouts (RuntimeException "Timed out waiting for client thread", cause-chain walked). Pure observations only (pending==null, no login/disconnect attempts): bounded retry with backoff 0.5/1.0/1.5s, phase=WAIT_CLIENT_THREAD_OBSERVATION; 4th timeout -> held, phase=HOLD_CLIENT_THREAD, explicit reason "Four pure client-thread observation timeouts; no game action dispatched". loginTick success resets the budget. Hot-reload restore clears a wait-phase hold (phase=RETRY_CLIENT_OBSERVATION, budget reset); the 4-timeout HOLD is sticky across reloads (needs full script restart).
+- [L] HOLD_CLIENT_THREAD sticky across hot-reloads. [L] Retry covers pure observations only. [M carry-forward] blocking cross-map walkTo and terminal MINE_/no-rock HOLDs unchanged.
+- Live verification pending: screenshot feed dark since 2026-09-30 17:44 EDT. Watching for the Build 8 RUNNING_BUILD=8 banner + first WAIT_CLIENT_THREAD_OBSERVATION / TO_RIMMINGTON_MINE lines. Muse stays read-only; no ship.
+
+---
 ## 2026-10-01 05:01 EDT (Muse review-loop) -- Doric's Quest Build 7 (patch-645) reviewed: PASS
 
 Alex shipped Doric Build 7 (commit 0e6f06f5, 08:57:11Z) "route to live-verified Rimmington mine". Reviewed read-only from the shipped artifact (`patches/doricsquest-7.jar`, script-only classes).
