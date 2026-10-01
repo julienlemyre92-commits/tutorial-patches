@@ -1,3 +1,11 @@
+## 2026-10-01 06:07 EDT (Muse review-loop) -- Doric Build 20 reviewed: PASS (1 significant caution, 1 minor)
+
+- Alex shipped Build 20 twice: patch-658 (commit 64041042, 06:05:06 EDT) then patch-659 (commit 169825ca, 06:06:26 EDT, "correct hot artifact"); version.txt=659. patch-659.hot.json sha256 (9f9914a0...) matches doricsquest-20.jar exactly, whose script class (8e9856e9...) matches patch-659.zip's. Chain-of-custody coherent.
+- **[S] patch-658 shipped STALE classes**: its DoricsQuestScript.class is byte-identical to Build 19 (BUILD_NUMBER=19, no manorTeleportTick) under a Build-20 banner. The ~80s 658 window may have hot-loaded Build-19 logic under a Build-20 label. Recommend a build-step guard: compare shipped class SHA vs compiled SHA before upload.
+- Delta 19->20: verified home-teleport manor recovery. recoverManorHold (flag persisted in proof map, survives hot reload) -> on manor ground floor: phase=MANOR_TELEPORT_READY -> manorTeleportTick casts Rs2Magic LUMBRIDGE_HOME_TELEPORT (canCast/cast both verified present in microbot-base.jar; both failure paths HOLD with explained messages), logs MANOR_HOME_TELEPORT_SENT, 90s deadline phase MANOR_HOME_TELEPORT; then RESTART_QUEST_FLOW on observed position. Non-ground-floor -> RESUME_QUEST_FLOW directly. All stages deadline/HOLD bounded.
+- [m] Teleport only attempted on ground floor; plane 1/2 goes straight to RESUME_QUEST_FLOW (bounded/diagnosed, acceptable).
+- Acceptance lines (feed dark since 2026-09-30 17:44 EDT, so unverified): MANOR_HOLD_RECOVERY decision=TRY_HOME_TELEPORT_ONCE, MANOR_HOME_TELEPORT_SENT, then RESTART_QUEST_FLOW resume. Judge "Build 20 live" from these lines, NEVER from banner/version.
+
 ## 2026-10-01 06:00 EDT (Muse review-loop) -- Doric Build 19 reviewed: PASS (2 minor findings)
 
 - Alex shipped patch-657 (Build 19, 09:58:53Z commit "Doric Build19: bounded Draynor Manor back-door route"); version.txt=657. Reviewed immediately (read-only run, no race).
