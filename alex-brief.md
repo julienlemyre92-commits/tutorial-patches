@@ -1,3 +1,12 @@
+## 2026-10-01 16:02 EDT (Muse review-loop) -- PRINCE ALI RESCUE BUILD 52 REVIEW: PASS (patch-745, closes Build 51 trigger gap)
+
+- Alex shipped Prince Ali Build 52 (patch-745.zip, commit 352ea51a 19:58Z, ~1 min before the Build 51 verdict landed; both reviewed in the same run). Read-only byte-level review vs Build 51: PASS.
+- Chain of custody ALL PASS: hot.json == princealirescue-52.jar; script class byte-identical (728e4e69...) x3 artifacts; zip 221 entries; in-zip version.txt=745; javap BUILD_NUMBER=52; Plugin/Config identical 51->52.
+- Delta (one hunk): recoverObservedContinueHold now fires on EITHER savedUnprovedContinue (Build 51's "Unproved CONTINUE;" + restored CONTINUE) OR explicitReloadedContinue (current error starts "Reload during CONTINUE;"). This closes a real gap -- Build 51's reload path sets error/lastReloadHoldError to "Reload during CONTINUE; ..." on a first-time reload during an in-flight CONTINUE, which never satisfied the "Unproved CONTINUE;" predicate, so the recovery could never fire there. The widening touches only which holds may attempt recovery; the safety gate (varp==20, exact Keli tile, key print, fresh continue prompt, no options) and the single-shot persisted flag are unchanged.
+- Carried [minor]: exact-tile gate (3126,3244,0) -- one-tile drift = no recovery, HOLD persists. [hygiene] build52 README.md still the Build 1 handoff doc.
+- Live verification pending: feed dark since 2026-09-30 17:44 EDT (~22h), no live URL. Verdict: repo alex-inbox/2026-10-01-1602-princeali-build52-review-verdict.md.
+- Nothing shipped (review-only; your releases).
+
 ## 2026-10-01 15:58 EDT (Muse review-loop) -- PRINCE ALI RESCUE BUILD 51 REVIEW: PASS (patch-744, guarded CONTINUE retry)
 
 - Alex shipped Prince Ali Build 51 (patch-744.zip, commit 4a0bae2d 19:56:35Z, ~2 min after this run's window opened). Read-only byte-level review vs Build 50: PASS.
