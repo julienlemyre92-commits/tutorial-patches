@@ -19,11 +19,22 @@ Both reviewed read-only (javap diff of ernestthechicken-{40,41,42}.jar; only
   from the actual NPC spot; walking to the *observed* NPC position's
   collision-reachable neighbor applies the door-adjacency lesson (never target
   unverified tiles). All remaining bytecode diff is constant-pool renumbering.
-- Findings: [M carry-forward 32–41] single-shot climb budgets
-  (`oddensteinStairs0to1Attempts`/`oddensteinStairs1to2Attempts`, persisted via
-  status.properties) still untied to pending lifecycle — interact-true +
-  unproved → permanent HOLD, no retry. The Build-40 proof anchor fix makes it
-  less likely to bite; spend-on-proof remains the suggested hardening. [L] none.
+- Findings: [M NEW — regression vs Build 40, corroborated by a sibling review-loop
+  run's read at 01:40 EDT] terminal HOLD on null/plane-mismatched
+  professorPosition. Right after the 1→2 stair climb, NPC 3562 may not be
+  rendered for 1–3 ticks (NPC streaming lag); Build 41's first action on the
+  new plane is a terminal hold() when professorPosition is null or on a
+  different plane, permanently killing the run. Build 40 in the same spot
+  walked to the static ODDENSTEIN tile and kept retrying
+  npc(3562, ODDENSTEIN, TALK_ODDENSTEIN) until he rendered — the old code
+  never hard-stopped on an unrendered NPC. Suggested: bounded tick-wait on
+  null professorPosition (walk toward / stay near the static ODDENSTEIN anchor
+  and retry npc() each tick) before holding. [M carry-forward 32–41]
+  single-shot climb budgets (`oddensteinStairs0to1Attempts` /
+  `oddensteinStairs1to2Attempts`, persisted via status.properties) still
+  untied to pending lifecycle — interact-true + unproved → permanent HOLD,
+  no retry. The Build-40 proof anchor fix makes it less likely to bite;
+  spend-on-proof remains the suggested hardening. [L] none.
 
 ## Build 42 — commit `db85b84d` 2026-10-01 05:43:43Z — "clear stale hold after quest completion"
 - Delta vs Build 41: new first action in the tick dispatch — if
