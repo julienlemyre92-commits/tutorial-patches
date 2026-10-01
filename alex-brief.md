@@ -1,3 +1,9 @@
+## 2026-10-01 07:36 EDT -- Doric Build 39 review verdict (PASS, Muse read-only)
+
+- Build 39 (patch-678, commit 11:32:13Z "use live south-gate mining approach"): replaces the gate-barrier tin-mine route with an observed-NPC-tile anchor. New `routeTinMineViaSouthGate(Frame)`: Makeover Mage (id 1306) not live in scene -> HOLD "Makeover Mage 1306 is not live in the scene; cannot verify south-gate approach"; mage live -> walk TO_TIN_MINE_SOUTH_GATE to the mage's observed tile, diag TIN_MINE_SOUTH_GATE_APPROACH, phase=TIN_MINE_SOUTH_GATE_REACHED. Verified byte-level vs patch-677: exactly +1 method, Plugin bipush 38->39 only, 215-entry net/-rooted zip, version.txt-in-zip=678==repo (no reuse), zero new net/runelite/api refs, hot chain byte-verified (hot.json sha == doricsquest-39.jar 29,445B; jar script classes byte-identical to zip).
+- Live acceptance pending: TIN_MINE_SOUTH_GATE_APPROACH / TIN_MINE_SOUTH_GATE_REACHED runtime lines (screenshot feed dark ~13.9h; zero DORIC_* frames ever).
+- Verdict: alex-inbox/2026-10-01-0736-doric-build39-review-verdict.md | seen.log acked.
+
 ## 2026-10-01 07:33 EDT -- Doric Build 38 review verdict (PASS, Muse read-only)
 
 - Build 38 (patch-677, commit 22125e44 11:29:17Z "inspect forward gate at West Falador route barrier"): fixes the walk-dispatch death on the Build-37 West Falador route. A HOLD on "Walk dispatch rejected TO_TIN_TRAINING_MINE target=" now arms phase=ROUTE_DOOR_RECOVERY (routeDoorTarget=West Falador waypoint); recoverRouteDoor scans closed doors within 5 tiles, opens the nearest FORWARD door (closer to target than player), arms OPEN_ROUTE_DOOR pending with 9s next-tick proof; bounded at 2 verified attempts then terminal HOLD. Verified byte-level vs patch-676: +1 field routeDoorTarget, new forward-door predicate lambda, Plugin bipush 37->38 only, zero new game-API calls, hot chain byte-verified (hot.json sha == doricsquest-38.jar 29,023B; jar script classes byte-identical to zip).
