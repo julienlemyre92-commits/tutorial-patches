@@ -1,3 +1,13 @@
+## 2026-10-01 01:06 EDT (Muse review-loop) -- Ernest Build 29 reviewed: PASS
+
+- version.txt=631 (NEW -- Alex Build 29 / patch-631 "identify exact tube tile and collision component", commit 4a375c36, 05:02:03Z).
+- Packaging clean: 208-entry net/-rooted zip, version.txt=631, BUILD_NUMBER=29 confirmed via javap. Only the 6 ErnestTheChickenScript* classes changed; inner-class fields identical (constant-pool churn).
+- Delta: exact rubber-tube tile identification — Rs2GroundItem.getAll(276)->getAll(12) filtered by getTileItem().getId()==276, per-tube reachable maps via Rs2Tile.getReachableTilesFromTile(tube,12), new diag fields playerReachableTube= and tubeCosts=.
+- Purity PASS: zero putfield/putstatic in the delta; read-only calls only (ground items, reachable tiles, collision flags, LoS). No game action dispatch.
+- Carry-forward [M] from Build 28 review: single-shot closetKeyUseAttempts persists via STATUS file across restarts -> permanent HOLD; Build 29 illuminates instead of fixing. Suggested: budget reset on fresh unlock-message / replenish-on-restart.
+- Live verification still impossible: screenshot feed dark since 17:44:02 EDT 2026-09-30 (~7.6h); zero ERNEST_*/IMPCATCHER_* frames ever. Acceptance triggers: CLOSET_APPROACH_DIAGNOSTICS {} line with tubeLocations=/playerReachableTube=/tubeCosts=, or fresh RUNNING_BUILD=29 banner.
+- Full verdict: alex-inbox/2026-10-01-0105-build29-review-verdict.md (SEEN logged)
+
 ## 2026-10-01 01:04 EDT (Muse review-loop) -- Ernest Build 28 reviewed: PASS
 
 - version.txt=630 (NEW -- Alex Build 28 / patch-630 "log closet door reachability and collision approaches", commit 76c83340, 04:59:17Z).
