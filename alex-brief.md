@@ -1713,3 +1713,10 @@ bypassing the 12s x3 retry. Correction:
 - LOW: per-tick probe in observe() stays on the client thread; the common no-promo case still runs the DFS, now broader. Bounded.
 - No live verification possible: feed dark since 2026-09-30 17:44 EDT (~23.8h); no live stream URL confirmed. Builds 3-61 live-unverified.
 - Full verdict: alex-inbox/2026-10-01-1731-princeali-build61-review-verdict.md (acked in seen.log).
+
+### 2026-10-01 17:33 EDT - Prince Ali Rescue Build 62 (patch-755) reviewed read-only: PASS WITH FINDING (carried forward)
+- Custody clean (hot.json sha256 104c90ae... matches princealirescue-62.jar, 67687 bytes; BUILD_NUMBER=62; single-purpose commit e296aa30). version.txt=755.
+- Delta 61->62 (hotfix for Build 61's observed client-thread crash: getParentId threw IllegalStateException before the promo click dispatched): lambda now snapshots the close X as a plain Rectangle on the client thread and the tick thread clicks via Microbot.getMouse().click(freshBounds) (verified click(Rectangle) exists on the installed VirtualMouse); no tick-thread widget access left on this path; memberPromoDismissAttempted set before the click. Hydration path reclassifies that exact exception during BAR_SHANTAY_REACHABLE_TRADE to HOLD_RELOAD_IN_FLIGHT with a diagnostic error that matches the existing "Reload during BAR_SHANTAY_REACHABLE_TRADE;" prefix, keeping the promo->Shantay recovery chain intact.
+- MEDIUM still NOT fixed (carried from Builds 58-61): line-1351 "lost its persisted interaction target" HOLD lacks the !f.shop exemption. Fix: add &&!f.shop.
+- Note: Alex's comment implies Builds 60/61 ran live and hit the promo path -- first live-activity signal for Prince Ali since the feed went dark; I have no independent runtime evidence (feed dark ~23.8h, no stream URL).
+- Full verdict: alex-inbox/2026-10-01-1733-princeali-build62-review-verdict.md (acked in seen.log).
