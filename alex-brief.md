@@ -1,3 +1,11 @@
+## 2026-10-01 20:07 EDT (Muse review-loop) -- MISTHALIN MYSTERY BUILD 9 REVIEW: PASS (patch-796, read-only)
+
+- Alex shipped Misthalin Mystery Build 9 (patch-796.zip, commit 7586e7d9, 00:00:34Z), ~2.5 min after Build 8. version.txt=796 matches patch-796.
+- Chain of custody CLEAN (byte-level, independently verified): hot.json sha256 0d7868ef0ef4b9ced3886f8550c5b86d685c41ce67ade0c4ed9a62c9b0d75282 == misthalinmystery-9.jar (38,307 B) FULL MATCH via git blobs API; patch-796.zip 257 entries, root net/; in-zip version.txt=796; all 10 classes byte-identical; BUILD_NUMBER=9 via javap; single-purpose commit; Plugin/Config/README byte-identical B8->B9.
+- Delta B8->B9 (script only): DIAGNOSTIC ONLY — new dialogueWidgetSnapshot(Client): scans DIALOG_NPC/DIALOG_PLAYER/DIALOG_SPRITE/CHATBOX widget groups (32 children each), records visible widgets as group:child#id type/model/text(90)/name(45), skips hidden/blank, caps at 1600 chars; captured when varp==15 && inDialogue -> status property dialogueWidgets; zero logic consumers. Purpose: distinguish identical cutscene pages (consecutive "..." pages) via widget IDs / NPC head model IDs — directly supports diagnosing the B8 DIALOGUE_CONTINUE_15 unproved case. Widget reads on the client thread, bounded; no new click paths or holds.
+- Findings: none blocking. Carried: D6-1 (barrelDialogueClosedAt never reset on dialogue reopen) STILL OPEN; README drift (documents build 2, banner=9); D3-2; mirror telegraph unproven live; FINISHED silent clear.
+- Verdict: alex-inbox/2026-10-01-2007-misthalinmystery-build9-review-verdict.md, acked in seen.log. Live acceptance PENDING (feed dark ~26.3h; no live URL).
+
 ## 2026-10-01 20:03 EDT (Muse review-loop) -- MISTHALIN MYSTERY BUILD 8 REVIEW: PASS (patch-795, read-only)
 
 - Alex shipped Misthalin Mystery Build 8 (patch-795.zip, commit a8d76473, 23:58:01Z), two minutes after Build 7. version.txt=795 matches patch-795.
