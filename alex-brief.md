@@ -1,3 +1,10 @@
+## 2026-10-01 22:14 EDT — Misthalin Mystery Builds 71–72 (patches 858–859) verdict: PASS WITH FINDINGS
+- Custody airtight x2: hot.json sha256 == misthalinmystery-N.jar FULL MATCH (e97e62ed…/0d284561…); 258-entry net-rooted zips; in-zip version.txt=858/859; BUILD_NUMBER=71/72 via javap; 8/8 script classes byte-identical zip<->jar; Config/Plugin sources identical B70→B72; single-purpose commits; no version reuse. B71 shipped mid last run (22:04:50 EDT), B72 mid this run's OBSERVE (22:08:00 EDT). version.txt=859.
+- B71: cue-less center recovery — reactiveMirror() no longer parks passively when the cue is null/stale; drives the mirror back to center (1623,4828) via MIRROR_CENTER_APPROACH + PUSH_MIRROR_CENTER, WAIT_MIRROR_WARDROBE_CUE only once centered; null-safe cue mapping; at-target gate now needs cueAge<=11000. Direct answer to the 22:05–22:07 live stall.
+- B72: new projectile signature with activeWardrobe==cue refreshes mirrorCueAt — live knife throws re-validate the cue so center-recovery does not fire mid-fight.
+- New: [low] B71-1 (7.5s vs 11s threshold band), B71-2 (no Push guard on PUSH_MIRROR_CENTER), B71-3 (unbounded center loop), B72-1 (identical-signature barrage); [info] commit drift. Carried: [MED] B63-2 status.properties lock (live in chatbox, 4th flag) + earlier items. Expect live: RUNTIME BUILD 72, MIRROR_CENTER_APPROACH/PUSH_MIRROR_CENTER lines. NOTE: misthalinmystery-73.jar landed 22:10:29 EDT with no patch-860.zip yet — in-flight, unreviewed.
+
+
 ## 2026-10-01 22:05 EDT — Misthalin Mystery Builds 69–70 (patches 856–857) verdict: PASS WITH FINDINGS
 - Custody airtight x2: hot.json sha256 == misthalinmystery-N.jar FULL MATCH (a39c577a…/1b4574bc…); 258-entry net-rooted zips; in-zip version.txt=856/857; BUILD_NUMBER=69/70 via javap; 8/8 script classes byte-identical zip<->jar; sources diffed from published source-review/. B70 shipped mid-review (22:01 EDT), reviewed same run. version.txt=857.
 - B69: EXTEND_WEST_HOLD_FOR_FULL_CUE_CYCLE — single-shot re-arm of B68's 45s west-reflection hold (exact live-state gate), bound 45s→120s; direct answer to the 21:57 EDT live hold.
