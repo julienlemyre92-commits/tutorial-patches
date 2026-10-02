@@ -1,3 +1,42 @@
+## 2026-10-01 20:03 EDT (Muse review-loop) -- MISTHALIN MYSTERY BUILD 8 REVIEW: PASS (patch-795, read-only)
+
+- Alex shipped Misthalin Mystery Build 8 (patch-795.zip, commit a8d76473, 23:58:01Z), two minutes after Build 7. version.txt=795 matches patch-795.
+- Chain of custody CLEAN (byte-level, independently verified): hot.json sha256 18f8f80ee83548a30676a75a52685d1985f34084fac809b796e82d79a080da56 == misthalinmystery-8.jar (37,688 B) FULL MATCH via git blobs API; patch-795.zip 257 entries, root net/ (+ benign META-INF, version.txt); in-zip version.txt=795; all 10 classes byte-identical zip<->jars; BUILD_NUMBER=8 in compiled class (javap -constants); single-purpose commit; Plugin/Config/README byte-identical B7->B8.
+- Delta B7->B8 (script only): new persisted `ellipsisContinueRetryUsed` + single-shot hold-recovery for "Unproved DIALOGUE_CONTINUE_15 after 1 dispatch" (barrelCutsceneObserved + varp15 + instanced + near BARREL + full HP + inDialogue + hasContinue + dialogue=="...") -> logs RETRY_STILL_VISIBLE_ELLIPSIS_ONCE, clears hold once. Bounded by the once-flag; no new risk.
+- Findings: [info] the once-flag never resets (negligible, varp-15 one-time cutscene). D6-1 (barrelDialogueClosedAt never reset on dialogue reopen) STILL OPEN.
+- Verdict: alex-inbox/2026-10-01-2003-misthalinmystery-build8-review-verdict.md, acked in seen.log. Live acceptance PENDING (feed dark ~26.2h; no live URL).
+
+## 2026-10-01 20:02 EDT (Muse review-loop) -- MISTHALIN MYSTERY BUILD 7 REVIEW: PASS (patch-794, read-only)
+
+- Alex shipped Misthalin Mystery Build 7 (patch-794.zip, commit 472af09d, 23:56:24Z), ~90s after Build 6. version.txt=794 matches patch-794.
+- Chain of custody CLEAN (byte-level, independently verified): hot.json sha256 ed3d37727809da57744c9a91db64f35d8fb30f62c874edc6a05e5cb5b6421987 == misthalinmystery-7.jar (37,519 B) FULL MATCH via git blobs API; patch-794.zip 257 entries, root net/; in-zip version.txt=794; all 10 classes byte-identical; BUILD_NUMBER=7 via javap; single-purpose commit; Plugin/Config/README byte-identical B6->B7.
+- Delta B6->B7 (script only): widens the B5 BARREL_INSTANCE_DIALOGUE_PROVED false-hold recovery — error prefix now matches any dispatch count, dialogue gate adds f.inDialogue && ("Woo, party on bro!" || startsWith "Woah, that wind"), and sets barrelCutsceneObserved on recovery. Alex reacting to live observation: the barrel cutscene has a second dialogue text ("Woah, that wind...") the B5 exact-match gate missed.
+- Findings: D6-1 NOT addressed, STILL OPEN. No new defects.
+- Verdict: alex-inbox/2026-10-01-2002-misthalinmystery-build7-review-verdict.md, acked in seen.log. Live acceptance PENDING (feed dark ~26.2h).
+
+## 2026-10-01 20:01 EDT (Muse review-loop) -- MISTHALIN MYSTERY BUILD 6 REVIEW: PASS WITH FINDINGS (patch-793, read-only)
+
+- Alex shipped Misthalin Mystery Build 6 (patch-793.zip, commit 081370e7, 23:55:30Z), ~100s after Build 5. version.txt=793 matches patch-793.
+- Chain of custody CLEAN (byte-level, independently verified): hot.json sha256 38cce2b4a30d64b4bd8cf5f96eacf56797916ad848a502d81de1946e685a138b == misthalinmystery-6.jar (37,688 B) FULL MATCH via git blobs API; patch-793.zip 257 entries, root net/; in-zip version.txt=793; all 10 classes byte-identical; BUILD_NUMBER=6 via javap; single-purpose commit; Plugin/Config/README byte-identical B5->B6.
+- Delta B5->B6 (script only): barrel cutscene handling — new persisted barrelCutsceneObserved/barrelDialogueClosedAt; SEARCH_BARREL_FIRST pending + open cutscene dialogue near the barrel (template <=3) -> flag set, pending cleared, BARREL_CUTSCENE_DIALOGUE label (stops re-searching mid-cutscene); new BARREL_RELOAD_DIALOGUE_PROVED hold-recovery (evidence-gated); varp!=15 resets both flags; stage-level 10s bound -> terminal HOLD "Barrel cutscene dialogue ended but quest remained varp15; inspect scene before another Search" instead of a search loop. Verified: generic dialogue(f) continuation runs before stage() in tick(), so an open cutscene dialogue is continued, not preempted by the timer branch.
+- NEW FINDINGS: [LOW] D6-1: barrelDialogueClosedAt is stamped once and never reset when the cutscene dialogue re-opens for another segment — the 10s bound measures total elapsed since the first close, not continuous post-dialogue idle; a multi-segment cutscene spanning >10s would false-HOLD (fail-closed, diagnosable; low reachability).
+- Verdict: alex-inbox/2026-10-01-2001-misthalinmystery-build6-review-verdict.md, acked in seen.log. Live acceptance PENDING (feed dark ~26.2h).
+
+## 2026-10-01 20:00 EDT (Muse review-loop) -- MISTHALIN MYSTERY BUILD 5 REVIEW: PASS (patch-792, read-only)
+
+- Alex shipped Misthalin Mystery Build 5 (patch-792.zip, commit cf733cf7, 23:53:48Z), ~2.5 min after Build 4. version.txt=792 matches patch-792.
+- Chain of custody CLEAN (byte-level, independently verified): hot.json sha256 0148e3bc9679077e7006d07aa95cc99e0b009494b7c1796c7f5e69732f51a669 == misthalinmystery-5.jar (37,073 B) FULL MATCH via git blobs API; patch-792.zip 257 entries, root net/; in-zip version.txt=792; all 10 classes byte-identical; BUILD_NUMBER=5 via javap; single-purpose commit; Plugin/Config/README byte-identical B4->B5.
+- Delta B4->B5 (script only): f.pos is now ALWAYS quest-template coordinates (new rawPos = live instance pos; pos = instanced ? templatePos : rawPos). NPC/object/ground-item scans map to template coords in instances. Route walking resolves instanceDestination on the client thread (nearest live position of the template target via toLocalInstance); target absent from the instance -> IllegalStateException inside the daemon route worker's try/catch -> LOG.warn + segment end -> unconditional restart, bounded by the retained 20s/180s/10-segment holds (no livelock, diagnosable). visibleObject moved onto the client thread via invoke(Supplier) with null-guard preserved. New evidence-gated BARREL_INSTANCE_DIALOGUE_PROVED false-hold recovery (B3's TALK_ABIGALE pattern). Status gains rawPosition.
+- Findings: [LOW/info] D5-1: instance-absent route target burns segments to the 10-segment/180s bound rather than holding immediately (acceptable: bounded, logged). Thread-safety clean throughout.
+- Verdict: alex-inbox/2026-10-01-2000-misthalinmystery-build5-review-verdict.md, acked in seen.log. Live acceptance PENDING (feed dark ~26.2h).
+
+## 2026-10-01 19:59 EDT (Muse review-loop) -- MISTHALIN MYSTERY BUILD 4 REVIEW: PASS (patch-791, read-only)
+
+- Alex shipped Misthalin Mystery Build 4 (patch-791.zip, commit cefe01b8, 23:51:14Z), ~4 min after Build 3. version.txt=791 matches patch-791.
+- Chain of custody CLEAN (byte-level, independently verified): hot.json sha256 b1ac13322acbef95d8982d64a36d282ae949a196f911efda5fb5c69df57d3fef == misthalinmystery-4.jar (36,149 B) FULL MATCH via git blobs API; patch-791.zip 257 entries, root net/ (+ benign META-INF, version.txt); in-zip version.txt=791; 7/7 script + 3/3 plugin classes byte-identical zip<->jars; BUILD_NUMBER=4 in compiled class (javap -constants); single-purpose commit; Plugin/Config/README byte-identical B3->B4.
+- Delta B3->B4 (script only): DIAGNOSTIC ONLY — Frame gains templatePos/instanced/bucketInstances (isInInstancedRegion + fromLocalInstance(localPos) + toLocalInstance(BUCKET).toString()); status gains instanced/templatePosition/bucketInstanceCandidates; ZERO logic consumers. Verdict confirmed null-safe against the decompiled WorldPoint (installed microbot-base.jar): fromLocalInstance never returns null; toLocalInstance returns Collection<WorldPoint>, never null (deprecated Client overload still functional). No new thread hazard (same client-thread frame-capture block).
+- Verdict: alex-inbox/2026-10-01-1959-misthalinmystery-build4-review-verdict.md, acked in seen.log. Live acceptance PENDING (feed dark ~26.2h; no live URL).
+
 ## 2026-10-01 19:52 EDT (Muse review-loop) -- MISTHALIN MYSTERY BUILD 3 REVIEW: PASS WITH FINDINGS (patch-790, read-only)
 
 - Alex shipped Misthalin Mystery Build 3 (patch-790.zip, commit 7cfa11ab, 23:47:19Z), minutes after the Build 2 verdict landed. version.txt=790 matches patch-790.
