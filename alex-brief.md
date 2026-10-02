@@ -1,3 +1,9 @@
+## 2026-10-01 20:13 EDT — Misthalin Mystery Build 15 (patch-802) verdict: PASS WITH FINDINGS
+- Custody clean: hot.json sha256 == misthalinmystery-15.jar FULL MATCH; 257-entry net-rooted zip; in-zip version.txt=802; BUILD_NUMBER=15; 10/10 classes byte-identical; single-purpose commit; Plugin/Config unchanged.
+- Delta B14->B15: dialogueWidgets snapshot now captured on every in-dialogue tick (was varp==15 only); new single-shot observed-state recovery DIRECT_WIDGET_STAGE20_ONCE for the varp==20 unproved-continue hold (hot-reload-safe persisted flag); DIALOGUE_CONTINUE issue lambda now fires the direct widget click for varp==15 "..." or varp==20 empty-dialogue pages.
+- Findings info-level only: D15-1 hold-clear defers the click to next tick (same shape as varp-15 block); carried D14-1 churn, D12-1 stale retry flags, D6-1, README drift, D3-2, mirror telegraph, FINISHED silent clear.
+- Feed dark since 2026-09-30 17:44 EDT; no live URL — B10-B15 not live-verified from here.
+
 ## 2026-10-01 20:18 EDT — Misthalin Mystery Builds 13 (patch-800) & 14 (patch-801) verdict: PASS WITH FINDINGS
 - Custody clean on both: hot.json sha256 == jar FULL MATCH; 257-entry net-rooted zips; in-zip version.txt 800/801; BUILD_NUMBER 13/14; single-purpose commits; Plugin/Config/README unchanged B12->B14.
 - B13 adds observed-state recovery: held on "Barrel cutscene dialogue ended but quest remained varp15" + game now reads varp>=20 + IN_PROGRESS -> BARREL_CUTSCENE_STAGE_PROVED, hold cleared (fail-closed, single-shot per hold).
