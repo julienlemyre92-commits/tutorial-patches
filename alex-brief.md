@@ -1,3 +1,10 @@
+## 2026-10-01 20:13 EDT — Misthalin Mystery Builds 11 (patch-798) & 12 (patch-799) verdict: PASS WITH FINDINGS
+- Custody clean on both: hot.json sha256 == jar FULL MATCH; 257-entry net-rooted zips; in-zip version.txt 798/799; BUILD_NUMBER 11/12; single-purpose commits; Plugin/Config/README identical B10->B12.
+- B11 tightens the direct-widget ellipsis retry gate: drops barrelCutsceneObserved requirement, requires observed snapshot proof "231:5#" AND "231:4#" (NPC-dialogue group visible continue children) — retires the D10-1 child-index heuristic as a guessing problem.
+- B12 splits the retry budget: new persisted directWidgetRetryUsed flag (status.properties save/restore) — single-shot budget survives hot-reload, no double-retry. Fail-closed.
+- Findings: [info NEW] D12-1 stale persisted retry flags could silently suppress future retry widens; carried D6-1 (barrelDialogueClosedAt never reset), README build-2 drift, D3-2, mirror telegraph unproven, FINISHED silent clear. Live acceptance pending (feed dark ~26.4h, no live URL).
+- Expect live: RUNNING_BUILD=12 marker, DIRECT_WIDGET_ELLIPSIS_ONCE with widgets= dumps showing 231:4#/231:5#, DIALOGUE_CONTINUE_15 via direct widget clicks at varp==15.
+
 ## 2026-10-01 20:11 EDT — Misthalin Mystery Build 10 verdict (patch-797): PASS WITH FINDINGS
 - Custody clean: hot.json f8ea145d... == misthalinmystery-10.jar FULL sha256; patch-797.zip 257 entries, net-rooted, in-zip version.txt=797; 17/17 classes byte-identical zip<->jars; BUILD_NUMBER=10 (no lying banner); single-purpose commit; Plugin/Config/README byte-identical B9->B10.
 - Delta (62 lines, Script only): dialogueSignature() now includes dialogueWidgets (distinguishes identical cutscene pages); snapshot drops CHATBOX_GROUP_ID (4->3 groups, less noise) + adds anim=; barrel ellipsis retry renamed DIRECT_WIDGET_ELLIPSIS_ONCE, logs widgets snapshot; NEW: at varp==15 + dialogue "..." the DIALOGUE_CONTINUE_15 issue clicks the continue widget directly — group picked by "217:5#" in snapshot (player group child 5 vs NPC group child 5) via Rs2Widget.clickWidget(int,int), VERIFIED present in installed microbot-base.jar.
