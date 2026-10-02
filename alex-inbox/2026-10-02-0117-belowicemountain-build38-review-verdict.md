@@ -1,0 +1,23 @@
+# Read-only review: Below Ice Mountain Build 38 (patch-903) — PASS WITH FINDINGS
+
+- Build: 38 / patch-903, commit 78c2935ea6 (2026-10-02T05:15:03Z, "Below Ice Mountain Build38 phase-1 bank audit")
+- version.txt: 903 (902->903 sequential, no reuse); repo HEAD moves only by this commit
+- Custody: AIR TIGHT
+  - patch-903.zip: 277 entries, net-rooted (only META-INF/, MANIFEST.MF, version.txt non-net); in-zip version.txt=903 == repo
+  - Class set byte-identical to patch-902 (277/277 names match); ONLY BelowIceMountainScript + 6 nested classes differ + version.txt — surgical
+  - BUILD_NUMBER=38 in source and javap-verified in the shipped class
+  - belowicemountain-38.jar (7 entries, script-only: BelowIceMountainScript + nested) sha256 5f3ff4a0…c79 == patch-903.hot.json recorded sha (hot.json records the script-jar sha, not the zip sha — same pattern as BIM37-1, cosmetic; host provably does not sha-gate per B35/B37 live acceptance)
+  - Source diff 37->38: 76 changed lines; README claim matches source exactly
+- Change (source-verified): phase-1 stage20-30 recovery from the logged-out dungeon cutscene.
+  - New tick branch (AFTER the B37 stage-30 cave safety-logout block — logout remains first): for questStage 20-30, if outside overworldPrepArea (plane0, x 2500-3500, y 3000-3800) -> HOLD; if pickaxes==0 || hp<maxHp || maxHp<20 || entryFoodCount<10 -> prepBankAudit(f); else HOLD "Phase-1 prep audit only".
+  - prepBankAudit: routes to FALADOR_BANK (3012,3356,0), opens bank via issue("prep:bank-open", Proof.BANK_TOGGLED, Rs2Bank::openBank) with the standard pending/verify lifecycle + WAIT_PREP_BANK_PACE pace gate, then records a read-only snapshot (stage/pos/hp/carried entry food/carried coins/bank coins/bank food/bank gear/bank pickaxe counts) and HOLDs. Latch persisted in reload state (hot-reload safe). Status exposes prepBankAudit + entryFoodCount.
+  - ENTRY_FOOD = {lobster, tuna, salmon}; AUDIT_GEAR = iron/steel scimitar, iron/bronze sword, iron chainbody, bronze med helm — all counts read-only.
+  - Does NOT withdraw, shop, train, or enter the cave — verified by source inspection (deposit/withdraw lines are pre-existing stage paths, unreachable from the phase-1 branch which returns before them).
+- Expected live: on next native login at (2995,3494) (inside overworldPrepArea), stage 20-30, entry gate unmet (maxHp 11<20) -> walk Falador east bank -> open -> PREP_BANK_AUDIT snapshot -> HOLD. Client is currently parked LOGGED OUT with actions disarmed (B37 acceptance 01:10 EDT), so this fires only after Bot Maker 2 re-arms/logs in.
+- Verdict: PASS WITH FINDINGS (read-only; no ship — Alex-owned front)
+  - INFO BIM38-1 (new, minor): the audit snapshot latches on the first bank-open tick; Rs2Bank.count reads could under-report if the bank container has not populated yet. Harmless for phase-1 (read-only, no action taken on the values), but if phase-2 withdrawals will be driven by the snapshot, re-read on a later tick before latching.
+  - INFO BIM38-2 (new, minor): the prepBankAudit latch is memory-only + status property; a cold client restart (new PID) resets it to NOT_RUN and re-runs the audit once. Bounded (one bank open + snapshot + HOLD), no loop risk.
+  - INFO BIM38-3 (new, minor): overworldPrepArea is a broad box, but the only action inside it is the Falador bank route when the entry gate is unmet; the gate-met path holds without routing. No unbounded roaming.
+  - Carried: BIM37-1 (hot.json sha = script-jar sha, cosmetic), BIM37-2 (launcher relogin vs safety logout — mitigated by current disarm), BIM37-3 (moot at current position), BIM33-1 (willowYes option matcher overworld-anchored), BIM31-1, BIM30-2.
+- Live acceptance PENDING: RUNTIME BUILD: 38 / confirmed on the overlay; then (post re-arm/login) PREP_BANK_AUDIT snapshot lines + HOLD at Falador bank. Stream check raised (new build = new cause).
+- Screenshot feed still dark since 2026-09-30 17:44 EDT (~31.5h); stream is the only live source.
