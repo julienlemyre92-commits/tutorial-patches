@@ -1,0 +1,23 @@
+{
+  "candidate": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\host-candidate\\release-candidate-974.zip",
+  "sha256": "920c218305fc71010706bff53b12a1fcfd2e344f73dab8a9a5df071a0deb93a1",
+  "baseVersion": 973,
+  "candidateVersion": 974,
+  "hostSha256": "8ae3d32b300d627eab7ab6699a95eb8e94e5037c15f49561ec9b668ce31c8fdf",
+  "runtimeBuildMarker": "f885387d117c71346ac721f841aa325f6c03c273aab4fa3e2a2a7f292eb7efdf",
+  "scriptSha256": "993b50a919221740b1fff9324a39113152bc4adc2acf16823e1ce07dde4b6e1f",
+  "sharedClasses": 104,
+  "scriptClasses": 31,
+  "unrelatedEntriesPreserved": true,
+  "published": false,
+  "liveValidated": false,
+  "guardedClasses": 14,
+  "requiresHostRestart": true,
+  "releaseReady": false,
+  "remaining": [
+    "complete walker guard and rebuild",
+    "verify market fee source",
+    "verify provider activation and same registry in client",
+    "unattended shared handoff"
+  ]
+}
