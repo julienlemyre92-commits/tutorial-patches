@@ -1,0 +1,138 @@
+{
+  "artifact": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\host-candidate\\build-5b3ce5809bd84fd6ad1769628c8ef5ad\\quest-services-host.jar",
+  "sha256": "0285e6b71d6609547c6e99c108c1826756e82856e8cc31905f9624a8b9c80178",
+  "builtAt": "2026-10-02T12:10:05.3564794-04:00",
+  "microbotSha256": "72b641f000bba59b647b9901da81499a05e83d1330457a1fc91f7107008c0254",
+  "sources": [
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\services\\QuestServiceHub.java",
+      "sha256": "a6bb0b72bf6b8e3aef93eee75e4c45260be16888610807b1016e397088989e9a"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\services\\QuestServiceClient.java",
+      "sha256": "1b0b50903c8dcba7ad7ac23fe9bbc87bc2734ef519c000d480d1611b49d1ae31"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\preparation\\PreparationBankService.java",
+      "sha256": "0900460a1c83b7faf6c3e86a62846f9572af51756221f7023b50fe5cb502056e"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\preparation\\PreparationGoal.java",
+      "sha256": "0384e6192a517749cdd47b82a17d297451e3f4fb7da36a58149968755302c8b1"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\preparation\\PreparationMicrobotAdapter.java",
+      "sha256": "cc1217962affbfb2f19ace760ba1ef8f7099eddd540beb61b6a28582f7675c13"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\preparation\\PreparationPlanner.java",
+      "sha256": "21511e3d9f7612166234c214f043671df963428a7c555f86da0efc1bfe617c6c"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\acquisition\\FoodAcquisitionGoal.java",
+      "sha256": "c3b15588058c1200cb28672997ce2d9d53f254df31281286f34ec64a236104f5"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\acquisition\\FoodAcquisitionMicrobotAdapter.java",
+      "sha256": "bb957e05c6d793d054c9f27f53d6ebafbf1a60083d268a72e02eb752cc2d6567"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\acquisition\\FoodAcquisitionPlanner.java",
+      "sha256": "5130d1b6a1460a16d8f7e4deaf0fbb356492e36e881e1173bdf522156c870b38"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\acquisition\\FoodAcquisitionService.java",
+      "sha256": "c5588df52e1a42ecd65c24d38ecb5fcf463b2981bac38166e3b66089d32edb0d"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\acquisition\\QuestGeBuyer.java",
+      "sha256": "b57c30a20bf447b99f46eee302412dd9acd0e09147b3d02069bd0d9549b947a5"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\navigation\\FundingRouteDestinations.java",
+      "sha256": "6b78c93b77cb9adc5ce6faf881f2e64a7ae70e3e2782205681ebabb5f5fe2dd8"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\navigation\\InstalledNavigationGuard.java",
+      "sha256": "c22b401117f17e01d7557c741ec71e6bec5c46fec11f746d2c94c7a2816b8f86"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\navigation\\NavigationApprovalPublisher.java",
+      "sha256": "ba9608ee8b51b528c69e13ea4ac2c95d13fabcd053b31e1a10415e85efe8b531"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\navigation\\NavigationArrival.java",
+      "sha256": "76c121ac0dc973160e77f64e7b2700cf5971488bb0749635053d401d20a71dd1"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\navigation\\NavigationGoal.java",
+      "sha256": "2c6a6ed4b7ac4cd8561121de3bc36c4e4895d70542aa93cf12e3ee1f63ebdec1"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\navigation\\NavigationMicrobotDriver.java",
+      "sha256": "93df3b674a9e50f8ac3aed513bc7a3477c949a97f0b27b49bed0360c61d20983"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\navigation\\NavigationService.java",
+      "sha256": "10b0a6a41a87e6fe5431a77c154cab0a93824d851e35b343fecb83e55092783b"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\navigation\\VerifiedRoutePolicy.java",
+      "sha256": "7995a065cffbac05a9edea0fad6548e4f5cac58e9d40cb9518c48535842bb5b5"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\funding\\FundingMicrobotAdapter.java",
+      "sha256": "97e10eb039b355acd5d2fe24e74c8a80942bfbc2697a1f27122dbebdf85a930d"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\funding\\FundingService.java",
+      "sha256": "a7012422a59a4d65c171ba5e25315a91fee721367b69ba23df20d9d5d44879fd"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\ge-integrated\\QuestGeSeller.java",
+      "sha256": "d1de800a70bad0c0493188a68d627ca0f44f3d5c7c79390270cf08d874117bbe"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\ge-integrated\\QuestGeSellWidgetAdapter.java",
+      "sha256": "38e9f78e8776cde538cd9bd96e0221d28e12344456187a0b075e1b6b0134d912"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\moneymaker\\MoneyMakerPlan.java",
+      "sha256": "7c9725c61e984286da11c21a04480b470cf10f503e48d1e404baf034c46b9292"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\host-candidate\\PreparationFoodRouter.java",
+      "sha256": "6de3082592da35fd1168cb9db3c7b12f60db6da5ceac7be5fb048523ed6a5dd5"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\host-candidate\\QuestFoodRestockPlugin.java",
+      "sha256": "b459843cfbb5c706b5790f2f6217248bceea352f861c423b8bac92b325e86e24"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\host-candidate\\QuestFundingPlugin.java",
+      "sha256": "61b5c5258cfce1c8a0852ae76ae3aa5771dadefbb8a0d8f66ac72d6dd41bf568"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\host-candidate\\QuestNavigationPlugin.java",
+      "sha256": "972ca9691481d176de87eb3036b1183ff5ea371085ddc1a30862e228ca708633"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\host-candidate\\QuestPreparationPlugin.java",
+      "sha256": "9e8e3ea6f8f600de977b7fec5f8b51602aa59293b09301968eacd5fd03f49f2c"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\host-candidate\\QuestServiceBootstrap.java",
+      "sha256": "3809d7033ed2c97316ccea792a801182d92ae6b07404e90d228cabcf0df44a8b"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\..\\belowicemountain\\BelowIceMountainPlugin.java",
+      "sha256": "13f1f47bb43af4101ffe0b7ebcb63c7656baf73aad16389f74e06c0d00625c6e"
+    },
+    {
+      "path": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\host-candidate\\build-5b3ce5809bd84fd6ad1769628c8ef5ad\\QuestServicesBuild.java",
+      "sha256": "85c112595ae7ad732f79b64b5deb7e86db8340a61ff9feffc5669bd7de2d405f"
+    }
+  ],
+  "deployed": false,
+  "runtimeBuildMarker": "932de9e0db38f0c9d035d9b1471c823aed477a35d6bd1afdd7a914d317462819"
+}
