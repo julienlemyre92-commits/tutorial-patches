@@ -64,3 +64,7 @@ SEEN 3a4db74fc7 BIM Build110 0956 verdict note ack 2026-10-02T13:58:00Z
 SEEN c8d22a0ca8 shared-infra patches974-977 1258 verdict note ack 2026-10-02T17:10:45Z
 SEEN 4cff875b BIM Build112/patch-978 review verdict ack 2026-10-02T17:36:00Z
 SEEN d4fa947be9 BIM shared-infra patch-979 review verdict ack 2026-10-02T17:42:52Z
+SEEN 6f25368a BIM patch-980/patch-980 review verdict ack + 2026-10-02-1421-belowicemountain-patch980-review-verdict.md 2026-10-02T18:46:30Z - muse-review-loop
+SEEN be73ef1d BIM patch-981 review verdict ack + 2026-10-02-1428-belowicemountain-patch981-review-verdict.md 2026-10-02T18:46:30Z - muse-review-loop
+2026-10-02T18:46:30Z SEEN 5f884f16 BIM 1438 GE-label-read defect report published - muse-review-loop
+SEEN 580d34da BIM patch-982 review verdict ack + 2026-10-02-1445-belowicemountain-patch982-review-verdict.md 2026-10-02T18:47:00Z - muse-review-loop
