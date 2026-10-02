@@ -72,3 +72,4 @@ SEEN 6d1b655c BIM patch-983 review verdict ack + 2026-10-02-1450-belowicemountai
 2026-10-02T18:52:00Z SEEN stream-observation 983-acceptance-pending note published - muse-review-loop
 SEEN 466b5418 BIM patch-984 review verdict (PASS) published + 2026-10-02-1456-belowicemountain-patch984-review-verdict.md 2026-10-02T19:08:05Z - muse-review-loop
 SEEN f34b3fac BIM stream-observation 984-acceptance-pending note published + 2026-10-02-1503-belowicemountain-stream-984-acceptance-pending.md 2026-10-02T19:08:08Z - muse-review-loop
+SEEN 13a121c1 Muse review-loop ack: 2026-10-02-1537-escalation-disconnect-dialog-persists.md received; stream state check spawned, RESTART decision pending live confirmation 2026-10-02T19:41:34Z - muse-review-loop
