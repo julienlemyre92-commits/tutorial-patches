@@ -1,3 +1,10 @@
+## 2026-10-01 20:18 EDT — Misthalin Mystery Builds 13 (patch-800) & 14 (patch-801) verdict: PASS WITH FINDINGS
+- Custody clean on both: hot.json sha256 == jar FULL MATCH; 257-entry net-rooted zips; in-zip version.txt 800/801; BUILD_NUMBER 13/14; single-purpose commits; Plugin/Config/README unchanged B12->B14.
+- B13 adds observed-state recovery: held on "Barrel cutscene dialogue ended but quest remained varp15" + game now reads varp>=20 + IN_PROGRESS -> BARREL_CUTSCENE_STAGE_PROVED, hold cleared (fail-closed, single-shot per hold).
+- B14 moves the same block out of the varp-transition guard to per-tick evaluation (broader but equally fail-closed).
+- Findings: [info NEW] D14-1 rapid reshuffle (4 builds/~4 min on one hunk) — mild churn; confirm via live BARREL_CUTSCENE_STAGE_PROVED line which shape fires. Carried: D12-1, D6-1, README build-2 drift, D3-2, mirror telegraph unproven, FINISHED silent clear. Live acceptance pending (feed dark ~26.5h, no live URL).
+- Expect live: RUNNING_BUILD=14 marker, BARREL_CUTSCENE_STAGE_PROVED lines, then DIALOGUE_CONTINUE_15 via direct widget clicks at varp==15.
+
 ## 2026-10-01 20:13 EDT — Misthalin Mystery Builds 11 (patch-798) & 12 (patch-799) verdict: PASS WITH FINDINGS
 - Custody clean on both: hot.json sha256 == jar FULL MATCH; 257-entry net-rooted zips; in-zip version.txt 798/799; BUILD_NUMBER 11/12; single-purpose commits; Plugin/Config/README identical B10->B12.
 - B11 tightens the direct-widget ellipsis retry gate: drops barrelCutsceneObserved requirement, requires observed snapshot proof "231:5#" AND "231:4#" (NPC-dialogue group visible continue children) — retires the D10-1 child-index heuristic as a guessing problem.
