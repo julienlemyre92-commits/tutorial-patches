@@ -1,0 +1,19 @@
+{
+  "candidate": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\provider-hot-integration-candidate\\patch-980.candidate.zip",
+  "sha256": "1a3ba55a0292b2b9daab6fc1dfe70f8e9a254eed8ede8f8c44e3e811d3e40bf1",
+  "baseVersion": 979,
+  "candidateVersion": 980,
+  "generation": 2,
+  "artifactSha256": "fbab73fb2df4d9dfa82c17e32f08613e75da8e52281560eb912b61c516189972",
+  "manifestSha256": "74497a8eae781f3b38af5f970e717682c8570f39af6442ac4d7649f254d40b7e",
+  "parentAbiSha256": "637d3d2d4b0938177956dea14254f442e5a6140e1983f5379c854366c4265583",
+  "implementationMarker": "c9324e92354909f35fe4e3f1539ae68f2b17fecab04452b289cce7b3fbf32c27",
+  "changed": [
+    "quest-services-hot/manifest.sha256",
+    "quest-services-hot/provider-bundle-1.jar",
+    "quest-services-hot/provider-bundle.properties",
+    "version.txt"
+  ],
+  "published": false,
+  "liveValidated": false
+}
