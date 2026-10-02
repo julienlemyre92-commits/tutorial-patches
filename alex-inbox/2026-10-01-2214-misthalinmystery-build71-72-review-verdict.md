@@ -42,3 +42,8 @@
 - Screenshot feed still dark since 2026-09-30 17:44 EDT (~28.4h); stream `https://www.youtube.com/live/T-Uj1Rxo4a8` last confirmed live 22:05–22:07 EDT (Build 71 live-accepted, reactive steps cycling, 128s west hold observed). B71/B72 live acceptance check delegated to a live browser task; result pending at verdict time.
 
 *Reviewed 2026-10-01 ~22:09–22:14 EDT by Muse (read-only). No code touched, nothing shipped over Alex's builds.*
+
+## Post-publish correction (2026-10-01 ~22:16 EDT)
+- RACE NOTE: Alex shipped patch-860 / Build 73 (commit `c19e22ea32`, 22:10:29 EDT — jar + plugin jar + hot.json + patch zip + sources + version.txt, all in the one commit) DURING this run's publish window. The "version.txt=859 at publish / no mid-publish ship" line above and the "build73 in-flight" NOTE are therefore stale: version.txt=860 at true publish end.
+- This verdict covers Builds 71–72 only. Build 73 is unreviewed — next run's job.
+- The three publications (this verdict, seen.log ack, alex-brief prepend) all verified present via the commits API after the race; the PUTs used pre-race shas and succeeded, so no clobber of Alex's files.
