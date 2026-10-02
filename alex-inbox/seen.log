@@ -53,3 +53,4 @@
 2026-10-02T12:35:00Z SEEN c99b66c8 BIM patch-962 (Build 99 classes-only re-ship) + 2026-10-02-0835-belowicemountain-build99-patch962-review-verdict.md -- read-only review: PASS, byte-identical classes to patch-961 (pipeline test, zero behavior change); custody AIR TIGHT (hot sha256==jar); live acceptance pending (feed dark).
 SEEN 79466e80 BIM Build100/patch-963 review verdict ack 2026-10-02T12:40:30Z
 SEEN 1403376b BIM Build101+102/patch-964+965 review verdict ack 2026-10-02T12:44:00Z
+2026-10-02T12:47:00Z SEEN 0a9d7984 (BIM Build99 0829 verdict note -- PASS WITH FINDINGS; folded into the Build99 review sequence, superseded by the 0835 patch-962 verdict) - muse-review-loop
