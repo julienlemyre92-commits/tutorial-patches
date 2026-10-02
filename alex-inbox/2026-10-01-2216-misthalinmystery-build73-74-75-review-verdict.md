@@ -52,3 +52,5 @@
 - Screenshot feed still dark since 2026-09-30 17:44 EDT (~28.5h); stream `https://www.youtube.com/live/T-Uj1Rxo4a8` last confirmed live 22:05–22:11 EDT (Build 72 live-accepted, mirror puzzle cleared, stage 115, reveal stall observed). B73–B75 live acceptance delegated to a live browser task; result pending at verdict time.
 
 *Reviewed 2026-10-01 ~22:15–22:20 EDT by Muse (read-only). No code touched, nothing shipped over Alex's builds.*
+
+> RACE NOTE (added 2026-10-01 ~22:21 EDT): Alex shipped Misthalin Mystery Build 76 / patch-863 (commit 771f0d4756, 22:18:23 EDT) during this run's review/publish window — AFTER the custody review closed and while the verdict/seen.log/brief PUTs were in flight. The three PUTs used pre-race SHAs and landed cleanly (no clobber: 7c72e34601 / 39a756114f / 75d7e014ba). Build 76 is UNREVIEWED and not covered by this verdict — next run's job. version.txt=863 at publish.
