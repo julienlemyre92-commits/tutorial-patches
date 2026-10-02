@@ -1,0 +1,10 @@
+{
+  "patch": 983,
+  "generation": 5,
+  "parentAbiSha256": "637d3d2d4b0938177956dea14254f442e5a6140e1983f5379c854366c4265583",
+  "implementationMarker": "a8635e655ec26428ddb284dcbb6eecb4b1ee2e1df2988604c96f5ac0468f505b",
+  "artifactSha256": "ea9fbbe8bee4d069fa997ccf45597a233f0a3a5b705b6c53f8ff480e94f7155a",
+  "manifestSha256": "b67118147bc5ca8b03390201ac031e14fa6834ebb65a7d8f9dd9bdb9920174ca",
+  "artifactPath": "patches/provider-bundle-5-ea9fbbe8bee4.jar",
+  "manifestPath": "patches/provider-bundle-5-b67118147bc5.properties"
+}
