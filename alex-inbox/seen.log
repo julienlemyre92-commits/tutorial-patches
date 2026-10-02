@@ -43,3 +43,4 @@
 2026-10-02 07:17 EDT muse-review-loop: SEEN 48942846 (BIM Build90 death-recovery handoff, patch-952) - verdict 0716 published
 2026-10-02 07:22 EDT muse-review-loop: SEEN 851f9482 (BIM Build91 empty-equipment bridge, patch-953) - verdict 0722 published (PASS, INFO x2; custody AIR TIGHT incl. jar warn-string match)
 2026-10-02 07:31 EDT muse-review-loop: SEEN 583dcfba (BIM Build92 stage35-GE food restock, patch-954; commit msg says Build91, ships 92) - verdict 0730 published (PASS WITH FINDINGS: F1 stale-checkpoint HOLD across sessions, F2 msg/build mismatch, F3 README gap carried)
+2026-10-02 07:34 EDT muse-review-loop: SEEN 53e77828 (BIM Build93 trout-only stage35, patch-955; commit msg says Build91, ships 93) - verdict 0733 published (PASS WITH FINDINGS: W1 stale-checkpoint HOLD carried item-specific, I1-I6)
