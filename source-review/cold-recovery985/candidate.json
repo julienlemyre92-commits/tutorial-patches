@@ -1,0 +1,15 @@
+{
+  "baseVersion": 984,
+  "candidateVersion": 985,
+  "build": 113,
+  "generation": 7,
+  "sha256": "f7a56b47d6558c104fa931c6618a5e567c1c38a88b2c08b7d4a423923ad3a0b4",
+  "artifactSha256": "2afc697344bc11acf05638ce6be3dc01df4965c4d0f49e804d91420ceeb72ece",
+  "manifestSha256": "4b30fb5f8d821ee3a7c009877ce154b060f810d2032b875fe687308039f42646",
+  "parentAbiSha256": "637d3d2d4b0938177956dea14254f442e5a6140e1983f5379c854366c4265583",
+  "implementationMarker": "2768105567bc6feafd809151ddcac6d04dedba6ce216f94779a960ea20454c06",
+  "classSha256": "b942c03647b8c3f21ffc7e05d9618c53f08da9f118e9550f38e2ae4edbf56729",
+  "changedCount": 34,
+  "published": false,
+  "liveValidated": false
+}
