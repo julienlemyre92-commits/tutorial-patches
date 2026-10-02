@@ -1,0 +1,25 @@
+{
+  "candidate": "C:\\Users\\No 1\\Documents\\Codex\\2026-09-26\\what\\work\\questcommon\\provider-hot-integration-candidate\\patch-979.candidate.zip",
+  "sha256": "358ed1e86fb99270ec772bd21ab2ad68496137c435cf9a580291b888da50fa38",
+  "baseVersion": 978,
+  "candidateVersion": 979,
+  "questBuild": 112,
+  "questClassSha256": "324622a3772caf5f17fd66da1a51c55c2ac3897f57e62e99c7e1dcdb2a3af818",
+  "providerGeneration": "1",
+  "providerMarker": "fdeff885e2e7d2cb35f96bb3c966fa115f239eda2671048903fd6b07c68b4736",
+  "providerAbi": "637d3d2d4b0938177956dea14254f442e5a6140e1983f5379c854366c4265583",
+  "changed": [
+    "net/runelite/client/plugins/microbot/questcommon/acquisition/QuestFoodRestockPlugin.class",
+    "net/runelite/client/plugins/microbot/questcommon/funding/QuestFundingPlugin.class",
+    "net/runelite/client/plugins/microbot/questcommon/hot/ProviderHotFacade.class",
+    "net/runelite/client/plugins/microbot/questcommon/navigation/QuestNavigationPlugin.class",
+    "net/runelite/client/plugins/microbot/questcommon/preparation/QuestPreparationPlugin.class",
+    "quest-services-hot/manifest.sha256",
+    "quest-services-hot/parent-abi.sha256",
+    "quest-services-hot/provider-bundle-1.jar",
+    "quest-services-hot/provider-bundle.properties",
+    "version.txt"
+  ],
+  "published": false,
+  "liveValidated": false
+}
