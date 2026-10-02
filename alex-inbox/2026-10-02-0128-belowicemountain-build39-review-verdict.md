@@ -1,0 +1,23 @@
+# Read-only review: Below Ice Mountain Build 39 (patch-904) — PASS WITH FINDINGS
+
+- Build: 39 / patch-904, commit 6687f965a1 (2026-10-02T05:22:55Z, "Below Ice Mountain Build39 bounded food purchase")
+- version.txt: 904 (903->904 sequential, no reuse); repo HEAD moves only by this commit
+- Custody: AIR TIGHT
+  - patch-904.zip: 277 entries, name set byte-identical to patch-903; ONLY the 7 BelowIceMountainScript classes + version.txt differ — surgical
+  - in-zip version.txt=904 == repo version.txt
+  - runtimeBuild() returns 39 in the shipped class (javap bipush 39) — banner will be honest
+  - belowicemountain-39.jar sha256 3f018d92...e2ba5 == patch-904.hot.json recorded sha (hot.json records the script-jar sha, not the zip sha — same cosmetic pattern as B35/B37/B38)
+  - Source diff 38->39: 221 diff lines; README claim ("bounded food purchase") matches source exactly
+- Change (source-verified): phase-2 food purchase after B38's empty-food bank audit.
+  - prepFood() state machine: QUOTE -> BANK_COINS -> PLACE -> WAIT_FILL -> DONE (then deliberate HOLD "Phase-2 food collected").
+  - QUOTE: needs bank open (skips walk/open when already open — hot-load safe onto B38's held bank-open state), needs 10-entryFoodCount slots, re-checks bank ENTRY_FOOD==0, quotes TUNA then SALMON via Rs2GrandExchange.getRealTimePrices with 15% ceiling, only when quote*needed <= 800.
+  - BANK_COINS: withdraws ONLY the deficit via Rs2Bank.withdrawX(COINS, deficit), HOLDs honestly if the bank can't cover; closes bank before travel.
+  - PLACE: walks Falador bank -> Varrock GE (3165,3486,8), refuses occupied GE slots ("GE has existing offer; refusing to touch it"), one-shot buyItem("Tuna"|"Salmon", quote, needed) with prepGePlaceAttempted persisted across hot reloads (quiesce/restore transfers prepFoodId/prepFoodQuantity/prepFoodQuote/prepFoodOfferAt — complete, verified in source).
+  - WAIT_FILL: 45s fill timeout -> HOLD, no duplicate placement; collect via collectOffer(slot,false) only on BOUGHT/quantitySold>=needed.
+  - Proofs are tight: GE_OFFER requires price>0, price<=quote, qty match, 0<spent<=800; GE_COLLECTED requires inventory gain >= initial+qty AND coin debit <=800. Shim signatures verified against the installed microbot jar; collectOffer(slot,false) = collect-to-inventory (bytecode: "Collect-items"/"Collect-notes" vs "Bank").
+  - verify() timeout on prep:ge-place -> pending cleared + HOLD "one-shot proof timed out" (no silent retry loop).
+- FINDING (minor, pre-existing packaging): patch-904.zip carries META-INF/MANIFEST.MF with Main-Class (jar-style build, not `zip`) — same pattern as B38's zip, violates the standing build rule. Harmless on the BIM hot-reload path (host consumes the sha-verified script jar); latent only if a full client-jar injection ever runs. Restating, not new.
+- NOTE: the 800 cap vs the bank-coins discrepancy (B38 script read 3023, bot-maker panel said 1,023) — still open; either value covers the cap, and BANK_COINS HOLDs honestly on a real shortfall.
+- NOTE: post-collect ends in deliberate HOLD; training/Willow/guardian remain disabled per design.
+- No Alex-owned code touched; no patch shipped over Alex's build (read-only review).
+- VERIFY BY (live): startup banner "RUNTIME BUILD: 39", then NEW diag lines "PREP_GE_QUOTE id=... observedBuy=... ceiling=... quantity=... cap=800" followed by PREP_FOOD_* stage lines and the GE offer/collection proofs. Acceptance only from those new lines, never the banner alone. Next routine stream window 01:30 EDT.
