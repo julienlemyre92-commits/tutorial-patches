@@ -61,7 +61,7 @@ import org.slf4j.LoggerFactory;
 /** Isolated Corsair Curse candidate. The live quest/varbits, never a click, select each next step. */
 public final class CorsairCurseScript extends Script implements QuestReloadParticipant {
     private static final Logger LOG=LoggerFactory.getLogger(CorsairCurseScript.class);
-    public static final int BUILD_NUMBER=20;
+    public static final int BUILD_NUMBER=21;
     private static final int SPADE=ItemID.SPADE, TINDER=ItemID.TINDERBOX, RELIC=ItemID.CORSCURS_RELIC;
     private static final int[] FOOD={ItemID.LOBSTER,ItemID.TUNA,ItemID.SALMON,ItemID.TROUT};
     private static final WorldPoint FARM=pt(3030,3273,0), DOCK=pt(2910,3226,0);
