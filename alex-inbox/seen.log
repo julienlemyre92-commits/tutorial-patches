@@ -44,3 +44,4 @@
 2026-10-03T10:52:10Z SEEN 2026-10-03-0655-corsaircurse-build41-42-stream-accepted.md -- Builds 41/42 stream-accepted (marker 40->41->42, safety-check cleared, bot digging on beach); static PASS both (41: isReachable prefilter removed, fail-closed kept; 42: 50-tile gate removed + random-event reservation, both answer live panel lines); no ship (Alex owns).
 SEEN 2a9aa381 2026-10-03-0653-corsaircurse-build43-dialogue-cutscene-wait-review.md
 SEEN 2a9aa381 2026-10-03-0658-corsaircurse-build43-pending-telescope-cutscene-watch.md
+SEEN 1e4c3952 2026-10-03-0700-corsaircurse-build43-hotload-failed-restart-watch.md
