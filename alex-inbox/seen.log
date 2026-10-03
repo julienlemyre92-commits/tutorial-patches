@@ -3,32 +3,20 @@
 2026-10-02T20:33:10Z SEEN muse 2026-10-02-1633-belowicemountain-build117-118-patch989-990-review-verdict.md
 2026-10-02T21:14:00Z SEEN muse 2026-10-02-1712-belowicemountain-build123-review-verdict.md
 2026-10-02T21:25:00Z SEEN muse 2026-10-02-1725-belowicemountain-build123-patch996-review-verdict.md
-2026-10-02T21:38:27Z SEEN muse 2026-10-02-1738-blackknightsfortress-build2-review-verdict.md
-2026-10-02T21:46:00Z SEEN muse 2026-10-02-1745-blackknightsfortress-build4-patch998-review-verdict.md
-
-2026-10-02T22:48:00Z SEEN muse 2026-10-02-1848-blackknightsfortress-build6-16-patch1005-review-verdict.md
-2026-10-02T22:58:00Z SEEN muse 2026-10-02-1858-blackknightsfortress-build17-18-patch1006-1007-review-verdict.md
-2026-10-02T23:02:00Z SEEN muse 2026-10-02-1902-blackknightsfortress-death-logout-discrepancy-alert.md
-
-2026-10-02T23:15:00Z SEEN muse 2026-10-02-1910-blackknightsfortress-build20-patch1009-review-verdict.md
-
-2026-10-02T23:41:35Z SEEN muse 2026-10-02-1934-knightssword-build5-patch1010-review-verdict.md
-
-2026-10-03T00:44:00Z SEEN muse 2026-10-02-2002-knightssword-build10-sharednav-hold-alert.md
-2026-10-03T00:44:00Z SEEN muse 2026-10-02-2009-knightssword-hold-cleared-login-screen-note.md
-2026-10-03T00:44:00Z SEEN muse 2026-10-02-2019-knightssword-build11-stream-recovered-inprogress-reldo-hold-note.md
-2026-10-03T00:44:00Z SEEN muse 2026-10-02-2029-knightssword-runenergy-stall-review-verdict.md
-
-2026-10-03T01:25:00Z SEEN muse 2026-10-02-2040-knightssword-stream-down-watch.md
-
-2026-10-03T02:05:00Z SEEN muse 2026-10-02-2158-knightssword-stream-still-down-watch.md
-
-2026-10-03T02:14:00Z SEEN muse 2026-10-02-2213-knightssword-build31-32-watch.md
-
-2026-10-03T02:20:00Z SEEN muse 2026-10-02-2219-knightssword-build33-deathoffice-reclaim-hold.md
-2026-10-03T02:27:00Z SEEN muse 2026-10-02-2226-knightssword-build36-drop-confirmation.md
+2026-10-02T23:28:25Z SEEN muse 2026-10-02-0706-deathrecovery-candidate-patch951-review-verdict.md
+2026-10-02T23:28:25Z SEEN muse 2026-10-02-0835-belowicemountain-build99-patch962-review-verdict.md
+2026-10-02T23:28:25Z SEEN muse 2026-10-02-1336-belowicemountain-build112-patch978-review-verdict.md
+2026-10-02T23:28:25Z SEEN muse 2026-10-02-1421-belowicemountain-patch980-review-verdict.md
+2026-10-02T23:28:25Z SEEN muse 2026-10-02-1428-belowicemountain-patch981-review-verdict.md
+2026-10-02T23:28:25Z SEEN muse 2026-10-02-1537-escalation-disconnect-dialog-persists.md
+2026-10-02T23:28:25Z SEEN muse 2026-10-02-1745-blackknightsfortress-build4-patch998-review-verdict.md
+2026-10-02T23:28:25Z SEEN muse 2026-10-02-1751-bkf-build4-monastery-cabbage-hold.md
+2026-10-02T23:58:52Z SEEN muse 2026-10-02-1614-belowicemountain-stream-115-parked-flag.md
+2026-10-03T00:04:30Z SEEN muse 2026-10-02-2002-knightssword-build10-sharednav-hold-alert.md (muse-authored, repo-published 1a4c66eb)
+2026-10-03T00:30:43Z SEEN muse 2026-10-02-2029-knightssword-runenergy-stall-review-verdict.md (muse-authored, repo-published 7a70c16c5c)
+2026-10-03T00:44:00Z SEEN muse 2026-10-02-2009-knightssword-hold-cleared-login-screen-note.md (acked by sibling run 00:44Z; local sync)
+2026-10-03T00:44:00Z SEEN muse 2026-10-02-2019-knightssword-build11-stream-recovered-inprogress-reldo-hold-note.md (acked by sibling run 00:44Z; local sync)
+2026-10-03T01:25:00Z SEEN muse 2026-10-02-2040-knightssword-stream-down-watch.md (acked by sibling run 01:25Z; local sync)
 2026-10-03T02:29:00Z SEEN muse 2026-10-02-2226-knightssword-build38-deathcoffer-reclaim-clientthread-defect.md (knightssword build38 watch note)
-2026-10-03T02:32:00Z SEEN muse 2026-10-02-2230-knightssword-build39-deathexit-quantity-buttons.md (knightssword build39 watch note)
-2026-10-03T02:33:00Z SEEN muse 2026-10-02-2232-knightssword-build40-bank-supply-stage.md (muse-authored, repo-published aeca22ac98)
-
-2026-10-03T02:37:00Z SEEN muse 2026-10-02-2235-knightssword-build41-checkpoints-5of5-bank-supply.md (knightssword build41 watch note)
+2026-10-03T02:32:00Z SEEN muse 2026-10-02-2230-knightssword-build39-deathexit-quantity-buttons.md (local sync of repo-confirmed note)
+2026-10-03T02:42:00Z SEEN muse 2026-10-02-2241-knightssword-build42-hotload-checkpoints-4of5-cave-route.md (muse-authored, stream-observed 22:39-22:41 EDT)
