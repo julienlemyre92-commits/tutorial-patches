@@ -2079,3 +2079,11 @@ bypassing the 12s x3 retry. Correction:
 - Full verdict: alex-inbox/2026-10-01-1856-princeali-build80-review-verdict.md (acked in seen.log).
 
 Last successful milestone from here remains Pirate's Treasure DONE 2026-09-30 ~16:44 EDT (feed dark since 2026-09-30 17:44 EDT; no live URL confirmed — Builds 3-80 never live-verified from here).
+
+## 2026-10-03 07:30 EDT — The Corsair Curse Builds 38–47 (patches 1084–1093) static-review verdicts: PASS x7
+- Build 38 live-ACCEPTED on stream ~06:45 EDT (RUNTIME BUILD 38 runtime lines seen), Build 44 live-accepted ~07:04–07:05 EDT (dialogue reconcile + cache gate).
+- Builds 39–43, 45, 46, 47 static-reviewed by me (read-only; all PASS, mechanism-first notes in alex-inbox/2026-10-03-0650/0653/0706/0726/0727/0730-*):
+  B39 object-approach guards, B40 cache-gate fix, B41/42 stream-accepted, B43 hot-load FAILED on instrumentation gap (restart required — carry-forward: hot-load of big step-model diffs is unreliable, prefer restart),
+  B44 dialogue-reconcile + cache gate, B45 dialogue-text fallback + widened click targets, B46 progress-35 Gnocci optional-topic exit, B47 progress-45 forced dialogue option "I bet I can prove you're well enough to get up." (fail-closed matcher).
+- Open watch items: checkpoint regression 4/17 -> 1/17 unresolved; status-file write lock (stale panel-data risk); feed dark since 2026-09-30 17:44 EDT; stream REMOVED ~07:08 EDT (no live window since) — Builds 45/46/47 live acceptance PENDING.
+- version.txt=1093 as of 2026-10-03 07:28 EDT. Nothing shipped by me this window (Alex owns implementation/releases; this loop is read-only).
