@@ -1,0 +1,14 @@
+{
+  "baseArtifactSha256": "2afc697344bc11acf05638ce6be3dc01df4965c4d0f49e804d91420ceeb72ece",
+  "oldParentAbi": "637d3d2d4b0938177956dea14254f442e5a6140e1983f5379c854366c4265583",
+  "newParentAbi": "d8911107822cacd5e11c4058569d04df098e6b85ce48f520610ecd3fb71ed9ea",
+  "implementationMarker": "d83ad19411bac320f0b962732a45958f73ea7e613295733e4e899d5fc3904284",
+  "artifactSha256": "92f528e306ed0fa0b506aeb38a03bedd37435d727da533df431e07118428b908",
+  "manifestSha256": "a83cc4d3d25a3b0c00096b070f9da5be1ffad86425cde9e5fd98572c3685b84f",
+  "classCount": 95,
+  "parentGoal": {
+    "net/runelite/client/plugins/microbot/questcommon/training/CombatTrainingGoal.class": "420bc49a85192150aeeb0434c4233d9e59e0db83c6a6e95fcdd4ccd3544b5136",
+    "net/runelite/client/plugins/microbot/questcommon/training/CombatTrainingGoal$Region.class": "99582b3ef944ffe4c0d0122ee883c32a763c35f86a8f5388e0a5a2bf4db3d1a0"
+  },
+  "runtimeInstalled": false
+}
