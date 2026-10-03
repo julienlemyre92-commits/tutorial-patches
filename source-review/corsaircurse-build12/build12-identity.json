@@ -1,0 +1,9 @@
+{
+  "build": 12,
+  "pluginSha256": "10f7a80efb8264b994372b6314a62cbf8ebc956164c987c6ad633f7717bd5ddd",
+  "scriptSha256": "f9e058648121f17ecd6a1982e39a39acfc27ca68b5f1d49a6770bb56f237e55f",
+  "definingClassSha256": "1020c542846c79c1386ae03ed47bb1c410c7478ee0865573ea0a2c62b56513f7",
+  "referenceMicrobotSha256": "aac8b9fec8590cbf52c8b05e000096dfcb759bc23a467f0fe7b4d9cb29e05b96",
+  "fullClassCount": 13,
+  "scriptClassCount": 7
+}
