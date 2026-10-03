@@ -1,0 +1,1 @@
+{"patch": 1110, "parentClassSha": "085170facde35d664f4555c22612ded831afe54841cd1993f4066ddb56bdacd1", "patchSha": "e3ef956da5829aafe823398ffd0f8a7d395ad3fa28b4c29879305a805ea87207", "overlays": ["net/runelite/client/plugins/microbot/questcommon/hot/ProviderHotCoordinator$Evidence.class", "net/runelite/client/plugins/microbot/questcommon/hot/ProviderHotCoordinator.class"]}
