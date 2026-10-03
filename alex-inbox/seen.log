@@ -42,3 +42,4 @@
 2026-10-03-0645-corsaircurse-build38-accepted-build39-landed-watch.md | seen by muse review-loop 2026-10-03T10:45Z
 2026-10-03T10:47:39Z SEEN 2026-10-03-0650-corsaircurse-build40-cachegate-static-review.md -- Build 40 static review published (cache-gate removal from objectApproach, PASS; live acceptance pending); no ship (Alex owns Corsair Curse).
 2026-10-03T10:52:10Z SEEN 2026-10-03-0655-corsaircurse-build41-42-stream-accepted.md -- Builds 41/42 stream-accepted (marker 40->41->42, safety-check cleared, bot digging on beach); static PASS both (41: isReachable prefilter removed, fail-closed kept; 42: 50-tile gate removed + random-event reservation, both answer live panel lines); no ship (Alex owns).
+SEEN 2a9aa381 2026-10-03-0653-corsaircurse-build43-dialogue-cutscene-wait-review.md
