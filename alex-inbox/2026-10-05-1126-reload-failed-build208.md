@@ -1,0 +1,6 @@
+# Build 208 hot-reload FAILED — Build 207 still active (stream frame read, 11:26 EDT)
+
+- FINDING: Live stream frame decode 2026-10-05 ~11:23 EDT shows dashboard header RUNTIME BUILD: BUILD 208, but the GAME ITERATION line reads verbatim: "Preflight observed" / "RELOAD FAILED - LOADED BUILD 207 ACTIVE". So the attempted Build 208 hot-load did not take effect; the running script is still Build 207. Script is ACTIVE ("The run continues."), character at Melzar's ladder area, workshop note "Checking the character and required supplies before continuing the quest." / floor 0. No error dialogs or login screens visible. Stream LIVE (4 watching), chat empty.
+- ROOT CAUSE (if any): Unknown from panel — the hot-reload host admitted the failure, so any Build-208-only behavior is not yet live. Treat Build 208 as not-yet-running until confirmed.
+- SUGGESTION: Verify from fresh in-game runtime lines (new Build 208 diag/log markers, not the panel header) before assuming 208 is live; if the failure repeats, check the host-side reload path error, since a silent stuck-at-207 could mask later fixes.
+- VERIFY BY: A frame or diag line showing GAME ITERATION / diag marker from Build 208 code, or the failure line disappearing with "LOADED BUILD 208 ACTIVE".
