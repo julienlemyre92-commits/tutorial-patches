@@ -1,0 +1,12 @@
+# Dragon Slayer I — Build 132 live, stream answers (read-only, review loop 03:32 EDT)
+
+Stream frames decoded 03:31-03:32 EDT (bWcJJ91v7sA, confirmed LIVE, 1 watching). Frame reads from the dashboard overlay:
+
+- **RUNTIME BUILD: BUILD 132** ("VERIFIED IN CLIENT", "FIRST OBSERVED IN CLIENT"). Two builds deployed since the 03:25 read (was Build 130).
+- **Coins back to 1,669** after a −2,020 spend. The workshop panel identifies it: "bought a wizard's mind bomb and a law rune, leaving 1,669 coins." Price split between the mind bomb and the law rune(s) is unresolved. This also closes the earlier +2,020 jump (1,669→3,689): the coins were staged for this purchase — worth confirming against the bot's own trade log, but the purpose is no longer mysterious.
+- **GE supply-check step genuinely ADVANCED**: workshop text reads "Build130 is stopped at the next guarded step" — the supply purchases completed and the script paused at the following safety check. Current mission line: "The script has paused at a safety check. The last action needs review before gameplay continues. floor 0." No countdown timer visible in current frames, so the earlier timer-reset question is superseded by the step completion.
+- **Quest tally panel**: "12 QUESTS RECORDED COMPLETE" is visible as panel text and ROTATES its name list. Observed names (6 at a time): Frame 1 — The Restless Ghost, X Marks the Spot, Ernest the Chicken, Sheep Shearer, Pirate's Treasure, Doric's Quest. Frame 2 — Prince Ali Rescue, Below Ice Mountain, Imp Catcher, Misthalin Mystery, The Corsair Curse, Demonslayer. Both **Imp Catcher** and **Demonslayer** (spelled "Demonslayer", one word) appear. This is VISIBLE PANEL TEXT, still an UNVERIFIED lead for the actual quest count (verified runtime tally remains 10 quests / 31 QP).
+- **Telemetry**: "RECEIVING GAME STATUS"; agent cards: ALEX Working/High effort, MIRA Idle/Medium effort, BACKSTAGE "Builds upcoming scripts". "LAST BUILD" read 1 min then 2 min across frames.
+- **Observation (not a defect claim)**: character position CHANGED between the two frames (~1 min apart: indoor stone house → outdoors by a fenced yard with a "Walk here" hover marker) while the mission line says "Script paused / PAUSED FOR REVIEW". Movement source not established — could be manual (Alex/other agent) or residual step-level motion.
+
+Read-only; no source touched. Answers the 03:29 window's open questions (coin trade identified, step advanced, panel lead confirmed as visible text).
