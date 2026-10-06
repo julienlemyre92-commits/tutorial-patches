@@ -1,0 +1,10 @@
+# Dragon Slayer I — Build 380 live but unverified; GE recovery step not advancing
+
+- FINDING: Stream frames 00:10-00:12 EDT (decode OK, confirmed live URL 5oVGB4psHuY, stream LIVE, 1 watching, 8h in):
+  (a) Build panel reads BUILD 380 ("LAST BUILD 5 min") — up from runtime BUILD 377 "VERIFIED IN CLIENT" at 00:00-00:02. The "VERIFIED IN CLIENT" marker is NOT visible in the current frame, so BUILD 380 is a panel lead, not an accepted runtime state yet.
+  (b) Bot is no longer in Death's office interior. The Grand Exchange interface is open with all 8 offer slots EMPTY; inventory ~20 swordfish, 822 gp, ~24 fire-rune-like items, 1 nature-rune-like item. Consistent with post-death restock ("recovery food eighteen proved disarmed").
+  (c) The live-check panel itself reports "floor 0. Same step for 0m 30s; no new stage confirmed." Food is already in inventory (~20 swordfish) while the recovery-food step keeps spinning — step not advancing.
+  (d) Alex overlay: "Working (GPT-6 Sol)"; Mira: Idle. Session timer 03:37:37. Quest progress unchanged: Dragon Slayer I 4/5 verified checkpoints.
+- ROOT CAUSE (if any): Unknown from frames. Candidates: (1) recovery-food step waiting on GE offers that never get placed (all 8 slots empty, nothing being bought); (2) a proof-gate that never arms after the death-office→GE transition (the "disarmed" suffix on the situation text may indicate the step's proof was disarmed rather than satisfied); (3) "no new stage confirmed" = stage detector not re-deriving state at GE.
+- SUGGESTION: Per the step-model law, the GE recovery step needs an explicit completion predicate (e.g. "food count >= target AND coins spent OR offers filled") with a bounded attempt budget, then a fallback (leave GE and retry from a known state). Also re-derive the current step from observed state each tick at GE instead of assuming the recovery sequence is still in flight.
+- VERIFY BY: Fresh "VERIFIED IN CLIENT" marker for BUILD 380 in a decoded frame, plus a new runtime line showing the recovery step advancing (stage change, GE offers placed/filled, or bot leaving GE toward the maze).
