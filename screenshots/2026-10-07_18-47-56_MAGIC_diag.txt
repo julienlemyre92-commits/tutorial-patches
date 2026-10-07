@@ -1,0 +1,250 @@
+18:45:42  BANK TICK: up=true opened=true closed=true upStep=0
+18:45:43  dialogueTick: clicking continue (priority over keyword handling)
+18:45:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:45:44  BANK TICK: up=true opened=true closed=true upStep=0
+18:45:45  dialogueTick: clicking continue (priority over keyword handling)
+18:45:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:45:46  BANK TICK: up=true opened=true closed=true upStep=0
+18:45:47  dialogueTick: clicking continue (priority over keyword handling)
+18:45:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:45:48  BANK TICK: up=true opened=true closed=true upStep=0
+18:45:49  dialogueTick: clicking continue (priority over keyword handling)
+18:45:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:45:50  BANK TICK: up=true opened=true closed=true upStep=0
+18:45:51  dialogueTick: clicking continue (priority over keyword handling)
+18:45:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:45:52  BANK TICK: up=true opened=true closed=true upStep=0
+18:45:53  dialogueTick: clicking continue (priority over keyword handling)
+18:45:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:45:54  Screenshot saved: 2026-10-07_18-45-54_BANK_auto.png
+18:45:54  BANK TICK: up=true opened=true closed=true upStep=0
+18:45:55  dialogueTick: clicking continue (priority over keyword handling)
+18:45:55  Diag tail uploaded: 2026-10-07_18-45-54_BANK_diag.txt
+18:45:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:45:56  BANK TICK: up=true opened=true closed=true upStep=0
+18:45:57  dialogueTick: clicking continue (priority over keyword handling)
+18:45:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:45:58  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+18:45:58  BANK TICK: up=true opened=true closed=true upStep=0
+18:45:59  dialogueTick: clicking continue (priority over keyword handling)
+18:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+18:46  BANK TICK: up=true opened=true closed=true upStep=0
+18:46:01  dialogueTick: clicking continue (priority over keyword handling)
+18:46:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:03  Build 133 SUBSTATE: VARP 540 = EXIT_ACCOUNT_GUIDE_ROOM. Varp proves Account Guide (530/531/532), bank booth (510), and POLL BOOTH (520) are DONE -- skipping all redo. Going straight to exit.
+18:46:03  BANK TICK: up=true opened=true closed=true upStep=0
+18:46:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:05  Build 128: varp 281 = 550 (>=550, Brother Brace step) -- bank truly complete, skipping to PRAYER
+18:46:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:06  Build 195: varp281=550 says stage is PRAYER but machine is at BANK -- forcing FORWARD (game state, not proximity)
+18:46:06  Build 172: varp281 PRAYER -1 -> 550
+18:46:06  Build 168: prayer travel walkStep -> MOVING goal=landmark-fallback@WorldPoint(x=3126, y=3106, plane=0) (no brace snapshot) (dist=22)
+18:46:06  Build 163 DOOR (PRAYER_TRAVEL): no eligible south blocker, walking south.
+18:46:06  Build 168: en route, goal=landmark-fallback@WorldPoint(x=3126, y=3106, plane=0) (no brace snapshot) (dist=22)
+18:46:06  Stage: BANK -> PRAYER
+18:46:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:07  Build 163 DOOR (PRAYER_TRAVEL): no eligible south blocker, walking south.
+18:46:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:09  Build 163 DOOR (PRAYER_TRAVEL): no eligible south blocker, walking south.
+18:46:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:10  Build 163 DOOR (PRAYER_TRAVEL): no eligible south blocker, walking south.
+18:46:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:11  Build 163 DOOR (PRAYER_TRAVEL): no eligible south blocker, walking south.
+18:46:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:13  Build 163 DOOR (PRAYER_TRAVEL): no eligible south blocker, walking south.
+18:46:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:14  Build 163 DOOR (PRAYER_TRAVEL): no eligible south blocker, walking south.
+18:46:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:16  Build 163 DOOR (PRAYER_TRAVEL): no eligible south blocker, walking south.
+18:46:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:17  Build 163 DOOR (PRAYER_TRAVEL): no eligible south blocker, walking south.
+18:46:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:18  Build 163 DOOR (PRAYER_TRAVEL): no eligible south blocker, walking south.
+18:46:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:20  Build 163 DOOR (PRAYER_TRAVEL): no eligible south blocker, walking south.
+18:46:20  Build 168: en route, goal=brace-snapshot@WorldPoint(x=3123, y=3104, plane=0) (dist=5)
+18:46:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:21  PRAYER TICK: talked1=false tab=false talked2=false
+18:46:21  Build 166 talk: 'Brother Brace' id=3319 idx=1726 at WorldPoint(x=3123, y=3104, plane=0) dist=0
+18:46:22  Build 166 talk: direct invoke 'Talk-to' on 'Brother Brace' id=3319 idx=1726
+18:46:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:23  PRAYER TICK: talked1=false tab=false talked2=false
+18:46:23  dialogueTick: clicking continue (priority over keyword handling)
+18:46:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:24  Build 159: varp=560 >= 560, Brace talk1 done
+18:46:24  Build 172: varp281 PRAYER 550 -> 560
+18:46:24  PRAYER TICK: talked1=true tab=false talked2=false
+18:46:25  dialogueTick: clicking continue (priority over keyword handling)
+18:46:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:26  PRAYER TICK: talked1=true tab=false talked2=false
+18:46:27  dialogueTick: clicking continue (priority over keyword handling)
+18:46:28  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+18:46:28  PRAYER TICK: talked1=true tab=false talked2=false
+18:46:29  clickTabIcon PRAYER: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:46:29  Build 124: PRAYER check: [548:69 name='' bounds=null] [161:64 name='' bounds=null] [164:57 name='' bounds=[709,645 33x36]] [161:71 name='' bounds=null] [164:64 name='' bounds=[709,645 33x36]] [548:76 name='' bounds=null] | name-matched name='' bounds=[709,645 33x36] age=542ms
+18:46:29  Build 124: tabstrip tree: 548:root=N TAB69=mixin:null/packed:null/roots:null ICON76=mixin:null/packed:null/roots:null; 161:root=N TAB64=mixin:null/packed:null/roots:null ICON71=mixin:null/packed:null/roots:null; 164:root=Y TAB57=mixin:hidden/packed:hidden/roots:null ICON64=mixin:hidden/packed:hidden/roots:null;
+18:46:29  clickTabIcon PRAYER: clicking name-matched() at 725,663
+18:46:29  MOUSE CLICKED PRAYER tab icon (name-matched())
+18:46:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:30  Build 172: varp281 PRAYER 560 -> 570
+18:46:30  PRAYER TICK: talked1=true tab=true talked2=false
+18:46:31  dialogueTick: clicking continue (priority over keyword handling)
+18:46:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:32  PRAYER TICK: talked1=true tab=true talked2=false
+18:46:33  Build 166 talk: 'Brother Brace' id=3319 idx=1726 at WorldPoint(x=3123, y=3104, plane=0) dist=1
+18:46:33  Build 166 talk: direct invoke 'Talk-to' on 'Brother Brace' id=3319 idx=1726
+18:46:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:34  PRAYER TICK: talked1=true tab=true talked2=false
+18:46:34  dialogueTick: clicking continue (priority over keyword handling)
+18:46:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:36  PRAYER TICK: talked1=true tab=true talked2=false
+18:46:37  dialogueTick: clicking continue (priority over keyword handling)
+18:46:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:38  PRAYER TICK: talked1=true tab=true talked2=false
+18:46:38  dialogueTick: clicking continue (priority over keyword handling)
+18:46:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:40  Build 159: varp=610 >= 610, Brace talk3 done
+18:46:40  Build 159: varp=610 >= 600, Friends tab done
+18:46:40  Build 159: varp=610 >= 580, Brace talk2 done
+18:46:40  Build 172: varp281 PRAYER 570 -> 610
+18:46:40  PRAYER TICK: talked1=true tab=true talked2=true
+18:46:40  Build 163 DOOR (PRAYER_EXIT): no eligible south blocker, walking south.
+18:46:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:41  PRAYER TICK: talked1=true tab=true talked2=true
+18:46:42  Build 168 DOOR: route edge WorldPoint(x=3122, y=3103, plane=0)->WorldPoint(x=3122, y=3102, plane=0) blocked by door 9723@WorldPoint(x=3122, y=3102, plane=0) (goal=WorldPoint(x=3141, y=3088, plane=0))
+18:46:42  Build 136 DOOR (PRAYER_EXIT): PENDING target=Door/9723/Open@WorldPoint(x=3122, y=3102, plane=0), player=WorldPoint(x=3122, y=3104, plane=0), adjacent=WorldPoint(x=3122, y=3103, plane=0), reachable=true
+18:46:42  Build 152 DOOR (PRAYER_EXIT): clicked 'Open' on door 9723, clickTile=WorldPoint(x=3122, y=3104, plane=0), phase->CLICKED. Waiting for crossing.
+18:46:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:43  Build 159: PRAYER complete (varp=620 >= 620)
+18:46:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:44  Build 195: varp281=620 says stage is MAGIC but machine is at PRAYER -- forcing FORWARD (game state, not proximity)
+18:46:44  Build 172: varp281 MAGIC -1 -> 620
+18:46:44  MAGIC TICK: talked1=false tab=false talked2=false cast=false talked3=false
+18:46:45  dialogueTick: clicking continue (priority over keyword handling)
+18:46:45  Stage: PRAYER -> MAGIC
+18:46:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:47  MAGIC TICK: talked1=false tab=false talked2=false cast=false talked3=false
+18:46:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:48  MAGIC TICK: talked1=false tab=false talked2=false cast=false talked3=false
+18:46:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:50  MAGIC TICK: talked1=false tab=false talked2=false cast=false talked3=false
+18:46:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:52  MAGIC TICK: talked1=false tab=false talked2=false cast=false talked3=false
+18:46:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:54  MAGIC TICK: talked1=false tab=false talked2=false cast=false talked3=false
+18:46:54  Build 137 DOOR (MAGIC_APPROACH): phase CLICKED->VERIFY, door 9723 no crossing after 5 ticks. Replanning.
+18:46:54  Build 155 DOOR: NS/unknown door 9723, farSide=WorldPoint(x=3122, y=3100, plane=0) (Y-axis)
+18:46:54  Build 156 DOOR (MAGIC_APPROACH): VERIFY: door 9723 still present after Open (no disappearance) -- taking bounded walkthrough attempt. WALKTHROUGH to WorldPoint(x=3122, y=3100, plane=0) (attempt 1/3)
+18:46:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:55  Screenshot saved: 2026-10-07_18-46-55_MAGIC_auto.png
+18:46:56  MAGIC TICK: talked1=false tab=false talked2=false cast=false talked3=false
+18:46:56  Build 141 DOOR (MAGIC_APPROACH): WALKTHROUGH walking to WorldPoint(x=3122, y=3100, plane=0)
+18:46:56  Build 160 DOOR (MAGIC_APPROACH): walkStep(WorldPoint(x=3122, y=3100, plane=0),0) -> MOVING
+18:46:56  Build 156 DOOR (MAGIC_APPROACH): walkTo(WorldPoint(x=3122, y=3100, plane=0),0) result=false, farSide walkable=true (at WorldPoint(x=3122, y=3102, plane=0))
+18:46:56  Diag tail uploaded: 2026-10-07_18-46-55_MAGIC_diag.txt
+18:46:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:46:58  MAGIC TICK: talked1=false tab=false talked2=false cast=false talked3=false
+18:46:58  Build 141 DOOR (MAGIC_APPROACH): WALKTHROUGH walking to WorldPoint(x=3122, y=3100, plane=0)
+18:46:58  Build 160 DOOR (MAGIC_APPROACH): walkStep(WorldPoint(x=3122, y=3100, plane=0),0) -> MOVING
+18:46:58  Build 156 DOOR (MAGIC_APPROACH): walkTo(WorldPoint(x=3122, y=3100, plane=0),0) result=false, farSide walkable=true (at WorldPoint(x=3122, y=3102, plane=0))
+18:46:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47  MAGIC TICK: talked1=false tab=false talked2=false cast=false talked3=false
+18:47  Build 138 DOOR (MAGIC_APPROACH): CROSSED door 9723 at WorldPoint(x=3122, y=3102, plane=0): WorldPoint(x=3122, y=3104, plane=0) -> WorldPoint(x=3122, y=3100, plane=0)
+18:47  Build 161 DOOR: door 9723 marked COMPLETED (crossed null)
+18:47  Build 165 DOOR: confirmed SOUTH exit (3104 -> 3100), bankExitedSouth=true
+18:47:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:02  MAGIC TICK: talked1=false tab=false talked2=false cast=false talked3=false
+18:47:02  Build 163 DOOR (MAGIC_APPROACH): no eligible south blocker, walking south.
+18:47:02  Build 173: Instructor not in snapshot, walking to landmark WorldPoint(x=3141, y=3088, plane=0) -> MOVING (varp=620)
+18:47:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:04  MAGIC TICK: talked1=false tab=false talked2=false cast=false talked3=false
+18:47:04  Build 163 DOOR (MAGIC_APPROACH): no eligible south blocker, walking south.
+18:47:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:06  MAGIC TICK: talked1=false tab=false talked2=false cast=false talked3=false
+18:47:06  dialogueTick: clicking continue (priority over keyword handling)
+18:47:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:08  MAGIC TICK: talked1=false tab=false talked2=false cast=false talked3=false
+18:47:09  Build 166 talk: 'Magic Instructor' id=3309 idx=2080 at WorldPoint(x=3142, y=3089, plane=0) dist=16
+18:47:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:10  MAGIC TICK: talked1=false tab=false talked2=false cast=false talked3=false
+18:47:10  Build 166 talk: 'Magic Instructor' id=3309 idx=2080 at WorldPoint(x=3142, y=3089, plane=0) dist=16
+18:47:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:12  MAGIC TICK: talked1=false tab=false talked2=false cast=false talked3=false
+18:47:13  Build 166 talk: 'Magic Instructor' id=3309 idx=2080 at WorldPoint(x=3142, y=3089, plane=0) dist=9
+18:47:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:14  MAGIC TICK: talked1=false tab=false talked2=false cast=false talked3=false
+18:47:15  Build 166 talk: 'Magic Instructor' id=3309 idx=2080 at WorldPoint(x=3142, y=3089, plane=0) dist=5
+18:47:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:16  MAGIC TICK: talked1=false tab=false talked2=false cast=false talked3=false
+18:47:17  Build 166 talk: 'Magic Instructor' id=3309 idx=2080 at WorldPoint(x=3142, y=3089, plane=0) dist=1
+18:47:17  Build 166 talk: direct invoke 'Talk-to' on 'Magic Instructor' id=3309 idx=2080
+18:47:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:19  MAGIC TICK: talked1=false tab=false talked2=false cast=false talked3=false
+18:47:19  dialogueTick: clicking continue (priority over keyword handling)
+18:47:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:21  MAGIC TICK: talked1=false tab=false talked2=false cast=false talked3=false
+18:47:21  dialogueTick: clicking continue (priority over keyword handling)
+18:47:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:23  MAGIC TICK: talked1=false tab=false talked2=false cast=false talked3=false
+18:47:23  dialogueTick: clicking continue (priority over keyword handling)
+18:47:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:25  Build 159: varp=630 >= 630, Instructor talk1 done
+18:47:25  Build 172: varp281 MAGIC 620 -> 630
+18:47:25  MAGIC TICK: talked1=true tab=false talked2=false cast=false talked3=false
+18:47:25  dialogueTick: clicking continue (priority over keyword handling)
+18:47:27  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+18:47:27  MAGIC TICK: talked1=true tab=false talked2=false cast=false talked3=false
+18:47:27  clickTabIcon MAGIC: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:47:27  Build 124: MAGIC check: [548:70 name='' bounds=null] [161:65 name='' bounds=null] [164:58 name='' bounds=[742,645 33x36]] [161:72 name='' bounds=null] [164:65 name='' bounds=[742,645 33x36]] | name-matched name='' bounds=[742,645 33x36] age=442ms
+18:47:27  Build 124: tabstrip tree: 548:root=N TAB69=mixin:null/packed:null/roots:null ICON76=mixin:null/packed:null/roots:null; 161:root=N TAB64=mixin:null/packed:null/roots:null ICON71=mixin:null/packed:null/roots:null; 164:root=Y TAB57=mixin:33x36@709,645/packed:33x36@709,645/roots:null ICON64=mixin:33x36@709,645/packed:33x36@709,645/roots:null;
+18:47:27  clickTabIcon MAGIC: clicking name-matched() at 758,663
+18:47:27  MOUSE CLICKED MAGIC tab icon (name-matched())
+18:47:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:29  Build 172: varp281 MAGIC 630 -> 640
+18:47:29  MAGIC TICK: talked1=true tab=true talked2=false cast=false talked3=false
+18:47:30  dialogueTick: clicking continue (priority over keyword handling)
+18:47:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:32  MAGIC TICK: talked1=true tab=true talked2=false cast=false talked3=false
+18:47:32  Build 166 talk: 'Magic Instructor' id=3309 idx=2080 at WorldPoint(x=3140, y=3088, plane=0) dist=2
+18:47:33  Build 166 talk: direct invoke 'Talk-to' on 'Magic Instructor' id=3309 idx=2080
+18:47:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:34  MAGIC TICK: talked1=true tab=true talked2=false cast=false talked3=false
+18:47:35  dialogueTick: clicking continue (priority over keyword handling)
+18:47:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:37  MAGIC TICK: talked1=true tab=true talked2=false cast=false talked3=false
+18:47:37  dialogueTick: clicking continue (priority over keyword handling)
+18:47:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:39  Build 159: varp=650 >= 650, Instructor talk2 done
+18:47:39  Build 172: varp281 MAGIC 640 -> 650
+18:47:39  MAGIC TICK: talked1=true tab=true talked2=true cast=false talked3=false
+18:47:39  dialogueTick: clicking continue (priority over keyword handling)
+18:47:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:41  MAGIC TICK: talked1=true tab=true talked2=true cast=false talked3=false
+18:47:42  dialogueTick: clicking continue (priority over keyword handling)
+18:47:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:43  MAGIC TICK: talked1=true tab=true talked2=true cast=false talked3=false
+18:47:44  dialogueTick: clicking continue (priority over keyword handling)
+18:47:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:46  MAGIC TICK: talked1=true tab=true talked2=true cast=false talked3=false
+18:47:46  Build 178: Rs2Magic.cast(WIND_STRIKE) -> false
+18:47:46  Build 179: spell snapshots=198 visible=3 tick=256
+18:47:46  Build 179: first spell id=14286852 name= sprite=-1 hidden=true bounds=java.awt.Rectangle[x=-1,y=-1,width=24,height=24]
+18:47:46  Build 179: direct: searching 198 spell snapshots
+18:47:47  Build 179: direct: FOUND id=14286859 idx=-1 dynamic=false name=<col=00ff00>Wind Strike</col> sprite=0 bounds=java.awt.Rectangle[x=919,y=477,width=40,height=40] actions=[null, null, null, null, null, null, null] tick=256
+18:47:47  Build 179: direct: invoked cast on id=14286859 p0=-1 opcode=WIDGET_TARGET
+18:47:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:48  MAGIC TICK: talked1=true tab=true talked2=true cast=false talked3=false
+18:47:49  Build 179: selected widget id=14286859 (wind=14286859) name=<col=00ff00>Wind Strike</col> text= tick=260
+18:47:50  Build 175: WIDGET_TARGET_ON_NPC issued on chicken idx=2078
+18:47:50  Wind strike cast issued (varp=650)
+18:47:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:51  Build 159: varp=671 >= 670, Wind Strike done
+18:47:51  Build 172: varp281 MAGIC 650 -> 671
+18:47:51  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:47:52  dialogueTick: clicking continue (priority over keyword handling)
+18:47:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:54  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:47:55  dialogueTick: clicking continue (priority over keyword handling)
+18:47:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:47:56  Screenshot saved: 2026-10-07_18-47-56_MAGIC_auto.png
