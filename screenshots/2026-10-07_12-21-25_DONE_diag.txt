@@ -1,0 +1,250 @@
+11:56:13  Build 194: logged out 11 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+11:56:14  Diag tail uploaded: 2026-10-07_11-56-13_UNKNOWN_diag.txt
+11:57:13  Screenshot saved: 2026-10-07_11-57-13_UNKNOWN_auto.png
+11:57:13  Build 82: cleaned up 1 old screenshots
+11:57:13  Build 194: logged out 12 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+11:57:14  Diag tail uploaded: 2026-10-07_11-57-13_UNKNOWN_diag.txt
+11:58:13  Screenshot saved: 2026-10-07_11-58-13_UNKNOWN_auto.png
+11:58:13  Build 82: cleaned up 1 old screenshots
+11:58:13  Build 194: logged out 13 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+11:58:14  Diag tail uploaded: 2026-10-07_11-58-13_UNKNOWN_diag.txt
+11:59:13  Screenshot saved: 2026-10-07_11-59-13_UNKNOWN_auto.png
+11:59:13  Build 82: cleaned up 2 old screenshots
+11:59:13  Build 194: logged out 14 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+11:59:14  Diag tail uploaded: 2026-10-07_11-59-13_UNKNOWN_diag.txt
+12:00:13  Screenshot saved: 2026-10-07_12-00-13_UNKNOWN_auto.png
+12:00:13  Build 194: logged out 15 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+12:00:14  Diag tail uploaded: 2026-10-07_12-00-13_UNKNOWN_diag.txt
+12:01:13  Screenshot saved: 2026-10-07_12-01-13_UNKNOWN_auto.png
+12:01:13  Build 194: logged out 16 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+12:01:14  Diag tail uploaded: 2026-10-07_12-01-13_UNKNOWN_diag.txt
+12:02:13  Screenshot saved: 2026-10-07_12-02-13_UNKNOWN_auto.png
+12:02:13  Build 194: logged out 17 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+12:02:14  Diag tail uploaded: 2026-10-07_12-02-13_UNKNOWN_diag.txt
+12:03:13  Screenshot saved: 2026-10-07_12-03-13_UNKNOWN_auto.png
+12:03:13  Build 194: logged out 18 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+12:03:15  Diag tail uploaded: 2026-10-07_12-03-13_UNKNOWN_diag.txt
+12:04:13  Screenshot saved: 2026-10-07_12-04-13_UNKNOWN_auto.png
+12:04:13  Build 194: logged out 19 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+12:04:14  Diag tail uploaded: 2026-10-07_12-04-13_UNKNOWN_diag.txt
+12:05:11  Build 390: desktop screenshot saved: 2026-10-07_12-05-11_UNKNOWN_auto_desktop.png
+12:05:14  Screenshot saved: 2026-10-07_12-05-14_UNKNOWN_auto.png
+12:05:14  Build 194: logged out 20 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+12:05:15  Diag tail uploaded: 2026-10-07_12-05-14_UNKNOWN_diag.txt
+12:06:14  Screenshot saved: 2026-10-07_12-06-14_UNKNOWN_auto.png
+12:06:14  Build 194: logged out 21 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+12:06:15  Diag tail uploaded: 2026-10-07_12-06-14_UNKNOWN_diag.txt
+12:07:14  Screenshot saved: 2026-10-07_12-07-14_UNKNOWN_auto.png
+12:07:14  Build 194: logged out 22 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+12:07:15  Diag tail uploaded: 2026-10-07_12-07-14_UNKNOWN_diag.txt
+12:08:14  Screenshot saved: 2026-10-07_12-08-14_UNKNOWN_auto.png
+12:08:14  Build 194: logged out 23 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+12:08:15  Diag tail uploaded: 2026-10-07_12-08-14_UNKNOWN_diag.txt
+12:09:14  Screenshot saved: 2026-10-07_12-09-14_UNKNOWN_auto.png
+12:09:14  Build 194: logged out 24 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+12:09:15  Diag tail uploaded: 2026-10-07_12-09-14_UNKNOWN_diag.txt
+12:10:14  Screenshot saved: 2026-10-07_12-10-14_UNKNOWN_auto.png
+12:10:14  Build 194: logged out 25 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+12:10:16  Diag tail uploaded: 2026-10-07_12-10-14_UNKNOWN_diag.txt
+12:11:14  Screenshot saved: 2026-10-07_12-11-14_UNKNOWN_auto.png
+12:11:14  Build 82: cleaned up 1 old screenshots
+12:11:14  Build 194: logged out 26 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+12:11:16  Diag tail uploaded: 2026-10-07_12-11-14_UNKNOWN_diag.txt
+12:12:15  Screenshot saved: 2026-10-07_12-12-14_UNKNOWN_auto.png
+12:12:15  Build 82: cleaned up 1 old screenshots
+12:12:15  Build 194: logged out 27 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+12:12:16  Diag tail uploaded: 2026-10-07_12-12-14_UNKNOWN_diag.txt
+12:13:15  Screenshot saved: 2026-10-07_12-13-15_UNKNOWN_auto.png
+12:13:15  Build 82: cleaned up 1 old screenshots
+12:13:15  Build 194: logged out 28 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+12:13:16  Diag tail uploaded: 2026-10-07_12-13-15_UNKNOWN_diag.txt
+12:14:15  Screenshot saved: 2026-10-07_12-14-15_UNKNOWN_auto.png
+12:14:15  Build 82: cleaned up 1 old screenshots
+12:14:15  Build 194: logged out 29 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+12:14:16  Diag tail uploaded: 2026-10-07_12-14-15_UNKNOWN_diag.txt
+12:15:11  Build 390: desktop screenshot saved: 2026-10-07_12-15-11_UNKNOWN_auto_desktop.png
+12:15:12  Build 82: cleaned up 1 old screenshots
+12:15:15  Screenshot saved: 2026-10-07_12-15-15_UNKNOWN_auto.png
+12:15:15  Build 194: logged out 30 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+12:15:17  Diag tail uploaded: 2026-10-07_12-15-15_UNKNOWN_diag.txt
+12:15:53  Detected start stage: DONE
+12:15:53  Build 392: MISSION_SELECT -- desired=tutorial (self); claiming scheduler ownership
+12:15:53  Build 392: MISSION_SELECT claim -- otherFound=true,otherWasEnabled=false
+12:15:54  Build 384: cache-mismatch text is a chatbox widget (group 162) -- ignoring as chat, not a blocker
+12:15:54  Stage: null -> DONE
+12:15:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:15:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:02  Build 392: MISSION_SELECT verify -- lockOwner=tutorial, selfEnabled=true, otherFound=true, otherEnabled=false
+12:16:02  Build 392: SWITCH COMPLETE -- tutorial owns the scheduler (startup marker + overlay enabled + other plugin stopped + lock held); entering quest-state detection
+12:16:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:04  Build 393: parked DONE -- quest logic held, housekeeping alive (command channel polling)
+12:16:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:16  Screenshot saved: 2026-10-07_12-16-16_DONE_auto.png
+12:16:16  Build 82: cleaned up 1 old screenshots
+12:16:18  Diag tail uploaded: 2026-10-07_12-16-16_DONE_diag.txt
+12:16:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:16:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:18  Screenshot saved: 2026-10-07_12-17-18_DONE_auto.png
+12:17:18  Build 82: cleaned up 1 old screenshots
+12:17:19  Diag tail uploaded: 2026-10-07_12-17-18_DONE_diag.txt
+12:17:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:17:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:18:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:18:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:18:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:18:06  Build 393: parked DONE -- quest logic held, housekeeping alive (command channel polling)
+12:18:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:18:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:18:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:18:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:18:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:18:19  Screenshot saved: 2026-10-07_12-18-19_DONE_auto.png
+12:18:21  Diag tail uploaded: 2026-10-07_12-18-19_DONE_diag.txt
+12:18:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:18:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:18:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:18:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:18:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:18:35  npcReachable(Gielinor Guide) timed out, assuming false
+12:18:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:18:38  npcReachable(Gielinor Guide) timed out, assuming false
+12:18:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:18:40  npcReachable(Gielinor Guide) timed out, assuming false
+12:18:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:18:43  npcReachable(Gielinor Guide) timed out, assuming false
+12:18:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:18:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:18:49  npcReachable(Gielinor Guide) timed out, assuming false
+12:18:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:18:51  npcReachable(Gielinor Guide) timed out, assuming false
+12:18:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:18:54  npcReachable(Gielinor Guide) timed out, assuming false
+12:18:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:18:57  npcReachable(Gielinor Guide) timed out, assuming false
+12:18:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:19:02  npcReachable(Gielinor Guide) timed out, assuming false
+12:19:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:19:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:19:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:19:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:19:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:19:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:19:18  npcReachable(Gielinor Guide) timed out, assuming false
+12:19:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:19:21  npcReachable(Gielinor Guide) timed out, assuming false
+12:19:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:19:21  Screenshot saved: 2026-10-07_12-19-21_DONE_auto.png
+12:19:22  Diag tail uploaded: 2026-10-07_12-19-21_DONE_diag.txt
+12:19:24  npcReachable(Gielinor Guide) timed out, assuming false
+12:19:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:19:26  npcReachable(Gielinor Guide) timed out, assuming false
+12:19:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:19:29  npcReachable(Gielinor Guide) timed out, assuming false
+12:19:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:19:32  npcReachable(Gielinor Guide) timed out, assuming false
+12:19:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:19:35  npcReachable(Gielinor Guide) timed out, assuming false
+12:19:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:19:37  npcReachable(Gielinor Guide) timed out, assuming false
+12:19:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:19:40  npcReachable(Gielinor Guide) timed out, assuming false
+12:19:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:19:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:19:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:19:48  npcReachable(Gielinor Guide) timed out, assuming false
+12:19:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:19:51  npcReachable(Gielinor Guide) timed out, assuming false
+12:19:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:19:54  npcReachable(Gielinor Guide) timed out, assuming false
+12:19:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:19:57  npcReachable(Gielinor Guide) timed out, assuming false
+12:19:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:19:59  npcReachable(Gielinor Guide) timed out, assuming false
+12:19:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:20:02  npcReachable(Gielinor Guide) timed out, assuming false
+12:20:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:20:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:20:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:20:07  Build 393: parked DONE -- quest logic held, housekeeping alive (command channel polling)
+12:20:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:20:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:20:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:20:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:20:21  npcReachable(Gielinor Guide) timed out, assuming false
+12:20:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:20:23  npcReachable(Gielinor Guide) timed out, assuming false
+12:20:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:20:24  Screenshot saved: 2026-10-07_12-20-24_DONE_auto.png
+12:20:25  Diag tail uploaded: 2026-10-07_12-20-24_DONE_diag.txt
+12:20:26  npcReachable(Gielinor Guide) timed out, assuming false
+12:20:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:20:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:20:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:20:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:20:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:20:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:20:42  npcReachable(Gielinor Guide) timed out, assuming false
+12:20:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:20:45  npcReachable(Gielinor Guide) timed out, assuming false
+12:20:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:20:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:20:50  npcReachable(Gielinor Guide) timed out, assuming false
+12:20:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:20:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:20:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:20:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:21:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:21:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:21:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:21:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:21:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:21:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:21:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:21:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:21:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:21:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+12:21:25  Screenshot saved: 2026-10-07_12-21-25_DONE_auto.png
