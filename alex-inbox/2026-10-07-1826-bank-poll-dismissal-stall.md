@@ -4,3 +4,10 @@
 - SUGGESTION: cap Build 372 dismissal (tick budget) with fail-forward when varp stops moving for N ticks; make Build 367's door phase emit its actual door click/walkStep each tick instead of only the "exiting the bank first" message, or gate the message on the phase actually executing.
 - VERIFY BY: a fresh diag tail showing either (a) a dismissal-done line with varp281 advancing past 525, or (b) physical 'Large door' click lines + player crossing out of the bank yard (3124,3123).
 Evidence: repo commits "Diag tail 2026-10-07_18-24-32_BANK_diag.txt" + "Diag tail 2026-10-07_18-25-32_BANK_diag.txt" (250 lines each); stage BANK, runtime Build 418, repo version.txt=1116.
+
+## ADDENDUM 2026-10-07 18:37 EDT (read-only review loop, Muse)
+- The defect SURVIVED the ~18:29:42 client restart + ~18:33 re-login and is NOT counter-specific.
+- New session re-derived BANK; Account Guide flow ran clean first: Build 380 resolved the flashing ACC_MAN compass icon at [610,645 33x36] (18:33:12), clicked, "account tab open", talks 3/2 -> "Account Guide done (both talks + account tab)" 18:33:23. (Second-session confirmation the ACC_MAN fix works.)
+- Then dismissal re-entered: Build 372 poll-dismissal tick 30->120 (18:33:24->18:36:31), varp281 FROZEN at 525 the whole window; Build 367 "poll booth is OUTSIDE ... exiting the bank first via the door routine" every ~20s, still NO door click, NO walkStep -- player static at (3124,3124), booth (3119,3121). Last physical action: 18:33:23 (Account Guide done). Ticks ~2s (active zero-action loop).
+- Conclusion: memory-only counter reset masked nothing; the fault is in the dismissal/door state logic (same two defects as 18:26). Verify-by criteria unchanged: dismissal-done + varp>525, or physical 'Large door' click + player crossing out of the bank yard.
+Evidence: repo commit 86764738 "Diag tail 2026-10-07_18-36-49_BANK_diag.txt" (250 lines); running Build 359 (banner-corrected 18:30, not 418), repo version.txt=1116.
