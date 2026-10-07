@@ -1,0 +1,250 @@
+17:45:04  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3076, y=3085, plane=0)
+17:45:05  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+17:45:05  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+17:45:05  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+17:45:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:45:06  Build 337: chef next step=dialogue (dough=false flour=false water=false)
+17:45:07  dialogueTick: clicking continue (priority over keyword handling)
+17:45:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:45:08  Build 337: chef next step=dialogue (dough=false flour=false water=false)
+17:45:08  dialogueTick: clicking continue (priority over keyword handling)
+17:45:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:45:10  Build 337: chef next step=dialogue (dough=false flour=false water=false)
+17:45:10  dialogueTick: clicking continue (priority over keyword handling)
+17:45:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:45:12  Build 337: chef next step=dialogue (dough=false flour=false water=false)
+17:45:13  dialogueTick: clicking continue (priority over keyword handling)
+17:45:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:45:14  Build 337: chef next step=dialogue (dough=false flour=false water=false)
+17:45:14  dialogueTick: clicking continue (priority over keyword handling)
+17:45:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:45:16  Build 337: chef next step=mix (dough=false flour=true water=true)
+17:45:16  Build 196: tick-wait 'chef-dough' armed, bound 20 ticks (non-blocking)
+17:45:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:45:18  Build 337: chef next step=bake (dough=true flour=false water=false)
+17:45:18  Build 209: use-on 'Bread dough|Range' item selected (count 1), clicking Range next tick
+17:45:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:45:20  Build 337: chef next step=bake (dough=true flour=false water=false)
+17:45:20  Build 209: use-on 'Bread dough|Range' clicked Range, verifying effect next tick
+17:45:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:45:22  Build 203: Door 9709 arrival VERIFIED at WorldPoint(x=3076, y=3082, plane=0) (dist 3 <= 3, observed not assumed)
+17:45:28  Door 9709: crossing not yet verified (tile before=WorldPoint(x=3076, y=3082, plane=0)) -- retry next cycle
+17:45:28  Build 196: tick-wait 'chef-enter-kitchen' armed, bound 25 ticks (non-blocking)
+17:45:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:45:28  Screenshot saved: 2026-10-07_17-45-28_CHEF_auto.png
+17:45:29  Have bread, exiting kitchen via northwest door
+17:45:29  Build 197: spamDialogue phased session armed, budget 5s -- one dialogue action per tick, verifying close on following ticks
+17:45:30  dialogueTick: clicking continue (priority over keyword handling)
+17:45:30  Diag tail uploaded: 2026-10-07_17-45-28_CHEF_diag.txt
+17:45:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:45:31  Have bread, exiting kitchen via northwest door
+17:45:31  dialogueTick: clicking continue (priority over keyword handling)
+17:45:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:45:33  Have bread, exiting kitchen via northwest door
+17:45:34  dialogueTick: clicking continue (priority over keyword handling)
+17:45:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:45:35  Have bread, exiting kitchen via northwest door
+17:45:36  Build 196: tick-wait 'chef-walk-exit' armed, bound 25 ticks (non-blocking)
+17:45:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:45:37  Have bread, exiting kitchen via northwest door
+17:45:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:45:39  Have bread, exiting kitchen via northwest door
+17:45:40  Build 197: spamDialogue budget exhausted (5s) -- dialogue still open, re-arming next tick if caller retries: ' / '
+17:45:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:45:41  Have bread, exiting kitchen via northwest door
+17:45:41  Build 197: spamDialogue phased session armed, budget 5s -- one dialogue action per tick, verifying close on following ticks
+17:45:42  dialogueTick: clicking continue (priority over keyword handling)
+17:45:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:45:43  Have bread, exiting kitchen via northwest door
+17:45:44  Build 203: Door 9710 arrival VERIFIED at WorldPoint(x=3073, y=3089, plane=0) (dist 2 <= 3, observed not assumed)
+17:45:50  Build 199: door 'Open' click issued on WorldPoint(x=3072, y=3090, plane=0) (id=9710, orient=null) -- verifying crossing on next ticks
+17:45:50  Door 9710: crossing not yet verified (tile before=WorldPoint(x=3073, y=3089, plane=0)) -- retry next cycle
+17:45:50  Build 196: tick-wait 'chef-beyond-exit' armed, bound 17 ticks (non-blocking)
+17:45:51  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+17:45:51  Build 196: chef entry: insideQuest=false varp281=200 -> chefDone (position/varp-verified, not proximity)
+17:45:52  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+17:45:52  Build 195: varp281=200 says stage is QUEST_GUIDE but machine is at CHEF -- forcing FORWARD (game state, not proximity)
+17:45:54  Build 340: quest-guide walking toward quest building door WorldPoint(x=3083, y=3126, plane=0) (player WorldPoint(x=3072, y=3090, plane=0)) -- verifying next tick
+17:45:54  Stage: CHEF -> QUEST_GUIDE
+17:45:54  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+17:45:56  Build 340: quest-guide walking toward quest building door WorldPoint(x=3083, y=3126, plane=0) (player WorldPoint(x=3072, y=3090, plane=0)) -- verifying next tick
+17:45:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:45:58  Build 340: quest-guide walking toward quest building door WorldPoint(x=3083, y=3126, plane=0) (player WorldPoint(x=3071, y=3098, plane=0)) -- verifying next tick
+17:45:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:46:01  Build 340: quest-guide walking toward quest building door WorldPoint(x=3083, y=3126, plane=0) (player WorldPoint(x=3071, y=3104, plane=0)) -- verifying next tick
+17:46:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:46:03  Build 340: quest-guide walking toward quest building door WorldPoint(x=3083, y=3126, plane=0) (player WorldPoint(x=3071, y=3104, plane=0)) -- verifying next tick
+17:46:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:46:05  Build 340: quest-guide walking toward quest building door WorldPoint(x=3083, y=3126, plane=0) (player WorldPoint(x=3071, y=3110, plane=0)) -- verifying next tick
+17:46:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:46:07  Build 340: quest-guide walking toward quest building door WorldPoint(x=3083, y=3126, plane=0) (player WorldPoint(x=3071, y=3117, plane=0)) -- verifying next tick
+17:46:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:46:10  Build 340: quest-guide walking toward quest building door WorldPoint(x=3083, y=3126, plane=0) (player WorldPoint(x=3071, y=3117, plane=0)) -- verifying next tick
+17:46:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:46:12  Outside Quest building, opening door 9716
+17:46:12  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 10) -- verifying arrival next tick
+17:46:12  Build 196: tick-wait 'qg-enter' armed, bound 25 ticks (non-blocking)
+17:46:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:46:14  Outside Quest building, opening door 9716
+17:46:15  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:46:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:46:17  Outside Quest building, opening door 9716
+17:46:18  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:46:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:46:20  Outside Quest building, opening door 9716
+17:46:21  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:46:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:46:23  Outside Quest building, opening door 9716
+17:46:23  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:46:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:46:25  Outside Quest building, opening door 9716
+17:46:26  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:46:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:46:28  Outside Quest building, opening door 9716
+17:46:29  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:46:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:46:30  Screenshot saved: 2026-10-07_17-46-30_QUEST_GUIDE_auto.png
+17:46:31  Outside Quest building, opening door 9716
+17:46:31  Diag tail uploaded: 2026-10-07_17-46-30_QUEST_GUIDE_diag.txt
+17:46:32  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:46:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:46:34  Outside Quest building, opening door 9716
+17:46:35  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:46:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:46:37  Outside Quest building, opening door 9716
+17:46:37  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:46:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:46:39  Outside Quest building, opening door 9716
+17:46:40  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:46:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:46:42  Outside Quest building, opening door 9716
+17:46:43  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:46:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:46:45  Outside Quest building, opening door 9716
+17:46:45  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:46:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:46:47  Outside Quest building, opening door 9716
+17:46:48  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:46:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:46:50  Outside Quest building, opening door 9716
+17:46:51  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:46:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:46:53  Outside Quest building, opening door 9716
+17:46:53  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:46:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:46:55  Outside Quest building, opening door 9716
+17:46:56  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:46:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:46:58  Outside Quest building, opening door 9716
+17:46:59  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:47:01  Outside Quest building, opening door 9716
+17:47:02  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:47:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:47:04  Outside Quest building, opening door 9716
+17:47:04  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:47:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:47:06  Outside Quest building, opening door 9716
+17:47:07  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:47:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:47:09  Outside Quest building, opening door 9716
+17:47:10  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:47:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:47:12  Outside Quest building, opening door 9716
+17:47:13  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:47:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:47:15  Outside Quest building, opening door 9716
+17:47:16  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:47:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:47:17  Outside Quest building, opening door 9716
+17:47:18  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:47:18  Build 196: tick-wait 'qg-enter' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:47:18  Build 196: qg-enter exhausted, re-issuing open+walk once
+17:47:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:47:20  Outside Quest building, opening door 9716
+17:47:21  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 6) -- verifying arrival next tick
+17:47:21  Build 196: tick-wait 'qg-enter' armed, bound 25 ticks (non-blocking)
+17:47:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:47:23  Outside Quest building, opening door 9716
+17:47:24  Build 203: Door 9716 arrival stalled 25 ticks with no player-tile progress -- standing down, never faking arrival
+17:47:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:47:26  Outside Quest building, opening door 9716
+17:47:26  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3085, y=3127, plane=0) (dist 0 <= 3, observed not assumed)
+17:47:31  Build 199: door 'Open' click issued on WorldPoint(x=3086, y=3126, plane=0) (id=9716, orient=null) -- verifying crossing on next ticks
+17:47:31  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3085, y=3127, plane=0)) -- retry next cycle
+17:47:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:47:32  Screenshot saved: 2026-10-07_17-47-32_QUEST_GUIDE_auto.png
+17:47:33  Outside Quest building, opening door 9716
+17:47:33  Diag tail uploaded: 2026-10-07_17-47-32_QUEST_GUIDE_diag.txt
+17:47:34  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+17:47:39  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+17:47:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:47:41  Outside Quest building, opening door 9716
+17:47:41  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+17:47:46  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+17:47:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:47:48  Outside Quest building, opening door 9716
+17:47:49  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+17:47:54  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+17:47:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:47:56  Outside Quest building, opening door 9716
+17:47:56  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+17:48:01  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+17:48:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:48:03  Outside Quest building, opening door 9716
+17:48:03  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+17:48:09  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+17:48:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:48:11  Outside Quest building, opening door 9716
+17:48:11  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+17:48:16  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+17:48:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:48:18  Outside Quest building, opening door 9716
+17:48:18  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+17:48:23  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+17:48:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:48:25  Outside Quest building, opening door 9716
+17:48:26  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+17:48:31  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+17:48:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:48:33  Outside Quest building, opening door 9716
+17:48:33  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+17:48:38  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+17:48:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:48:39  Screenshot saved: 2026-10-07_17-48-39_QUEST_GUIDE_auto.png
+17:48:40  Outside Quest building, opening door 9716
+17:48:40  Diag tail uploaded: 2026-10-07_17-48-39_QUEST_GUIDE_diag.txt
+17:48:41  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+17:48:46  Build 199: door 'Open' no crossing observed at WorldPoint(x=3086, y=3126, plane=0) -- re-click next tick (cycle 2/3)
+17:48:46  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+17:48:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:48:48  Outside Quest building, opening door 9716
+17:48:48  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+17:48:54  Build 199: door 'Open' click issued on WorldPoint(x=3086, y=3126, plane=0) (id=9716, orient=null) -- verifying crossing on next ticks
+17:48:54  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+17:48:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:48:56  Outside Quest building, opening door 9716
+17:48:56  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+17:49:01  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+17:49:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:49:03  Outside Quest building, opening door 9716
+17:49:04  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+17:49:09  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+17:49:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:49:11  Outside Quest building, opening door 9716
+17:49:11  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+17:49:16  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+17:49:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:49:18  Outside Quest building, opening door 9716
+17:49:19  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+17:49:24  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+17:49:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:49:26  Outside Quest building, opening door 9716
+17:49:26  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+17:49:31  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+17:49:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:49:33  Outside Quest building, opening door 9716
+17:49:33  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+17:49:39  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+17:49:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:49:40  Screenshot saved: 2026-10-07_17-49-40_QUEST_GUIDE_auto.png
