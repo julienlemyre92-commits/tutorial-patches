@@ -1,0 +1,250 @@
+18:24:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:24:51  BANK TICK: up=true opened=true closed=true upStep=0
+18:24:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:24:53  BANK TICK: up=true opened=true closed=true upStep=0
+18:24:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:24:55  BANK TICK: up=true opened=true closed=true upStep=0
+18:24:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:24:57  BANK TICK: up=true opened=true closed=true upStep=0
+18:24:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:24:59  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:01  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:03  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:03  Build 372: poll dialogue dismissal tick 70 (varp=525)
+18:25:04  Build 367: poll booth is OUTSIDE (booth=WorldPoint(x=3119, y=3121, plane=0), player=WorldPoint(x=3124, y=3123, plane=0)) -- exiting the bank first via the door routine
+18:25:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:05  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:07  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:10  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:12  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:14  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:16  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:18  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:20  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:22  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:24  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:24  Build 372: poll dialogue dismissal tick 80 (varp=525)
+18:25:25  Build 367: poll booth is OUTSIDE (booth=WorldPoint(x=3119, y=3121, plane=0), player=WorldPoint(x=3124, y=3123, plane=0)) -- exiting the bank first via the door routine
+18:25:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:26  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:28  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:30  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:32  Screenshot saved: 2026-10-07_18-25-32_BANK_auto.png
+18:25:33  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:33  Diag tail uploaded: 2026-10-07_18-25-32_BANK_diag.txt
+18:25:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:35  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:37  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:39  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:41  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:43  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:45  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:45  Build 372: poll dialogue dismissal tick 90 (varp=525)
+18:25:46  Build 367: poll booth is OUTSIDE (booth=WorldPoint(x=3119, y=3121, plane=0), player=WorldPoint(x=3124, y=3123, plane=0)) -- exiting the bank first via the door routine
+18:25:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:47  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:50  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:52  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:54  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:56  BANK TICK: up=true opened=true closed=true upStep=0
+18:25:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:25:58  BANK TICK: up=true opened=true closed=true upStep=0
+18:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:02  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:04  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:06  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:06  Build 372: poll dialogue dismissal tick 100 (varp=525)
+18:26:07  Build 367: poll booth is OUTSIDE (booth=WorldPoint(x=3119, y=3121, plane=0), player=WorldPoint(x=3124, y=3123, plane=0)) -- exiting the bank first via the door routine
+18:26:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:08  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:10  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:12  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:15  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:17  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:19  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:21  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:23  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:25  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:27  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:27  Build 372: poll dialogue dismissal tick 110 (varp=525)
+18:26:28  Build 367: poll booth is OUTSIDE (booth=WorldPoint(x=3119, y=3121, plane=0), player=WorldPoint(x=3124, y=3123, plane=0)) -- exiting the bank first via the door routine
+18:26:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:29  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:31  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:33  Screenshot saved: 2026-10-07_18-26-33_BANK_auto.png
+18:26:34  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:34  Diag tail uploaded: 2026-10-07_18-26-33_BANK_diag.txt
+18:26:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:36  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:38  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:40  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:42  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:44  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:46  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:48  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:48  Build 372: poll dialogue dismissal tick 120 (varp=525)
+18:26:49  Build 367: poll booth is OUTSIDE (booth=WorldPoint(x=3119, y=3121, plane=0), player=WorldPoint(x=3124, y=3123, plane=0)) -- exiting the bank first via the door routine
+18:26:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:50  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:52  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:54  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:56  BANK TICK: up=true opened=true closed=true upStep=0
+18:26:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:26:59  BANK TICK: up=true opened=true closed=true upStep=0
+18:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:01  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:03  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:05  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:07  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:09  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:09  Build 372: poll dialogue dismissal tick 130 (varp=525)
+18:27:10  Build 367: poll booth is OUTSIDE (booth=WorldPoint(x=3119, y=3121, plane=0), player=WorldPoint(x=3124, y=3123, plane=0)) -- exiting the bank first via the door routine
+18:27:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:11  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:13  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:15  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:17  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:19  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:21  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:24  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:26  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:28  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:30  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:30  Build 372: poll dialogue dismissal tick 140 (varp=525)
+18:27:31  Build 367: poll booth is OUTSIDE (booth=WorldPoint(x=3119, y=3121, plane=0), player=WorldPoint(x=3124, y=3123, plane=0)) -- exiting the bank first via the door routine
+18:27:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:32  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:34  Screenshot saved: 2026-10-07_18-27-34_BANK_auto.png
+18:27:34  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:35  Diag tail uploaded: 2026-10-07_18-27-34_BANK_diag.txt
+18:27:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:36  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:38  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:40  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:42  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:44  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:46  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:49  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:51  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:51  Build 372: poll dialogue dismissal tick 150 (varp=525)
+18:27:51  Build 367: poll booth is OUTSIDE (booth=WorldPoint(x=3119, y=3121, plane=0), player=WorldPoint(x=3124, y=3123, plane=0)) -- exiting the bank first via the door routine
+18:27:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:53  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:27:55  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:56  Build 300: creatorBinding: Java Exit modal present -- NOT creator, keeping GUIDE
+18:27:57  BANK TICK: up=true opened=true closed=true upStep=0
+18:27:58  Build 300: creatorBinding: Java Exit modal present -- NOT creator, keeping GUIDE
+18:27:58  BANK TICK: up=true opened=true closed=true upStep=0
+18:28  Build 300: creatorBinding: Java Exit modal present -- NOT creator, keeping GUIDE
+18:28  BANK TICK: up=true opened=true closed=true upStep=0
+18:28:02  Build 300: creatorBinding: Java Exit modal present -- NOT creator, keeping GUIDE
+18:28:02  BANK TICK: up=true opened=true closed=true upStep=0
+18:28:03  Build 300: creatorBinding: Java Exit modal present -- NOT creator, keeping GUIDE
+18:28:04  BANK TICK: up=true opened=true closed=true upStep=0
+18:28:05  Build 300: creatorBinding: Java Exit modal present -- NOT creator, keeping GUIDE
+18:28:05  BANK TICK: up=true opened=true closed=true upStep=0
+18:28:07  Build 300: creatorBinding: Java Exit modal present -- NOT creator, keeping GUIDE
+18:28:07  BANK TICK: up=true opened=true closed=true upStep=0
+18:28:09  Build 300: creatorBinding: Java Exit modal present -- NOT creator, keeping GUIDE
+18:28:09  BANK TICK: up=true opened=true closed=true upStep=0
+18:28:09  Build 372: poll dialogue dismissal tick 160 (varp=525)
+18:28:10  Build 367: poll booth is OUTSIDE (booth=WorldPoint(x=3119, y=3121, plane=0), player=WorldPoint(x=3124, y=3123, plane=0)) -- exiting the bank first via the door routine
+18:28:10  Build 300: creatorBinding: Java Exit modal present -- NOT creator, keeping GUIDE
+18:28:11  BANK TICK: up=true opened=true closed=true upStep=0
+18:28:12  Build 300: creatorBinding: Java Exit modal present -- NOT creator, keeping GUIDE
+18:28:13  BANK TICK: up=true opened=true closed=true upStep=0
+18:28:14  Build 300: creatorBinding: Java Exit modal present -- NOT creator, keeping GUIDE
+18:28:14  BANK TICK: up=true opened=true closed=true upStep=0
+18:28:16  Build 300: creatorBinding: Java Exit modal present -- NOT creator, keeping GUIDE
+18:28:16  BANK TICK: up=true opened=true closed=true upStep=0
+18:28:18  Build 300: creatorBinding: Java Exit modal present -- NOT creator, keeping GUIDE
+18:28:18  BANK TICK: up=true opened=true closed=true upStep=0
+18:28:19  Build 300: creatorBinding: Java Exit modal present -- NOT creator, keeping GUIDE
+18:28:20  BANK TICK: up=true opened=true closed=true upStep=0
+18:28:21  Build 300: creatorBinding: Java Exit modal present -- NOT creator, keeping GUIDE
+18:28:21  BANK TICK: up=true opened=true closed=true upStep=0
+18:28:23  Build 300: creatorBinding: Java Exit modal present -- NOT creator, keeping GUIDE
+18:28:23  BANK TICK: up=true opened=true closed=true upStep=0
+18:28:25  Build 300: creatorBinding: Java Exit modal present -- NOT creator, keeping GUIDE
+18:28:25  BANK TICK: up=true opened=true closed=true upStep=0
+18:28:26  Build 300: creatorBinding: Java Exit modal present -- NOT creator, keeping GUIDE
+18:28:27  BANK TICK: up=true opened=true closed=true upStep=0
+18:28:27  Build 372: poll dialogue dismissal tick 170 (varp=525)
+18:28:28  Build 367: poll booth is OUTSIDE (booth=WorldPoint(x=3119, y=3121, plane=0), player=WorldPoint(x=3124, y=3123, plane=0)) -- exiting the bank first via the door routine
+18:28:28  Build 300: creatorBinding: Java Exit modal present -- NOT creator, keeping GUIDE
+18:28:29  BANK TICK: up=true opened=true closed=true upStep=0
+18:28:30  Build 300: creatorBinding: Java Exit modal present -- NOT creator, keeping GUIDE
+18:28:30  BANK TICK: up=true opened=true closed=true upStep=0
+18:28:32  Build 300: creatorBinding: Java Exit modal present -- NOT creator, keeping GUIDE
+18:28:32  BANK TICK: up=true opened=true closed=true upStep=0
+18:28:34  Build 300: creatorBinding: Java Exit modal present -- NOT creator, keeping GUIDE
+18:28:34  Screenshot saved: 2026-10-07_18-28-34_BANK_auto.png
