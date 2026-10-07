@@ -1,0 +1,250 @@
+17:56:11  Build 354: hammer next step=dialogue (instructor dialogue open -- continue-first, no ESC)
+17:56:11  dialogueTick: clicking continue (priority over keyword handling)
+17:56:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:56:13  Skipping mining — already have bar/dagger
+17:56:13  Skipping smelt — already have bar/dagger
+17:56:13  Getting hammer from Mining Instructor
+17:56:13  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9504, plane=0)
+17:56:14  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+17:56:14  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+17:56:14  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+17:56:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:56:15  Build 354: hammer next step=dialogue (instructor dialogue open -- continue-first, no ESC)
+17:56:15  dialogueTick: clicking continue (priority over keyword handling)
+17:56:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:56:17  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:56:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:56:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:56:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:56:23  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:56:23  Skipping mining — already have bar/dagger
+17:56:23  Skipping smelt — already have bar/dagger
+17:56:24  Build 196: walking to anvil at WorldPoint(x=3083, y=9499, plane=0) (once, verified next tick)
+17:56:24  Build 196: tick-wait 'mine-anvil-walk' armed, bound 15 ticks (non-blocking)
+17:56:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:56:26  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:56:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:56:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:56:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:56:32  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:56:32  Skipping mining — already have bar/dagger
+17:56:32  Skipping smelt — already have bar/dagger
+17:56:32  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+17:56:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:56:34  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:56:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:56:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:56:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:56:40  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:56:40  Skipping mining — already have bar/dagger
+17:56:40  Skipping smelt — already have bar/dagger
+17:56:41  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+17:56:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:56:43  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:56:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:56:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:56:46  Screenshot saved: 2026-10-07_17-56-46_MINING_auto.png
+17:56:47  Diag tail uploaded: 2026-10-07_17-56-46_MINING_diag.txt
+17:56:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:56:49  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:56:49  Skipping mining — already have bar/dagger
+17:56:49  Skipping smelt — already have bar/dagger
+17:56:49  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+17:56:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:56:51  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:56:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:56:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:56:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:56:57  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:56:57  Skipping mining — already have bar/dagger
+17:56:57  Skipping smelt — already have bar/dagger
+17:56:58  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+17:56:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:06  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:57:06  Skipping mining — already have bar/dagger
+17:57:06  Skipping smelt — already have bar/dagger
+17:57:06  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+17:57:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:08  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:57:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:14  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:57:14  Skipping mining — already have bar/dagger
+17:57:14  Skipping smelt — already have bar/dagger
+17:57:15  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+17:57:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:17  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:57:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:23  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:57:23  Skipping mining — already have bar/dagger
+17:57:23  Skipping smelt — already have bar/dagger
+17:57:23  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+17:57:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:25  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:57:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:31  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:57:31  Skipping mining — already have bar/dagger
+17:57:31  Skipping smelt — already have bar/dagger
+17:57:32  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+17:57:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:34  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:57:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:40  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:57:40  Skipping mining — already have bar/dagger
+17:57:40  Skipping smelt — already have bar/dagger
+17:57:40  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+17:57:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:42  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:57:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:47  Screenshot saved: 2026-10-07_17-57-47_MINING_auto.png
+17:57:48  Diag tail uploaded: 2026-10-07_17-57-47_MINING_diag.txt
+17:57:48  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:57:48  Skipping mining — already have bar/dagger
+17:57:48  Skipping smelt — already have bar/dagger
+17:57:49  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+17:57:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:51  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:57:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:57  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:57:57  Skipping mining — already have bar/dagger
+17:57:57  Skipping smelt — already have bar/dagger
+17:57:57  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+17:57:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:57:59  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:05  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:58:05  Skipping mining — already have bar/dagger
+17:58:05  Skipping smelt — already have bar/dagger
+17:58:06  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+17:58:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:08  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:58:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:14  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:58:14  Skipping mining — already have bar/dagger
+17:58:14  Skipping smelt — already have bar/dagger
+17:58:14  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+17:58:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:16  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:58:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:22  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:58:22  Skipping mining — already have bar/dagger
+17:58:22  Skipping smelt — already have bar/dagger
+17:58:23  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+17:58:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:25  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:58:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:31  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:58:31  Skipping mining — already have bar/dagger
+17:58:31  Skipping smelt — already have bar/dagger
+17:58:31  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+17:58:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:33  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:58:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:39  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:58:39  Skipping mining — already have bar/dagger
+17:58:39  Skipping smelt — already have bar/dagger
+17:58:40  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+17:58:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:42  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:58:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:48  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:58:48  Skipping mining — already have bar/dagger
+17:58:48  Skipping smelt — already have bar/dagger
+17:58:48  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+17:58:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:49  Screenshot saved: 2026-10-07_17-58-49_MINING_auto.png
+17:58:50  Diag tail uploaded: 2026-10-07_17-58-49_MINING_diag.txt
+17:58:50  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:58:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:56  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:58:56  Skipping mining — already have bar/dagger
+17:58:56  Skipping smelt — already have bar/dagger
+17:58:57  Build 196: walking to anvil at WorldPoint(x=3083, y=9499, plane=0) (once, verified next tick)
+17:58:57  Build 196: tick-wait 'mine-anvil-walk' armed, bound 15 ticks (non-blocking)
+17:58:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:58:59  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:05  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:59:05  Skipping mining — already have bar/dagger
+17:59:05  Skipping smelt — already have bar/dagger
+17:59:06  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+17:59:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:07  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:59:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:14  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:59:14  Skipping mining — already have bar/dagger
+17:59:14  Skipping smelt — already have bar/dagger
+17:59:14  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+17:59:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:16  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:59:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:22  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:59:22  Skipping mining — already have bar/dagger
+17:59:22  Skipping smelt — already have bar/dagger
+17:59:23  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+17:59:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:24  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:59:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:31  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:59:31  Skipping mining — already have bar/dagger
+17:59:31  Skipping smelt — already have bar/dagger
+17:59:31  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+17:59:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:33  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:59:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:39  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:59:39  Skipping mining — already have bar/dagger
+17:59:39  Skipping smelt — already have bar/dagger
+17:59:40  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+17:59:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:41  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:59:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:47  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+17:59:47  Skipping mining — already have bar/dagger
+17:59:47  Skipping smelt — already have bar/dagger
+17:59:48  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+17:59:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:50  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+17:59:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+17:59:51  Screenshot saved: 2026-10-07_17-59-51_MINING_auto.png
