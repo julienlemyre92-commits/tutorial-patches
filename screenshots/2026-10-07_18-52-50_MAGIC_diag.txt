@@ -1,0 +1,250 @@
+18:50:49  Build 115 - VERIFIED ACC_MAN TARGET + BOOTH PROXIMITY GATE. Live 2026-09-27 18:45: 15+ physical clicks at packed 548:72 bounds (576,186) never advanced the tutorial (Build 113 live 18:42:20, loop 18:42:53-18:44:38) — the 548:72/161:67 IDs were derived by sequence-continuation (varc index 8), NEVER verified against the widget tree. Fix: clickTabIcon(ACC_MAN) now uses a VERIFIED target — prefers the tree-anchored name-matched bounds (fresh <10s), else the packed bounds only if the sampled widget NAME contains 'account'; logs packed name+bounds and name-matched bounds+age on EVERY click so the diag proves the target (never a blind derived child). Also: booth 'I can't reach that!' (seen in 18:44:41 screenshot) — Build 109's text-based recovery never fired, so clickBoothDirect now has a PROXIMITY GATE: if the player is >4 tiles from the booth, walk adjacent FIRST instead of clicking (text-independent). Keeps Build 114 - FORCED PHYSICAL TAB CLICK.
+18:50:49  Build 114 - FORCED PHYSICAL TAB CLICK. Live 2026-09-27 18:45: root cause of the 18:35-18:39 booth loop (click booth -> 'Click on the flashing icon to open your Account Management menu' -> click icon -> click booth, opened=false): clickTabIcon's isTabCurrent() fast path SILENTLY returned true when the account panel was already open (opened via the script-915 fallback in an earlier build), so the game's flashing-icon tutorial flag was never set and the physical click NEVER happened — no 'MOUSE CLICKED ACC_MAN' line was ever logged across ~48 booth clicks. Build 113's ACC_MAN packed IDs were correct but never reached because of this fast path. Fix: clickTabIcon(tab, forcePhysical) overload; every tutorial 'flashing icon' prompt (account, quests, prayer, magic, combat, equipment, settings, dagger-inventory, generic tab branch, account-guide step) now bypasses the fast path and always performs the real mouse click. Operational switches (open inventory to wield) keep the fast path. Keeps Build 113 - ACC_MAN PHYSICAL CLICK. Live 2026-09-27 18:36: root cause of the 18:32-18:34 booth loop (click booth -> 'Click on the flashing icon to open your Account Management menu' -> click icon -> click booth, opened=false): clickTabIcon(ACC_MAN) had NO case in its packed-ID switch (ids stayed null) and WorldModel never sampled the account icon, so the flashing icon was NEVER physically clicked. The script-915 fallback opens the tab panel but does not set the game's 'clicked the flashing icon' tutorial flag, so the Account Guide step never truly completes. Fix: ACC_MAN packed IDs 548:72 / 161:67 (varc index 8) sampled in WorldModel, plus a per-tick name-matched fallback (widget name/actions containing 'account'). Keeps Build 112 - SINGLE SCRIPT FIX. Live 2026-09-27 18:28: patch 111 shipped with TWO competing scripts (TutorialIslandScript + TutorialIslandAgentScript) in the same jar — bot went silent for 13+ min after downloading it, no screenshots, likely startup conflict. This build removes the agent, plugin injects the single TutorialIslandScript again. Keeps Build 110 - ACCOUNT GUIDE FIRST. Live 2026-09-27 18:08: fresh run looped the bank booth forever (click booth -> the game re-popped the 'Account (Management)' instruction dialog: 'The guide here will tell you all about your account. Just click on him to hear what he's got to say.' -> dismiss -> click booth, opened=false) because the bot tried to open the bank BEFORE talking to the Account Guide. Live proof the official order is Account Guide -> bank booth -> poll booth -> exit: the instruction dialog names him while the bank never opens. Now: doAccountGuideStep runs FIRST in doBank (talk, account tab, talk again), before any booth click. Keeps Build 109 (can't-reach recovery); Build 108 (Account Guide gate recovery); Build 107 (tab switch async); Build 106 (dialog-transition); Build 105 (bank door stall); Build 104 (name cache); Build 103; Build 102 (event-driven); Build 101; Build 100; Build 99; Build 98; Build 97; Build 96; Build 95; Build 94; Build 93; Build 92; Build 91; Build 90; Build 89; Build 88; Build 87; Build 86; Build 85; Build 84; Build 83; Build 82; Build 81/80.
+18:50:49  Build 104: loaded 242 cached object names (rev 241)
+18:50:49  REBUILD: WorldModel registered on event bus
+18:50:49  Build 78: Check-Update.ps1 $versionUrl line not in expected form, skipping repair
+18:50:49  Build 79: Supervisor.bat already handles cache-clear requests, nothing to do
+18:50:49  Build 216: canvas-only screenshot skipped: IllegalComponentStateException
+18:50:49  Build 390: desktop screenshot saved: 2026-10-07_18-50-49_UNKNOWN_auto_desktop.png
+18:50:49  Build 194: logged out 0 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+18:51:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:06  VARP: 281 = 671
+18:51:06  VARP-281 stage detection -> MAGIC (overrides position)
+18:51:06  Detected start stage: MAGIC
+18:51:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:06  Build 223: stage self-correction SKIPPED -- current machine state unreadable (null), varp281=671 live=MAGIC -- no force this tick, retrying next tick
+18:51:06  Build 392: MISSION_SELECT -- desired=tutorial (self); claiming scheduler ownership
+18:51:06  Build 392: MISSION_SELECT claim -- otherFound=true,otherWasEnabled=false
+18:51:07  Build 384: cache-mismatch text is a chatbox widget (group 162) -- ignoring as chat, not a blocker
+18:51:07  Stage: null -> MAGIC
+18:51:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:08  Build 392: MISSION_SELECT verify -- lockOwner=tutorial, selfEnabled=true, otherFound=true, otherEnabled=false
+18:51:08  Build 392: SWITCH COMPLETE -- tutorial owns the scheduler (startup marker + overlay enabled + other plugin stopped + lock held); entering quest-state detection
+18:51:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:10  Build 159: varp=671 >= 670, Wind Strike done
+18:51:10  Build 159: varp=671 >= 650, Instructor talk2 done
+18:51:10  Build 159: varp=671 >= 640, spellbook tab done
+18:51:10  Build 159: varp=671 >= 630, Instructor talk1 done
+18:51:10  Build 172: varp281 MAGIC -1 -> 671
+18:51:10  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:11  dialogueTick: clicking continue (priority over keyword handling)
+18:51:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:13  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:14  dialogueTick: clicking continue (priority over keyword handling)
+18:51:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:16  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:16  Build 192: dialogue closed, varp=671 (still 670-999) -- casting Home Teleport for departure
+18:51:16  Build 192: Rs2Magic.cast(LUMBRIDGE_HOME_TELEPORT) -> false (attempt 1/3, varp=671)
+18:51:16  Build 193: spell dump: current tab=MAGIC, searching spriteId=356
+18:51:16  Build 193: spell dump: id=14286854 name="<col=00ff00>Lumbridge Home Teleport</col>" sprite=1802 hidden=true
+18:51:16  Build 193: spell dump: id=14286855 name="<col=00ff00>Minigame Teleport</col>" sprite=1808 hidden=true
+18:51:16  Build 193: spell dump: id=14286856 name="<col=00ff00>Minigame Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286857 name="<col=00ff00>Minigame Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286858 name="<col=00ff00>Minigame Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286874 name="<col=00ff00>Varrock Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286877 name="<col=00ff00>Lumbridge Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286880 name="<col=00ff00>Falador Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286882 name="<col=00ff00>Teleport to House</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286885 name="<col=00ff00>Camelot Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286887 name="<col=00ff00>Kourend Castle Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286892 name="<col=00ff00>Ardougne Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286894 name="<col=00ff00>Civitas illa Fortis Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286898 name="<col=00ff00>Watchtower Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286905 name="<col=00ff00>Trollheim Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286908 name="<col=00ff00>Ape Atoll Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286924 name="<col=00ff00>Teleport to Target</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286931 name="<col=00ff00>Teleport to Boat</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286948 name="<col=00ff00>Paddewwa Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286949 name="<col=00ff00>Senntisten Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286950 name="<col=00ff00>Kharyrll Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286951 name="<col=00ff00>Lassar Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286952 name="<col=00ff00>Dareeyak Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286953 name="<col=00ff00>Carrallanger Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286954 name="<col=00ff00>Annakarl Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286955 name="<col=00ff00>Ghorrock Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286956 name="<col=00ff00>Edgeville Home Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286957 name="<col=00ff00>Lunar Home Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286964 name="<col=00ff00>Moonclan Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286968 name="<col=00ff00>Waterbirth Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286972 name="<col=00ff00>Barbarian Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286976 name="<col=00ff00>Khazard Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286984 name="<col=00ff00>Fishing Guild Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286987 name="<col=00ff00>Catherby Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14286990 name="<col=00ff00>Ice Plateau Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14287000 name="<col=00ff00>Ourania Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14287001 name="<col=00ff00>Arceuus Home Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14287003 name="<col=00ff00>Arceuus Library Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14287007 name="<col=00ff00>Draynor Manor Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14287009 name="<col=00ff00>Mind Altar Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14287010 name="<col=00ff00>Respawn Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14287011 name="<col=00ff00>Salve Graveyard Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14287012 name="<col=00ff00>Fenkenstrain's Castle Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14287013 name="<col=00ff00>West Ardougne Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14287014 name="<col=00ff00>Harmony Island Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14287015 name="<col=00ff00>Cemetery Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14287017 name="<col=00ff00>Barrows Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14287018 name="<col=00ff00>Ape Atoll Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: id=14287019 name="<col=00ff00>Battlefront Teleport</col>" sprite=-1 hidden=true
+18:51:16  Build 193: spell dump: total children=198 sprite356 hits=0 teleport/home named=49
+18:51:16  Build 193: quickCast("Lumbridge Home Teleport") -> true
+18:51:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:18  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:20  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:22  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:23  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:25  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:27  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:29  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:31  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:31  dialogueTick: clicking continue (priority over keyword handling)
+18:51:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:33  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:34  dialogueTick: clicking continue (priority over keyword handling)
+18:51:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:36  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:37  dialogueTick: clicking continue (priority over keyword handling)
+18:51:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:39  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:41  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:43  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:44  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:46  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:48  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:49  Screenshot saved: 2026-10-07_18-51-49_MAGIC_auto.png
+18:51:50  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:50  Diag tail uploaded: 2026-10-07_18-51-49_MAGIC_diag.txt
+18:51:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:52  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:53  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:55  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:57  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:51:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:51:59  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:02  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:02  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:04  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:06  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:07  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:09  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:11  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:11  Build 192: Home Teleport cast wait timed out at varp=671, will retry (bounded)
+18:52:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:13  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:13  Build 192: dialogue closed, varp=671 (still 670-999) -- casting Home Teleport for departure
+18:52:13  Build 192: Rs2Magic.cast(LUMBRIDGE_HOME_TELEPORT) -> false (attempt 2/3, varp=671)
+18:52:13  Build 193: spell dump: current tab=MAGIC, searching spriteId=356
+18:52:13  Build 193: spell dump: id=14286854 name="<col=00ff00>Lumbridge Home Teleport</col>" sprite=1802 hidden=true
+18:52:13  Build 193: spell dump: id=14286855 name="<col=00ff00>Minigame Teleport</col>" sprite=1808 hidden=true
+18:52:13  Build 193: spell dump: id=14286856 name="<col=00ff00>Minigame Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286857 name="<col=00ff00>Minigame Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286858 name="<col=00ff00>Minigame Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286874 name="<col=00ff00>Varrock Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286877 name="<col=00ff00>Lumbridge Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286880 name="<col=00ff00>Falador Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286882 name="<col=00ff00>Teleport to House</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286885 name="<col=00ff00>Camelot Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286887 name="<col=00ff00>Kourend Castle Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286892 name="<col=00ff00>Ardougne Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286894 name="<col=00ff00>Civitas illa Fortis Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286898 name="<col=00ff00>Watchtower Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286905 name="<col=00ff00>Trollheim Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286908 name="<col=00ff00>Ape Atoll Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286924 name="<col=00ff00>Teleport to Target</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286931 name="<col=00ff00>Teleport to Boat</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286948 name="<col=00ff00>Paddewwa Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286949 name="<col=00ff00>Senntisten Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286950 name="<col=00ff00>Kharyrll Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286951 name="<col=00ff00>Lassar Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286952 name="<col=00ff00>Dareeyak Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286953 name="<col=00ff00>Carrallanger Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286954 name="<col=00ff00>Annakarl Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286955 name="<col=00ff00>Ghorrock Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286956 name="<col=00ff00>Edgeville Home Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286957 name="<col=00ff00>Lunar Home Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286964 name="<col=00ff00>Moonclan Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286968 name="<col=00ff00>Waterbirth Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286972 name="<col=00ff00>Barbarian Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286976 name="<col=00ff00>Khazard Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286984 name="<col=00ff00>Fishing Guild Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286987 name="<col=00ff00>Catherby Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14286990 name="<col=00ff00>Ice Plateau Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14287000 name="<col=00ff00>Ourania Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14287001 name="<col=00ff00>Arceuus Home Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14287003 name="<col=00ff00>Arceuus Library Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14287007 name="<col=00ff00>Draynor Manor Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14287009 name="<col=00ff00>Mind Altar Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14287010 name="<col=00ff00>Respawn Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14287011 name="<col=00ff00>Salve Graveyard Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14287012 name="<col=00ff00>Fenkenstrain's Castle Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14287013 name="<col=00ff00>West Ardougne Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14287014 name="<col=00ff00>Harmony Island Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14287015 name="<col=00ff00>Cemetery Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14287017 name="<col=00ff00>Barrows Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14287018 name="<col=00ff00>Ape Atoll Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: id=14287019 name="<col=00ff00>Battlefront Teleport</col>" sprite=-1 hidden=true
+18:52:13  Build 193: spell dump: total children=198 sprite356 hits=0 teleport/home named=49
+18:52:13  Build 193: quickCast("Lumbridge Home Teleport") -> true
+18:52:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:15  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:17  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:18  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:20  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:22  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:24  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:26  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:27  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:28  dialogueTick: clicking continue (priority over keyword handling)
+18:52:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:30  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:31  dialogueTick: clicking continue (priority over keyword handling)
+18:52:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:33  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:34  dialogueTick: clicking continue (priority over keyword handling)
+18:52:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:36  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:37  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:39  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:41  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:43  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:45  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:46  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:48  MAGIC TICK: talked1=true tab=true talked2=true cast=true talked3=false
+18:52:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:52:50  Screenshot saved: 2026-10-07_18-52-50_MAGIC_auto.png
