@@ -1,0 +1,250 @@
+18:00:04  Build 197: interactObject 'Gate' stepping closer (dist 12) -- verifying next tick
+18:00:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:06  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+18:00:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:12  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+18:00:12  Skipping mining — already have bar/dagger
+18:00:12  Skipping smelt — already have bar/dagger
+18:00:12  Skipping smith — already have bronze dagger
+18:00:12  Build 197: interactObject 'Gate' stepping closer (dist 12) -- verifying next tick
+18:00:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:14  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+18:00:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:21  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+18:00:21  Skipping mining — already have bar/dagger
+18:00:21  Skipping smelt — already have bar/dagger
+18:00:21  Skipping smith — already have bronze dagger
+18:00:21  Build 196: tick-wait 'iobj:Gate:Open' armed, bound 10 ticks (non-blocking)
+18:00:21  Build 197: interactObject 'Open' on 'Gate' click issued -- verifying effect on next ticks (bound 10, non-blocking)
+18:00:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:22  Build 196: mining varp281=370 >= 370 (COMBAT) -> miningDone (varp-observed, not proximity)
+18:00:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:24  Build 195: varp281=370 says stage is COMBAT but machine is at MINING -- forcing FORWARD (game state, not proximity)
+18:00:24  COMBAT TICK: TALK_VANNAKA
+18:00:25  dialogueTick: clicking continue (priority over keyword handling)
+18:00:25  Stage: MINING -> COMBAT
+18:00:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:26  COMBAT TICK: TALK_VANNAKA
+18:00:27  Vannaka dialogue completed -> OPEN_EQUIPMENT_TAB
+18:00:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:28  COMBAT TICK: OPEN_EQUIPMENT_TAB
+18:00:28  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:00:28  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+18:00:28  Build 124: tabstrip tree: 548:root=N TAB69=mixin:null/packed:null/roots:null ICON76=mixin:null/packed:null/roots:null; 161:root=N TAB64=mixin:null/packed:null/roots:null ICON71=mixin:null/packed:null/roots:null; 164:root=Y TAB57=mixin:hidden/packed:hidden/roots:null ICON64=mixin:hidden/packed:hidden/roots:null;
+18:00:28  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+18:00:28  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+18:00:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:30  COMBAT TICK: OPEN_EQUIPMENT_TAB
+18:00:30  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:00:30  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+18:00:30  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+18:00:30  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+18:00:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:31  COMBAT TICK: OPEN_EQUIPMENT_TAB
+18:00:31  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:00:31  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+18:00:31  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+18:00:31  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+18:00:31  clickTabIcon EQUIPMENT: button missing 3x in a row — script-switch fallback (attempt 1)
+18:00:31  switchTabViaScript: ran client script 915 -> EQUIPMENT
+18:00:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:33  COMBAT TICK: OPEN_EQUIPMENT_TAB
+18:00:33  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:00:33  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+18:00:33  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+18:00:33  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+18:00:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:34  COMBAT TICK: OPEN_EQUIPMENT_TAB
+18:00:34  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:00:34  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+18:00:34  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+18:00:34  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+18:00:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:36  COMBAT TICK: OPEN_EQUIPMENT_TAB
+18:00:36  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:00:36  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+18:00:36  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+18:00:36  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+18:00:36  clickTabIcon EQUIPMENT: button missing 3x in a row — script-switch fallback (attempt 2)
+18:00:36  switchTabViaScript: ran client script 915 -> EQUIPMENT
+18:00:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:37  COMBAT TICK: OPEN_EQUIPMENT_TAB
+18:00:37  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:00:37  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+18:00:37  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+18:00:37  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+18:00:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:39  COMBAT TICK: OPEN_EQUIPMENT_TAB
+18:00:39  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:00:39  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+18:00:39  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+18:00:39  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+18:00:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:40  COMBAT TICK: OPEN_EQUIPMENT_TAB
+18:00:40  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:00:40  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+18:00:40  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+18:00:40  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+18:00:40  clickTabIcon EQUIPMENT: button missing 3x in a row — script-switch fallback (attempt 3)
+18:00:40  switchTabViaScript: ran client script 915 -> EQUIPMENT
+18:00:40  Build 120: WIDGET DUMP for EQUIPMENT -- scanning groups 548/161/164, children 0-150
+18:00:40  Build 120 DUMP:   [group 548: 0 non-null children]
+18:00:40  Build 120 DUMP:   [group 161: 0 non-null children]
+18:00:40  Build 120 DUMP:   164:20 name='' actions='' bounds=[-1,-1 25x25] hidden=true
+18:00:40  Build 120 DUMP:   164:21 name='' actions='' bounds=[867,178 30x25] hidden=false
+18:00:40  Build 120 DUMP:   164:29 name='' actions='' bounds=[796,5 35x35] hidden=false
+18:00:40  Build 120 DUMP:   164:31 name='' actions='' bounds=[794,3 36x36] hidden=false
+18:00:40  Build 120 DUMP:   164:34 name='' actions='Logout|World Switcher|' bounds=[945,2 26x23] hidden=false
+18:00:40  Build 120 DUMP:   164:35 name='' actions='' bounds=[945,2 26x23] hidden=false
+18:00:40  Build 120 DUMP:   164:38 name='' actions='Chat-channel|Your Clan|View another clan|Grouping|' bounds=[841,645 33x36] hidden=true
+18:00:40  Build 120 DUMP:   164:39 name='' actions='Account Management|Account|Community|Useful links|' bounds=[-1,-1 33x36] hidden=true
+18:00:40  Build 120 DUMP:   164:40 name='' actions='Friends List|Ignore List|' bounds=[-1,-1 33x36] hidden=true
+18:00:40  Build 120 DUMP:   164:41 name='' actions='Settings|Controls|Audio|Display|' bounds=[874,645 33x36] hidden=false
+18:00:40  Build 120 DUMP:   164:42 name='' actions='Emotes|' bounds=[907,645 33x36] hidden=true
+18:00:40  Build 120 DUMP:   164:43 name='' actions='Music Player|' bounds=[940,645 33x36] hidden=true
+18:00:40  Build 120 DUMP:   164:44 name='' actions='' bounds=[841,645 33x36] hidden=true
+18:00:40  Build 120 DUMP:   164:45 name='' actions='' bounds=[-1,-1 33x36] hidden=true
+18:00:40  Build 120 DUMP:   164:46 name='' actions='' bounds=[-1,-1 33x36] hidden=true
+18:00:40  Build 120 DUMP:   164:47 name='' actions='' bounds=[874,645 33x36] hidden=false
+18:00:40  Build 120 DUMP:   164:48 name='' actions='' bounds=[907,645 33x36] hidden=true
+18:00:40  Build 120 DUMP:   164:49 name='' actions='' bounds=[940,645 33x36] hidden=true
+18:00:40  Build 120 DUMP:   164:52 name='' actions='Combat Options|' bounds=[-1,-1 33x36] hidden=true
+18:00:40  Build 120 DUMP:   164:53 name='' actions='Skills|' bounds=[577,645 33x36] hidden=false
+18:00:40  Build 120 DUMP:   164:54 name='' actions='Quest List|Character Summary|Achievement Diaries|' bounds=[610,645 33x36] hidden=false
+18:00:40  Build 120 DUMP:   164:55 name='' actions='Inventory|' bounds=[643,645 33x36] hidden=false
+18:00:40  Build 120 DUMP:   164:56 name='' actions='Worn Equipment|' bounds=[-1,-1 33x36] hidden=true
+18:00:40  Build 120 DUMP:   164:57 name='' actions='Prayer|Disable prayer filtering|' bounds=[-1,-1 33x36] hidden=true
+18:00:40  Build 120 DUMP:   164:58 name='' actions='Magic|Disable spell filtering|' bounds=[-1,-1 33x36] hidden=true
+18:00:40  Build 120 DUMP:   164:59 name='' actions='' bounds=[-1,-1 33x36] hidden=true
+18:00:40  Build 120 DUMP:   164:60 name='' actions='' bounds=[577,645 33x36] hidden=false
+18:00:40  Build 120 DUMP:   164:61 name='' actions='' bounds=[610,645 33x36] hidden=false
+18:00:40  Build 120 DUMP:   164:62 name='' actions='' bounds=[643,645 33x36] hidden=false
+18:00:40  Build 120 DUMP:   164:63 name='' actions='' bounds=[-1,-1 33x36] hidden=true
+18:00:40  Build 120 DUMP:   164:64 name='' actions='' bounds=[-1,-1 33x36] hidden=true
+18:00:40  Build 120 DUMP:   164:65 name='' actions='' bounds=[-1,-1 33x36] hidden=true
+18:00:40  Build 120 DUMP:   164:68 name='' actions='' bounds=[0,0 1x1] hidden=false
+18:00:40  Build 120 DUMP:   [group 164: 98 non-null children]
+18:00:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:42  COMBAT TICK: OPEN_EQUIPMENT_TAB
+18:00:42  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:00:42  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+18:00:42  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+18:00:42  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+18:00:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:43  COMBAT TICK: OPEN_EQUIPMENT_TAB
+18:00:43  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:00:43  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+18:00:43  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+18:00:43  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+18:00:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:44  COMBAT TICK: OPEN_EQUIPMENT_TAB
+18:00:44  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:00:44  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+18:00:44  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+18:00:44  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+18:00:44  clickTabIcon EQUIPMENT: button missing 3x in a row — script-switch fallback (attempt 4)
+18:00:44  switchTabViaScript: ran client script 915 -> EQUIPMENT
+18:00:44  Build 125: ALL-ROOTS SCAN -- looking for the visible tab strip
+18:00:44  Build 125 SCAN: roots=6
+18:00:44  Build 125 SCAN:   group 164 (raw 10747904): 13 visible icon-sized widgets
+18:00:44  Build 125 SCAN:     164:21 '' [867,178 30x25]
+18:00:44  Build 125 SCAN:     164:29 '' [796,5 35x35]
+18:00:44  Build 125 SCAN:     164:31 '' [794,3 36x36]
+18:00:44  Build 125 SCAN:     164:34 '' [945,2 26x23]
+18:00:44  Build 125 SCAN:     164:35 '' [945,2 26x23]
+18:00:44  Build 125 SCAN:     164:41 '' [874,645 33x36]
+18:00:44  Build 125 SCAN:     164:47 '' [874,645 33x36]
+18:00:44  Build 125 SCAN:     164:53 '' [577,645 33x36]
+18:00:44  Build 125 SCAN:     164:54 '' [610,645 33x36]
+18:00:44  Build 125 SCAN:     164:55 '' [643,645 33x36]
+18:00:44  Build 125 SCAN:   group 164 (raw 10747970): 13 visible icon-sized widgets
+18:00:44  Build 125 SCAN:     164:21 '' [867,178 30x25]
+18:00:44  Build 125 SCAN:     164:29 '' [796,5 35x35]
+18:00:44  Build 125 SCAN:     164:31 '' [794,3 36x36]
+18:00:44  Build 125 SCAN:     164:34 '' [945,2 26x23]
+18:00:44  Build 125 SCAN:     164:35 '' [945,2 26x23]
+18:00:44  Build 125 SCAN:     164:41 '' [874,645 33x36]
+18:00:44  Build 125 SCAN:     164:47 '' [874,645 33x36]
+18:00:44  Build 125 SCAN:     164:53 '' [577,645 33x36]
+18:00:44  Build 125 SCAN:     164:54 '' [610,645 33x36]
+18:00:44  Build 125 SCAN:     164:55 '' [643,645 33x36]
+18:00:44  Build 125 SCAN:   group 164 (raw 10747971): 13 visible icon-sized widgets
+18:00:45  Build 125 SCAN:     164:21 '' [867,178 30x25]
+18:00:45  Build 125 SCAN:     164:29 '' [796,5 35x35]
+18:00:45  Build 125 SCAN:     164:31 '' [794,3 36x36]
+18:00:45  Build 125 SCAN:     164:34 '' [945,2 26x23]
+18:00:45  Build 125 SCAN:     164:35 '' [945,2 26x23]
+18:00:45  Build 125 SCAN:     164:41 '' [874,645 33x36]
+18:00:45  Build 125 SCAN:     164:47 '' [874,645 33x36]
+18:00:45  Build 125 SCAN:     164:53 '' [577,645 33x36]
+18:00:45  Build 125 SCAN:     164:54 '' [610,645 33x36]
+18:00:45  Build 125 SCAN:     164:55 '' [643,645 33x36]
+18:00:45  Build 125 SCAN:   group 164 (raw 10747972): 13 visible icon-sized widgets
+18:00:45  Build 125 SCAN:     164:21 '' [867,178 30x25]
+18:00:45  Build 125 SCAN:     164:29 '' [796,5 35x35]
+18:00:45  Build 125 SCAN:     164:31 '' [794,3 36x36]
+18:00:45  Build 125 SCAN:     164:34 '' [945,2 26x23]
+18:00:45  Build 125 SCAN:     164:35 '' [945,2 26x23]
+18:00:45  Build 125 SCAN:     164:41 '' [874,645 33x36]
+18:00:45  Build 125 SCAN:     164:47 '' [874,645 33x36]
+18:00:45  Build 125 SCAN:     164:53 '' [577,645 33x36]
+18:00:45  Build 125 SCAN:     164:54 '' [610,645 33x36]
+18:00:45  Build 125 SCAN:     164:55 '' [643,645 33x36]
+18:00:45  Build 125 SCAN:   group 164 (raw 10747973): 13 visible icon-sized widgets
+18:00:45  Build 125 SCAN:     164:21 '' [867,178 30x25]
+18:00:45  Build 125 SCAN:     164:29 '' [796,5 35x35]
+18:00:45  Build 125 SCAN:     164:31 '' [794,3 36x36]
+18:00:45  Build 125 SCAN:     164:34 '' [945,2 26x23]
+18:00:45  Build 125 SCAN:     164:35 '' [945,2 26x23]
+18:00:45  Build 125 SCAN:     164:41 '' [874,645 33x36]
+18:00:45  Build 125 SCAN:     164:47 '' [874,645 33x36]
+18:00:45  Build 125 SCAN:     164:53 '' [577,645 33x36]
+18:00:45  Build 125 SCAN:     164:54 '' [610,645 33x36]
+18:00:45  Build 125 SCAN:     164:55 '' [643,645 33x36]
+18:00:45  Build 125 SCAN:   group 164 (raw 10748001): 13 visible icon-sized widgets
+18:00:45  Build 125 SCAN:     164:21 '' [867,178 30x25]
+18:00:45  Build 125 SCAN:     164:29 '' [796,5 35x35]
+18:00:45  Build 125 SCAN:     164:31 '' [794,3 36x36]
+18:00:45  Build 125 SCAN:     164:34 '' [945,2 26x23]
+18:00:45  Build 125 SCAN:     164:35 '' [945,2 26x23]
+18:00:45  Build 125 SCAN:     164:41 '' [874,645 33x36]
+18:00:45  Build 125 SCAN:     164:47 '' [874,645 33x36]
+18:00:45  Build 125 SCAN:     164:53 '' [577,645 33x36]
+18:00:45  Build 125 SCAN:     164:54 '' [610,645 33x36]
+18:00:45  Build 125 SCAN:     164:55 '' [643,645 33x36]
+18:00:45  Build 127 SCAN-SUMMARY: iconGroups=[164,164,164,164,164,164]
+18:00:45  Build 127 SCAN-SUMMARY: iconGroups=[164,164,164,164,164,164]
+18:00:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:46  COMBAT TICK: OPEN_EQUIPMENT_TAB
+18:00:46  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:00:46  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+18:00:46  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+18:00:46  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+18:00:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:47  COMBAT TICK: OPEN_EQUIPMENT_TAB
+18:00:47  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:00:47  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+18:00:47  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+18:00:47  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+18:00:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:49  COMBAT TICK: OPEN_EQUIPMENT_TAB
+18:00:49  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:00:49  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+18:00:49  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+18:00:49  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+18:00:49  clickTabIcon EQUIPMENT: button missing 3x in a row — script-switch fallback (attempt 5)
+18:00:49  switchTabViaScript: ran client script 915 -> EQUIPMENT
+18:00:49  Build 127 SCAN-SUMMARY: iconGroups=[164,164,164,164,164,164]
+18:00:49  !!! TAB BAR NOT RENDERED for EQUIPMENT after 5 script switches. The in-game tab buttons are not visible (blank stone row). Client shows cache errors ('Mismatch in overlaid cache archive hash', worlds lookup failures) — clear the RuneLite cache or restart the client. Bot keeps retrying.
+18:00:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:50  COMBAT TICK: OPEN_EQUIPMENT_TAB
+18:00:50  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+18:00:50  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+18:00:50  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+18:00:50  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+18:00:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+18:00:52  Screenshot saved: 2026-10-07_18-00-51_COMBAT_auto.png
