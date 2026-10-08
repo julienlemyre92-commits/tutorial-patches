@@ -1,0 +1,250 @@
+06:15:36  inv: raw=false cooked=true logs=false
+06:15:36  fire: false
+06:15:36  Have cooked shrimp, survivalDone=true
+06:15:36  Stage: CHEF -> SURVIVAL
+06:15:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:15:38  Build 203: Door 9708 arrival VERIFIED at WorldPoint(x=3090, y=3092, plane=0) (dist 0 <= 3, observed not assumed)
+06:15:50  Build 199: door 'Open' click issued on WorldPoint(x=3089, y=3091, plane=0) (id=9708, orient=null) -- verifying crossing on next ticks
+06:15:50  Door 9708: crossing not yet verified (tile before=WorldPoint(x=3090, y=3092, plane=0)) -- retry next cycle
+06:15:58  Build 196: tick-wait 'chef-beyond-gate' armed, bound 25 ticks (non-blocking)
+06:15:58  Stage: SURVIVAL -> CHEF
+06:15:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:15:58  Screenshot saved: 2026-10-08_06-15-58_CHEF_auto.png
+06:15:59  Build 203: Door 9709 arrival VERIFIED at WorldPoint(x=3080, y=3085, plane=0) (dist 1 <= 3, observed not assumed)
+06:15:59  Diag tail uploaded: 2026-10-08_06-15-58_CHEF_diag.txt
+06:16:06  Build 199: door 'Open' click issued on WorldPoint(x=3079, y=3084, plane=0) (id=9709, orient=null) -- verifying crossing on next ticks
+06:16:06  Door 9709: crossing not yet verified (tile before=WorldPoint(x=3080, y=3085, plane=0)) -- retry next cycle
+06:16:12  Build 196: tick-wait 'chef-enter-kitchen' armed, bound 25 ticks (non-blocking)
+06:16:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:16:14  Build 337: chef next step=dialogue (dough=false flour=false water=false)
+06:16:14  Build 197: spamDialogue phased session armed, budget 60s -- one dialogue action per tick, verifying close on following ticks
+06:16:14  dialogueTick: clicking continue (priority over keyword handling)
+06:16:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:16:16  Build 337: chef next step=talk (dough=false flour=false water=false)
+06:16:16  Build 197 talk: 'Master Chef' id=3305 idx=1710 at WorldPoint(x=3075, y=3087, plane=0)
+06:16:17  Build 166 talk: direct invoke 'Talk-to' on 'Master Chef' id=3305 idx=1710
+06:16:17  Build 196: tick-wait 'talk:Master Chef' armed, bound 17 ticks (non-blocking)
+06:16:17  Build 197: talkTo 'Master Chef' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+06:16:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:16:18  Build 337: chef next step=dialogue (dough=false flour=false water=false)
+06:16:18  dialogueTick: clicking continue (priority over keyword handling)
+06:16:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:16:20  Build 337: chef next step=dialogue (dough=false flour=false water=false)
+06:16:20  dialogueTick: clicking continue (priority over keyword handling)
+06:16:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:16:22  Build 337: chef next step=dialogue (dough=false flour=false water=false)
+06:16:22  dialogueTick: clicking continue (priority over keyword handling)
+06:16:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:16:23  Build 337: chef next step=dialogue (dough=false flour=false water=false)
+06:16:24  dialogueTick: clicking continue (priority over keyword handling)
+06:16:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:16:25  Build 337: chef next step=dialogue (dough=false flour=false water=false)
+06:16:26  dialogueTick: clicking continue (priority over keyword handling)
+06:16:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:16:27  Build 337: chef next step=mix (dough=false flour=true water=true)
+06:16:28  Build 196: tick-wait 'chef-dough' armed, bound 20 ticks (non-blocking)
+06:16:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:16:29  Build 337: chef next step=bake (dough=true flour=false water=false)
+06:16:30  Build 209: use-on 'Bread dough|Range' item selected (count 1), clicking Range next tick
+06:16:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:16:31  Build 337: chef next step=bake (dough=true flour=false water=false)
+06:16:31  Build 209: use-on 'Bread dough|Range' clicked Range, verifying effect next tick
+06:16:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:16:33  Build 203: Door 9709 stepping toward WorldPoint(x=3077, y=3083, plane=0) (dist 4) -- verifying arrival next tick
+06:16:33  Build 196: tick-wait 'chef-enter-kitchen' armed, bound 25 ticks (non-blocking)
+06:16:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:16:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:16:36  Have bread, exiting kitchen via northwest door
+06:16:36  Build 197: spamDialogue phased session armed, budget 5s -- one dialogue action per tick, verifying close on following ticks
+06:16:37  dialogueTick: clicking continue (priority over keyword handling)
+06:16:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:16:38  Have bread, exiting kitchen via northwest door
+06:16:39  dialogueTick: clicking continue (priority over keyword handling)
+06:16:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:16:40  Have bread, exiting kitchen via northwest door
+06:16:41  dialogueTick: clicking continue (priority over keyword handling)
+06:16:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:16:42  Have bread, exiting kitchen via northwest door
+06:16:43  Build 196: tick-wait 'chef-walk-exit' armed, bound 25 ticks (non-blocking)
+06:16:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:16:44  Have bread, exiting kitchen via northwest door
+06:16:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:16:46  Have bread, exiting kitchen via northwest door
+06:16:48  Build 203: Door 9710 stepping toward WorldPoint(x=3073, y=3089, plane=0) (dist 4) -- verifying arrival next tick
+06:16:48  Build 196: tick-wait 'chef-beyond-exit' armed, bound 17 ticks (non-blocking)
+06:16:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:16:49  Have bread, exiting kitchen via northwest door
+06:16:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:16:51  Have bread, exiting kitchen via northwest door
+06:18:17  Build 196: tick-wait 'chef-path-1' armed, bound 20 ticks (non-blocking)
+06:18:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:18:18  Build 195: varp281=200 says stage is QUEST_GUIDE but machine is at CHEF -- forcing FORWARD (game state, not proximity)
+06:18:18  Screenshot saved: 2026-10-08_06-18-18_QUEST_GUIDE_auto.png
+06:18:19  Diag tail uploaded: 2026-10-08_06-18-18_QUEST_GUIDE_diag.txt
+06:18:19  Build 340: quest-guide walking toward quest building door WorldPoint(x=3083, y=3126, plane=0) (player WorldPoint(x=3071, y=3099, plane=0)) -- verifying next tick
+06:18:19  Stage: CHEF -> QUEST_GUIDE
+06:18:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:18:22  Build 340: quest-guide walking toward quest building door WorldPoint(x=3083, y=3126, plane=0) (player WorldPoint(x=3071, y=3099, plane=0)) -- verifying next tick
+06:18:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:18:24  Build 340: quest-guide walking toward quest building door WorldPoint(x=3083, y=3126, plane=0) (player WorldPoint(x=3071, y=3105, plane=0)) -- verifying next tick
+06:18:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:18:26  Build 340: quest-guide walking toward quest building door WorldPoint(x=3083, y=3126, plane=0) (player WorldPoint(x=3069, y=3112, plane=0)) -- verifying next tick
+06:18:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:18:29  Build 340: quest-guide walking toward quest building door WorldPoint(x=3083, y=3126, plane=0) (player WorldPoint(x=3069, y=3112, plane=0)) -- verifying next tick
+06:18:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:18:31  Build 340: quest-guide walking toward quest building door WorldPoint(x=3083, y=3126, plane=0) (player WorldPoint(x=3072, y=3120, plane=0)) -- verifying next tick
+06:18:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:18:33  Outside Quest building, opening door 9716
+06:18:34  Build 203: Door 9716 stepping toward WorldPoint(x=3083, y=3126, plane=0) (dist 8) -- verifying arrival next tick
+06:18:34  Build 196: tick-wait 'qg-enter' armed, bound 25 ticks (non-blocking)
+06:18:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:18:36  Outside Quest building, opening door 9716
+06:18:36  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3083, y=3126, plane=0) (dist 2 <= 3, observed not assumed)
+06:18:42  Build 199: door 'Open' click issued on WorldPoint(x=3086, y=3126, plane=0) (id=9716, orient=null) -- verifying crossing on next ticks
+06:18:42  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3083, y=3126, plane=0)) -- retry next cycle
+06:18:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:18:44  Outside Quest building, opening door 9716
+06:18:45  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3085, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+06:18:50  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3085, y=3126, plane=0)) -- retry next cycle
+06:18:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:18:52  Outside Quest building, opening door 9716
+06:18:53  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+06:18:58  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+06:18:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19  Outside Quest building, opening door 9716
+06:19  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+06:19:05  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+06:19:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:07  Outside Quest building, opening door 9716
+06:19:08  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+06:19:13  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+06:19:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:15  Outside Quest building, opening door 9716
+06:19:15  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+06:19:21  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+06:19:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:22  Screenshot saved: 2026-10-08_06-19-22_QUEST_GUIDE_auto.png
+06:19:23  Outside Quest building, opening door 9716
+06:19:23  Diag tail uploaded: 2026-10-08_06-19-22_QUEST_GUIDE_diag.txt
+06:19:23  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+06:19:28  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+06:19:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:30  Outside Quest building, opening door 9716
+06:19:31  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+06:19:36  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+06:19:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:38  Outside Quest building, opening door 9716
+06:19:38  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+06:19:43  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+06:19:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:45  Outside Quest building, opening door 9716
+06:19:46  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+06:19:51  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+06:19:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:19:53  Outside Quest building, opening door 9716
+06:19:53  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+06:19:59  Build 199: door 'Open' no crossing observed at WorldPoint(x=3086, y=3126, plane=0) -- re-click next tick (cycle 2/3)
+06:19:59  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+06:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:01  Outside Quest building, opening door 9716
+06:20:01  Build 203: Door 9716 arrival VERIFIED at WorldPoint(x=3086, y=3126, plane=0) (dist 1 <= 3, observed not assumed)
+06:20:06  Build 199: door 'Open' click issued on WorldPoint(x=3086, y=3126, plane=0) (id=9716, orient=null) -- verifying crossing on next ticks
+06:20:06  Door 9716: crossing not yet verified (tile before=WorldPoint(x=3086, y=3126, plane=0)) -- retry next cycle
+06:20:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:09  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+06:20:10  Build 197: spamDialogue phased session armed, budget 60s -- one dialogue action per tick, verifying close on following ticks
+06:20:10  dialogueTick: clicking continue (priority over keyword handling)
+06:20:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:12  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 1 tick(s) ago, riding out the overlay window (no reset click)
+06:20:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:14  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 2 tick(s) ago, riding out the overlay window (no reset click)
+06:20:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:16  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 3 tick(s) ago, riding out the overlay window (no reset click)
+06:20:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:18  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 4 tick(s) ago, riding out the overlay window (no reset click)
+06:20:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:20  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 5 tick(s) ago, riding out the overlay window (no reset click)
+06:20:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:22  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 6 tick(s) ago, riding out the overlay window (no reset click)
+06:20:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:23  Screenshot saved: 2026-10-08_06-20-23_QUEST_GUIDE_auto.png
+06:20:24  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 7 tick(s) ago, riding out the overlay window (no reset click)
+06:20:24  Diag tail uploaded: 2026-10-08_06-20-23_QUEST_GUIDE_diag.txt
+06:20:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:26  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 8 tick(s) ago, riding out the overlay window (no reset click)
+06:20:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:28  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3087, y=3121, plane=0)
+06:20:29  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+06:20:29  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+06:20:29  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+06:20:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:30  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+06:20:31  dialogueTick: clicking continue (priority over keyword handling)
+06:20:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:33  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+06:20:34  dialogueTick: clicking continue (priority over keyword handling)
+06:20:35  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+06:20:36  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 1 tick(s) ago, riding out the overlay window (no reset click)
+06:20:37  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+06:20:38  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 2 tick(s) ago, riding out the overlay window (no reset click)
+06:20:39  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+06:20:40  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 3 tick(s) ago, riding out the overlay window (no reset click)
+06:20:41  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+06:20:42  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 4 tick(s) ago, riding out the overlay window (no reset click)
+06:20:43  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+06:20:44  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 5 tick(s) ago, riding out the overlay window (no reset click)
+06:20:45  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+06:20:46  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 6 tick(s) ago, riding out the overlay window (no reset click)
+06:20:47  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+06:20:48  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 7 tick(s) ago, riding out the overlay window (no reset click)
+06:20:48  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+06:20:50  Build 342: Talk-to 'Quest Guide' suppressed -- dialogue seen 8 tick(s) ago, riding out the overlay window (no reset click)
+06:20:50  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+06:20:52  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3087, y=3121, plane=0)
+06:20:52  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+06:20:52  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+06:20:52  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+06:20:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:53  Build 337: talkTo 'Quest Guide' skipped -- dialogue already open, no reset click
+06:20:54  Build 343: quest-guide wants the journal (' have you not opened that menu yet?') -- physical QUESTS click, one action this tick
+06:20:54  clickTabIcon QUESTS: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:20:54  Build 124: QUESTS check: [548:66 name='' bounds=null] [161:61 name='' bounds=null] [164:54 name='' bounds=[610,645 33x36]] [161:68 name='' bounds=null] [164:61 name='' bounds=[610,645 33x36]] | name-matched name='' bounds=[610,645 33x36] age=6ms
+06:20:54  clickTabIcon QUESTS: clicking name-matched() at 626,663
+06:20:54  MOUSE CLICKED QUESTS tab icon (name-matched())
+06:20:54  Build 343: QUESTS tab physically clicked -- questTabClicked latched, dialogue owns next tick
+06:20:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:56  Build 197: spamDialogue phased session armed, budget 10s -- one dialogue action per tick, verifying close on following ticks
+06:20:56  dialogueTick: clicking continue (priority over keyword handling)
+06:20:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:20:59  Build 346: riding out overlay window before second talk (seen 1 ticks ago)
+06:20:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:21  Build 346: riding out overlay window before second talk (seen 2 ticks ago)
+06:21:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:21:03  dialogueTick: clicking continue (priority over keyword handling)
+06:21:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:21:05  Build 346: riding out overlay window before second talk (seen 4 ticks ago)
+06:21:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:21:07  Build 346: riding out overlay window before second talk (seen 5 ticks ago)
+06:21:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:21:09  Build 346: riding out overlay window before second talk (seen 6 ticks ago)
+06:21:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:21:11  Build 346: riding out overlay window before second talk (seen 7 ticks ago)
+06:21:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:21:13  Build 346: riding out overlay window before second talk (seen 8 ticks ago)
+06:21:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:21:15  Build 346: journal open, talking to Quest Guide AGAIN for the explanation (one action this tick)
+06:21:15  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3087, y=3121, plane=0)
+06:21:16  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+06:21:16  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+06:21:16  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+06:21:16  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+06:21:17  Build 197: spamDialogue budget exhausted (10s) -- dialogue still open, re-arming next tick if caller retries: ' / Now that you have the quest list open, you can see all<br>the quests within it. Opening a quest's journal will<br>provide you with more i...'
+06:21:18  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+06:21:18  Build 197: spamDialogue phased session armed, budget 10s -- one dialogue action per tick, verifying close on following ticks
+06:21:19  dialogueTick: clicking continue (priority over keyword handling)
+06:21:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:21:21  dialogueTick: clicking continue (priority over keyword handling)
+06:21:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:21:23  dialogueTick: clicking continue (priority over keyword handling)
+06:21:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:21:24  Screenshot saved: 2026-10-08_06-21-24_QUEST_GUIDE_auto.png
