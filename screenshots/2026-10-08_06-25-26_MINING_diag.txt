@@ -1,0 +1,250 @@
+06:22:33  Build 197: talkTo 'Quest Guide' stepping adjacent (dist 4) -- verifying position next tick
+06:22:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:22:35  Build 346: journal open, talking to Quest Guide AGAIN for the explanation (one action this tick)
+06:22:36  Build 197: talkTo 'Quest Guide' stepping adjacent (dist 4) -- verifying position next tick
+06:22:36  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+06:22:38  Build 346: journal open, talking to Quest Guide AGAIN for the explanation (one action this tick)
+06:22:38  Build 197: talkTo 'Quest Guide' stepping adjacent (dist 3) -- verifying position next tick
+06:22:39  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+06:22:40  Build 346: journal open, talking to Quest Guide AGAIN for the explanation (one action this tick)
+06:22:40  Build 197 talk: 'Quest Guide' id=3312 idx=1712 at WorldPoint(x=3083, y=3123, plane=0)
+06:22:41  Build 166 talk: direct invoke 'Talk-to' on 'Quest Guide' id=3312 idx=1712
+06:22:41  Build 196: tick-wait 'talk:Quest Guide' armed, bound 17 ticks (non-blocking)
+06:22:41  Build 197: talkTo 'Quest Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+06:22:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:22:43  Build 197: spamDialogue budget exhausted (10s) -- dialogue still open, re-arming next tick if caller retries: ' / '
+06:22:44  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+06:22:45  Build 197: spamDialogue phased session armed, budget 10s -- one dialogue action per tick, verifying close on following ticks
+06:22:46  dialogueTick: clicking continue (priority over keyword handling)
+06:22:47  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+06:22:47  Build 348: Quest Guide lecture COMPLETE (observed ' would you like to hear about quests again?') -- never talking again, ladder next
+06:22:48  dialogueTick: clicking continue (priority over keyword handling)
+06:22:48  Still in Quest Guide dialogue, waiting...
+06:22:48  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+06:22:50  dialogueTick: clicking continue (priority over keyword handling)
+06:22:50  Still in Quest Guide dialogue, waiting...
+06:22:51  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+06:22:53  Quest Guide option: picking 2 (move on)
+06:22:53  dialogueTick: selecting option 2
+06:22:53  Build 190: keypress answered dialogue option 2
+06:22:53  Still in Quest Guide dialogue, waiting...
+06:22:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:22:55  dialogueTick: clicking continue (priority over keyword handling)
+06:22:56  Still in Quest Guide dialogue, waiting...
+06:22:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:22:57  Build 197: spamDialogue budget exhausted (10s) -- dialogue still open, re-arming next tick if caller retries: ' / '
+06:22:57  Still in Quest Guide dialogue, waiting...
+06:22:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:22:58  Build 197: spamDialogue phased session armed, budget 10s -- one dialogue action per tick, verifying close on following ticks
+06:22:59  dialogueTick: clicking continue (priority over keyword handling)
+06:22:59  Still in Quest Guide dialogue, waiting...
+06:23  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+06:23  dialogueTick: clicking continue (priority over keyword handling)
+06:23  Still in Quest Guide dialogue, waiting...
+06:23:01  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+06:23:02  Build 349: no quest-guide dialogue text (1/3) -- confirming close
+06:23:03  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+06:23:05  Build 349: no quest-guide dialogue text (2/3) -- confirming close
+06:23:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:14  Build 199: door 'Climb-down' click issued on WorldPoint(x=3088, y=3119, plane=0) (id=9726, orient=null) -- verifying crossing on next ticks
+06:23:14  Build 199: ladder click issued or scan found nothing -- verifying via qg-ladder-descend wait
+06:23:14  Build 196: tick-wait 'qg-ladder-descend' armed, bound 50 ticks (non-blocking)
+06:23:14  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+06:23:17  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+06:23:17  Build 196: quest-guide varp281=260 inCaves=true -> questGuideDone (varp/position-verified, not proximity)
+06:23:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:18  Build 195: varp281=260 says stage is MINING but machine is at QUEST_GUIDE -- forcing FORWARD (game state, not proximity)
+06:23:19  Build 350: mining intro next step=talk (pickaxe=false dagger=false bar=false hammer=false)
+06:23:19  Build 197: talkTo 'Mining Instructor' stepping adjacent (dist 20) -- verifying position next tick
+06:23:19  Stage: QUEST_GUIDE -> MINING
+06:23:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:21  Build 350: mining intro next step=talk (pickaxe=false dagger=false bar=false hammer=false)
+06:23:21  Build 197: talkTo 'Mining Instructor' stepping adjacent (dist 20) -- verifying position next tick
+06:23:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:23  Build 350: mining intro next step=dialogue (pickaxe=false dagger=false bar=false hammer=false)
+06:23:23  Build 197: spamDialogue phased session armed, budget 60s -- one dialogue action per tick, verifying close on following ticks
+06:23:24  dialogueTick: clicking continue (priority over keyword handling)
+06:23:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:25  Screenshot saved: 2026-10-08_06-23-25_MINING_auto.png
+06:23:25  Build 350: mining intro next step=talk (pickaxe=false dagger=false bar=false hammer=false)
+06:23:26  Diag tail uploaded: 2026-10-08_06-23-25_MINING_diag.txt
+06:23:26  Build 197: talkTo 'Mining Instructor' stepping adjacent (dist 11) -- verifying position next tick
+06:23:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:27  Build 350: mining intro next step=talk (pickaxe=false dagger=false bar=false hammer=false)
+06:23:28  Build 197: talkTo 'Mining Instructor' stepping adjacent (dist 5) -- verifying position next tick
+06:23:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:29  Build 350: mining intro next step=talk (pickaxe=false dagger=false bar=false hammer=false)
+06:23:29  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3082, y=9506, plane=0)
+06:23:30  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+06:23:30  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+06:23:30  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+06:23:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:31  Build 350: mining intro next step=dialogue (pickaxe=false dagger=false bar=false hammer=false)
+06:23:31  dialogueTick: clicking continue (priority over keyword handling)
+06:23:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:32  Build 350: mining intro next step=dialogue (pickaxe=false dagger=false bar=false hammer=false)
+06:23:33  dialogueTick: clicking continue (priority over keyword handling)
+06:23:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:34  Build 350: mining intro next step=dialogue (pickaxe=false dagger=false bar=false hammer=false)
+06:23:34  dialogueTick: clicking continue (priority over keyword handling)
+06:23:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:36  Build 390: desktop screenshot saved: 2026-10-08_06-23-35_MINING_auto_desktop.png
+06:23:36  Build 350: mining intro next step=dialogue (pickaxe=false dagger=false bar=false hammer=false)
+06:23:36  dialogueTick: clicking continue (priority over keyword handling)
+06:23:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:37  Build 350: mining intro next step=done (pickaxe=true dagger=false bar=false hammer=false)
+06:23:37  Build 354: hammer next step=dialogue (instructor dialogue open -- continue-first, no ESC)
+06:23:38  dialogueTick: clicking continue (priority over keyword handling)
+06:23:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:40  Build 354: hammer next step=dialogue (instructor dialogue open -- continue-first, no ESC)
+06:23:40  dialogueTick: clicking continue (priority over keyword handling)
+06:23:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:43  Build 197: interactObject 'Tin rocks' stepping closer (dist 5) -- verifying next tick
+06:23:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:45  Build 197: interactObject 'Tin rocks' stepping closer (dist 5) -- verifying next tick
+06:23:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:47  Build 196: tick-wait 'iobj:Tin rocks:Mine' armed, bound 10 ticks (non-blocking)
+06:23:47  Build 197: interactObject 'Mine' on 'Tin rocks' click issued -- verifying effect on next ticks (bound 10, non-blocking)
+06:23:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:48  Build 196: tick-wait 'iobj:Tin rocks:Mine' SATISFIED (world changed as expected)
+06:23:48  Build 197: interactObject 'Mine' on 'Tin rocks' VERIFIED -- click had observed effect (not assumed)
+06:23:48  Build 206: mineOre 'Tin rocks' click VERIFIED (observed effect) -- polling for ore via ticks, bound 200
+06:23:49  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:52  Build 354: hammer next step=dialogue (instructor dialogue open -- continue-first, no ESC)
+06:23:52  dialogueTick: clicking continue (priority over keyword handling)
+06:23:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:54  Build 354: hammer next step=dialogue (instructor dialogue open -- continue-first, no ESC)
+06:23:54  dialogueTick: clicking continue (priority over keyword handling)
+06:23:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:57  Build 197: interactObject 'Copper rocks' stepping closer (dist 5) -- verifying next tick
+06:23:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:23:59  Build 197: interactObject 'Copper rocks' stepping closer (dist 5) -- verifying next tick
+06:23:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:01  Build 196: tick-wait 'iobj:Copper rocks:Mine' armed, bound 10 ticks (non-blocking)
+06:24:01  Build 197: interactObject 'Mine' on 'Copper rocks' click issued -- verifying effect on next ticks (bound 10, non-blocking)
+06:24:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:02  Build 196: tick-wait 'iobj:Copper rocks:Mine' SATISFIED (world changed as expected)
+06:24:02  Build 197: interactObject 'Mine' on 'Copper rocks' VERIFIED -- click had observed effect (not assumed)
+06:24:02  Build 206: mineOre 'Copper rocks' click VERIFIED (observed effect) -- polling for ore via ticks, bound 200
+06:24:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:06  Build 351: smelt next step=dialogue (smelting info dialogue open -- continue-first, no ESC)
+06:24:06  dialogueTick: clicking continue (priority over keyword handling)
+06:24:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:08  Build 351: smelt next step=dialogue (smelting info dialogue open -- continue-first, no ESC)
+06:24:08  dialogueTick: clicking continue (priority over keyword handling)
+06:24:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:10  Smelting bronze bar
+06:24:10  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+06:24:11  Build 352: walking to furnace stand tile WorldPoint(x=3079, y=9497, plane=0) (furnace tile WorldPoint(x=3078, y=9495, plane=0) is a wall -- never walkTo an object tile) (once, verified next tick)
+06:24:11  Build 196: tick-wait 'mine-furnace-walk' armed, bound 15 ticks (non-blocking)
+06:24:12  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:13  Smelting bronze bar
+06:24:13  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+06:24:13  Build 196: tick-wait 'mine-furnace-walk' SATISFIED (world changed as expected)
+06:24:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:15  Smelting bronze bar
+06:24:15  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+06:24:15  Build 196: tick-wait 'mine-furnace-click' armed, bound 5 ticks (non-blocking)
+06:24:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:17  Smelting bronze bar
+06:24:17  Build 351: smelt next step=furnace (use tin ore -> click furnace)
+06:24:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:19  Skipping mining — already have bar/dagger
+06:24:19  Skipping smelt — already have bar/dagger
+06:24:19  Getting hammer from Mining Instructor
+06:24:19  Build 197: talkTo 'Mining Instructor' stepping adjacent (dist 5) -- verifying position next tick
+06:24:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:21  Build 354: hammer next step=dialogue (instructor dialogue open -- continue-first, no ESC)
+06:24:22  dialogueTick: clicking continue (priority over keyword handling)
+06:24:23  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:24  Skipping mining — already have bar/dagger
+06:24:24  Skipping smelt — already have bar/dagger
+06:24:24  Getting hammer from Mining Instructor
+06:24:24  Build 197: talkTo 'Mining Instructor' stepping adjacent (dist 9) -- verifying position next tick
+06:24:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:25  Screenshot saved: 2026-10-08_06-24-25_MINING_auto.png
+06:24:26  Diag tail uploaded: 2026-10-08_06-24-25_MINING_diag.txt
+06:24:26  Skipping mining — already have bar/dagger
+06:24:26  Skipping smelt — already have bar/dagger
+06:24:26  Getting hammer from Mining Instructor
+06:24:26  Build 197: talkTo 'Mining Instructor' stepping adjacent (dist 9) -- verifying position next tick
+06:24:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:28  Build 354: hammer next step=dialogue (instructor dialogue open -- continue-first, no ESC)
+06:24:28  Build 197: spamDialogue budget exhausted (60s) -- dialogue still open, re-arming next tick if caller retries: ' / '
+06:24:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:30  Build 354: hammer next step=dialogue (instructor dialogue open -- continue-first, no ESC)
+06:24:30  Build 197: spamDialogue phased session armed, budget 60s -- one dialogue action per tick, verifying close on following ticks
+06:24:31  dialogueTick: clicking continue (priority over keyword handling)
+06:24:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:33  Skipping mining — already have bar/dagger
+06:24:33  Skipping smelt — already have bar/dagger
+06:24:33  Getting hammer from Mining Instructor
+06:24:33  Build 197: talkTo 'Mining Instructor' stepping adjacent (dist 4) -- verifying position next tick
+06:24:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:35  Skipping mining — already have bar/dagger
+06:24:35  Skipping smelt — already have bar/dagger
+06:24:35  Getting hammer from Mining Instructor
+06:24:35  Build 197: talkTo 'Mining Instructor' stepping adjacent (dist 5) -- verifying position next tick
+06:24:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:37  Skipping mining — already have bar/dagger
+06:24:37  Skipping smelt — already have bar/dagger
+06:24:37  Getting hammer from Mining Instructor
+06:24:37  Build 197 talk: 'Mining Instructor' id=3311 idx=1979 at WorldPoint(x=3079, y=9503, plane=0)
+06:24:38  Build 166 talk: direct invoke 'Talk-to' on 'Mining Instructor' id=3311 idx=1979
+06:24:38  Build 196: tick-wait 'talk:Mining Instructor' armed, bound 17 ticks (non-blocking)
+06:24:38  Build 197: talkTo 'Mining Instructor' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+06:24:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:39  Build 354: hammer next step=dialogue (instructor dialogue open -- continue-first, no ESC)
+06:24:39  dialogueTick: clicking continue (priority over keyword handling)
+06:24:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:41  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+06:24:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:47  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+06:24:47  Skipping mining — already have bar/dagger
+06:24:47  Skipping smelt — already have bar/dagger
+06:24:48  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+06:24:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:49  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+06:24:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:55  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+06:24:55  Skipping mining — already have bar/dagger
+06:24:55  Skipping smelt — already have bar/dagger
+06:24:56  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+06:24:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:24:58  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+06:24:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:25:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:25:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:25:04  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+06:25:04  Skipping mining — already have bar/dagger
+06:25:04  Skipping smelt — already have bar/dagger
+06:25:05  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+06:25:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:25:06  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+06:25:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:25:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:25:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:25:12  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+06:25:12  Skipping mining — already have bar/dagger
+06:25:12  Skipping smelt — already have bar/dagger
+06:25:13  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+06:25:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:25:15  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+06:25:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:25:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:25:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:25:21  Build 196: tick-wait 'mine-esc2' EXHAUSTED bound -- bounded retry or stand-down, never assuming
+06:25:21  Skipping mining — already have bar/dagger
+06:25:21  Skipping smelt — already have bar/dagger
+06:25:21  Build 196: tick-wait 'mine-anvil-click' armed, bound 5 ticks (non-blocking)
+06:25:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:25:23  Build 196: tick-wait 'mine-esc2' armed, bound 3 ticks (non-blocking)
+06:25:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:25:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:25:26  Screenshot saved: 2026-10-08_06-25-26_MINING_auto.png
