@@ -1,0 +1,250 @@
+06:45:17  COMBAT TICK: KILL_RAT_MELEE
+06:45:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:45:19  COMBAT TICK: KILL_RAT_MELEE
+06:45:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:45:21  COMBAT TICK: KILL_RAT_MELEE
+06:45:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:45:22  COMBAT TICK: KILL_RAT_MELEE
+06:45:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:45:24  COMBAT TICK: KILL_RAT_MELEE
+06:45:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:45:26  COMBAT TICK: KILL_RAT_MELEE
+06:45:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:45:28  COMBAT TICK: KILL_RAT_MELEE
+06:45:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:45:30  COMBAT TICK: KILL_RAT_MELEE
+06:45:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:45:31  COMBAT TICK: KILL_RAT_MELEE
+06:45:31  Melee rat killed -> EXIT_PEN_TALK
+06:45:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:45:33  COMBAT TICK: EXIT_PEN_TALK
+06:45:34  dialogueTick: clicking continue (priority over keyword handling)
+06:45:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:45:36  COMBAT TICK: EXIT_PEN_TALK
+06:45:36  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3104, y=9507, plane=0) dist=17
+06:45:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:45:38  COMBAT TICK: EXIT_PEN_TALK
+06:45:38  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3104, y=9507, plane=0) dist=17
+06:45:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:45:40  COMBAT TICK: EXIT_PEN_TALK
+06:45:40  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3105, y=9507, plane=0) dist=16
+06:45:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:45:42  COMBAT TICK: EXIT_PEN_TALK
+06:45:42  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3105, y=9507, plane=0) dist=16
+06:45:44  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:45:44  COMBAT TICK: EXIT_PEN_TALK
+06:45:44  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3104, y=9509, plane=0) dist=15
+06:45:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:45:46  COMBAT TICK: EXIT_PEN_TALK
+06:45:46  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3104, y=9509, plane=0) dist=15
+06:45:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:45:48  COMBAT TICK: EXIT_PEN_TALK
+06:45:48  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3104, y=9508, plane=0) dist=16
+06:45:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:45:50  COMBAT TICK: EXIT_PEN_TALK
+06:45:50  Talk not starting, nudging pen gate open
+06:46:05  Cache query: click('Open') returned true
+06:46:05  Build 199: one-shot 'Open' click dispatched -- no crossing claim; caller verifies
+06:46:05  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3106, y=9510, plane=0) dist=12
+06:46:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:06  Screenshot saved: 2026-10-08_06-46-06_COMBAT_auto.png
+06:46:07  COMBAT TICK: EXIT_PEN_TALK
+06:46:07  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3106, y=9510, plane=0) dist=13
+06:46:07  Diag tail uploaded: 2026-10-08_06-46-06_COMBAT_diag.txt
+06:46:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:09  COMBAT TICK: EXIT_PEN_TALK
+06:46:09  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3106, y=9510, plane=0) dist=19
+06:46:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:11  COMBAT TICK: EXIT_PEN_TALK
+06:46:11  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3106, y=9510, plane=0) dist=19
+06:46:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:13  COMBAT TICK: EXIT_PEN_TALK
+06:46:14  dialogueTick: clicking continue (priority over keyword handling)
+06:46:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:16  COMBAT TICK: EXIT_PEN_TALK
+06:46:16  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3106, y=9509, plane=0) dist=10
+06:46:18  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:18  COMBAT TICK: EXIT_PEN_TALK
+06:46:18  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3104, y=9509, plane=0) dist=12
+06:46:20  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:20  COMBAT TICK: EXIT_PEN_TALK
+06:46:20  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3105, y=9508, plane=0) dist=12
+06:46:22  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:22  COMBAT TICK: EXIT_PEN_TALK
+06:46:23  Build 166 talk: 'Combat Instructor' id=3307 idx=1990 at WorldPoint(x=3105, y=9508, plane=0) dist=1
+06:46:23  Build 166 talk: direct invoke 'Talk-to' on 'Combat Instructor' id=3307 idx=1990
+06:46:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:25  COMBAT TICK: EXIT_PEN_TALK
+06:46:25  dialogueTick: clicking continue (priority over keyword handling)
+06:46:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:27  COMBAT TICK: EXIT_PEN_TALK
+06:46:28  dialogueTick: clicking continue (priority over keyword handling)
+06:46:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:30  COMBAT TICK: EXIT_PEN_TALK
+06:46:30  dialogueTick: clicking continue (priority over keyword handling)
+06:46:31  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:32  Combat fast-forward: already have shortbow -> EQUIP_BOW_ARROWS
+06:46:32  COMBAT TICK: EQUIP_BOW_ARROWS
+06:46:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:33  COMBAT TICK: EQUIP_BOW_ARROWS
+06:46:33  Wielding shortbow
+06:46:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:35  COMBAT TICK: EQUIP_BOW_ARROWS
+06:46:35  Wielding bronze arrows
+06:46:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:38  COMBAT TICK: EQUIP_BOW_ARROWS
+06:46:38  Bow+arrows verified equipped -> KILL_RAT_RANGED
+06:46:39  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:39  COMBAT TICK: KILL_RAT_RANGED
+06:46:40  dialogueTick: clicking continue (priority over keyword handling)
+06:46:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:42  COMBAT TICK: KILL_RAT_RANGED
+06:46:43  dialogueTick: clicking continue (priority over keyword handling)
+06:46:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:45  COMBAT TICK: KILL_RAT_RANGED
+06:46:46  Attacking giant rat (ranged)
+06:46:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:48  COMBAT TICK: KILL_RAT_RANGED
+06:46:48  Attacking giant rat (ranged)
+06:46:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:50  COMBAT TICK: KILL_RAT_RANGED
+06:46:52  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:52  COMBAT TICK: KILL_RAT_RANGED
+06:46:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:54  COMBAT TICK: KILL_RAT_RANGED
+06:46:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:56  COMBAT TICK: KILL_RAT_RANGED
+06:46:57  dialogueTick: clicking continue (priority over keyword handling)
+06:46:59  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:46:59  COMBAT TICK: KILL_RAT_RANGED
+06:47:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:47:01  COMBAT TICK: KILL_RAT_RANGED
+06:47:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:47:03  COMBAT TICK: KILL_RAT_RANGED
+06:47:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:47:05  COMBAT TICK: KILL_RAT_RANGED
+06:47:07  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:47:07  Screenshot saved: 2026-10-08_06-47-07_COMBAT_auto.png
+06:47:07  COMBAT TICK: KILL_RAT_RANGED
+06:47:08  Ranged rat killed -> FINAL_LADDER
+06:47:08  Diag tail uploaded: 2026-10-08_06-47-07_COMBAT_diag.txt
+06:47:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:47:09  COMBAT TICK: FINAL_LADDER
+06:47:26  Build 359: north ladder not in cache within 15 tiles -- nudging north
+06:47:26  Stepping toward 3106,9517
+06:47:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:47:28  COMBAT TICK: FINAL_LADDER
+06:47:45  Build 359: north ladder not in cache within 15 tiles -- nudging north
+06:47:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:47:47  COMBAT TICK: FINAL_LADDER
+06:47:48  dialogueTick: clicking continue (priority over keyword handling)
+06:47:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:47:50  COMBAT TICK: FINAL_LADDER
+06:47:50  Build 359: FINAL_LADDER dialogue observed closed after 1 ticks
+06:48:07  Build 359: FINAL_LADDER next step=WALK_TO_LADDER (ladder 3111,9526, player 3110,9513, dist=13, adjStreak=0)
+06:48:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:48:09  Screenshot saved: 2026-10-08_06-48-09_COMBAT_auto.png
+06:48:09  COMBAT TICK: FINAL_LADDER
+06:48:10  Diag tail uploaded: 2026-10-08_06-48-09_COMBAT_diag.txt
+06:48:26  Build 359: FINAL_LADDER next step=WALK_TO_LADDER (ladder 3111,9526, player 3111,9519, dist=7, adjStreak=0)
+06:48:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:48:29  COMBAT TICK: FINAL_LADDER
+06:48:46  Build 359: FINAL_LADDER next step=WALK_TO_LADDER (ladder 3111,9526, player 3110,9515, dist=11, adjStreak=0)
+06:48:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:48:48  Build 390: desktop screenshot saved: 2026-10-08_06-48-48_COMBAT_auto_desktop.png
+06:48:48  COMBAT TICK: FINAL_LADDER
+06:49:06  Build 359: FINAL_LADDER next step=WALK_TO_LADDER (ladder 3111,9526, player 3111,9519, dist=7, adjStreak=0)
+06:49:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:49:08  COMBAT TICK: FINAL_LADDER
+06:49:25  Build 359: FINAL_LADDER next step=WALK_TO_LADDER (ladder 3111,9526, player 3110,9515, dist=11, adjStreak=0)
+06:49:25  Build 359: walk stalled 20s (dist 11 -> 11) -- re-driving walkStep
+06:49:25  Stepping toward 3109,9524
+06:49:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:49:27  Screenshot saved: 2026-10-08_06-49-27_COMBAT_auto.png
+06:49:27  COMBAT TICK: FINAL_LADDER
+06:49:28  Diag tail uploaded: 2026-10-08_06-49-27_COMBAT_diag.txt
+06:49:44  Build 359: north ladder not in cache within 15 tiles -- nudging north
+06:49:46  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:49:46  COMBAT TICK: FINAL_LADDER
+06:50:03  Build 359: FINAL_LADDER next step=CLIMB_UP? (ladder 3111,9526, player 3109,9524, dist=2, adjStreak=1)
+06:50:05  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:50:05  COMBAT TICK: FINAL_LADDER
+06:50:20  Build 359: FINAL_LADDER next step=CLIMB_UP (ladder 3111,9526, player 3109,9524, dist=2, adjStreak=2)
+06:50:35  Build 199: door 'Climb-up' click issued on WorldPoint(x=3111, y=9526, plane=0) (id=9727, orient=null) -- verifying crossing on next ticks
+06:50:36  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:50:36  Screenshot saved: 2026-10-08_06-50-36_COMBAT_auto.png
+06:50:37  COMBAT TICK: FINAL_LADDER
+06:50:37  Build 359: north ladder not in cache within 15 tiles -- nudging north
+06:50:37  Stepping toward 3111,3133
+06:50:38  Diag tail uploaded: 2026-10-08_06-50-36_COMBAT_diag.txt
+06:50:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:50:38  Build 195: varp281=510 says stage is BANK but machine is at COMBAT -- forcing FORWARD (game state, not proximity)
+06:50:39  BANK TICK: up=false opened=false closed=false upStep=0
+06:50:40  Build 80: upstairs by coordinate (y=3125) — not touching the ladder
+06:50:40  Stage: COMBAT -> BANK
+06:50:41  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:50:41  BANK TICK: up=true opened=false closed=false upStep=0
+06:50:42  Build 115: player 9 tiles from booth — walking adjacent before clicking
+06:50:42  Build 109: walking adjacent to bank booth at WorldPoint(x=3120, y=3124, plane=0)
+06:50:54  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:50:55  BANK TICK: up=true opened=false closed=false upStep=0
+06:50:56  dialogueTick: clicking continue (priority over keyword handling)
+06:50:57  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:50:58  BANK TICK: up=true opened=false closed=false upStep=0
+06:50:59  dialogueTick: clicking continue (priority over keyword handling)
+06:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:51:01  BANK TICK: up=true opened=false closed=false upStep=0
+06:51:02  Left-clicking object at 532,407
+06:51:02  Build 94: physically left-clicked bank booth
+06:51:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:51:03  BANK TICK: up=true opened=false closed=false upStep=0
+06:51:03  Build 362: varp281=520 >= 520 game-verifies the 510 arc -- syncing bankWentUp/bankOpened/bankClosed true
+06:51:04  dialogueTick: clicking continue (priority over keyword handling)
+06:51:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:51:06  BANK TICK: up=true opened=true closed=true upStep=0
+06:51:07  Build 367: poll booth is OUTSIDE (booth=WorldPoint(x=3119, y=3121, plane=0), player=WorldPoint(x=3119, y=3124, plane=0)) -- exiting the bank first via the door routine
+06:51:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:51:08  BANK TICK: up=true opened=true closed=true upStep=0
+06:51:09  dialogueTick: clicking continue (priority over keyword handling)
+06:51:10  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:51:11  BANK TICK: up=true opened=true closed=true upStep=0
+06:51:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:51:13  BANK TICK: up=true opened=true closed=true upStep=0
+06:51:15  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:51:15  BANK TICK: up=true opened=true closed=true upStep=0
+06:51:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:51:17  BANK TICK: up=true opened=true closed=true upStep=0
+06:51:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:51:20  BANK TICK: up=true opened=true closed=true upStep=0
+06:51:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:51:22  BANK TICK: up=true opened=true closed=true upStep=0
+06:51:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:51:24  BANK TICK: up=true opened=true closed=true upStep=0
+06:51:25  dialogueTick: clicking continue (priority over keyword handling)
+06:51:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:51:27  BANK TICK: up=true opened=true closed=true upStep=0
+06:51:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:51:29  BANK TICK: up=true opened=true closed=true upStep=0
+06:51:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:51:31  BANK TICK: up=true opened=true closed=true upStep=0
+06:51:32  Build 87: poll booth click attempt (retry tick 10)
+06:51:32  Build 82: burst recording started (8 shots): poll-booth-clicked
+06:51:32  Screenshot saved: 2026-10-08_06-51-32_BANK_burst-poll-booth-clicked-8.png
+06:51:33  Screenshot saved: 2026-10-08_06-51-33_BANK_burst-poll-booth-clicked-7.png
+06:51:33  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:51:33  BANK TICK: up=true opened=true closed=true upStep=0
+06:51:33  Build 372: poll dialogue dismissal tick 0 (varp=520)
+06:51:33  Build 374: title candidates (0): | body=unsane
+06:51:33  Build 374: scan 1: no title candidate, no body anchor -- Space fallback
+06:51:33  Build 372: box target not found -- Space fallback
+06:51:33  Screenshot saved: 2026-10-08_06-51-33_BANK_burst-poll-booth-clicked-6.png
+06:51:34  Diag tail uploaded: 2026-10-08_06-51-32_BANK_diag.txt
+06:51:34  Diag upload failed, HTTP 409
+06:51:34  Screenshot saved: 2026-10-08_06-51-34_BANK_burst-poll-booth-clicked-5.png
+06:51:34  Diag tail uploaded: 2026-10-08_06-51-33_BANK_diag.txt
+06:51:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:51:35  Screenshot saved: 2026-10-08_06-51-35_BANK_burst-poll-booth-clicked-4.png
+06:51:35  BANK TICK: up=true opened=true closed=true upStep=0
+06:51:35  Build 374: scan 2: no title candidate, no body anchor -- Space fallback
+06:51:35  Diag tail uploaded: 2026-10-08_06-51-34_BANK_diag.txt
+06:51:35  Screenshot saved: 2026-10-08_06-51-35_BANK_burst-poll-booth-clicked-3.png
