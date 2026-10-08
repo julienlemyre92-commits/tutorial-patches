@@ -1,0 +1,250 @@
+06:33:23  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:33:23  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:33:23  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:33:23  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:33:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:33:24  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:33:24  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:33:24  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:33:24  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:33:24  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:33:24  Build 130 NO-PROGRESS GUARD: EQUIPMENT tab failed 38x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+06:33:25  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:33:26  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:33:26  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:33:26  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:33:26  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:33:26  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:33:27  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:33:27  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:33:27  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:33:27  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:33:27  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:33:27  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:33:29  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:33:29  Screenshot saved: 2026-10-08_06-33-29_COMBAT_auto.png
+06:33:29  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:33:29  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:33:29  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:33:29  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:33:29  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:33:29  Build 130 NO-PROGRESS GUARD: EQUIPMENT tab failed 39x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+06:33:30  Diag tail uploaded: 2026-10-08_06-33-29_COMBAT_diag.txt
+06:33:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:33:31  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:33:31  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:33:31  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:33:31  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:33:31  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:33:32  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:33:32  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:33:32  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:33:32  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:33:32  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:33:32  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:33:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:33:34  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:33:34  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:33:34  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:33:34  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:33:34  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:33:34  Build 130 NO-PROGRESS GUARD: EQUIPMENT tab failed 40x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+06:33:35  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:33:36  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:33:36  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:33:36  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:33:36  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:33:36  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:33:37  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:33:37  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:33:37  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:33:37  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:33:37  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:33:37  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:33:38  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:33:39  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:33:39  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:33:39  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:33:39  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:33:39  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:33:39  Build 130 NO-PROGRESS GUARD: EQUIPMENT tab failed 41x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+06:33:40  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:33:40  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:33:40  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:33:40  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:33:40  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:33:40  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:33:42  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:33:42  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:33:42  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:33:42  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:33:42  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:33:42  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:33:43  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:33:44  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:33:44  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:33:44  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:33:44  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:33:44  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:33:44  Build 130 NO-PROGRESS GUARD: EQUIPMENT tab failed 42x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+06:33:45  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:33:45  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:33:45  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:33:45  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:33:45  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:33:45  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:33:47  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:33:47  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:33:47  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:33:47  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:33:47  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:33:47  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:33:48  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:33:48  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:33:49  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:33:49  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:33:49  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:33:49  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:33:49  Build 130 NO-PROGRESS GUARD: EQUIPMENT tab failed 43x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+06:33:50  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:33:50  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:33:50  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:33:50  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:33:50  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:33:50  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:33:51  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:33:52  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:33:52  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:33:52  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:33:52  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:33:52  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:33:53  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:33:53  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:33:53  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:33:53  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:33:53  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:33:53  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:33:53  Build 130 NO-PROGRESS GUARD: EQUIPMENT tab failed 44x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+06:33:55  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:33:55  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:33:55  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:33:55  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:33:55  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:33:55  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:33:56  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:33:57  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:33:57  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:33:57  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:33:57  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:33:57  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:33:58  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:33:58  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:33:58  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:33:58  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:33:58  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:33:58  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:33:58  Build 130 NO-PROGRESS GUARD: EQUIPMENT tab failed 45x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+06:34  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:34  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:34  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:34  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:34  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:34  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:34:01  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:34:01  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:34:01  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:34:01  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:34:01  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:34:01  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:34:03  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:34:03  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:34:03  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:34:03  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:34:03  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:34:03  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:34:03  Build 130 NO-PROGRESS GUARD: EQUIPMENT tab failed 46x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+06:34:04  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:34:05  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:34:05  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:34:05  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:34:05  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:34:05  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:34:06  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:34:06  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:34:06  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:34:06  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:34:06  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:34:06  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:34:08  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:34:08  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:34:08  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:34:08  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:34:08  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:34:08  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:34:08  Build 130 NO-PROGRESS GUARD: EQUIPMENT tab failed 47x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+06:34:09  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:34:10  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:34:10  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:34:10  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:34:10  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:34:10  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:34:11  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:34:11  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:34:11  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:34:11  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:34:11  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:34:11  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:34:13  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:34:13  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:34:13  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:34:13  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:34:13  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:34:13  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:34:13  Build 130 NO-PROGRESS GUARD: EQUIPMENT tab failed 48x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+06:34:14  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:34:14  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:34:14  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:34:14  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:34:14  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:34:14  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:34:16  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:34:16  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:34:16  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:34:16  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:34:16  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:34:16  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:34:17  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:34:18  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:34:18  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:34:18  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:34:18  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:34:18  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:34:18  Build 130 NO-PROGRESS GUARD: EQUIPMENT tab failed 49x with no state change -- HALTING retries. Blocker: check dialogue/widget/tile. Will not retry until state changes.
+06:34:19  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:34:19  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:34:19  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:34:19  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=null] [161:70 name='' bounds=null] [164:63 name='' bounds=null] | name-matched name='' bounds=null age=9223372036854775807ms
+06:34:19  clickTabIcon EQUIPMENT: NO VERIFIED TARGET (no packed ID resolved, name-matched stale/missing)
+06:34:19  clickTabIcon EQUIPMENT: no verified target this tick — counting miss
+06:34:21  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:34:21  COMBAT TICK: OPEN_EQUIPMENT_TAB
+06:34:21  clickTabIcon EQUIPMENT: FORCED physical click (tutorial prompt, skipping current-tab fast path)
+06:34:21  Build 124: EQUIPMENT check: [548:68 name='' bounds=null] [161:63 name='' bounds=null] [164:56 name='' bounds=[676,645 33x36]] [161:70 name='' bounds=null] [164:63 name='' bounds=[676,645 33x36]] | name-matched name='' bounds=[676,645 33x36] age=224ms
+06:34:21  clickTabIcon EQUIPMENT: clicking name-matched() at 692,663
+06:34:21  MOUSE CLICKED EQUIPMENT tab icon (name-matched())
+06:34:22  Build 300: creatorBinding: Guide instruction text visible -- NOT creator, keeping GUIDE
+06:34:23  COMBAT TICK: CLICK_STATS
+06:34:23  clickEquipmentStatsIcon: using WorldModel 387:2 at 802,603
+06:34:23  MOUSE CLICKED equipment stats icon
+06:34:23  statsButtonClicked = true, next: equip dagger
+06:34:23  Stats button clicked -> EQUIP_DAGGER
+06:34:24  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:34:25  COMBAT TICK: EQUIP_DAGGER
+06:34:26  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:34:26  COMBAT TICK: EQUIP_DAGGER
+06:34:26  Wielding bronze dagger
+06:34:28  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:34:28  COMBAT TICK: EQUIP_DAGGER
+06:34:28  Bronze dagger verified equipped -> TALK_AFTER_DAGGER
+06:34:30  Build 300: creatorBinding: no visible creator UI (name dialog absent, Confirm/Accept hidden or null) -- NOT creator, keeping current stage
+06:34:30  Screenshot saved: 2026-10-08_06-34-30_COMBAT_auto.png
