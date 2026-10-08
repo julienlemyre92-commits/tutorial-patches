@@ -1,0 +1,250 @@
+05:55:45  Screenshot saved: 2026-10-08_05-55-45_UNKNOWN_auto.png
+05:55:46  Build 194: logged out 7 min (login screen / disconnect dialog?) -- exit watchdog at 6 min
+05:55:46  Diag tail uploaded: 2026-10-08_05-55-45_UNKNOWN_diag.txt
+05:55:47  Build 300: creatorBinding -> CHAR_CREATOR: evidence='Set display name' dialog visible (not hidden)
+05:55:47  Build 196: creatorBinding -> CHAR_CREATOR at detection (creator UI open, priority over varp/NPC)
+05:55:48  Detected start stage: CHAR_CREATOR
+05:55:48  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:55:48  Build 223: stage self-correction SKIPPED -- current machine state unreadable (null), varp281=1 live=GUIDE -- no force this tick, retrying next tick
+05:55:48  Build 392: MISSION_SELECT -- desired=tutorial (self); claiming scheduler ownership
+05:55:48  Build 392: MISSION_SELECT claim -- otherFound=true,otherWasEnabled=false
+05:55:48  Build 384: cache-mismatch text is a chatbox widget (group 162) -- ignoring as chat, not a blocker
+05:55:48  Stage: null -> CHAR_CREATOR
+05:55:49  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:55:49  Build 231: CHAR_CREATOR hold -- varp281=1 maps to GUIDE but character creation not verified complete (dialog closed + varp281 advance required) -- refusing forward force
+05:55:49  Build 392: MISSION_SELECT verify -- lockOwner=tutorial, selfEnabled=true, otherFound=true, otherEnabled=false
+05:55:49  Build 392: SWITCH COMPLETE -- tutorial owns the scheduler (startup marker + overlay enabled + other plugin stopped + lock held); entering quest-state detection
+05:55:50  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:55:51  Build 195: char creator: start varp281=1
+05:55:51  Build 195: char creator: 'Set display name' dialog open -> name entry
+05:55:52  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:55:52  Build 195: char creator: name dialog texts: [Set display name]
+05:55:52  Build 220: name-dialog clickables (1 of 1 subtree widgets): [text='Set display name' id=558:3 actions=[] bounds=[336,141 338x24]]
+05:55:53  Build 230: group-558 direct-ID enumeration (20 non-null of 40 probed): [558:0 type=0 text='' hidden=true bounds=[249,91 512x334] | 558:1 type=0 text='' hidden=true bounds=[249,91 512x334] | 558:2 type=0 text='' hidden=true bounds=[330,135 350x261] | 558:3 type=0 text='' hidden=true bounds=[330,135 350x261] | 558:4 type=0 text='' hidden=true bounds=[339,175 332x211] | 558:5 type=4 text='In order to play Old Sch' hidden=true bounds=[339,175 332x68] | 558:6 type=4 text='Display name' hidden=true bounds=[339,253 332x18] | 558:7 type=0 text='' hidden=true bounds=[339,270 332x22] | 558:8 type=3 text='' hidden=true bounds=[339,270 332x22] | 558:9 type=5 text='' hidden=true bounds=[344,271 322x20] | 558:10 type=5 text='' hidden=true bounds=[340,271 4x20] | 558:11 type=5 text='' hidden=true bounds=[666,271 4x20] | 558:12 type=4 text='*' hidden=true bounds=[339,270 332x22] | 558:13 type=4 text='Please look up a name to' hidden=true bounds=[339,306 332x36] | 558:14 type=0 text='' hidden=true bounds=[-1,-1 332x26] | 558:15 type=4 text='' hidden=true bounds=[-1,-1 110x26] | 558:16 type=4 text='' hidden=true bounds=[-1,-1 110x26] | 558:17 type=4 text='' hidden=true bounds=[-1,-1 110x26] | 558:18 type=0 text='' hidden=true bounds=[445,354 120x30] | 558:19 type=0 text='' hidden=true bounds=[-1,-1 120x30]]
+05:55:53  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+05:55:53  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+05:55:53  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+05:55:53  Build 231: discovery target live -- generated name 'Dokak' (attempt 1/5); field cleared, typing next tick after settle; submit arms ONLY on match; dialog closed + varp281 advance remain the only success signal
+05:55:54  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:55:55  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+05:55:55  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+05:55:55  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+05:55:55  Build 231: typed name 'Dokak' after clear-settle; field verification next tick
+05:55:56  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:55:57  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+05:55:57  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+05:55:57  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+05:55:57  Build 231: pressed Enter for 'Dokak' -- checking game echo next tick
+05:55:58  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:55:58  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+05:55:58  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+05:55:58  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=-1,y=-1,width=110,height=26], relative=0,0) -- deriving click geometry
+05:55:58  Build 234: ECHO-DUMP start -- 1 widgets in title-anchored subtree after Enter for 'Dokak'
+05:55:58  Build 234: ECHO-DUMP [subtree 0] 'Set display name'
+05:55:59  Build 234: ECHO-DUMP [g558 0] 'In order to play Old School RuneScape, you must select a unique <col=ffffff>display name</col> for your character, up to...'
+05:55:59  Build 234: ECHO-DUMP [g558 1] 'Display name'
+05:55:59  Build 234: ECHO-DUMP [g558 2] 'Sorry, the display name <col=ffffff>Dokak</col> is <col=ff0000>not available</col>.<br>Try clicking one of our suggestio...'
+05:55:59  Build 234: ECHO-DUMP end -- subtree=1 g558-keywords=3
+05:56:01  Build 238: excluding rejected name 'Dokak' from suggestion choices
+05:56:01  Build 237: name 'Dokak' REJECTED (fresh, matches pending) -- found 3 suggestions: ['17lance2982', '24blessed871', 'Mistygold424'] -- selecting first
+05:56:01  Build 239: clicked suggestion '17lance2982' (meta: text=17lance2982;actions=Set name;hidden=hidden=?,bounds=java.awt.Rectangle[x=339,y=325,width=110,height=26]) -- verifying next tick
+05:56:02  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:02  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+05:56:02  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+05:56:02  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=339,y=325,width=110,height=26], relative=0,0) -- deriving click geometry
+05:56:03  Build 229: field not verified for 'Dokak' -- re-verifying next tick
+05:56:03  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:04  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+05:56:04  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+05:56:04  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=339,y=325,width=110,height=26], relative=0,0) -- deriving click geometry
+05:56:04  Build 231: pressed Enter for 'Dokak' -- checking game echo next tick
+05:56:05  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:05  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+05:56:05  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+05:56:05  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=339,y=325,width=110,height=26], relative=0,0) -- deriving click geometry
+05:56:07  Build 239: suggestion '17lance2982' VERIFIED (metaChanged=true, rejectionGone=true) -- Set name arms next tick
+05:56:08  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:09  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+05:56:09  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+05:56:09  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=339,y=325,width=110,height=26], relative=0,0) -- deriving click geometry
+05:56:09  Build 229: field not verified for 'Dokak' -- re-verifying next tick
+05:56:09  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:10  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+05:56:10  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+05:56:10  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=339,y=325,width=110,height=26], relative=0,0) -- deriving click geometry
+05:56:10  Build 231: pressed Enter for 'Dokak' -- checking game echo next tick
+05:56:11  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:12  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+05:56:12  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+05:56:12  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=339,y=325,width=110,height=26], relative=0,0) -- deriving click geometry
+05:56:12  Build 241: whole-tree scan found 0 candidates (scanned 6 widgets)
+05:56:12  Build 241: NO visible actionable Set name candidate -- standing down with dump
+05:56:12  Build 249: inspecting 558:18/558:19 as submit candidates -- 558:15 is suggestion row
+05:56:12  Build 249: 558:18 type=0 contentType=0 hasListener=true hasOnOp=false hidden=true selfHidden=true text='' actionIdx=-1 action='null' bounds=java.awt.Rectangle[x=445,y=354,width=120,height=30] canvasLoc=Point(x=445, y=354) parentId=-1
+05:56:12  Build 249: 558:19 type=0 contentType=0 hasListener=true hasOnOp=true hidden=true selfHidden=false text='' actionIdx=1 action='Set name' bounds=java.awt.Rectangle[x=445,y=354,width=120,height=30] canvasLoc=Point(x=445, y=354) parentId=-1
+05:56:12  Build 249: selected 558:19 via hasOnOp&&actionIdx==1&&!selfHidden&&usableBounds
+05:56:12  Build 249: physical click on fresh 558:19 canvas point (505,369) bounds=java.awt.Rectangle[x=445,y=354,width=120,height=30] -- one action, no CC_OP
+05:56:12  Build 249: clicked 558:19 (varp281 before=1) -- verifying close+advance next tick
+05:56:13  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:13  Build 207: char creator: submit-target verification -- name field: MISSING (not observable -- will not click) | submit button: MISSING (not observable -- will not click)
+05:56:13  Build 218: Set-name discovery as PRIMARY path -- dialog open, title-anchored button missing (subtree widgets=1, availablePinned=false) -- availability-independent (M23)
+05:56:13  Build 224: ID path HIT (packed=36569103, action live, hidden=true, bounds=java.awt.Rectangle[x=339,y=325,width=110,height=26], relative=0,0) -- deriving click geometry
+05:56:13  Build 229: field not verified for '17lance2982' -- re-verifying next tick
+05:56:14  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:15  Build 207: char creator: name dialog closed -> re-detecting
+05:56:15  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:16  Build 195: char creator: waiting for creator screen (1/90 ticks, varp281=1)
+05:56:17  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:18  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:20  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:21  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:22  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:24  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:25  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:27  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:28  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:29  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:31  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:32  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:33  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:35  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:36  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:38  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:39  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:40  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:42  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:43  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:44  Build 195: char creator: waiting for creator screen (21/90 ticks, varp281=1)
+05:56:44  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:46  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:46  Screenshot saved: 2026-10-08_05-56-46_CHAR_CREATOR_auto.png
+05:56:47  Diag tail uploaded: 2026-10-08_05-56-46_CHAR_CREATOR_diag.txt
+05:56:47  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:49  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:50  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:51  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:53  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:54  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:56  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:57  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:56:58  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:01  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:03  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:04  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:05  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:07  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:08  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:10  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:11  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:12  Build 195: char creator: waiting for creator screen (41/90 ticks, varp281=1)
+05:57:12  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:14  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:15  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:17  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:18  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:20  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:21  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:22  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:24  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:25  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:27  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:28  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:30  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:31  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:32  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:34  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:35  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:37  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:38  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:39  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:40  Build 195: char creator: waiting for creator screen (61/90 ticks, varp281=1)
+05:57:41  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:42  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:44  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:45  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:46  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:46  Screenshot saved: 2026-10-08_05-57-46_CHAR_CREATOR_auto.png
+05:57:47  Diag tail uploaded: 2026-10-08_05-57-46_CHAR_CREATOR_diag.txt
+05:57:48  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:49  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:51  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:52  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:53  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:55  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:56  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:58  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:57:59  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:02  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:03  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:05  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:06  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:07  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:08  Build 195: char creator: waiting for creator screen (81/90 ticks, varp281=1)
+05:58:09  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:10  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:11  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:13  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:14  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:16  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:17  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:18  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:20  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:21  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:22  Build 198: char creator: no creator after 90 ticks but Guide transition VERIFIED (varp281=1, guideInScene=true) -- marking complete
+05:58:23  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:23  Build 258: cache-hash modal OBSERVED -- id=10616875 index=-1 text='[05:56:14] Mismatch in overlaid cache archive hash for 12/223: 5C2C8897332020947CDFBE802C958888FC54988726320D11AFA2705B3F088608 != F3563DAC8D1DE3F94301F5A5642C66DC5D509A7F18720B8EEBC707C02CBE10C5' actions=<null> bounds=java.awt.Rectangle[x=20,y=543,width=479,height=72] hidden=false
+05:58:23  Build 258: dismissing cache-hash modal -- clicking control text='Click here to continue' index=-1 actions=<null> bounds=java.awt.Rectangle[x=20,y=619,width=479,height=17] hidden=false -- one action
+05:58:23  Stage: CHAR_CREATOR -> GUIDE
+05:58:24  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:25  Build 258: cache-hash modal no longer observed -- cleared, verified
+05:58:25  Build 267 instruction-root scan: roots=6 {root=164:0 static=-1 dynamic=0} {root=164:66 static=-1 dynamic=0} {root=164:67 static=-1 dynamic=0} {root=164:68 static=5 dynamic=1} {root=164:69 static=-1 dynamic=0} {root=164:97 static=-1 dynamic=0} visits=75 NO-CONT-CANDIDATE MOVINGON-NOTFOUND NO-INSTR-CANDIDATE 
+05:58:25  Build 268 viewport-dynamic scan: {root=164:68 static=5[null;null;null;null;164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] dynamic=1[164:68 t='' a=null b=java.awt.Rectangle[x=0,y=0,width=1,height=1] h=false;] } {root=164:97 static=null[] dynamic=0[] } 
+05:58:25  Build 269 chatbox-162 probe: 162:0 present parentHidden=false visits=1 
+05:58:25  Build 270 chatbox-162-children probe: 162:3 selfHidden=false bounds=java.awt.Rectangle[x=0,y=658,width=519,height=23] actions=null text='' 162:4 selfHidden=false bounds=java.awt.Rectangle[x=5,y=658,width=56,height=23] actions=[Ljava.lang.String;@60afe940 text='' 162:6 h=false b=java.awt.Rectangle[x=5,y=658,width=56,height=22] t='All' 162:9 h=false b=java.awt.Rectangle[x=67,y=658,width=56,height=22] t='Game' 162:10 h=false b=java.awt.Rectangle[x=67,y=658,width=56,height=22] t='On' 162:13 h=false b=java.awt.Rectangle[x=129,y=658,width=56,height=22] t='Public' 162:14 h=false b=java.awt.Rectangle[x=129,y=658,width=56,height=22] t='On' 162:17 h=false b=java.awt.Rectangle[x=191,y=658,width=56,height=22] t='Private' 162:18 h=false b=java.awt.Rectangle[x=191,y=658,width=56,height=22] t='Friends' 162:21 h=false b=java.awt.Rectangle[x=253,y=658,width=56,height=22] t='Channel' 162:22 h=false b=java.awt.Rectangle[x=253,y=658,width=56,height=22] t='On' 162:25 h=false b=java.awt.Rectangle[x=315,y=658,width=56,height=22] t='Clan' 162:26 h=false b=java.awt.Rectangle[x=315,y=658,width=56,height=22] t='On' 162:29 h=false b=java.awt.Rectangle[x=377,y=658,width=56,height=22] t='Trade' 162:30 h=false b=java.awt.Rectangle[x=377,y=658,width=56,height=22] t='On' sweep-present=29 findWidget('Click here to continue')=null 
+05:58:25  Build 271 overlay-group probe: group 165: present=0 matched=0 group 601: present=0 matched=0 group 80: present=0 matched=0 
+05:58:25  Build 275 settings probe: findWidget('Settings menu')=null findWidget('flashing spanner icon')=null findWidget('display your settings menu')=null 
+05:58:25  Build 290 PRE-205-GATE: snapDialogOpen=false standard=false instruction=false 231speaker='' 231diag= snapErr=false tickWait=false pending=false gs=LOGGED_IN guideDist=2 guideFound=true
+05:58:25  Build 300: No dialogue (snapshot) -- ONE Talk-to issued, Build205 SKIPPED
+05:58:25  Build 197 talk: 'Gielinor Guide' id=3308 idx=1715 at WorldPoint(x=3094, y=3109, plane=0)
+05:58:25  Build 166 talk: direct invoke 'Talk-to' on 'Gielinor Guide' id=3308 idx=1715
+05:58:25  Build 196: tick-wait 'talk:Gielinor Guide' armed, bound 17 ticks (non-blocking)
+05:58:25  Build 197: talkTo 'Gielinor Guide' Talk-to click issued -- verifying dialogue on next ticks (bound 17, non-blocking)
+05:58:26  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:27  Build 292 PHASE-WAIT: Talk-to pending, waiting for standard-dialogue proof -- Build205 SKIPPED (no re-dispatch)
+05:58:27  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:28  Build 292 PHASE-WAIT: Talk-to pending, waiting for standard-dialogue proof -- Build205 SKIPPED (no re-dispatch)
+05:58:29  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:29  Build 292 PHASE-WAIT: Talk-to pending, waiting for standard-dialogue proof -- Build205 SKIPPED (no re-dispatch)
+05:58:30  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:31  Build 292 PHASE-WAIT: Talk-to pending, waiting for standard-dialogue proof -- Build205 SKIPPED (no re-dispatch)
+05:58:31  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:32  Build 292 PHASE-WAIT: Talk-to pending, waiting for standard-dialogue proof -- Build205 SKIPPED (no re-dispatch)
+05:58:33  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:33  Build 292 PHASE-WAIT: Talk-to pending, waiting for standard-dialogue proof -- Build205 SKIPPED (no re-dispatch)
+05:58:34  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:34  Build 292 PHASE-WAIT: Talk-to pending, waiting for standard-dialogue proof -- Build205 SKIPPED (no re-dispatch)
+05:58:35  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:36  Build 292 PHASE-WAIT: Talk-to pending, waiting for standard-dialogue proof -- Build205 SKIPPED (no re-dispatch)
+05:58:37  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:37  Build 292 PHASE-WAIT: Talk-to pending, waiting for standard-dialogue proof -- Build205 SKIPPED (no re-dispatch)
+05:58:38  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:38  Build 292 PHASE-WAIT: Talk-to pending, waiting for standard-dialogue proof -- Build205 SKIPPED (no re-dispatch)
+05:58:39  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:40  Build 292 PHASE-WAIT: Talk-to pending, waiting for standard-dialogue proof -- Build205 SKIPPED (no re-dispatch)
+05:58:41  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:41  Build 292 PHASE-WAIT: Talk-to pending, waiting for standard-dialogue proof -- Build205 SKIPPED (no re-dispatch)
+05:58:42  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:42  Build 292 PHASE-WAIT: Talk-to pending, waiting for standard-dialogue proof -- Build205 SKIPPED (no re-dispatch)
+05:58:43  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:44  Build 258: cache-hash modal OBSERVED -- id=10616875 index=-1 text='[05:58:43] Mismatch in overlaid cache archive hash for 12/223: 5C2C8897332020947CDFBE802C958888FC54988726320D11AFA2705B3F088608 != F3563DAC8D1DE3F94301F5A5642C66DC5D509A7F18720B8EEBC707C02CBE10C5' actions=<null> bounds=java.awt.Rectangle[x=20,y=543,width=479,height=72] hidden=false
+05:58:44  Build 258: dismissing cache-hash modal -- clicking control text='Click here to continue' index=-1 actions=<null> bounds=java.awt.Rectangle[x=20,y=619,width=479,height=17] hidden=false -- one action
+05:58:45  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:45  Build 390: desktop screenshot saved: 2026-10-08_05-58-45_GUIDE_auto_desktop.png
+05:58:45  Build 258: cache-hash modal no longer observed -- cleared, verified
+05:58:45  Build 292 PHASE-WAIT: Talk-to pending, waiting for standard-dialogue proof -- Build205 SKIPPED (no re-dispatch)
+05:58:46  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:47  Build 292 PHASE-WAIT: Talk-to pending, waiting for standard-dialogue proof -- Build205 SKIPPED (no re-dispatch)
+05:58:47  Build 300: creatorBinding: Gielinor Guide NPC visible -- NOT creator, keeping GUIDE
+05:58:47  Screenshot saved: 2026-10-08_05-58-47_GUIDE_auto.png
